@@ -1,0 +1,993 @@
+{
+ "id": "ausdauer",
+ "title": "Ausdauertraining",
+ "stand": "2026-11-16",
+ "intro": "<h3>Das 5-Zonen-Modell auf dieser Seite</h3>\n<p>Die Zonen sind an den beiden individuellen Schwellen verankert, weil sie physiologische Bereiche abgrenzen: die erste Laktat- bzw. Ventilationsschwelle (LT1/VT1) trennt den moderaten vom schweren Bereich, die zweite Schwelle bzw. die kritische Leistung (LT2/CP) den schweren vom sehr schweren Bereich. Für die erste Grenze gibt es gute Belege; die zweite lässt sich am verlässlichsten über die kritische Leistung bzw. Geschwindigkeit bestimmen (Jamnick et al., 2020). Feste Prozentwerte der maximalen Herzfrequenz geben die Schwellen nur ungenau wieder; die Zonen sollten daher per Test bestimmt werden.</p>\n<div class=\"zone-scale\">\n<div><b>Zone 1</b>Regeneration<span class=\"cite\">deutlich unter LT1</span></div>\n<div><b>Zone 2</b>Grundlage<span class=\"cite\">bis LT1/VT1</span></div>\n<div><b>Zone 3</b>Tempo<span class=\"cite\">zwischen LT1 und LT2</span></div>\n<div><b>Zone 4</b>Schwelle<span class=\"cite\">um LT2 / kritische Leistung</span></div>\n<div><b>Zone 5</b>VO₂max<span class=\"cite\">über LT2 bis maximal</span></div></div>\n<p class=\"cite\">In Studien zur Intensitätsverteilung werden Zone 1–2 meist als „niedrig“, Zone 3 als „Schwelle/mittel“ und Zone 4–5 als „hoch“ zusammengefasst. Polarisiert = viel niedrig, wenig mittel, etwas hoch; pyramidal = viel niedrig, weniger mittel, noch weniger hoch.</p>",
+ "lead": "Was bewirkt Training in den einzelnen Intensitätszonen, und wie sollte die Intensität über die Woche verteilt werden? Zusammengefasst aus Metaanalysen, Netzwerk-Metaanalysen und einem Umbrella Review. Zielgrößen sind vor allem die maximale Sauerstoffaufnahme (VO₂max), die Schwellen und Zeitfahrleistungen.",
+ "rxlead": "Für gesunde Erwachsene und Ausdauersportler. Die Belege sprechen für ein Grundgerüst aus viel lockerem Training plus regelmäßigen intensiven Einheiten; die genaue Verteilung ist weniger entscheidend als lange Konsequenz.",
+ "rx": [
+  {
+   "label": "Grundlage",
+   "value": "Großteil in Zone 1–2",
+   "text": "Lockeres Training unter LT1 verbessert VO₂max und die erste Schwelle deutlich, besonders bei weniger Trainierten.",
+   "cite": "Nuuttila et al. 2026"
+  },
+  {
+   "label": "Intervalle",
+   "value": "1–2× pro Woche Zone 5",
+   "text": "Intervalle steigern die VO₂max deutlich; gegenüber Dauertraining haben vor allem längere Intervalle (ab etwa 4 min) bei Trainierten einen Vorteil. Programme sollten länger als vier Wochen laufen.",
+   "cite": "Bi et al. 2026; Rosenblat et al. 2020; Lock et al. 2024; Liang et al. 2026"
+  },
+  {
+   "label": "Schwellen",
+   "value": "Reize über der Schwelle",
+   "text": "Training oberhalb der jeweiligen Schwelle verbesserte die Schwellen stärker als Training an oder unter ihr.",
+   "cite": "Peric et al. 2026"
+  },
+  {
+   "label": "Verteilung",
+   "value": "polarisiert oder pyramidal",
+   "text": "Beide Modelle wirken ähnlich; polarisiert hatte bei Hochtrainierten und kurzen Phasen einen kleinen VO₂max-Vorteil.",
+   "cite": "Oliveira et al. 2024; Rosenblat et al. 2025"
+  },
+  {
+   "label": "Sprints",
+   "value": "wenige Wiederholungen reichen",
+   "text": "Mehr Sprintwiederholungen pro Einheit verbesserten die VO₂max nicht weiter; Sprintintervalle sind zeiteffizient, aber nicht wirksamer als Dauertraining.",
+   "cite": "Hutchinson et al. 2026; Liang et al. 2026"
+  },
+  {
+   "label": "Dauer",
+   "value": "über Monate dranbleiben",
+   "text": "Längere Trainingsphasen gingen mit größeren Verbesserungen einher; das Wochenvolumen zeigte keinen eigenen Zusammenhang.",
+   "cite": "Cove et al. 2025"
+  },
+  {
+   "label": "Krafttraining",
+   "value": "zusätzlich, nicht statt",
+   "text": "Krafttraining ergänzen, ohne den Ausdauerumfang zu kürzen; dann bleibt der VO₂max-Zuwachs erhalten.",
+   "cite": "Zhao et al. 2026"
+  }
+ ],
+ "note": "<b>Ernährung:</b> Die ausgewerteten Arbeiten untersuchen keine Ernährungsfaktoren.",
+ "varstitle": "Zonen, Intensitätsverteilung und weitere Faktoren",
+ "takeaways": [
+  {
+   "t": "Intervalle steigern die VO₂max stark",
+   "ev": "moderat",
+   "p": "Hochintensive Intervalle (Zone 5) verbessern die VO₂max deutlich, bei Frauen und Männern gleich. Ein Vorteil gegenüber Dauertraining zeigt sich vor allem bei Trainierten und längeren Intervallen; kurze Sprintintervalle sind nicht wirksamer als Dauertraining.",
+   "s": [
+    "bi2026",
+    "poon2024",
+    "liang2026",
+    "lindner2023",
+    "lock2024"
+   ]
+  },
+  {
+   "t": "Lockeres Training wirkt deutlich",
+   "ev": "hoch",
+   "p": "Training ausschließlich unter der ersten Schwelle hatte einen großen Effekt auf die VO₂max und einen mittleren auf die erste Schwelle.",
+   "s": [
+    "nuuttila2026"
+   ]
+  },
+  {
+   "t": "Die Intensitätsverteilung ist zweitrangig",
+   "ev": "moderat",
+   "p": "Polarisiertes und pyramidales Training wirken insgesamt ähnlich. Kleine Vorteile für polarisiertes Training zeigten sich nur bei Hochtrainierten und kurzen Phasen.",
+   "s": [
+    "oliveira2024",
+    "rosenblat2025",
+    "tid2026",
+    "cove2025"
+   ]
+  },
+  {
+   "t": "Schwellen verbessern sich durch Reize darüber",
+   "ev": "moderat",
+   "p": "Training oberhalb der jeweiligen Schwelle verbesserte aerobe und anaerobe Schwelle stärker als Training an oder unter ihr.",
+   "s": [
+    "peric2026"
+   ]
+  },
+  {
+   "t": "Mitochondrien wachsen bei allen Intensitäten",
+   "ev": "moderat",
+   "p": "Der Zuwachs war bei Dauer-, Intervall- und Sprinttraining ähnlich; pro Trainingsstunde ist hohe Intensität effizienter, höhere Frequenz bringt mehr.",
+   "s": [
+    "molmen2025"
+   ]
+  },
+  {
+   "t": "Krafttraining stört die Ausdauer kaum",
+   "ev": "moderat",
+   "p": "Zusätzliches Krafttraining verringerte den VO₂max-Zuwachs nicht, solange das Ausdauertraining nicht gekürzt wurde.",
+   "s": [
+    "zhao2026"
+   ]
+  },
+  {
+   "t": "Höhentraining: Nutzen fraglich",
+   "ev": "niedrig",
+   "p": "Kleine Analysen finden Vorteile für HIIT in Hypoxie, die größte Analyse findet keinen Vorteil und Hinweise auf Publikationsbias.",
+   "s": [
+    "dorelli2025",
+    "westmacott2022"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "zone1",
+   "name": "Zone 1 · Regeneration",
+   "q": "Was bringt sehr lockeres Training?",
+   "ev": "niedrig",
+   "key": [
+    "Für Training deutlich unter LT1 als eigene Kategorie gibt es kaum gezielte Übersichtsarbeiten; die Studien zu niedrigintensivem Training fassen Zone 1 und 2 zusammen (Nuuttila et al., 2026).",
+    "In dieser Analyse war eine höhere Intensität innerhalb des niedrigen Bereichs mit größeren VO₂max-Verbesserungen verbunden, eine Mindestintensität für Anpassungen ließ sich für die meisten Zielgrößen aber nicht feststellen (Nuuttila et al., 2026)."
+   ],
+   "critic": "Die Literatur liefert keine eigene Evidenz für den Nutzen reiner Zone-1-Einheiten über das Gesamtvolumen hinaus. Ihr Wert liegt praktisch im zusätzlichen Umfang bei geringer Belastung; ob sie die Erholung beschleunigen, ist auf dieser Seite noch nicht belegt.",
+   "figs": [],
+   "s": [
+    "nuuttila2026"
+   ]
+  },
+  {
+   "id": "zone2",
+   "name": "Zone 2 · Grundlage",
+   "q": "Wie wirksam ist lockeres Dauertraining bis LT1?",
+   "ev": "hoch",
+   "key": [
+    "50 Studien mit gesunden Erwachsenen: Training ausschließlich unter VT1 hatte einen großen Effekt auf die relative VO₂max (ES 0,94) und einen mittleren auf VT1 (ES 0,74) gegenüber Kontrolle; kleine Effekte auf Blutdruck und Blutfette (Nuuttila et al., 2026).",
+    "Der Mitochondriengehalt stieg bei Dauertraining ähnlich stark wie bei Intervall- und Sprinttraining (23 % vs. 27 % vs. 27 %); pro Trainingsstunde ist Dauertraining aber am wenigsten effizient. Mehr Einheiten pro Woche brachten mehr Zuwachs (Mølmen et al., 2025).",
+    "14 Studien mit Muskelbiopsien: Moderates Dauertraining erhöhte Mitochondriendichte und VO₂max signifikant, Citratsynthase und MFN2 leicht; die Gewissheit der Evidenz war aber niedrig bis sehr niedrig (Vabishchevich et al., 2026)."
+   ],
+   "critic": "Die großen Effekte stammen vor allem aus Vergleichen mit Kontrollgruppen ohne Training, häufig bei wenig Trainierten. Bei gut trainierten Ausdauersportlern ist der Zusatznutzen weiteren lockeren Volumens schwerer nachzuweisen. Die Mitochondriendaten zeigen: lockeres Training wirkt über die Dauer, intensives über die Intensität.",
+   "figs": [
+    {
+     "id": "a-lit",
+     "title": "Niedrigintensives Training gegenüber Kontrolle",
+     "cap": "Effektstärke (Hedges’ g) gegenüber Kontrollgruppen (Nuuttila et al., 2026). Intervalle sind im Abstract nicht angegeben.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Relative VO₂max",
+       "sub": "Nuuttila et al., 2026",
+       "es": 0.94
+      },
+      {
+       "l": "Erste Ventilationsschwelle (VT1)",
+       "sub": "Nuuttila et al., 2026",
+       "es": 0.74
+      }
+     ],
+     "opts": {
+      "min": 0,
+      "max": 1.2,
+      "ticks": [
+       0,
+       0.3,
+       0.6,
+       0.9,
+       1.2
+      ]
+     }
+    },
+    {
+     "id": "a-mito",
+     "title": "Zuwachs des Mitochondriengehalts nach Trainingsform",
+     "cap": "Mittlere prozentuale Zunahme, um Frequenz, Dauer und Ausgangsniveau bereinigt (Mølmen et al., 2025). Unterschiede nicht signifikant.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Dauertraining",
+       "es": 23
+      },
+      {
+       "l": "Intervalle",
+       "es": 27
+      },
+      {
+       "l": "Sprints",
+       "es": 27
+      }
+     ],
+     "opts": {
+      "max": 30,
+      "ticks": [
+       0,
+       10,
+       20,
+       30
+      ],
+      "unit": "%",
+      "xlab": "Trainingsform",
+      "src": "Mølmen et al., 2025"
+     }
+    }
+   ],
+   "s": [
+    "nuuttila2026",
+    "molmen2025",
+    "vabishchevich2026"
+   ]
+  },
+  {
+   "id": "zone3",
+   "name": "Zone 3 · Tempo",
+   "q": "Was bringt Training zwischen den Schwellen?",
+   "ev": "niedrig",
+   "key": [
+    "In Netzwerk-Metaanalysen zur Intensitätsverteilung unterschieden sich Modelle mit viel (Schwellentraining) und wenig Zone-3-Anteil (polarisiert) nicht gesichert (alle Intervalle schlossen 0 ein). Schwellenbetontes Training hatte die höchste Wahrscheinlichkeit, für die VO₂max am besten zu sein („Effects of Different Training-Intensity Distribution Models …“, 2026).",
+    "Zwischen polarisiertem und pyramidalem Training (mit mehr Zone-3-Anteil) fand sich kein Unterschied in VO₂max (SMD −0,06) oder Zeitfahrleistung (SMD −0,05) (Rosenblat et al., 2025)."
+   ],
+   "critic": "Die verbreitete Empfehlung, Zone 3 zu meiden („graue Zone“), lässt sich aus den Metaanalysen nicht ableiten: Modelle mit mehr Zone-3-Training schneiden nicht schlechter ab. Die Datenbasis ist aber klein (13 bis 17 Studien), daher niedrig.",
+   "figs": [],
+   "s": [
+    "tid2026",
+    "rosenblat2025"
+   ]
+  },
+  {
+   "id": "zone4",
+   "name": "Zone 4 · Schwelle",
+   "q": "Wie verbessert man die Schwellen?",
+   "ev": "moderat",
+   "key": [
+    "13 Studien: Die Trainingsintensität relativ zur Schwelle war der stärkste Einflussfaktor. Die aerobe Schwelle verbesserte sich bei Training darüber um 38,7 %, an ihr um 14,7 % und darunter um 18,4 % (Peric et al., 2026).",
+    "Auch für die anaerobe Schwelle war Training oberhalb der Schwelle wirksamer als darunter (Peric et al., 2026).",
+    "Hochintensive Intervalle und moderates Dauertraining verbesserten die Schwellen insgesamt vergleichbar (Bi et al., 2026)."
+   ],
+   "critic": "Die Heterogenität war hoch, auch weil Schwellen mit unterschiedlichen Methoden bestimmt wurden. Peric et al. sprechen für Reize knapp über der Schwelle; Bi et al. finden dagegen bei Schwellen keinen Vorteil von HIIT gegenüber Dauertraining. Wahrscheinlich: Für die Schwellen zählt Intensität etwas über der jeweiligen Schwelle, nicht maximale Intensität.",
+   "figs": [
+    {
+     "id": "a-thr",
+     "title": "Aerobe Schwelle: Verbesserung nach Trainingsintensität",
+     "cap": "Mittlere Verbesserung der aeroben Schwelle in % (Peric et al., 2026).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "unter der Schwelle",
+       "es": 18.4
+      },
+      {
+       "l": "an der Schwelle",
+       "es": 14.7
+      },
+      {
+       "l": "über der Schwelle",
+       "es": 38.7
+      }
+     ],
+     "opts": {
+      "max": 40,
+      "ticks": [
+       0,
+       10,
+       20,
+       30,
+       40
+      ],
+      "unit": "%",
+      "xlab": "Trainingsintensität relativ zur Schwelle",
+      "src": "Peric et al., 2026"
+     }
+    }
+   ],
+   "s": [
+    "peric2026",
+    "bi2026"
+   ]
+  },
+  {
+   "id": "zone5",
+   "name": "Zone 5 · VO₂max",
+   "q": "Was bringen hochintensive Intervalle?",
+   "ev": "hoch",
+   "key": [
+    "115 Studien: HIIT verbesserte die VO₂max stärker als moderates bis kräftiges Dauertraining, mit zunehmendem Vorteil bei höherem Trainingsstand (g 0,34 bei Inaktiven, 0,57 bei Freizeitsportlern, 0,83 bei Leistungssportlern) (Bi et al., 2026).",
+    "Umbrella Review mit 24 Metaanalysen: HIIT und Sprintintervalle steigern die kardiorespiratorische Fitness gegenüber Kontrolle und gegenüber Dauertraining (SMD 0,18–0,99), in allen untersuchten Gruppen (Poon et al., 2024).",
+    "Sprintintervalltraining erhöhte die VO₂max bei Untrainierten um 8,3 % [7,0; 9,5]; zusätzliche Sprints pro Einheit brachten nichts (−0,04 % je Sprint), jede weitere Woche dagegen 0,7 % (Hutchinson et al., 2026).",
+    "Zeitfahrleistung: Trainierte verbesserten sich durch Intervalle um etwa 2 %, weniger Trainierte um bis zu 6 %; entscheidend war die Dauer der Intervalle, nicht ihre Intensität (Rosenblat et al., 2021).",
+    "46 Studien mit 1 204 Mannschaftssportlern: HIIT zusätzlich zum Sporttraining steigerte die VO₂max (g 0,76 [0,61; 0,92]) und die Ventilationsschwelle (g 0,70 [0,53; 0,88]); modellierter Zuwachs etwa 2,56 ml/kg/min nach 5 und 5,11 ml/kg/min nach 10 Wochen. Kürzere Pausen zwischen den Intervallen gingen mit größeren Effekten einher (Zeng et al., 2026).",
+    "28 Studien: Frauen und Männer steigerten die VO₂max durch HIIT gleich stark (je g 0,57) und auch die Schwellenleistung gleich (je g 0,38); Programme bis 4 Wochen wirkten deutlich schwächer als längere (Lock et al., 2024).",
+    "Bei Frauen verbesserten moderates bis kräftiges Dauertraining und HIIT die VO₂max gleich stark (Differenz −0,42 ml/kg/min [−1,43; 0,60]); lange Intervalle wirkten besser als kurze, mehr Einheiten brachten mehr (Lindner et al., 2023).",
+    "Umbrella Review (16 Reviews, 393 Studien): Sprintintervalle verbessern die Fitness gegenüber keinem Training (SMD 0,59 [0,43; 0,74]), aber nicht stärker als moderates Dauertraining (SMD 0,07 [−0,03; 0,16]); 9 von 16 Reviews hatten niedrige oder kritisch niedrige Qualität (Liang et al., 2026).",
+    "HIIT gegenüber Sprintintervallen bei Trainierten: kein Gesamtunterschied im Zeitfahren (0,9 %) und in der VO₂max; lange HIIT-Intervalle (≥ 4 min) verbesserten das Zeitfahren aber um 2 % mehr als Sprints, HIIT die maximale aerobe Leistung stärker (ES 0,70) (Rosenblat et al., 2020).",
+    "32 Studien: Nur HIIT steigerte die Herzleistung (Schlagvolumen +14,1 %, Herzzeitvolumen +12,6 %); Sprintintervalle wirkten eher peripher (Kapillardichte +13,8 % bei Aktiven). Beide erhöhten die Citratsynthase-Aktivität (Rosenblat et al., 2022)."
+   ],
+   "critic": "Dass Intervalle die VO₂max wirksam steigern, ist über viele Metaanalysen und Gruppen gesichert, bei Frauen und Männern gleich (Lock et al., 2024) und auch bei trainierten Mannschaftssportlern (Zeng et al., 2026). Strittig ist die Überlegenheit gegenüber Dauertraining: Bi et al. (2026; 115 Studien) finden einen Vorteil, der mit dem Trainingsstand wächst; das Umbrella Review von Liang et al. (2026) findet für Sprintintervalle keinen Vorteil gegenüber Dauertraining, und bei Frauen waren HIIT und Dauertraining gleichwertig (Lindner et al., 2023). Wahrscheinlich gilt: Ein Vorteil besteht vor allem für längere HIIT-Intervalle (bei Rosenblat et al., 2020: ab 4 min) und bei Trainierten; kurze Sprintintervalle sind vor allem zeiteffizient, aber nicht wirksamer. Das passt zu den Mechanismen: Nur HIIT verbesserte die Herzleistung (Rosenblat et al., 2022). Viele Übersichtsarbeiten haben mäßige bis sehr geringe methodische Qualität. Programme unter vier Wochen sind zu kurz.",
+   "figs": [
+    {
+     "id": "a-hiit",
+     "title": "HIIT vs. Dauertraining: Vorteil bei der VO₂max nach Trainingsstand",
+     "cap": "Effektstärke (Hedges’ g) zugunsten HIIT (Bi et al., 2026). Intervalle sind im Abstract nicht angegeben.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Inaktive",
+       "es": 0.34
+      },
+      {
+       "l": "Freizeitsportler",
+       "es": 0.57
+      },
+      {
+       "l": "Leistungssportler",
+       "es": 0.83
+      }
+     ],
+     "opts": {
+      "max": 1.0,
+      "ticks": [
+       0,
+       0.25,
+       0.5,
+       0.75,
+       1.0
+      ],
+      "xlab": "Trainingsstand",
+      "src": "Bi et al., 2026"
+     }
+    },
+    {
+     "id": "a-sit",
+     "title": "Sprintintervalle und HIIT im Vergleich",
+     "cap": "SMD bzw. Hedges’ g mit 95-%-KI. Obere Zeilen: Sprintintervalle (Liang et al., 2026). Untere Zeilen: VO₂max-Zuwachs durch HIIT nach Geschlecht, jeweils gegenüber dem Ausgangswert (Lock et al., 2024).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Sprintintervalle vs. kein Training",
+       "sub": "Liang et al., 2026",
+       "es": 0.59,
+       "lo": 0.43,
+       "hi": 0.74
+      },
+      {
+       "l": "Sprintintervalle vs. Dauertraining",
+       "sub": "Liang et al., 2026",
+       "es": 0.07,
+       "lo": -0.03,
+       "hi": 0.16
+      },
+      {
+       "l": "HIIT, Frauen",
+       "sub": "Lock et al., 2024",
+       "es": 0.57,
+       "lo": 0.44,
+       "hi": 0.69
+      },
+      {
+       "l": "HIIT, Männer",
+       "sub": "Lock et al., 2024",
+       "es": 0.57,
+       "lo": 0.42,
+       "hi": 0.72
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.0,
+      "ticks": [
+       0,
+       0.25,
+       0.5,
+       0.75,
+       1.0
+      ]
+     }
+    }
+   ],
+   "s": [
+    "bi2026",
+    "poon2024",
+    "hutchinson2026",
+    "rosenblat2021",
+    "zeng2026",
+    "lock2024",
+    "lindner2023",
+    "liang2026",
+    "rosenblat2020",
+    "rosenblat2022"
+   ]
+  },
+  {
+   "id": "verteilung",
+   "name": "Intensitätsverteilung und Umfang",
+   "q": "Polarisiert, pyramidal oder schwellenbetont?",
+   "ev": "moderat",
+   "key": [
+    "17 Studien: polarisiertes Training verbesserte die VO₂peak etwas stärker als andere Verteilungen (SMD 0,24 [0,01; 0,48]), nur in Phasen unter 12 Wochen (0,40) und bei Hochtrainierten (0,46); Zeitfahrleistung gleich (−0,01) (Oliveira et al., 2024).",
+    "Netzwerk-Metaanalyse, 13 Studien: kein Unterschied zwischen polarisiert und pyramidal in VO₂max und Zeitfahren (Rosenblat et al., 2025).",
+    "Netzwerk-Metaanalyse 2026: keine gesicherten Unterschiede zwischen Verteilungsmodellen; die Rangfolge sah Schwellentraining für die VO₂max und HIIT für das Zeitfahren vorn („Effects of Different Training-Intensity Distribution Models …“, 2026).",
+    "41 Studien mit Radsportlern: polarisiertes und nicht polarisiertes Training gleichwertig; längere Interventionen brachten mehr, das Wochen- oder Gesamtvolumen zeigte keinen Zusammenhang (Cove et al., 2025)."
+   ],
+   "critic": "Vier Analysen, ein Bild: Die Verteilung ist weniger wichtig als oft behauptet. Der einzige Vorteil des polarisierten Modells ist klein, auf kurze Phasen und Hochtrainierte beschränkt und zeigt sich nicht in der Wettkampfleistung. Wahrscheinlich gilt: Mit viel lockerem Training und regelmäßigen intensiven Reizen ist die genaue Aufteilung zweitrangig.",
+   "figs": [
+    {
+     "id": "a-pol",
+     "title": "Polarisiert vs. andere Verteilungen",
+     "cap": "SMD; Werte rechts von 0 begünstigen polarisiertes Training. 95-%-KI bei Oliveira et al.; Rosenblat et al. nennen im Abstract keine Intervalle.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "VO₂peak, alle",
+       "sub": "Oliveira et al., 2024",
+       "es": 0.24,
+       "lo": 0.01,
+       "hi": 0.48
+      },
+      {
+       "l": "VO₂peak, Hochtrainierte",
+       "sub": "Oliveira et al., 2024",
+       "es": 0.46,
+       "lo": 0.1,
+       "hi": 0.82
+      },
+      {
+       "l": "Zeitfahren",
+       "sub": "Oliveira et al., 2024",
+       "es": -0.01,
+       "lo": -0.28,
+       "hi": 0.25
+      },
+      {
+       "l": "VO₂max, vs. pyramidal",
+       "sub": "Rosenblat et al., 2025",
+       "es": -0.06
+      },
+      {
+       "l": "Zeitfahren, vs. pyramidal",
+       "sub": "Rosenblat et al., 2025",
+       "es": -0.05
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 0.9,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "leftLab": "andere besser",
+      "rightLab": "polarisiert besser"
+     }
+    }
+   ],
+   "s": [
+    "oliveira2024",
+    "rosenblat2025",
+    "tid2026",
+    "cove2025"
+   ]
+  },
+  {
+   "id": "concurrent",
+   "name": "Kraft und Ausdauer kombiniert",
+   "q": "Bremst zusätzliches Krafttraining die Ausdauer?",
+   "ev": "moderat",
+   "key": [
+    "Kombiniertes Kraft- und Ausdauertraining verbesserte die VO₂max insgesamt gleich stark wie reines Ausdauertraining (SMD −0,12 [−0,28; 0,05]); auch mitochondriale Marker unterschieden sich nicht. Wurde das Ausdauertraining zugunsten des Krafttrainings reduziert, fiel der VO₂max-Zuwachs bei Untrainierten (SMD −0,32 [−0,62; −0,02]) und in 16-Wochen-Programmen (SMD −0,63 [−1,21; −0,06]) kleiner aus (Zhao et al., 2026)."
+   ],
+   "critic": "Eine Metaanalyse; der Befund ist plausibel: Nicht das Krafttraining selbst, sondern weniger Ausdauertraining bremst die VO₂max. Die Teilergebnisse für Untrainierte und 16-Wochen-Programme beruhen auf wenigen Studien. Zur umgekehrten Frage (Ausdauer bremst Kraft) siehe die Kraftthemen.",
+   "figs": [
+    {
+     "id": "a-conc",
+     "title": "Kombiniertes Training vs. reines Ausdauertraining",
+     "cap": "SMD für den VO₂max-Zuwachs mit 95-%-KI (Zhao et al., 2026). Negative Werte = geringerer Zuwachs mit kombiniertem Training.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Studien",
+       "sub": "Zhao et al., 2026",
+       "es": -0.12,
+       "lo": -0.28,
+       "hi": 0.05
+      },
+      {
+       "l": "Untrainierte, Ausdauer reduziert",
+       "sub": "Zhao et al., 2026",
+       "es": -0.32,
+       "lo": -0.62,
+       "hi": -0.02
+      },
+      {
+       "l": "16 Wochen, Ausdauer reduziert",
+       "sub": "Zhao et al., 2026",
+       "es": -0.63,
+       "lo": -1.21,
+       "hi": -0.06
+      }
+     ],
+     "opts": {
+      "min": -1.4,
+      "max": 0.4,
+      "ticks": [
+       -1.2,
+       -0.8,
+       -0.4,
+       0,
+       0.4
+      ],
+      "leftLab": "reines Ausdauertraining besser",
+      "rightLab": "kombiniert besser"
+     }
+    }
+   ],
+   "s": [
+    "zhao2026"
+   ]
+  },
+  {
+   "id": "hypoxie",
+   "name": "Training in Höhe/Hypoxie",
+   "q": "Bringt Training mit weniger Sauerstoff mehr?",
+   "ev": "niedrig",
+   "key": [
+    "35 Studien mit 524 Personen: Aerobes Training in Hypoxie verbesserte VO₂max, Spitzenleistung und Zeit bis zur Erschöpfung nicht stärker als dasselbe Training in normaler Luft; es fand sich ein Publikationsbias (Dorelli et al., 2025).",
+    "9 Studien (194 Personen): HIIT in Hypoxie steigerte die VO₂max stärker als HIIT in normaler Luft (SMD 1,14 [0,56; 1,72]); Ausmaß der Hypoxie und Dauer hatten keinen erkennbaren Einfluss (Westmacott et al., 2022).",
+    "6 Studien mit Langstreckenläufern: HIIT in Hypoxie verbesserte die VO₂max stärker als in Normoxie (SMD 0,68 [0,3; 1,06]) (Fentaw et al., 2025)."
+   ],
+   "critic": "Die Befunde widersprechen sich teilweise. Zwei kleine Analysen (9 bzw. 6 Studien) finden für HIIT in Hypoxie Vorteile; die größte und methodisch strengste Analyse (35 Studien) findet für aerobes Training in Hypoxie keinen Vorteil und weist auf Publikationsbias hin. Die Fragestellungen sind nicht identisch (HIIT vs. aerobes Training allgemein). Wahrscheinlich ist der Nutzen von Hypoxie gering und durch selektive Veröffentlichung überschätzt; für Breitensportler lohnt der Aufwand nach derzeitigem Stand nicht.",
+   "figs": [
+    {
+     "id": "a-hyp",
+     "title": "Hypoxie vs. normale Luft: VO₂max",
+     "cap": "SMD mit 95-%-KI zugunsten Hypoxie (Westmacott et al., 2022; Fentaw et al., 2025). Die größte Analyse (Dorelli et al., 2025; 35 Studien) fand keinen signifikanten Unterschied; ein Effektwert ist im Abstract nicht angegeben.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "HIIT in Hypoxie",
+       "sub": "Westmacott et al., 2022",
+       "es": 1.14,
+       "lo": 0.56,
+       "hi": 1.72
+      },
+      {
+       "l": "HIIT in Hypoxie, Läufer",
+       "sub": "Fentaw et al., 2025",
+       "es": 0.68,
+       "lo": 0.3,
+       "hi": 1.06
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 2.0,
+      "ticks": [
+       0,
+       0.5,
+       1.0,
+       1.5,
+       2.0
+      ],
+      "leftLab": "normale Luft besser",
+      "rightLab": "Hypoxie besser"
+     }
+    }
+   ],
+   "s": [
+    "dorelli2025",
+    "westmacott2022",
+    "fentaw2025"
+   ]
+  },
+  {
+   "id": "steuerung",
+   "name": "Steuerung nach Herzfrequenzvariabilität",
+   "q": "Hilft es, Training täglich nach der HRV anzupassen?",
+   "ev": "niedrig",
+   "key": [
+    "Bei Ausdauersportlern verbesserte HRV-gesteuertes Training die VO₂max etwas stärker als vorgeplantes Training (Effektdifferenz 0,187); der Gesamteffekt war klein (ES 0,402), am deutlichsten bei Amateuren und Frauen (Granero-Gallegos et al., 2020)."
+   ],
+   "critic": "Nur eine Metaanalyse mit wenigen randomisierten Studien; die Teilgruppen (Amateure, Frauen) sind klein. Der Vorteil ist klein. Plausibel ist, dass die HRV vor allem hilft, intensive Einheiten an Tagen guter Erholung zu setzen; als alleiniges Steuerungsinstrument ist sie nicht ausreichend belegt.",
+   "figs": [],
+   "s": [
+    "granero2020"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2020,
+   "t": "Kritik der Intensitätsbestimmung",
+   "p": "Erste Schwelle gut belegt, zweite am besten über kritische Leistung bestimmbar.",
+   "tag": "neu",
+   "s": "jamnick2020"
+  },
+  {
+   "y": 2021,
+   "t": "Intervalle und Zeitfahrleistung",
+   "p": "Trainierte verbessern sich um etwa 2 %; die Intervalldauer zählt mehr als die Intensität.",
+   "tag": "neu",
+   "s": "rosenblat2021"
+  },
+  {
+   "y": 2024,
+   "t": "Polarisiert leicht vorn bei VO₂peak",
+   "p": "Kleiner Vorteil nur bei Hochtrainierten und kurzen Phasen; kein Vorteil im Zeitfahren.",
+   "tag": "neu",
+   "s": "oliveira2024"
+  },
+  {
+   "y": 2024,
+   "t": "Umbrella Review HIIT",
+   "p": "24 Metaanalysen: HIIT verbessert die Fitness in allen Gruppen.",
+   "tag": "conf",
+   "s": "poon2024"
+  },
+  {
+   "y": 2025,
+   "t": "Polarisiert = pyramidal",
+   "p": "Netzwerk-Metaanalyse findet keinen Unterschied.",
+   "tag": "rel",
+   "s": "rosenblat2025"
+  },
+  {
+   "y": 2025,
+   "t": "Radsport: Verteilung egal, Dauer zählt",
+   "p": "41 Studien: längere Phasen bringen mehr, Volumen ohne Zusammenhang.",
+   "tag": "conf",
+   "s": "cove2025"
+  },
+  {
+   "y": 2025,
+   "t": "Mitochondrien wachsen bei jeder Intensität",
+   "p": "Ähnlicher Zuwachs, aber unterschiedliche Effizienz je Stunde.",
+   "tag": "neu",
+   "s": "molmen2025"
+  },
+  {
+   "y": 2026,
+   "t": "HIIT-Vorteil wächst mit Trainingsstand",
+   "p": "115 Studien: größter VO₂max-Vorteil bei Leistungssportlern.",
+   "tag": "conf",
+   "s": "bi2026"
+  },
+  {
+   "y": 2026,
+   "t": "Lockeres Training: großer Effekt",
+   "p": "50 Studien: Training unter VT1 verbessert VO₂max deutlich.",
+   "tag": "neu",
+   "s": "nuuttila2026"
+  },
+  {
+   "y": 2026,
+   "t": "Schwellen: über der Schwelle trainieren",
+   "p": "Training über der Schwelle verbessert sie am stärksten.",
+   "tag": "neu",
+   "s": "peric2026"
+  },
+  {
+   "y": 2026,
+   "t": "Weniger Sprints reichen",
+   "p": "Mehr Sprintwiederholungen bringen keinen zusätzlichen VO₂max-Gewinn.",
+   "tag": "neu",
+   "s": "hutchinson2026"
+  },
+  {
+   "y": 2026,
+   "t": "Verteilungsmodelle gleichwertig",
+   "p": "Bayesianische Netzwerk-Metaanalyse ohne gesicherte Unterschiede.",
+   "tag": "conf",
+   "s": "tid2026"
+  },
+  {
+   "y": 2026,
+   "t": "Dauertraining baut Mitochondrien auf",
+   "p": "Mitochondriendichte und VO₂max steigen, Evidenzqualität niedrig.",
+   "tag": "conf",
+   "s": "vabishchevich2026"
+  },
+  {
+   "y": 2026,
+   "t": "HIIT bei Mannschaftssportlern",
+   "p": "Auch Trainierte steigern ihre VO₂max deutlich, mit der Dauer zunehmend.",
+   "tag": "conf",
+   "s": "zeng2026"
+  },
+  {
+   "y": 2024,
+   "t": "HIIT wirkt bei Frauen und Männern gleich",
+   "p": "Gleiche Effekte; mehr als vier Wochen nötig.",
+   "tag": "neu",
+   "s": "lock2024"
+  },
+  {
+   "y": 2023,
+   "t": "Frauen: HIIT nicht überlegen",
+   "p": "Dauertraining und HIIT steigerten die VO₂max gleich.",
+   "tag": "rel",
+   "s": "lindner2023"
+  },
+  {
+   "y": 2026,
+   "t": "Sprintintervalle nicht besser als Dauertraining",
+   "p": "Höherwertige Reviews finden keinen Vorteil von SIT gegenüber Dauertraining.",
+   "tag": "contra",
+   "s": "liang2026"
+  },
+  {
+   "y": 2020,
+   "t": "Lange Intervalle vor Sprints",
+   "p": "Intervalle ab 4 Minuten verbesserten das Zeitfahren mehr als Sprints.",
+   "tag": "neu",
+   "s": "rosenblat2020"
+  },
+  {
+   "y": 2022,
+   "t": "HIIT und Sprints wirken verschieden",
+   "p": "HIIT verbessert das Herz, Sprints eher den Muskel.",
+   "tag": "neu",
+   "s": "rosenblat2022"
+  },
+  {
+   "y": 2026,
+   "t": "Krafttraining stört die Ausdauer kaum",
+   "p": "Nur wenn Ausdauerumfang gekürzt wird, fällt der VO₂max-Zuwachs kleiner aus.",
+   "tag": "neu",
+   "s": "zhao2026"
+  },
+  {
+   "y": 2025,
+   "t": "Hypoxietraining ohne Vorteil",
+   "p": "Größte Analyse: kein Zusatznutzen, Hinweise auf Publikationsbias.",
+   "tag": "contra",
+   "s": "dorelli2025"
+  },
+  {
+   "y": 2022,
+   "t": "HIIT in Hypoxie",
+   "p": "Kleine Metaanalyse findet größeren VO₂max-Zuwachs.",
+   "tag": "neu",
+   "s": "westmacott2022"
+  },
+  {
+   "y": 2025,
+   "t": "HIIT in Hypoxie bei Läufern",
+   "p": "Sehr kleine Analyse bestätigt einen Vorteil.",
+   "tag": "conf",
+   "s": "fentaw2025"
+  },
+  {
+   "y": 2020,
+   "t": "HRV-gesteuertes Training",
+   "p": "Kleiner Vorteil gegenüber festem Plan.",
+   "tag": "neu",
+   "s": "granero2020"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 14 geprüft, 12 aufgenommen, 2 ausgeschlossen (Methodik, reiner Molekularmarker). Zone 5 kritisch überarbeitet: Vorteil von Intervallen gegenüber Dauertraining relativiert (Sprintintervalle nicht überlegen, bei Frauen gleichwertig), Kernsatz und Evidenzgrad auf moderat angepasst. Neue Abschnitte: Kraft und Ausdauer kombiniert, Training in Hypoxie, HRV-Steuerung; Zone 2 um Mitochondrienbefund ergänzt."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 4 854 Einträgen, 12 Quellen aufgenommen. Zonenmodell schwellenbasiert festgelegt."
+  }
+ ],
+ "sources": {
+  "jamnick2020": {
+   "short": "Jamnick et al., 2020",
+   "year": 2020,
+   "type": "Übersichtsarbeit (kritisch-narrativ)",
+   "basis": "Abstract",
+   "pmid": "32729096",
+   "apa": "Jamnick, N. A., Pettitt, R. W., Granata, C., Pyne, D. B. &amp; Bishop, D. J. (2020). An examination and critique of current methods to determine exercise intensity. <em>Sports Medicine, 50</em>(10), 1729–1756.",
+   "doi": "10.1007/s40279-020-01322-8"
+  },
+  "tid2026": {
+   "short": "„Effects of Different Training-Intensity Distribution Models …“, 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "42171506",
+   "apa": "Effects of different training-intensity distribution models on maximal oxygen uptake and time-trial performance in endurance athletes: A Bayesian network meta-analysis. (2026). <em>Journal of Strength and Conditioning Research, 40</em>(7), e755–e764.",
+   "flag": "Autoren in PubMed noch nicht erfasst"
+  },
+  "rosenblat2025": {
+   "short": "Rosenblat et al., 2025",
+   "year": 2025,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39888556",
+   "apa": "Rosenblat, M. A., Watt, J. A., Arnold, J. I., Treff, G., Sandbakk, Ø. B., Esteve-Lanao, J., Festa, L., Filipas, L., Galloway, S. D., Muñoz, I., Ramos-Campo, D. J., Schneeweiss, P., Sellés-Pérez, S., Stöggl, T., Talsnes, R. K., Zinner, C. &amp; Seiler, S. (2025). Which training intensity distribution intervention will produce the greatest improvements in maximal oxygen uptake and time-trial performance in endurance athletes? A systematic review and network meta-analysis of individual participant data. <em>Sports Medicine, 55</em>(3), 655–673.",
+   "doi": "10.1007/s40279-024-02149-3"
+  },
+  "oliveira2024": {
+   "short": "Silva Oliveira et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38717713",
+   "apa": "Silva Oliveira, P., Boppre, G. &amp; Fonseca, H. (2024). Comparison of polarized versus other types of endurance training intensity distribution on athletes' endurance performance: A systematic review with meta-analysis. <em>Sports Medicine, 54</em>(8), 2071–2095.",
+   "doi": "10.1007/s40279-024-02034-z"
+  },
+  "cove2025": {
+   "short": "Cove et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39788807",
+   "apa": "Cove, B., Chalmers, S., Nelson, M. J., Anderson, M. &amp; Bennett, H. (2025). The effect of training distribution, duration, and volume on VO. <em>Journal of Science and Medicine in Sport, 28</em>(5), 423–434.",
+   "doi": "10.1016/j.jsams.2024.12.005"
+  },
+  "nuuttila2026": {
+   "short": "Nuuttila et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41543030",
+   "apa": "Nuuttila, O. P., Matomäki, P., Raitanen, J., Sievänen, H. &amp; Vasankari, T. (2026). Effects of low-intensity endurance training on aerobic fitness and risk factors of cardiometabolic health in working-age adults: A systematic review and meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 36</em>(1), Artikel e70208.",
+   "doi": "10.1111/sms.70208"
+  },
+  "molmen2025": {
+   "short": "Mølmen et al., 2025",
+   "year": 2025,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "pmid": "39390310",
+   "apa": "Mølmen, K. S., Almquist, N. W. &amp; Skattebo, Ø. (2025). Effects of exercise training on mitochondrial and capillary growth in human skeletal muscle: A systematic review and meta-regression. <em>Sports Medicine, 55</em>(1), 115–144.",
+   "doi": "10.1007/s40279-024-02120-2"
+  },
+  "peric2026": {
+   "short": "Peric et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42928904",
+   "apa": "Peric, R., Nikolovski, Z., Vrdoljak, D., Ivisic, A. K., Chavez-Guevara, I. A., Vriese, J. &amp; Ferri Marini, C. (2026). Moderators of metabolic threshold adaptations: A systematic review and meta-analysis. <em>PeerJ, 14</em>, Artikel e21806.",
+   "doi": "10.7717/peerj.21806"
+  },
+  "bi2026": {
+   "short": "Bi et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41804294",
+   "apa": "Bi, Z., Yin, M., Xu, K., Marcotte-Chénard, A., Zhong, Y., Gu, Z., Vollaard, N., Metcalfe, R., Nassis, G., Girard, O., Bishop, D. &amp; Li, Y. (2026). One size does not fit all: A meta-analysis of 115 trials comparing high-intensity interval and moderate-to-vigorous-intensity continuous training across diverse participants, protocols, and outcomes. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 36</em>(3), Artikel e70243.",
+   "doi": "10.1111/sms.70243"
+  },
+  "poon2024": {
+   "short": "Poon et al., 2024",
+   "year": 2024,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "38760916",
+   "apa": "Poon, E. T., Li, H. Y., Gibala, M. J., Wong, S. H. &amp; Ho, R. S. (2024). High-intensity interval training and cardiorespiratory fitness in adults: An umbrella review of systematic reviews and meta-analyses. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 34</em>(5), Artikel e14652.",
+   "doi": "10.1111/sms.14652"
+  },
+  "hutchinson2026": {
+   "short": "Hutchinson et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "42477971",
+   "apa": "Hutchinson, M., Kinghorn, D. J., Hall, E. C. R., Metcalfe, R. S., Paval, D. R., Gallagher, I. J. &amp; Vollaard, N. B. J. (2026). Number of sprint repetitions in a sprint interval training session does not moderate improvements in V̇O. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 36</em>(7), Artikel e70347.",
+   "doi": "10.1111/sms.70347"
+  },
+  "rosenblat2021": {
+   "short": "Rosenblat et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33826121",
+   "apa": "Rosenblat, M. A., Lin, E., da Costa, B. R. &amp; Thomas, S. G. (2021). Programming interval training to optimize time-trial performance: A systematic review and meta-analysis. <em>Sports Medicine, 51</em>(8), 1687–1714.",
+   "doi": "10.1007/s40279-021-01457-2"
+  },
+  "vabishchevich2026": {
+   "short": "Vabishchevich et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41481647",
+   "apa": "Vabishchevich, V., Smith, R. T. &amp; Bittel, A. J. (2026). Markers of clinical and mitochondrial adaptation in response to moderate intensity continuous training: A systematic review and meta-analysis. <em>PLOS ONE, 21</em>(1), Artikel e0339902.",
+   "doi": "10.1371/journal.pone.0339902"
+  },
+  "zeng2026": {
+   "short": "Zeng et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42961026",
+   "apa": "Zeng, X., Yin, M., Xu, K., Tao, M., Wang, J., Zhong, Y., Girard, O., Nassis, G. P., Buchheit, M. &amp; Li, Y. (2026). Effects and moderators of high-intensity interval training (HIIT) on physiological adaptations among team-sport athletes: A systematic review and meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 36</em>(11), Artikel e70384.",
+   "doi": "10.1111/sms.70384"
+  },
+  "lock2024": {
+   "short": "Lock et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37676620",
+   "apa": "Lock, M., Yousef, I., McFadden, B., Mansoor, H. &amp; Townsend, N. (2024). Cardiorespiratory fitness and performance adaptations to high-intensity interval training: Are there differences between men and women? A systematic review with meta-analyses. <em>Sports Medicine, 54</em>(1), 127–167.",
+   "doi": "10.1007/s40279-023-01914-0"
+  },
+  "lindner2023": {
+   "short": "Lindner et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37084758",
+   "apa": "Lindner, R., Raj, I. S., Yang, A. W. H., Zaman, S., Larsen, B. &amp; Denham, J. (2023). Moderate to vigorous-intensity continuous training versus highintensity interval training for improving VO2max in women: A systematic review and meta-analysis. <em>International Journal of Sports Medicine, 44</em>(7), 484–495.",
+   "doi": "10.1055/a-2044-8952"
+  },
+  "liang2026": {
+   "short": "Liang et al., 2026",
+   "year": 2026,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "40991003",
+   "apa": "Liang, W., Liu, C., Xu, S., Ma, S., Zong, Y. &amp; Yan, X. (2026). Sprint interval training for cardiovascular prevention: A time-efficient alternative or an overstated promise? An umbrella review. <em>European Journal of Applied Physiology, 126</em>(2), 1199–1220.",
+   "doi": "10.1007/s00421-025-05975-z"
+  },
+  "rosenblat2020": {
+   "short": "Rosenblat et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32034701",
+   "apa": "Rosenblat, M. A., Perrotta, A. S. &amp; Thomas, S. G. (2020). Effect of high-intensity interval training versus sprint interval training on time-trial performance: A systematic review and meta-analysis. <em>Sports Medicine, 50</em>(6), 1145–1161.",
+   "doi": "10.1007/s40279-020-01264-1"
+  },
+  "rosenblat2022": {
+   "short": "Rosenblat et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35041180",
+   "apa": "Rosenblat, M. A., Granata, C. &amp; Thomas, S. G. (2022). Effect of interval training on the factors influencing maximal oxygen consumption: A systematic review and meta-analysis. <em>Sports Medicine, 52</em>(6), 1329–1352.",
+   "doi": "10.1007/s40279-021-01624-5"
+  },
+  "zhao2026": {
+   "short": "Zhao et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42732577",
+   "apa": "Zhao, Y. C., Zhang, H. B. &amp; Wang, W. L. (2026). Systematic review of the effects of concurrent training on maximal oxygen uptake and skeletal muscle mitochondrial adaptation: A meta-analysis. <em>Journal of Sports Sciences, 44</em>(22), 3080–3095.",
+   "doi": "10.1080/02640414.2026.2732611"
+  },
+  "dorelli2025": {
+   "short": "Dorelli et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40548904",
+   "apa": "Dorelli, G., Giuriato, G., Zamboni, G., Daini, M., Cominacini, M., Carbonare, L. G. D., Wang, E., Crisafulli, E., Schena, F. &amp; Venturelli, M. (2025). Aerobic intermittent hypoxic training is not beneficial for maximal oxygen uptake and performance: A systematic review and meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 35</em>(6), Artikel e70088.",
+   "doi": "10.1111/sms.70088"
+  },
+  "westmacott2022": {
+   "short": "Westmacott et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36361141",
+   "apa": "Westmacott, A., Sanal-Hayes, N. E. M., McLaughlin, M., Mair, J. L. &amp; Hayes, L. D. (2022). High-Intensity interval training (HIIT) in hypoxia improves maximal aerobic capacity more than HIIT in normoxia: A systematic review, meta-analysis, and meta-regression. <em>International Journal of Environmental Research and Public Health, 19</em>(21), Artikel 14261.",
+   "doi": "10.3390/ijerph192114261"
+  },
+  "fentaw2025": {
+   "short": "Fentaw et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40312262",
+   "apa": "Fentaw, S., Tadesse, T. &amp; Birhanu, Z. (2025). Methodological and aerobic capacity adaptations of high-intensity interval training at different altitudes in distance runners: A comprehensive meta-analysis. <em>Physiological Reports, 13</em>(9), Artikel e70349.",
+   "doi": "10.14814/phy2.70349"
+  },
+  "granero2020": {
+   "short": "Granero-Gallegos et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33143175",
+   "apa": "Granero-Gallegos, A., González-Quílez, A., Plews, D. &amp; Carrasco-Poyatos, M. (2020). HRV-Based training for improving VO2max in endurance athletes. A systematic review with meta-analysis. <em>International Journal of Environmental Research and Public Health, 17</em>(21), Artikel 7999.",
+   "doi": "10.3390/ijerph17217999"
+  }
+ }
+}

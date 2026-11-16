@@ -1,0 +1,2381 @@
+{
+ "id": "maximalkraft",
+ "title": "Maximalkrafttraining",
+ "lead": "Welche Trainingsgestaltung steigert das Einwiederholungsmaximum (1RM) am stärksten? Zusammengefasst aus Metaanalysen, systematischen Reviews und einem aktuellen Positionspapier. Die Bewertung folgt der Evidenzhierarchie: Übersichtsarbeiten über viele Studien wiegen mehr als Einzelbefunde, neuere Analysen mit mehr Daten mehr als ältere.",
+ "stand": "2026-11-16",
+ "rxlead": "Für gesunde Erwachsene mit Trainingserfahrung, abgeleitet aus den unten bewerteten Arbeiten. Die Werte sind Orientierungsbereiche, keine festen Regeln; das aktuelle ACSM-Positionspapier betont, dass Regelmäßigkeit wichtiger ist als die exakte Feinabstimmung.",
+ "rx": [
+  {
+   "label": "Last",
+   "value": "≥ 80 % 1RM",
+   "text": "Hauptübungen überwiegend schwer, also etwa 1–6 Wiederholungen. Last ist für Maximalkraft der stärkste Hebel.",
+   "cite": "Currier et al. 2026; Lopez et al. 2021; Schoenfeld et al. 2017"
+  },
+  {
+   "label": "Volumen",
+   "value": "2–3 Sätze / Übung, ca. 5–10 / Woche",
+   "text": "Mehr Sätze bringen mehr, aber mit stark abnehmendem Ertrag. Schon 1 Satz pro Woche erhöht bei Trainierten das 1RM.",
+   "cite": "Krieger 2009; Ralston et al. 2017; Pelland et al. 2026; Androulakis-Korakakis et al. 2020"
+  },
+  {
+   "label": "Frequenz",
+   "value": "2–3× pro Woche",
+   "text": "Die Zielübung mehrmals pro Woche üben. Ob Frequenz unabhängig vom Volumen wirkt, ist umstritten (siehe Verlauf).",
+   "cite": "Grgic et al. 2018a; Ramos-Campo et al. 2024; Pelland et al. 2026"
+  },
+  {
+   "label": "Ausbelastung",
+   "value": "1–3 Wdh. in Reserve",
+   "text": "Muskelversagen ist für Kraft nicht nötig. Bei nicht angeglichenem Volumen schnitt Training ohne Versagen sogar besser ab.",
+   "cite": "Davies et al. 2016; Grgic et al. 2022; Jukic et al. 2023; Robinson et al. 2024"
+  },
+  {
+   "label": "Ausführung",
+   "value": "Voll, zügig, Hauptübung zuerst",
+   "text": "Voller Bewegungsumfang, konzentrisch nicht absichtlich bremsen, die wichtigste Kraftübung an den Anfang der Einheit.",
+   "cite": "Pallarés et al. 2021; Hermes &amp; Fry 2023; Nunes et al. 2021; Currier et al. 2026"
+  },
+  {
+   "label": "Satzpausen",
+   "value": "2–3 min und mehr",
+   "text": "Kurze Pausen funktionieren auch, für Trainierte und schwere Mehrgelenksübungen werden längere Pausen empfohlen.",
+   "cite": "Grgic, Schoenfeld, Skrepnik et al. 2018"
+  },
+  {
+   "label": "Planung",
+   "value": "Periodisieren",
+   "text": "Last und Volumen planvoll variieren kann leicht helfen, ist aber kein entscheidender Faktor. Spezialmethoden bringen gegenüber klassischem Training keinen Kraftvorteil.",
+   "cite": "Moesgaard et al. 2022; Currier et al. 2026; Cowley et al. 2026"
+  },
+  {
+   "label": "Übungsauswahl",
+   "value": "die Zielbewegung trainieren",
+   "text": "Kraft ist spezifisch: Wer etwa die Kniebeuge verbessern will, sollte Kniebeugen schwer üben; Spezialgeräte bringen keinen Zusatznutzen.",
+   "cite": "Saeterbakken et al. 2025; Andersen et al. 2022; Vicens-Bordas et al. 2018"
+  }
+ ],
+ "note": "<b>Ernährung:</b> Die hier ausgewerteten Arbeiten untersuchen keine Ernährungsfaktoren, daher lassen sich aus ihnen keine Ernährungsempfehlungen ableiten. Proteinzufuhr und Kreatin werden als eigene Themen ergänzt und anschließend hier verknüpft.",
+ "takeaways": [
+  {
+   "t": "Schwere Lasten sind der stärkste Hebel",
+   "ev": "hoch",
+   "p": "Hohe Lasten steigern das 1RM deutlich stärker als leichte; für Muskelwachstum ist die Last weitgehend egal. Ein Teil des Vorteils ist allerdings Übung der Testbewegung: In nicht trainierten Testformen ist der Unterschied unsicher.",
+   "s": [
+    "schoenfeld2017",
+    "lopez2021",
+    "currier2023",
+    "acsm2026",
+    "hammert2026"
+   ]
+  },
+  {
+   "t": "Mehr Volumen hilft, aber mit stark abnehmendem Ertrag",
+   "ev": "hoch",
+   "p": "Vier Metaanalysen von 2009 bis 2026 zeigen dasselbe Muster: Mehrere Sätze schlagen einen, darüber flacht die Kurve schnell ab. Schon sehr wenig Volumen wirkt.",
+   "s": [
+    "krieger2009",
+    "ralston2017",
+    "pelland2026",
+    "lyristakis2026"
+   ]
+  },
+  {
+   "t": "Häufiger üben lohnt sich wahrscheinlich, der Mechanismus ist umstritten",
+   "ev": "moderat",
+   "p": "Bei gleichem Volumen fanden mehrere Metaanalysen keinen Frequenzeffekt, auch nicht zwischen Split- und Ganzkörperplänen. Die größte Metaregression findet für Kraft dagegen einen eigenständigen, abflachenden Effekt.",
+   "s": [
+    "grgic2018f",
+    "ramoscampo2024",
+    "pelland2026"
+   ]
+  },
+  {
+   "t": "Muskelversagen ist für Kraft nicht nötig",
+   "ev": "hoch",
+   "p": "Fünf Übersichtsarbeiten stimmen überein: Training bis zum Versagen bringt keinen Kraftvorteil, mit Abstand zum Versagen ist es eher etwas besser.",
+   "s": [
+    "davies2016",
+    "grgic2022",
+    "jukic2023",
+    "robinson2024",
+    "acsm2026"
+   ]
+  },
+  {
+   "t": "Ausführung: voller Bewegungsumfang, zügig, Hauptübung zuerst",
+   "ev": "moderat",
+   "p": "Voller Bewegungsumfang schlägt Teilwiederholungen, absichtlich langsames Heben ist unterlegen, und Übungen zu Beginn der Einheit gewinnen am meisten Kraft.",
+   "s": [
+    "pallares2021",
+    "hermes2023",
+    "nunes2021",
+    "acsm2026"
+   ]
+  },
+  {
+   "t": "Periodisierung und Spezialmethoden: allenfalls kleiner Vorteil",
+   "ev": "moderat",
+   "p": "Metaanalysen zum 1RM zeigen einen kleinen Vorteil periodisierter Pläne; das Positionspapier von 2026 findet keinen durchgängigen Effekt, und Spezialmethoden sind klassischem Training nicht überlegen.",
+   "s": [
+    "moesgaard2022",
+    "acsm2026",
+    "cowley2026"
+   ]
+  },
+  {
+   "t": "Längere Satzpausen für Trainierte",
+   "ev": "niedrig",
+   "p": "Ein systematischer Review und eine kleine, noch nicht begutachtete Metaanalyse sprechen bei Trainierten für Pausen über 60 s. Die Datenbasis ist dünn.",
+   "s": [
+    "grgic2018r",
+    "davidson2025"
+   ]
+  },
+  {
+   "t": "Kraft ist spezifisch",
+   "ev": "hoch",
+   "p": "Kraft steigt am stärksten in der trainierten Bewegung; Übungsauswahl sollte sich am Ziel orientieren. Spezialgeräte und -methoden bringen keinen Zusatznutzen.",
+   "s": [
+    "saeterbakken2025",
+    "spitz2023",
+    "andersen2022",
+    "davies2021"
+   ]
+  },
+  {
+   "t": "Frauen profitieren gleich stark",
+   "ev": "hoch",
+   "p": "Relativ steigt die Kraft bei Frauen mindestens so stark wie bei Männern, vor und nach der Menopause.",
+   "s": [
+    "roberts2020",
+    "isenmann2026"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "last",
+   "name": "Last (Intensität)",
+   "q": "Wie schwer muss trainiert werden?",
+   "ev": "hoch",
+   "key": [
+    "Hohe Lasten (> 60 % 1RM) steigern das 1RM stärker als niedrige (Schoenfeld et al., 2017).",
+    "Netzwerk-Metaanalyse, 28 Studien: hohe (≤ 8 RM) und mittlere Lasten (9–15 RM) schlagen niedrige (SMD 0,60–0,63 bzw. 0,34–0,35); hoch gegenüber mittel tendenziell besser (SMD 0,26–0,28; p = 0,068) (Lopez et al., 2021).",
+    "Bestplatziertes Programm für Kraft: > 80 % 1RM, mehrere Sätze, 3× pro Woche, SMD 1,60 [1,38; 1,82] gegenüber Kontrolle (Currier et al., 2023).",
+    "Positionspapier 2026: Kraft profitiert von Lasten ≥ 80 % 1RM bei 2–3 Sätzen (Currier et al., 2026).",
+    "In nicht trainierten Testformen (isometrisch, isokinetisch) ist der Vorteil schwerer Lasten unsicher: d = 0,32 [−0,08; 0,72] (Hammert et al., 2026). Allgemein fällt der Kraftzuwachs in nicht trainierten Testformen etwa halb so groß aus wie in der trainierten (Spitz et al., 2023).",
+    "Übersicht über Trainierte und Untrainierte: hohe und mittlere Lasten steigern die Maximalkraft stärker als niedrige; für Hypertrophie ist ein breites Lastspektrum (30–90 % 1RM) geeignet (Lacio et al., 2021).",
+    "Höhere Lasten erzielten größere Zuwächse in 1RM und isometrischer Kraft; bei Jüngeren deutlicher (ES 0,34 [0,12; 0,55]) als bei Älteren (ES 0,20 [−0,00; 0,41]) (Refalo et al., 2021).",
+    "Auch bei gleichem Gesamtvolumen (Last × Wiederholungen) führten höhere Lasten zu größeren 1RM-Zuwächsen; die Hypertrophie war gleich (Carvalho et al., 2022).",
+    "Training mit leichter Last und Blutflussrestriktion steigerte die Maximalkraft ähnlich wie schweres Training (SMD −0,17 [−0,40; 0,05]) (Grønfeldt et al., 2020).",
+    "Schweres Training steigerte die Kraft stärker als leichtes Training mit Blutflussrestriktion, unabhängig von Manschettendruck und -breite; die Muskelmasse nahm gleich zu (Lixandrão et al., 2018).",
+    "41 Studien: leichtes Training mit Blutflussrestriktion steigerte die Maximalkraft etwas weniger als schweres Training (ES −0,19 [−0,31; −0,06]); Schnellkraft, Sprung und Sprint gleich (Wang et al., 2025).",
+    "Freiwillig gewählte Lasten lagen im Mittel bei 53 % des 1RM [49; 58], unabhängig von Erfahrung, Alter und Geschlecht; für Fortgeschrittene ist das für Maximalkraft wahrscheinlich zu leicht (Steele et al., 2022).",
+    "Metaregression zur Wiederholungszahl bei % 1RM: kaum Einfluss von Geschlecht, Alter oder Trainingsstand; eine allgemeine Tabelle gilt für die meisten Übungen, eigene Tabellen für Bankdrücken und Beinpresse (Nuzzo et al., 2024)."
+   ],
+   "critic": "Für das 1RM konsistent über alle Analysen; die älteren Empfehlungen (Rhea, Peterson) und das neue Positionspapier liegen im selben Bereich von etwa 80–85 % 1RM. Neu belegt ist die Spezifität: Schwere Lasten verbessern vor allem das, was geübt wird, also das schwere Heben selbst. Für jemanden, der genau diese Leistung steigern will, ist das kein Nachteil; für allgemeine Kraft ist der Vorteil schwerer Lasten kleiner als das 1RM vermuten lässt. Neu eingeordnet: Leichtes Training mit Blutflussrestriktion ist eine brauchbare Alternative, die neueste und größte Analyse (41 Studien) zeigt aber einen kleinen Kraftnachteil gegenüber schwerem Training; ältere Analysen fanden keinen bzw. einen deutlicheren Unterschied. Schwere Lasten bleiben für Maximalkraft die erste Wahl.",
+   "figs": [
+    {
+     "id": "fig-last",
+     "wide": true,
+     "title": "Empfohlene bzw. bestwirksame Last nach Quelle und Trainingsstand",
+     "cap": "Prozent des 1RM. Punkte = berichtete Werte; der Balken bei Currier et al. (2023) markiert „über 80 %“. Die gestrichelte Linie ist die Grenze zwischen leichter und schwerer Last bei Schoenfeld et al. (2017).",
+     "type": "dots",
+     "data": [
+      {
+       "l": "Untrainierte",
+       "sub": "Rhea et al., 2003",
+       "v": 60
+      },
+      {
+       "l": "Trainierte",
+       "sub": "Rhea et al., 2003",
+       "v": 80
+      },
+      {
+       "l": "Athleten",
+       "sub": "Peterson et al., 2004",
+       "v": 85
+      },
+      {
+       "l": "Bestplatzierte Programme",
+       "sub": "Currier et al., 2023",
+       "v": 80,
+       "open": true
+      },
+      {
+       "l": "Empfehlung für Kraft",
+       "sub": "Currier et al., 2026 (ACSM)",
+       "v": 80,
+       "open": true,
+       "sym": "≥ "
+      }
+     ],
+     "opts": {
+      "min": 50,
+      "max": 95,
+      "ticks": [
+       50,
+       60,
+       70,
+       80,
+       90
+      ],
+      "ref": 60,
+      "unit": "% 1RM",
+      "openTo": 92
+     }
+    },
+    {
+     "id": "fig-spez",
+     "wide": true,
+     "title": "Spezifität: trainierte vs. nicht trainierte Testform",
+     "cap": "Effektstärke (Cohen’s d) mit 95-%-KI. Obere Zeilen: Training gegenüber Kontrolle (Spitz et al., 2023). Untere Zeile: hohe gegenüber niedriger Last, gemessen in einer nicht trainierten Testform (Hammert et al., 2026).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Training vs. Kontrolle, trainierte Testform",
+       "sub": "Spitz et al., 2023",
+       "es": 1.84,
+       "lo": 1.23,
+       "hi": 2.4
+      },
+      {
+       "l": "Training vs. Kontrolle, nicht trainierte Testform",
+       "sub": "Spitz et al., 2023",
+       "es": 0.8,
+       "lo": 0.22,
+       "hi": 1.4
+      },
+      {
+       "l": "Hohe vs. niedrige Last, nicht trainierte Testform",
+       "sub": "Hammert et al., 2026",
+       "es": 0.32,
+       "lo": -0.08,
+       "hi": 0.72
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 2.6,
+      "ticks": [
+       0,
+       0.5,
+       1,
+       1.5,
+       2,
+       2.5
+      ]
+     }
+    },
+    {
+     "id": "mk-bfr",
+     "title": "Blutflussrestriktion vs. schweres Training",
+     "cap": "Effektstärke mit 95-%-KI; negative Werte = weniger Maximalkraft mit Blutflussrestriktion.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Maximalkraft, 16 Studien",
+       "sub": "Grønfeldt et al., 2020",
+       "es": -0.17,
+       "lo": -0.4,
+       "hi": 0.05
+      },
+      {
+       "l": "Maximalkraft, 41 Studien",
+       "sub": "Wang et al., 2025",
+       "es": -0.19,
+       "lo": -0.31,
+       "hi": -0.06
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 0.2,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2
+      ],
+      "leftLab": "schweres Training besser",
+      "rightLab": "Blutflussrestriktion besser"
+     }
+    }
+   ],
+   "s": [
+    "schoenfeld2017",
+    "lopez2021",
+    "currier2023",
+    "acsm2026",
+    "swinton2024",
+    "hammert2026",
+    "spitz2023",
+    "rhea2003",
+    "peterson2004",
+    "lacio2021",
+    "refalo2021",
+    "carvalho2022",
+    "gronfeldt2020",
+    "lixandrao2018",
+    "wang2025",
+    "steele2022",
+    "nuzzo2024r"
+   ]
+  },
+  {
+   "id": "volumen",
+   "name": "Volumen",
+   "q": "Wie viele Sätze pro Woche?",
+   "ev": "hoch",
+   "key": [
+    "2–3 Sätze pro Übung brachten etwa 46 % mehr Kraftzuwachs als 1 Satz; 4–6 Sätze waren nicht besser als 2–3 (Krieger, 2009).",
+    "Mehr als 5 Sätze pro Übung und Woche brachten größere Zuwächse als ≤ 5, der Unterschied war klein (SMD 0,18 [0,06; 0,30]) (Ralston et al., 2017).",
+    "Die Volumen-Wirkungs-Kurve steigt, zeigt für Kraft aber deutlich stärker abnehmende Erträge als für Hypertrophie (Pelland et al., 2026; 67 Studien).",
+    "157 Studien: nichtlineare Dosis-Wirkung mit Plateau; oberhalb einer bestimmten Gesamtdosis kein weiterer Zusatznutzen (Lyristakis et al., 2026).",
+    "In der Preprint-Fassung der Pelland-Analyse überschreitet bereits 1 Satz pro Woche den kleinsten messbaren Effekt; ab etwa 5 Sätzen pro Muskelgruppe bringen weitere Sätze keinen verlässlichen Kraftzuwachs mehr (Pelland et al., 2024).",
+    "Bei Trainierten genügt 1 Satz pro Woche für signifikante 1RM-Zuwächse, ca. +12 kg über 5 Studien (Androulakis-Korakakis et al., 2020).",
+    "Kurzfristig wirkten Einsatz- und Mehrsatztraining gleich; bei längeren Interventionen und bei Fortgeschrittenen war Mehrsatztraining überlegen (Fröhlich et al., 2010).",
+    "Übersicht zu Minimaldosen: Wochenend-Training und Einsatztraining sind am besten belegt; kleine Volumina sind deutlich besser als kein Krafttraining (Nuzzo et al., 2024).",
+    "Für Anfänger genügt in den ersten 12 Wochen eine Einheit pro Woche mit weniger als 3 Sätzen je Mehrgelenksübung, auch unter 50 % 1RM (Behm et al., 2024)."
+   ],
+   "critic": "Über 17 Jahre und unterschiedliche Methoden hinweg dasselbe Muster, daher Evidenz hoch für die Form der Kurve. Unsicher bleibt, wo genau das Plateau liegt: Lyristakis et al. werteten überwiegend Untrainierte aus und konnten für Trainierte keinen klaren Zusammenhang mit absoluter Kraft zeigen. Pelland et al. zählen indirekte Sätze halb; diese Zählweise erklärte die Daten am besten.",
+   "figs": [
+    {
+     "id": "fig-krieger",
+     "wide": true,
+     "title": "Mehrsatz- vs. Einsatztraining",
+     "cap": "Unterschied der Effektstärke mit 95-%-KI (Krieger, 2009; 14 Studien). Werte rechts von 0 begünstigen die erstgenannte Satzzahl pro Übung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Mehrere Sätze vs. 1 Satz",
+       "sub": "Krieger, 2009",
+       "es": 0.26,
+       "lo": 0.15,
+       "hi": 0.37
+      },
+      {
+       "l": "2–3 Sätze vs. 1 Satz",
+       "sub": "Krieger, 2009",
+       "es": 0.25,
+       "lo": 0.14,
+       "hi": 0.37
+      },
+      {
+       "l": "4–6 Sätze vs. 1 Satz",
+       "sub": "Krieger, 2009",
+       "es": 0.35,
+       "lo": -0.05,
+       "hi": 0.74
+      },
+      {
+       "l": "4–6 Sätze vs. 2–3 Sätze",
+       "sub": "Krieger, 2009",
+       "es": 0.09,
+       "lo": -0.31,
+       "hi": 0.5
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 0.8,
+      "ticks": [
+       -0.3,
+       0,
+       0.3,
+       0.6
+      ],
+      "leftLab": "weniger Sätze besser",
+      "rightLab": "mehr Sätze besser"
+     }
+    },
+    {
+     "id": "fig-vol",
+     "title": "Dosis-Wirkung: Wochensätze pro Übung",
+     "cap": "Mittlere Effektstärke des Kraftzuwachses (vorher–nachher) mit 95-%-KI nach Volumenstufe (Ralston et al., 2017). Die Werte stammen aus getrennten paarweisen Analysen und sind nur grob vergleichbar.",
+     "type": "lineci",
+     "data": [
+      {
+       "l": "≤ 5",
+       "es": 0.82,
+       "lo": 0.47,
+       "hi": 1.17
+      },
+      {
+       "l": "5–9",
+       "es": 0.98,
+       "lo": 0.62,
+       "hi": 1.34
+      },
+      {
+       "l": "≥ 10",
+       "es": 1.01,
+       "lo": 0.7,
+       "hi": 1.32
+      }
+     ],
+     "opts": {
+      "max": 1.5,
+      "ticks": [
+       0,
+       0.5,
+       1,
+       1.5
+      ],
+      "xlab": "Sätze pro Übung und Woche",
+      "src": "Ralston et al., 2017"
+     }
+    },
+    {
+     "id": "fig-eff",
+     "title": "Abnehmender Ertrag je weiterem Satz",
+     "cap": "Zusätzliche Wochensätze pro Muskelgruppe, die nötig sind, um den Kraftzuwachs um den kleinsten messbaren Effekt (3,96 %) zu steigern (Pelland et al., 2024, Preprint). Je höher der Balken, desto weniger bringt ein weiterer Satz.",
+     "type": "tiers",
+     "data": [
+      {
+       "l": "1",
+       "v": 0,
+       "txt": "Mindestdosis"
+      },
+      {
+       "l": "2",
+       "v": 0.75,
+       "txt": "≈ 0,75"
+      },
+      {
+       "l": "3–4",
+       "v": 2.25,
+       "txt": "≈ 2,25"
+      },
+      {
+       "l": "5+",
+       "v": null,
+       "txt": "kein sicherer Zusatznutzen"
+      }
+     ],
+     "opts": {
+      "max": 3,
+      "ticks": [
+       0,
+       1,
+       2,
+       3
+      ],
+      "xlab": "aktuelle Wochensätze pro Muskelgruppe",
+      "src": "Pelland et al., 2024 (Preprint)"
+     }
+    },
+    {
+     "id": "fig-min",
+     "title": "Minimaldosis: Zuwachs mit 1 Satz pro Woche",
+     "cap": "Geschätzter 1RM-Zuwachs in kg bei der niedrigsten untersuchten Dosis, krafttrainierte Männer (Androulakis-Korakakis et al., 2020; 5 Studien).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "1RM gesamt",
+       "es": 12.09,
+       "lo": 8.16,
+       "hi": 16.03,
+       "sub": "Androulakis-Korakakis et al., 2020"
+      },
+      {
+       "l": "Kniebeuge",
+       "es": 17.48,
+       "lo": 8.51,
+       "hi": 26.46,
+       "sub": "Androulakis-Korakakis et al., 2020"
+      },
+      {
+       "l": "Bankdrücken",
+       "es": 8.25,
+       "lo": 0.68,
+       "hi": 15.83,
+       "sub": "Androulakis-Korakakis et al., 2020"
+      }
+     ],
+     "opts": {
+      "min": 0,
+      "max": 30,
+      "ticks": [
+       0,
+       10,
+       20,
+       30
+      ],
+      "unit": "kg"
+     }
+    }
+   ],
+   "s": [
+    "krieger2009",
+    "ralston2017",
+    "pelland2026",
+    "pelland2024",
+    "lyristakis2026",
+    "androulakis2020",
+    "frohlich2010",
+    "nuzzo2024m",
+    "behm2024"
+   ]
+  },
+  {
+   "id": "frequenz",
+   "name": "Frequenz",
+   "q": "Wie oft pro Woche trainieren?",
+   "ev": "moderat",
+   "key": [
+    "Mehr Einheiten pro Woche gingen mit größeren Zuwächsen einher (ES 0,74 bei 1× bis 1,08 bei 4×+); bei gleichem Volumen war der Effekt nicht mehr nachweisbar (Grgic et al., 2018a).",
+    "Volumen-angeglichen erzeugten 1× und ≥ 3× pro Woche ähnliche Zuwächse (Ralston et al., 2018).",
+    "Split- und Ganzkörperpläne mit gleichem Volumen führten zu gleichen Kraftzuwächsen, Bankdrücken +1,19 kg [−1,28; 3,65], Beine +2,47 kg [−2,11; 7,05] (Ramos-Campo et al., 2024; 14 Studien).",
+    "Die Metaregression von Pelland et al. (2026) findet für Kraft einen Frequenzeffekt mit abnehmendem Ertrag; Preprint-Werte: 12,7 % Zuwachs gegenüber Kontrolle bei 1× und 17,3 % bei 2× pro Woche (Pelland et al., 2024).",
+    "Das Positionspapier 2026 nennt ≥ 2 Einheiten pro Woche als förderlich für Kraft (Currier et al., 2026).",
+    "Gut Trainierte: über 6–12 Wochen keine klaren Unterschiede in der Maximalkraftentwicklung zwischen Trainingsfrequenzen (Cuthbert et al., 2021)."
+   ],
+   "critic": "Hier widersprechen sich die Befunde. Drei Metaanalysen finden bei gleichem Volumen keinen Frequenzeffekt; die neuere Metaregression modelliert Volumen und Frequenz gleichzeitig mit mehr Daten und findet einen. Vermutlich gibt es einen kleinen eigenständigen Effekt, der vor allem zwischen 1× und 2× pro Woche liegt, etwa durch häufigeres Üben der Testbewegung. Wie das Volumen auf die Woche verteilt wird (Split oder Ganzkörper), spielt darüber hinaus kaum eine Rolle.",
+   "figs": [
+    {
+     "id": "fig-freq",
+     "title": "Effektstärke nach Frequenz (Volumen nicht angeglichen)",
+     "cap": "Mittlere Effektstärke des 1RM-Zuwachses nach Einheiten pro Woche und Muskelgruppe (Grgic et al., 2018a; 22 Studien). Bei gleichem Volumen verschwand der Effekt (p = 0,421).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "1×",
+       "es": 0.74
+      },
+      {
+       "l": "2×",
+       "es": 0.82
+      },
+      {
+       "l": "3×",
+       "es": 0.93
+      },
+      {
+       "l": "4×+",
+       "es": 1.08
+      }
+     ],
+     "opts": {
+      "max": 1.2,
+      "ticks": [
+       0,
+       0.3,
+       0.6,
+       0.9,
+       1.2
+      ],
+      "xlab": "Einheiten pro Woche und Muskelgruppe",
+      "src": "Grgic et al., 2018a"
+     }
+    },
+    {
+     "id": "fig-freq2",
+     "title": "Dosis-Wirkung Frequenz, Volumen mitmodelliert",
+     "cap": "Vorhergesagter Kraftzuwachs gegenüber Kontrollgruppen in % mit 95-%-Glaubwürdigkeitsintervall (Pelland et al., 2024, Preprint). Für 3× und mehr nennt der Text keine Werte.",
+     "type": "lineci",
+     "data": [
+      {
+       "l": "1×",
+       "es": 12.72,
+       "lo": 10.57,
+       "hi": 15.05
+      },
+      {
+       "l": "2×",
+       "es": 17.32,
+       "lo": 14.34,
+       "hi": 20.56
+      },
+      {
+       "l": "3×"
+      },
+      {
+       "l": "4×+"
+      }
+     ],
+     "opts": {
+      "max": 25,
+      "ticks": [
+       0,
+       5,
+       10,
+       15,
+       20,
+       25
+      ],
+      "unit": "%",
+      "xlab": "Einheiten pro Woche",
+      "src": "Pelland et al., 2024 (Preprint)"
+     }
+    },
+    {
+     "id": "fig-split",
+     "title": "Split- vs. Ganzkörpertraining bei gleichem Volumen",
+     "cap": "Mittlere Differenz des Kraftzuwachses in kg mit 95-%-KI (Ramos-Campo et al., 2024). Werte rechts von 0 begünstigen Splittraining.",
+     "wide": true,
+     "type": "forest",
+     "data": [
+      {
+       "l": "Bankdrücken",
+       "sub": "Ramos-Campo et al., 2024",
+       "es": 1.19,
+       "lo": -1.28,
+       "hi": 3.65
+      },
+      {
+       "l": "Beinkraft",
+       "sub": "Ramos-Campo et al., 2024",
+       "es": 2.47,
+       "lo": -2.11,
+       "hi": 7.05
+      }
+     ],
+     "opts": {
+      "min": -3,
+      "max": 8,
+      "ticks": [
+       -2,
+       0,
+       2,
+       4,
+       6
+      ],
+      "unit": "kg",
+      "leftLab": "Ganzkörper besser",
+      "rightLab": "Split besser"
+     }
+    }
+   ],
+   "s": [
+    "grgic2018f",
+    "ralston2018",
+    "ramoscampo2024",
+    "pelland2026",
+    "pelland2024",
+    "acsm2026",
+    "cuthbert2021"
+   ]
+  },
+  {
+   "id": "versagen",
+   "name": "Nähe zum Muskelversagen",
+   "q": "Muss jeder Satz bis zum Versagen gehen?",
+   "ev": "hoch",
+   "key": [
+    "Training ohne Versagen brachte einen kleinen Vorteil (ES 0,34; p = 0,02), vor allem bei Mehrgelenksübungen und Trainierten (Davies et al., 2016; 8 Studien).",
+    "Kein Unterschied insgesamt (ES −0,09 [−0,22; 0,05]); bei nicht angeglichenem Volumen war Training ohne Versagen überlegen (ES −0,32 [−0,57; −0,07]) (Grgic et al., 2022).",
+    "Wie viel Geschwindigkeit im Satz verloren geht (ein Maß für die Nähe zum Versagen), beeinflusste den Kraftzuwachs nicht; höhere Geschwindigkeitsverluste förderten nur die Hypertrophie (Jukic et al., 2023).",
+    "Als kontinuierliche Größe (Wiederholungen in Reserve) hatte die Nähe zum Versagen keinen relevanten Einfluss auf Kraft (Robinson et al., 2024).",
+    "Positionspapier 2026: Training bis zur momentanen Ermüdung beeinflusste die Ergebnisse nicht durchgängig (Currier et al., 2026).",
+    "Kein Unterschied insgesamt (SMD −0,20; p = 0,239); bei ungleichem Volumen Vorteil ohne Versagen (SMD −0,61; p = 0,025) (Vieira et al., 2021)."
+   ],
+   "critic": "Fünf Übersichtsarbeiten mit unterschiedlichen Methoden kommen zum selben Ergebnis, daher Evidenz hoch. Die ältere Analyse fand sogar einen kleinen Vorteil ohne Versagen; neuere, größere Analysen zeigen eher keinen Unterschied. Beides spricht gegen Versagenstraining für Maximalkraft. Einschränkung: In vielen Studien musste die Nähe zum Versagen nachträglich geschätzt werden.",
+   "figs": [
+    {
+     "id": "fig-fail",
+     "title": "Bis zum Versagen vs. ohne Versagen",
+     "cap": "Effektstärke mit 95-%-KI. Werte links von 0 begünstigen Training ohne Versagen. Für Davies et al. (2016) ist im Abstract kein Intervall angegeben.",
+     "wide": true,
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Studien",
+       "sub": "Davies et al., 2016",
+       "es": -0.34
+      },
+      {
+       "l": "Alle Studien",
+       "sub": "Grgic et al., 2022",
+       "es": -0.09,
+       "lo": -0.22,
+       "hi": 0.05
+      },
+      {
+       "l": "Volumen nicht angeglichen",
+       "sub": "Vieira et al., 2021",
+       "es": -0.61
+      },
+      {
+       "l": "Volumen nicht angeglichen",
+       "sub": "Grgic et al., 2022",
+       "es": -0.32,
+       "lo": -0.57,
+       "hi": -0.07
+      }
+     ],
+     "opts": {
+      "min": -0.8,
+      "max": 0.3,
+      "ticks": [
+       -0.8,
+       -0.6,
+       -0.4,
+       -0.2,
+       0,
+       0.2
+      ],
+      "leftLab": "ohne Versagen besser",
+      "rightLab": "bis zum Versagen besser"
+     }
+    }
+   ],
+   "s": [
+    "davies2016",
+    "grgic2022",
+    "jukic2023",
+    "robinson2024",
+    "acsm2026",
+    "vieira2021"
+   ]
+  },
+  {
+   "id": "ausfuehrung",
+   "name": "Ausführung: Tempo, Bewegungsumfang, Reihenfolge",
+   "q": "Wie sollen die Wiederholungen ausgeführt werden?",
+   "ev": "moderat",
+   "key": [
+    "Absichtlich langsames konzentrisches Heben brachte weniger Kraftzuwachs als zügiges oder normales Tempo (ES 0,21 [0,02; 0,41]; 24 Studien) (Hermes &amp; Fry, 2023).",
+    "Schnelles und moderat-langsames Training wirkten insgesamt ähnlich; bei 60–79 % 1RM Tendenz zugunsten schneller Ausführung (ES 0,31; p = 0,06) (Davies et al., 2017).",
+    "Dauer der exzentrischen Phase: insgesamt unklarer Effekt auf Kraft; bei Trainierten führten längere Exzentrik gleich gute oder bessere Zuwächse herbei (g 0,33; 90-%-KI 0,07–0,60) (Amdi &amp; King, 2025).",
+    "Voller Bewegungsumfang steigerte die Kraft stärker als Teilbewegungen (ES 0,56; p = 0,004) (Pallarés et al., 2021).",
+    "Übungen zu Beginn der Einheit gewinnen am meisten Kraft: Mehrgelenksübungen profitieren davon, zuerst trainiert zu werden (ES 0,32), Eingelenksübungen ebenso (Nunes et al., 2021).",
+    "Das Positionspapier 2026 bestätigt vollen Bewegungsumfang und Kraftübungen zu Beginn der Einheit (Currier et al., 2026)."
+   ],
+   "critic": "Bewegungsumfang und Reihenfolge sind gut belegt und durch das Positionspapier bestätigt. Beim Tempo widersprechen sich zwei Metaanalysen teilweise: Davies et al. fanden keinen Unterschied, Hermes und Fry mit mehr Studien einen kleinen Vorteil gegen absichtlich langsames Heben. Wahrscheinlich gilt: konzentrisch nicht absichtlich bremsen. Die Ergebnisse zur Exzentrik sind unsicher (9 Studien, 90-%-Intervalle).",
+   "figs": [
+    {
+     "id": "fig-ausf",
+     "title": "Ausführungsvarianten im Vergleich",
+     "cap": "Effektstärke; Werte rechts von 0 begünstigen die erstgenannte Variante. Intervalle: 95 % bei Hermes und Fry, 90 % bei Amdi und King; für Pallarés et al. und Nunes et al. nennen die Abstracts keine Intervalle.",
+     "wide": true,
+     "type": "forest",
+     "data": [
+      {
+       "l": "Zügig/normal vs. absichtlich langsam",
+       "sub": "Hermes & Fry, 2023",
+       "es": 0.21,
+       "lo": 0.02,
+       "hi": 0.41
+      },
+      {
+       "l": "Voller vs. teilweiser Bewegungsumfang",
+       "sub": "Pallarés et al., 2021",
+       "es": 0.56
+      },
+      {
+       "l": "Mehrgelenksübung zuerst vs. zuletzt",
+       "sub": "Nunes et al., 2021",
+       "es": 0.32
+      },
+      {
+       "l": "Längere vs. kürzere Exzentrik, alle",
+       "sub": "Amdi & King, 2025 (90-%-KI)",
+       "es": 0.25,
+       "lo": -0.17,
+       "hi": 0.67
+      },
+      {
+       "l": "Längere vs. kürzere Exzentrik, Trainierte",
+       "sub": "Amdi & King, 2025 (90-%-KI)",
+       "es": 0.33,
+       "lo": 0.07,
+       "hi": 0.6
+      }
+     ],
+     "opts": {
+      "min": -0.3,
+      "max": 0.8,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "leftLab": "zweite Variante besser",
+      "rightLab": "erste Variante besser"
+     }
+    }
+   ],
+   "s": [
+    "hermes2023",
+    "davies2017",
+    "amdi2025",
+    "pallares2021",
+    "nunes2021",
+    "acsm2026"
+   ]
+  },
+  {
+   "id": "pausen",
+   "name": "Satzpausen",
+   "q": "Wie lange zwischen den Sätzen pausieren?",
+   "ev": "niedrig",
+   "key": [
+    "Auch mit kurzen Pausen (< 60 s) sind deutliche Kraftzuwächse möglich; für Untrainierte reichen 60–120 s (Grgic et al., 2018b).",
+    "Für Trainierte werden längere Pausen (> 2 min) empfohlen, um den Kraftzuwachs zu maximieren (Grgic et al., 2018b).",
+    "Eine Metaanalyse bei Männern mit über einem Jahr Trainingserfahrung fand gepoolt einen Kraftvorteil für Pausen über 60 s (SMD 0,74 [0,29; 1,19]) (Davidson &amp; Barillas, 2025, Preprint)."
+   ],
+   "critic": "Schwächste Evidenz auf dieser Seite. Die Metaanalyse ist ein nicht begutachteter Preprint mit nur drei Studien im Kraft-Vergleich, die sich teils widersprechen (eine Studie begünstigt kurze Pausen), und mit Unstimmigkeiten im Text. Der gepoolte Effekt passt aber zur Empfehlung des älteren Reviews. Längere Pausen erlauben mehr Last und Wiederholungen pro Satz, wirken also wahrscheinlich über das Volumen.",
+   "figs": [
+    {
+     "id": "fig-rest",
+     "title": "Längere (> 60 s) vs. kürzere (< 60 s) Pausen, Kraft",
+     "cap": "SMD der Einzelstudien und gepoolter Wert mit 95-%-KI (Davidson & Barillas, 2025, Preprint). Werte rechts von 0 begünstigen längere Pausen. Für die Einzelstudien sind keine Intervalle berichtet.",
+     "wide": true,
+     "type": "forest",
+     "data": [
+      {
+       "l": "de Salles et al., 2010",
+       "sub": "Einzelstudie",
+       "es": 1.31
+      },
+      {
+       "l": "Schoenfeld et al., 2016",
+       "sub": "Einzelstudie",
+       "es": 0.26
+      },
+      {
+       "l": "Fink et al., 2016",
+       "sub": "Einzelstudie",
+       "es": -0.65
+      },
+      {
+       "l": "Gepoolt",
+       "sub": "Davidson & Barillas, 2025",
+       "es": 0.74,
+       "lo": 0.29,
+       "hi": 1.19,
+       "pooled": true
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 1.6,
+      "ticks": [
+       -0.8,
+       -0.4,
+       0,
+       0.4,
+       0.8,
+       1.2
+      ],
+      "leftLab": "kürzere Pausen besser",
+      "rightLab": "längere Pausen besser"
+     }
+    }
+   ],
+   "s": [
+    "grgic2018r",
+    "davidson2025"
+   ]
+  },
+  {
+   "id": "periodisierung",
+   "name": "Periodisierung und Trainingsmethoden",
+   "q": "Lohnen sich geplante Variation und Spezialmethoden?",
+   "ev": "moderat",
+   "key": [
+    "Periodisierte Pläne steigerten das 1RM stärker als nicht periodisierte (ES 0,43 [0,27; 0,58]; 18 Studien) (Williams et al., 2017).",
+    "Bei angeglichenem Volumen kleinerer Vorteil (ES 0,31 [0,04; 0,57]; 35 Studien); undulierend schlug linear (ES 0,31), vor allem bei Trainierten (ES 0,61) (Moesgaard et al., 2022).",
+    "Positionspapier 2026: Periodisierung, Satzstruktur, Geräteart und Komplexität der Übungen beeinflussten die Ergebnisse nicht durchgängig (Currier et al., 2026).",
+    "Sieben Spezialmethoden (z. B. Cluster-Sätze, Schwungrad, betonte Exzentrik) waren klassischem Training bei Kraft nicht überlegen; alle Intervalle schlossen 0 ein (Cowley et al., 2026).",
+    "17 Studien mit 510 Personen: kein Unterschied zwischen linearer und undulierender Periodisierung für Ober- oder Unterkörperkraft (Harries et al., 2015).",
+    "Periodisierung ist in Studien uneinheitlich definiert; dadurch lässt sich ihre Überlegenheit kaum experimentell prüfen (Kataoka et al., 2021).",
+    "Cluster-Sätze und klassische Sätze wirkten gleich auf Kraft (ES −0,05 [−0,21; 0,11]) und Hypertrophie, Cluster-Sätze bei weniger Ermüdung (Davies et al., 2021).",
+    "Alternative Satzstrukturen (Cluster, Pausenumverteilung) hatten keinen relevanten Einfluss auf Kraft (SMD −0,06) und Hypertrophie, verbesserten aber Geschwindigkeit und Schnellkraft (Jukic et al., 2021).",
+    "Supramaximales exzentrisches Training war für das 1RM im Unterkörper nicht wirksamer als klassisches Training (0,33 [−0,20; 0,79]) (Buskard et al., 2018).",
+    "Schwungradtraining war schwerkraftbasiertem Training bei der Kraft nicht überlegen (SMD −0,05 [−0,51; 0,40]) (Vicens-Bordas et al., 2018)."
+   ],
+   "critic": "Neuer Widerspruch: Die Metaanalysen zum 1RM finden einen kleinen Vorteil, das Positionspapier von 2026 auf Basis von 137 Reviews keinen durchgängigen Effekt. Das Positionspapier steht in der Evidenzhierarchie höher und ist neuer, fasst aber viele Zielgrößen zusammen; die spezifischen 1RM-Analysen zeigen kleine Effekte mit Intervallen nahe 0. Wahrscheinlichste Lesart: Periodisierung kann das 1RM leicht verbessern, ist aber kein entscheidender Faktor. Für Spezialmethoden gibt es bei Untrainierten bis mäßig Trainierten keinen Vorteil; Hochtrainierte sind kaum untersucht. Ergänzung: Auch direkte Vergleiche von linearer und undulierender Periodisierung (Harries et al., 2015) und Spezialmethoden wie Cluster-Sätze, Schwungrad oder supramaximale Exzentrik zeigen keinen Kraftvorteil. Zudem ist Periodisierung uneinheitlich definiert. Das stützt die Lesart des Positionspapiers: geplante Variation ist sinnvoll, aber kein entscheidender Faktor.",
+   "figs": [
+    {
+     "id": "fig-per",
+     "title": "Periodisierungsvergleiche",
+     "cap": "Effektstärke mit 95-%-KI. Werte rechts von 0 begünstigen die erstgenannte Variante.",
+     "wide": true,
+     "type": "forest",
+     "data": [
+      {
+       "l": "Periodisiert vs. nicht periodisiert",
+       "sub": "Williams et al., 2017",
+       "es": 0.43,
+       "lo": 0.27,
+       "hi": 0.58
+      },
+      {
+       "l": "Periodisiert vs. nicht, gleiches Volumen",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.31,
+       "lo": 0.04,
+       "hi": 0.57
+      },
+      {
+       "l": "Undulierend vs. linear",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.31,
+       "lo": 0.02,
+       "hi": 0.61
+      },
+      {
+       "l": "Undulierend vs. linear, nur Trainierte",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.61,
+       "lo": 0,
+       "hi": 1.22
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.4,
+      "ticks": [
+       0,
+       0.3,
+       0.6,
+       0.9,
+       1.2
+      ],
+      "leftLab": "zweite Variante besser",
+      "rightLab": "erste Variante besser"
+     }
+    },
+    {
+     "id": "mk-meth",
+     "title": "Spezialmethoden vs. klassisches Training",
+     "cap": "Effektstärke mit 95-%-KI; Werte rechts von 0 begünstigen die Spezialmethode. Für Jukic et al. ist kein Intervall angegeben.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Cluster-Sätze",
+       "sub": "Davies et al., 2021",
+       "es": -0.05,
+       "lo": -0.21,
+       "hi": 0.11
+      },
+      {
+       "l": "Alternative Satzstrukturen",
+       "sub": "Jukic et al., 2021",
+       "es": -0.06
+      },
+      {
+       "l": "Supramaximale Exzentrik (Unterkörper-1RM)",
+       "sub": "Buskard et al., 2018",
+       "es": 0.33,
+       "lo": -0.2,
+       "hi": 0.79
+      },
+      {
+       "l": "Schwungradtraining",
+       "sub": "Vicens-Bordas et al., 2018",
+       "es": -0.05,
+       "lo": -0.51,
+       "hi": 0.4
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.9,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "leftLab": "klassisch besser",
+      "rightLab": "Spezialmethode besser"
+     }
+    }
+   ],
+   "s": [
+    "williams2017",
+    "moesgaard2022",
+    "acsm2026",
+    "cowley2026",
+    "harries2015",
+    "kataoka2021",
+    "davies2021",
+    "jukic2021",
+    "buskard2018",
+    "vicens2018"
+   ]
+  },
+  {
+   "id": "uebung",
+   "name": "Übungsauswahl und Spezifität",
+   "q": "Welche Übungen und Geräte?",
+   "ev": "hoch",
+   "key": [
+    "43 Studien: dynamisches Training steigerte die dynamische Kraft deutlich (SMD 0,98 [0,91; 1,06]), die nicht trainierte isometrische Kraft nur halb so stark (SMD 0,42 [0,35; 0,49]) (Saeterbakken et al., 2025).",
+    "Isometrisches Training steigerte die isometrische Kraft stärker als dynamisches (SMD 0,43), die isokinetische Kraft gleich (Ghayomzadeh et al., 2025).",
+    "Bilaterales Training steigerte die beidbeinige Kraft stärker (ES 0,56 [0,16; 0,96]), einbeiniges die einbeinige; Hypertrophie gleich (Kassiano et al., 2025).",
+    "Maschinen und freie Gewichte: Wer Kraft steigern will, sollte so trainieren, wie die Kraft getestet bzw. gebraucht wird; für allgemeine Kraft und Muskelmasse ist die Wahl frei (Heidel et al., 2022).",
+    "Variabler Widerstand mit Ketten oder Bändern brachte 5,03 kg mehr Maximalkraft als klassisches Training [2,26; 7,80] (Soria-Gila et al., 2015).",
+    "Variabler Widerstand: Vorteil bei Untrainierten unter 80 % 1RM, kein Unterschied bei Lasten ≥ 80 % 1RM (ES −0,04 [−0,89; 0,81]) (Lin et al., 2022).",
+    "17 Studien: variabler und klassischer Widerstand gleich wirksam für Maximalkraft im Unter- (SMD −0,10) und Oberkörper (SMD −0,17) (Andersen et al., 2022)."
+   ],
+   "critic": "Spezifität ist der rote Faden: Kraft steigt am stärksten in der trainierten Bewegung und Kontraktionsform. Bei variablem Widerstand (Bänder, Ketten) widersprechen sich die Analysen: Die ältere fand einen Vorteil, die neueren keinen bzw. nur bei Untrainierten unter 80 % 1RM. Wahrscheinlich ist variabler Widerstand eine Option, aber kein Muss.",
+   "figs": [
+    {
+     "id": "mk-spez2",
+     "title": "Spezifität: trainierte vs. nicht trainierte Testform",
+     "cap": "SMD mit 95-%-KI (Saeterbakken et al., 2025).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Dynamische Kraft (trainiert)",
+       "sub": "Saeterbakken et al., 2025",
+       "es": 0.98,
+       "lo": 0.91,
+       "hi": 1.06
+      },
+      {
+       "l": "Isometrische Kraft (nicht trainiert)",
+       "sub": "Saeterbakken et al., 2025",
+       "es": 0.42,
+       "lo": 0.35,
+       "hi": 0.49
+      }
+     ],
+     "opts": {
+      "min": 0,
+      "max": 1.2,
+      "ticks": [
+       0,
+       0.3,
+       0.6,
+       0.9,
+       1.2
+      ]
+     }
+    }
+   ],
+   "s": [
+    "saeterbakken2025",
+    "ghayomzadeh2025",
+    "kassiano2025",
+    "heidel2022",
+    "soriagila2015",
+    "lin2022",
+    "andersen2022"
+   ]
+  },
+  {
+   "id": "steuerung",
+   "name": "Belastungssteuerung",
+   "q": "% 1RM, Wiederholungsmaximum oder Geschwindigkeit?",
+   "ev": "moderat",
+   "key": [
+    "% 1RM und Wiederholungsmaximum (RM) steigerten beide die Maximalkraft; % 1RM erschien etwas günstiger, möglicherweise durch bessere Ermüdungssteuerung, bei hoher Heterogenität (Thompson et al., 2020).",
+    "Geschwindigkeits- vs. prozentbasiertes Training: kein Unterschied im Kniebeuge-1RM (MD 3,03 kg [−3,55; 9,61]), Sprung, Sprint und Richtungswechsel (Liao et al., 2021).",
+    "Geschwindigkeitsbasiertes Training war bei der Maximalkraft möglicherweise wirksamer als prozentbasiertes (Zhang et al., 2022).",
+    "Keine Belege für unterschiedliche Effekte von geschwindigkeitsbasiertem und klassischem Training auf Kraft, Schnellkraft oder Sprint; geringe Evidenzqualität (Orange et al., 2022).",
+    "Bei geschwindigkeitsbasiertem Training waren lineare, undulierende und konstante Programmierung wirksam; ein Wechsel des Modells etwa alle 9 Wochen könnte Stagnation vorbeugen (Zhang et al., 2023)."
+   ],
+   "critic": "Geschwindigkeitsbasiertes Training ist eine gleichwertige Methode, aber nach den neueren Analysen kein klarer Vorteil; die ältere positive Analyse hatte weniger Studien. Die Wahl kann sich nach Ausstattung und Ziel richten.",
+   "figs": [],
+   "s": [
+    "thompson2020",
+    "liao2021",
+    "zhang2022",
+    "orange2022",
+    "zhang2023"
+   ]
+  },
+  {
+   "id": "gruppen",
+   "name": "Frauen und Männer",
+   "q": "Gelten die Empfehlungen für Frauen genauso?",
+   "ev": "hoch",
+   "key": [
+    "Männer und Frauen mit gleichem Programm: gleiche Hypertrophie und Unterkörperkraft; relative Oberkörperkraft stieg bei Frauen stärker (ES −0,60 zugunsten Frauen) (Roberts et al., 2020).",
+    "Gesunde Frauen: große Kraftzuwächse im Oberkörper (g 1,70); Volumen und Frequenz scheinen wichtige Einflussgrößen (Hagstrom et al., 2020).",
+    "Junge Frauen: höheres Trainingsvolumen ging mit größeren Kraftzuwächsen einher (Molinari et al., 2024).",
+    "126 Studien mit 4 019 Frauen: vergleichbare Kraftzuwächse vor (SMD 1,50 [1,28; 1,73]) und nach der Menopause (SMD 1,46 [1,26; 1,67]) (Isenmann et al., 2026)."
+   ],
+   "critic": "Konsistent: Frauen reagieren auf Krafttraining relativ mindestens so stark wie Männer, unabhängig von der Menopause. Allgemeine Trainingsempfehlungen sind übertragbar; geschlechtsspezifische Programme sind nach diesen Daten nicht nötig.",
+   "figs": [
+    {
+     "id": "mk-frauen",
+     "title": "Kraftzuwachs bei Frauen vor und nach der Menopause",
+     "cap": "SMD mit 95-%-KI gegenüber Kontrolle (Isenmann et al., 2026).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Vor der Menopause",
+       "sub": "Isenmann et al., 2026",
+       "es": 1.5,
+       "lo": 1.28,
+       "hi": 1.73
+      },
+      {
+       "l": "Nach der Menopause",
+       "sub": "Isenmann et al., 2026",
+       "es": 1.46,
+       "lo": 1.26,
+       "hi": 1.67
+      }
+     ],
+     "opts": {
+      "min": 0,
+      "max": 2,
+      "ticks": [
+       0,
+       0.5,
+       1,
+       1.5,
+       2
+      ]
+     }
+    }
+   ],
+   "s": [
+    "roberts2020",
+    "hagstrom2020",
+    "molinari2024",
+    "isenmann2026"
+   ]
+  },
+  {
+   "id": "anpassungen",
+   "name": "Warum wird man stärker?",
+   "q": "Neuronale und muskuläre Anpassungen",
+   "ev": "moderat",
+   "key": [
+    "Kraftzuwachs am ganzen Muskel (43,3 %) deutlich größer als an der einzelnen Muskelfaser (19,5 %), bei ähnlicher Hypertrophie (4,6 % vs. 7,0 %); spricht für einen großen neuronalen Anteil (Dankel et al., 2019).",
+    "30 Studien: Krafttraining führte zu kortikalen und subkortikalen Anpassungen, die die Ansteuerung der Motoneurone erhöhen (Kraftzuwachs SMD 0,67 [0,41; 0,94]) (Siddique et al., 2020).",
+    "Maximalkrafttraining verschiebt Fasertypen (weniger Typ IIx), vergrößert den Fiederungswinkel und erhöht die EMG-Aktivität (Rong et al., 2025)."
+   ],
+   "critic": "Die Befunde erklären, warum Spezifität so wichtig ist: Ein großer Teil des Kraftzuwachses entsteht im Nervensystem und ist an die trainierte Bewegung gebunden. Für die Praxis folgt daraus vor allem, die Zielbewegung schwer und regelmäßig zu üben.",
+   "figs": [],
+   "s": [
+    "dankel2019",
+    "siddique2020",
+    "rong2025"
+   ]
+  },
+  {
+   "id": "rahmen",
+   "name": "Tageszeit und Trainingspausen",
+   "q": "Wann trainieren, was passiert bei Pausen?",
+   "ev": "moderat",
+   "key": [
+    "Morgens oder abends trainieren: ähnliche Kraft- und Muskelzuwächse; akut ist die Kraft abends höher (Grgic et al., 2019).",
+    "Trainingspausen senken alle Komponenten der Muskelkraft; stärker bei über 65-Jährigen und bei Inaktiven (Bosquet et al., 2013)."
+   ],
+   "critic": "Beide Fragen sind praktisch relevant, aber nur mit wenigen Übersichtsarbeiten belegt. Die Tageszeit spielt langfristig kaum eine Rolle; Trainingspausen kosten Kraft, vor allem bei Älteren und Inaktiven.",
+   "figs": [],
+   "s": [
+    "grgic2019",
+    "bosquet2013"
+   ]
+  }
+ ],
+ "sources": {
+  "acsm2026": {
+   "short": "Currier et al., 2026 (ACSM)",
+   "year": 2026,
+   "type": "Positionspapier (Umbrella Review)",
+   "basis": "Abstract",
+   "pmid": "41843416",
+   "apa": "Currier, B. S., D’Souza, A. C., Singh, M. A. F., Lowisz, C. V., Rawson, E. S., Schoenfeld, B. J., Smith-Ryan, A. E., Steen, J. P., Thomas, G. A., Triplett, N. T., Washington, T. A., Werner, T. J. &amp; Phillips, S. M. (2026). American College of Sports Medicine position stand. Resistance training prescription for muscle function, hypertrophy, and physical performance in healthy adults: An overview of reviews. <em>Medicine &amp; Science in Sports &amp; Exercise, 58</em>(4), 851–872.",
+   "doi": "10.1249/MSS.0000000000003897"
+  },
+  "amdi2025": {
+   "short": "Amdi & King, 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40692176",
+   "apa": "Amdi, C. H. &amp; King, A. (2025). The effect of eccentric phase duration on maximal strength, muscle hypertrophy and countermovement jump height: A systematic review and meta-analysis. <em>Journal of Sports Sciences, 43</em>(20), 2447–2464.",
+   "doi": "10.1080/02640414.2025.2535198"
+  },
+  "cowley2026": {
+   "short": "Cowley et al., 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41951916",
+   "apa": "Cowley, N., Nicholson, V., Timmins, R., Munteanu, G. &amp; Weakley, J. (2026). The effects of advanced resistance training prescription methods on strength, power, hypertrophy, and performance adaptations in healthy adults: A systematic review and Bayesian network meta-analysis. <em>Sports Medicine, 56</em>(8), 1955–1977.",
+   "doi": "10.1007/s40279-026-02428-1"
+  },
+  "davies2016": {
+   "short": "Davies et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26666744",
+   "apa": "Davies, T., Orr, R., Halaki, M. &amp; Hackett, D. (2016). Effect of training leading to repetition failure on muscular strength: A systematic review and meta-analysis. <em>Sports Medicine, 46</em>(4), 487–502.",
+   "doi": "10.1007/s40279-015-0451-3"
+  },
+  "davies2017": {
+   "short": "Davies et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28105573",
+   "apa": "Davies, T. B., Kuang, K., Orr, R., Halaki, M. &amp; Hackett, D. (2017). Effect of movement velocity during resistance training on dynamic muscular strength: A systematic review and meta-analysis. <em>Sports Medicine, 47</em>(8), 1603–1617.",
+   "doi": "10.1007/s40279-017-0676-4"
+  },
+  "hammert2026": {
+   "short": "Hammert et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41381816",
+   "apa": "Hammert, W. B., Kataoka, R., Yamada, Y., Sallberg, R. W., Kang, A., Buckner, S. L. &amp; Loenneke, J. P. (2026). Non-specific strength changes between high- and low-load isotonic resistance training: A systematic review and meta-analysis. <em>Sports Medicine, 56</em>(3), 763–773.",
+   "doi": "10.1007/s40279-025-02370-8"
+  },
+  "hermes2023": {
+   "short": "Hermes & Fry, 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37494124",
+   "apa": "Hermes, M. J. &amp; Fry, A. C. (2023). Intentionally slow concentric velocity resistance exercise and strength adaptations: A meta-analysis. <em>Journal of Strength and Conditioning Research, 37</em>(8), e470–e484.",
+   "doi": "10.1519/JSC.0000000000004490"
+  },
+  "jukic2023": {
+   "short": "Jukic et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36178597",
+   "apa": "Jukic, I., Castilla, A. P., Ramos, A. G., Van Hooren, B., McGuigan, M. R. &amp; Helms, E. R. (2023). The acute and chronic effects of implementing velocity loss thresholds during resistance training: A systematic review, meta-analysis, and critical evaluation of the literature. <em>Sports Medicine, 53</em>(1), 177–214.",
+   "doi": "10.1007/s40279-022-01754-4"
+  },
+  "krieger2009": {
+   "short": "Krieger, 2009",
+   "year": 2009,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "pmid": "19661829",
+   "apa": "Krieger, J. W. (2009). Single versus multiple sets of resistance exercise: A meta-regression. <em>Journal of Strength and Conditioning Research, 23</em>(6), 1890–1901.",
+   "doi": "10.1519/JSC.0b013e3181b370be"
+  },
+  "lopez2021": {
+   "short": "Lopez et al., 2021",
+   "year": 2021,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33433148",
+   "apa": "Lopez, P., Radaelli, R., Taaffe, D. R., Newton, R. U., Galvão, D. A., Trajano, G. S., Teodoro, J. L., Kraemer, W. J., Häkkinen, K. &amp; Pinto, R. S. (2021). Resistance training load effects on muscle hypertrophy and strength gain: Systematic review and network meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 53</em>(6), 1206–1216.",
+   "doi": "10.1249/MSS.0000000000002585"
+  },
+  "lyristakis2026": {
+   "short": "Lyristakis et al., 2026",
+   "year": 2026,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "pmid": "41995957",
+   "apa": "Lyristakis, P., Wundersitz, D., Cousins, S., Huynh, M., Zadow, E. &amp; Gordon, B. A. (2026). The influence of individual resistance training variables on muscle strength: A systematic review and meta-analysis. <em>Sports Medicine, 56</em>(8), 2001–2015.",
+   "doi": "10.1007/s40279-026-02432-5"
+  },
+  "nunes2021": {
+   "short": "Nunes et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32077380",
+   "apa": "Nunes, J. P., Grgic, J., Cunha, P. M., Ribeiro, A. S., Schoenfeld, B. J., de Salles, B. F. &amp; Cyrino, E. S. (2021). What influence does resistance exercise order have on muscular strength gains and muscle hypertrophy? A systematic review and meta-analysis. <em>European Journal of Sport Science, 21</em>(2), 149–157.",
+   "doi": "10.1080/17461391.2020.1733672"
+  },
+  "pallares2021": {
+   "short": "Pallarés et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34170576",
+   "apa": "Pallarés, J. G., Hernández-Belmonte, A., Martínez-Cava, A., Vetrovsky, T., Steffl, M. &amp; Courel-Ibáñez, J. (2021). Effects of range of motion on resistance training adaptations: A systematic review and meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 31</em>(10), 1866–1881.",
+   "doi": "10.1111/sms.14006"
+  },
+  "ramoscampo2024": {
+   "short": "Ramos-Campo et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38595233",
+   "apa": "Ramos-Campo, D. J., Benito-Peinado, P. J., Andreu-Caravaca, L., Rojo-Tirado, M. A. &amp; Rubio-Arias, J. Á. (2024). Efficacy of split versus full-body resistance training on strength and muscle growth: A systematic review with meta-analysis. <em>Journal of Strength and Conditioning Research, 38</em>(7), 1330–1340.",
+   "doi": "10.1519/JSC.0000000000004774"
+  },
+  "spitz2023": {
+   "short": "Spitz et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36396899",
+   "apa": "Spitz, R. W., Kataoka, R., Dankel, S. J., Bell, Z. W., Song, J. S., Wong, V., Yamada, Y. &amp; Loenneke, J. P. (2023). Quantifying the generality of strength adaptation: A meta-analysis. <em>Sports Medicine, 53</em>(3), 637–648.",
+   "doi": "10.1007/s40279-022-01790-0"
+  },
+  "androulakis2020": {
+   "short": "Androulakis-Korakakis et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31797219",
+   "apa": "Androulakis-Korakakis, P., Fisher, J. P. &amp; Steele, J. (2020). The minimum effective training dose required to increase 1RM strength in resistance-trained men: A systematic review and meta-analysis. <em>Sports Medicine, 50</em>(4), 751–765.",
+   "doi": "10.1007/s40279-019-01236-0"
+  },
+  "berger1962": {
+   "short": "Berger, 1962",
+   "year": 1962,
+   "type": "Einzelstudie",
+   "basis": "Abstract",
+   "apa": "Berger, R. A. (1962). Effect of varied weight training programs on strength. <em>Research Quarterly, 33</em>(2), 168–181."
+  },
+  "carpinelli2002": {
+   "short": "Carpinelli, 2002",
+   "year": 2002,
+   "type": "Kritischer Review",
+   "basis": "Abstract",
+   "pmid": "12351327",
+   "apa": "Carpinelli, R. N. (2002). Berger in retrospect: Effect of varied weight training programmes on strength. <em>British Journal of Sports Medicine, 36</em>(5), 319–324.",
+   "doi": "10.1136/bjsm.36.5.319"
+  },
+  "currier2023": {
+   "short": "Currier et al., 2023",
+   "year": 2023,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37414459",
+   "apa": "Currier, B. S., Mcleod, J. C., Banfield, L., Beyene, J., Welton, N. J., D’Souza, A. C., Keogh, J. A. J., Lin, L., Coletta, G., Yang, A., Colenso-Semple, L., Lau, K. J., Verboom, A. &amp; Phillips, S. M. (2023). Resistance training prescription for muscle strength and hypertrophy in healthy adults: A systematic review and Bayesian network meta-analysis. <em>British Journal of Sports Medicine, 57</em>(18), 1211–1220.",
+   "doi": "10.1136/bjsports-2023-106807"
+  },
+  "davidson2025": {
+   "short": "Davidson & Barillas, 2025",
+   "year": 2025,
+   "type": "Metaanalyse (Preprint, nicht begutachtet)",
+   "basis": "Volltext",
+   "flag": "Autorenangabe ungeprüft",
+   "apa": "Davidson, L. &amp; Barillas, S. (2025). <em>Investigating the impact of less than or greater than 60 seconds of inter-set rest on muscle hypertrophy and strength increases in males with &gt;1 year of resistance training experience: Systematic review with meta-analysis</em> [Preprint]. medRxiv.",
+   "doi": "10.1101/2025.09.22.25336351"
+  },
+  "grgic2018f": {
+   "short": "Grgic et al., 2018a",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29470825",
+   "apa": "Grgic, J., Schoenfeld, B. J., Davies, T. B., Lazinica, B., Krieger, J. W. &amp; Pedisic, Z. (2018a). Effect of resistance training frequency on gains in muscular strength: A systematic review and meta-analysis. <em>Sports Medicine, 48</em>(5), 1207–1220.",
+   "doi": "10.1007/s40279-018-0872-x"
+  },
+  "grgic2018r": {
+   "short": "Grgic et al., 2018b",
+   "year": 2018,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "28933024",
+   "apa": "Grgic, J., Schoenfeld, B. J., Skrepnik, M., Davies, T. B. &amp; Mikulic, P. (2018b). Effects of rest interval duration in resistance training on measures of muscular strength: A systematic review. <em>Sports Medicine, 48</em>(1), 137–151.",
+   "doi": "10.1007/s40279-017-0788-x"
+  },
+  "grgic2022": {
+   "short": "Grgic et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33497853",
+   "apa": "Grgic, J., Schoenfeld, B. J., Orazem, J. &amp; Sabol, F. (2022). Effects of resistance training performed to repetition failure or non-failure on muscular strength and hypertrophy: A systematic review and meta-analysis. <em>Journal of Sport and Health Science, 11</em>(2), 202–211.",
+   "doi": "10.1016/j.jshs.2021.01.007"
+  },
+  "moesgaard2022": {
+   "short": "Moesgaard et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35044672",
+   "apa": "Moesgaard, L., Beck, M. M., Christiansen, L., Aagaard, P. &amp; Lundbye-Jensen, J. (2022). Effects of periodization on strength and muscle hypertrophy in volume-equated resistance training programs: A systematic review and meta-analysis. <em>Sports Medicine, 52</em>(7), 1647–1666.",
+   "doi": "10.1007/s40279-021-01636-1"
+  },
+  "pelland2024": {
+   "short": "Pelland et al., 2024",
+   "year": 2024,
+   "type": "Metaregression (Preprint)",
+   "basis": "Volltext",
+   "apa": "Pelland, J. C., Remmert, J. F., Robinson, Z. P., Hinson, S. R. &amp; Zourdos, M. C. (2024). <em>The resistance training dose-response: Meta-regressions exploring the effects of weekly volume and frequency on muscle hypertrophy and strength gain</em> [Preprint]. SportRxiv.",
+   "doi": "10.51224/SRXIV.460"
+  },
+  "pelland2026": {
+   "short": "Pelland et al., 2026",
+   "year": 2026,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "apa": "Pelland, J. C., Remmert, J. F., Robinson, Z. P., Hinson, S. R. &amp; Zourdos, M. C. (2026). The resistance training dose response: Meta-regressions exploring the effects of weekly volume and frequency on muscle hypertrophy and strength gains. <em>Sports Medicine, 56</em>(2), 481–505.",
+   "doi": "10.1007/s40279-025-02344-w",
+   "pmid": "41343037"
+  },
+  "peterson2004": {
+   "short": "Peterson et al., 2004",
+   "year": 2004,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "15142003",
+   "apa": "Peterson, M. D., Rhea, M. R. &amp; Alvar, B. A. (2004). Maximizing strength development in athletes: A meta-analysis to determine the dose-response relationship. <em>Journal of Strength and Conditioning Research, 18</em>(2), 377–382."
+  },
+  "ralston2017": {
+   "short": "Ralston et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28755103",
+   "apa": "Ralston, G. W., Kilgore, L., Wyatt, F. B. &amp; Baker, J. S. (2017). The effect of weekly set volume on strength gain: A meta-analysis. <em>Sports Medicine, 47</em>(12), 2585–2601.",
+   "doi": "10.1007/s40279-017-0762-7"
+  },
+  "ralston2018": {
+   "short": "Ralston et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "apa": "Ralston, G. W., Kilgore, L., Wyatt, F. B., Buchan, D. &amp; Baker, J. S. (2018). Weekly training frequency effects on strength gain: A meta-analysis. <em>Sports Medicine – Open, 4</em>, Artikel 36.",
+   "doi": "10.1186/s40798-018-0149-9"
+  },
+  "rhea2003": {
+   "short": "Rhea et al., 2003",
+   "year": 2003,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "12618576",
+   "apa": "Rhea, M. R., Alvar, B. A., Burkett, L. N. &amp; Ball, S. D. (2003). A meta-analysis to determine the dose response for strength development. <em>Medicine &amp; Science in Sports &amp; Exercise, 35</em>(3), 456–464.",
+   "doi": "10.1249/01.MSS.0000053727.63505.D4"
+  },
+  "robinson2024": {
+   "short": "Robinson et al., 2024",
+   "year": 2024,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "pmid": "38970765",
+   "apa": "Robinson, Z. P., Pelland, J. C., Remmert, J. F., Refalo, M. C., Jukic, I., Steele, J. &amp; Zourdos, M. C. (2024). Exploring the dose–response relationship between estimated resistance training proximity to failure, strength gain, and muscle hypertrophy: A series of meta-regressions. <em>Sports Medicine, 54</em>(9), 2209–2231.",
+   "doi": "10.1007/s40279-024-02069-2"
+  },
+  "schoenfeld2017": {
+   "short": "Schoenfeld et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28834797",
+   "apa": "Schoenfeld, B. J., Grgic, J., Ogborn, D. &amp; Krieger, J. W. (2017). Strength and hypertrophy adaptations between low- vs. high-load resistance training: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 31</em>(12), 3508–3523.",
+   "doi": "10.1519/JSC.0000000000002200"
+  },
+  "swinton2024": {
+   "short": "Swinton et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38652410",
+   "apa": "Swinton, P. A., Schoenfeld, B. J. &amp; Murphy, A. (2024). Dose–response modelling of resistance exercise across outcome domains in strength and conditioning: A meta-analysis. <em>Sports Medicine, 54</em>(6), 1579–1594.",
+   "doi": "10.1007/s40279-024-02006-3"
+  },
+  "williams2017": {
+   "short": "Williams et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28497285",
+   "apa": "Williams, T. D., Tolusso, D. V., Fedewa, M. V. &amp; Esco, M. R. (2017). Comparison of periodized and non-periodized resistance training on maximal strength: A meta-analysis. <em>Sports Medicine, 47</em>(10), 2083–2100.",
+   "doi": "10.1007/s40279-017-0734-y"
+  },
+  "lacio2021": {
+   "short": "Lacio et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34769755",
+   "apa": "Lacio, M., Vieira, J. G., Trybulski, R., Campos, Y., Santana, D., Filho, J. E., Novaes, J., Vianna, J. &amp; Wilk, M. (2021). Effects of resistance training performed with different loads in untrained and trained male adult individuals on maximal strength and muscle hypertrophy: A systematic review. <em>International Journal of Environmental Research and Public Health, 18</em>(21), Artikel 11237.",
+   "doi": "10.3390/ijerph182111237"
+  },
+  "refalo2021": {
+   "short": "Refalo et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33874848",
+   "apa": "Refalo, M. C., Hamilton, D. L., Paval, D. R., Gallagher, I. J., Feros, S. A. &amp; Fyfe, J. J. (2021). Influence of resistance training load on measures of skeletal muscle hypertrophy and improvements in maximal strength and neuromuscular task performance: A systematic review and meta-analysis. <em>Journal of Sports Sciences, 39</em>(15), 1723–1745.",
+   "doi": "10.1080/02640414.2021.1898094"
+  },
+  "carvalho2022": {
+   "short": "Carvalho et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35015560",
+   "apa": "Carvalho, L., Junior, R. M., Barreira, J., Schoenfeld, B. J., Orazem, J. &amp; Barroso, R. (2022). Muscle hypertrophy and strength gains after resistance training with different volume-matched loads: A systematic review and meta-analysis. <em>Applied Physiology, Nutrition, and Metabolism, 47</em>(4), 357–368.",
+   "doi": "10.1139/apnm-2021-0515"
+  },
+  "gronfeldt2020": {
+   "short": "Grønfeldt et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32031709",
+   "apa": "Grønfeldt, B. M., Lindberg Nielsen, J., Mieritz, R. M., Lund, H. &amp; Aagaard, P. (2020). Effect of blood-flow restricted vs heavy-load strength training on muscle strength: Systematic review and meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 30</em>(5), 837–848.",
+   "doi": "10.1111/sms.13632"
+  },
+  "lixandrao2018": {
+   "short": "Lixandrão et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29043659",
+   "apa": "Lixandrão, M. E., Ugrinowitsch, C., Berton, R., Vechin, F. C., Conceição, M. S., Damas, F., Libardi, C. A. &amp; Roschel, H. (2018). Magnitude of muscle strength and mass adaptations between high-load resistance training versus low-load resistance training associated with blood-flow restriction: A systematic review and meta-analysis. <em>Sports Medicine, 48</em>(2), 361–378.",
+   "doi": "10.1007/s40279-017-0795-y"
+  },
+  "wang2025": {
+   "short": "Wang et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40124607",
+   "apa": "Wang, T., Liu, Y., Wang, X., Amri, S., Kamalden, T. F., Gao, Z. &amp; Ng, Y. G. (2025). Effect of blood-flow restricted vs heavy-load resistance training on strength, power, and speed for healthy volunteers: A systematic review and meta-analysis. <em>PeerJ, 13</em>, Artikel e19110.",
+   "doi": "10.7717/peerj.19110"
+  },
+  "steele2022": {
+   "short": "Steele et al., 2022",
+   "year": 2022,
+   "type": "Scoping Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35790622",
+   "apa": "Steele, J., Malleron, T., Har-Nir, I., Androulakis-Korakakis, P., Wolf, M., Fisher, J. P. &amp; Halperin, I. (2022). Are trainees lifting heavy enough? Self-Selected loads in resistance exercise: A scoping review and exploratory meta-analysis. <em>Sports Medicine, 52</em>(12), 2909–2923.",
+   "doi": "10.1007/s40279-022-01717-9"
+  },
+  "nuzzo2024r": {
+   "short": "Nuzzo et al., 2024",
+   "year": 2024,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "pmid": "37792272",
+   "apa": "Nuzzo, J. L., Pinto, M. D., Nosaka, K. &amp; Steele, J. (2024). Maximal number of repetitions at percentages of the one repetition maximum: A meta-regression and moderator analysis of sex, age, training status, and exercise. <em>Sports Medicine, 54</em>(2), 303–321.",
+   "doi": "10.1007/s40279-023-01937-7"
+  },
+  "frohlich2010": {
+   "short": "Fröhlich et al., 2010",
+   "year": 2010,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "20623433",
+   "apa": "Fröhlich, M., Emrich, E. &amp; Schmidtbleicher, D. (2010). Outcome effects of single-set versus multiple-set training--an advanced replication study. <em>Research in Sports Medicine, 18</em>(3), 157–175.",
+   "doi": "10.1080/15438620903321045"
+  },
+  "nuzzo2024m": {
+   "short": "Nuzzo et al., 2024",
+   "year": 2024,
+   "type": "Übersichtsarbeit",
+   "basis": "Abstract",
+   "pmid": "38509414",
+   "apa": "Nuzzo, J. L., Pinto, M. D., Kirk, B. J. C. &amp; Nosaka, K. (2024). Resistance exercise minimal dose strategies for increasing muscle strength in the general population: An overview. <em>Sports Medicine, 54</em>(5), 1139–1162.",
+   "doi": "10.1007/s40279-024-02009-0"
+  },
+  "behm2024": {
+   "short": "Behm et al., 2024",
+   "year": 2024,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "37924459",
+   "apa": "Behm, D. G., Granacher, U., Warneke, K., Aragão-Santos, J. C., Da Silva-Grigoletto, M. E. &amp; Konrad, A. (2024). Minimalist training: Is lower dosage or intensity resistance training effective to improve physical fitness? A narrative review. <em>Sports Medicine, 54</em>(2), 289–302.",
+   "doi": "10.1007/s40279-023-01949-3"
+  },
+  "cuthbert2021": {
+   "short": "Cuthbert et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33886099",
+   "apa": "Cuthbert, M., Haff, G. G., Arent, S. M., Ripley, N., McMahon, J. J., Evans, M. &amp; Comfort, P. (2021). Effects of variations in resistance training frequency on strength development in well-trained populations and implications for in-season athlete training: A systematic review and meta-analysis. <em>Sports Medicine, 51</em>(9), 1967–1982.",
+   "doi": "10.1007/s40279-021-01460-7"
+  },
+  "vieira2021": {
+   "short": "Vieira et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33555822",
+   "apa": "Vieira, A. F., Umpierre, D., Teodoro, J. L., Lisboa, S. C., Baroni, B. M., Izquierdo, M. &amp; Cadore, E. L. (2021). Effects of resistance training performed to failure or not to failure on muscle strength, hypertrophy, and power output: A systematic review with meta-analysis. <em>Journal of Strength and Conditioning Research, 35</em>(4), 1165–1175.",
+   "doi": "10.1519/JSC.0000000000003936"
+  },
+  "harries2015": {
+   "short": "Harries et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25268290",
+   "apa": "Harries, S. K., Lubans, D. R. &amp; Callister, R. (2015). Systematic review and meta-analysis of linear and undulating periodized resistance training programs on muscular strength. <em>Journal of Strength and Conditioning Research, 29</em>(4), 1113–1125.",
+   "doi": "10.1519/JSC.0000000000000712"
+  },
+  "kataoka2021": {
+   "short": "Kataoka et al., 2021",
+   "year": 2021,
+   "type": "Methodischer Review",
+   "basis": "Abstract",
+   "pmid": "33405190",
+   "apa": "Kataoka, R., Vasenina, E., Loenneke, J. &amp; Buckner, S. L. (2021). Periodization: Variation in the definition and discrepancies in study design. <em>Sports Medicine, 51</em>(4), 625–651.",
+   "doi": "10.1007/s40279-020-01414-5"
+  },
+  "davies2021": {
+   "short": "Davies et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33475986",
+   "apa": "Davies, T. B., Tran, D. L., Hogan, C. M., Haff, G. G. &amp; Latella, C. (2021). Chronic effects of altering resistance training set configurations using cluster sets: A systematic review and meta-analysis. <em>Sports Medicine, 51</em>(4), 707–736.",
+   "doi": "10.1007/s40279-020-01408-3"
+  },
+  "jukic2021": {
+   "short": "Jukic et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33417154",
+   "apa": "Jukic, I., Van Hooren, B., Ramos, A. G., Helms, E. R., McGuigan, M. R. &amp; Tufano, J. J. (2021). The effects of set structure manipulation on chronic adaptations to resistance training: A systematic review and meta-analysis. <em>Sports Medicine, 51</em>(5), 1061–1086.",
+   "doi": "10.1007/s40279-020-01423-4"
+  },
+  "buskard2018": {
+   "short": "Buskard et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29889618",
+   "apa": "Buskard, A. N. L., Gregg, H. R. &amp; Ahn, S. (2018). Supramaximal eccentrics versus traditional loading in improving lower-body 1RM: A meta-analysis. <em>Research Quarterly for Exercise and Sport, 89</em>(3), 340–346.",
+   "doi": "10.1080/02701367.2018.1472365"
+  },
+  "vicens2018": {
+   "short": "Vicens-Bordas et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29107539",
+   "apa": "Vicens-Bordas, J., Esteve, E., Fort-Vanmeerhaeghe, A., Bandholm, T. &amp; Thorborg, K. (2018). Is inertial flywheel resistance training superior to gravity-dependent resistance training in improving muscle strength? A systematic review with meta-analyses. <em>Journal of Science and Medicine in Sport, 21</em>(1), 75–83.",
+   "doi": "10.1016/j.jsams.2017.10.006"
+  },
+  "saeterbakken2025": {
+   "short": "Saeterbakken et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40314751",
+   "apa": "Saeterbakken, A. H., Stien, N., Paulsen, G., Behm, D. G., Andersen, V., Solstad, T. E. J. &amp; Prieske, O. (2025). Task specificity of dynamic resistance training and its transferability to non-trained isometric muscle strength: A systematic review with meta-analysis. <em>Sports Medicine, 55</em>(7), 1651–1676.",
+   "doi": "10.1007/s40279-025-02225-2"
+  },
+  "ghayomzadeh2025": {
+   "short": "Ghayomzadeh et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40817007",
+   "apa": "Ghayomzadeh, M., Li, J., Eidy, F., Keshavarz, M., Sabag, A., Fornusek, C. &amp; Hackett, D. A. (2025). Effects of isometric vs. dynamic resistance training on isometric and isokinetic muscular strength: A systematic review with meta-analysis. <em>Journal of Science and Medicine in Sport, 28</em>(12), 1046–1055.",
+   "doi": "10.1016/j.jsams.2025.07.011"
+  },
+  "kassiano2025": {
+   "short": "Kassiano et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39794667",
+   "apa": "Kassiano, W., Nunes, J. P., Costa, B., Ribeiro, A. S., Loenneke, J. P. &amp; Cyrino, E. S. (2025). Comparison of muscle growth and dynamic strength adaptations induced by unilateral and bilateral resistance training: A systematic review and meta-analysis. <em>Sports Medicine, 55</em>(4), 923–936.",
+   "doi": "10.1007/s40279-024-02169-z"
+  },
+  "heidel2022": {
+   "short": "Heidel et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34609100",
+   "apa": "Heidel, K. A., Novak, Z. J. &amp; Dankel, S. J. (2022). Machines and free weight exercises: A systematic review and meta-analysis comparing changes in muscle size, strength, and power. <em>The Journal of Sports Medicine and Physical Fitness, 62</em>(8), 1061–1070.",
+   "doi": "10.23736/S0022-4707.21.12929-9"
+  },
+  "soriagila2015": {
+   "short": "Soria-Gila et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25968227",
+   "apa": "Soria-Gila, M. A., Chirosa, I. J., Bautista, I. J., Baena, S. &amp; Chirosa, L. J. (2015). Effects of variable resistance training on maximal strength: A meta-analysis. <em>Journal of Strength and Conditioning Research, 29</em>(11), 3260–3270.",
+   "doi": "10.1519/JSC.0000000000000971"
+  },
+  "lin2022": {
+   "short": "Lin et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35886409",
+   "apa": "Lin, Y., Xu, Y., Hong, F., Li, J., Ye, W. &amp; Korivi, M. (2022). Effects of variable-resistance training versus constant-resistance training on maximum strength: A systematic review and meta-analysis. <em>International Journal of Environmental Research and Public Health, 19</em>(14), Artikel 8559.",
+   "doi": "10.3390/ijerph19148559"
+  },
+  "andersen2022": {
+   "short": "Andersen et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36130847",
+   "apa": "Andersen, V., Prieske, O., Stien, N., Cumming, K., Solstad, T. E. J., Paulsen, G., van den Tillaar, R., Pedersen, H. &amp; Saeterbakken, A. H. (2022). Comparing the effects of variable and traditional resistance training on maximal strength and muscle power in healthy adults: A systematic review and meta-analysis. <em>Journal of Science and Medicine in Sport, 25</em>(12), 1023–1032.",
+   "doi": "10.1016/j.jsams.2022.08.009"
+  },
+  "thompson2020": {
+   "short": "Thompson et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "31828736",
+   "apa": "Thompson, S. W., Rogerson, D., Ruddock, A. &amp; Barnes, A. (2020). The effectiveness of two methods of prescribing load on maximal strength development: A systematic review. <em>Sports Medicine, 50</em>(5), 919–938.",
+   "doi": "10.1007/s40279-019-01241-3"
+  },
+  "liao2021": {
+   "short": "Liao et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34793506",
+   "apa": "Liao, K. F., Wang, X. X., Han, M. Y., Li, L. L., Nassis, G. P. &amp; Li, Y. M. (2021). Effects of velocity based training vs. traditional 1RM percentage-based training on improving strength, jump, linear sprint and change of direction speed performance: A systematic review with meta-analysis. <em>PLOS ONE, 16</em>(11), Artikel e0259790.",
+   "doi": "10.1371/journal.pone.0259790"
+  },
+  "zhang2022": {
+   "short": "Zhang et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35255509",
+   "apa": "Zhang, M., Tan, Q., Sun, J., Ding, S., Yang, Q., Zhang, Z., Lu, J., Liang, X. &amp; Li, D. (2022). Comparison of velocity and percentage-based training on maximal strength: Meta-analysis. <em>International Journal of Sports Medicine, 43</em>(12), 981–995.",
+   "doi": "10.1055/a-1790-8546"
+  },
+  "orange2022": {
+   "short": "Orange et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35380511",
+   "apa": "Orange, S. T., Hritz, A., Pearson, L., Jeffries, O., Jones, T. W. &amp; Steele, J. (2022). Comparison of the effects of velocity-based vs. traditional resistance training methods on adaptations in strength, power, and sprint speed: A systematic review, meta-analysis, and quality of evidence appraisal. <em>Journal of Sports Sciences, 40</em>(11), 1220–1234.",
+   "doi": "10.1080/02640414.2022.2059320"
+  },
+  "zhang2023": {
+   "short": "Zhang et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37196672",
+   "apa": "Zhang, X., Li, H., Feng, S. &amp; Su, S. (2023). The effect of various training variables on developing muscle strength in velocity-based training: A systematic review and meta-analysis. <em>International Journal of Sports Medicine, 44</em>(12), 857–864.",
+   "doi": "10.1055/a-2095-8254"
+  },
+  "roberts2020": {
+   "short": "Roberts et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32218059",
+   "apa": "Roberts, B. M., Nuckols, G. &amp; Krieger, J. W. (2020). Sex differences in resistance training: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 34</em>(5), 1448–1460.",
+   "doi": "10.1519/JSC.0000000000003521"
+  },
+  "hagstrom2020": {
+   "short": "Hagstrom et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31820374",
+   "apa": "Hagstrom, A. D., Marshall, P. W., Halaki, M. &amp; Hackett, D. A. (2020). The effect of resistance training in women on dynamic strength and muscular hypertrophy: A systematic review with meta-analysis. <em>Sports Medicine, 50</em>(6), 1075–1093.",
+   "doi": "10.1007/s40279-019-01247-x"
+  },
+  "molinari2024": {
+   "short": "Molinari et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38090747",
+   "apa": "Molinari, T., Radaelli, R., Rech, A., Brusco, C. M., Markarian, A. M. &amp; Lopez, P. (2024). Moderators of resistance training effects in healthy young women: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 38</em>(4), 804–814.",
+   "doi": "10.1519/JSC.0000000000004666"
+  },
+  "isenmann2026": {
+   "short": "Isenmann et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41963141",
+   "apa": "Isenmann, E., Geisler, S., Havers, T., Siegert, F., Hemke, F. &amp; Held, S. (2026). It's never too late: The impact of resistance training on strength and body composition in females across the lifespan - A systematic review and meta-analysis. <em>Journal of Science and Medicine in Sport, 29</em>(10), 1174–1185.",
+   "doi": "10.1016/j.jsams.2026.03.002"
+  },
+  "dankel2019": {
+   "short": "Dankel et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30357517",
+   "apa": "Dankel, S. J., Kang, M., Abe, T. &amp; Loenneke, J. P. (2019). Resistance training induced changes in strength and specific force at the fiber and whole muscle level: A meta-analysis. <em>European Journal of Applied Physiology, 119</em>(1), 265–278.",
+   "doi": "10.1007/s00421-018-4022-9"
+  },
+  "siddique2020": {
+   "short": "Siddique et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31993949",
+   "apa": "Siddique, U., Rahman, S., Frazer, A. K., Pearce, A. J., Howatson, G. &amp; Kidgell, D. J. (2020). Determining the sites of neural adaptations to resistance training: A systematic review and meta-analysis. <em>Sports Medicine, 50</em>(6), 1107–1128.",
+   "doi": "10.1007/s40279-020-01258-z"
+  },
+  "rong2025": {
+   "short": "Rong et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40456806",
+   "apa": "Rong, W., Geok, S. K., Samsudin, S., Zhao, Y., Ma, H. &amp; Zhang, X. (2025). Effects of strength training on neuromuscular adaptations in the development of maximal strength: A systematic review and meta-analysis. <em>Scientific Reports, 15</em>(1), Artikel 19315.",
+   "doi": "10.1038/s41598-025-03070-z"
+  },
+  "grgic2019": {
+   "short": "Grgic et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30704301",
+   "apa": "Grgic, J., Lazinica, B., Garofolini, A., Schoenfeld, B. J., Saner, N. J. &amp; Mikulic, P. (2019). The effects of time of day-specific resistance training on adaptations in skeletal muscle hypertrophy and muscle strength: A systematic review and meta-analysis. <em>Chronobiology International, 36</em>(4), 449–460.",
+   "doi": "10.1080/07420528.2019.1567524"
+  },
+  "bosquet2013": {
+   "short": "Bosquet et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23347054",
+   "apa": "Bosquet, L., Berryman, N., Dupuy, O., Mekary, S., Arvisais, D., Bherer, L. &amp; Mujika, I. (2013). Effect of training cessation on muscular performance: A meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 23</em>(3), e140–9.",
+   "doi": "10.1111/sms.12047"
+  },
+  "nuzzo2021": {
+   "short": "Nuzzo, 2021",
+   "year": 2021,
+   "type": "Bibliometrische Übersicht",
+   "basis": "Abstract",
+   "pmid": "33629976",
+   "apa": "Nuzzo, J. L. (2021). History of strength training research in man: An inventory and quantitative overview of studies published in english between 1894 and 1979. <em>Journal of Strength and Conditioning Research, 35</em>(5), 1425–1448.",
+   "doi": "10.1519/JSC.0000000000003959"
+  }
+ },
+ "timeline": [
+  {
+   "y": 1962,
+   "t": "Berger: 3 Sätze à 6 Wiederholungen",
+   "p": "Neun Programme im Bankdrücken über 12 Wochen, 3×/Woche; 3 × 6 schnitt am besten ab. Lange Grundlage der Mehrsatz-Empfehlung.",
+   "tag": "neu",
+   "s": "berger1962"
+  },
+  {
+   "y": 2002,
+   "t": "Berger kritisch überprüft",
+   "p": "Validität und praktische Bedeutung der Berger-Studie werden infrage gestellt; die Überlegenheit mehrerer Sätze sei so nicht belegt.",
+   "tag": "contra",
+   "s": "carpinelli2002"
+  },
+  {
+   "y": 2003,
+   "t": "Erste große Dosis-Wirkungs-Metaanalyse",
+   "p": "140 Studien: Untrainierte am besten mit 60 % 1RM und 3×/Woche, Trainierte mit 80 % 1RM und 2×/Woche, jeweils 4 Sätze pro Muskelgruppe.",
+   "tag": "neu",
+   "s": "rhea2003"
+  },
+  {
+   "y": 2004,
+   "t": "Dosis-Wirkung bei Athleten",
+   "p": "37 Studien: Athleten am besten mit 85 % 1RM, 2×/Woche, 8 Sätze pro Muskelgruppe.",
+   "tag": "conf",
+   "s": "peterson2004"
+  },
+  {
+   "y": 2009,
+   "t": "Mehrsatztraining metaanalytisch bestätigt",
+   "p": "2–3 Sätze pro Übung bringen etwa 46 % mehr Kraft als 1 Satz; mehr als 3 Sätze bringen keinen gesicherten Zusatznutzen. Stützt Berger gegen die Kritik von 2002.",
+   "tag": "conf",
+   "s": "krieger2009"
+  },
+  {
+   "y": 2016,
+   "t": "Muskelversagen: kein Vorteil",
+   "p": "8 Studien: Training ohne Versagen leicht überlegen, besonders bei Trainierten und Mehrgelenksübungen.",
+   "tag": "neu",
+   "s": "davies2016"
+  },
+  {
+   "y": 2017,
+   "t": "Schwere Lasten klar überlegen für Kraft",
+   "p": "Bei Training bis zum Versagen steigern hohe Lasten das 1RM stärker; Hypertrophie ist über ein breites Lastspektrum gleich.",
+   "tag": "conf",
+   "s": "schoenfeld2017"
+  },
+  {
+   "y": 2017,
+   "t": "Mehr Wochensätze, kleiner Zusatznutzen",
+   "p": "Mehr als 5 Sätze pro Übung und Woche sind besser als weniger, aber nur geringfügig. Starre Optimalwerte wie bei Rhea weichen einer flachen Dosis-Wirkungs-Kurve.",
+   "tag": "rel",
+   "s": "ralston2017"
+  },
+  {
+   "y": 2017,
+   "t": "Bewegungsgeschwindigkeit: kaum Unterschied",
+   "p": "15 Studien: schnelles und moderat-langsames Training wirken ähnlich, mit Tendenz zugunsten schneller Ausführung bei mittleren Lasten.",
+   "tag": "neu",
+   "s": "davies2017"
+  },
+  {
+   "y": 2017,
+   "t": "Periodisierung moderat überlegen",
+   "p": "18 Studien: ES 0,43 zugunsten periodisierter Pläne; Volumen nicht kontrolliert.",
+   "tag": "neu",
+   "s": "williams2017"
+  },
+  {
+   "y": 2018,
+   "t": "Frequenzeffekt = Volumeneffekt?",
+   "p": "Zwei Metaanalysen: Höhere Frequenz wirkt nur, solange sie mehr Volumen bedeutet. Bei gleichem Volumen kein Unterschied.",
+   "tag": "rel",
+   "s": "grgic2018f"
+  },
+  {
+   "y": 2018,
+   "t": "Satzpausen systematisch geprüft",
+   "p": "Kurze Pausen reichen für Untrainierte; für Trainierte längere Pausen empfohlen.",
+   "tag": "neu",
+   "s": "grgic2018r"
+  },
+  {
+   "y": 2020,
+   "t": "Minimaldosis: 1 Satz pro Woche wirkt",
+   "p": "Bei krafttrainierten Männern steigert schon ein Satz pro Woche das 1RM signifikant.",
+   "tag": "rel",
+   "s": "androulakis2020"
+  },
+  {
+   "y": 2021,
+   "t": "Lastvergleich als Netzwerk-Metaanalyse",
+   "p": "28 Studien: hohe und mittlere Lasten schlagen niedrige beim Kraftzuwachs; Hypertrophie lastunabhängig.",
+   "tag": "conf",
+   "s": "lopez2021"
+  },
+  {
+   "y": 2021,
+   "t": "Voller Bewegungsumfang überlegen",
+   "p": "16 Studien: Training über den vollen Bewegungsumfang steigert die Kraft stärker als Teilbewegungen.",
+   "tag": "neu",
+   "s": "pallares2021"
+  },
+  {
+   "y": 2021,
+   "t": "Übungsreihenfolge zählt",
+   "p": "Kraft steigt am stärksten in den Übungen, die am Anfang der Einheit stehen.",
+   "tag": "neu",
+   "s": "nunes2021"
+  },
+  {
+   "y": 2022,
+   "t": "Muskelversagen bringt keinen Kraftvorteil",
+   "p": "15 Studien: kein Unterschied; bei ungleichem Volumen ist Training ohne Versagen überlegen.",
+   "tag": "conf",
+   "s": "grgic2022"
+  },
+  {
+   "y": 2022,
+   "t": "Periodisierung bei gleichem Volumen",
+   "p": "35 Studien: Vorteil bleibt, fällt aber kleiner aus (ES 0,31). Undulierend schlägt linear.",
+   "tag": "rel",
+   "s": "moesgaard2022"
+  },
+  {
+   "y": 2023,
+   "t": "Größte Netzwerk-Metaanalyse",
+   "p": "178 Studien, 5 097 Personen: Jedes Programm wirkt; die besten für Kraft nutzen > 80 % 1RM.",
+   "tag": "conf",
+   "s": "currier2023"
+  },
+  {
+   "y": 2023,
+   "t": "Kraft ist spezifisch",
+   "p": "In nicht trainierten Testformen fällt der Kraftzuwachs etwa halb so groß aus wie in der trainierten Bewegung.",
+   "tag": "rel",
+   "s": "spitz2023"
+  },
+  {
+   "y": 2023,
+   "t": "Geschwindigkeitsverlust im Satz unerheblich für Kraft",
+   "p": "19 Längsschnittstudien: Wie stark die Geschwindigkeit im Satz abfällt, beeinflusst den Kraftzuwachs nicht.",
+   "tag": "conf",
+   "s": "jukic2023"
+  },
+  {
+   "y": 2023,
+   "t": "Absichtlich langsames Heben unterlegen",
+   "p": "24 Studien: zügige oder normale Ausführung bringt mehr Kraft als absichtlich langsame. Widerspricht teilweise dem Befund von 2017.",
+   "tag": "rel",
+   "s": "hermes2023"
+  },
+  {
+   "y": 2024,
+   "t": "Nähe zum Versagen kontinuierlich modelliert",
+   "p": "Wiederholungen in Reserve beeinflussen Kraft kaum, Hypertrophie schon. Last ist für Kraft entscheidender.",
+   "tag": "conf",
+   "s": "robinson2024"
+  },
+  {
+   "y": 2024,
+   "t": "Intensität und Dauer als Haupttreiber",
+   "p": "Über viele Leistungsbereiche hinweg erklären Interventionsdauer und Intensität den Kraftzuwachs am besten.",
+   "tag": "conf",
+   "s": "swinton2024"
+  },
+  {
+   "y": 2024,
+   "t": "Split oder Ganzkörper: egal bei gleichem Volumen",
+   "p": "14 Studien: gleiche Kraftzuwächse. Stützt die Sicht, dass die Verteilung des Volumens wenig ausmacht.",
+   "tag": "conf",
+   "s": "ramoscampo2024"
+  },
+  {
+   "y": 2025,
+   "t": "Exzentrische Phasendauer",
+   "p": "9 Studien: Effekt auf Kraft insgesamt unklar; bei Trainierten führen längere Exzentrik gleich gute oder bessere Zuwächse herbei.",
+   "tag": "neu",
+   "s": "amdi2025"
+  },
+  {
+   "y": 2025,
+   "t": "Pausen bei Trainierten metaanalytisch (Preprint)",
+   "p": "Drei Studien zur Kraft: gepoolt Vorteil für Pausen über 60 s. Bestätigt die Empfehlung von 2018, ist aber noch nicht begutachtet.",
+   "tag": "conf",
+   "s": "davidson2025"
+  },
+  {
+   "y": 2026,
+   "t": "Frequenz wirkt doch eigenständig auf Kraft",
+   "p": "67 Studien, Volumen und Frequenz gleichzeitig modelliert: Für Kraft eigener Frequenzeffekt mit abnehmendem Ertrag.",
+   "tag": "contra",
+   "s": "pelland2026"
+  },
+  {
+   "y": 2026,
+   "t": "Schwere Lasten: Vorteil vor allem in der trainierten Bewegung",
+   "p": "In nicht trainierten Testformen ist der Vorteil schwerer Lasten statistisch nicht gesichert.",
+   "tag": "rel",
+   "s": "hammert2026"
+  },
+  {
+   "y": 2026,
+   "t": "Gesamtdosis mit Plateau",
+   "p": "157 Studien: nichtlineare Dosis-Wirkung; ab einer bestimmten Gesamtdosis kein weiterer Zuwachs.",
+   "tag": "conf",
+   "s": "lyristakis2026"
+  },
+  {
+   "y": 2026,
+   "t": "Spezialmethoden ohne Vorteil",
+   "p": "Sieben fortgeschrittene Methoden sind klassischem Training bei Kraft nicht überlegen.",
+   "tag": "neu",
+   "s": "cowley2026"
+  },
+  {
+   "y": 2026,
+   "t": "Neues ACSM-Positionspapier",
+   "p": "137 systematische Reviews: Für Kraft schwere Lasten, voller Bewegungsumfang, 2–3 Sätze, Übung früh in der Einheit, ≥ 2 Einheiten pro Woche. Versagenstraining und Periodisierung ohne durchgängigen Effekt.",
+   "tag": "rel",
+   "s": "acsm2026"
+  },
+  {
+   "y": 2021,
+   "t": "Lasten bei Trainierten und Untrainierten",
+   "p": "Mehr Kraft mit hohen und mittleren Lasten.",
+   "tag": "conf",
+   "s": "lacio2021"
+  },
+  {
+   "y": 2021,
+   "t": "Lastvergleich auf mehreren Ebenen",
+   "p": "Höhere Lasten besser für 1RM- und isometrische Kraft.",
+   "tag": "conf",
+   "s": "refalo2021"
+  },
+  {
+   "y": 2022,
+   "t": "Last wirkt auch bei gleichem Volumen",
+   "p": "Volumen-angeglichen bleibt der Kraftvorteil hoher Lasten.",
+   "tag": "conf",
+   "s": "carvalho2022"
+  },
+  {
+   "y": 2020,
+   "t": "Blutflussrestriktion als Alternative",
+   "p": "Ähnliche Kraftzuwächse wie schweres Training.",
+   "tag": "neu",
+   "s": "gronfeldt2020"
+  },
+  {
+   "y": 2018,
+   "t": "Schwer schlägt Blutflussrestriktion",
+   "p": "Mehr Kraft durch schwere Lasten.",
+   "tag": "neu",
+   "s": "lixandrao2018"
+  },
+  {
+   "y": 2025,
+   "t": "Blutflussrestriktion: knapp unterlegen",
+   "p": "Etwas weniger Maximalkraft als schweres Training.",
+   "tag": "rel",
+   "s": "wang2025"
+  },
+  {
+   "y": 2022,
+   "t": "Trainierende wählen zu leichte Lasten",
+   "p": "Im Mittel 53 % 1RM.",
+   "tag": "neu",
+   "s": "steele2022"
+  },
+  {
+   "y": 2024,
+   "t": "Wiederholungen je % 1RM",
+   "p": "Allgemeine Umrechnungstabelle für die Praxis.",
+   "tag": "neu",
+   "s": "nuzzo2024r"
+  },
+  {
+   "y": 2010,
+   "t": "Einsatz vs. Mehrsatz: Dauer entscheidet",
+   "p": "Mehrsatztraining langfristig und bei Fortgeschrittenen besser.",
+   "tag": "conf",
+   "s": "frohlich2010"
+  },
+  {
+   "y": 2024,
+   "t": "Minimaldosis-Strategien",
+   "p": "Einsatz- und Wochenendtraining gut belegt.",
+   "tag": "conf",
+   "s": "nuzzo2024m"
+  },
+  {
+   "y": 2024,
+   "t": "Minimalistisches Training",
+   "p": "Eine Einheit pro Woche reicht Anfängern.",
+   "tag": "conf",
+   "s": "behm2024"
+  },
+  {
+   "y": 2021,
+   "t": "Frequenz bei Gut-Trainierten",
+   "p": "Keine klaren Unterschiede über 6–12 Wochen.",
+   "tag": "conf",
+   "s": "cuthbert2021"
+  },
+  {
+   "y": 2021,
+   "t": "Versagen ohne Kraftvorteil",
+   "p": "Ohne Versagen bei ungleichem Volumen überlegen.",
+   "tag": "conf",
+   "s": "vieira2021"
+  },
+  {
+   "y": 2015,
+   "t": "Linear = undulierend",
+   "p": "Kein Unterschied in 17 Studien.",
+   "tag": "neu",
+   "s": "harries2015"
+  },
+  {
+   "y": 2021,
+   "t": "Was ist Periodisierung?",
+   "p": "Uneinheitliche Definition erschwert den Nachweis.",
+   "tag": "rel",
+   "s": "kataoka2021"
+  },
+  {
+   "y": 2021,
+   "t": "Cluster-Sätze",
+   "p": "Gleiche Kraftzuwächse, weniger Ermüdung.",
+   "tag": "neu",
+   "s": "davies2021"
+  },
+  {
+   "y": 2021,
+   "t": "Satzstruktur ohne Krafteffekt",
+   "p": "Vorteile nur für Geschwindigkeit und Schnellkraft.",
+   "tag": "conf",
+   "s": "jukic2021"
+  },
+  {
+   "y": 2018,
+   "t": "Supramaximale Exzentrik ohne Vorteil",
+   "p": "Nicht besser als klassisches Training.",
+   "tag": "neu",
+   "s": "buskard2018"
+  },
+  {
+   "y": 2018,
+   "t": "Schwungrad ohne Kraftvorteil",
+   "p": "Nicht besser als freie Gewichte.",
+   "tag": "neu",
+   "s": "vicens2018"
+  },
+  {
+   "y": 2025,
+   "t": "Aufgabenspezifität bestätigt",
+   "p": "Doppelter Effekt in der trainierten Bewegung.",
+   "tag": "conf",
+   "s": "saeterbakken2025"
+  },
+  {
+   "y": 2025,
+   "t": "Isometrisch für isometrisch",
+   "p": "Spezifität auch beim isometrischen Training.",
+   "tag": "conf",
+   "s": "ghayomzadeh2025"
+  },
+  {
+   "y": 2025,
+   "t": "Ein- vs. beidseitig",
+   "p": "Kraft folgt dem Prinzip der Spezifität.",
+   "tag": "conf",
+   "s": "kassiano2025"
+  },
+  {
+   "y": 2022,
+   "t": "Maschine oder freies Gewicht",
+   "p": "Spezifität entscheidet.",
+   "tag": "neu",
+   "s": "heidel2022"
+  },
+  {
+   "y": 2015,
+   "t": "Variabler Widerstand vorteilhaft",
+   "p": "5 kg mehr Maximalkraft mit Ketten oder Bändern.",
+   "tag": "neu",
+   "s": "soriagila2015"
+  },
+  {
+   "y": 2022,
+   "t": "Variabler Widerstand nur teilweise besser",
+   "p": "Kein Vorteil bei schweren Lasten.",
+   "tag": "rel",
+   "s": "lin2022"
+  },
+  {
+   "y": 2022,
+   "t": "Variabler Widerstand ohne Vorteil",
+   "p": "Gleiche Kraftzuwächse in 17 Studien.",
+   "tag": "contra",
+   "s": "andersen2022"
+  },
+  {
+   "y": 2020,
+   "t": "% 1RM vs. Wiederholungsmaximum",
+   "p": "Beide wirksam.",
+   "tag": "neu",
+   "s": "thompson2020"
+  },
+  {
+   "y": 2021,
+   "t": "Geschwindigkeitsbasiert = prozentbasiert",
+   "p": "Kein Unterschied.",
+   "tag": "neu",
+   "s": "liao2021"
+  },
+  {
+   "y": 2022,
+   "t": "Vorteil für Geschwindigkeitssteuerung?",
+   "p": "Möglicher kleiner Vorteil.",
+   "tag": "rel",
+   "s": "zhang2022"
+  },
+  {
+   "y": 2022,
+   "t": "Kein Vorteil der Geschwindigkeitssteuerung",
+   "p": "Neuere Analyse ohne Unterschied.",
+   "tag": "contra",
+   "s": "orange2022"
+  },
+  {
+   "y": 2023,
+   "t": "Variablen im geschwindigkeitsbasierten Training",
+   "p": "Alle Programmierungsmodelle wirksam.",
+   "tag": "neu",
+   "s": "zhang2023"
+  },
+  {
+   "y": 2020,
+   "t": "Geschlechterunterschiede im Kraftzuwachs",
+   "p": "Frauen relativ mindestens gleich.",
+   "tag": "neu",
+   "s": "roberts2020"
+  },
+  {
+   "y": 2020,
+   "t": "Krafttraining bei Frauen",
+   "p": "Große Zuwächse.",
+   "tag": "neu",
+   "s": "hagstrom2020"
+  },
+  {
+   "y": 2024,
+   "t": "Volumen auch bei Frauen entscheidend",
+   "p": "Mehr Volumen, mehr Kraft.",
+   "tag": "conf",
+   "s": "molinari2024"
+  },
+  {
+   "y": 2026,
+   "t": "Frauen jeden Alters profitieren",
+   "p": "Gleiche Effekte vor und nach der Menopause.",
+   "tag": "conf",
+   "s": "isenmann2026"
+  },
+  {
+   "y": 2019,
+   "t": "Kraft entsteht zu großen Teilen im Nervensystem",
+   "p": "Ganzmuskelkraft steigt viel stärker als Faserkraft.",
+   "tag": "neu",
+   "s": "dankel2019"
+  },
+  {
+   "y": 2020,
+   "t": "Orte neuronaler Anpassung",
+   "p": "Zentrale Anpassungen tragen zum Kraftzuwachs bei.",
+   "tag": "conf",
+   "s": "siddique2020"
+  },
+  {
+   "y": 2025,
+   "t": "Neuromuskuläre Anpassungen",
+   "p": "Fasertyp, Architektur und Ansteuerung verändern sich.",
+   "tag": "conf",
+   "s": "rong2025"
+  },
+  {
+   "y": 2019,
+   "t": "Tageszeit egal",
+   "p": "Gleiche Anpassungen morgens und abends.",
+   "tag": "neu",
+   "s": "grgic2019"
+  },
+  {
+   "y": 2013,
+   "t": "Kraftverlust bei Trainingspause",
+   "p": "Abhängig von Alter, Trainingsstand und Dauer.",
+   "tag": "neu",
+   "s": "bosquet2013"
+  },
+  {
+   "y": 1979,
+   "t": "Frühe Krafttrainingsforschung 1894–1979",
+   "p": "Eine Bestandsaufnahme zeigt DeLorme, Hellebrandt, Rasch und Berger als prägende Forscher; die meisten Arbeiten erschienen im Research Quarterly (Nuzzo et al., 2021).",
+   "tag": "neu",
+   "s": "nuzzo2021"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 57 geprüft, 41 aufgenommen, 16 ausgeschlossen. Neue Abschnitte „Übungsauswahl und Spezifität“, „Belastungssteuerung“, „Frauen und Männer“, „Warum wird man stärker?“ und „Tageszeit und Trainingspausen“; Blutflussrestriktion und Spezialmethoden ergänzt; Periodisierung weiter relativiert."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erste systematische PubMed-Sichtung: 9 611 Einträge gesichtet, 14 Übersichtsarbeiten neu aufgenommen, 57 vorgemerkt. Neue Variable „Ausführung“; Evidenz für Volumen und Nähe zum Versagen auf „hoch“ angehoben; Periodisierung neu eingeordnet; ACSM-Zitat korrigiert, fehlende DOIs ergänzt; Screening-Register eingeführt."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Abbildungen den einzelnen Variablen zugeordnet; Dosis-Wirkungs-Darstellungen für Volumen und Frequenz sowie Daten zu Satzpausen ergänzt; Themen neu gegliedert (Training, Ernährung)."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung des Themas Maximalkrafttraining mit 18 Quellen (1962–2026)."
+  }
+ ]
+}

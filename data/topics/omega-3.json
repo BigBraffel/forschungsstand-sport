@@ -1,0 +1,683 @@
+{
+ "id": "omega-3",
+ "title": "Omega-3-Fettsäuren",
+ "stand": "2026-11-16",
+ "lead": "Was bewirken die langkettigen Omega-3-Fettsäuren EPA und DHA bei Muskelkraft, Muskelmasse, Erholung und Herz-Kreislauf-Gesundheit? Zusammengefasst aus Metaanalysen und dem ISSN-Positionspapier 2025.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Omega-3 ist kein Muskelaufbaumittel, kann aber Entzündung und Muskelkater nach intensiver Belastung senken und hat gut belegte Herz-Kreislauf-Effekte.",
+ "rx": [
+  {
+   "label": "Erholung",
+   "value": "≥ 2 g EPA + DHA, ≥ 6 Wochen",
+   "text": "Stärkste Effekte auf Entzündungsmarker und Muskelkater bei dieser Dosis und Dauer, eher bei Freizeit- als bei Spitzensportlern.",
+   "cite": "Li &amp; Zhang 2026"
+  },
+  {
+   "label": "Muskel",
+   "value": "kein Ersatz für Training/Protein",
+   "text": "Sehr kleiner Kraftvorteil, kein Effekt auf Muskelmasse oder Muskelproteinsynthese.",
+   "cite": "Santo André et al. 2023; Therdyothin et al. 2025"
+  },
+  {
+   "label": "Herz",
+   "value": "Nutzen erst bei höherer Dosis; Vorhofflimmern beachten",
+   "text": "Weniger Herzinfarkte und Herz-Kreislauf-Todesfälle vor allem bei ≥ 2 g/Tag bzw. EPA; bis 1 g/Tag kein Zusammenhang. Häufiger Vorhofflimmern; Hochdosis-Präparate und Herzrhythmusstörungen ärztlich abklären.",
+   "cite": "Khan et al. 2021; Rizos et al. 2021; Yan et al. 2024; Dinu et al. 2024"
+  },
+  {
+   "label": "Quelle",
+   "value": "Fisch oder Supplement",
+   "text": "Die Studien verwendeten meist Fischöl- oder EPA-Präparate; Fisch in der Ernährung ist die naheliegende Grundlage.",
+   "cite": "Jäger et al. 2025"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Die Herz-Kreislauf-Daten stammen überwiegend aus Studien mit Menschen mit erhöhtem Risiko und teils aus hochdosierten Präparaten; für junge, gesunde Sportler ist der Nutzen kleiner.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Weniger Entzündung und Muskelkater",
+   "ev": "moderat",
+   "p": "Omega-3 senkte Entzündungsmarker, Kreatinkinase und Muskelkater nach Belastung mit mittleren Effekten.",
+   "s": [
+    "li2026",
+    "jager2025",
+    "wang2026"
+   ]
+  },
+  {
+   "t": "Kaum Effekt auf Muskelmasse und Kraft",
+   "ev": "hoch",
+   "p": "Sehr kleiner Kraftvorteil, keine Wirkung auf Muskelmasse, Funktion oder Muskelproteinsynthese.",
+   "s": [
+    "santoandre2023",
+    "delpino2021",
+    "therdyothin2025"
+   ]
+  },
+  {
+   "t": "Ältere: kleiner funktioneller Nutzen",
+   "ev": "niedrig",
+   "p": "Bei Älteren leicht bessere Beinkraft und Alltagsfunktion, Muskelmasse meist unverändert; Befunde uneinheitlich.",
+   "s": [
+    "cornish2022",
+    "huang2020",
+    "timraz2023"
+   ]
+  },
+  {
+   "t": "Herz-Kreislauf: Nutzen mit Nebenwirkung",
+   "ev": "hoch",
+   "p": "Sechs große Metaanalysen: etwa 5–13 % weniger Herzinfarkte und Herz-Kreislauf-Todesfälle, vor allem bei höheren Dosen und EPA; bis 1 g/Tag kein Nutzen; um etwa ein Viertel erhöhtes Risiko für Vorhofflimmern.",
+   "s": [
+    "khan2021",
+    "bernasconi2021",
+    "hu2019",
+    "rizos2021",
+    "yan2024",
+    "dinu2024"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "erholung",
+   "name": "Erholung und Entzündung",
+   "q": "Hilft Omega-3 bei der Erholung?",
+   "ev": "moderat",
+   "key": [
+    "Studien von 2011 bis 2025: Omega-3 senkte Interleukin-6, TNF-α, Kreatinkinase und Muskelkater mit mittleren Effekten (SMD −0,4 bis −0,7); am stärksten bei ≥ 2 g/Tag EPA + DHA über mindestens 6 Wochen, eher bei Freizeit- als bei Spitzensportlern (Li &amp; Zhang, 2026).",
+    "Positionspapier: Omega-3 kann subjektiven Muskelkater nach intensiver Belastung verringern, Immunreaktionen positiv beeinflussen und ist mit besserer Schlafqualität verbunden (Jäger et al., 2025).",
+    "Netzwerk-Metaanalyse bei Trainierten (35 Studien, 1 211 Personen): Omega-3 war unter Protein, Kreatin und Omega-3 das wirksamste Supplement für Erholungsmaße (SMD 0,40 [0,18; 0,62]); für Kraft lag Kreatin vorn (Wang et al., 2026)."
+   ],
+   "critic": "Die Effekte betreffen vor allem Marker und Empfinden; ob sie zu besserer Leistungserholung oder langfristig mehr Trainingsfortschritt führen, ist nicht gezeigt. Die Studien sind meist klein und unterschiedlich dosiert. Die Netzwerk-Metaanalyse bei Trainierten bestätigt einen mittleren Erholungseffekt, stützt sich aber teilweise auf indirekte Vergleiche und fasst verschiedene Erholungsmaße zusammen.",
+   "figs": [],
+   "s": [
+    "li2026",
+    "jager2025",
+    "wang2026"
+   ]
+  },
+  {
+   "id": "muskel",
+   "name": "Muskelkraft, Muskelmasse, Proteinsynthese",
+   "q": "Fördert Omega-3 den Muskelaufbau?",
+   "ev": "hoch",
+   "key": [
+    "14 Studien mit 1 443 Gesunden: sehr kleiner Kraftvorteil (SMD 0,12 [0,006; 0,24]), kein Effekt auf Muskelmasse (SMD 0,07 [−0,02; 0,17]) und Funktion (SMD 0,03 [−0,09; 0,15]); unabhängig von Alter, Dosis und Krafttraining (Santo André et al., 2023).",
+    "Allgemeinbevölkerung: kein signifikanter Effekt auf die fettfreie Masse (Delpino &amp; Figueiredo, 2021).",
+    "Kein Effekt auf die Muskelproteinsynthese (SMD 0,03 [−0,35; 0,40]), aber höhere Ganzkörper-Proteinsynthese (SMD 0,51 [0,12; 0,90]) (Therdyothin et al., 2025)."
+   ],
+   "critic": "Konsistent: Für Muskelaufbau ist Omega-3 nicht relevant. Das Positionspapier nennt einen möglichen dosis- und dauerabhängigen Kraftvorteil zusammen mit Krafttraining; die Metaanalyse findet jedoch keinen Einfluss des Trainings auf den Effekt. Wahrscheinlich ist der Kraftvorteil, wenn überhaupt, sehr klein. Analysen nur an Älteren finden teils größere Effekte auf Beinkraft und Funktion; diese sind gesondert unter „Muskel und Funktion bei Älteren“ eingeordnet.",
+   "figs": [
+    {
+     "id": "o-muskel",
+     "title": "Omega-3 und Muskeln",
+     "cap": "SMD gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Muskelkraft",
+       "sub": "Santo André et al., 2023",
+       "es": 0.12,
+       "lo": 0.006,
+       "hi": 0.24
+      },
+      {
+       "l": "Muskelmasse",
+       "sub": "Santo André et al., 2023",
+       "es": 0.07,
+       "lo": -0.02,
+       "hi": 0.17
+      },
+      {
+       "l": "Muskelfunktion",
+       "sub": "Santo André et al., 2023",
+       "es": 0.03,
+       "lo": -0.09,
+       "hi": 0.15
+      },
+      {
+       "l": "Muskelproteinsynthese",
+       "sub": "Therdyothin et al., 2025",
+       "es": 0.03,
+       "lo": -0.35,
+       "hi": 0.4
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 0.6,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4
+      ],
+      "leftLab": "Placebo besser",
+      "rightLab": "Omega-3 besser"
+     }
+    }
+   ],
+   "s": [
+    "santoandre2023",
+    "delpino2021",
+    "therdyothin2025",
+    "jager2025"
+   ]
+  },
+  {
+   "id": "alter",
+   "name": "Muskel und Funktion bei Älteren (Alterseffekt)",
+   "q": "Hilft Omega-3 älteren Menschen bei Kraft und Funktion?",
+   "ev": "niedrig",
+   "key": [
+    "16 Studien mit gesunden Erwachsenen ab 55 Jahren: keine Wirkung auf die magere Masse (SMD 0,09 [−0,10; 0,28]), aber höhere Beinkraft (SMD 0,54 [0,33; 0,75]), schnellerer Timed-up-and-go (0,29 s [0,23; 0,35]) und mehr Wiederholungen beim 30-s-Aufstehtest (1,93 [1,59; 2,26]); keine Wirkung auf Gehen und Oberkörperkraft (Cornish et al., 2022).",
+    "9 Studien mit 2 067 Gesunden: Omega-3 erhöhte die Griffkraft (+1,17 kg [0,27; 2,08]), nicht aber die magere Masse (+0,33 kg [−0,35; 1,00]), Gehgeschwindigkeit oder Timed-up-and-go (Ma et al., 2021).",
+    "10 Studien mit Älteren: kleine Vorteile für Muskelmasse (+0,33 kg [0,05; 0,62]) und Timed-up-and-go (−0,30 s [−0,43; −0,17]); bei mehr als 2 g/Tag +0,67 kg Muskelmasse [0,16; 1,18] (Huang et al., 2020).",
+    "14 Studien mit 2 220 Älteren (0,7–3,36 g EPA + DHA/Tag, 6–144 Wochen): Timed-up-and-go 0,28 s schneller [−0,43; −0,13]; kein Effekt auf Gehtest, Aufstehtest und Griffkraft; fettfreie Masse +0,30 kg, nicht signifikant [−0,39; 0,99] (Rondanelli et al., 2021).",
+    "5 Studien mit 488 Älteren: kein signifikanter Effekt auf die Griffkraft (SMD 0,61 [−0,05; 1,27]) bei sehr hoher Heterogenität (I² = 90 %); Muskelmasse und Funktion uneinheitlich (Timraz et al., 2023)."
+   ],
+   "critic": "Die Analysen bei Älteren widersprechen sich teilweise: Griffkraft mal erhöht (Ma et al., 2021), mal nicht (Timraz et al., 2023; Rondanelli et al., 2021); Muskelmasse meist unverändert, nur bei mehr als 2 g/Tag leicht erhöht (Huang et al., 2020). Am konsistentesten ist eine kleine Verbesserung im Timed-up-and-go (etwa 0,3 s) und eine höhere Beinkraft. Die Studien überschneiden sich stark, sind oft klein und heterogen. Für Jüngere und Trainierende fand die größte allgemeine Analyse keinen Alterseinfluss und nur einen sehr kleinen Kraftvorteil (Santo André et al., 2023). Wahrscheinlich ist der Nutzen bei Älteren klein und vor allem funktionell; auf Sportler lässt er sich nicht übertragen.",
+   "figs": [
+    {
+     "id": "o-alter",
+     "title": "Omega-3 bei Älteren: Kraft und Muskelmasse",
+     "cap": "SMD mit 95-%-KI (Cornish et al., 2022; Timraz et al., 2023).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Beinkraft",
+       "sub": "Cornish et al., 2022",
+       "es": 0.54,
+       "lo": 0.33,
+       "hi": 0.75
+      },
+      {
+       "l": "Oberkörperkraft",
+       "sub": "Cornish et al., 2022",
+       "es": 0.05,
+       "lo": -0.04,
+       "hi": 0.13
+      },
+      {
+       "l": "Magere Masse",
+       "sub": "Cornish et al., 2022",
+       "es": 0.09,
+       "lo": -0.1,
+       "hi": 0.28
+      },
+      {
+       "l": "Griffkraft",
+       "sub": "Timraz et al., 2023",
+       "es": 0.61,
+       "lo": -0.05,
+       "hi": 1.27
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 1.4,
+      "ticks": [
+       0,
+       0.5,
+       1
+      ],
+      "leftLab": "Kontrolle besser",
+      "rightLab": "Omega-3 besser"
+     }
+    }
+   ],
+   "s": [
+    "cornish2022",
+    "ma2021",
+    "huang2020",
+    "rondanelli2021",
+    "timraz2023"
+   ]
+  },
+  {
+   "id": "herz",
+   "name": "Herz-Kreislauf-Gesundheit",
+   "q": "Schützt Omega-3 das Herz?",
+   "ev": "hoch",
+   "key": [
+    "38 Studien mit 149 051 Teilnehmenden: weniger Herz-Kreislauf-Todesfälle (RR 0,93 [0,88; 0,98]), nicht tödliche Herzinfarkte (RR 0,87 [0,81; 0,93]) und koronare Ereignisse (RR 0,91); EPA allein stärker als EPA + DHA; aber mehr Vorhofflimmern (RR 1,26 [1,08; 1,48]) und unter EPA allein mehr Blutungen (RR 1,49) (Khan et al., 2021).",
+    "40 Studien mit 135 267 Teilnehmenden: weniger Herzinfarkte (RR 0,87 [0,80; 0,96]; 272 Personen müssen behandelt werden, um einen zu verhindern), Effekt dosisabhängig (Bernasconi et al., 2021).",
+    "13 Studien mit 127 477 Teilnehmenden, im Mittel 5 Jahre: auch ohne die Hochdosis-EPA-Studie REDUCE-IT weniger Herzinfarkte (RR 0,92 [0,86; 0,99]), koronare Todesfälle (RR 0,92 [0,86; 0,98]) und Herz-Kreislauf-Todesfälle (RR 0,93 [0,88; 0,99]); linearer Dosis-Wirkungs-Zusammenhang (Hu et al., 2019).",
+    "17 doppelblinde Studien (≥ 1 Jahr) mit 83 617 Teilnehmenden: bis 1 g/Tag kein Zusammenhang mit Sterblichkeit, Herztod, Herzinfarkt oder Schlaganfall (laut sequenzieller Analyse für Sterblichkeit und Herztod ausreichend belegt); bei 2 g/Tag weniger Herztode (RR 0,55 [0,33; 0,90]), bei ≥ 3 g/Tag weniger Herztode (RR 0,82 [0,68; 0,99]) und Schlaganfälle (RR 0,74 [0,57; 0,95]) – Hochdosis-Evidenz aber schwach (Rizos et al., 2021).",
+    "15 Studien: weniger schwere Herz-Kreislauf-Ereignisse (RR 0,95 [0,91; 0,99]), Herzinfarkte (RR 0,90 [0,83; 0,98]) und Herz-Kreislauf-Todesfälle (RR 0,94 [0,88; 0,99]); mehr Vorhofflimmern (RR 1,25 [1,10; 1,41]); kein Effekt auf Herzinsuffizienz, Schlaganfall und Gesamtsterblichkeit; Nutzen v. a. durch verschreibungspflichtigen EPA-Ethylester, der aber das Blutungsrisiko erhöhte (Yan et al., 2024).",
+    "18 Studien mit 134 144 Teilnehmenden: weniger Revaskularisationen (RR 0,90 [0,84; 0,98]), Herzinfarkte (RR 0,89 [0,81; 0,98]) und Herz-Kreislauf-Todesfälle (RR 0,92 [0,85; 0,99]), auch unter Statinen; EPA allein stärker als EPA + DHA (Revaskularisation RR 0,76 [0,65; 0,88]) (Dinu et al., 2024)."
+   ],
+   "critic": "Sechs große Metaanalysen (83 617 bis 149 051 Teilnehmende) kommen übereinstimmend zu einer relativen Risikosenkung von etwa 5–13 % für Herzinfarkt und Herz-Kreislauf-Tod. Sie beruhen weitgehend auf denselben Großstudien und sind daher keine unabhängigen Bestätigungen. Der Nutzen ist dosisabhängig: Bis 1 g/Tag – der typischen Supplementdosis – fand sich kein Zusammenhang (Rizos et al., 2021); stärkere Effekte stammen vor allem aus Hochdosis-EPA-Studien (REDUCE-IT), deren Ergebnis umstritten und nicht ohne Weiteres auf frei verkäufliches Fischöl übertragbar ist. Auch ohne REDUCE-IT blieb ein kleiner Nutzen (Hu et al., 2019). Das erhöhte Vorhofflimmern-Risiko ist in zwei Analysen fast gleich groß (RR 1,25–1,26) und damit robust; für EPA-Ethylester kommt ein Blutungsrisiko hinzu. Teilnehmende hatten überwiegend erhöhtes Risiko; für gesunde Sportler lässt sich daraus kein starker Grund für hochdosierte Präparate ableiten.",
+   "figs": [
+    {
+     "id": "o-herz",
+     "title": "Omega-3 und Herz-Kreislauf: Vergleich der Metaanalysen",
+     "cap": "Relatives Risiko mit 95-%-KI. Werte unter 1 = seltener, über 1 = häufiger mit Omega-3. Hu et al. (2019) ohne REDUCE-IT.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Herz-Kreislauf-Tod",
+       "sub": "Khan et al., 2021",
+       "es": 0.93,
+       "lo": 0.88,
+       "hi": 0.98
+      },
+      {
+       "l": "Herz-Kreislauf-Tod",
+       "sub": "Hu et al., 2019",
+       "es": 0.93,
+       "lo": 0.88,
+       "hi": 0.99
+      },
+      {
+       "l": "Herz-Kreislauf-Tod",
+       "sub": "Dinu et al., 2024",
+       "es": 0.92,
+       "lo": 0.85,
+       "hi": 0.99
+      },
+      {
+       "l": "Herz-Kreislauf-Tod",
+       "sub": "Yan et al., 2024",
+       "es": 0.94,
+       "lo": 0.88,
+       "hi": 0.99
+      },
+      {
+       "l": "Nicht tödlicher Herzinfarkt",
+       "sub": "Khan et al., 2021",
+       "es": 0.87,
+       "lo": 0.81,
+       "hi": 0.93
+      },
+      {
+       "l": "Herzinfarkt",
+       "sub": "Bernasconi et al., 2021",
+       "es": 0.87,
+       "lo": 0.8,
+       "hi": 0.96
+      },
+      {
+       "l": "Herzinfarkt",
+       "sub": "Hu et al., 2019",
+       "es": 0.92,
+       "lo": 0.86,
+       "hi": 0.99
+      },
+      {
+       "l": "Herzinfarkt",
+       "sub": "Dinu et al., 2024",
+       "es": 0.89,
+       "lo": 0.81,
+       "hi": 0.98
+      },
+      {
+       "l": "Herzinfarkt",
+       "sub": "Yan et al., 2024",
+       "es": 0.9,
+       "lo": 0.83,
+       "hi": 0.98
+      },
+      {
+       "l": "Vorhofflimmern",
+       "sub": "Khan et al., 2021",
+       "es": 1.26,
+       "lo": 1.08,
+       "hi": 1.48
+      },
+      {
+       "l": "Vorhofflimmern",
+       "sub": "Yan et al., 2024",
+       "es": 1.25,
+       "lo": 1.1,
+       "hi": 1.41
+      }
+     ],
+     "opts": {
+      "min": 0.7,
+      "max": 1.6,
+      "ticks": [
+       0.8,
+       1,
+       1.2,
+       1.4
+      ],
+      "unit": "RR",
+      "ref": 1
+     }
+    },
+    {
+     "id": "o-dosis",
+     "title": "Herztod nach Omega-3-Dosis",
+     "cap": "Relatives Risiko für Herztod mit 95-%-KI nach Tagesdosis; bis 1 g/Tag kein Zusammenhang (ohne Punktschätzer im Abstract) (Rizos et al., 2021).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "2 g/Tag (3 Studien)",
+       "sub": "Rizos et al., 2021",
+       "es": 0.55,
+       "lo": 0.33,
+       "hi": 0.9
+      },
+      {
+       "l": "≥ 3 g/Tag (3 Studien)",
+       "sub": "Rizos et al., 2021",
+       "es": 0.82,
+       "lo": 0.68,
+       "hi": 0.99
+      }
+     ],
+     "opts": {
+      "min": 0.2,
+      "max": 1.4,
+      "ticks": [
+       0.4,
+       0.6,
+       0.8,
+       1,
+       1.2
+      ],
+      "unit": "RR",
+      "ref": 1
+     }
+    }
+   ],
+   "s": [
+    "khan2021",
+    "bernasconi2021",
+    "hu2019",
+    "rizos2021",
+    "yan2024",
+    "dinu2024"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2019,
+   "t": "Nutzen auch ohne REDUCE-IT",
+   "p": "Herzinfarkt und Herz-Kreislauf-Tod seltener; Effekt dosisabhängig.",
+   "tag": "conf",
+   "s": "hu2019"
+  },
+  {
+   "y": 2020,
+   "t": "Ältere: Muskelmasse bei über 2 g/Tag",
+   "p": "Kleiner Massezuwachs, vor allem bei höherer Dosis.",
+   "tag": "neu",
+   "s": "huang2020"
+  },
+  {
+   "y": 2021,
+   "t": "Keine Wirkung auf fettfreie Masse",
+   "p": "Allgemeinbevölkerung ohne Effekt.",
+   "tag": "neu",
+   "s": "delpino2021"
+  },
+  {
+   "y": 2021,
+   "t": "Herz-Kreislauf-Nutzen, mehr Vorhofflimmern",
+   "p": "38 Studien: weniger Todesfälle, aber mehr Vorhofflimmern.",
+   "tag": "neu",
+   "s": "khan2021"
+  },
+  {
+   "y": 2021,
+   "t": "Dosisabhängiger Herzschutz",
+   "p": "40 Studien: weniger Herzinfarkte, dosisabhängig.",
+   "tag": "conf",
+   "s": "bernasconi2021"
+  },
+  {
+   "y": 2021,
+   "t": "Griffkraft leicht höher",
+   "p": "Kleiner Kraftvorteil, keine Massenzunahme.",
+   "tag": "conf",
+   "s": "ma2021"
+  },
+  {
+   "y": 2021,
+   "t": "Timed-up-and-go verbessert",
+   "p": "Kleine Funktionsverbesserung, keine signifikante Massenzunahme.",
+   "tag": "conf",
+   "s": "rondanelli2021"
+  },
+  {
+   "y": 2021,
+   "t": "Niedrige Dosen ohne Wirkung",
+   "p": "Bis 1 g/Tag kein Nutzen; Hinweise auf Nutzen erst bei höheren Dosen.",
+   "tag": "rel",
+   "s": "rizos2021"
+  },
+  {
+   "y": 2022,
+   "t": "Ältere: Beinkraft und Funktion",
+   "p": "Mehr Beinkraft und bessere Alltagsfunktion, keine zusätzliche Muskelmasse.",
+   "tag": "neu",
+   "s": "cornish2022"
+  },
+  {
+   "y": 2023,
+   "t": "Sehr kleiner Kraftvorteil",
+   "p": "Keine Wirkung auf Masse und Funktion.",
+   "tag": "conf",
+   "s": "santoandre2023"
+  },
+  {
+   "y": 2023,
+   "t": "Griffkraft im Alter nicht signifikant",
+   "p": "Wenige, sehr heterogene Studien.",
+   "tag": "rel",
+   "s": "timraz2023"
+  },
+  {
+   "y": 2024,
+   "t": "Vorhofflimmern-Risiko bestätigt",
+   "p": "Nutzen und erhöhtes Vorhofflimmern-Risiko repliziert.",
+   "tag": "conf",
+   "s": "yan2024"
+  },
+  {
+   "y": 2024,
+   "t": "EPA allein wirksamer",
+   "p": "Bestätigt Nutzen, stärker für EPA allein, auch unter Statintherapie.",
+   "tag": "conf",
+   "s": "dinu2024"
+  },
+  {
+   "y": 2025,
+   "t": "Keine Steigerung der Muskelproteinsynthese",
+   "p": "Nur Ganzkörper-Proteinsynthese erhöht.",
+   "tag": "conf",
+   "s": "therdyothin2025"
+  },
+  {
+   "y": 2025,
+   "t": "ISSN-Positionspapier Omega-3",
+   "p": "Möglicher Nutzen für Muskelkater, Immunsystem, Schlaf.",
+   "tag": "neu",
+   "s": "jager2025"
+  },
+  {
+   "y": 2026,
+   "t": "Weniger Entzündung nach Belastung",
+   "p": "Mittlere Effekte auf Entzündung und Muskelkater ab 2 g/Tag.",
+   "tag": "conf",
+   "s": "li2026"
+  },
+  {
+   "y": 2026,
+   "t": "Netzwerk-Metaanalyse: Omega-3 vorn bei Erholung",
+   "p": "Bei trainierten Sportlern bestes der drei Supplemente für Erholungsmaße.",
+   "tag": "conf",
+   "s": "wang2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 10 geprüft, 10 aufgenommen, 0 ausgeschlossen. Kardiologische Metaanalysen (Hu 2019, Rizos 2021, Yan 2024, Dinu 2024) mit den vorhandenen abgeglichen: Nutzen bestätigt, aber dosisabhängig (bis 1 g/Tag kein Effekt), Vorhofflimmern-Risiko repliziert; Vergleichs- und Dosis-Abbildung ergänzt. Neuer Abschnitt „Muskel und Funktion bei Älteren“ (Alterseffekt, Evidenz niedrig); Netzwerk-Metaanalyse bei Trainierten zur Erholung ergänzt."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 433 Einträgen (Sport und Muskel), Herz-Kreislauf-Metaanalysen gezielt ergänzt; 7 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "jager2025": {
+   "short": "Jäger et al., 2025",
+   "year": 2025,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "39810703",
+   "apa": "Jäger, R., Heileson, J. L., Abou Sawan, S., Dickerson, B. L., Leonard, M., Kreider, R. B., Kerksick, C. M., Cornish, S. M., Candow, D. G., Cordingley, D. M., Forbes, S. C., Tinsley, G. M., Bongiovanni, T., Cannataro, R., Campbell, B. I., Arent, S. M., Stout, J. R., Kalman, D. S. &amp; Antonio, J. (2025). International society of sports nutrition position stand: Long-Chain Omega-3 polyunsaturated fatty acids. <em>Journal of the International Society of Sports Nutrition, 22</em>(1), Artikel 2441775.",
+   "doi": "10.1080/15502783.2024.2441775"
+  },
+  "li2026": {
+   "short": "Li & Zhang, 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41891174",
+   "apa": "Li, Z. &amp; Zhang, B. (2026). Effects of Omega-3 supplementation on inflammation and recovery in sports: A meta-analysis. <em>The FASEB Journal, 40</em>(7), Artikel e71709.",
+   "doi": "10.1096/fj.202504783R"
+  },
+  "santoandre2023": {
+   "short": "Santo André et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36811583",
+   "apa": "Santo André, H. C., Esteves, G. P., Barreto, G. H. C., Longhini, F., Dolan, E. &amp; Benatti, F. B. (2023). The influence of n-3PUFA supplementation on muscle strength, mass, and function: A systematic review and meta-analysis. <em>Advances in Nutrition, 14</em>(1), 115–127.",
+   "doi": "10.1016/j.advnut.2022.11.005"
+  },
+  "delpino2021": {
+   "short": "Delpino & Figueiredo, 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34330453",
+   "apa": "Delpino, F. M. &amp; Figueiredo, L. M. (2021). Supplementation with omega-3 and lean body mass in the general population: A systematic review and meta-analysis. <em>Clinical Nutrition ESPEN, 44</em>, 105–113.",
+   "doi": "10.1016/j.clnesp.2021.05.002"
+  },
+  "therdyothin2025": {
+   "short": "Therdyothin et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38777807",
+   "apa": "Therdyothin, A., Prokopidis, K., Galli, F., Witard, O. C. &amp; Isanejad, M. (2025). The effects of omega-3 polyunsaturated fatty acids on muscle and whole-body protein synthesis: A systematic review and meta-analysis. <em>Nutrition Reviews, 83</em>(2), e131–e143.",
+   "doi": "10.1093/nutrit/nuae055"
+  },
+  "khan2021": {
+   "short": "Khan et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34505026",
+   "apa": "Khan, S. U., Lone, A. N., Khan, M. S., Virani, S. S., Blumenthal, R. S., Nasir, K., Miller, M., Michos, E. D., Ballantyne, C. M., Boden, W. E. &amp; Bhatt, D. L. (2021). Effect of omega-3 fatty acids on cardiovascular outcomes: A systematic review and meta-analysis. <em>EClinicalMedicine, 38</em>, Artikel 100997.",
+   "doi": "10.1016/j.eclinm.2021.100997"
+  },
+  "bernasconi2021": {
+   "short": "Bernasconi et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse und Metaregression",
+   "basis": "Abstract",
+   "pmid": "32951855",
+   "apa": "Bernasconi, A. A., Wiest, M. M., Lavie, C. J., Milani, R. V. &amp; Laukkanen, J. A. (2021). Effect of Omega-3 dosage on cardiovascular outcomes: An updated meta-analysis and meta-regression of interventional trials. <em>Mayo Clinic Proceedings, 96</em>(2), 304–313.",
+   "doi": "10.1016/j.mayocp.2020.08.034"
+  },
+  "wang2026": {
+   "short": "Wang et al., 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41901084",
+   "apa": "Wang, Z., Qin, G. &amp; Kim, B. M. (2026). Comparative effects of dietary protein, creatine, and Omega-3 supplementation on muscle strength, endurance, and recovery in trained athletes: A systematic review and network meta-analysis. <em>Nutrients, 18</em>(6), Artikel 909.",
+   "doi": "10.3390/nu18060909"
+  },
+  "cornish2022": {
+   "short": "Cornish et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35684018",
+   "apa": "Cornish, S. M., Cordingley, D. M., Shaw, K. A., Forbes, S. C., Leonhardt, T., Bristol, A., Candow, D. G. &amp; Chilibeck, P. D. (2022). Effects of Omega-3 supplementation alone and combined with resistance exercise on skeletal muscle in older adults: A systematic review and meta-analysis. <em>Nutrients, 14</em>(11), Artikel 2221.",
+   "doi": "10.3390/nu14112221"
+  },
+  "ma2021": {
+   "short": "Ma et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33485255",
+   "apa": "Ma, W. J., Li, H., Zhang, W., Zhai, J., Li, J., Liu, H., Guo, X. F. &amp; Li, D. (2021). Effect of n-3 polyunsaturated fatty acid supplementation on muscle mass and function with aging: A meta-analysis of randomized controlled trials✰. <em>Prostaglandins, Leukotrienes and Essential Fatty Acids, 165</em>, Artikel 102249.",
+   "doi": "10.1016/j.plefa.2021.102249"
+  },
+  "huang2020": {
+   "short": "Huang et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33291698",
+   "apa": "Huang, Y. H., Chiu, W. C., Hsu, Y. P., Lo, Y. L. &amp; Wang, Y. H. (2020). Effects of Omega-3 fatty acids on muscle mass, muscle strength and muscle performance among the elderly: A meta-analysis. <em>Nutrients, 12</em>(12), Artikel 3739.",
+   "doi": "10.3390/nu12123739"
+  },
+  "rondanelli2021": {
+   "short": "Rondanelli et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33781784",
+   "apa": "Rondanelli, M., Perna, S., Riva, A., Petrangolini, G., Di Paolo, E. &amp; Gasparri, C. (2021). Effects of n-3 EPA and DHA supplementation on fat free mass and physical performance in elderly. A systematic review and meta-analysis of randomized clinical trial. <em>Mechanisms of Ageing and Development, 196</em>, Artikel 111476.",
+   "doi": "10.1016/j.mad.2021.111476"
+  },
+  "timraz2023": {
+   "short": "Timraz et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37630768",
+   "apa": "Timraz, M., Binmahfoz, A., Quinn, T. J., Combet, E. &amp; Gray, S. R. (2023). The effect of long chain n-3 fatty acid supplementation on muscle strength in older adults: A systematic review and meta-analysis. <em>Nutrients, 15</em>(16), Artikel 3579.",
+   "doi": "10.3390/nu15163579"
+  },
+  "hu2019": {
+   "short": "Hu et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "31567003",
+   "apa": "Hu, Y., Hu, F. B. &amp; Manson, J. E. (2019). Marine Omega-3 supplementation and cardiovascular disease: An updated meta-analysis of 13 randomized controlled trials involving 127 477 participants. <em>Journal of the American Heart Association, 8</em>(19), Artikel e013543.",
+   "doi": "10.1161/JAHA.119.013543"
+  },
+  "rizos2021": {
+   "short": "Rizos et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse mit sequenzieller Studienanalyse",
+   "basis": "Abstract",
+   "pmid": "32820013",
+   "apa": "Rizos, E. C., Markozannes, G., Tsapas, A., Mantzoros, C. S. &amp; Ntzani, E. E. (2021). Omega-3 supplementation and cardiovascular disease: Formulation-based systematic review and meta-analysis with trial sequential analysis. <em>Heart, 107</em>(2), 150–158.",
+   "doi": "10.1136/heartjnl-2020-316780"
+  },
+  "yan2024": {
+   "short": "Yan et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36103100",
+   "apa": "Yan, J., Liu, M., Yang, D., Zhang, Y. &amp; An, F. (2024). Efficacy and safety of Omega-3 fatty acids in the prevention of cardiovascular disease: A systematic review and meta-analysis. <em>Cardiovascular Drugs and Therapy, 38</em>(4), 799–817.",
+   "doi": "10.1007/s10557-022-07379-z"
+  },
+  "dinu2024": {
+   "short": "Dinu et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38869144",
+   "apa": "Dinu, M., Sofi, F., Lotti, S., Colombini, B., Mattioli, A. V., Catapano, A. L., Casula, M., Baragetti, A., Wong, N. D., Steg, P. G. &amp; Ambrosio, G. (2024). Effects of omega-3 fatty acids on coronary revascularization and cardiovascular events: A meta-analysis. <em>European Journal of Preventive Cardiology, 31</em>(15), 1863–1875.",
+   "doi": "10.1093/eurjpc/zwae184"
+  }
+ }
+}

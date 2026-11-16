@@ -1,0 +1,377 @@
+{
+ "id": "magnesium",
+ "title": "Magnesium",
+ "stand": "2026-11-16",
+ "lead": "Verbessert Magnesium Kraft und Leistung, hilft es gegen Muskelkrämpfe oder beim Schlaf, und welche Gesundheitseffekte sind belegt? Zusammengefasst aus Metaanalysen und einem Cochrane-Review.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Bei guter Versorgung bringt Magnesium keinen Leistungsvorteil; die belegten Effekte betreffen vor allem Blutdruck und Stoffwechsel.",
+ "rx": [
+  {
+   "label": "Leistung",
+   "value": "kein Nutzen bei guter Versorgung",
+   "text": "Kraft, Drehmoment und Leistung verbesserten sich bei Sportlern nicht; Nutzen nur bei Mangel wahrscheinlich.",
+   "cite": "Wang et al. 2017"
+  },
+  {
+   "label": "Krämpfe",
+   "value": "nicht wirksam belegt",
+   "text": "Bei älteren Erwachsenen mit Krämpfen kein klinisch relevanter Schutz; zu Krämpfen beim Sport gibt es keine Studien.",
+   "cite": "Garrison et al. 2020"
+  },
+  {
+   "label": "Blutdruck",
+   "value": "ca. 300–360 mg/Tag über mehrere Monate senkt leicht",
+   "text": "Systolisch etwa −2 bis −3 mmHg, auch bei normalem Blutdruck; stärker bei Bluthochdruck, niedrigem Magnesiumspiegel und Einnahme über mehr als 3 Monate. Höhere Dosen brachten keinen Zusatznutzen.",
+   "cite": "Zhang et al. 2016; Argeros et al. 2025; Behers et al. 2024"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Hohe Magnesiumdosen aus Supplementen können abführend wirken; bei eingeschränkter Nierenfunktion ärztlich abklären.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Kein Leistungsvorteil bei Sportlern",
+   "ev": "moderat",
+   "p": "Magnesium verbesserte Kraft und Leistung bei Sportlern und Aktiven nicht; ein Nutzen ist nur bei Mangel plausibel.",
+   "s": [
+    "wang2017"
+   ]
+  },
+  {
+   "t": "Gegen Krämpfe nicht belegt",
+   "ev": "moderat",
+   "p": "Das Cochrane-Review fand keinen klinisch relevanten Schutz vor Krämpfen bei Älteren und keine Studien zu Krämpfen beim Sport.",
+   "s": [
+    "garrison2020"
+   ]
+  },
+  {
+   "t": "Leicht niedrigerer Blutdruck",
+   "ev": "hoch",
+   "p": "Magnesium senkte den Blutdruck um etwa 2–3 mmHg, auch bei normalem Blutdruck; deutlicher bei Bluthochdruck, Magnesiummangel und Einnahme über mehrere Monate.",
+   "s": [
+    "zhang2016",
+    "argeros2025",
+    "behers2023",
+    "behers2024",
+    "mohammadi2026"
+   ]
+  },
+  {
+   "t": "Schlaf: schwache Datenlage",
+   "ev": "niedrig",
+   "p": "Bei älteren Erwachsenen schnelleres Einschlafen, aber nur 3 kleine Studien mit hohem Verzerrungsrisiko.",
+   "s": [
+    "mah2021"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "leistung",
+   "name": "Muskelkraft und Leistung",
+   "q": "Macht Magnesium stärker?",
+   "ev": "moderat",
+   "key": [
+    "Keine signifikanten Verbesserungen bei isokinetischem Drehmoment (WMD 0,87 [−1,43; 3,18]), Muskelkraft (WMD 0,87 [−0,12; 1,86]) oder Leistung (WMD 3,28 [−14,94; 21,50]) bei Sportlern und Aktiven; Nutzen möglich bei Mangel, etwa bei Älteren (Wang et al., 2017)."
+   ],
+   "critic": "Ältere Analyse mit wenigen Studien; neuere Metaanalysen speziell zu Sportlern fehlen in PubMed. Das Ergebnis passt aber zur Erwartung, dass ein Nährstoff bei ausreichender Versorgung keinen Zusatznutzen bringt.",
+   "figs": [],
+   "s": [
+    "wang2017"
+   ]
+  },
+  {
+   "id": "kraempfe",
+   "name": "Muskelkrämpfe",
+   "q": "Hilft Magnesium gegen Krämpfe?",
+   "ev": "moderat",
+   "key": [
+    "11 Studien mit 735 Personen: Magnesium bietet älteren Erwachsenen mit Muskelkrämpfen wahrscheinlich keinen klinisch relevanten Schutz; bei Schwangerschaftskrämpfen widersprüchlich; zu Krämpfen beim Sport keine randomisierten Studien (Garrison et al., 2020)."
+   ],
+   "critic": "Hohe methodische Qualität, aber nicht an Sportlern untersucht. Die häufige Empfehlung von Magnesium gegen Krämpfe beim Sport hat damit keine direkte Evidenzbasis.",
+   "figs": [],
+   "s": [
+    "garrison2020"
+   ]
+  },
+  {
+   "id": "schlaf",
+   "name": "Schlaf",
+   "q": "Verbessert Magnesium den Schlaf?",
+   "ev": "niedrig",
+   "key": [
+    "3 Studien mit 151 älteren Erwachsenen: 17 Minuten schnelleres Einschlafen [−27,3; −7,4]; Gesamtschlafzeit nicht signifikant verändert; geringe bis sehr geringe Evidenzqualität (Mah &amp; Pitre, 2021)."
+   ],
+   "critic": "Sehr dünne Datenbasis, nicht bei jungen Sportlern untersucht.",
+   "figs": [],
+   "s": [
+    "mah2021"
+   ]
+  },
+  {
+   "id": "herz",
+   "name": "Blutdruck, Gefäße und Stoffwechsel",
+   "q": "Welche Gesundheitseffekte sind belegt?",
+   "ev": "hoch",
+   "key": [
+    "38 Studien mit 2 709 Personen (Median 365 mg/Tag, 12 Wochen): systolisch −2,81 mmHg [−4,32; −1,29], diastolisch −2,05 mmHg [−3,23; −0,88]; deutlich stärker bei Bluthochdruck unter Medikation und bei niedrigem Magnesiumspiegel (Argeros et al., 2025).",
+    "Dosis-Wirkungs-Metaanalyse: Verbesserungen bei Körpergewicht, Blutfetten, Blutzucker, Blutdruck und Interleukin-6, insgesamt aber bescheiden und von unsicherer klinischer Bedeutung (Mohammadi et al., 2026).",
+    "34 doppelblinde Studien mit 2 028 Personen (Median 368 mg/Tag, 3 Monate): systolisch −2,00 mmHg [−3,58; −0,43], diastolisch −1,78 mmHg [−2,82; −0,73]; 300 mg/Tag oder 1 Monat reichten, um Serummagnesium und Blutdruck zu verändern (Zhang et al., 2016).",
+    "Menschen mit normalem Blutdruck: Magnesium senkte den Blutdruck um −2,79/−1,56 mmHg; Vitamin C und D wirkten nicht (Behers et al., 2023).",
+    "Dosis und Dauer bei normalem Blutdruck: ≤ 360 mg/Tag senkten den systolischen Blutdruck um −3,03 mmHg, eine Einnahme über mehr als 3 Monate um −4,31 mmHg (Behers et al., 2024).",
+    "12 Studien: kein signifikanter Gesamteffekt auf die Endothelfunktion (FMD, MD 2,86 [−1,31; 7,03]); Intima-Media-Dicke leicht verringert (MD −0,08 [−0,15; −0,01]); Gefäßsteifigkeit (PWV) unverändert (Amiri et al., 2026)."
+   ],
+   "critic": "Die Blutdrucksenkung ist über ein Jahrzehnt in mehreren unabhängigen Metaanalysen konsistent (Zhang et al., 2016; Argeros et al., 2025) und auch bei normalem Blutdruck nachweisbar (Behers et al., 2023). Der Effekt ist klein (etwa 2–3 mmHg systolisch) und deutlich größer bei Bluthochdruck oder Magnesiummangel. Hohe Dosen bringen keinen Zusatznutzen; moderate Dosen über mehrere Monate erscheinen ausreichend (Behers et al., 2024). Die Subgruppenanalysen sind allerdings nicht vorab geplant und daher vorsichtig zu lesen. Zur Gefäßfunktion ist die Datenlage dünn und uneinheitlich (Amiri et al., 2026).",
+   "figs": [
+    {
+     "id": "m-bp",
+     "title": "Magnesium und Blutdruck im Zeitverlauf",
+     "cap": "Mittlere Differenz des systolischen Blutdrucks gegenüber Placebo in mmHg mit 95-%-KI; Werte unter 0 = Senkung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Systolisch, 34 Studien",
+       "sub": "Zhang et al., 2016",
+       "es": -2.0,
+       "lo": -3.58,
+       "hi": -0.43
+      },
+      {
+       "l": "Systolisch, 38 Studien",
+       "sub": "Argeros et al., 2025",
+       "es": -2.81,
+       "lo": -4.32,
+       "hi": -1.29
+      },
+      {
+       "l": "Diastolisch, 34 Studien",
+       "sub": "Zhang et al., 2016",
+       "es": -1.78,
+       "lo": -2.82,
+       "hi": -0.73
+      },
+      {
+       "l": "Diastolisch, 38 Studien",
+       "sub": "Argeros et al., 2025",
+       "es": -2.05,
+       "lo": -3.23,
+       "hi": -0.88
+      }
+     ],
+     "opts": {
+      "min": -5,
+      "max": 1,
+      "ticks": [
+       -4,
+       -3,
+       -2,
+       -1,
+       0
+      ],
+      "unit": "mmHg"
+     }
+    },
+    {
+     "id": "m-bp-norm",
+     "title": "Systolische Senkung bei normalem Blutdruck",
+     "cap": "Mittlere Senkung des systolischen Blutdrucks in mmHg, ohne KI im Abstract (Behers et al., 2023, 2024).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Gesamt (normotensiv)",
+       "es": 2.79
+      },
+      {
+       "l": "≤ 360 mg/Tag",
+       "es": 3.03
+      },
+      {
+       "l": "> 3 Monate Einnahme",
+       "es": 4.31
+      }
+     ],
+     "opts": {
+      "max": 5,
+      "ticks": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5
+      ],
+      "unit": "mmHg",
+      "xlab": "Senkung des systolischen Blutdrucks (mmHg)",
+      "src": "Behers et al., 2023, 2024"
+     }
+    }
+   ],
+   "s": [
+    "argeros2025",
+    "mohammadi2026",
+    "zhang2016",
+    "behers2023",
+    "behers2024",
+    "amiri2026"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2016,
+   "t": "Blutdrucksenkung erstmals robust belegt",
+   "p": "Doppelblinde Studien zeigten eine kleine, kausal interpretierte Blutdrucksenkung.",
+   "tag": "neu",
+   "s": "zhang2016"
+  },
+  {
+   "y": 2017,
+   "t": "Kein Leistungseffekt bei Sportlern",
+   "p": "Kraft und Leistung unverändert.",
+   "tag": "neu",
+   "s": "wang2017"
+  },
+  {
+   "y": 2020,
+   "t": "Cochrane: Krämpfe",
+   "p": "Kein relevanter Schutz bei Älteren, keine Studien zu Sportkrämpfen.",
+   "tag": "neu",
+   "s": "garrison2020"
+  },
+  {
+   "y": 2021,
+   "t": "Schlaf bei Älteren",
+   "p": "Schnelleres Einschlafen, schwache Evidenz.",
+   "tag": "neu",
+   "s": "mah2021"
+  },
+  {
+   "y": 2023,
+   "t": "Auch bei normalem Blutdruck",
+   "p": "Leichte Senkung auch in der normotensiven Allgemeinbevölkerung.",
+   "tag": "conf",
+   "s": "behers2023"
+  },
+  {
+   "y": 2024,
+   "t": "Niedrige Dosis, längere Dauer",
+   "p": "Stärkere Senkung bei ≤ 360 mg/Tag und mehr als 3 Monaten Einnahme.",
+   "tag": "conf",
+   "s": "behers2024"
+  },
+  {
+   "y": 2025,
+   "t": "Blutdrucksenkung bestätigt",
+   "p": "38 Studien: etwa −3/−2 mmHg.",
+   "tag": "conf",
+   "s": "argeros2025"
+  },
+  {
+   "y": 2026,
+   "t": "Kardiometabolische Marker",
+   "p": "Bescheidene Verbesserungen mehrerer Risikofaktoren.",
+   "tag": "conf",
+   "s": "mohammadi2026"
+  },
+  {
+   "y": 2026,
+   "t": "Gefäßfunktion kaum verändert",
+   "p": "Kein Gesamteffekt auf die Endothelfunktion, kleine Abnahme der Intima-Media-Dicke.",
+   "tag": "neu",
+   "s": "amiri2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 5 geprüft, 4 aufgenommen, 1 ausgeschlossen. Blutdrucksenkung durch ältere (Zhang et al., 2016) und neuere Analysen in der normotensiven Bevölkerung bestätigt (Behers et al., 2023; 2024), Dosis-/Dauerangaben ergänzt; Gefäßfunktion neu (Amiri et al., 2026); Abbildungen erweitert. Schlaf-Review ohne Magnesium-Metaanalyse ausgeschlossen."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 723 Einträgen, Cochrane-Review gezielt ergänzt; 5 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "wang2017": {
+   "short": "Wang et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29637897",
+   "apa": "Wang, R., Chen, C., Liu, W., Zhou, T., Xun, P., He, K. &amp; Chen, P. (2017). The effect of magnesium supplementation on muscle fitness: A meta-analysis and systematic review. <em>Magnesium Research, 30</em>(4), 120–132.",
+   "doi": "10.1684/mrh.2018.0430"
+  },
+  "garrison2020": {
+   "short": "Garrison et al., 2020",
+   "year": 2020,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "32956536",
+   "apa": "Garrison, S. R., Korownyk, C. S., Kolber, M. R., Allan, G. M., Musini, V. M., Sekhon, R. K. &amp; Dugré, N. (2020). Magnesium for skeletal muscle cramps. <em>Cochrane Database of Systematic Reviews</em>(9), Artikel CD009402.",
+   "doi": "10.1002/14651858.CD009402.pub3"
+  },
+  "mah2021": {
+   "short": "Mah & Pitre, 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33865376",
+   "apa": "Mah, J. &amp; Pitre, T. (2021). Oral magnesium supplementation for insomnia in older adults: A systematic review & meta-analysis. <em>BMC Complementary Medicine and Therapies, 21</em>(1), Artikel 125.",
+   "doi": "10.1186/s12906-021-03297-z"
+  },
+  "argeros2025": {
+   "short": "Argeros et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41000008",
+   "apa": "Argeros, Z., Xu, X., Bhandari, B., Harris, K., Touyz, R. M. &amp; Schutte, A. E. (2025). Magnesium supplementation and blood pressure: A systematic review and meta-analysis of randomized controlled trials. <em>Hypertension, 82</em>(11), 1844–1856.",
+   "doi": "10.1161/HYPERTENSIONAHA.125.25129"
+  },
+  "mohammadi2026": {
+   "short": "Mohammadi et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse (Dosis-Wirkung)",
+   "basis": "Abstract",
+   "pmid": "42588058",
+   "apa": "Mohammadi, S., Palermo, A., Ojani, P., Alaghemand, N., Pirayvatlou, P. S., Mirkarimi, M., Mavi, S. A., Tahouri, K., Shokouhifar, S., Ettehad, Y., Borzabadi, A., Ashtary-Larky, D., Suzuki, K., Bouzas, C., Rodrigues, D. &amp; Tur, J. A. (2026). Comprehensive effects of magnesium supplementation on cardiometabolic risk factors: A systematic review and dose-response meta-analysis. <em>Nutrients, 18</em>(15), Artikel 2435.",
+   "doi": "10.3390/nu18152435"
+  },
+  "zhang2016": {
+   "short": "Zhang et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27402922",
+   "apa": "Zhang, X., Li, Y., Del Gobbo, L. C., Rosanoff, A., Wang, J., Zhang, W. &amp; Song, Y. (2016). Effects of magnesium supplementation on blood pressure: A meta-analysis of randomized double-blind placebo-controlled trials. <em>Hypertension, 68</em>(2), 324–333.",
+   "doi": "10.1161/HYPERTENSIONAHA.116.07664"
+  },
+  "behers2023": {
+   "short": "Behers et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37836507",
+   "apa": "Behers, B. J., Melchor, J., Behers, B. M., Meng, Z., Swanson, P. J., Paterson, H. I., Mendez Araque, S. J., Davis, J. L., Gerhold, C. J., Shah, R. S., Thompson, A. J., Patel, B. S., Mouratidis, R. W. &amp; Sweeney, M. J. (2023). Vitamins and minerals for blood pressure reduction in the general, normotensive population: A systematic review and meta-analysis of six supplements. <em>Nutrients, 15</em>(19), Artikel 4223.",
+   "doi": "10.3390/nu15194223"
+  },
+  "behers2024": {
+   "short": "Behers et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39519450",
+   "apa": "Behers, B. J., Behers, B. M., Stephenson-Moe, C. A., Vargas, I. A., Meng, Z., Thompson, A. J., Melchor, J., Wojtas, C. N., Rosario, M. A., Baker, J. F., Deevers, A. C., Mouratidis, R. W. &amp; Sweeney, M. J. (2024). Magnesium and potassium supplementation for systolic blood pressure reduction in the general normotensive population: A systematic review and subgroup meta-analysis for optimal dosage and treatment length. <em>Nutrients, 16</em>(21), Artikel 3617.",
+   "doi": "10.3390/nu16213617"
+  },
+  "amiri2026": {
+   "short": "Amiri et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42946992",
+   "apa": "Amiri, A., Gholami-Chahkand, M. S., Javazm, A. K., Jannat, B., Seighali, F. &amp; Seighali, N. (2026). The effects of oral magnesium supplements on vascular and endothelial function: An updated systematic review and meta-analysis of randomized controlled trials. <em>BMC Cardiovascular Disorders, 26</em>(1), Artikel 985.",
+   "doi": "10.1186/s12872-026-06476-3"
+  }
+ }
+}

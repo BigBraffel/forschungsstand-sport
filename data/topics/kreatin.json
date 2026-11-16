@@ -1,0 +1,850 @@
+{
+ "id": "kreatin",
+ "title": "Kreatin",
+ "stand": "2026-11-16",
+ "lead": "Was bewirkt Kreatin bei Kraft, Muskelmasse, Ausdauer und Gehirnleistung, welche Dosis und Form sind sinnvoll, und ist es sicher? Zusammengefasst aus Metaanalysen und dem ISSN-Positionspapier.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene, die Krafttraining betreiben. Kreatin ist eines der am besten untersuchten Supplemente; die Wirkung entsteht vor allem in Kombination mit Training.",
+ "rx": [
+  {
+   "label": "Form",
+   "value": "Kreatin-Monohydrat",
+   "text": "Andere Formen zeigten keine überlegenen Effekte, sind kaum untersucht und teurer.",
+   "cite": "Fazio et al. 2022"
+  },
+  {
+   "label": "Dosis",
+   "value": "3–5 g pro Tag, ggf. 0,3 g/kg",
+   "text": "Mit etwa 7 g bzw. 0,3 g/kg pro Tag im Mittel rund 1 kg mehr fettfreie Masse als Training allein; höhere Dosen brachten keinen Zusatznutzen. Eine Ladephase (20 g/Tag, 5–7 Tage) war in vielen Studien üblich, bei Älteren hingen Kraftvorteile teilweise davon ab; bei Frauen nach der Menopause wirkten erst ≥ 5 g mit Training.",
+   "cite": "Desai et al. 2024; Zhang et al. 2025; Forbes et al. 2021; Naddafha et al. 2026"
+  },
+  {
+   "label": "Kombination",
+   "value": "mit Krafttraining",
+   "text": "Ohne Training zeigte Kreatin in mehreren Analysen keine messbare Wirkung auf Masse oder Kraft.",
+   "cite": "Naddafha et al. 2026"
+  },
+  {
+   "label": "Ausdauer",
+   "value": "kein Vorteil; eher für Sprints",
+   "text": "Kreatin verbesserte Ausdauer und VO₂max nicht; bei wiederholten Sprints und anaerober Leistung stieg die mittlere Leistung. Gewichtszunahme von knapp 1 kg beachten.",
+   "cite": "Gras et al. 2023; Fernández-Landa et al. 2023; Glaister &amp; Rhodes 2022"
+  },
+  {
+   "label": "Sicherheit",
+   "value": "bei Gesunden unbedenklich",
+   "text": "Langfristig bis 30 g/Tag gut verträglich; erhöhtes Kreatinin im Blut ist ein Messeffekt, keine Nierenschädigung.",
+   "cite": "Kreider et al. 2017; de Souza Almeida et al. 2026"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Kreatin erhöht das Serumkreatinin; bei Nierenwerten sollte die Einnahme angegeben werden, da kreatininbasierte Schätzungen sonst eine schlechtere Nierenfunktion vortäuschen können.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Mehr Kraft in Kombination mit Training",
+   "ev": "hoch",
+   "p": "Kreatin plus Krafttraining steigerte die Kraft im Oberkörper um etwa 4 kg und im Unterkörper um etwa 11 kg mehr als Training mit Placebo.",
+   "s": [
+    "wang2024",
+    "kazeminasab2025",
+    "wang2026",
+    "lanhers2017"
+   ]
+  },
+  {
+   "t": "Mehr fettfreie Masse",
+   "ev": "hoch",
+   "p": "Etwa 0,8 bis 1,4 kg zusätzliche fettfreie Masse; direkt gemessen ist der Muskelzuwachs aber nur sehr klein, ein Teil ist Wasser.",
+   "s": [
+    "desai2024",
+    "ashtary2025",
+    "pashayee2024",
+    "burke2023"
+   ]
+  },
+  {
+   "t": "Kein Vorteil für Ausdauer, eher für wiederholte Sprints",
+   "ev": "moderat",
+   "p": "Ausdauerleistung und VO₂max verbesserten sich nicht; bei wiederholten Sprints und anaeroben Tests stieg die mittlere Leistung.",
+   "s": [
+    "gras2023",
+    "fernandezlanda2023",
+    "glaister2022"
+   ]
+  },
+  {
+   "t": "Gedächtnis: Vorteil vor allem bei Älteren",
+   "ev": "moderat",
+   "p": "Kreatin verbesserte Gedächtnisleistungen, deutlich bei 66- bis 76-Jährigen, kaum bei Jüngeren.",
+   "s": [
+    "prokopidis2023"
+   ]
+  },
+  {
+   "t": "Keine Entzündungshemmung",
+   "ev": "moderat",
+   "p": "Kreatin senkte CRP und Interleukin-6 nicht.",
+   "s": [
+    "decamargo2026"
+   ]
+  },
+  {
+   "t": "Sicher bei gesunden Menschen",
+   "ev": "hoch",
+   "p": "Keine erhöhten Risiken für Nieren, Leber oder schwere Nebenwirkungen; der Anstieg des Serumkreatinins ist ein Messeffekt.",
+   "s": [
+    "kreider2017",
+    "deguingand2020",
+    "kidney2026"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "kraft",
+   "name": "Kraft",
+   "q": "Wie stark steigert Kreatin die Kraft?",
+   "ev": "hoch",
+   "key": [
+    "Kreatin plus Krafttraining gegenüber Placebo: Oberkörperkraft +4,43 kg, Unterkörperkraft +11,35 kg; bei Männern signifikant, bei Frauen in dieser Analyse nicht (Wang et al., 2024).",
+    "Effekte vor allem bei Mehrgelenksübungen wie Kniebeuge und Bankdrücken; bei der Beinpresse uneinheitlich (Kazeminasab et al., 2025).",
+    "Frauen nach der Menopause: Beinpresse +7,5 kg [2,2; 12,8] mit Kreatin und Training (Naddafha et al., 2026).",
+    "Dreistufige Metaanalyse, 63 Studien mit 1 489 Personen: Kreatin plus Krafttraining steigerte gegenüber Training allein die Oberkörperkraft (g = 0,54) und Unterkörperkraft (g = 0,55); explorativ größere Effekte bei Jüngeren; Dosis, Dauer und Protokoll beeinflussten das Ergebnis nicht (H. Wang et al., 2026).",
+    "53 Studien: Kreatin verbesserte die Kraft der oberen Extremität (ES 0,32 [0,19; 0,45]; Bankdrücken 0,27 [0,13; 0,40]), unabhängig von Alter, Geschlecht, Aktivitätsniveau, Dosis und Dauer (Lanhers et al., 2017).",
+    "Kreatin steigerte die Kraft; in Subgruppen profitierten Untrainierte mehr als Trainierte, niedrige bis moderate Dosen wirkten besser als hohe, und hochintensives Training verstärkte den Effekt; Unterschied zwischen Jüngeren und Älteren unklar (Zhang et al., 2025).",
+    "Netzwerk-Metaanalyse bei Trainierten (35 Studien, 1 211 Personen, mindestens 6 Monate Training): Kreatin war für Muskelkraft das wirksamste der verglichenen Supplemente (Protein, Kreatin, Omega-3; SMD 0,46 [0,29; 0,63]) (Z. Wang et al., 2026).",
+    "Alterseffekt (ältere Frauen, 10 Studien mit 211 Personen): Kreatin plus Krafttraining steigerte die Oberkörperkraft; bei Studien ab 24 Wochen auch die Unterkörperkraft, keine Wirkung auf Muskelmasse (Dos Santos et al., 2021)."
+   ],
+   "critic": "Sehr konsistent über viele Studien (53 bis 63 Studien je Analyse) und auch bei Trainierten (Netzwerk-Metaanalyse). Ob Trainingsstatus, Alter oder Dosis den Effekt verändern, ist uneinheitlich: Eine Analyse fand größere Effekte bei Untrainierten und Jüngeren (Zhang et al., 2025; H. Wang et al., 2026), andere fanden keine solchen Moderatoren (Lanhers et al., 2017; Desai et al., 2024). Da diese Subgruppenbefunde explorativ und ungleich verteilt sind, ist die robustere Aussage: Kreatin wirkt breit, die Unterschiede zwischen Gruppen sind unsicher. Bei Frauen beruhen die Daten auf wenigen, kleinen Studien; die Analysen bei älteren Frauen zeigen, dass Kreatin wirkt, wenn Dosis und Trainingsdauer (≥ 24 Wochen) ausreichen. Mehrere Autoren haben Verbindungen zu Kreatinherstellern.",
+   "figs": [
+    {
+     "id": "k-kraft",
+     "title": "Zusätzlicher Kraftzuwachs mit Kreatin",
+     "cap": "Mittlere Differenz gegenüber Placebo in kg. Wang et al. (2024) nennen im Abstract keine Intervalle; Naddafha et al. (2026) mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Oberkörper, Erwachsene < 50 Jahre",
+       "sub": "Wang et al., 2024",
+       "es": 4.43
+      },
+      {
+       "l": "Unterkörper, Erwachsene < 50 Jahre",
+       "sub": "Wang et al., 2024",
+       "es": 11.35
+      },
+      {
+       "l": "Beinpresse, Frauen nach der Menopause",
+       "sub": "Naddafha et al., 2026",
+       "es": 7.5,
+       "lo": 2.2,
+       "hi": 12.8
+      }
+     ],
+     "opts": {
+      "min": 0,
+      "max": 14,
+      "ticks": [
+       0,
+       4,
+       8,
+       12
+      ],
+      "unit": "kg"
+     }
+    }
+   ],
+   "s": [
+    "wang2024",
+    "kazeminasab2025",
+    "naddafha2026",
+    "wang2026",
+    "lanhers2017",
+    "zhang2025",
+    "wangz2026",
+    "dossantos2021"
+   ]
+  },
+  {
+   "id": "masse",
+   "name": "Muskelmasse und Körperzusammensetzung",
+   "q": "Baut Kreatin Muskelmasse auf?",
+   "ev": "hoch",
+   "key": [
+    "Kreatin mit Krafttraining: +1,14 kg fettfreie Masse [0,69; 1,59], Körperfettanteil −0,88 % [−1,66; −0,11], Fettmasse −0,73 kg [−1,34; −0,11]; unabhängig von Trainingsstatus und gleichzeitiger Kohlenhydrataufnahme (Desai et al., 2024).",
+    "61 Studien: +1,39 kg fettfreie Masse [1,07; 1,70]; bei Trainierten etwas mehr als bei Untrainierten (1,82 vs. 1,23 kg, nicht signifikant) (Ashtary-Larky et al., 2025).",
+    "Frauen nach der Menopause: +0,37 kg fettfreie Masse [0,05; 0,69]; Knochendichte unverändert (Naddafha et al., 2026).",
+    "143 Studien: Kreatin erhöhte Körpermasse (+0,86 kg [0,76; 0,96]) und fettfreie Masse (+0,82 kg [0,57; 1,06]) und senkte den Körperfettanteil (−0,28 % [−0,47; −0,09]); stärker mit Erhaltungsdosis und Krafttraining (Pashayee-Khamene et al., 2024).",
+    "Direkte Bildgebung (MRT, CT, Ultraschall), 10 Studien: nur sehr kleiner Vorteil für Kreatin plus Krafttraining (gepoolter Effekt 0,11 [−0,02; 0,25], Bayes-Intervall); Muskeldicke im Ober- und Unterkörper +0,10 bis 0,16 cm; bei Jüngeren etwas mehr als bei Älteren (Burke et al., 2023).",
+    "63 Studien: magere Masse g = 0,30, Körpermasse g = 0,12, Körperfettanteil g = −0,14; Fettmasse nicht signifikant (g = −0,10); keine konsistenten Moderatoren (H. Wang et al., 2026)."
+   ],
+   "critic": "Die Analysen zur fettfreien Masse stimmen überein (etwa +0,8 bis +1,4 kg). Ein Teil davon ist Wasser in der Muskelzelle. Direkte Messungen der Muskeldicke zeigen nur einen sehr kleinen Zusatzeffekt (Burke et al., 2023; 10 Studien). Das spricht dafür, dass der echte Muskelzuwachs deutlich kleiner ist, als die fettfreie Masse nahelegt. Die Bildgebungsdaten sind methodisch genauer, beruhen aber auf weniger Studien. Die Kraftzuwächse belegen dennoch einen echten Trainingsvorteil. Mehrere Autoren haben Verbindungen zu Kreatinherstellern.",
+   "figs": [
+    {
+     "id": "k-masse",
+     "title": "Kreatin und Körperzusammensetzung",
+     "cap": "Mittlere Differenz gegenüber Kontrolle bzw. Training ohne Kreatin in kg mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Fettfreie Masse",
+       "sub": "Desai et al., 2024",
+       "es": 1.14,
+       "lo": 0.69,
+       "hi": 1.59
+      },
+      {
+       "l": "Fettfreie Masse",
+       "sub": "Ashtary-Larky et al., 2025",
+       "es": 1.39,
+       "lo": 1.07,
+       "hi": 1.7
+      },
+      {
+       "l": "Fettfreie Masse",
+       "sub": "Pashayee-Khamene et al., 2024",
+       "es": 0.82,
+       "lo": 0.57,
+       "hi": 1.06
+      },
+      {
+       "l": "Fettmasse",
+       "sub": "Desai et al., 2024",
+       "es": -0.73,
+       "lo": -1.34,
+       "hi": -0.11
+      },
+      {
+       "l": "Fettfreie Masse, Frauen nach der Menopause",
+       "sub": "Naddafha et al., 2026",
+       "es": 0.37,
+       "lo": 0.05,
+       "hi": 0.69
+      }
+     ],
+     "opts": {
+      "min": -1.6,
+      "max": 2,
+      "ticks": [
+       -1.5,
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1,
+       1.5
+      ],
+      "unit": "kg"
+     }
+    }
+   ],
+   "s": [
+    "desai2024",
+    "ashtary2025",
+    "naddafha2026",
+    "pashayee2024",
+    "burke2023",
+    "wang2026"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Ausdauer und wiederholte Sprints",
+   "q": "Hilft Kreatin bei Ausdauer oder Sprints?",
+   "ev": "moderat",
+   "key": [
+    "Kreatin verschlechterte die VO₂max leicht gegenüber Placebo (ES −0,20 [−0,39; −0,001]), unabhängig von Dosis, Training oder Population (Gras et al., 2023).",
+    "13 Studien mit Trainierten: kein Effekt auf die Ausdauerleistung (SMD −0,07 [−0,32; 0,18]), auch nach Ausschluss asymmetrisch verteilter Studien (Fernández-Landa et al., 2023).",
+    "14 Studien, kurzfristige Einnahme (~20 g/Tag, 3–7 Tage): höhere mittlere Leistung bei wiederholten Sprints (δ = 0,61), aber kein Effekt auf Spitzenleistung (δ = 0,41, n. s.) oder Ermüdung; Körpermasse +0,79 kg (Glaister &amp; Rhodes, 2022).",
+    "Fußball, 9 Studien: kein Effekt auf aerobe Tests (SMD −0,05 [−0,37; 0,28]) und kaum auf Einzelsprint, Sprung und Agilität (SMD 0,21 [−0,03; 0,45]), aber deutlicher Effekt auf anaerobe Tests (SMD 1,23 [0,55; 1,91]), v. a. im Wingate-Test (SMD 2,26 [1,40; 3,11]) (Mielgo-Ayuso et al., 2019).",
+    "Scoping-Review, 38 Studien in Ausdauer- und Mischsportarten: günstige Effekte vor allem bei wiederholten Sprints, hochintensiver Leistung und Endspurts; Erholungsmarker, Körperzusammensetzung und aerobe Anpassungen uneinheitlich; meist 20 g/Tag für 5–7 Tage, danach 2–5 g/Tag (Wesołowski et al., 2026)."
+   ],
+   "critic": "Für die Ausdauerleistung selbst sind die Analysen konsistent: kein Vorteil, die VO₂max eher leicht schlechter (Gras et al., 2023; Fernández-Landa et al., 2023; Mielgo-Ayuso et al., 2019). Ursache ist vermutlich die Gewichtszunahme von knapp 1 kg. Für wiederholte Sprints und anaerobe Leistung zeigt sich ein Vorteil, allerdings ohne Effekt auf Spitzenleistung und Ermüdung (Glaister &amp; Rhodes, 2022). Der sehr große Wingate-Effekt im Fußball beruht auf wenigen kleinen Studien und ist vermutlich überschätzt. Der Scoping-Review fasst nur zusammen, ohne zu poolen. Sicher: kein Nutzen für reine Ausdauer. Wahrscheinlich: moderater Nutzen für Sportarten mit wiederholten intensiven Abschnitten.",
+   "figs": [
+    {
+     "id": "k-sprint",
+     "title": "Kreatin: Ausdauer vs. anaerobe Leistung",
+     "cap": "SMD gegenüber Placebo mit 95-%-KI (Fernández-Landa et al., 2023; Mielgo-Ayuso et al., 2019; Gras et al., 2023).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Ausdauerleistung, Trainierte",
+       "sub": "Fernández-Landa et al., 2023",
+       "es": -0.07,
+       "lo": -0.32,
+       "hi": 0.18
+      },
+      {
+       "l": "VO₂max",
+       "sub": "Gras et al., 2023",
+       "es": -0.2,
+       "lo": -0.39,
+       "hi": -0.001
+      },
+      {
+       "l": "Aerobe Tests, Fußball",
+       "sub": "Mielgo-Ayuso et al., 2019",
+       "es": -0.05,
+       "lo": -0.37,
+       "hi": 0.28
+      },
+      {
+       "l": "Einzelsprint, Sprung, Agilität, Fußball",
+       "sub": "Mielgo-Ayuso et al., 2019",
+       "es": 0.21,
+       "lo": -0.03,
+       "hi": 0.45
+      },
+      {
+       "l": "Anaerobe Tests, Fußball",
+       "sub": "Mielgo-Ayuso et al., 2019",
+       "es": 1.23,
+       "lo": 0.55,
+       "hi": 1.91
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 2,
+      "ticks": [
+       -0.5,
+       0,
+       0.5,
+       1,
+       1.5,
+       2
+      ],
+      "leftLab": "Placebo besser",
+      "rightLab": "Kreatin besser"
+     }
+    }
+   ],
+   "s": [
+    "gras2023",
+    "fernandezlanda2023",
+    "glaister2022",
+    "mielgoayuso2019",
+    "wesolowski2026"
+   ]
+  },
+  {
+   "id": "gehirn",
+   "name": "Gehirn und Gedächtnis",
+   "q": "Wirkt Kreatin auf die Gehirnleistung?",
+   "ev": "moderat",
+   "key": [
+    "Kreatin verbesserte das Gedächtnis gesunder Menschen; deutlich bei 66- bis 76-Jährigen (SMD 0,88 [0,22; 1,55]), nicht bei 11- bis 31-Jährigen (SMD 0,03 [−0,14; 0,20]) (Prokopidis et al., 2023)."
+   ],
+   "critic": "Wenige Studien mit sehr unterschiedlicher Dauer (5 Tage bis 24 Wochen) und hoher Heterogenität bei Älteren. Plausibel, aber noch nicht gesichert.",
+   "figs": [
+    {
+     "id": "k-mem",
+     "title": "Kreatin und Gedächtnis nach Altersgruppe",
+     "cap": "SMD mit 95-%-KI (Prokopidis et al., 2023).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "66–76 Jahre",
+       "sub": "Prokopidis et al., 2023",
+       "es": 0.88,
+       "lo": 0.22,
+       "hi": 1.55
+      },
+      {
+       "l": "11–31 Jahre",
+       "sub": "Prokopidis et al., 2023",
+       "es": 0.03,
+       "lo": -0.14,
+       "hi": 0.2
+      }
+     ],
+     "opts": {
+      "min": -0.3,
+      "max": 1.7,
+      "ticks": [
+       0,
+       0.5,
+       1,
+       1.5
+      ]
+     }
+    }
+   ],
+   "s": [
+    "prokopidis2023"
+   ]
+  },
+  {
+   "id": "entzuendung",
+   "name": "Entzündung und Erholung",
+   "q": "Senkt Kreatin Entzündungsmarker?",
+   "ev": "moderat",
+   "key": [
+    "8 placebokontrollierte Doppelblindstudien: kein Effekt auf CRP akut (SMD 0,32 [−0,29; 0,94]) oder chronisch (SMD −0,11 [−0,69; 0,48]) und auf Interleukin-6 (SMD −0,06 [−0,64; 0,53]); Vertrauenswürdigkeit nach GRADE moderat (de Camargo et al., 2026).",
+    "Einzelne Studien in Ausdauer- und Mischsportarten berichteten niedrigere CRP- und TNF-α-Werte, Marker für Muskelschäden reagierten uneinheitlich (Wesołowski et al., 2026)."
+   ],
+   "critic": "Die einzige Metaanalyse findet keinen Effekt; sie umfasst aber nur 8 kleine Studien mit gemischten Populationen (Gesunde, Sportler, Patienten). Einzelne positive Befunde unter intensiver Ausdauerbelastung sind nicht repliziert. Kreatin sollte nicht als Mittel zur Entzündungshemmung oder schnelleren Erholung eingesetzt werden.",
+   "figs": [],
+   "s": [
+    "decamargo2026",
+    "wesolowski2026"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit, Dosis und Form",
+   "q": "Ist Kreatin sicher, und welche Form?",
+   "ev": "hoch",
+   "key": [
+    "Positionspapier: kurz- und langfristige Einnahme (bis 30 g/Tag über 5 Jahre) bei Gesunden sicher und gut verträglich; etwa 3 g/Tag über die Lebensspanne kann gesundheitlich sinnvoll sein (Kreider et al., 2017).",
+    "26 Studien: Kreatin erhöhte das Serumkreatinin (+0,14 mg/dl) und senkte die kreatininbasiert geschätzte Filtrationsrate; mit direkter Messung (Cr-EDTA) kein Unterschied (de Souza Almeida et al., 2026).",
+    "Frauen: keine erhöhten Risiken für Nebenwirkungen, Nieren- oder Leberkomplikationen (de Guingand et al., 2020).",
+    "Alternative Kreatinformen: keine konsistenten Leistungsvorteile, kaum direkte Vergleiche mit Monohydrat (Fazio et al., 2022).",
+    "Alterseffekt (ältere Erwachsene mit Krafttraining): Kreatin steigerte magere Masse und Kraft unabhängig von der Dosierung; Kraftvorteile zeigten sich vor allem in Studien mit Ladephase (≥ 20 g/Tag für 5–7 Tage); Einnahme nur an Trainingstagen war ebenfalls wirksam (Forbes et al., 2021)."
+   ],
+   "critic": "Die scheinbare Verschlechterung der Nierenwerte ist ein Messartefakt, weil Kreatin zu Kreatinin abgebaut wird; mit direkten Verfahren zeigt sich kein Unterschied. Langzeitdaten über Jahrzehnte fehlen, und für Menschen mit Nierenerkrankung gilt die Sicherheitsaussage nicht. Zur Dosierung: Größere Dosen bringen offenbar keinen Zusatznutzen (Zhang et al., 2025; H. Wang et al., 2026); bei Älteren hingen die Kraftvorteile teilweise von einer Ladephase ab (Forbes et al., 2021). Mehrere Autoren dieser Dosisanalysen haben Verbindungen zu Kreatinherstellern.",
+   "figs": [
+    {
+     "id": "k-kid",
+     "title": "Nierenwerte unter Kreatin: Messmethode entscheidet",
+     "cap": "Mittlere Differenz der Filtrationsrate in ml/min mit 95-%-KI (de Souza Almeida et al., 2026).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kreatininbasierte Schätzung",
+       "sub": "de Souza Almeida et al., 2026",
+       "es": -10.75,
+       "lo": -17.48,
+       "hi": -4.02
+      },
+      {
+       "l": "Direkte Messung (Cr-EDTA)",
+       "sub": "de Souza Almeida et al., 2026",
+       "es": 5.89,
+       "lo": -0.3,
+       "hi": 12.08
+      }
+     ],
+     "opts": {
+      "min": -20,
+      "max": 15,
+      "ticks": [
+       -15,
+       -10,
+       -5,
+       0,
+       5,
+       10
+      ],
+      "unit": "ml/min"
+     }
+    }
+   ],
+   "s": [
+    "kreider2017",
+    "kidney2026",
+    "deguingand2020",
+    "fazio2022",
+    "forbes2021"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2017,
+   "t": "ISSN-Positionspapier Kreatin",
+   "p": "Wirksam und bei Gesunden langfristig sicher.",
+   "tag": "neu",
+   "s": "kreider2017"
+  },
+  {
+   "y": 2017,
+   "t": "Oberkörperkraft unabhängig von Population",
+   "p": "Frühe große Analyse: Kraftvorteil ohne Abhängigkeit von Population oder Dosis.",
+   "tag": "neu",
+   "s": "lanhers2017"
+  },
+  {
+   "y": 2019,
+   "t": "Fußball: anaerobe Leistung profitiert",
+   "p": "Kein aerober Effekt, aber Vorteil bei anaerober Leistung.",
+   "tag": "neu",
+   "s": "mielgoayuso2019"
+  },
+  {
+   "y": 2020,
+   "t": "Sicherheit bei Frauen",
+   "p": "Keine erhöhten Risiken für Nebenwirkungen oder Organschäden.",
+   "tag": "conf",
+   "s": "deguingand2020"
+  },
+  {
+   "y": 2021,
+   "t": "Frauen: Kraftvorteil bei längerer Dauer",
+   "p": "Bei älteren Frauen vor allem in Studien ab 24 Wochen.",
+   "tag": "conf",
+   "s": "dossantos2021"
+  },
+  {
+   "y": 2021,
+   "t": "Dosierungsstrategien: Ladephase und Trainingstage",
+   "p": "Auch Einnahme nur an Trainingstagen wirkte bei Älteren.",
+   "tag": "neu",
+   "s": "forbes2021"
+  },
+  {
+   "y": 2022,
+   "t": "Monohydrat bleibt Standard",
+   "p": "Alternative Formen ohne nachgewiesenen Vorteil.",
+   "tag": "neu",
+   "s": "fazio2022"
+  },
+  {
+   "y": 2022,
+   "t": "Wiederholte Sprints: höhere mittlere Leistung",
+   "p": "Kurzfristige Ladephase steigerte die mittlere, nicht die Spitzenleistung.",
+   "tag": "neu",
+   "s": "glaister2022"
+  },
+  {
+   "y": 2023,
+   "t": "Kein Vorteil für VO₂max",
+   "p": "Leicht negativer Effekt auf die maximale Sauerstoffaufnahme.",
+   "tag": "neu",
+   "s": "gras2023"
+  },
+  {
+   "y": 2023,
+   "t": "Gedächtnis bei Älteren",
+   "p": "Verbesserung vor allem bei 66- bis 76-Jährigen.",
+   "tag": "neu",
+   "s": "prokopidis2023"
+  },
+  {
+   "y": 2023,
+   "t": "Direkt gemessene Hypertrophie nur sehr klein",
+   "p": "Mit Bildgebung fällt der Muskelzuwachs deutlich kleiner aus als bei fettfreier Masse.",
+   "tag": "rel",
+   "s": "burke2023"
+  },
+  {
+   "y": 2023,
+   "t": "Kein Ausdauervorteil bei Trainierten",
+   "p": "13 Studien: Ausdauerleistung unverändert.",
+   "tag": "conf",
+   "s": "fernandezlanda2023"
+  },
+  {
+   "y": 2024,
+   "t": "Mehr Kraft mit Training",
+   "p": "Deutlich größere Kraftzuwächse in Ober- und Unterkörper.",
+   "tag": "conf",
+   "s": "wang2024"
+  },
+  {
+   "y": 2024,
+   "t": "Mehr fettfreie Masse, weniger Fett",
+   "p": "Etwa 1 kg mehr fettfreie Masse als Training allein.",
+   "tag": "conf",
+   "s": "desai2024"
+  },
+  {
+   "y": 2024,
+   "t": "143 Studien zur Körperzusammensetzung",
+   "p": "Kleiner, homogener Effekt auf fettfreie Masse, stärker mit Krafttraining.",
+   "tag": "conf",
+   "s": "pashayee2024"
+  },
+  {
+   "y": 2025,
+   "t": "Trainierte profitieren ebenso",
+   "p": "61 Studien: Effekt bei Trainierten mindestens so groß.",
+   "tag": "conf",
+   "s": "ashtary2025"
+  },
+  {
+   "y": 2025,
+   "t": "Wirkung vor allem bei Mehrgelenksübungen",
+   "p": "Kniebeuge und Bankdrücken am deutlichsten.",
+   "tag": "conf",
+   "s": "kazeminasab2025"
+  },
+  {
+   "y": 2025,
+   "t": "Untrainierte und moderate Dosen im Vorteil",
+   "p": "Subgruppen deuten auf größere Effekte bei Untrainierten und mit hochintensivem Training.",
+   "tag": "rel",
+   "s": "zhang2025"
+  },
+  {
+   "y": 2026,
+   "t": "Frauen nach der Menopause",
+   "p": "Mit ≥ 5 g und Training mehr Kraft und fettfreie Masse; Knochen unverändert.",
+   "tag": "rel",
+   "s": "naddafha2026"
+  },
+  {
+   "y": 2026,
+   "t": "Nierenwerte: Messartefakt",
+   "p": "Kreatininbasierte Werte verschlechtert, direkte Messung unverändert.",
+   "tag": "conf",
+   "s": "kidney2026"
+  },
+  {
+   "y": 2026,
+   "t": "63 Studien bestätigen Kraftvorteil",
+   "p": "Mittlere Effekte auf Ober- und Unterkörperkraft; Protokolldetails ohne Einfluss.",
+   "tag": "conf",
+   "s": "wang2026"
+  },
+  {
+   "y": 2026,
+   "t": "Auch bei Trainierten wirksamstes Kraftsupplement",
+   "p": "Vergleich mit Protein und Omega-3 bei trainierten Sportlern.",
+   "tag": "conf",
+   "s": "wangz2026"
+  },
+  {
+   "y": 2026,
+   "t": "Nutzen bei Sprints und Endspurts",
+   "p": "Kreatin eher für intensive Abschnitte als für Ausdauer allgemein.",
+   "tag": "conf",
+   "s": "wesolowski2026"
+  },
+  {
+   "y": 2026,
+   "t": "Kein entzündungshemmender Effekt",
+   "p": "Gepoolte Studien zeigen keine Senkung von CRP oder IL-6.",
+   "tag": "neu",
+   "s": "decamargo2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 12 geprüft, 12 aufgenommen, 0 ausgeschlossen; zusätzlich eine Netzwerk-Metaanalyse aus dem Omega-3-Screening übernommen. Ausdauer-Abschnitt zu „Ausdauer und wiederholte Sprints“ erweitert (mit Abbildung); neuer Abschnitt „Entzündung und Erholung“ (kein Effekt); Muskelmasse relativiert (direkte Bildgebung zeigt nur sehr kleinen Zuwachs); Dosierungsbefunde (Ladephase, moderate Dosen) ergänzt."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 2 690 Einträgen, 11 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "kreider2017": {
+   "short": "Kreider et al., 2017",
+   "year": 2017,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "28615996",
+   "apa": "Kreider, R. B., Kalman, D. S., Antonio, J., Ziegenfuss, T. N., Wildman, R., Collins, R., Candow, D. G., Kleiner, S. M., Almada, A. L. &amp; Lopez, H. L. (2017). International society of sports nutrition position stand: Safety and efficacy of creatine supplementation in exercise, sport, and medicine. <em>Journal of the International Society of Sports Nutrition, 14</em>, 18.",
+   "doi": "10.1186/s12970-017-0173-z"
+  },
+  "wang2024": {
+   "short": "Wang et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39519498",
+   "apa": "Wang, Z., Qiu, B., Li, R., Han, Y., Petersen, C., Liu, S., Zhang, Y., Liu, C., Candow, D. G. &amp; Del Coso, J. (2024). Effects of creatine supplementation and resistance training on muscle strength gains in adults <50 years of age: A systematic review and meta-analysis. <em>Nutrients, 16</em>(21), Artikel 3665.",
+   "doi": "10.3390/nu16213665"
+  },
+  "kazeminasab2025": {
+   "short": "Kazeminasab et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40944139",
+   "apa": "Kazeminasab, F., Kerchi, A. B., Sharafifard, F., Zarreh, M., Forbes, S. C., Camera, D. M., Lanhers, C., Wong, A., Nordvall, M., Bagheri, R. &amp; Dutheil, F. (2025). The effects of creatine supplementation on upper- and lower-body strength and power: A systematic review and meta-analysis. <em>Nutrients, 17</em>(17), Artikel 2748.",
+   "doi": "10.3390/nu17172748"
+  },
+  "ashtary2025": {
+   "short": "Ashtary-Larky et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse (Dosis-Wirkung)",
+   "basis": "Abstract",
+   "pmid": "41433021",
+   "apa": "Ashtary-Larky, D., Mohammadi, S., Hajizadeh, L., Mousavi, S. A. H., Forbes, S. C., Candow, D. G. &amp; Antonio, J. (2025). Creatine supplementation and resistance training: A comparison between novice and experienced lifters - a systematic review and dose-response meta-analysis. <em>Journal of the International Society of Sports Nutrition, 22</em>(sup1), Artikel 2586523.",
+   "doi": "10.1080/15502783.2025.2586523"
+  },
+  "desai2024": {
+   "short": "Desai et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39074168",
+   "apa": "Desai, I., Wewege, M. A., Jones, M. D., Clifford, B. K., Pandit, A., Kaakoush, N. O., Simar, D. &amp; Hagstrom, A. D. (2024). The effect of creatine supplementation on resistance training-based changes to body composition: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 38</em>(10), 1813–1821.",
+   "doi": "10.1519/JSC.0000000000004862"
+  },
+  "prokopidis2023": {
+   "short": "Prokopidis et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35984306",
+   "apa": "Prokopidis, K., Giannos, P., Triantafyllidis, K. K., Kechagias, K. S., Forbes, S. C. &amp; Candow, D. G. (2023). Effects of creatine supplementation on memory in healthy individuals: A systematic review and meta-analysis of randomized controlled trials. <em>Nutrition Reviews, 81</em>(4), 416–427.",
+   "doi": "10.1093/nutrit/nuac064"
+  },
+  "gras2023": {
+   "short": "Gras et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34859731",
+   "apa": "Gras, D., Lanhers, C., Bagheri, R., Ugbolue, U. C., Coudeyre, E., Pereira, B., Zak, M., Bouillon-Minois, J. B. &amp; Dutheil, F. (2023). Creatine supplementation and VO. <em>Critical Reviews in Food Science and Nutrition, 63</em>(21), 4855–4866.",
+   "doi": "10.1080/10408398.2021.2008864"
+  },
+  "deguingand2020": {
+   "short": "de Guingand et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32549301",
+   "apa": "de Guingand, D. L., Palmer, K. R., Snow, R. J., Davies-Tuck, M. L. &amp; Ellery, S. J. (2020). Risk of adverse outcomes in females taking oral creatine monohydrate: A systematic review and meta-analysis. <em>Nutrients, 12</em>(6), Artikel 1780.",
+   "doi": "10.3390/nu12061780"
+  },
+  "naddafha2026": {
+   "short": "Naddafha et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42141930",
+   "apa": "Naddafha, S., Antonio, J., Kreider, R. B. &amp; Stout, J. R. (2026). Creatine monohydrate for lean mass, strength, and bone density in postmenopausal women: A systematic review and meta-analysis. <em>Journal of the International Society of Sports Nutrition, 23</em>(1), Artikel 2668435.",
+   "doi": "10.1080/15502783.2026.2668435"
+  },
+  "fazio2022": {
+   "short": "Fazio et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "36000773",
+   "apa": "Fazio, C., Elder, C. L. &amp; Harris, M. M. (2022). Efficacy of alternative forms of creatine supplementation on improving performance and body composition in healthy subjects: A systematic review. <em>Journal of Strength and Conditioning Research, 36</em>(9), 2663–2670.",
+   "doi": "10.1519/JSC.0000000000003873"
+  },
+  "kidney2026": {
+   "short": "de Souza Almeida et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42507286",
+   "apa": "de Souza Almeida, A., da Silva, L. O. D., Takahasi, B. N. A., Terada, B. D., Gonçalves, F. G. A., Porto, B. C., da Silva Sardenberg, R. A., Passerotti, C. C., Maia, R. S., Samaan, F., Thoman, M., Molina, W. R. &amp; Shiomi da Cruz, J. A. (2026). Impact of creatine supplementation on kidney health: A systematic review and meta-analysis. <em>International Urology and Nephrology, 58</em>(12), 5423–5434.",
+   "doi": "10.1007/s11255-026-05287-x"
+  },
+  "wang2026": {
+   "short": "H. Wang et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse (dreistufig)",
+   "basis": "Abstract",
+   "pmid": "42765482",
+   "apa": "Wang, H., Wang, H., Xin, X. &amp; Yi, Z. (2026). Resistance training combined with creatine supplementation: A three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling. <em>Journal of the International Society of Sports Nutrition, 23</em>(sup1), Artikel 2718316.",
+   "doi": "10.1080/15502783.2026.2718316"
+  },
+  "lanhers2017": {
+   "short": "Lanhers et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27328852",
+   "apa": "Lanhers, C., Pereira, B., Naughton, G., Trousselard, M., Lesage, F. X. &amp; Dutheil, F. (2017). Creatine supplementation and upper limb strength performance: A systematic review and meta-analysis. <em>Sports Medicine, 47</em>(1), 163–173.",
+   "doi": "10.1007/s40279-016-0571-4"
+  },
+  "zhang2025": {
+   "short": "Zhang et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41328071",
+   "apa": "Zhang, H., Lan, T., Yan, X., Gu, H., Li, Y. &amp; He, E. (2025). Effects of creatine supplementation on muscle strength gains-a meta-analysis and systematic review. <em>PeerJ, 13</em>, Artikel e20380.",
+   "doi": "10.7717/peerj.20380"
+  },
+  "wangz2026": {
+   "short": "Z. Wang et al., 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41901084",
+   "apa": "Wang, Z., Qin, G. &amp; Kim, B. M. (2026). Comparative effects of dietary protein, creatine, and Omega-3 supplementation on muscle strength, endurance, and recovery in trained athletes: A systematic review and network meta-analysis. <em>Nutrients, 18</em>(6), Artikel 909.",
+   "doi": "10.3390/nu18060909"
+  },
+  "dossantos2021": {
+   "short": "Dos Santos et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34836013",
+   "apa": "Dos Santos, E. E. P., de Araújo, R. C., Candow, D. G., Forbes, S. C., Guijo, J. A., de Almeida Santana, C. C., Prado, W. L. D. &amp; Botero, J. P. (2021). Efficacy of creatine supplementation combined with resistance training on muscle strength and muscle mass in older females: A systematic review and meta-analysis. <em>Nutrients, 13</em>(11), Artikel 3757.",
+   "doi": "10.3390/nu13113757"
+  },
+  "pashayee2024": {
+   "short": "Pashayee-Khamene et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse mit Dosis-Wirkungs-Analyse (GRADE)",
+   "basis": "Abstract",
+   "pmid": "39042054",
+   "apa": "Pashayee-Khamene, F., Heidari, Z., Asbaghi, O., Ashtary-Larky, D., Goudarzi, K., Forbes, S. C., Candow, D. G., Bagheri, R., Ghanavati, M. &amp; Dutheil, F. (2024). Creatine supplementation protocols with or without training interventions on body composition: A GRADE-assessed systematic review and dose-response meta-analysis. <em>Journal of the International Society of Sports Nutrition, 21</em>(1), Artikel 2380058.",
+   "doi": "10.1080/15502783.2024.2380058"
+  },
+  "burke2023": {
+   "short": "Burke et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "37432300",
+   "apa": "Burke, R., Piñero, A., Coleman, M., Mohan, A., Sapuppo, M., Augustin, F., Aragon, A. A., Candow, D. G., Forbes, S. C., Swinton, P. &amp; Schoenfeld, B. J. (2023). The effects of creatine supplementation combined with resistance training on regional measures of muscle hypertrophy: A systematic review with meta-analysis. <em>Nutrients, 15</em>(9), Artikel 2116.",
+   "doi": "10.3390/nu15092116"
+  },
+  "fernandezlanda2023": {
+   "short": "Fernández-Landa et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36877404",
+   "apa": "Fernández-Landa, J., Santibañez-Gutierrez, A., Todorovic, N., Stajer, V. &amp; Ostojic, S. M. (2023). Effects of creatine monohydrate on endurance performance in a trained population: A systematic review and meta-analysis. <em>Sports Medicine, 53</em>(5), 1017–1027.",
+   "doi": "10.1007/s40279-023-01823-2"
+  },
+  "glaister2022": {
+   "short": "Glaister & Rhodes, 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36041731",
+   "apa": "Glaister, M. &amp; Rhodes, L. (2022). Short-Term creatine supplementation and repeated sprint ability-a systematic review and meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 32</em>(6), 491–500.",
+   "doi": "10.1123/ijsnem.2022-0072"
+  },
+  "mielgoayuso2019": {
+   "short": "Mielgo-Ayuso et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30935142",
+   "apa": "Mielgo-Ayuso, J., Calleja-Gonzalez, J., Marqués-Jiménez, D., Caballero-García, A., Córdova, A. &amp; Fernández-Lázaro, D. (2019). Effects of creatine supplementation on athletic performance in soccer players: A systematic review and meta-analysis. <em>Nutrients, 11</em>(4), Artikel 757.",
+   "doi": "10.3390/nu11040757"
+  },
+  "wesolowski2026": {
+   "short": "Wesołowski et al., 2026",
+   "year": 2026,
+   "type": "Scoping-Review",
+   "basis": "Abstract",
+   "pmid": "42280321",
+   "apa": "Wesołowski, I., Dzienisiewicz, J., Langa, D., Ziółkowski, W., Karbowska, J. &amp; Kochan, Z. (2026). Creatine supplementation in endurance and mixed-sport contexts: A scoping review of performance, recovery, and body composition. <em>Nutrients, 18</em>(11), Artikel 1677.",
+   "doi": "10.3390/nu18111677"
+  },
+  "decamargo2026": {
+   "short": "de Camargo et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41798953",
+   "apa": "de Camargo, K. M. R., Bruna-Mejías, A., Valenzuela-Fuenzalida, J. J., Gonzaga, L. A., Barbalho, S. M., Barroca, A. L., Porto, A. A., Raimundo, R. D., de Abreu, L. C. &amp; Valenti, V. E. (2026). Impact of creatine supplementation on inflammation: Evidence from a systematic review and meta-analysis of randomized double-blind placebo trials. <em>Frontiers in Immunology, 17</em>, Artikel 1743603.",
+   "doi": "10.3389/fimmu.2026.1743603"
+  },
+  "forbes2021": {
+   "short": "Forbes et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34199420",
+   "apa": "Forbes, S. C., Candow, D. G., Ostojic, S. M., Roberts, M. D. &amp; Chilibeck, P. D. (2021). Meta-Analysis examining the importance of creatine ingestion strategies on lean tissue mass and strength in older adults. <em>Nutrients, 13</em>(6), Artikel 1912.",
+   "doi": "10.3390/nu13061912"
+  }
+ }
+}

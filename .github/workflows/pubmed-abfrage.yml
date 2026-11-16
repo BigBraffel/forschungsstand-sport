@@ -1,0 +1,47 @@
+name: PubMed-Abfrage
+
+# Freitags 06:07 MEZ (05:07 UTC). Das Skript laeuft nur jede zweite Woche wirklich (Start 20.11.2026),
+# einige Stunden vor der inhaltlichen Auswertung durch Claude (11:23).
+on:
+  schedule:
+    - cron: '7 5 * * 5'
+  workflow_dispatch:
+    inputs:
+      immer:
+        description: 'Sofort abfragen, unabhängig vom 2-Wochen-Rhythmus'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daten
+  cancel-in-progress: false
+
+jobs:
+  abfrage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: PubMed abfragen und Kandidaten ablegen
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.immer }}" = "true" ]; then
+            python3 tools/scan_all.py --immer
+          else
+            python3 tools/scan_all.py
+          fi
+      - name: Ergebnis sichern
+        run: |
+          git config user.name "pubmed-abfrage[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "PubMed-Abfrage $(date +%Y-%m-%d): neue Kandidaten"
+            git push
+          fi

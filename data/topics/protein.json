@@ -1,0 +1,808 @@
+{
+ "id": "protein",
+ "title": "Protein",
+ "stand": "2026-11-16",
+ "lead": "Wie viel Protein braucht man für Muskelaufbau und Kraft, spielt der Zeitpunkt eine Rolle, sind pflanzliche Quellen gleichwertig, und ist eine hohe Zufuhr gesundheitlich unbedenklich? Zusammengefasst aus Metaanalysen, Dosis-Wirkungs-Analysen und einem Positionspapier.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, krafttrainierende Erwachsene. Entscheidend ist die tägliche Gesamtmenge; Zeitpunkt und Quelle sind nachrangig.",
+ "rx": [
+  {
+   "label": "Tagesmenge",
+   "value": "ca. 1,6 g/kg/Tag",
+   "text": "Darüber brachte zusätzliches Protein im Mittel keinen weiteren Zuwachs an fettfreier Masse; höhere Mengen schaden gesunden Nieren nicht.",
+   "cite": "Morton et al. 2018; Tagawa et al. 2020"
+  },
+  {
+   "label": "Verteilung",
+   "value": "mehrere Mahlzeiten, je 20–40 g",
+   "text": "Positionspapier: Proteingaben mit hohem Anteil essenzieller Aminosäuren über den Tag verteilen; 30–40 g Casein vor dem Schlafen erhöhen die nächtliche Muskelproteinsynthese.",
+   "cite": "Jäger et al. 2017"
+  },
+  {
+   "label": "Zeitpunkt",
+   "value": "nachrangig",
+   "text": "Ob vor oder nach dem Training, ergab langfristig kaum Unterschiede; eine Portion von 20–40 g rund um das Training steigert akut die Muskelproteinsynthese.",
+   "cite": "Casuso &amp; Goossens 2025; Ji et al. 2025"
+  },
+  {
+   "label": "Quelle",
+   "value": "tierisch, Soja oder Erbse; Pflanzen mischen",
+   "text": "Soja und Erbse wirkten ähnlich wie Molke; einzelne andere Pflanzenproteine schnitten etwas schlechter ab, daher Quellen kombinieren oder etwas mehr Protein einplanen.",
+   "cite": "Reid-McCann et al. 2025; Callegari et al. 2026; Zhao et al. 2024"
+  },
+  {
+   "label": "Präparate",
+   "value": "Hilfsmittel, kein Muss",
+   "text": "Molken- oder Milchprotein bringt kleine Vorteile für die Körperzusammensetzung, vor allem weil es die Tagesmenge erhöht; Lebensmittel mit gleicher Proteinmenge sind eine gleichwertige Alternative.",
+   "cite": "Mohammadi et al. 2025; Sepandi et al. 2022"
+  },
+  {
+   "label": "Gesundheit",
+   "value": "bei gesunden Nieren unbedenklich",
+   "text": "Höhere Proteinzufuhr veränderte die Nierenfunktion gesunder Erwachsener nicht klinisch relevant und war nicht mit Herz-Kreislauf-Risiken verbunden.",
+   "cite": "Devries et al. 2018; Teixeira Silva et al. 2026; Mantzouranis et al. 2023"
+  }
+ ],
+ "note": "<b>Training:</b> Protein verstärkt den Effekt von Krafttraining, ersetzt ihn aber nicht; Trainingsempfehlungen siehe Hypertrophie und Maximalkrafttraining. Menschen mit Nierenerkrankungen sollten ihre Proteinzufuhr ärztlich abstimmen.",
+ "varstitle": "Fragen im Detail",
+ "takeaways": [
+  {
+   "t": "Protein verstärkt die Trainingswirkung",
+   "ev": "hoch",
+   "p": "Zusätzliches Protein steigerte während eines Krafttrainings Kraft und Muskelmasse, mit kleinen Effekten.",
+   "s": [
+    "morton2018",
+    "nunes2022"
+   ]
+  },
+  {
+   "t": "Etwa 1,6 g pro kg Körpergewicht reichen den meisten",
+   "ev": "hoch",
+   "p": "Oberhalb von etwa 1,6 g/kg/Tag (bzw. 1,3 g/kg in einer anderen Analyse) flacht der Zusatznutzen deutlich ab.",
+   "s": [
+    "morton2018",
+    "tagawa2020"
+   ]
+  },
+  {
+   "t": "Der Zeitpunkt ist nachrangig",
+   "ev": "moderat",
+   "p": "Proteinaufnahme vor oder nach dem Training führte langfristig zu ähnlichen Ergebnissen; akut steigern 20–40 g Molke rund um das Training die Muskelproteinsynthese.",
+   "s": [
+    "casuso2025",
+    "zhou2024",
+    "ji2025"
+   ]
+  },
+  {
+   "t": "Pflanzliches Protein: Soja und Erbse nahezu gleichwertig",
+   "ev": "moderat",
+   "p": "Soja- und Erbsenprotein wirkten ähnlich wie Molke; über alle Pflanzenproteine hinweg zeigte sich ein kleiner Vorteil tierischer Quellen, vor allem gegenüber Reis-, Hafer- oder Kartoffelprotein.",
+   "s": [
+    "reidmccann2025",
+    "callegari2026",
+    "zhao2024",
+    "mendes2026"
+   ]
+  },
+  {
+   "t": "Proteinpulver: kleiner Zusatznutzen",
+   "ev": "moderat",
+   "p": "Milch- und Molkenprotein verbesserten die Körperzusammensetzung leicht (unter 1 kg fettfreie Masse), vor allem zusammen mit Krafttraining.",
+   "s": [
+    "mohammadi2025",
+    "sepandi2022"
+   ]
+  },
+  {
+   "t": "Hohe Proteinzufuhr ist für Gesunde unbedenklich",
+   "ev": "moderat",
+   "p": "Keine klinisch relevante Veränderung der Nierenfunktion bei Gesunden und kein Zusammenhang mit Herz-Kreislauf-Ereignissen.",
+   "s": [
+    "devries2018",
+    "teixeira2026",
+    "mantzouranis2023"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "menge",
+   "name": "Tagesmenge und Dosis-Wirkung",
+   "q": "Wie viel Protein pro Tag?",
+   "ev": "hoch",
+   "key": [
+    "49 Studien: zusätzliches Protein während Krafttrainings erhöhte das 1RM um 2,49 kg [0,64; 4,33] und die fettfreie Masse um 0,30 kg [0,09; 0,52]; über einer Gesamtzufuhr von 1,62 g/kg/Tag kein weiterer Zuwachs an fettfreier Masse. Bei Trainierten wirkte es stärker, mit zunehmendem Alter schwächer (Morton et al., 2018).",
+    "105 Studien: je 0,1 g/kg/Tag mehr Protein 0,39 kg mehr fettfreie Masse unterhalb von 1,3 g/kg/Tag, oberhalb nur noch 0,12 kg (Tagawa et al., 2020).",
+    "Mehr Protein brachte kleine zusätzliche Gewinne an fettfreier Masse und Beinkraft, beim Bankdrücken SMD 0,18 [0,03; 0,33] (Nunes et al., 2022).",
+    "Expertenworkshop mit über 20 Fachleuten: Für viele verbreitete Annahmen zu „optimaler“ Zufuhr, Schwellen pro Mahlzeit, Bedarf beim Abnehmen und Obergrenzen reicht die Evidenz nach Qualität, Umfang (Stichprobe, Dauer) oder Aussagekraft (Surrogatmarker) noch nicht aus (Kanter et al., 2026)."
+   ],
+   "critic": "Die Analysen stimmen überein: deutlicher Nutzen bis etwa 1,3–1,6 g/kg, danach kleiner Zusatznutzen. Die Schwelle ist ein Mittelwert mit breitem Intervall; für manche (z. B. im Kaloriendefizit oder bei sehr hohem Trainingsumfang) kann mehr sinnvoll sein. Fettfreie Masse ist ein ungenaues Maß für Muskulatur. Ein Expertenworkshop betont, dass viele verbreitete Annahmen (feste Schwellen pro Mahlzeit, Obergrenzen) auf kurzen, kleinen Studien oder Surrogatmarkern beruhen (Kanter et al., 2026). Die Richtgröße von etwa 1,6 g/kg bleibt die am besten gestützte Zahl, sollte aber nicht als exakte Grenze gelesen werden.",
+   "figs": [
+    {
+     "id": "p-dose",
+     "title": "Zusätzliche fettfreie Masse je 0,1 g/kg/Tag mehr Protein",
+     "cap": "Mittlerer Zuwachs an fettfreier Masse in kg mit 95-%-KI, unterhalb und oberhalb einer Gesamtzufuhr von 1,3 g/kg/Tag (Tagawa et al., 2020).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "unter 1,3 g/kg",
+       "es": 0.39,
+       "lo": 0.36,
+       "hi": 0.41
+      },
+      {
+       "l": "über 1,3 g/kg",
+       "es": 0.12,
+       "lo": 0.11,
+       "hi": 0.14
+      }
+     ],
+     "opts": {
+      "max": 0.5,
+      "ticks": [
+       0,
+       0.1,
+       0.2,
+       0.3,
+       0.4,
+       0.5
+      ],
+      "unit": "kg",
+      "xlab": "Gesamte Proteinzufuhr",
+      "src": "Tagawa et al., 2020"
+     }
+    },
+    {
+     "id": "p-gain",
+     "title": "Effekt von Proteinsupplementen während Krafttrainings",
+     "cap": "Mittlere zusätzliche Veränderung mit 95-%-KI (Morton et al., 2018).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "1RM-Kraft",
+       "sub": "Morton et al., 2018",
+       "es": 2.49,
+       "lo": 0.64,
+       "hi": 4.33
+      },
+      {
+       "l": "Fettfreie Masse",
+       "sub": "Morton et al., 2018",
+       "es": 0.3,
+       "lo": 0.09,
+       "hi": 0.52
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 5,
+      "ticks": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5
+      ],
+      "unit": "kg"
+     }
+    }
+   ],
+   "s": [
+    "morton2018",
+    "tagawa2020",
+    "nunes2022",
+    "kanter2026"
+   ]
+  },
+  {
+   "id": "timing",
+   "name": "Zeitpunkt und Verteilung",
+   "q": "Spielt der Zeitpunkt eine Rolle?",
+   "ev": "moderat",
+   "key": [
+    "Kein Effekt des Zeitpunkts auf Brustpresse-Kraft (SMD 0,07 [−0,25; 0,40]) und fettfreie Masse (SMD −0,08 [−0,40; 0,24]); bei der Beinpresse Vorteil für Protein vor dem Training (SMD 0,70 [0,01; 1,39]) (Casuso &amp; Goossens, 2025; 5 Studien).",
+    "Netzwerk-Metaanalyse: Protein um das Training und am Abend erschienen für Muskelmasse bzw. Kraft am günstigsten; direkte Vergleichsstudien fehlen (Zhou et al., 2024).",
+    "Positionspapier: Proteingaben über den Tag verteilen; 30–40 g Casein vor dem Schlafen erhöhen die nächtliche Muskelproteinsynthese (Jäger et al., 2017).",
+    "21 Studien zur akuten Muskelproteinsynthese: Molkenprotein plus Training erhöhte die myofibrilläre Syntheserate deutlich (g = 1,24 [0,71; 1,77]), dosisabhängig zwischen 10 und 60 g; direkt nach dem Training um das 1,3- bis 1,6-Fache, 45 min vor mehreren Sätzen Krafttraining bis zum 2,5-Fachen. Die Autoren empfehlen 20–40 g vor dem Training (Ji et al., 2025)."
+   ],
+   "critic": "Wenige, kleine Langzeitstudien; der Beinpresse-Befund steht allein und ist knapp signifikant. Die Netzwerk-Metaanalyse vergleicht überwiegend indirekt. Die Metaanalyse zur akuten Muskelproteinsynthese (Ji et al., 2025) passt zum Beinpresse-Befund (Vorteil vor dem Training), misst aber nur Stunden nach einer Einheit; akute Syntheseraten sagen langfristigen Muskelzuwachs schlecht vorher. Wahrscheinlichste Lesart: Wer die Tagesmenge erreicht, gewinnt durch genaues Timing wenig; eine Portion von 20–40 g rund um das Training ist sinnvoll, ob vorher oder nachher, ist zweitrangig.",
+   "figs": [
+    {
+     "id": "p-timing",
+     "title": "Protein vor vs. nach dem Training",
+     "cap": "SMD mit 95-%-KI; Werte rechts von 0 begünstigen Protein vor dem Training (Casuso & Goossens, 2025).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Brustpresse (Wiederholungsmaximum)",
+       "sub": "Casuso & Goossens, 2025",
+       "es": 0.07,
+       "lo": -0.248,
+       "hi": 0.395
+      },
+      {
+       "l": "Beinpresse (Wiederholungsmaximum)",
+       "sub": "Casuso & Goossens, 2025",
+       "es": 0.7,
+       "lo": 0.005,
+       "hi": 1.388
+      },
+      {
+       "l": "Fettfreie Masse",
+       "sub": "Casuso & Goossens, 2025",
+       "es": -0.08,
+       "lo": -0.398,
+       "hi": 0.244
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 1.5,
+      "ticks": [
+       -0.4,
+       0,
+       0.4,
+       0.8,
+       1.2
+      ],
+      "leftLab": "danach besser",
+      "rightLab": "davor besser"
+     }
+    }
+   ],
+   "s": [
+    "casuso2025",
+    "zhou2024",
+    "jager2017",
+    "ji2025"
+   ]
+  },
+  {
+   "id": "quelle",
+   "name": "Pflanzlich oder tierisch",
+   "q": "Ist pflanzliches Protein gleichwertig?",
+   "ev": "moderat",
+   "key": [
+    "Soja gegenüber tierischem Protein: kein Unterschied bei der Muskelmasse (17 Studien); tierisches Protein besser als andere Pflanzenproteine wie Reis, Hafer oder Kartoffel (SMD −0,58 [−1,06; −0,09]) und als rein pflanzliche Ernährung (SMD −0,51 [−0,91; −0,11]); kein Unterschied bei Kraft (Reid-McCann et al., 2025).",
+    "Muskelproteinsynthese: insgesamt nur minimaler Vorteil tierischer Proteine; bei Erwachsenen ab 65 Jahren etwas deutlicher, bei Jüngeren gleich (Mendes et al., 2026).",
+    "5 Studien mit untrainierten Erwachsenen (18–59 Jahre, DXA): Soja- und Erbsenprotein verbesserten fettfreie Masse und Fettmasse während Krafttrainings ebenso wie Molkenprotein, ohne signifikanten Gruppenunterschied; breite Konfidenzintervalle, keine Gleichwertigkeit belegt (Callegari et al., 2026).",
+    "Bayesianische Metaanalyse, 31 Studien: Pflanzliches Protein verbesserte die sportliche Leistung gegenüber keinem oder wenig Protein (SMD 0,28 [0,16; 0,41]), war aber anderen Proteinen wie Molke, Rind oder Milch leicht unterlegen (SMD −0,12 [−0,21; −0,03]; Kraft SMD −0,13 [−0,24; −0,03]) (Zhao et al., 2024).",
+    "10 Studien mit 596 Erwachsenen: Molkenprotein erhöhte die fettfreie Masse (+0,91 kg [0,15; 1,67]), Sojaprotein veränderte die Körperzusammensetzung nicht signifikant (Piri Damaghi et al., 2022).",
+    "Alterseffekt (ab 60 Jahren): 13 Studien, alle mit Sojaprotein (0,6–60 g/Tag, 12 Wochen bis 1 Jahr) – Muskelmasse nahm über die Zeit zu und unterschied sich nicht von Kontrollen einschließlich tierischem Protein; kaum Wirkung auf Kraft und Funktion (Stoodley et al., 2023)."
+   ],
+   "critic": "Direkte Vergleiche bei gleicher Proteinmenge (Reid-McCann et al., 2025; Callegari et al., 2026; Stoodley et al., 2023) finden für Soja und Erbse keinen signifikanten Unterschied zu tierischem Protein. Die größte Analyse über alle Pflanzenproteine (Zhao et al., 2024; 31 Studien) findet dagegen einen kleinen, aber konsistenten Nachteil (SMD etwa −0,12). Beides ist vereinbar: Der Nachteil ist klein und geht vor allem auf einzelne, wenig untersuchte Pflanzenproteine (Reis, Hafer, Kartoffel) zurück; Soja und Erbse liegen nahe an Molke. Die ältere Analyse, in der Soja gegen Kontrolle nicht wirkte (Piri Damaghi et al., 2022), beruht auf nur 10 Studien und keinem direkten Vergleich; die neueren, größeren Arbeiten sind wahrscheinlicher zutreffend. Die Callegari-Analyse umfasst nur 5 Studien mit Untrainierten; Gleichwertigkeit ist damit nicht belegt. Mischungen oder etwas höhere Mengen gleichen kleine Unterschiede vermutlich aus.",
+   "figs": [
+    {
+     "id": "p-src",
+     "title": "Pflanzliches vs. tierisches Protein",
+     "cap": "SMD mit 95-%-KI; negative Werte begünstigen tierisches bzw. andere Proteine (Reid-McCann et al., 2025; Zhao et al., 2024).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Andere Pflanzenproteine (Reis, Hafer, Kartoffel, Chia)",
+       "sub": "Reid-McCann et al., 2025",
+       "es": -0.58,
+       "lo": -1.06,
+       "hi": -0.09
+      },
+      {
+       "l": "Pflanzliche Ernährung insgesamt",
+       "sub": "Reid-McCann et al., 2025",
+       "es": -0.51,
+       "lo": -0.91,
+       "hi": -0.11
+      },
+      {
+       "l": "Pflanzlich vs. andere Proteine: Leistung gesamt",
+       "sub": "Zhao et al., 2024",
+       "es": -0.12,
+       "lo": -0.21,
+       "hi": -0.03
+      },
+      {
+       "l": "Pflanzlich vs. andere Proteine: Kraft",
+       "sub": "Zhao et al., 2024",
+       "es": -0.13,
+       "lo": -0.24,
+       "hi": -0.03
+      }
+     ],
+     "opts": {
+      "min": -1.2,
+      "max": 0.4,
+      "ticks": [
+       -1,
+       -0.5,
+       0
+      ],
+      "leftLab": "tierisch besser",
+      "rightLab": "pflanzlich besser"
+     }
+    }
+   ],
+   "s": [
+    "reidmccann2025",
+    "mendes2026",
+    "callegari2026",
+    "zhao2024",
+    "piridamaghi2022",
+    "stoodley2023"
+   ]
+  },
+  {
+   "id": "praeparate",
+   "name": "Proteinpräparate: Molke, Milchprotein, Aminosäuren",
+   "q": "Was bringen Proteinpulver und Aminosäurepräparate?",
+   "ev": "moderat",
+   "key": [
+    "150 Studien: Milchprotein (Molke, Casein) erhöhte die fettfreie Masse (+0,67 kg [0,40; 0,94]) und die magere Körpermasse (+0,41 kg [0,19; 0,62]) und senkte Fettmasse (−0,66 kg [−0,91; −0,41]), Körperfettanteil (−0,66 % [−1,03; −0,28]) und Taillenumfang (−0,69 cm [−1,16; −0,22]); kein deutlicher Effekt auf Muskelmasse und Körpergewicht; Effekte dosisabhängig (Mohammadi et al., 2025).",
+    "35 Studien mit 1 902 Erwachsenen: Molkenprotein erhöhte die magere Körpermasse gegenüber Kontrollen (WMD 0,74 [0,07; 1,41]) und senkte den BMI; am größten war der Nutzen zusammen mit Krafttraining und verringerter Kalorienzufuhr (Sepandi et al., 2022).",
+    "12 Studien mit 261 jungen Erwachsenen (18–30 Jahre) im Krafttraining: weder Molke noch Soja erhöhten die magere Körpermasse signifikant; Molke verbesserte Bankdrücken (MD 8,87 [5,95; 11,79]) und Kniebeuge (MD 9,60 [5,61; 13,60]) (Davis et al., 2026).",
+    "ISSN-Positionspapier: Essenzielle Aminosäuren (EAA) stimulieren die Muskelproteinsynthese in Ruhe schon ab 1,5–3,0 g, mit Plateau bei etwa 15–18 g; freie EAA stimulieren sie stärker als die gleiche Menge intaktes Protein; im Kaloriendefizit steigt der EAA-Bedarf (Ferrando et al., 2023)."
+   ],
+   "critic": "Die großen Analysen (150 bzw. 35 Studien) zeigen kleine, konsistente Verbesserungen der Körperzusammensetzung von unter 1 kg fettfreier Masse. Die kleine Analyse an jungen Erwachsenen (Davis et al., 2026; 261 Personen) fand keinen Massezuwachs, aber Kraftgewinne; bei so wenigen Teilnehmenden ist das eher eine Frage der Teststärke als ein echter Widerspruch. Wahrscheinlich ist der Massezuwachs klein, aber real. Mehrere Autorinnen und Autoren haben Verbindungen zur Supplementindustrie. Präparate wirken vermutlich vor allem, weil sie die Tagesmenge erhöhen; ein Vorteil gegenüber Lebensmitteln mit gleicher Proteinmenge ist nicht gezeigt. Die EAA-Aussagen beruhen überwiegend auf akuten Syntheseraten, nicht auf Langzeitzuwachs.",
+   "figs": [
+    {
+     "id": "p-milk",
+     "title": "Milchprotein und Körperzusammensetzung",
+     "cap": "Gewichtete mittlere Differenz gegenüber Kontrolle in kg mit 95-%-KI (Mohammadi et al., 2025).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Fettfreie Masse",
+       "sub": "Mohammadi et al., 2025",
+       "es": 0.67,
+       "lo": 0.4,
+       "hi": 0.94
+      },
+      {
+       "l": "Magere Körpermasse",
+       "sub": "Mohammadi et al., 2025",
+       "es": 0.41,
+       "lo": 0.19,
+       "hi": 0.62
+      },
+      {
+       "l": "Fettmasse",
+       "sub": "Mohammadi et al., 2025",
+       "es": -0.66,
+       "lo": -0.91,
+       "hi": -0.41
+      }
+     ],
+     "opts": {
+      "min": -1.2,
+      "max": 1.2,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "unit": "kg",
+      "leftLab": "weniger",
+      "rightLab": "mehr"
+     }
+    }
+   ],
+   "s": [
+    "mohammadi2025",
+    "sepandi2022",
+    "davis2026",
+    "ferrando2023"
+   ]
+  },
+  {
+   "id": "gesundheit",
+   "name": "Gesundheit: Nieren und Herz-Kreislauf",
+   "q": "Ist viel Protein schädlich?",
+   "ev": "moderat",
+   "key": [
+    "28 Studien mit 1 358 Gesunden: Die Veränderung der glomerulären Filtrationsrate unterschied sich nicht zwischen höherer und niedrigerer Proteinzufuhr; nur ein trivial höherer Endwert (SMD 0,19 [0,07; 0,31]) (Devries et al., 2018).",
+    "22 Studien ohne chronische Nierenerkrankung: hohe Proteinzufuhr erhöhte die geschätzte Filtrationsrate (SMD 0,39 [0,09; 0,69]), wahrscheinlich als kurzfristige Anpassung; Kreatinin unverändert (Teixeira Silva et al., 2026).",
+    "Kohortenstudien: hohe Proteinzufuhr war nicht mit Herz-Kreislauf-Sterblichkeit, Schlaganfall (OR 1,02 [0,94; 1,10]) oder kombinierten Ereignissen verbunden (Mantzouranis et al., 2023)."
+   ],
+   "critic": "Für gesunde Nieren beruhigend, aber die Studien laufen meist nur Wochen bis Monate und messen Filtration indirekt über Kreatinin. Die Herz-Kreislauf-Daten stammen aus Beobachtungsstudien mit sehr hoher Heterogenität. Für Menschen mit Nierenerkrankung gilt das nicht.",
+   "figs": [
+    {
+     "id": "p-kidney",
+     "title": "Nierenfunktion bei hoher Proteinzufuhr",
+     "cap": "SMD mit 95-%-KI; positive Werte = höhere Filtrationsrate bzw. höheres Kreatinin.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Filtrationsrate nach Intervention",
+       "sub": "Devries et al., 2018",
+       "es": 0.19,
+       "lo": 0.07,
+       "hi": 0.31
+      },
+      {
+       "l": "Geschätzte Filtrationsrate",
+       "sub": "Teixeira Silva et al., 2026",
+       "es": 0.39,
+       "lo": 0.09,
+       "hi": 0.69
+      },
+      {
+       "l": "Serumkreatinin",
+       "sub": "Teixeira Silva et al., 2026",
+       "es": 0.08,
+       "lo": -0.09,
+       "hi": 0.25
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 0.8,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ]
+     }
+    }
+   ],
+   "s": [
+    "devries2018",
+    "teixeira2026",
+    "mantzouranis2023"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2017,
+   "t": "ISSN-Positionspapier Protein",
+   "p": "Verteilung über den Tag, essenzielle Aminosäuren, Casein vor dem Schlafen.",
+   "tag": "neu",
+   "s": "jager2017"
+  },
+  {
+   "y": 2018,
+   "t": "1,6 g/kg als Schwelle",
+   "p": "49 Studien: Zusatznutzen endet im Mittel bei 1,62 g/kg/Tag.",
+   "tag": "neu",
+   "s": "morton2018"
+  },
+  {
+   "y": 2018,
+   "t": "Nieren gesunder Menschen unbeeinflusst",
+   "p": "Keine Veränderung der Nierenfunktion durch mehr Protein.",
+   "tag": "neu",
+   "s": "devries2018"
+  },
+  {
+   "y": 2020,
+   "t": "Dosis-Wirkung über 105 Studien",
+   "p": "Steiler Anstieg bis 1,3 g/kg, danach flacher.",
+   "tag": "conf",
+   "s": "tagawa2020"
+  },
+  {
+   "y": 2022,
+   "t": "Kleine Zusatzeffekte bestätigt",
+   "p": "Mehr Protein bringt kleine Gewinne an Masse und Beinkraft.",
+   "tag": "conf",
+   "s": "nunes2022"
+  },
+  {
+   "y": 2022,
+   "t": "Molke wirksam, Soja nicht signifikant",
+   "p": "Ältere Analyse mit wenigen Studien; Molke und Soja jeweils gegen Kontrolle, nicht direkt verglichen.",
+   "tag": "rel",
+   "s": "piridamaghi2022"
+  },
+  {
+   "y": 2022,
+   "t": "Molke: mehr magere Masse",
+   "p": "Größter Nutzen mit Krafttraining und Kaloriendefizit.",
+   "tag": "conf",
+   "s": "sepandi2022"
+  },
+  {
+   "y": 2023,
+   "t": "Keine Herz-Kreislauf-Risiken",
+   "p": "Hohe Proteinzufuhr nicht mit Ereignissen verbunden.",
+   "tag": "neu",
+   "s": "mantzouranis2023"
+  },
+  {
+   "y": 2023,
+   "t": "Auch im Alter: Soja vergleichbar",
+   "p": "Bei Älteren war Sojaprotein anderen Interventionen ebenbürtig.",
+   "tag": "conf",
+   "s": "stoodley2023"
+  },
+  {
+   "y": 2023,
+   "t": "ISSN-Positionspapier essenzielle Aminosäuren",
+   "p": "EAA wirken schon in kleinen Mengen auf die Muskelproteinsynthese.",
+   "tag": "neu",
+   "s": "ferrando2023"
+  },
+  {
+   "y": 2024,
+   "t": "Zeitpunkt und Proteinart im Netzwerk",
+   "p": "Milchproteine bevorzugt; Zeitpunkt nur indirekt vergleichbar.",
+   "tag": "neu",
+   "s": "zhou2024"
+  },
+  {
+   "y": 2024,
+   "t": "Kleiner Vorteil tierischer Proteine",
+   "p": "31 Studien: pflanzliches Protein wirksam, aber etwas schwächer als Molke, Rind oder Milch.",
+   "tag": "conf",
+   "s": "zhao2024"
+  },
+  {
+   "y": 2025,
+   "t": "Zeitpunkt kaum relevant",
+   "p": "Vor oder nach dem Training: weitgehend gleich.",
+   "tag": "rel",
+   "s": "casuso2025"
+  },
+  {
+   "y": 2025,
+   "t": "Soja gleichwertig, andere Pflanzen schwächer",
+   "p": "Unterschiede nur bei Nicht-Soja-Proteinen.",
+   "tag": "neu",
+   "s": "reidmccann2025"
+  },
+  {
+   "y": 2025,
+   "t": "Akute Proteinsynthese: Molke vor dem Training",
+   "p": "Kurzfristige Messungen zeigen dosisabhängige Steigerung, besonders bei Einnahme vor dem Training.",
+   "tag": "neu",
+   "s": "ji2025"
+  },
+  {
+   "y": 2025,
+   "t": "150 Studien zu Milchprotein",
+   "p": "Kleine Verbesserungen der Körperzusammensetzung, dosisabhängig.",
+   "tag": "conf",
+   "s": "mohammadi2025"
+  },
+  {
+   "y": 2026,
+   "t": "Muskelproteinsynthese pflanzlich vs. tierisch",
+   "p": "Bei Jüngeren gleich, bei Älteren leichter Vorteil tierisch.",
+   "tag": "conf",
+   "s": "mendes2026"
+  },
+  {
+   "y": 2026,
+   "t": "Nieren: Filtrationsrate steigt, Kreatinin gleich",
+   "p": "Wahrscheinlich kurzfristige Anpassung, kein Schaden.",
+   "tag": "conf",
+   "s": "teixeira2026"
+  },
+  {
+   "y": 2026,
+   "t": "Expertenkonsens: viele Annahmen unsicher",
+   "p": "Workshop bewertet verbreitete Protein-Annahmen; meist weiterer Forschungsbedarf.",
+   "tag": "rel",
+   "s": "kanter2026"
+  },
+  {
+   "y": 2026,
+   "t": "Soja und Erbse wie Molke",
+   "p": "Bei gleicher Proteinmenge kein signifikanter Unterschied in der Körperzusammensetzung.",
+   "tag": "conf",
+   "s": "callegari2026"
+  },
+  {
+   "y": 2026,
+   "t": "Junge Erwachsene: Kraft ja, Masse nein",
+   "p": "Kleine Analyse: Molke steigerte Kraft, nicht die magere Masse.",
+   "tag": "rel",
+   "s": "davis2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 10 geprüft, 10 aufgenommen, 0 ausgeschlossen. Neuer Abschnitt „Proteinpräparate“ (Milchprotein, Molke, essenzielle Aminosäuren) mit Abbildung; Pflanzenprotein-Bewertung differenziert (Soja/Erbse nahezu gleichwertig, kleiner Gesamtvorteil tierischer Proteine); akute Proteinsynthese-Daten zum Zeitpunkt ergänzt; Expertenkonsens zur Unsicherheit verbreiteter Annahmen eingeordnet."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 2 689 Einträgen, 11 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "morton2018": {
+   "short": "Morton et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse und Metaregression",
+   "basis": "Abstract",
+   "pmid": "28698222",
+   "apa": "Morton, R. W., Murphy, K. T., McKellar, S. R., Schoenfeld, B. J., Henselmans, M., Helms, E., Aragon, A. A., Devries, M. C., Banfield, L., Krieger, J. W. &amp; Phillips, S. M. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. <em>British Journal of Sports Medicine, 52</em>(6), 376–384.",
+   "doi": "10.1136/bjsports-2017-097608"
+  },
+  "tagawa2020": {
+   "short": "Tagawa et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse (Dosis-Wirkung)",
+   "basis": "Abstract",
+   "pmid": "33300582",
+   "apa": "Tagawa, R., Watanabe, D., Ito, K., Ueda, K., Nakayama, K., Sanbongi, C. &amp; Miyachi, M. (2020). Dose-response relationship between protein intake and muscle mass increase: A systematic review and meta-analysis of randomized controlled trials. <em>Nutrition Reviews, 79</em>(1), 66–75.",
+   "doi": "10.1093/nutrit/nuaa104"
+  },
+  "nunes2022": {
+   "short": "Nunes et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35187864",
+   "apa": "Nunes, E. A., Colenso-Semple, L., McKellar, S. R., Yau, T., Ali, M. U., Fitzpatrick-Lewis, D., Sherifali, D., Gaudichon, C., Tomé, D., Atherton, P. J., Robles, M. C., Naranjo-Modad, S., Braun, M., Landi, F. &amp; Phillips, S. M. (2022). Systematic review and meta-analysis of protein intake to support muscle mass and function in healthy adults. <em>Journal of Cachexia, Sarcopenia and Muscle, 13</em>(2), 795–810.",
+   "doi": "10.1002/jcsm.12922"
+  },
+  "jager2017": {
+   "short": "Jäger et al., 2017",
+   "year": 2017,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "28642676",
+   "apa": "Jäger, R., Kerksick, C. M., Campbell, B. I., Cribb, P. J., Wells, S. D., Skwiat, T. M., Purpura, M., Ziegenfuss, T. N., Ferrando, A. A., Arent, S. M., Smith-Ryan, A. E., Stout, J. R., Arciero, P. J., Ormsbee, M. J., Taylor, L. W., Wilborn, C. D., Kalman, D. S., Kreider, R. B., Willoughby, D. S., … Antonio, J. (2017). International society of sports nutrition position stand: Protein and exercise. <em>Journal of the International Society of Sports Nutrition, 14</em>, 20.",
+   "doi": "10.1186/s12970-017-0177-8"
+  },
+  "casuso2025": {
+   "short": "Casuso & Goossens, 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40647175",
+   "apa": "Casuso, R. A. &amp; Goossens, L. (2025). Does protein ingestion timing affect exercise-induced adaptations? A systematic review with meta-analysis. <em>Nutrients, 17</em>(13), Artikel 2070.",
+   "doi": "10.3390/nu17132070"
+  },
+  "zhou2024": {
+   "short": "Zhou et al., 2024",
+   "year": 2024,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38039960",
+   "apa": "Zhou, H. H., Liao, Y., Zhou, X., Peng, Z., Xu, S., Shi, S., Liu, L., Hao, L. &amp; Yang, W. (2024). Effects of timing and types of protein supplementation on improving muscle mass, strength, and physical performance in adults undergoing resistance training: A network meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 34</em>(1), 54–64.",
+   "doi": "10.1123/ijsnem.2023-0118"
+  },
+  "reidmccann2025": {
+   "short": "Reid-McCann et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39813010",
+   "apa": "Reid-McCann, R. J., Brennan, S. F., Ward, N. A., Logan, D., McKinley, M. C. &amp; McEvoy, C. T. (2025). Effect of plant versus animal protein on muscle mass, strength, physical performance, and sarcopenia: A systematic review and meta-analysis of randomized controlled trials. <em>Nutrition Reviews, 83</em>(7), e1581–e1603.",
+   "doi": "10.1093/nutrit/nuae200"
+  },
+  "mendes2026": {
+   "short": "Mendes et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "42055214",
+   "apa": "Mendes, B. R., Correia, J. M., Dos Santos, I. R., Schoenfeld, B. J., Swinton, P. A. &amp; de Mendonca, G. V. (2026). Effects of plant- vs animal-based proteins on muscle protein synthesis: A systematic review with meta-analysis. <em>Journal of the Academy of Nutrition and Dietetics, 126</em>(9), Artikel 156365.",
+   "doi": "10.1016/j.jand.2026.156365"
+  },
+  "devries2018": {
+   "short": "Devries et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30383278",
+   "apa": "Devries, M. C., Sithamparapillai, A., Brimble, K. S., Banfield, L., Morton, R. W. &amp; Phillips, S. M. (2018). Changes in kidney function do not differ between healthy adults consuming higher- compared with lower- or normal-protein diets: A systematic review and meta-analysis. <em>The Journal of Nutrition, 148</em>(11), 1760–1775.",
+   "doi": "10.1093/jn/nxy197"
+  },
+  "teixeira2026": {
+   "short": "Teixeira Silva et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42289790",
+   "apa": "Teixeira Silva, P. R., Santos, P., de Miranda Silva Nogueira, P. A., Nogueira, I. D. B., Vieira, R. P., Nascimento, M. F., Tuesta, M., Sá Filho, A. S. &amp; Chiappa, G. R. (2026). Effects of high-protein diets on renal function and body composition in adults without chronic kidney disease: A systematic review and meta-analysis of randomised trials. <em>Diabetes, Obesity and Metabolism, 28</em>(9), 7672–7683.",
+   "doi": "10.1111/dom.70996"
+  },
+  "mantzouranis2023": {
+   "short": "Mantzouranis et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "36986102",
+   "apa": "Mantzouranis, E., Kakargia, E., Kakargias, F., Lazaros, G. &amp; Tsioufis, K. (2023). The impact of high protein diets on cardiovascular outcomes: A systematic review and meta-analysis of prospective cohort studies. <em>Nutrients, 15</em>(6), Artikel 1372.",
+   "doi": "10.3390/nu15061372"
+  },
+  "kanter2026": {
+   "short": "Kanter et al., 2026",
+   "year": 2026,
+   "type": "Kritischer Review (Expertenkonsens)",
+   "basis": "Abstract",
+   "pmid": "42101036",
+   "apa": "Kanter, M. M., Aaron, S., Austad, S. N., Brown, A. W., Burd, N. A., Campbell, W. W., Cope, M., Davis, T. A., Erdman, J. W., Freitas, M., Hicks-Roof, K., Klein, S., Kriengsinyos, W., Lamming, D. W., Layman, D. K., Leidy, H. J., Maki, K. C., Mattes, R. D., McNeill, S., … Allison, D. B. (2026). Examining widely held propositions on human dietary protein needs and benefits: A critical review of the science that shapes both the data and our understanding of an essential macronutrient. <em>Critical Reviews in Food Science and Nutrition, 66</em>(27), 5446–5480.",
+   "doi": "10.1080/10408398.2026.2658728"
+  },
+  "ji2025": {
+   "short": "Ji et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40871607",
+   "apa": "Ji, X., Ye, X., Ji, S., Zhang, S., Wang, Y., Zhou, Z., Xiang, D. &amp; Luo, B. (2025). Whey protein supplementation combined with exercise on muscle protein synthesis and the AKT/mTOR pathway in healthy adults: A systematic review and meta-analysis. <em>Nutrients, 17</em>(16), Artikel 2579.",
+   "doi": "10.3390/nu17162579"
+  },
+  "callegari2026": {
+   "short": "Callegari et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42954267",
+   "apa": "Callegari, I. O. M., Silva, G. M. &amp; Oliveira, A. G. (2026). Is plant-based protein supplementation as effective as whey protein? A systematic review and meta-analysis in untrained adults undergoing resistance training. <em>Journal of the International Society of Sports Nutrition, 23</em>(1), Artikel 2752317.",
+   "doi": "10.1080/15502783.2026.2752317"
+  },
+  "zhao2024": {
+   "short": "Zhao et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "39203884",
+   "apa": "Zhao, S., Xu, Y., Li, J. &amp; Ning, Z. (2024). The effect of plant-based protein ingestion on athletic ability in healthy people-a Bayesian meta-analysis with systematic review of randomized controlled trials. <em>Nutrients, 16</em>(16), Artikel 2748.",
+   "doi": "10.3390/nu16162748"
+  },
+  "piridamaghi2022": {
+   "short": "Piri Damaghi et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33971994",
+   "apa": "Piri Damaghi, M., Mirzababaei, A., Moradi, S., Daneshzad, E., Tavakoli, A., Clark, C. C. T. &amp; Mirzaei, K. (2022). Comparison of the effect of soya protein and whey protein on body composition: A meta-analysis of randomised clinical trials. <em>British Journal of Nutrition, 127</em>(6), 885–895.",
+   "doi": "10.1017/S0007114521001550"
+  },
+  "stoodley2023": {
+   "short": "Stoodley et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37764843",
+   "apa": "Stoodley, I. L., Williams, L. M. &amp; Wood, L. G. (2023). Effects of plant-based protein interventions, with and without an exercise component, on body composition, strength and physical function in older adults: A systematic review and meta-analysis of randomized controlled trials. <em>Nutrients, 15</em>(18), Artikel 4060.",
+   "doi": "10.3390/nu15184060"
+  },
+  "mohammadi2025": {
+   "short": "Mohammadi et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse mit Dosis-Wirkungs-Analyse",
+   "basis": "Abstract",
+   "pmid": "41470822",
+   "apa": "Mohammadi, S., Ashtary-Larky, D., Alaghemand, N., Alnsour, A. F., Shokouhifar, S., Borzabadi, A., Mehrbod, M., Candow, D. G., Forbes, S. C., Antonio, J., Suzuki, K. &amp; Asbaghi, O. (2025). Effects of supplementation with milk proteins on body composition and anthropometric parameters: A systematic review and dose-response meta-analysis. <em>Nutrients, 17</em>(24), Artikel 3877.",
+   "doi": "10.3390/nu17243877"
+  },
+  "sepandi2022": {
+   "short": "Sepandi et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35871954",
+   "apa": "Sepandi, M., Samadi, M., Shirvani, H., Alimohamadi, Y., Taghdir, M., Goudarzi, F. &amp; Akbarzadeh, I. (2022). Effect of whey protein supplementation on weight and body composition indicators: A meta-analysis of randomized clinical trials. <em>Clinical nutrition ESPEN, 50</em>, 74–83.",
+   "doi": "10.1016/j.clnesp.2022.05.020"
+  },
+  "davis2026": {
+   "short": "Davis et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41454445",
+   "apa": "Davis, B. E., Young, I., Giglotti, J. C., Yao, J. &amp; Tou, J. C. (2026). The impact of whey and soy protein supplementation on resistance training in young adults: A systematic review and meta-analysis. <em>Journal of Dietary Supplements, 23</em>(1), 150–174.",
+   "doi": "10.1080/19390211.2025.2604679"
+  },
+  "ferrando2023": {
+   "short": "Ferrando et al., 2023",
+   "year": 2023,
+   "type": "Positionspapier",
+   "basis": "Abstract",
+   "pmid": "37800468",
+   "apa": "Ferrando, A. A., Wolfe, R. R., Hirsch, K. R., Church, D. D., Kviatkovsky, S. A., Roberts, M. D., Stout, J. R., Gonzalez, D. E., Sowinski, R. J., Kreider, R. B., Kerksick, C. M., Burd, N. A., Pasiakos, S. M., Ormsbee, M. J., Arent, S. M., Arciero, P. J., Campbell, B. I., VanDusseldorp, T. A., Jager, R., … Antonio, J. (2023). International society of sports nutrition position stand: Effects of essential amino acid supplementation on exercise and performance. <em>Journal of the International Society of Sports Nutrition, 20</em>(1), Artikel 2263409.",
+   "doi": "10.1080/15502783.2023.2263409"
+  }
+ }
+}

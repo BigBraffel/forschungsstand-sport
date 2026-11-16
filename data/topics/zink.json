@@ -1,0 +1,372 @@
+{
+ "id": "zink",
+ "title": "Zink",
+ "stand": "2026-11-16",
+ "lead": "Braucht man als Sportler zusätzliches Zink, hilft es gegen Erkältungen, und wirkt es auf Testosteron oder Stoffwechsel? Zusammengefasst aus Metaanalysen und systematischen Reviews.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Zur sportlichen Leistung selbst gibt es keine belastbaren Metaanalysen; die Evidenz betrifft Versorgungsstatus, Infekte und Stoffwechsel.",
+ "rx": [
+  {
+   "label": "Grundversorgung",
+   "value": "über die Ernährung, Status beachten",
+   "text": "Sportler hatten trotz höherer Zinkzufuhr niedrigere Blutwerte als Nichtsportler; bei hohem Trainingsumfang kann eine Kontrolle sinnvoll sein.",
+   "cite": "Chu et al. 2018"
+  },
+  {
+   "label": "Erkältung",
+   "value": "bei Beginn kurzzeitig",
+   "text": "Zink verkürzte Erkältungen im Mittel um etwa 2 Tage; bei Erwachsenen verhinderte es keine Infekte.",
+   "cite": "Hunter et al. 2021; Wang et al. 2020; Abioye et al. 2021"
+  },
+  {
+   "label": "Leistung, Testosteron",
+   "value": "kein Grund zur Supplementierung",
+   "text": "Ein Effekt auf Testosteron ist vor allem bei Mangel plausibel; Belege für Leistungssteigerung fehlen.",
+   "cite": "Te et al. 2023"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Dauerhaft hohe Zinkdosen können die Kupferaufnahme beeinträchtigen; Supplemente sollten daher nicht ohne Anlass langfristig hoch dosiert werden. Diese Aussage ist hier noch nicht durch eine eigene Metaanalyse belegt.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Sportler haben niedrigere Zinkspiegel",
+   "ev": "moderat",
+   "p": "Trotz höherer Zufuhr lagen die Serumwerte von Sportlern unter denen von Nichtsportlern.",
+   "s": [
+    "chu2018"
+   ]
+  },
+  {
+   "t": "Kürzere Erkältungen",
+   "ev": "moderat",
+   "p": "Zink verkürzte die Dauer von Erkältungen um etwa 2 Tage; Infekte verhinderte es bei Erwachsenen nicht sicher.",
+   "s": [
+    "hunter2021",
+    "wang2020",
+    "abioye2021",
+    "vlieg2022"
+   ]
+  },
+  {
+   "t": "Kein belegter Leistungseffekt",
+   "ev": "niedrig",
+   "p": "Für Kraft- oder Ausdauerleistung fanden sich keine Metaanalysen; ein Testosteroneffekt ist nur bei Mangel plausibel.",
+   "s": [
+    "te2023"
+   ]
+  },
+  {
+   "t": "Günstige Stoffwechsel- und Entzündungsmarker",
+   "ev": "moderat",
+   "p": "Zink senkte Blutzucker- und Entzündungsmarker, vor allem in Studien mit Stoffwechselerkrankungen.",
+   "s": [
+    "daneshvar2024",
+    "jafari2022",
+    "ceylan2021"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "status",
+   "name": "Zinkstatus bei Sportlern",
+   "q": "Sind Sportler schlechter mit Zink versorgt?",
+   "ev": "moderat",
+   "key": [
+    "Serumzink war bei Sportlern niedriger (−0,93 µmol/l [−1,62; −0,23]), obwohl sie mehr Zink aufnahmen (+2,57 mg/Tag [0,97; 4,16]) (Chu et al., 2018)."
+   ],
+   "critic": "Serumzink ist ein unsicherer Marker, der durch Training, Entzündung und Tageszeit schwankt. Ob die niedrigeren Werte einen echten Mangel anzeigen, ist offen.",
+   "figs": [],
+   "s": [
+    "chu2018"
+   ]
+  },
+  {
+   "id": "infekte",
+   "name": "Immunsystem und Atemwegsinfekte",
+   "q": "Hilft Zink gegen Erkältungen?",
+   "ev": "moderat",
+   "key": [
+    "28 Studien: orales oder nasales Zink verhinderte 5 Atemwegsinfekte pro 100 Personenmonate (NNT 20); Symptome klangen im Mittel 2 Tage früher ab, bei sehr geringer Evidenzqualität (Hunter et al., 2021).",
+    "Gesunde Erwachsene: Zink verkürzte Erkältungen um 2,25 Tage [−3,39; −1,12] (Wang et al., 2020).",
+    "Breite Analyse zur Vorbeugung: Nährstoffsupplemente haben in der Allgemeinbevölkerung keinen oder höchstens einen sehr begrenzten Effekt; Zink schützte vor allem Kinder in Asien (Vlieg-Boerstra et al., 2022).",
+    "Zink senkte CRP, TNF-α, IL-6 und erhöhte CD4-Zellen (Jafari et al., 2022).",
+    "73 Studien: Zink senkte das CRP bei Erwachsenen (MD −0,75 [−0,98; −0,52]) und Schwangeren, nicht aber bei Kindern; auch bei chronisch-entzündlichen Erkrankungen niedriger (MD −0,57 [−0,76; −0,38]) (Ceylan et al., 2021).",
+    "Erwachsene: Zink senkte das Risiko für Atemwegsinfekte nicht, verkürzte aber die Symptomdauer deutlich (−47 % [−73; −21]) (Abioye et al., 2021)."
+   ],
+   "critic": "Die Verkürzung der Erkältungsdauer ist am besten belegt und wurde in mehreren unabhängigen Analysen bestätigt (Wang et al., 2020; Abioye et al., 2021). Zur Vorbeugung widersprechen sich die Analysen: Hunter et al. (2021) fanden weniger Infekte, bei Erwachsenen zeigte sich jedoch kein Schutz (Abioye et al., 2021), und der Nutzen konzentrierte sich auf Kinder in Asien (Vlieg-Boerstra et al., 2022). Die Senkung von Entzündungsmarkern stammt überwiegend aus Studien mit Erkrankten (Ceylan et al., 2021). Wahrscheinlichste Lesart: bei beginnender Erkältung kurzfristig sinnvoll, als Dauerprophylaxe bei guter Versorgung wenig Nutzen.",
+   "figs": [
+    {
+     "id": "z-cold",
+     "title": "Zink und Erkältungsdauer",
+     "cap": "Mittlere Verkürzung in Tagen mit 95-%-KI (Wang et al., 2020). Ergänzend: Bei Erwachsenen verkürzte Zink die Symptomdauer um 47 % [−73; −21] (Abioye et al., 2021).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Gesunde Erwachsene",
+       "sub": "Wang et al., 2020",
+       "es": -2.25,
+       "lo": -3.39,
+       "hi": -1.12
+      }
+     ],
+     "opts": {
+      "min": -4,
+      "max": 1,
+      "ticks": [
+       -4,
+       -3,
+       -2,
+       -1,
+       0
+      ],
+      "unit": "Tage"
+     }
+    },
+    {
+     "id": "z-crp",
+     "title": "Zink und CRP",
+     "cap": "Mittlere Differenz des CRP gegenüber Kontrolle mit 95-%-KI; Werte unter 0 = niedrigeres CRP (Ceylan et al., 2021).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Erwachsene",
+       "sub": "Ceylan et al., 2021",
+       "es": -0.75,
+       "lo": -0.98,
+       "hi": -0.52
+      },
+      {
+       "l": "Schwangere",
+       "sub": "Ceylan et al., 2021",
+       "es": -1.77,
+       "lo": -2.53,
+       "hi": -1.0
+      },
+      {
+       "l": "Kinder",
+       "sub": "Ceylan et al., 2021",
+       "es": -0.85,
+       "lo": -1.86,
+       "hi": 0.17
+      },
+      {
+       "l": "Chronisch-entzündliche Erkrankungen",
+       "sub": "Ceylan et al., 2021",
+       "es": -0.57,
+       "lo": -0.76,
+       "hi": -0.38
+      }
+     ],
+     "opts": {
+      "min": -3,
+      "max": 0.5,
+      "ticks": [
+       -3,
+       -2,
+       -1,
+       0
+      ],
+      "leftLab": "CRP niedriger",
+      "rightLab": "CRP höher"
+     }
+    }
+   ],
+   "s": [
+    "hunter2021",
+    "wang2020",
+    "vlieg2022",
+    "jafari2022",
+    "ceylan2021",
+    "abioye2021"
+   ]
+  },
+  {
+   "id": "hormone",
+   "name": "Testosteron und Leistung",
+   "q": "Steigert Zink Testosteron oder Leistung?",
+   "ev": "niedrig",
+   "key": [
+    "Systematischer Review mit 8 klinischen und 30 Tierstudien: Zinkmangel senkt Testosteron, Supplementierung erhöht es, abhängig von Ausgangsstatus, Dosis und Dauer (Te et al., 2023).",
+    "Eine Metaanalyse zu Zink und sportlicher Leistung bei Gesunden wurde in PubMed nicht gefunden."
+   ],
+   "critic": "Überwiegend Tierstudien und Korrelationen; für gut versorgte Sportler lässt sich kein Nutzen ableiten.",
+   "figs": [],
+   "s": [
+    "te2023"
+   ]
+  },
+  {
+   "id": "stoffwechsel",
+   "name": "Stoffwechsel",
+   "q": "Wirkt Zink auf Blutzucker?",
+   "ev": "moderat",
+   "key": [
+    "Umbrella Review: Zink senkte Nüchternblutzucker (−13,6 mg/dl), Insulin, HOMA-IR und HbA1c (−0,35 %) (Daneshvar et al., 2024)."
+   ],
+   "critic": "Die Effekte stammen vor allem aus Studien mit Diabetes oder Stoffwechselstörungen; für gesunde Sportler ist ihre Bedeutung gering.",
+   "figs": [],
+   "s": [
+    "daneshvar2024"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2018,
+   "t": "Niedrigere Zinkspiegel bei Sportlern",
+   "p": "Trotz höherer Zufuhr.",
+   "tag": "neu",
+   "s": "chu2018"
+  },
+  {
+   "y": 2020,
+   "t": "Kürzere Erkältungen",
+   "p": "Um gut 2 Tage bei gesunden Erwachsenen.",
+   "tag": "neu",
+   "s": "wang2020"
+  },
+  {
+   "y": 2021,
+   "t": "Zink bei Atemwegsinfekten",
+   "p": "Leichte Vorbeugung, schnellere Genesung.",
+   "tag": "conf",
+   "s": "hunter2021"
+  },
+  {
+   "y": 2021,
+   "t": "CRP-Senkung bestätigt",
+   "p": "Zink senkte Entzündungsmarker, überwiegend in Studien mit entzündlichen und infektiösen Erkrankungen.",
+   "tag": "conf",
+   "s": "ceylan2021"
+  },
+  {
+   "y": 2021,
+   "t": "Kürzere Symptomdauer, keine Vorbeugung",
+   "p": "Bei Erwachsenen verkürzte Zink die Symptome, verhinderte aber keine Infekte.",
+   "tag": "conf",
+   "s": "abioye2021"
+  },
+  {
+   "y": 2022,
+   "t": "Vorbeugung in der Allgemeinbevölkerung schwach",
+   "p": "Kaum Effekt außer bei Kindern in Asien.",
+   "tag": "rel",
+   "s": "vlieg2022"
+  },
+  {
+   "y": 2022,
+   "t": "Entzündungsmarker gesenkt",
+   "p": "CRP, TNF-α und IL-6 niedriger.",
+   "tag": "neu",
+   "s": "jafari2022"
+  },
+  {
+   "y": 2023,
+   "t": "Zink und Testosteron",
+   "p": "Effekt vor allem bei Mangel.",
+   "tag": "neu",
+   "s": "te2023"
+  },
+  {
+   "y": 2024,
+   "t": "Blutzuckermarker",
+   "p": "Umbrella Review: Verbesserungen vor allem bei Diabetes.",
+   "tag": "neu",
+   "s": "daneshvar2024"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 2 geprüft, 2 aufgenommen, 0 ausgeschlossen. Abioye et al. (2021) bestätigt kürzere Symptomdauer ohne Vorbeugung bei Erwachsenen; Ceylan et al. (2021) bestätigt CRP-Senkung (neue Abbildung). Kritische Einordnung zu Infekten überarbeitet."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 632 Einträgen, gezielte Suche nach Metaanalysen zu Infekten und Leistung; 7 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "chu2018": {
+   "short": "Chu et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29164533",
+   "apa": "Chu, A., Holdaway, C., Varma, T., Petocz, P. &amp; Samman, S. (2018). Lower serum zinc concentration despite higher dietary zinc intake in athletes: A systematic review and meta-analysis. <em>Sports Medicine, 48</em>(2), 327–336.",
+   "doi": "10.1007/s40279-017-0818-8"
+  },
+  "hunter2021": {
+   "short": "Hunter et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34728441",
+   "apa": "Hunter, J., Arentz, S., Goldenberg, J., Yang, G., Beardsley, J., Myers, S. P., Mertz, D. &amp; Leeder, S. (2021). Zinc for the prevention or treatment of acute viral respiratory tract infections in adults: A rapid systematic review and meta-analysis of randomised controlled trials. <em>BMJ Open, 11</em>(11), Artikel e047474.",
+   "doi": "10.1136/bmjopen-2020-047474"
+  },
+  "wang2020": {
+   "short": "Wang et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32342851",
+   "apa": "Wang, M. X., Win, S. S. &amp; Pang, J. (2020). Zinc supplementation reduces common cold duration among healthy adults: A systematic review of randomized controlled trials with micronutrients supplementation. <em>The American Journal of Tropical Medicine and Hygiene, 103</em>(1), 86–99.",
+   "doi": "10.4269/ajtmh.19-0718"
+  },
+  "vlieg2022": {
+   "short": "Vlieg-Boerstra et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34626488",
+   "apa": "Vlieg-Boerstra, B., de Jong, N., Meyer, R., Agostoni, C., De Cosmi, V., Grimshaw, K., Milani, G. P., Muraro, A., Oude Elberink, H., Pali-Schöll, I., Roduit, C., Sasaki, M., Skypala, I., Sokolowska, M., van Splunter, M., Untersmayr, E., Venter, C., O'Mahony, L. &amp; Nwaru, B. I. (2022). Nutrient supplementation for prevention of viral respiratory tract infections in healthy subjects: A systematic review and meta-analysis. <em>Allergy, 77</em>(5), 1373–1388.",
+   "doi": "10.1111/all.15136"
+  },
+  "jafari2022": {
+   "short": "Jafari et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33356467",
+   "apa": "Jafari, A., Noormohammadi, Z., Askari, M. &amp; Daneshzad, E. (2022). Zinc supplementation and immune factors in adults: A systematic review and meta-analysis of randomized clinical trials. <em>Critical Reviews in Food Science and Nutrition, 62</em>(11), 3023–3041.",
+   "doi": "10.1080/10408398.2020.1862048"
+  },
+  "te2023": {
+   "short": "Te et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review (inkl. Tierstudien)",
+   "basis": "Abstract",
+   "pmid": "36577241",
+   "apa": "Te, L., Liu, J., Ma, J. &amp; Wang, S. (2023). Correlation between serum zinc and testosterone: A systematic review. <em>Journal of Trace Elements in Medicine and Biology, 76</em>, Artikel 127124.",
+   "doi": "10.1016/j.jtemb.2022.127124"
+  },
+  "daneshvar2024": {
+   "short": "Daneshvar et al., 2024",
+   "year": 2024,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "38849958",
+   "apa": "Daneshvar, M., Ghaheri, M., Safarzadeh, D., Karimi, F., Adib-Hajbagheri, P., Ahmadzade, M. &amp; Haedi, A. (2024). Effect of zinc supplementation on glycemic biomarkers: An umbrella of interventional meta-analyses. <em>Diabetology &amp; Metabolic Syndrome, 16</em>(1), Artikel 124.",
+   "doi": "10.1186/s13098-024-01366-0"
+  },
+  "ceylan2021": {
+   "short": "Ceylan et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33750215",
+   "apa": "Ceylan, M. N., Akdas, S. &amp; Yazihan, N. (2021). The effects of zinc supplementation on C-Reactive protein and inflammatory cytokines: A meta-analysis and systematical review. <em>Journal of Interferon &amp; Cytokine Research, 41</em>(3), 81–101.",
+   "doi": "10.1089/jir.2020.0209"
+  },
+  "abioye2021": {
+   "short": "Abioye et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33472840",
+   "apa": "Abioye, A. I., Bromage, S. &amp; Fawzi, W. (2021). Effect of micronutrient supplements on influenza and other respiratory tract infections among adults: A systematic review and meta-analysis. <em>BMJ Global Health, 6</em>(1), Artikel e003176.",
+   "doi": "10.1136/bmjgh-2020-003176"
+  }
+ }
+}

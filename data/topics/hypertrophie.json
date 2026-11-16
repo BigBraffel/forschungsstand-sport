@@ -1,0 +1,1256 @@
+{
+ "id": "hypertrophie",
+ "title": "Hypertrophie",
+ "stand": "2026-11-16",
+ "lead": "Welche Trainingsgestaltung lässt die Muskulatur am stärksten wachsen? Zusammengefasst aus Metaanalysen, Netzwerk-Metaanalysen und dem ACSM-Positionspapier 2026. Gemessen wird Muskelwachstum über Muskeldicke, Querschnitt oder fettfreie Masse.",
+ "rxlead": "Für gesunde Erwachsene mit Trainingserfahrung. Die Werte sind Orientierungsbereiche; entscheidend sind ausreichendes Volumen, Anstrengung nahe am Versagen und Regelmäßigkeit.",
+ "rx": [
+  {
+   "label": "Volumen",
+   "value": "≥ 10 Sätze / Muskel / Woche",
+   "text": "Mehr Sätze bringen mehr Wachstum, mit abnehmendem, aber länger anhaltendem Zusatznutzen als bei Kraft.",
+   "cite": "Schoenfeld et al. 2017; Pelland et al. 2026; Currier et al. 2026"
+  },
+  {
+   "label": "Last",
+   "value": "frei wählbar, ca. 5–30 Wdh.",
+   "text": "Leichte und schwere Lasten erzeugen ähnliches Wachstum, solange die Sätze nahe ans Versagen gehen.",
+   "cite": "Schoenfeld et al. 2017; Lopez et al. 2021"
+  },
+  {
+   "label": "Anstrengung",
+   "value": "0–3 Wdh. in Reserve",
+   "text": "Nähe zum Versagen fördert Wachstum; komplettes Versagen bringt allenfalls einen sehr kleinen Zusatznutzen.",
+   "cite": "Refalo et al. 2023; Robinson et al. 2024"
+  },
+  {
+   "label": "Frequenz",
+   "value": "nach Vorliebe, meist 2×",
+   "text": "Bei gleichem Wochenvolumen spielt die Verteilung kaum eine Rolle; höhere Frequenz hilft vor allem, mehr Volumen unterzubringen.",
+   "cite": "Schoenfeld et al. 2019; Pelland et al. 2026"
+  },
+  {
+   "label": "Satzpausen",
+   "value": "mindestens 60–90 s",
+   "text": "Sehr kurze Pausen kosten Wiederholungen und damit Wachstum; über etwa 90 s hinaus kein erkennbarer Zusatznutzen.",
+   "cite": "Singer et al. 2024"
+  },
+  {
+   "label": "Ausführung",
+   "value": "voller Bewegungsumfang",
+   "text": "Voller Bewegungsumfang oder Betonung der gedehnten Position; Tempo ist weitgehend egal.",
+   "cite": "Pallarés et al. 2021; Kassiano et al. 2023; Enes et al. 2025"
+  },
+  {
+   "label": "Energiebilanz",
+   "value": "kein großes Defizit",
+   "text": "Ab einem Defizit von etwa 500 kcal pro Tag nahm die fettfreie Masse trotz Training nicht mehr zu.",
+   "cite": "Murphy &amp; Koehler 2022"
+  },
+  {
+   "label": "Übungsauswahl",
+   "value": "nach Vorliebe",
+   "text": "Maschine oder Hantel, ein- oder beidseitig: gleiches Wachstum. Für Kraft die Übungsform trainieren, in der sie gebraucht wird.",
+   "cite": "Heidel et al. 2022; Kassiano et al. 2025"
+  },
+  {
+   "label": "Geduld",
+   "value": "≥ 8 Wochen",
+   "text": "Messbares Wachstum zeigt sich meist erst nach rund acht Wochen; sehr viele Sätze in einer Einheit lieber auf mehrere Einheiten verteilen.",
+   "cite": "Soares et al. 2024; Benito et al. 2020"
+  }
+ ],
+ "note": "<b>Ernährung:</b> Zur Proteinzufuhr siehe das Thema Protein; Energiebilanz ist hier aufgeführt, weil sie direkt mit dem Trainingseffekt untersucht wurde.",
+ "takeaways": [
+  {
+   "t": "Volumen ist der wichtigste steuerbare Faktor",
+   "ev": "hoch",
+   "p": "Mehr Wochensätze bringen mehr Muskelwachstum. Der Zusatznutzen nimmt ab, aber weniger stark als bei Maximalkraft.",
+   "s": [
+    "schoenfeld2017v",
+    "pelland2026",
+    "acsm2026"
+   ]
+  },
+  {
+   "t": "Die Last ist weitgehend egal",
+   "ev": "hoch",
+   "p": "Leichte, mittlere und schwere Lasten führen zu ähnlichem Wachstum, wenn bis nahe ans Versagen trainiert wird.",
+   "s": [
+    "schoenfeld2017",
+    "lopez2021",
+    "currier2023"
+   ]
+  },
+  {
+   "t": "Nahe ans Versagen trainieren",
+   "ev": "moderat",
+   "p": "Je näher ein Satz am Versagen endet, desto mehr Wachstum. Echtes Muskelversagen bringt höchstens einen sehr kleinen Vorteil.",
+   "s": [
+    "refalo2023",
+    "robinson2024",
+    "grgic2022"
+   ]
+  },
+  {
+   "t": "Frequenz zählt nur über das Volumen",
+   "ev": "hoch",
+   "p": "Bei gleichem Wochenvolumen macht die Zahl der Einheiten pro Muskel keinen messbaren Unterschied.",
+   "s": [
+    "schoenfeld2019",
+    "pelland2026"
+   ]
+  },
+  {
+   "t": "Gedehnte Position und voller Bewegungsumfang",
+   "ev": "moderat",
+   "p": "Voller Bewegungsumfang schlägt Teilwiederholungen in der verkürzten Position; der Vorteil längerer Muskellängen ist klein und unsicher.",
+   "s": [
+    "pallares2021",
+    "kassiano2023",
+    "varovic2025"
+   ]
+  },
+  {
+   "t": "Großes Kaloriendefizit bremst Wachstum",
+   "ev": "moderat",
+   "p": "Im Energiedefizit wächst die fettfreie Masse schlechter, die Kraft dagegen kaum.",
+   "s": [
+    "murphy2022"
+   ]
+  },
+  {
+   "t": "Übungsform und Satzstruktur sind zweitrangig",
+   "ev": "moderat",
+   "p": "Maschinen und freie Gewichte, ein- und beidseitige Übungen, Cluster- und traditionelle Sätze sowie Morgen- und Abendtraining führen zu gleichem Wachstum.",
+   "s": [
+    "heidel2022",
+    "kassiano2025",
+    "davies2021",
+    "jukic2021",
+    "grgic2019"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "volumen",
+   "name": "Volumen",
+   "q": "Wie viele Sätze pro Muskel und Woche?",
+   "ev": "hoch",
+   "key": [
+    "Jeder zusätzliche Wochensatz ging mit etwa 0,37 % mehr Muskelwachstum einher; höheres gegenüber niedrigerem Volumen: ES-Differenz 0,24 (Schoenfeld et al., 2017; 15 Studien).",
+    "Die Wahrscheinlichkeit, dass mehr Volumen mehr Wachstum bringt, lag bei 100 %; die Kurve flacht ab, aber deutlich weniger als bei Kraft (Pelland et al., 2026; 67 Studien).",
+    "Positionspapier 2026: Hypertrophie profitiert von höherem Volumen (≥ 10 Sätze pro Woche) und exzentrischer Überlast (Currier et al., 2026).",
+    "Systematischer Review mit 14 Studien: Die Zahl der Sätze bis oder nahe ans Versagen ist ein geeignetes Maß für das Trainingsvolumen, wenn die Wiederholungszahl zwischen 6 und über 20 liegt und alle anderen Variablen gleich bleiben (Baz-Valle et al., 2021).",
+    "111 Studien mit gesunden Männern: Muskelmasse nahm im Mittel um 1,53 kg [1,30; 1,76] zu. Einziger Trainingsfaktor mit Einfluss war die Satzzahl pro Einheit, und zwar negativ (Moderator −0,03 [−0,05; −0,001]): sehr viele Sätze in einer Einheit gingen mit etwas weniger Zuwachs einher (Benito et al., 2020).",
+    "Bei untrainierten jungen Erwachsenen wuchs die Muskelmasse mit allen untersuchten Programmen, außer bei weniger als 3 Sätzen pro Übung; einen eigenen Einfluss von Frequenz, Versagen oder Periodisierung auf die Muskelmasse fand die Analyse bei Jüngeren nicht (Polito et al., 2021)."
+   ],
+   "critic": "Konsistent über Analysen von 2017 bis 2026: Mehr Wochensätze bringen mehr Wachstum. Benito et al. (2020) fanden einen leicht negativen Zusammenhang mit der Satzzahl pro Einheit. Das widerspricht dem Wochenvolumen-Befund nicht: Es spricht eher dafür, ein hohes Wochenvolumen auf mehrere Einheiten zu verteilen, statt sehr viele Sätze in eine Einheit zu packen. Die Metaregression ist allerdings beobachtend und der Effekt klein. Unsicher bleibt der obere Bereich: Wie weit über 10 bis 20 Wochensätze der Nutzen reicht, ist bei Trainierten wenig untersucht, und sehr hohe Volumina werden oft in kurzen Studien getestet, in denen Schwellungen die Messung verfälschen können. Gezählt werden sollten nur harte Sätze nahe am Versagen (Baz-Valle et al., 2021).",
+   "figs": [
+    {
+     "id": "h-vol",
+     "title": "Mehr Volumen, mehr Wachstum",
+     "cap": "Höheres gegenüber niedrigerem Wochenvolumen innerhalb derselben Studien (Schoenfeld et al., 2017). Im Abstract ist kein Intervall angegeben.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Höheres vs. niedrigeres Wochenvolumen",
+       "sub": "Schoenfeld et al., 2017",
+       "es": 0.241
+      }
+     ],
+     "opts": {
+      "min": -0.1,
+      "max": 0.4,
+      "ticks": [
+       0,
+       0.1,
+       0.2,
+       0.3
+      ],
+      "leftLab": "weniger besser",
+      "rightLab": "mehr besser"
+     }
+    }
+   ],
+   "s": [
+    "schoenfeld2017v",
+    "pelland2026",
+    "acsm2026",
+    "bazvalle2021",
+    "benito2020",
+    "polito2021"
+   ]
+  },
+  {
+   "id": "last",
+   "name": "Last",
+   "q": "Leicht oder schwer?",
+   "ev": "hoch",
+   "key": [
+    "Muskelwachstum war über ein breites Lastspektrum gleich, wenn bis zum Versagen trainiert wurde; nur die Maximalkraft profitierte von schweren Lasten (Schoenfeld et al., 2017).",
+    "Netzwerk-Metaanalyse mit 28 Studien: keine Unterschiede zwischen niedrigen (> 15 RM), mittleren (9–15 RM) und hohen Lasten (≤ 8 RM) beim Wachstum (Lopez et al., 2021).",
+    "Größte Netzwerk-Metaanalyse (119 Studien zur Hypertrophie): alle Programme förderten Wachstum vergleichbar; bestplatziert war schwer, mehrere Sätze, 2× pro Woche (SMD 0,66 gegenüber Kontrolle) (Currier et al., 2023).",
+    "Auch bei gleicher Volumenlast (Sätze × Wiederholungen × Gewicht) war das Wachstum mit sehr leichten (< 30 % 1RM), leichten, mittleren und schweren Lasten (≥ 80 % 1RM) gleich; schwere Lasten brachten nur mehr Maximalkraft (Carvalho et al., 2022)."
+   ],
+   "critic": "Sehr konsistent. Voraussetzung ist, dass leichte Sätze tatsächlich nahe ans Versagen gehen; leichte Lasten sind subjektiv anstrengender. Praktisch lässt sich die Last daher nach Übung, Gelenkbelastung und Vorliebe wählen.",
+   "figs": [],
+   "s": [
+    "schoenfeld2017",
+    "lopez2021",
+    "currier2023",
+    "carvalho2022"
+   ]
+  },
+  {
+   "id": "versagen",
+   "name": "Nähe zum Muskelversagen",
+   "q": "Wie nah am Versagen?",
+   "ev": "moderat",
+   "key": [
+    "Training bis zum Versagen gegenüber ohne: trivialer Vorteil (ES 0,19 [0,00; 0,37]) bei weiter Definition; bei echtem Muskelversagen kein gesicherter Vorteil (ES 0,12 [−0,13; 0,37]) (Refalo et al., 2023).",
+    "Kein gesicherter Gesamtunterschied (ES 0,22 [−0,11; 0,55]); bei Trainierten kleiner Vorteil für Versagen (ES 0,15 [0,03; 0,26]) (Grgic et al., 2022).",
+    "Als kontinuierliche Größe: Hypertrophie nimmt zu, je näher am Versagen ein Satz endet (Robinson et al., 2024).",
+    "13 Studien: Versagenstraining führte insgesamt zu mehr Hypertrophie (SMD 0,75), bei gleichem Trainingsvolumen aber nicht mehr; Kraft und Schnellkraft profitierten eher vom Training ohne Versagen (Vieira et al., 2021)."
+   ],
+   "critic": "Die Befunde passen zusammen, wenn man zwischen „nahe am Versagen“ und „bis zum Versagen“ unterscheidet: Die Nähe zählt (Robinson et al., 2024), der letzte Schritt bis zum echten Versagen bringt wenig (Refalo et al., 2023). Der scheinbar große Vorteil bei Vieira et al. (2021; SMD 0,75) beruht auf Studien mit ungleichem Volumen und verschwindet bei angeglichenem Volumen. Die neueren, größeren Analysen mit feinerer Definition sind daher wahrscheinlicher zutreffend. Die Wiederholungen in Reserve mussten oft geschätzt werden; daher moderat.",
+   "figs": [
+    {
+     "id": "h-fail",
+     "title": "Bis zum Versagen vs. ohne Versagen",
+     "cap": "Effektstärke mit 95-%-KI. Werte rechts von 0 begünstigen Training bis zum Versagen. Für Vieira et al. (2021) ist kein Intervall angegeben; bei gleichem Volumen fanden sie keinen Unterschied.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Versagen, weite Definition",
+       "sub": "Refalo et al., 2023",
+       "es": 0.19,
+       "lo": 0.0,
+       "hi": 0.37
+      },
+      {
+       "l": "Echtes Muskelversagen",
+       "sub": "Refalo et al., 2023",
+       "es": 0.12,
+       "lo": -0.13,
+       "hi": 0.37
+      },
+      {
+       "l": "Alle Studien",
+       "sub": "Grgic et al., 2022",
+       "es": 0.22,
+       "lo": -0.11,
+       "hi": 0.55
+      },
+      {
+       "l": "Nur Trainierte",
+       "sub": "Grgic et al., 2022",
+       "es": 0.15,
+       "lo": 0.03,
+       "hi": 0.26
+      },
+      {
+       "l": "Alle Studien, Volumen teils ungleich",
+       "sub": "Vieira et al., 2021",
+       "es": 0.75
+      }
+     ],
+     "opts": {
+      "min": -0.3,
+      "max": 0.9,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "leftLab": "ohne Versagen besser",
+      "rightLab": "Versagen besser"
+     }
+    }
+   ],
+   "s": [
+    "refalo2023",
+    "grgic2022",
+    "robinson2024",
+    "vieira2021"
+   ]
+  },
+  {
+   "id": "frequenz",
+   "name": "Frequenz",
+   "q": "Wie oft pro Woche je Muskel?",
+   "ev": "hoch",
+   "key": [
+    "Bei gleichem Volumen kein Unterschied zwischen niedriger und hoher Frequenz, auch nicht bei Trainierten; ohne angeglichenes Volumen leichter Vorteil höherer Frequenz (Schoenfeld et al., 2019).",
+    "Für Hypertrophie ist ein Frequenzeffekt mit vernachlässigbaren Effekten vereinbar, im Gegensatz zur Kraft (Pelland et al., 2026)."
+   ],
+   "critic": "Zwei unabhängige Analysen mit unterschiedlicher Methodik kommen zum selben Ergebnis. Höhere Frequenz ist ein Werkzeug, um mehr Volumen ohne zu lange Einheiten zu verteilen, aber kein eigener Wachstumsreiz.",
+   "figs": [],
+   "s": [
+    "schoenfeld2019",
+    "pelland2026"
+   ]
+  },
+  {
+   "id": "pausen",
+   "name": "Satzpausen",
+   "q": "Wie lange zwischen den Sätzen?",
+   "ev": "moderat",
+   "key": [
+    "Kleiner Vorteil für Pausen über 60 s; über 90 s hinaus kein erkennbarer weiterer Unterschied (Singer et al., 2024).",
+    "Für Arm und Oberschenkel lagen die Schätzer leicht zugunsten längerer Pausen, für Ganzkörpermaße nahe null."
+   ],
+   "critic": "Bayesianische Analyse mit wenigen Studien, überwiegend untrainierte junge Männer. Der Mechanismus ist plausibel: Kurze Pausen verringern Last und Wiederholungen in den Folgesätzen.",
+   "figs": [
+    {
+     "id": "h-rest",
+     "title": "Längere vs. kürzere Satzpausen",
+     "cap": "SMD mit 95-%-Glaubwürdigkeitsintervall (Singer et al., 2024). Werte rechts von 0 begünstigen längere Pausen.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Arm",
+       "sub": "Singer et al., 2024",
+       "es": 0.13,
+       "lo": -0.27,
+       "hi": 0.51
+      },
+      {
+       "l": "Oberschenkel",
+       "sub": "Singer et al., 2024",
+       "es": 0.17,
+       "lo": -0.13,
+       "hi": 0.43
+      },
+      {
+       "l": "Ganzkörper",
+       "sub": "Singer et al., 2024",
+       "es": -0.08,
+       "lo": -0.45,
+       "hi": 0.29
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.7,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "leftLab": "kürzere besser",
+      "rightLab": "längere besser"
+     }
+    }
+   ],
+   "s": [
+    "singer2024"
+   ]
+  },
+  {
+   "id": "ausfuehrung",
+   "name": "Bewegungsumfang, Muskellänge, Tempo",
+   "q": "Wie ausführen?",
+   "ev": "moderat",
+   "key": [
+    "Voller Bewegungsumfang erzeugte mehr Beinmuskelwachstum als Teilbewegungen (ES 0,88) (Pallarés et al., 2021).",
+    "Training in der gedehnten Position (voller Umfang oder Teilbewegung im Anfangsbereich) förderte bei mehreren Muskeln das Wachstum stärker als Teilbewegungen in der verkürzten Position (Kassiano et al., 2023).",
+    "Längere gegenüber kürzerer mittlerer Muskellänge: kleine, unsichere Vorteile, zur distalen Muskelregion hin zunehmend (Varovic et al., 2025).",
+    "Wiederholungstempo: schnellere und langsamere Ausführung führten zu ähnlichem Wachstum (Differenz 0,09 [−0,04; 0,22]) (Enes et al., 2025).",
+    "Exzentrisches gegenüber konzentrischem Training: kein gesicherter Unterschied (0,29 [−0,13; 0,70]) (da Silva et al., 2025)."
+   ],
+   "critic": "Klarer Befund gegen Teilwiederholungen in der verkürzten Position. Ob die gedehnte Position allein einen großen Zusatznutzen bringt, ist offen: Die neueste Metaanalyse findet nur kleine Effekte, die Unterschiede in den Studien waren aber auch klein. Tempo innerhalb üblicher Bereiche ist praktisch egal.",
+   "figs": [
+    {
+     "id": "h-ausf",
+     "title": "Ausführungsvarianten",
+     "cap": "Effektstärke; Werte rechts von 0 begünstigen die erstgenannte Variante. Für Pallarés et al. ist kein Intervall angegeben; Varovic et al. berichten 95-%-Quantilintervalle.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Voller vs. teilweiser Bewegungsumfang (Beine)",
+       "sub": "Pallarés et al., 2021",
+       "es": 0.88
+      },
+      {
+       "l": "Längere vs. kürzere Muskellänge, Muskelmitte",
+       "sub": "Varovic et al., 2025",
+       "es": 0.07,
+       "lo": -0.02,
+       "hi": 0.15
+      },
+      {
+       "l": "Längere vs. kürzere Muskellänge, distal",
+       "sub": "Varovic et al., 2025",
+       "es": 0.09,
+       "lo": -0.01,
+       "hi": 0.19
+      },
+      {
+       "l": "Schnelleres vs. langsameres Tempo",
+       "sub": "Enes et al., 2025",
+       "es": 0.09,
+       "lo": -0.04,
+       "hi": 0.22
+      },
+      {
+       "l": "Exzentrisch vs. konzentrisch",
+       "sub": "da Silva et al., 2025",
+       "es": 0.285,
+       "lo": -0.131,
+       "hi": 0.701
+      }
+     ],
+     "opts": {
+      "min": -0.3,
+      "max": 1.0,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "leftLab": "zweite Variante besser",
+      "rightLab": "erste Variante besser"
+     }
+    }
+   ],
+   "s": [
+    "pallares2021",
+    "kassiano2023",
+    "varovic2025",
+    "enes2025",
+    "dasilva2025"
+   ]
+  },
+  {
+   "id": "periodisierung",
+   "name": "Periodisierung",
+   "q": "Bringt geplante Variation mehr Wachstum?",
+   "ev": "moderat",
+   "key": [
+    "Bei gleichem Volumen kein Unterschied zwischen periodisiertem und nicht periodisiertem Training (ES 0,13 [−0,10; 0,36]) und zwischen linear und undulierend (ES 0,05 [−0,20; 0,29]) (Moesgaard et al., 2022).",
+    "Positionspapier 2026: Periodisierung ohne durchgängigen Einfluss auf die Ergebnisse (Currier et al., 2026)."
+   ],
+   "critic": "Für Hypertrophie konsistent ohne Effekt. Variation kann trotzdem sinnvoll sein, um Motivation und Belastungssteuerung zu verbessern, ist aber kein Wachstumsreiz an sich.",
+   "figs": [
+    {
+     "id": "h-per",
+     "title": "Periodisierung und Hypertrophie",
+     "cap": "Effektstärke mit 95-%-KI (Moesgaard et al., 2022).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Periodisiert vs. nicht periodisiert",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.13,
+       "lo": -0.1,
+       "hi": 0.36
+      },
+      {
+       "l": "Undulierend vs. linear",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.05,
+       "lo": -0.2,
+       "hi": 0.29
+      }
+     ],
+     "opts": {
+      "min": -0.3,
+      "max": 0.5,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4
+      ],
+      "leftLab": "zweite Variante besser",
+      "rightLab": "erste Variante besser"
+     }
+    }
+   ],
+   "s": [
+    "moesgaard2022",
+    "acsm2026"
+   ]
+  },
+  {
+   "id": "rahmen",
+   "name": "Energiebilanz, Geschlecht, Tageszeit",
+   "q": "Was beeinflusst den Trainingseffekt außerdem?",
+   "ev": "moderat",
+   "key": [
+    "Im Energiedefizit nahm die fettfreie Masse weniger zu als ohne Defizit (ES −0,57), die Kraft dagegen vergleichbar (Murphy &amp; Koehler, 2022).",
+    "Ab einem Defizit von etwa 500 kcal pro Tag blieb der Zuwachs an fettfreier Masse aus (Metaregression) (Murphy &amp; Koehler, 2022).",
+    "Absolut wuchsen die Muskeln bei Männern etwas stärker (SMD 0,19), relativ zum Ausgangswert waren Frauen und Männer gleich (Refalo et al., 2025).",
+    "10 Studien: Männer und Frauen erzielten mit demselben Programm ein gleich großes relatives Wachstum (ES 0,07 ± 0,06; nicht signifikant) (Roberts et al., 2020).",
+    "11 Studien: Training morgens oder abends führte zu gleichem Muskelwachstum und gleichem Kraftzuwachs (Grgic et al., 2019)."
+   ],
+   "critic": "Fettfreie Masse ist ein grobes Maß (enthält Wasser und Glykogen), daher moderat. Zwei Analysen (Roberts et al., 2020; Refalo et al., 2025) zeigen: Relativ wachsen Frauen und Männer gleich, absolut Männer etwas mehr. Trainingsempfehlungen müssen sich daher nicht grundsätzlich unterscheiden. Die Tageszeit spielt für das Wachstum keine Rolle; sie kann nach Alltag gewählt werden.",
+   "figs": [
+    {
+     "id": "h-rahmen",
+     "title": "Energiedefizit und Geschlecht",
+     "cap": "Effektstärke. Obere Zeile: Training im Defizit gegenüber ohne Defizit (Murphy & Koehler, 2022, kein Intervall angegeben). Untere Zeile: Männer gegenüber Frauen, absolutes Wachstum (95-%-HDI).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Im Energiedefizit vs. ohne Defizit",
+       "sub": "Murphy & Koehler, 2022",
+       "es": -0.57
+      },
+      {
+       "l": "Männer vs. Frauen, absolutes Wachstum",
+       "sub": "Refalo et al., 2025",
+       "es": 0.19,
+       "lo": 0.11,
+       "hi": 0.28
+      }
+     ],
+     "opts": {
+      "min": -0.8,
+      "max": 0.4,
+      "ticks": [
+       -0.6,
+       -0.4,
+       -0.2,
+       0,
+       0.2
+      ],
+      "leftLab": "weniger Wachstum",
+      "rightLab": "mehr Wachstum"
+     }
+    }
+   ],
+   "s": [
+    "murphy2022",
+    "refalo2025",
+    "roberts2020",
+    "grgic2019"
+   ]
+  },
+  {
+   "id": "uebungen",
+   "name": "Übungsauswahl",
+   "q": "Maschine oder freie Gewichte, ein- oder beidseitig?",
+   "ev": "moderat",
+   "key": [
+    "Maschinen und freie Gewichte führten zu gleichem Muskelwachstum (ES −0,01 [−0,53; 0,55]); Kraft stieg jeweils stärker in der trainierten Übungsform (Heidel et al., 2022).",
+    "9 Studien: kein Unterschied im Wachstum zwischen einseitigem und beidseitigem Training (ES −0,21 [−3,56; 3,13]); die Kraft stieg jeweils in der trainierten Form stärker (Kassiano et al., 2025)."
+   ],
+   "critic": "Zwei unabhängige Analysen zeigen: Für das Wachstum ist die Form der Übung zweitrangig, für die Kraft gilt das Spezifitätsprinzip. Die Datenbasis ist klein (9 Studien bei Kassiano et al., 2025), und das sehr breite Intervall dort zeigt große Unsicherheit. Praktisch lassen sich Übungen nach Vorliebe, Verfügbarkeit und Gelenkverträglichkeit wählen.",
+   "figs": [
+    {
+     "id": "h-uebung",
+     "title": "Maschine vs. freie Gewichte",
+     "cap": "Effektstärke mit 95-%-KI für das Muskelwachstum (Heidel et al., 2022). Das Intervall für ein- vs. beidseitiges Training (Kassiano et al., 2025: −0,21 [−3,56; 3,13]) ist zu breit für die Darstellung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Freie Gewichte vs. Maschinen",
+       "sub": "Heidel et al., 2022",
+       "es": -0.01,
+       "lo": -0.525,
+       "hi": 0.545
+      }
+     ],
+     "opts": {
+      "min": -0.8,
+      "max": 0.8,
+      "ticks": [
+       -0.6,
+       -0.3,
+       0,
+       0.3,
+       0.6
+      ],
+      "leftLab": "Maschinen besser",
+      "rightLab": "freie Gewichte besser"
+     }
+    }
+   ],
+   "s": [
+    "heidel2022",
+    "kassiano2025"
+   ]
+  },
+  {
+   "id": "satzstruktur",
+   "name": "Satzstruktur und Intensitätstechniken",
+   "q": "Bringen Cluster-Sätze, Supersätze oder Drop-Sätze mehr?",
+   "ev": "moderat",
+   "key": [
+    "29 Studien: Cluster-Sätze (kurze Pausen innerhalb des Satzes) und traditionelle Sätze erzeugten gleiches Wachstum (ES −0,05 [−0,32; 0,23]) und gleiche Kraftzuwächse, Cluster-Sätze aber bei weniger Ermüdung (Davies et al., 2021).",
+    "17 Studien: Cluster-Sätze und umverteilte Pausen hatten gegenüber traditionellen Sätzen einen vernachlässigbaren Einfluss auf Kraft (SMD −0,06) und Hypertrophie (SMD −0,03) (Jukic et al., 2021).",
+    "Systematischer Review: Supersätze (Agonist–Antagonist, Ober-/Unterkörper), Drop- und Cluster-Sätze können vor allem Zeit sparen; für konkrete Empfehlungen zu Volumen, Anstrengung und Frequenz dieser Techniken reicht die Evidenz nicht (Krzysztofik et al., 2019)."
+   ],
+   "critic": "Zwei Metaanalysen mit zusammen über 40 Studien finden keinen Wachstumsvorteil veränderter Satzstrukturen. Intensitätstechniken sind vor allem ein Werkzeug, um Volumen in kürzerer Zeit unterzubringen (Supersätze, Drop-Sätze) oder Ermüdung zu senken (Cluster-Sätze). Die Aussagen zu Drop- und Supersätzen stammen aus einem Review ohne Metaanalyse; daher moderat.",
+   "figs": [
+    {
+     "id": "h-satz",
+     "title": "Cluster-Sätze vs. traditionelle Sätze",
+     "cap": "Effektstärke für Hypertrophie; 95-%-KI bei Davies et al. (2021), für Jukic et al. (2021) kein Intervall im Abstract.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Cluster vs. traditionell",
+       "sub": "Davies et al., 2021",
+       "es": -0.05,
+       "lo": -0.32,
+       "hi": 0.23
+      },
+      {
+       "l": "Alternative Strukturen vs. traditionell",
+       "sub": "Jukic et al., 2021",
+       "es": -0.03
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 0.5,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4
+      ],
+      "leftLab": "traditionell besser",
+      "rightLab": "alternativ besser"
+     }
+    }
+   ],
+   "s": [
+    "davies2021",
+    "jukic2021",
+    "krzysztofik2019"
+   ]
+  },
+  {
+   "id": "erwartung",
+   "name": "Was ist realistisch?",
+   "q": "Wie viel Muskelwachstum bringt Krafttraining, und ab wann?",
+   "ev": "moderat",
+   "key": [
+    "10 Studien mit gesunden Erwachsenen: Die Quadrizepsdicke nahm im Mittel um 16,6 % zu (SMD 0,35 [0,13; 0,56], GRADE hoch); signifikant war der Effekt erst ab acht Wochen Training (Soares et al., 2024).",
+    "Ganzkörper bei Männern: im Mittel 1,53 kg [1,30; 1,76] mehr Muskelmasse; Alter, Gewicht und Größe erklärten keine Unterschiede (Benito et al., 2020).",
+    "24 Studien mit Frauen: mittlerer Effekt auf die Hypertrophie (g 0,52); kein Trainingsfaktor beeinflusste das Wachstum signifikant (Hagstrom et al., 2020).",
+    "40 Studien mit gesunden jungen Frauen: fettfreie Masse bzw. Muskelgröße stieg um SMD 0,4 [0,2; 0,5]; mehr Trainingseinheiten gingen mit mehr Zuwachs einher (Molinari et al., 2024)."
+   ],
+   "critic": "Die Analysen zeigen übereinstimmend kleine bis mittlere Effekte in Wochen bis Monaten. Muskelwachstum ist ein langsamer Prozess; kurzfristige Studien unter acht Wochen unterschätzen es oder messen eher Schwellungen. Die Effektstärken sind zwischen Studien nur grob vergleichbar, da Messmethoden (Ultraschall, DXA, fettfreie Masse) und Populationen verschieden sind.",
+   "figs": [
+    {
+     "id": "h-erw",
+     "title": "Wie groß ist der Wachstumseffekt?",
+     "cap": "Standardisierte Effektstärke gegenüber Ausgangswert bzw. Kontrolle, 95-%-KI wo angegeben (Soares et al., 2024; Molinari et al., 2024; Hagstrom et al., 2020).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Quadrizepsdicke, Erwachsene",
+       "es": 0.35,
+       "lo": 0.13,
+       "hi": 0.56
+      },
+      {
+       "l": "Muskelmasse, junge Frauen",
+       "es": 0.4,
+       "lo": 0.2,
+       "hi": 0.5
+      },
+      {
+       "l": "Hypertrophie, Frauen",
+       "es": 0.52
+      }
+     ],
+     "opts": {
+      "max": 0.7,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "xlab": "Effektstärke (SMD bzw. g)",
+      "src": "Soares et al., 2024; Molinari et al., 2024; Hagstrom et al., 2020"
+     }
+    }
+   ],
+   "s": [
+    "soares2024",
+    "benito2020",
+    "hagstrom2020",
+    "molinari2024"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2017,
+   "t": "Volumen-Dosis-Wirkung für Hypertrophie",
+   "p": "15 Studien: jeder zusätzliche Wochensatz bringt etwas mehr Wachstum.",
+   "tag": "neu",
+   "s": "schoenfeld2017v"
+  },
+  {
+   "y": 2017,
+   "t": "Last für Hypertrophie egal",
+   "p": "Bei Training bis zum Versagen wachsen Muskeln mit leichten und schweren Lasten gleich.",
+   "tag": "neu",
+   "s": "schoenfeld2017"
+  },
+  {
+   "y": 2019,
+   "t": "Frequenz ohne eigenen Effekt",
+   "p": "Bei gleichem Volumen spielt die Frequenz keine Rolle.",
+   "tag": "neu",
+   "s": "schoenfeld2019"
+  },
+  {
+   "y": 2021,
+   "t": "Lasten im Netzwerkvergleich",
+   "p": "28 Studien bestätigen: Hypertrophie lastunabhängig.",
+   "tag": "conf",
+   "s": "lopez2021"
+  },
+  {
+   "y": 2021,
+   "t": "Voller Bewegungsumfang überlegen",
+   "p": "Mehr Beinmuskelwachstum mit vollem Bewegungsumfang.",
+   "tag": "neu",
+   "s": "pallares2021"
+  },
+  {
+   "y": 2022,
+   "t": "Energiedefizit bremst Muskelaufbau",
+   "p": "Ab etwa 500 kcal Defizit pro Tag kein Zuwachs an fettfreier Masse.",
+   "tag": "neu",
+   "s": "murphy2022"
+  },
+  {
+   "y": 2022,
+   "t": "Muskelversagen: kein klarer Vorteil",
+   "p": "Insgesamt kein Unterschied; bei Trainierten kleiner Vorteil für Versagen.",
+   "tag": "neu",
+   "s": "grgic2022"
+  },
+  {
+   "y": 2022,
+   "t": "Periodisierung ohne Hypertrophie-Effekt",
+   "p": "Bei gleichem Volumen kein Unterschied.",
+   "tag": "neu",
+   "s": "moesgaard2022"
+  },
+  {
+   "y": 2023,
+   "t": "Gedehnte Position im Fokus",
+   "p": "Training bei längerer Muskellänge fördert bei mehreren Muskeln das Wachstum.",
+   "tag": "rel",
+   "s": "kassiano2023"
+  },
+  {
+   "y": 2023,
+   "t": "Versagen: höchstens trivialer Vorteil",
+   "p": "Echtes Muskelversagen bringt keinen gesicherten Zusatznutzen.",
+   "tag": "conf",
+   "s": "refalo2023"
+  },
+  {
+   "y": 2023,
+   "t": "Größte Netzwerk-Metaanalyse",
+   "p": "119 Studien: alle Programme fördern Wachstum vergleichbar.",
+   "tag": "conf",
+   "s": "currier2023"
+  },
+  {
+   "y": 2024,
+   "t": "Nähe zum Versagen als Dosis",
+   "p": "Je näher am Versagen, desto mehr Wachstum.",
+   "tag": "rel",
+   "s": "robinson2024"
+  },
+  {
+   "y": 2024,
+   "t": "Pausen über 60 s leicht besser",
+   "p": "Kleiner Vorteil längerer Pausen, ab 90 s kein Zusatznutzen.",
+   "tag": "neu",
+   "s": "singer2024"
+  },
+  {
+   "y": 2025,
+   "t": "Muskellänge: kleiner Effekt",
+   "p": "Längere Muskellängen nur leicht und unsicher überlegen.",
+   "tag": "rel",
+   "s": "varovic2025"
+  },
+  {
+   "y": 2025,
+   "t": "Tempo praktisch egal",
+   "p": "Schnelleres und langsameres Tempo führen zu ähnlichem Wachstum.",
+   "tag": "neu",
+   "s": "enes2025"
+  },
+  {
+   "y": 2025,
+   "t": "Exzentrisch vs. konzentrisch",
+   "p": "Kein gesicherter Unterschied beim Wachstum.",
+   "tag": "neu",
+   "s": "dasilva2025"
+  },
+  {
+   "y": 2025,
+   "t": "Frauen wachsen relativ gleich stark",
+   "p": "Relativ zum Ausgangswert kein Geschlechterunterschied.",
+   "tag": "neu",
+   "s": "refalo2025"
+  },
+  {
+   "y": 2026,
+   "t": "Volumen-Dosis-Wirkung bestätigt",
+   "p": "67 Studien: mehr Volumen, mehr Wachstum, mit geringerer Abflachung als bei Kraft.",
+   "tag": "conf",
+   "s": "pelland2026"
+  },
+  {
+   "y": 2026,
+   "t": "ACSM-Positionspapier",
+   "p": "Hypertrophie profitiert von ≥ 10 Wochensätzen und exzentrischer Überlast.",
+   "tag": "conf",
+   "s": "acsm2026"
+  },
+  {
+   "y": 2021,
+   "t": "Sätze als Volumenmaß",
+   "p": "Harte Sätze zwischen 6 und 20+ Wiederholungen eignen sich, um Volumen zu zählen.",
+   "tag": "neu",
+   "s": "bazvalle2021"
+  },
+  {
+   "y": 2020,
+   "t": "Grenze pro Einheit?",
+   "p": "Sehr viele Sätze pro Einheit gingen mit etwas weniger Muskelzuwachs einher.",
+   "tag": "rel",
+   "s": "benito2020"
+  },
+  {
+   "y": 2021,
+   "t": "Mindestvolumen bei Untrainierten",
+   "p": "Unter 3 Sätzen pro Übung kein gesicherter Muskelzuwachs bei jungen Untrainierten.",
+   "tag": "conf",
+   "s": "polito2021"
+  },
+  {
+   "y": 2022,
+   "t": "Last auch bei gleicher Volumenlast egal",
+   "p": "Gleiches Wachstum über alle Lastbereiche, auch wenn die Volumenlast angeglichen ist.",
+   "tag": "conf",
+   "s": "carvalho2022"
+  },
+  {
+   "y": 2021,
+   "t": "Versagensvorteil nur über mehr Volumen",
+   "p": "Der Vorteil des Versagenstrainings verschwand, wenn das Volumen angeglichen war.",
+   "tag": "rel",
+   "s": "vieira2021"
+  },
+  {
+   "y": 2022,
+   "t": "Maschine oder Hantel",
+   "p": "Gleiches Wachstum; Kraftgewinne sind übungsspezifisch.",
+   "tag": "neu",
+   "s": "heidel2022"
+  },
+  {
+   "y": 2025,
+   "t": "Einseitig oder beidseitig",
+   "p": "Kein Unterschied im Wachstum, Kraft folgt der Spezifität.",
+   "tag": "neu",
+   "s": "kassiano2025"
+  },
+  {
+   "y": 2021,
+   "t": "Cluster-Sätze",
+   "p": "Gleiches Wachstum wie traditionelle Sätze, bei weniger Ermüdung.",
+   "tag": "neu",
+   "s": "davies2021"
+  },
+  {
+   "y": 2021,
+   "t": "Satzstruktur bestätigt zweitrangig",
+   "p": "Alternative Satzstrukturen ändern Wachstum und Kraft kaum.",
+   "tag": "conf",
+   "s": "jukic2021"
+  },
+  {
+   "y": 2019,
+   "t": "Intensitätstechniken",
+   "p": "Vor allem zeitsparend, Evidenz für Zusatznutzen unzureichend.",
+   "tag": "neu",
+   "s": "krzysztofik2019"
+  },
+  {
+   "y": 2024,
+   "t": "Wachstum braucht Wochen",
+   "p": "Messbarer Zuwachs der Muskeldicke erst ab etwa acht Wochen.",
+   "tag": "neu",
+   "s": "soares2024"
+  },
+  {
+   "y": 2020,
+   "t": "Frauen: mittlerer Wachstumseffekt",
+   "p": "Krafttraining führt auch bei Frauen zu deutlichem Muskelwachstum.",
+   "tag": "neu",
+   "s": "hagstrom2020"
+  },
+  {
+   "y": 2024,
+   "t": "Junge Frauen: Wachstum bestätigt",
+   "p": "Mehr Einheiten insgesamt, mehr Zuwachs.",
+   "tag": "conf",
+   "s": "molinari2024"
+  },
+  {
+   "y": 2020,
+   "t": "Gleiches relatives Wachstum bei Frauen und Männern",
+   "p": "Frühere Analyse bestätigt den späteren bayesianischen Befund.",
+   "tag": "conf",
+   "s": "roberts2020"
+  },
+  {
+   "y": 2019,
+   "t": "Tageszeit egal",
+   "p": "Morgen- und Abendtraining bringen gleiches Wachstum.",
+   "tag": "neu",
+   "s": "grgic2019"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 18 geprüft, 15 aufgenommen, 3 ausgeschlossen (reine Mechanismusarbeiten). Neue Abschnitte Übungsauswahl, Satzstruktur und „Was ist realistisch?“; Versagen relativiert (Vorteil nur bei ungleichem Volumen), Volumen um Satzzahl pro Einheit ergänzt, Geschlecht und Tageszeit ergänzt; neuer Kernsatz und zwei neue Ableitungen."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 4 434 Einträgen, 19 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "schoenfeld2017v": {
+   "short": "Schoenfeld et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27433992",
+   "apa": "Schoenfeld, B. J., Ogborn, D. &amp; Krieger, J. W. (2017). Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis. <em>Journal of Sports Sciences, 35</em>(11), 1073–1082.",
+   "doi": "10.1080/02640414.2016.1210197"
+  },
+  "pelland2026": {
+   "short": "Pelland et al., 2026",
+   "year": 2026,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "apa": "Pelland, J. C., Remmert, J. F., Robinson, Z. P., Hinson, S. R. &amp; Zourdos, M. C. (2026). The resistance training dose response: Meta-regressions exploring the effects of weekly volume and frequency on muscle hypertrophy and strength gains. <em>Sports Medicine, 56</em>(2), 481–505.",
+   "doi": "10.1007/s40279-025-02344-w",
+   "pmid": "41343037"
+  },
+  "acsm2026": {
+   "short": "Currier et al., 2026 (ACSM)",
+   "year": 2026,
+   "type": "Positionspapier (Umbrella Review)",
+   "basis": "Abstract",
+   "pmid": "41843416",
+   "apa": "Currier, B. S., D’Souza, A. C., Singh, M. A. F., Lowisz, C. V., Rawson, E. S., Schoenfeld, B. J., Smith-Ryan, A. E., Steen, J. P., Thomas, G. A., Triplett, N. T., Washington, T. A., Werner, T. J. &amp; Phillips, S. M. (2026). American College of Sports Medicine position stand. Resistance training prescription for muscle function, hypertrophy, and physical performance in healthy adults: An overview of reviews. <em>Medicine &amp; Science in Sports &amp; Exercise, 58</em>(4), 851–872.",
+   "doi": "10.1249/MSS.0000000000003897"
+  },
+  "currier2023": {
+   "short": "Currier et al., 2023",
+   "year": 2023,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37414459",
+   "apa": "Currier, B. S., Mcleod, J. C., Banfield, L., Beyene, J., Welton, N. J., D’Souza, A. C., Keogh, J. A. J., Lin, L., Coletta, G., Yang, A., Colenso-Semple, L., Lau, K. J., Verboom, A. &amp; Phillips, S. M. (2023). Resistance training prescription for muscle strength and hypertrophy in healthy adults: A systematic review and Bayesian network meta-analysis. <em>British Journal of Sports Medicine, 57</em>(18), 1211–1220.",
+   "doi": "10.1136/bjsports-2023-106807"
+  },
+  "schoenfeld2017": {
+   "short": "Schoenfeld et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28834797",
+   "apa": "Schoenfeld, B. J., Grgic, J., Ogborn, D. &amp; Krieger, J. W. (2017). Strength and hypertrophy adaptations between low- vs. high-load resistance training: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 31</em>(12), 3508–3523.",
+   "doi": "10.1519/JSC.0000000000002200"
+  },
+  "lopez2021": {
+   "short": "Lopez et al., 2021",
+   "year": 2021,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33433148",
+   "apa": "Lopez, P., Radaelli, R., Taaffe, D. R., Newton, R. U., Galvão, D. A., Trajano, G. S., Teodoro, J. L., Kraemer, W. J., Häkkinen, K. &amp; Pinto, R. S. (2021). Resistance training load effects on muscle hypertrophy and strength gain: Systematic review and network meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 53</em>(6), 1206–1216.",
+   "doi": "10.1249/MSS.0000000000002585"
+  },
+  "schoenfeld2019": {
+   "short": "Schoenfeld et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30558493",
+   "apa": "Schoenfeld, B. J., Grgic, J. &amp; Krieger, J. (2019). How many times per week should a muscle be trained to maximize muscle hypertrophy? A systematic review and meta-analysis of studies examining the effects of resistance training frequency. <em>Journal of Sports Sciences, 37</em>(11), 1286–1295.",
+   "doi": "10.1080/02640414.2018.1555906"
+  },
+  "refalo2023": {
+   "short": "Refalo et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36334240",
+   "apa": "Refalo, M. C., Helms, E. R., Trexler, E. T., Hamilton, D. L. &amp; Fyfe, J. J. (2023). Influence of resistance training proximity-to-failure on skeletal muscle hypertrophy: A systematic review with meta-analysis. <em>Sports Medicine, 53</em>(3), 649–665.",
+   "doi": "10.1007/s40279-022-01784-y"
+  },
+  "grgic2022": {
+   "short": "Grgic et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33497853",
+   "apa": "Grgic, J., Schoenfeld, B. J., Orazem, J. &amp; Sabol, F. (2022). Effects of resistance training performed to repetition failure or non-failure on muscular strength and hypertrophy: A systematic review and meta-analysis. <em>Journal of Sport and Health Science, 11</em>(2), 202–211.",
+   "doi": "10.1016/j.jshs.2021.01.007"
+  },
+  "robinson2024": {
+   "short": "Robinson et al., 2024",
+   "year": 2024,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "pmid": "38970765",
+   "apa": "Robinson, Z. P., Pelland, J. C., Remmert, J. F., Refalo, M. C., Jukic, I., Steele, J. &amp; Zourdos, M. C. (2024). Exploring the dose–response relationship between estimated resistance training proximity to failure, strength gain, and muscle hypertrophy: A series of meta-regressions. <em>Sports Medicine, 54</em>(9), 2209–2231.",
+   "doi": "10.1007/s40279-024-02069-2"
+  },
+  "singer2024": {
+   "short": "Singer et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "39205815",
+   "apa": "Singer, A., Wolf, M., Generoso, L., Arias, E., Delcastillo, K., Echevarria, E., Martinez, A., Androulakis Korakakis, P., Refalo, M. C., Swinton, P. A. &amp; Schoenfeld, B. J. (2024). Give it a rest: A systematic review with Bayesian meta-analysis on the effect of inter-set rest interval duration on muscle hypertrophy. <em>Frontiers in Sports and Active Living, 6</em>, Artikel 1429789.",
+   "doi": "10.3389/fspor.2024.1429789"
+  },
+  "pallares2021": {
+   "short": "Pallarés et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34170576",
+   "apa": "Pallarés, J. G., Hernández-Belmonte, A., Martínez-Cava, A., Vetrovsky, T., Steffl, M. &amp; Courel-Ibáñez, J. (2021). Effects of range of motion on resistance training adaptations: A systematic review and meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 31</em>(10), 1866–1881.",
+   "doi": "10.1111/sms.14006"
+  },
+  "kassiano2023": {
+   "short": "Kassiano et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "36662126",
+   "apa": "Kassiano, W., Costa, B., Nunes, J. P., Ribeiro, A. S., Schoenfeld, B. J. &amp; Cyrino, E. S. (2023). Which ROMs lead to Rome? A systematic review of the effects of range of motion on muscle hypertrophy. <em>Journal of Strength and Conditioning Research, 37</em>(5), 1135–1144.",
+   "doi": "10.1519/JSC.0000000000004415"
+  },
+  "varovic2025": {
+   "short": "Varovic et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "40570881",
+   "apa": "Varovic, D., Wolf, M., Schoenfeld, B. J., Steele, J., Grgic, J. &amp; Mikulic, P. (2025). Does muscle length influence regional hypertrophy? A systematic review and meta-analysis. <em>International Journal of Sports Medicine, 46</em>(14), 1027–1036.",
+   "doi": "10.1055/a-2615-4935"
+  },
+  "enes2025": {
+   "short": "Enes et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "42709703",
+   "apa": "Enes, A., Piñero, A., Hermann, T., Zamanzadeh, A., Hennessy, T., Montenegro, D., Parnell, C., Jia, A., Weitzman, T., Wolf, M., Korakakis, P. A., Swinton, P. A. &amp; Schoenfeld, B. J. (2025). How slow should you go? A systematic review with meta-analysis of the effect of resistance training repetition tempo on muscle hypertrophy. <em>Journal of Strength and Conditioning Research, 39</em>(12), 1331–1339.",
+   "doi": "10.1519/JSC.0000000000005302"
+  },
+  "dasilva2025": {
+   "short": "da Silva et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39652733",
+   "apa": "da Silva, L. S. L., Gonçalves, L. D. S., Alves Campos, P. H., Benjamim, C. J. R., Tasinafo Júnior, M. F., de Lima, L. C. R., Bueno Júnior, C. R. &amp; Alves, C. P. L. (2025). Comparison between eccentric vs. Concentric muscle actions on hypertrophy: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 39</em>(1), 115–134.",
+   "doi": "10.1519/JSC.0000000000004981"
+  },
+  "moesgaard2022": {
+   "short": "Moesgaard et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35044672",
+   "apa": "Moesgaard, L., Beck, M. M., Christiansen, L., Aagaard, P. &amp; Lundbye-Jensen, J. (2022). Effects of periodization on strength and muscle hypertrophy in volume-equated resistance training programs: A systematic review and meta-analysis. <em>Sports Medicine, 52</em>(7), 1647–1666.",
+   "doi": "10.1007/s40279-021-01636-1"
+  },
+  "murphy2022": {
+   "short": "Murphy & Koehler, 2022",
+   "year": 2022,
+   "type": "Metaanalyse und Metaregression",
+   "basis": "Abstract",
+   "pmid": "34623696",
+   "apa": "Murphy, C. &amp; Koehler, K. (2022). Energy deficiency impairs resistance training gains in lean mass but not strength: A meta-analysis and meta-regression. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 32</em>(1), 125–137.",
+   "doi": "10.1111/sms.14075"
+  },
+  "refalo2025": {
+   "short": "Refalo et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "40028215",
+   "apa": "Refalo, M. C., Nuckols, G., Galpin, A. J., Gallagher, I. J., Hamilton, D. L. &amp; Fyfe, J. J. (2025). Sex differences in absolute and relative changes in muscle size following resistance training in healthy adults: A systematic review with Bayesian meta-analysis. <em>PeerJ, 13</em>, Artikel e19042.",
+   "doi": "10.7717/peerj.19042"
+  },
+  "bazvalle2021": {
+   "short": "Baz-Valle et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "30063555",
+   "apa": "Baz-Valle, E., Fontes-Villalba, M. &amp; Santos-Concejero, J. (2021). Total number of sets as a training volume quantification method for muscle hypertrophy: A systematic review. <em>Journal of Strength and Conditioning Research, 35</em>(3), 870–878.",
+   "doi": "10.1519/JSC.0000000000002776"
+  },
+  "benito2020": {
+   "short": "Benito et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32079265",
+   "apa": "Benito, P. J., Cupeiro, R., Ramos-Campo, D. J., Alcaraz, P. E. &amp; Rubio-Arias, J. Á. (2020). A systematic review with meta-analysis of the effect of resistance training on whole-body muscle growth in healthy adult males. <em>International Journal of Environmental Research and Public Health, 17</em>(4), Artikel 1285.",
+   "doi": "10.3390/ijerph17041285"
+  },
+  "polito2021": {
+   "short": "Polito et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33977848",
+   "apa": "Polito, M. D., Papst, R. R. &amp; Farinatti, P. (2021). Moderators of strength gains and hypertrophy in resistance training: A systematic review and meta-analysis. <em>Journal of Sports Sciences, 39</em>(19), 2189–2198.",
+   "doi": "10.1080/02640414.2021.1924978"
+  },
+  "carvalho2022": {
+   "short": "Carvalho et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35015560",
+   "apa": "Carvalho, L., Junior, R. M., Barreira, J., Schoenfeld, B. J., Orazem, J. &amp; Barroso, R. (2022). Muscle hypertrophy and strength gains after resistance training with different volume-matched loads: A systematic review and meta-analysis. <em>Applied Physiology, Nutrition, and Metabolism, 47</em>(4), 357–368.",
+   "doi": "10.1139/apnm-2021-0515",
+   "journal": "Applied Physiology, Nutrition, and Metabolism"
+  },
+  "vieira2021": {
+   "short": "Vieira et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33555822",
+   "apa": "Vieira, A. F., Umpierre, D., Teodoro, J. L., Lisboa, S. C., Baroni, B. M., Izquierdo, M. &amp; Cadore, E. L. (2021). Effects of resistance training performed to failure or not to failure on muscle strength, hypertrophy, and power output: A systematic review with meta-analysis. <em>Journal of Strength and Conditioning Research, 35</em>(4), 1165–1175.",
+   "doi": "10.1519/JSC.0000000000003936"
+  },
+  "heidel2022": {
+   "short": "Heidel et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34609100",
+   "apa": "Heidel, K. A., Novak, Z. J. &amp; Dankel, S. J. (2022). Machines and free weight exercises: A systematic review and meta-analysis comparing changes in muscle size, strength, and power. <em>The Journal of Sports Medicine and Physical Fitness, 62</em>(8), 1061–1070.",
+   "doi": "10.23736/S0022-4707.21.12929-9",
+   "journal": "The Journal of Sports Medicine and Physical Fitness"
+  },
+  "kassiano2025": {
+   "short": "Kassiano et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39794667",
+   "apa": "Kassiano, W., Nunes, J. P., Costa, B., Ribeiro, A. S., Loenneke, J. P. &amp; Cyrino, E. S. (2025). Comparison of muscle growth and dynamic strength adaptations induced by unilateral and bilateral resistance training: A systematic review and meta-analysis. <em>Sports Medicine, 55</em>(4), 923–936.",
+   "doi": "10.1007/s40279-024-02169-z"
+  },
+  "davies2021": {
+   "short": "Davies et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33475986",
+   "apa": "Davies, T. B., Tran, D. L., Hogan, C. M., Haff, G. G. &amp; Latella, C. (2021). Chronic effects of altering resistance training set configurations using cluster sets: A systematic review and meta-analysis. <em>Sports Medicine, 51</em>(4), 707–736.",
+   "doi": "10.1007/s40279-020-01408-3"
+  },
+  "jukic2021": {
+   "short": "Jukic et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33417154",
+   "apa": "Jukic, I., Van Hooren, B., Ramos, A. G., Helms, E. R., McGuigan, M. R. &amp; Tufano, J. J. (2021). The effects of set structure manipulation on chronic adaptations to resistance training: A systematic review and meta-analysis. <em>Sports Medicine, 51</em>(5), 1061–1086.",
+   "doi": "10.1007/s40279-020-01423-4"
+  },
+  "krzysztofik2019": {
+   "short": "Krzysztofik et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "31817252",
+   "apa": "Krzysztofik, M., Wilk, M., Wojdała, G. &amp; Gołaś, A. (2019). Maximizing muscle hypertrophy: A systematic review of advanced resistance training techniques and methods. <em>International Journal of Environmental Research and Public Health, 16</em>(24), Artikel 4897.",
+   "doi": "10.3390/ijerph16244897"
+  },
+  "soares2024": {
+   "short": "Soares et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38876638",
+   "apa": "Soares, A. L. C., Carvalho, R. F., Mogami, R., Meirelles, C. M. &amp; Gomes, P. S. C. (2024). Effect of resistance training on quadriceps femoris muscle thickness obtained by ultrasound: A systematic review with meta-analysis. <em>Journal of Bodywork and Movement Therapies, 39</em>, 270–278.",
+   "doi": "10.1016/j.jbmt.2024.02.007"
+  },
+  "hagstrom2020": {
+   "short": "Hagstrom et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31820374",
+   "apa": "Hagstrom, A. D., Marshall, P. W., Halaki, M. &amp; Hackett, D. A. (2020). The effect of resistance training in women on dynamic strength and muscular hypertrophy: A systematic review with meta-analysis. <em>Sports Medicine, 50</em>(6), 1075–1093.",
+   "doi": "10.1007/s40279-019-01247-x"
+  },
+  "molinari2024": {
+   "short": "Molinari et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38090747",
+   "apa": "Molinari, T., Radaelli, R., Rech, A., Brusco, C. M., Markarian, A. M. &amp; Lopez, P. (2024). Moderators of resistance training effects in healthy young women: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 38</em>(4), 804–814.",
+   "doi": "10.1519/JSC.0000000000004666"
+  },
+  "roberts2020": {
+   "short": "Roberts et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32218059",
+   "apa": "Roberts, B. M., Nuckols, G. &amp; Krieger, J. W. (2020). Sex differences in resistance training: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 34</em>(5), 1448–1460.",
+   "doi": "10.1519/JSC.0000000000003521"
+  },
+  "grgic2019": {
+   "short": "Grgic et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30704301",
+   "apa": "Grgic, J., Lazinica, B., Garofolini, A., Schoenfeld, B. J., Saner, N. J. &amp; Mikulic, P. (2019). The effects of time of day-specific resistance training on adaptations in skeletal muscle hypertrophy and muscle strength: A systematic review and meta-analysis. <em>Chronobiology International, 36</em>(4), 449–460.",
+   "doi": "10.1080/07420528.2019.1567524",
+   "journal": "Chronobiology International"
+  }
+ }
+}

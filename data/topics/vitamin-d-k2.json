@@ -1,0 +1,704 @@
+{
+ "id": "vitamin-d-k2",
+ "title": "Vitamin D3 und K2",
+ "stand": "2026-11-16",
+ "lead": "Wie häufig ist ein Vitamin-D-Mangel bei Sportlern, verbessert Vitamin D Kraft und Leistung, schützt es vor Infekten und Knochenbrüchen, und was ist zu Vitamin K2 belegt? Zusammengefasst aus Metaanalysen.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Vitamin D ist sinnvoll, um einen Mangel auszugleichen, aber kein Leistungsmittel. Für die Kombination mit K2 bei Gesunden fehlen Belege.",
+ "rx": [
+  {
+   "label": "Status",
+   "value": "im Winter und Frühjahr prüfen",
+   "text": "Mehr als die Hälfte der Sportler hatte unzureichende Spiegel, besonders im Winter und Frühjahr. Der Trainingsort allein ist kein gutes Kriterium. Bei Mangel erreichten 3 000–5 000 IE/Tag auch im Winter ausreichende Spiegel.",
+   "cite": "Farrokhyar et al. 2015; Bârsan et al. 2023; Farrokhyar et al. 2017"
+  },
+  {
+   "label": "Leistung",
+   "value": "kein Leistungsmittel",
+   "text": "Bei Sportlern keine gesicherten Effekte auf Kraft, Sprung, Sprint oder Ausdauer, auch nicht zusätzlich zum Training; die Regeneration wird nicht nachweislich beschleunigt.",
+   "cite": "Zhang et al. 2019; Gu et al. 2026; Trexler 2024; Kazeminasab et al. 2026; Bello et al. 2021"
+  },
+  {
+   "label": "Knochen, Infekte",
+   "value": "nur bei Mangel sinnvoll",
+   "text": "Ohne Mangel kein Schutz vor Brüchen oder Stürzen; Schutz vor Atemwegsinfekten statistisch nicht mehr gesichert.",
+   "cite": "Bolland et al. 2018; Jolliffe et al. 2021; Jolliffe et al. 2025"
+  },
+  {
+   "label": "Vitamin K2",
+   "value": "für Gesunde nicht belegt",
+   "text": "Studien betreffen Frauen nach der Menopause bzw. Menschen mit Gefäßverkalkung; Knochenmarker verbessern sich, klinischer Nutzen für junge Sportler ist nicht belegt.",
+   "cite": "Ma et al. 2022; Zhang et al. 2025; Li et al. 2023; Zhao et al. 2024"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Wer gerinnungshemmende Medikamente vom Vitamin-K-Antagonisten-Typ einnimmt, sollte Vitamin K nur ärztlich abgestimmt ergänzen.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Mangel ist bei Sportlern häufig",
+   "ev": "moderat",
+   "p": "56 % der Sportler hatten unzureichende Vitamin-D-Spiegel, vor allem im Winter und Frühjahr. Der Trainingsort (Halle vs. Freiluft) spielt nach neueren Daten nur eine kleine Rolle.",
+   "s": [
+    "farrokhyar2015",
+    "barsan2023"
+   ]
+  },
+  {
+   "t": "Kein gesicherter Leistungseffekt",
+   "ev": "hoch",
+   "p": "Vitamin D verbesserte bei Sportlern weder Kraft noch Sprung, Sprint oder Ausdauer gesichert, auch nicht in Kombination mit Training. Frühere positive Befunde stammten vor allem von Älteren mit Mangel oder beruhten teils auf Analysefehlern.",
+   "s": [
+    "zhang2019",
+    "farrokhyar2017",
+    "gu2026",
+    "trexler2024",
+    "bislev2022",
+    "kazeminasab2026",
+    "tomlinson2015",
+    "beaudart2014"
+   ]
+  },
+  {
+   "t": "Regeneration nicht belegt",
+   "ev": "niedrig",
+   "p": "Für eine schnellere Erholung nach dem Training gibt es keine Belege; die Datenbasis ist klein.",
+   "s": [
+    "bello2021"
+   ]
+  },
+  {
+   "t": "Kein Schutz für Knochen ohne Mangel",
+   "ev": "hoch",
+   "p": "Vitamin D verhinderte keine Brüche oder Stürze und veränderte die Knochendichte nicht klinisch relevant.",
+   "s": [
+    "bolland2018"
+   ]
+  },
+  {
+   "t": "Atemwegsinfekte: kleiner, unsicherer Effekt",
+   "ev": "moderat",
+   "p": "2021 zeigte sich ein kleiner Schutz (OR 0,92); mit über 61 000 Teilnehmenden ist er 2025 statistisch nicht mehr gesichert.",
+   "s": [
+    "jolliffe2021",
+    "jolliffe2025"
+   ]
+  },
+  {
+   "t": "Vitamin K2: Belege nur für Risikogruppen",
+   "ev": "niedrig",
+   "p": "K2 verbesserte Knochenmarker und die Lendenwirbel-Knochendichte bei Frauen nach der Menopause und verlangsamte Gefäßverkalkung; weniger Brüche und Effekte auf Herz-Kreislauf-Risikofaktoren sind nicht belegt, für Gesunde fehlen Daten.",
+   "s": [
+    "ma2022",
+    "zhang2025",
+    "li2023",
+    "zhao2024"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "status",
+   "name": "Vitamin-D-Status bei Sportlern",
+   "q": "Wie häufig ist ein Mangel?",
+   "ev": "moderat",
+   "key": [
+    "23 Studien mit 2 313 Sportlern: 56 % hatten unzureichende Spiegel; höheres Risiko im Winter und Frühjahr (RR 1,85), bei Hallensport (RR 1,19) und gemischten Sportarten (RR 2,54) (Farrokhyar et al., 2015).",
+    "Bei Fußballspielern erhöhte Vitamin D die Blutspiegel deutlich (g 1,41 [0,90; 1,92]) (Gu et al., 2026).",
+    "Hallen- vs. Freiluftsportler (5 150 Personen): ohne Berücksichtigung von Störfaktoren 3,73 ng/ml höhere Spiegel im Freien, knapp nicht signifikant (p = 0,052); innerhalb derselben Jahreszeit kein Unterschied; im Modell mit Jahreszeit, Breitengrad und Herkunft 4,45 ng/ml niedriger in der Halle – numerisch und klinisch klein (Bârsan et al., 2023).",
+    "Bei unzureichendem Ausgangsspiegel erreichten Sportler mit 3 000 IE (+15,2 ng/ml [10,7; 19,7]) bzw. 5 000 IE pro Tag (+27,8 ng/ml [16,9; 38,8]) auch im Winter oberhalb des 45. Breitengrads ausreichende Spiegel (Farrokhyar et al., 2017)."
+   ],
+   "critic": "Die Grenzwerte für „unzureichend“ unterscheiden sich zwischen Studien; die Häufigkeit hängt stark davon ab. Die Kernaussage, dass Mangel bei Sportlern verbreitet ist, gilt aber. Der frühere Befund eines deutlich höheren Risikos bei Hallensport (Farrokhyar et al., 2015) wird durch eine größere Analyse relativiert: Unter Berücksichtigung von Jahreszeit und Breitengrad ist der Unterschied klein (Bârsan et al., 2023). Jahreszeit und Breitengrad sind daher bessere Anhaltspunkte als die Sportart.",
+   "figs": [],
+   "s": [
+    "farrokhyar2015",
+    "gu2026",
+    "barsan2023",
+    "farrokhyar2017"
+   ]
+  },
+  {
+   "id": "leistung",
+   "name": "Kraft und Leistung",
+   "q": "Verbessert Vitamin D die Leistung?",
+   "ev": "hoch",
+   "key": [
+    "8 Studien mit 284 Sportlern: kein Effekt auf die Muskelkraft insgesamt (SMD 0,05 [−0,39; 0,48]); Unterkörperkraft verbessert (SMD 0,55 [0,12; 0,98]), Oberkörper nicht (Zhang et al., 2019).",
+    "Reanalyse einer viel zitierten Metaanalyse: Nach Korrektur häufiger Analysefehler schrumpfte der Effekt auf SMD 0,16 [−0,24; 0,56] und war nicht mehr signifikant (Trexler, 2024).",
+    "Fußballspieler: keine signifikanten Effekte auf Sprung (g 0,21), Sprint (g −0,03), Ausdauer (g 0,00) oder Muskelleistung (g 0,19) (Gu et al., 2026).",
+    "Placebokontrollierte Studien zur Muskelgesundheit: kein Nutzen, auch nicht bei niedrigen Ausgangsspiegeln; mögliche ungünstige Effekte (Bislev et al., 2021).",
+    "30 Studien mit 5 615 Personen (mittleres Alter 61 Jahre): kleiner Effekt auf die Muskelkraft (SMD 0,17), keiner auf Muskelmasse oder -leistung; deutlicher bei Spiegeln < 30 nmol/l und ab 65 Jahren (SMD 0,25 [0,01; 0,48]), bei Jüngeren nicht (SMD 0,03 [−0,08; 0,14]) (Beaudart et al., 2014).",
+    "7 Studien mit 310 gesunden jungen Erwachsenen: höhere Kraft in Ober- (SMD 0,32 [0,10; 0,54]) und Unterkörper (SMD 0,32 [0,01; 0,63]) (Tomlinson et al., 2015).",
+    "13 Studien mit 532 Sportlern: 3 000–5 000 IE/Tag hoben unzureichende Spiegel auch im Winter in den ausreichenden Bereich, die körperliche Leistung verbesserte sich aber nicht signifikant (Farrokhyar et al., 2017).",
+    "5 Studien mit 163 Sportlern: Spiegel erreichten den ausreichenden Bereich, Kraft (Bankdrücken-1RM, Quadrizeps) verbesserte sich nicht signifikant; die gepoolte Effektstärke war fehlerhaft berechnet und wurde später korrigiert (Han et al., 2019; Trexler, 2024).",
+    "Individualdaten aus 4 Studien (n = 260; 2 800–7 000 IE/Tag, 3–9 Monate): kein Effekt auf Kraft, Funktion, Körperzusammensetzung oder Lebensqualität, auch nicht bei unzureichenden Spiegeln; bei Nicht-Adipösen teils ungünstige Effekte auf die Kraft (Bislev et al., 2022).",
+    "28 Studien mit 1 675 Erwachsenen: Vitamin D zusätzlich zum Training hob den Spiegel (+34,11 nmol/l), verbesserte aber Körperzusammensetzung und Beinpresskraft nicht; Kniestrecker (+4,36 kg) und Griffkraft (vor allem Ältere, hohe Dosen) leicht verbessert (Kazeminasab et al., 2026)."
+   ],
+   "critic": "Ein gutes Beispiel für kritische Bewertung: Ältere positive Befunde stammen überwiegend aus älteren Populationen mit Mangel (Beaudart et al., 2014) oder aus einer kleinen Analyse mit 310 jungen Erwachsenen (Tomlinson et al., 2015). Neuere Analysen speziell bei Sportlern (Farrokhyar et al., 2017; Zhang et al., 2019; Gu et al., 2026), eine Individualdaten-Metaanalyse (Bislev et al., 2022) und eine große Analyse zur Kombination mit Training (Kazeminasab et al., 2026) finden keinen gesicherten Effekt. Einzelne positive Befunde (z. B. Unterkörperkraft) halten einer methodisch korrekten Reanalyse nicht stand (Trexler, 2024). Wahrscheinlichste Lesart: bei ausreichend versorgten jungen Sportlern kein Leistungseffekt; ein kleiner Nutzen ist allenfalls bei Älteren mit ausgeprägtem Mangel plausibel.",
+   "figs": [
+    {
+     "id": "v-perf",
+     "title": "Vitamin D und Leistung bei Sportlern",
+     "cap": "SMD bzw. Hedges’ g mit 95-%-KI; Werte rechts von 0 begünstigen Vitamin D.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Muskelkraft gesamt",
+       "sub": "Zhang et al., 2019",
+       "es": 0.05,
+       "lo": -0.39,
+       "hi": 0.48
+      },
+      {
+       "l": "Reanalyse, korrigiert",
+       "sub": "Trexler, 2024",
+       "es": 0.16,
+       "lo": -0.24,
+       "hi": 0.56
+      },
+      {
+       "l": "Sprung, Fußballspieler",
+       "sub": "Gu et al., 2026",
+       "es": 0.21,
+       "lo": -0.1,
+       "hi": 0.53
+      },
+      {
+       "l": "Sprint, Fußballspieler",
+       "sub": "Gu et al., 2026",
+       "es": -0.03,
+       "lo": -0.4,
+       "hi": 0.34
+      },
+      {
+       "l": "Muskelleistung, Fußballspieler",
+       "sub": "Gu et al., 2026",
+       "es": 0.19,
+       "lo": -0.14,
+       "hi": 0.51
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.8,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "leftLab": "Placebo besser",
+      "rightLab": "Vitamin D besser"
+     }
+    },
+    {
+     "id": "v-perf-verlauf",
+     "title": "Krafteffekte im Forschungsverlauf",
+     "cap": "SMD mit 95-%-KI; Werte rechts von 0 begünstigen Vitamin D. Frühe positive Befunde (2014–2015) gegenüber neueren Analysen bei Sportlern und der korrigierten Reanalyse (Beaudart et al., 2014; Tomlinson et al., 2015; Zhang et al., 2019; Trexler, 2024).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "≥ 65 Jahre",
+       "sub": "Beaudart et al., 2014",
+       "es": 0.25,
+       "lo": 0.01,
+       "hi": 0.48
+      },
+      {
+       "l": "< 65 Jahre",
+       "sub": "Beaudart et al., 2014",
+       "es": 0.03,
+       "lo": -0.08,
+       "hi": 0.14
+      },
+      {
+       "l": "Oberkörper, junge Erwachsene",
+       "sub": "Tomlinson et al., 2015",
+       "es": 0.32,
+       "lo": 0.1,
+       "hi": 0.54
+      },
+      {
+       "l": "Unterkörper, junge Erwachsene",
+       "sub": "Tomlinson et al., 2015",
+       "es": 0.32,
+       "lo": 0.01,
+       "hi": 0.63
+      },
+      {
+       "l": "Sportler, Kraft gesamt",
+       "sub": "Zhang et al., 2019",
+       "es": 0.05,
+       "lo": -0.39,
+       "hi": 0.48
+      },
+      {
+       "l": "Sportler, korrigierte Reanalyse",
+       "sub": "Trexler, 2024",
+       "es": 0.16,
+       "lo": -0.24,
+       "hi": 0.56
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.8,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "leftLab": "Placebo besser",
+      "rightLab": "Vitamin D besser"
+     }
+    }
+   ],
+   "s": [
+    "zhang2019",
+    "trexler2024",
+    "gu2026",
+    "bislev2021",
+    "beaudart2014",
+    "tomlinson2015",
+    "farrokhyar2017",
+    "han2019",
+    "bislev2022",
+    "kazeminasab2026"
+   ]
+  },
+  {
+   "id": "regeneration",
+   "name": "Regeneration",
+   "q": "Beschleunigt Vitamin D die Erholung nach dem Training?",
+   "ev": "niedrig",
+   "key": [
+    "6 Studien: Auf Basis von Muskelschadensmarkern im Blut lässt sich kein Effekt von Vitamin D auf die Erholung nach dem Training belegen (Bello et al., 2021)."
+   ],
+   "critic": "Nur 6 Studien mit uneinheitlichen Biomarkern. Ein Nutzen ist nicht belegt, aber auch nicht sicher ausgeschlossen.",
+   "figs": [],
+   "s": [
+    "bello2021"
+   ]
+  },
+  {
+   "id": "gesundheit",
+   "name": "Knochen und Infekte",
+   "q": "Welche Gesundheitseffekte hat Vitamin D?",
+   "ev": "hoch",
+   "key": [
+    "81 Studien: Vitamin D verhinderte keine Brüche oder Stürze und hatte keine klinisch relevanten Effekte auf die Knochendichte; höhere und niedrigere Dosen unterschieden sich nicht (Bolland et al., 2018).",
+    "Frühere Fassung (2021): 43 Studien mit 48 488 Teilnehmenden, kleiner Schutz vor Atemwegsinfekten (OR 0,92 [0,86; 0,99]), vor allem bei täglicher Gabe von 400–1 000 IE (OR 0,70 [0,55; 0,89]) und bei Kindern; kein Effekt in Untergruppen nach Ausgangsspiegel (Jolliffe et al., 2021). Die erweiterte Fassung mit 40 Studien und 61 589 Teilnehmenden fand diesen Schutz nicht mehr gesichert (Jolliffe et al., 2025).",
+    "40 Studien mit 61 589 Teilnehmenden: Atemwegsinfekte OR 0,94 [0,88; 1,00], statistisch nicht mehr gesichert; kein Einfluss von Alter, Ausgangsstatus oder Dosierung; keine erhöhten schweren Nebenwirkungen (Jolliffe et al., 2025)."
+   ],
+   "critic": "Große, hochwertige Analysen. Sie betreffen überwiegend Menschen ohne schweren Mangel; bei nachgewiesenem Mangel bleibt eine Supplementierung sinnvoll. Der Infektschutz ist ein Beispiel für einen Befund, der mit mehr Daten schwächer wurde: 2021 noch ein kleiner, signifikanter Schutz (OR 0,92), 2025 mit mehr Teilnehmenden nicht mehr gesichert (OR 0,94 [0,88; 1,00]). Die günstigen Untergruppen von 2021 (tägliche niedrige Dosis, Kinder) zeigten keine signifikante Interaktion und sind daher als Hypothesen zu werten. Die neuere Fassung ist wahrscheinlicher zutreffend.",
+   "figs": [
+    {
+     "id": "v-ari",
+     "title": "Vitamin D und Atemwegsinfekte: Verlauf 2021 → 2025",
+     "cap": "Odds Ratio mit 95-%-KI; Werte unter 1 = weniger Infekte (Jolliffe et al., 2021; Jolliffe et al., 2025).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Mindestens ein Atemwegsinfekt (2021)",
+       "sub": "Jolliffe et al., 2021",
+       "es": 0.92,
+       "lo": 0.86,
+       "hi": 0.99
+      },
+      {
+       "l": "Mindestens ein Atemwegsinfekt (2025)",
+       "sub": "Jolliffe et al., 2025",
+       "es": 0.94,
+       "lo": 0.88,
+       "hi": 1.0
+      },
+      {
+       "l": "Schwere Nebenwirkungen",
+       "sub": "Jolliffe et al., 2025",
+       "es": 0.96,
+       "lo": 0.9,
+       "hi": 1.04
+      }
+     ],
+     "opts": {
+      "min": 0.8,
+      "max": 1.1,
+      "ticks": [
+       0.85,
+       0.9,
+       0.95,
+       1,
+       1.05
+      ],
+      "unit": "OR",
+      "ref": 1
+     }
+    }
+   ],
+   "s": [
+    "bolland2018",
+    "jolliffe2025",
+    "jolliffe2021"
+   ]
+  },
+  {
+   "id": "k2",
+   "name": "Vitamin K2",
+   "q": "Was ist zu Vitamin K2 belegt?",
+   "ev": "niedrig",
+   "key": [
+    "16 Studien mit 6 425 Frauen nach der Menopause: K2 verbesserte die Knochendichte der Lendenwirbelsäule; die Bruchhäufigkeit unterschied sich insgesamt nicht (RR 0,96) (Ma et al., 2022).",
+    "14 Studien mit 1 533 Patienten: Vitamin K verlangsamte das Fortschreiten der Koronarverkalkung (MD −17,4 [−34,2; −0,6]) ohne mehr Nebenwirkungen (Li et al., 2023).",
+    "Zur Kombination von D3 und K2 bei gesunden Sportlern wurde in PubMed keine Metaanalyse gefunden.",
+    "9 Studien mit 2 570 Frauen mit Osteoporose nach der Menopause: K2 erhöhte Osteocalcin (MD 1,86 [1,17; 2,56]) und knochenspezifische alkalische Phosphatase und senkte untercarboxyliertes Osteocalcin (MD −1,54 [−2,44; −0,64]); ob dies die Knochendichte erhöht, ist offen (Zhang et al., 2025).",
+    "17 Studien: Vitamin K veränderte Körpermaße, CRP, Blutzucker und Blutfette nicht; nur die Insulinresistenz (HOMA-IR) sank geringfügig (WMD −0,24 [−0,49; −0,02]), stärker mit K2 als mit K1 (Zhao et al., 2024)."
+   ],
+   "critic": "Die Belege stammen aus Risikogruppen (Osteoporose, Gefäßverkalkung, teils Nierenerkrankung). Effekte auf Knochenmarker sind konsistent, übertragen sich aber nicht sicher in weniger Brüche (Ma et al., 2022). Auf klassische Herz-Kreislauf-Risikofaktoren wirkt Vitamin K kaum (Zhao et al., 2024). Die verbreitete Empfehlung, Vitamin D stets mit K2 zu kombinieren, ist für Gesunde nicht durch Studien gestützt.",
+   "figs": [],
+   "s": [
+    "ma2022",
+    "li2023",
+    "zhang2025",
+    "zhao2024"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2014,
+   "t": "Kleiner Krafteffekt, vor allem bei Älteren",
+   "p": "Positiver Gesamteffekt, getragen von Älteren und Personen mit starkem Mangel.",
+   "tag": "neu",
+   "s": "beaudart2014"
+  },
+  {
+   "y": 2015,
+   "t": "Mangel bei Sportlern verbreitet",
+   "p": "56 % unzureichend versorgt.",
+   "tag": "neu",
+   "s": "farrokhyar2015"
+  },
+  {
+   "y": 2015,
+   "t": "Früher positiver Befund bei Jüngeren",
+   "p": "Kleine Analyse fand mehr Kraft; spätere Analysen bei Sportlern bestätigten das nicht.",
+   "tag": "neu",
+   "s": "tomlinson2015"
+  },
+  {
+   "y": 2017,
+   "t": "Spiegel steigen, Leistung nicht",
+   "p": "Supplementierung behob den Mangel, ohne die Leistung zu verbessern.",
+   "tag": "conf",
+   "s": "farrokhyar2017"
+  },
+  {
+   "y": 2018,
+   "t": "Kein Knochenschutz",
+   "p": "Keine Prävention von Brüchen und Stürzen.",
+   "tag": "neu",
+   "s": "bolland2018"
+  },
+  {
+   "y": 2019,
+   "t": "Sportler: Kraft insgesamt unverändert",
+   "p": "Nur Unterkörperkraft verbessert.",
+   "tag": "neu",
+   "s": "zhang2019"
+  },
+  {
+   "y": 2019,
+   "t": "Sportler: keine Kraftsteigerung",
+   "p": "Kein signifikanter Krafteffekt; Effektgrößen später als fehlerhaft berechnet korrigiert.",
+   "tag": "conf",
+   "s": "han2019"
+  },
+  {
+   "y": 2021,
+   "t": "Kein Nutzen für Muskelgesundheit",
+   "p": "Auch bei niedrigen Ausgangsspiegeln kein Effekt.",
+   "tag": "conf",
+   "s": "bislev2021"
+  },
+  {
+   "y": 2021,
+   "t": "Regeneration nicht belegt",
+   "p": "Kein nachweisbarer Effekt auf Muskelschadensmarker nach Belastung.",
+   "tag": "neu",
+   "s": "bello2021"
+  },
+  {
+   "y": 2021,
+   "t": "Kleiner Infektschutz",
+   "p": "Kleiner Schutz vor Atemwegsinfekten (OR 0,92); mit mehr Daten 2025 nicht mehr gesichert.",
+   "tag": "neu",
+   "s": "jolliffe2021"
+  },
+  {
+   "y": 2022,
+   "t": "K2 und Knochendichte",
+   "p": "Bessere Lendenwirbel-Knochendichte bei Osteoporose-Risiko.",
+   "tag": "neu",
+   "s": "ma2022"
+  },
+  {
+   "y": 2022,
+   "t": "Individualdaten: kein Muskelnutzen",
+   "p": "Auch bei unzureichendem Ausgangsspiegel kein Effekt auf Kraft oder Funktion.",
+   "tag": "conf",
+   "s": "bislev2022"
+  },
+  {
+   "y": 2023,
+   "t": "Vitamin K und Gefäßverkalkung",
+   "p": "Verlangsamte Koronarverkalkung.",
+   "tag": "neu",
+   "s": "li2023"
+  },
+  {
+   "y": 2023,
+   "t": "Trainingsort weniger wichtig als gedacht",
+   "p": "Unterschied Halle vs. Freiluft klein; Jahreszeit und Breitengrad entscheidender.",
+   "tag": "rel",
+   "s": "barsan2023"
+  },
+  {
+   "y": 2024,
+   "t": "Positive Befunde durch Analysefehler",
+   "p": "Korrigierte Reanalyse ohne signifikanten Effekt.",
+   "tag": "contra",
+   "s": "trexler2024"
+  },
+  {
+   "y": 2024,
+   "t": "Kaum Effekte auf Herz-Kreislauf-Risikofaktoren",
+   "p": "Nur geringe Senkung der Insulinresistenz, keine anderen Effekte.",
+   "tag": "neu",
+   "s": "zhao2024"
+  },
+  {
+   "y": 2025,
+   "t": "Infektschutz nicht mehr gesichert",
+   "p": "Mehr Daten, Intervall schließt 1 ein.",
+   "tag": "rel",
+   "s": "jolliffe2025"
+  },
+  {
+   "y": 2025,
+   "t": "K2 verändert Knochenmarker",
+   "p": "Günstige Knochenumbaumarker bei Frauen mit Osteoporose nach der Menopause, klinischer Nutzen offen.",
+   "tag": "conf",
+   "s": "zhang2025"
+  },
+  {
+   "y": 2026,
+   "t": "Fußball: keine Leistungseffekte",
+   "p": "Höhere Spiegel, aber keine besseren Leistungen.",
+   "tag": "conf",
+   "s": "gu2026"
+  },
+  {
+   "y": 2026,
+   "t": "Kein Zusatznutzen zum Training",
+   "p": "Vitamin D plus Training war für Körperzusammensetzung und Kraft insgesamt nicht besser als Training allein.",
+   "tag": "conf",
+   "s": "kazeminasab2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 11 geprüft, 11 aufgenommen, 0 ausgeschlossen. Ältere positive Kraftbefunde (Beaudart et al., 2014; Tomlinson et al., 2015) als Verlauf ergänzt und durch neuere Analysen bei Sportlern relativiert (neue Verlaufsabbildung); neuer Abschnitt Regeneration (Evidenz niedrig); Jolliffe et al. (2021) als früherer, 2025 relativierter Befund zu Atemwegsinfekten eingeordnet; Hallen- vs. Freiluftsport relativiert; Dosisangaben zum Status; zwei K2-/Vitamin-K-Analysen ergänzt."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 580 Einträgen, Gesundheits- und K2-Metaanalysen gezielt ergänzt; 9 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "farrokhyar2015": {
+   "short": "Farrokhyar et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25277808",
+   "apa": "Farrokhyar, F., Tabasinejad, R., Dao, D., Peterson, D., Ayeni, O. R., Hadioonzadeh, R. &amp; Bhandari, M. (2015). Prevalence of vitamin D inadequacy in athletes: A systematic-review and meta-analysis. <em>Sports Medicine, 45</em>(3), 365–378.",
+   "doi": "10.1007/s40279-014-0267-6"
+  },
+  "zhang2019": {
+   "short": "Zhang et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31039170",
+   "apa": "Zhang, L., Quan, M. &amp; Cao, Z. B. (2019). Effect of vitamin D supplementation on upper and lower limb muscle strength and muscle power in athletes: A meta-analysis. <em>PLOS ONE, 14</em>(4), Artikel e0215826.",
+   "doi": "10.1371/journal.pone.0215826"
+  },
+  "trexler2024": {
+   "short": "Trexler, 2024",
+   "year": 2024,
+   "type": "Methodische Reanalyse",
+   "basis": "Abstract",
+   "pmid": "39373459",
+   "apa": "Trexler, E. T. (2024). Inflated effect estimates for vitamin D supplementation are driven by common meta-analytical errors. <em>Journal of the International Society of Sports Nutrition, 21</em>(1), Artikel 2413668.",
+   "doi": "10.1080/15502783.2024.2413668"
+  },
+  "gu2026": {
+   "short": "Gu et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42993750",
+   "apa": "Gu, J., Zhang, Y. &amp; Xiao, L. (2026). Effects of vitamin D supplementation on vitamin D status and physical performance in football players: A systematic review and meta-analysis. <em>PLOS ONE, 21</em>(11), Artikel e0362552.",
+   "doi": "10.1371/journal.pone.0362552"
+  },
+  "bislev2021": {
+   "short": "Bislev et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34405916",
+   "apa": "Bislev, L. S., Grove-Laugesen, D. &amp; Rejnmark, L. (2021). Vitamin D and muscle health: A systematic review and meta-analysis of randomized placebo-controlled trials. <em>Journal of Bone and Mineral Research, 36</em>(9), 1651–1660.",
+   "doi": "10.1002/jbmr.4412"
+  },
+  "bolland2018": {
+   "short": "Bolland et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse mit Trial-Sequenzanalyse",
+   "basis": "Abstract",
+   "pmid": "30293909",
+   "apa": "Bolland, M. J., Grey, A. &amp; Avenell, A. (2018). Effects of vitamin D supplementation on musculoskeletal health: A systematic review, meta-analysis, and trial sequential analysis. <em>The Lancet Diabetes &amp; Endocrinology, 6</em>(11), 847–858.",
+   "doi": "10.1016/S2213-8587(18)30265-1"
+  },
+  "jolliffe2025": {
+   "short": "Jolliffe et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39993397",
+   "apa": "Jolliffe, D. A., Camargo, C. A., Sluyter, J. D., Aglipay, M., Aloia, J. F., Bergman, P., Bischoff-Ferrari, H. A., Borzutzky, A., Bubes, V. Y., Damsgaard, C. T., Ducharme, F. M., Dubnov-Raz, G., Esposito, S., Ganmaa, D., Gilham, C., Ginde, A. A., Golan-Tripto, I., Goodall, E. C., Grant, C. C., … Martineau, A. R. (2025). Vitamin D supplementation to prevent acute respiratory infections: Systematic review and meta-analysis of stratified aggregate data. <em>The Lancet Diabetes &amp; Endocrinology, 13</em>(4), 307–320.",
+   "doi": "10.1016/S2213-8587(24)00348-6"
+  },
+  "ma2022": {
+   "short": "Ma et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36033779",
+   "apa": "Ma, M. L., Ma, Z. J., He, Y. L., Sun, H., Yang, B., Ruan, B. J., Zhan, W. D., Li, S. X., Dong, H. &amp; Wang, Y. X. (2022). Efficacy of vitamin K2 in the prevention and treatment of postmenopausal osteoporosis: A systematic review and meta-analysis of randomized controlled trials. <em>Frontiers in Public Health, 10</em>, Artikel 979649.",
+   "doi": "10.3389/fpubh.2022.979649"
+  },
+  "li2023": {
+   "short": "Li et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37252246",
+   "apa": "Li, T., Wang, Y. &amp; Tu, W. P. (2023). Vitamin K supplementation and vascular calcification: A systematic review and meta-analysis of randomized controlled trials. <em>Frontiers in Nutrition, 10</em>, Artikel 1115069.",
+   "doi": "10.3389/fnut.2023.1115069"
+  },
+  "barsan2023": {
+   "short": "Bârsan et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37108748",
+   "apa": "Bârsan, M., Chelaru, V. F., Râjnoveanu, A. G., Popa, Ș. L., Socaciu, A. I. &amp; Bădulescu, A. V. (2023). Difference in levels of vitamin D between indoor and outdoor athletes: A systematic review and meta-analysis. <em>International Journal of Molecular Sciences, 24</em>(8), Artikel 7584.",
+   "doi": "10.3390/ijms24087584"
+  },
+  "beaudart2014": {
+   "short": "Beaudart et al., 2014",
+   "year": 2014,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25033068",
+   "apa": "Beaudart, C., Buckinx, F., Rabenda, V., Gillain, S., Cavalier, E., Slomian, J., Petermans, J., Reginster, J. Y. &amp; Bruyère, O. (2014). The effects of vitamin D on skeletal muscle strength, muscle mass, and muscle power: A systematic review and meta-analysis of randomized controlled trials. <em>The Journal of Clinical Endocrinology &amp; Metabolism, 99</em>(11), 4336–4345.",
+   "doi": "10.1210/jc.2014-1742"
+  },
+  "tomlinson2015": {
+   "short": "Tomlinson et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25156880",
+   "apa": "Tomlinson, P. B., Joseph, C. &amp; Angioi, M. (2015). Effects of vitamin D supplementation on upper and lower body muscle strength levels in healthy individuals. A systematic review with meta-analysis. <em>Journal of Science and Medicine in Sport, 18</em>(5), 575–580.",
+   "doi": "10.1016/j.jsams.2014.07.022"
+  },
+  "farrokhyar2017": {
+   "short": "Farrokhyar et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28577257",
+   "apa": "Farrokhyar, F., Sivakumar, G., Savage, K., Koziarz, A., Jamshidi, S., Ayeni, O. R., Peterson, D. &amp; Bhandari, M. (2017). Effects of vitamin D supplementation on serum 25-hydroxyvitamin D concentrations and physical performance in athletes: A systematic review and meta-analysis of randomized controlled trials. <em>Sports Medicine, 47</em>(11), 2323–2339.",
+   "doi": "10.1007/s40279-017-0749-4"
+  },
+  "han2019": {
+   "short": "Han et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31771586",
+   "apa": "Han, Q., Li, X., Tan, Q., Shao, J. &amp; Yi, M. (2019). Effects of vitamin D3 supplementation on serum 25(OH)D concentration and strength in athletes: A systematic review and meta-analysis of randomized controlled trials. <em>Journal of the International Society of Sports Nutrition, 16</em>(1), 55.",
+   "doi": "10.1186/s12970-019-0323-6"
+  },
+  "bislev2022": {
+   "short": "Bislev et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35018442",
+   "apa": "Bislev, L. S., Wamberg, L., Rolighed, L., Grove-Laugesen, D. &amp; Rejnmark, L. (2022). Effect of daily vitamin D3 supplementation on muscle health: An individual participant meta-analysis. <em>The Journal of Clinical Endocrinology &amp; Metabolism, 107</em>(5), 1317–1327.",
+   "doi": "10.1210/clinem/dgac004"
+  },
+  "kazeminasab2026": {
+   "short": "Kazeminasab et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41475020",
+   "apa": "Kazeminasab, F., Moein, A. R., Baharlooie, M., Moradi, S., Camera, D. M., Tinsley, G. M., Rosenkranz, S. K. &amp; Bagheri, R. (2026). Effects of vitamin D supplementation in combination with exercise training on body composition and muscular strength in adults: A systematic review and dose-response meta-analysis of randomized controlled trials. <em>Nutrition Reviews, 84</em>(12), 2489–2509.",
+   "doi": "10.1093/nutrit/nuaf264"
+  },
+  "bello2021": {
+   "short": "Bello et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34836268",
+   "apa": "Bello, H. J., Caballero-García, A., Pérez-Valdecantos, D., Roche, E., Noriega, D. C. &amp; Córdova-Martínez, A. (2021). Effects of vitamin D in post-exercise muscle recovery. A systematic review and meta-analysis. <em>Nutrients, 13</em>(11), Artikel 4013.",
+   "doi": "10.3390/nu13114013"
+  },
+  "jolliffe2021": {
+   "short": "Jolliffe et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33798465",
+   "apa": "Jolliffe, D. A., Camargo, C. A., Sluyter, J. D., Aglipay, M., Aloia, J. F., Ganmaa, D., Bergman, P., Bischoff-Ferrari, H. A., Borzutzky, A., Damsgaard, C. T., Dubnov-Raz, G., Esposito, S., Gilham, C., Ginde, A. A., Golan-Tripto, I., Goodall, E. C., Grant, C. C., Griffiths, C. J., Hibbs, A. M., … Martineau, A. R. (2021). Vitamin D supplementation to prevent acute respiratory infections: A systematic review and meta-analysis of aggregate data from randomised controlled trials. <em>The Lancet Diabetes &amp; Endocrinology, 9</em>(5), 276–292.",
+   "doi": "10.1016/S2213-8587(21)00051-6"
+  },
+  "zhang2025": {
+   "short": "Zhang et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41268154",
+   "apa": "Zhang, Z., Li, Y., Li, J., Yuan, Y., Liu, K. &amp; Shi, X. (2025). The effect of vitamin K2 supplementation on bone turnover biochemical markers in postmenopausal osteoporosis patients: A systematic review and meta-analysis. <em>Frontiers in Endocrinology, 16</em>, Artikel 1703116.",
+   "doi": "10.3389/fendo.2025.1703116"
+  },
+  "zhao2024": {
+   "short": "Zhao et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38282652",
+   "apa": "Zhao, Q. Y., Li, Q., Hasan Rashedi, M., Sohouli, M., Rohani, P. &amp; Velu, P. (2024). The effect of vitamin K supplementation on cardiovascular risk factors: A systematic review and meta-analysis. <em>Journal of Nutritional Science, 13</em>, e3.",
+   "doi": "10.1017/jns.2023.106"
+  }
+ }
+}

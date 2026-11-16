@@ -1,0 +1,920 @@
+{
+ "id": "regeneration",
+ "title": "Regeneration nach Krafttraining",
+ "stand": "2026-11-16",
+ "lead": "Was beschleunigt die Erholung nach einer schweren Krafteinheit, und was kann den Trainingseffekt sogar schmälern? Zusammengefasst aus Metaanalysen zu Belastungsgestaltung, Schlaf, Kälte, Massage, Kompression, Faszienrolle, Vibration, Protein und Nahrungsergänzung. Gemessen werden Kraftwiederherstellung, Muskelkater (DOMS) und Schädigungsmarker wie Kreatinkinase (CK).",
+ "rxlead": "Für Krafttrainierende. Die meisten Methoden verbessern vor allem das Empfinden (Muskelkater, Erschöpfung); auf die Kraftwiederherstellung wirken nur wenige deutlich. Erholung beginnt bei der Belastungsgestaltung selbst.",
+ "rx": [
+  {
+   "label": "Belastung",
+   "value": "nicht bis zum Versagen",
+   "text": "Versagenstraining verursacht deutlich mehr Ermüdung, Muskelschädigung und Anstrengung bei gleichem Kraftgewinn.",
+   "cite": "Vieira et al. 2022"
+  },
+  {
+   "label": "Schlaf",
+   "value": "kein Schlafentzug",
+   "text": "Akuter Schlafverlust senkte die Leistung im Mittel um 7,6 %, auch die Kraft.",
+   "cite": "Craven et al. 2022"
+  },
+  {
+   "label": "Protein",
+   "value": "rund um die Einheit",
+   "text": "Protein half, die Maximalkraft in den Tagen nach schädigendem Training zu erhalten; Muskelkater blieb unbeeinflusst.",
+   "cite": "Pearson et al. 2023"
+  },
+  {
+   "label": "Kälte",
+   "value": "nur gezielt einsetzen",
+   "text": "Kaltwasser lindert akut Muskelkater und hilft der Schnellkraft, schwächt aber bei regelmäßiger Anwendung nach Krafttraining den Kraftzuwachs.",
+   "cite": "Moore et al. 2022; Malta et al. 2021; Grgic 2023"
+  },
+  {
+   "label": "Kompression",
+   "value": "sinnvolle Option",
+   "text": "Kompressionskleidung beschleunigte die Kraftwiederherstellung, besonders nach Krafttraining und nach über 24 Stunden.",
+   "cite": "Brown et al. 2017"
+  },
+  {
+   "label": "Massage, Rolle",
+   "value": "für das Empfinden",
+   "text": "Massage linderte Muskelkater und Erschöpfung am stärksten; der Effekt auf die Kraft nach Krafttraining war klein.",
+   "cite": "Dupuy et al. 2018; Poppendieck et al. 2016"
+  },
+  {
+   "label": "Neue Übungen",
+   "value": "schrittweise steigern",
+   "text": "Eine leichte Vorbelastung ein bis mehrere Tage vor einer harten, ungewohnten Einheit verringert Muskelkater und Kraftverlust.",
+   "cite": "Boyd et al. 2023"
+  },
+  {
+   "label": "Supplemente",
+   "value": "verzichtbar",
+   "text": "BCAA und Omega-3 beeinflussen Muskelkater kaum relevant und die Kraftwiederherstellung nicht; ausreichend Protein genügt.",
+   "cite": "Khemtong et al. 2021; Lv et al. 2020"
+  }
+ ],
+ "note": "<b>Ernährung:</b> Protein ist hier aufgeführt, weil es direkt zur Erholung nach Krafttraining untersucht wurde; Details zur Menge siehe Thema Protein.",
+ "varstitle": "Methoden im Detail",
+ "takeaways": [
+  {
+   "t": "Weniger Ermüdung erzeugen ist die wirksamste Regeneration",
+   "ev": "hoch",
+   "p": "Training bis zum Versagen verursacht deutlich mehr Ermüdung und Muskelschädigung, ohne mehr Kraft zu bringen.",
+   "s": [
+    "vieira2022"
+   ]
+  },
+  {
+   "t": "Schlafverlust kostet Leistung",
+   "ev": "hoch",
+   "p": "Akuter Schlafverlust verschlechterte die Leistung in allen Kategorien, auch die Kraft, im Mittel um 7,6 %.",
+   "s": [
+    "craven2022"
+   ]
+  },
+  {
+   "t": "Kälte: Linderung mit Nebenwirkung",
+   "ev": "moderat",
+   "p": "Kaltwasser lindert akut Muskelkater und verbessert die Schnellkraft nach 24 h, nicht aber die Kraft. Regelmäßig nach Krafttraining angewendet, schwächt es den Kraftzuwachs.",
+   "s": [
+    "moore2022",
+    "malta2021",
+    "grgic2023",
+    "batista2023"
+   ]
+  },
+  {
+   "t": "Kompression hilft der Kraftwiederherstellung",
+   "ev": "moderat",
+   "p": "Kompressionskleidung zeigte die größten Effekte auf die Kraftwiederherstellung nach Krafttraining.",
+   "s": [
+    "brown2017"
+   ]
+  },
+  {
+   "t": "Massage und Rolle vor allem fürs Empfinden",
+   "ev": "moderat",
+   "p": "Massage ist am wirksamsten gegen Muskelkater und Erschöpfung, die Faszienrolle verbessert die Beweglichkeit; Kraft wird kaum beeinflusst.",
+   "s": [
+    "dupuy2018",
+    "poppendieck2016",
+    "skinner2020"
+   ]
+  },
+  {
+   "t": "Protein unterstützt die Kraftwiederherstellung",
+   "ev": "moderat",
+   "p": "Protein rund um das Training half, die Maximalkraft in den Folgetagen zu erhalten.",
+   "s": [
+    "pearson2023",
+    "davies2018"
+   ]
+  },
+  {
+   "t": "BCAA und Omega-3 bringen wenig",
+   "ev": "niedrig",
+   "p": "Beide verringern Marker oder Muskelkater nur kurz bzw. unterhalb der Relevanzschwelle und verbessern die Kraft nicht.",
+   "s": [
+    "khemtong2021",
+    "lv2020"
+   ]
+  },
+  {
+   "t": "Neue Reize schrittweise einführen",
+   "ev": "moderat",
+   "p": "Eine leichte Vorbelastung mindestens einen Tag vorher verringerte Schäden und Muskelkater nach der folgenden harten Einheit deutlich.",
+   "s": [
+    "boyd2023"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "belastung",
+   "name": "Belastungsgestaltung",
+   "q": "Wie viel Erholung braucht eine Einheit?",
+   "ev": "hoch",
+   "key": [
+    "Training bis zum Versagen verschlechterte die mechanischen Leistungswerte stärker als Training ohne Versagen (SMD −0,96 [−1,43; −0,49]) und erhöhte Laktat, Muskelschädigung (SMD 0,76 [0,31; 1,21]) und empfundene Anstrengung (SMD 1,93) (Vieira et al., 2022).",
+    "23 Studien mit Untrainierten: Eine einzelne leichte exzentrische oder isometrische Vorbelastung mindestens 24 h vor einer schädigenden Einheit senkte danach CK (SMD −1,64 bis −3,52) und Muskelkater (SMD −1,89 bis −3,30) und ließ die Maximalkraft schneller zurückkehren (SMD 1,46 bis 2,16, jeweils 24–96 h) (Boyd et al., 2023)."
+   ],
+   "critic": "Klarer, großer Effekt aus 12 Studien zur Versagensfrage (Vieira et al., 2022). Zusammen mit den Befunden auf der Seite Maximalkrafttraining (kein Kraftvorteil durch Versagen) ergibt sich: Abstand zum Versagen ist die einfachste Maßnahme, um schneller wieder leistungsfähig zu sein. Die Vorbelastungsbefunde (Boyd et al., 2023) beruhen auf Untrainierten und ungewohnten exzentrischen Reizen; die sehr großen Effektstärken sind wahrscheinlich überschätzt. Die Richtung ist aber plausibel (Wiederholungseffekt): Neue Übungen und Belastungen sollten schrittweise eingeführt werden.",
+   "figs": [
+    {
+     "id": "r-fail",
+     "title": "Versagen vs. kein Versagen: akute Ermüdung",
+     "cap": "SMD mit 95-%-KI (Vieira et al., 2022). Negative Werte = stärkerer Leistungsabfall, positive = mehr Schädigung bzw. Anstrengung bei Training bis zum Versagen.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Mechanische Leistung",
+       "sub": "Vieira et al., 2022",
+       "es": -0.96,
+       "lo": -1.43,
+       "hi": -0.49
+      },
+      {
+       "l": "Muskelschädigung",
+       "sub": "Vieira et al., 2022",
+       "es": 0.76,
+       "lo": 0.31,
+       "hi": 1.21
+      },
+      {
+       "l": "Empfundene Anstrengung",
+       "sub": "Vieira et al., 2022",
+       "es": 1.93,
+       "lo": 0.87,
+       "hi": 3.0
+      }
+     ],
+     "opts": {
+      "min": -1.6,
+      "max": 3.2,
+      "ticks": [
+       -1,
+       0,
+       1,
+       2,
+       3
+      ]
+     }
+    }
+   ],
+   "s": [
+    "vieira2022",
+    "boyd2023"
+   ]
+  },
+  {
+   "id": "schlaf",
+   "name": "Schlaf",
+   "q": "Wie stark wirkt Schlafverlust?",
+   "ev": "hoch",
+   "key": [
+    "69 Publikationen: akuter Schlafverlust senkte die Leistung um 7,6 % [−11,9; −3,1], mit signifikanten Effekten in allen Kategorien einschließlich Kraft (Craven et al., 2022).",
+    "Vor allem vollständiger Schlafentzug und verkürzter Schlaf am Morgen (spätes Aufstehen verhindert) wirkten sich negativ aus (Craven et al., 2022)."
+   ],
+   "critic": "Robust über viele Studien, aber fast nur Männer (89 %) und akuter Schlafverlust. Ob zusätzlicher Schlaf über das normale Maß hinaus die Erholung nach Krafttraining beschleunigt, ist damit nicht belegt.",
+   "figs": [
+    {
+     "id": "r-sleep",
+     "title": "Leistungsabfall durch akuten Schlafverlust",
+     "cap": "Mittlere prozentuale Veränderung der Leistung mit 95-%-KI (Craven et al., 2022).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Leistungsbereiche",
+       "sub": "Craven et al., 2022",
+       "es": -7.56,
+       "lo": -11.9,
+       "hi": -3.13
+      }
+     ],
+     "opts": {
+      "min": -14,
+      "max": 2,
+      "ticks": [
+       -12,
+       -8,
+       -4,
+       0
+      ],
+      "unit": "%"
+     }
+    }
+   ],
+   "s": [
+    "craven2022"
+   ]
+  },
+  {
+   "id": "kaelte",
+   "name": "Kälte und Wasseranwendungen",
+   "q": "Hilft Kaltwasser, und schadet es dem Trainingseffekt?",
+   "ev": "moderat",
+   "key": [
+    "Kaltwasser nach Krafttraining schwächte den Kraftzuwachs bei lokaler Anwendung (ES −0,31 [−0,61; −0,01]), nicht bei Ganzkörper-Anwendung (ES −0,08 [−0,53; 0,38]) (Grgic, 2023).",
+    "Kaltwasser linderte Muskelkater gegenüber Kontrolle unabhängig von der Wassertemperatur, sofern die Anwendung kurz oder mittellang war (Batista et al., 2023).",
+    "Kaltwasser verbesserte nach Krafttraining die Erholung der Sprintleistung und senkte Schädigungsmarker (Choo et al., 2022).",
+    "Netzwerk-Metaanalyse mit 57 Studien: Kryotherapie wirkte am besten gegen Muskelkater und für die Sprungkraft, Wechselbäder am besten für die CK (Chen et al., 2024).",
+    "52 Studien, akut: Kaltwasser verbesserte gegenüber passiver Erholung nach 24 h die Schnellkraft nach exzentrischer (SMD 0,34 [0,06; 0,62]) und nach hochintensiver Belastung (SMD 0,22 [0,004; 0,43]), linderte dort Muskelkater (SMD −0,89 [−1,48; −0,29]) und verbesserte das Erholungsgefühl (SMD 0,66 [0,29; 1,03]); auf die Wiederherstellung der Kraft wirkte es nicht. Kürzere und kältere Anwendungen wirkten am besten (Moore et al., 2022).",
+    "Regelmäßiges Kaltwasser (≤ 15 °C) begleitend zum Krafttraining verringerte die Zuwächse bei Maximalkraft und Kraftausdauer (SMD −0,60 [−0,87; −0,33]) und bei ballistischer Leistung (SMD −0,61 [−1,11; −0,11]); auf Ausdaueranpassungen hatte es keinen Einfluss (Malta et al., 2021)."
+   ],
+   "critic": "Akute Erholung und langfristige Anpassung zeigen in verschiedene Richtungen, und das ist inzwischen von mehreren Analysen gestützt: Akut verbessert Kaltwasser vor allem Empfinden und Schnellkraft, kaum die Kraft (Moore et al., 2022); regelmäßig nach Krafttraining angewendet, schwächt es den Kraftzuwachs (Malta et al., 2021; Grgic, 2023). Die Analyse von Malta et al. beruht nur auf 8 Arbeiten, passt aber in der Richtung zu Grgic. Wahrscheinlich: Kälte ist sinnvoll, wenn kurzfristig wieder Leistung gebraucht wird (Wettkampf, zwei Einheiten pro Tag), aber nicht als Routine nach jeder Krafteinheit, wenn Kraft- oder Muskelzuwachs das Ziel ist. Ausdauertraining wird nicht beeinträchtigt.",
+   "figs": [
+    {
+     "id": "r-cwi",
+     "title": "Regelmäßiges Kaltwasser und Kraftzuwachs",
+     "cap": "Effektstärke mit 95-%-KI (Grgic, 2023; Malta et al., 2021). Negative Werte = geringerer Kraftzuwachs mit Kaltwasser.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Lokal, trainierte Gliedmaßen",
+       "sub": "Grgic, 2023",
+       "es": -0.31,
+       "lo": -0.61,
+       "hi": -0.01
+      },
+      {
+       "l": "Ganzkörper",
+       "sub": "Grgic, 2023",
+       "es": -0.08,
+       "lo": -0.53,
+       "hi": 0.38
+      },
+      {
+       "l": "Regelmäßig, Kraft gesamt",
+       "sub": "Malta et al., 2021",
+       "es": -0.6,
+       "lo": -0.87,
+       "hi": -0.33
+      },
+      {
+       "l": "Regelmäßig, ballistische Leistung",
+       "sub": "Malta et al., 2021",
+       "es": -0.61,
+       "lo": -1.11,
+       "hi": -0.11
+      }
+     ],
+     "opts": {
+      "min": -1.2,
+      "max": 0.5,
+      "ticks": [
+       -1.2,
+       -0.9,
+       -0.6,
+       -0.3,
+       0,
+       0.3
+      ],
+      "leftLab": "weniger Zuwachs",
+      "rightLab": "mehr Zuwachs"
+     }
+    },
+    {
+     "id": "r-cwi-akut",
+     "title": "Kaltwasser akut: Erholung nach 24 h",
+     "cap": "SMD mit 95-%-KI gegenüber passiver Erholung (Moore et al., 2022). Beim Muskelkater ist das Vorzeichen umgedreht, damit rechts von 0 immer „bessere Erholung“ bedeutet (Original: −0,89 [−1,48; −0,29]).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Schnellkraft nach exzentrischer Belastung",
+       "sub": "Moore et al., 2022",
+       "es": 0.34,
+       "lo": 0.06,
+       "hi": 0.62
+      },
+      {
+       "l": "Schnellkraft nach hochintensiver Belastung",
+       "sub": "Moore et al., 2022",
+       "es": 0.22,
+       "lo": 0.004,
+       "hi": 0.43
+      },
+      {
+       "l": "Weniger Muskelkater (hochintensiv)",
+       "sub": "Moore et al., 2022",
+       "es": 0.89,
+       "lo": 0.29,
+       "hi": 1.48
+      },
+      {
+       "l": "Erholungsgefühl (hochintensiv)",
+       "sub": "Moore et al., 2022",
+       "es": 0.66,
+       "lo": 0.29,
+       "hi": 1.03
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.6,
+      "ticks": [
+       0,
+       0.4,
+       0.8,
+       1.2,
+       1.6
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "bessere Erholung"
+     }
+    }
+   ],
+   "s": [
+    "grgic2023",
+    "batista2023",
+    "choo2022",
+    "chen2024",
+    "moore2022",
+    "malta2021"
+   ]
+  },
+  {
+   "id": "passiv",
+   "name": "Massage, Kompression, Faszienrolle, Vibration",
+   "q": "Was bringen passive Methoden?",
+   "ev": "moderat",
+   "key": [
+    "Massage war die wirksamste Methode gegen Muskelkater und Erschöpfung; Massage und Kälte senkten Entzündungsmarker am stärksten (Dupuy et al., 2018).",
+    "Nach Krafttraining verbesserte Massage die Leistungserholung nur wenig (+3,9 %, g 0,18), nach gemischter hochintensiver Belastung deutlicher (g 0,61) (Poppendieck et al., 2016).",
+    "Kompressionskleidung: kleine Gesamteffekte (ES 0,38 [0,25; 0,51]), größere für die Kraftwiederherstellung (ES 0,62 [0,39; 0,84]) und nach Krafttraining (ES 0,49 [0,37; 0,61]) (Brown et al., 2017).",
+    "Faszienrolle: großer Effekt auf die Beweglichkeit (d 0,76), keine nachteiligen Effekte auf Leistung, direkter Leistungsnutzen nicht belegt (Skinner et al., 2020); Vibrationsrolle ohne gesicherten Effekt auf isokinetische Kraft (SMD 0,16 [−0,04; 0,37]) (Alonso-Calvete et al., 2022).",
+    "Vibrationstraining nach schädigender Belastung linderte den Muskelkater, erhöhte die Schmerzschwelle und senkte CK und LDH schneller als Kontrollmaßnahmen; der Effekt auf die Beweglichkeit war unklar (Yin et al., 2022).",
+    "6 kleine Studien (180 Personen): Vibration vor ungewohnter exzentrischer Belastung verringerte Muskelkater nach 24 und 48 h sowie CK und LDH; die methodische Qualität war niedrig bis mäßig (Tan et al., 2022)."
+   ],
+   "critic": "Die Effekte auf Empfinden sind konsistent, auf messbare Kraft klein. Kompression ist die Ausnahme mit deutlicher Kraftwirkung; die Studien dazu sind aber älter und oft klein. Für Vibration liegen nur Effekte auf Muskelkater und Blutmarker aus kleinen Studien niedriger Qualität vor, Kraftdaten fehlen in den Abstracts. Verblindung ist bei diesen Methoden kaum möglich, Erwartungseffekte sind wahrscheinlich.",
+   "figs": [
+    {
+     "id": "r-passiv",
+     "title": "Passive Methoden: Effekt auf die Erholung",
+     "cap": "Effektstärke; Werte rechts von 0 = bessere Erholung. 95-%-KI wo angegeben; für Poppendieck et al. kein Intervall im Abstract.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kompression, nach Krafttraining",
+       "sub": "Brown et al., 2017",
+       "es": 0.49,
+       "lo": 0.37,
+       "hi": 0.61
+      },
+      {
+       "l": "Kompression, Kraftwiederherstellung",
+       "sub": "Brown et al., 2017",
+       "es": 0.62,
+       "lo": 0.39,
+       "hi": 0.84
+      },
+      {
+       "l": "Massage, nach Krafttraining",
+       "sub": "Poppendieck et al., 2016",
+       "es": 0.18
+      },
+      {
+       "l": "Vibrationsrolle, isokinetische Kraft",
+       "sub": "Alonso-Calvete et al., 2022",
+       "es": 0.16,
+       "lo": -0.04,
+       "hi": 0.37
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.0,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "bessere Erholung"
+     }
+    }
+   ],
+   "s": [
+    "dupuy2018",
+    "poppendieck2016",
+    "brown2017",
+    "skinner2020",
+    "alonso2022",
+    "yin2022",
+    "tan2022"
+   ]
+  },
+  {
+   "id": "protein",
+   "name": "Protein zur Erholung",
+   "q": "Beschleunigt Protein die Erholung?",
+   "ev": "moderat",
+   "key": [
+    "Protein erhielt die isometrische Maximalkraft nach 96 h (0,56 [0,23; 0,89]) und die isokinetische nach 24 bis 72 h besser als Kontrolle; CK nach 72 h deutlich niedriger; Muskelkater unverändert (Pearson et al., 2023).",
+    "13 randomisierte Studien mit jungen, gesunden Erwachsenen: Molkenprotein beschleunigte die Wiederherstellung der Muskelfunktion nach Krafttraining mit kleinen bis mittleren Effekten von unter 24 bis 96 h (ES 0,4 bis 0,7) (Davies et al., 2018)."
+   ],
+   "critic": "Zwei unabhängige Analysen (Davies et al., 2018; Pearson et al., 2023) finden übereinstimmend kleine bis mittlere Effekte auf die Kraftwiederherstellung, nicht auf den Muskelkater. Es sind viele kleine Studien mit unterschiedlichen Proteinmengen. In Studien mit ohnehin hoher Proteinzufuhr ist der Zusatznutzen vermutlich kleiner.",
+   "figs": [
+    {
+     "id": "r-prot",
+     "title": "Protein: Erhalt der Maximalkraft nach schädigendem Training",
+     "cap": "Effektstärke mit 95-%-KI zugunsten Protein (Pearson et al., 2023).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Isokinetische Kraft nach 24 h",
+       "sub": "Pearson et al., 2023",
+       "es": 0.639,
+       "lo": 0.116,
+       "hi": 1.162
+      },
+      {
+       "l": "Isokinetische Kraft nach 48 h",
+       "sub": "Pearson et al., 2023",
+       "es": 0.447,
+       "lo": 0.104,
+       "hi": 0.79
+      },
+      {
+       "l": "Isokinetische Kraft nach 72 h",
+       "sub": "Pearson et al., 2023",
+       "es": 0.569,
+       "lo": 0.136,
+       "hi": 1.002
+      },
+      {
+       "l": "Isometrische Kraft nach 96 h",
+       "sub": "Pearson et al., 2023",
+       "es": 0.563,
+       "lo": 0.232,
+       "hi": 0.894
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.3,
+      "ticks": [
+       0,
+       0.4,
+       0.8,
+       1.2
+      ]
+     }
+    }
+   ],
+   "s": [
+    "pearson2023",
+    "davies2018"
+   ]
+  },
+  {
+   "id": "supplemente",
+   "name": "Nahrungsergänzung",
+   "q": "Helfen BCAA oder Omega-3 bei der Erholung?",
+   "ev": "niedrig",
+   "key": [
+    "9 Studien mit trainierten Männern: BCAA senkten nach Krafttraining die CK bis 48 h und den Muskelkater nur unter 24 h; auf LDH wirkten sie nicht (Khemtong et al., 2021).",
+    "12 Studien: Omega-3-Fettsäuren verringerten den Muskelkater nach exzentrischer Belastung (−0,93 [−1,44; −0,42] Punkte auf einer 10er-Skala), unterhalb der klinisch relevanten Schwelle von 1,4; Kraft und Beweglichkeit blieben unbeeinflusst (Lv et al., 2020)."
+   ],
+   "critic": "Beide Analysen finden Effekte auf Blutmarker oder Muskelkater, aber nicht auf die Kraft. Der Omega-3-Effekt liegt unter der klinisch relevanten Schwelle; die BCAA-Effekte sind kurzlebig. Zudem fehlt der Vergleich mit ausreichender Gesamtproteinzufuhr, die BCAA ohnehin enthält. Für die Erholung nach Krafttraining sind diese Supplemente daher nach derzeitigem Stand verzichtbar.",
+   "figs": [
+    {
+     "id": "r-o3",
+     "title": "Omega-3 und Muskelkater",
+     "cap": "Mittlere Differenz auf einer 10-Punkte-Skala mit 95-%-KI (Lv et al., 2020). Die klinisch relevante Schwelle liegt bei −1,4 Punkten; der Effekt bleibt darunter.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Muskelkater nach 48 h",
+       "sub": "Lv et al., 2020",
+       "es": -0.93,
+       "lo": -1.44,
+       "hi": -0.42
+      }
+     ],
+     "opts": {
+      "min": -1.6,
+      "max": 0.5,
+      "ticks": [
+       -2,
+       -1.5,
+       -1,
+       -0.5,
+       0
+      ],
+      "leftLab": "weniger Muskelkater",
+      "rightLab": "mehr Muskelkater"
+     }
+    }
+   ],
+   "s": [
+    "khemtong2021",
+    "lv2020"
+   ]
+  },
+  {
+   "id": "personen",
+   "name": "Alter und Geschlecht",
+   "q": "Erholen sich Ältere oder Frauen anders?",
+   "ev": "moderat",
+   "key": [
+    "36 Studien: Ältere verloren nach schädigender Belastung nicht mehr Muskelfunktion als Jüngere (SMD −0,16 bis −0,35, nicht signifikant); Muskelkater (SMD −0,34 bis −0,62) und CK (SMD −0,32) waren bei Jüngeren sogar höher (Fernandes et al., 2025).",
+    "23 Studien: Nach maximaler exzentrischer Belastung unterschieden sich Frauen und Männer nicht im relativen Kraftverlust und im Muskelkater; Männer hatten höhere absolute CK-Werte, Frauen tendenziell einen größeren Kraftabfall unmittelbar nach der Belastung (Morawetz et al., 2020)."
+   ],
+   "critic": "Beide Analysen sprechen gegen pauschal längere Erholungszeiten für Ältere oder Frauen. Einschränkungen: Bei Morawetz et al. (2020) fast nur Untrainierte; bei Fernandes et al. (2025) sehr unterschiedliche Belastungsformen. CK ist ein grober Marker und eignet sich nicht zur Steuerung.",
+   "figs": [],
+   "s": [
+    "fernandes2025",
+    "morawetz2020"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2016,
+   "t": "Massage: kleiner Effekt nach Krafttraining",
+   "p": "Kurze Massage wirkt am besten, nach Krafttraining aber nur wenig.",
+   "tag": "neu",
+   "s": "poppendieck2016"
+  },
+  {
+   "y": 2017,
+   "t": "Kompression beschleunigt Kraftwiederherstellung",
+   "p": "Größte Effekte nach Krafttraining und nach über 24 h.",
+   "tag": "neu",
+   "s": "brown2017"
+  },
+  {
+   "y": 2018,
+   "t": "Vergleich der Erholungsmethoden",
+   "p": "Massage am wirksamsten gegen Muskelkater und Erschöpfung.",
+   "tag": "neu",
+   "s": "dupuy2018"
+  },
+  {
+   "y": 2020,
+   "t": "Faszienrolle",
+   "p": "Verbessert Beweglichkeit, kein Leistungsnachteil.",
+   "tag": "neu",
+   "s": "skinner2020"
+  },
+  {
+   "y": 2022,
+   "t": "Versagen kostet Erholung",
+   "p": "Training bis zum Versagen verursacht deutlich mehr Ermüdung und Schädigung.",
+   "tag": "neu",
+   "s": "vieira2022"
+  },
+  {
+   "y": 2022,
+   "t": "Schlafverlust senkt Leistung",
+   "p": "Im Mittel 7,6 % Leistungseinbuße, auch bei Kraft.",
+   "tag": "neu",
+   "s": "craven2022"
+  },
+  {
+   "y": 2022,
+   "t": "Kaltwasser: Erholung je nach Belastung",
+   "p": "Nach Krafttraining bessere Sprinterholung.",
+   "tag": "neu",
+   "s": "choo2022"
+  },
+  {
+   "y": 2022,
+   "t": "Vibrationsrolle ohne gesicherten Krafteffekt",
+   "p": "Keine signifikanten Effekte auf Sprung und Kraft.",
+   "tag": "conf",
+   "s": "alonso2022"
+  },
+  {
+   "y": 2023,
+   "t": "Kaltwasser schwächt Kraftzuwachs",
+   "p": "Lokal angewendet nach Krafttraining weniger Kraftgewinn.",
+   "tag": "rel",
+   "s": "grgic2023"
+  },
+  {
+   "y": 2023,
+   "t": "Kaltwasser gegen Muskelkater",
+   "p": "Wirksam unabhängig von der Temperatur.",
+   "tag": "conf",
+   "s": "batista2023"
+  },
+  {
+   "y": 2023,
+   "t": "Protein erhält Kraft nach Belastung",
+   "p": "Bessere Kraft in den Folgetagen, Muskelkater unverändert.",
+   "tag": "neu",
+   "s": "pearson2023"
+  },
+  {
+   "y": 2024,
+   "t": "Netzwerkvergleich Wasser und Kälte",
+   "p": "Kryotherapie am besten gegen Muskelkater, Wechselbäder für CK.",
+   "tag": "conf",
+   "s": "chen2024"
+  },
+  {
+   "y": 2023,
+   "t": "Vorbelastung schützt",
+   "p": "Eine leichte Vorbelastung verringert Schäden und Muskelkater nach der nächsten harten Einheit.",
+   "tag": "neu",
+   "s": "boyd2023"
+  },
+  {
+   "y": 2022,
+   "t": "Kaltwasser akut: Schnellkraft und Empfinden",
+   "p": "Bessere Schnellkraft und weniger Muskelkater nach 24 h, keine Wirkung auf die Kraft.",
+   "tag": "conf",
+   "s": "moore2022"
+  },
+  {
+   "y": 2021,
+   "t": "Regelmäßiges Kaltwasser bremst Kraftzuwachs",
+   "p": "Bestätigt: schadet Kraftanpassungen, nicht der Ausdauer.",
+   "tag": "conf",
+   "s": "malta2021"
+  },
+  {
+   "y": 2022,
+   "t": "Vibration gegen Muskelkater",
+   "p": "Weniger Schmerz, schnellerer Abfall der Schädigungsmarker.",
+   "tag": "neu",
+   "s": "yin2022"
+  },
+  {
+   "y": 2022,
+   "t": "Vibration vor der Belastung",
+   "p": "Kleine Studien: weniger Muskelkater und Schädigungsmarker.",
+   "tag": "conf",
+   "s": "tan2022"
+  },
+  {
+   "y": 2018,
+   "t": "Molkenprotein und Kraftwiederherstellung",
+   "p": "Frühe Analyse mit gleichgerichtetem Ergebnis.",
+   "tag": "conf",
+   "s": "davies2018"
+  },
+  {
+   "y": 2021,
+   "t": "BCAA: kleine Effekte auf Marker",
+   "p": "Kaum Wirkung über den ersten Tag hinaus.",
+   "tag": "neu",
+   "s": "khemtong2021"
+  },
+  {
+   "y": 2020,
+   "t": "Omega-3: Effekt nicht relevant",
+   "p": "Weniger Muskelkater, aber unter der Relevanzschwelle.",
+   "tag": "neu",
+   "s": "lv2020"
+  },
+  {
+   "y": 2025,
+   "t": "Ältere nicht stärker geschädigt",
+   "p": "Muskelschädigung nimmt mit dem Alter nicht zu.",
+   "tag": "neu",
+   "s": "fernandes2025"
+  },
+  {
+   "y": 2020,
+   "t": "Kein Geschlechtsunterschied bei der Erholung",
+   "p": "Relativer Kraftverlust und Muskelkater gleich.",
+   "tag": "neu",
+   "s": "morawetz2020"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "16.11.2026",
+   "t": "Vormerkungen ausgewertet: 10 geprüft, 10 aufgenommen, 0 ausgeschlossen. Kälte durch zwei Metaanalysen bestätigt und differenziert (akut Schnellkraft und Empfinden, regelmäßig Bremse für Kraftzuwachs); neue Abschnitte Nahrungsergänzung (BCAA, Omega-3) sowie Alter und Geschlecht; Vorbelastung und Vibration ergänzt; Protein bestätigt; zwei neue Kernsätze und Ableitungen."
+  },
+  {
+   "d": "16.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3 565 Einträgen, 12 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "vieira2022": {
+   "short": "Vieira et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34881412",
+   "apa": "Vieira, J. G., Sardeli, A. V., Dias, M. R., Filho, J. E., Campos, Y., Sant'Ana, L., Leitão, L., Reis, V., Wilk, M., Novaes, J. &amp; Vianna, J. (2022). Effects of resistance training to muscle failure on acute fatigue: A systematic review and meta-analysis. <em>Sports Medicine, 52</em>(5), 1103–1125.",
+   "doi": "10.1007/s40279-021-01602-x"
+  },
+  "craven2022": {
+   "short": "Craven et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35708888",
+   "apa": "Craven, J., McCartney, D., Desbrow, B., Sabapathy, S., Bellinger, P., Roberts, L. &amp; Irwin, C. (2022). Effects of acute sleep loss on physical performance: A systematic and meta-analytical review. <em>Sports Medicine, 52</em>(11), 2669–2690.",
+   "doi": "10.1007/s40279-022-01706-y"
+  },
+  "dupuy2018": {
+   "short": "Dupuy et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29755363",
+   "apa": "Dupuy, O., Douzi, W., Theurot, D., Bosquet, L. &amp; Dugué, B. (2018). An evidence-based approach for choosing post-exercise recovery techniques to reduce markers of muscle damage, soreness, fatigue, and inflammation: A systematic review with meta-analysis. <em>Frontiers in Physiology, 9</em>, Artikel 403.",
+   "doi": "10.3389/fphys.2018.00403"
+  },
+  "grgic2023": {
+   "short": "Grgic, 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35068365",
+   "apa": "Grgic, J. (2023). Effects of post-exercise cold-water immersion on resistance training-induced gains in muscular strength: A meta-analysis. <em>European Journal of Sport Science, 23</em>(3), 372–380.",
+   "doi": "10.1080/17461391.2022.2033851"
+  },
+  "choo2022": {
+   "short": "Choo et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36862831",
+   "apa": "Choo, H. C., Lee, M., Yeo, V., Poon, W. &amp; Ihsan, M. (2022). The effect of cold water immersion on the recovery of physical performance revisited: A systematic review with meta-analysis. <em>Journal of Sports Sciences, 40</em>(23), 2608–2638.",
+   "doi": "10.1080/02640414.2023.2178872"
+  },
+  "batista2023": {
+   "short": "Batista et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36399666",
+   "apa": "Batista, N. P., de Carvalho, F. A., Machado, A. F., Micheletti, J. K. &amp; Pastre, C. M. (2023). What parameters influence the effect of cold-water immersion on muscle soreness? An updated systematic review and meta-analysis. <em>Clinical Journal of Sport Medicine, 33</em>(1), 13–25.",
+   "doi": "10.1097/JSM.0000000000001081"
+  },
+  "chen2024": {
+   "short": "Chen et al., 2024",
+   "year": 2024,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39294614",
+   "apa": "Chen, R., Ma, X., Ma, X. &amp; Cui, C. (2024). The effects of hydrotherapy and cryotherapy on recovery from acute post-exercise induced muscle damage-a network meta-analysis. <em>BMC Musculoskeletal Disorders, 25</em>(1), Artikel 749.",
+   "doi": "10.1186/s12891-024-07315-2"
+  },
+  "poppendieck2016": {
+   "short": "Poppendieck et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26744335",
+   "apa": "Poppendieck, W., Wegmann, M., Ferrauti, A., Kellmann, M., Pfeiffer, M. &amp; Meyer, T. (2016). Massage and performance recovery: A meta-analytical review. <em>Sports Medicine, 46</em>(2), 183–204.",
+   "doi": "10.1007/s40279-015-0420-x"
+  },
+  "brown2017": {
+   "short": "Brown et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28434152",
+   "apa": "Brown, F., Gissane, C., Howatson, G., van Someren, K., Pedlar, C. &amp; Hill, J. (2017). Compression garments and recovery from exercise: A meta-analysis. <em>Sports Medicine, 47</em>(11), 2245–2267.",
+   "doi": "10.1007/s40279-017-0728-9"
+  },
+  "alonso2022": {
+   "short": "Alonso-Calvete et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35244802",
+   "apa": "Alonso-Calvete, A., Lorenzo-Martínez, M., Padrón-Cabo, A., Pérez-Ferreirós, A., Kalén, A., Abelairas-Gómez, C. &amp; Rey, E. (2022). Does vibration foam roller influence performance and recovery? A systematic review and meta-analysis. <em>Sports Medicine – Open, 8</em>(1), 32.",
+   "doi": "10.1186/s40798-022-00421-2"
+  },
+  "skinner2020": {
+   "short": "Skinner et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32825976",
+   "apa": "Skinner, B., Moss, R. &amp; Hammond, L. (2020). A systematic review and meta-analysis of the effects of foam rolling on range of motion, recovery and markers of athletic performance. <em>Journal of Bodywork and Movement Therapies, 24</em>(3), 105–122.",
+   "doi": "10.1016/j.jbmt.2020.01.007"
+  },
+  "pearson2023": {
+   "short": "Pearson et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36513777",
+   "apa": "Pearson, A. G., Hind, K. &amp; Macnaughton, L. S. (2023). The impact of dietary protein supplementation on recovery from resistance exercise-induced muscle damage: A systematic review with meta-analysis. <em>European Journal of Clinical Nutrition, 77</em>(8), 767–783.",
+   "doi": "10.1038/s41430-022-01250-y"
+  },
+  "boyd2023": {
+   "short": "Boyd et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37160563",
+   "apa": "Boyd, L., Deakin, G. B., Devantier-Thomas, B., Singh, U. &amp; Doma, K. (2023). The effects of pre-conditioning on exercise-induced muscle damage: A systematic review and meta-analysis. <em>Sports Medicine, 53</em>(8), 1537–1557.",
+   "doi": "10.1007/s40279-023-01839-8"
+  },
+  "moore2022": {
+   "short": "Moore et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35157264",
+   "apa": "Moore, E., Fuller, J. T., Buckley, J. D., Saunders, S., Halson, S. L., Broatch, J. R. &amp; Bellenger, C. R. (2022). Impact of cold-water immersion compared with passive recovery following a single bout of strenuous exercise on athletic performance in physically active participants: A systematic review with meta-analysis and meta-regression. <em>Sports Medicine, 52</em>(7), 1667–1688.",
+   "doi": "10.1007/s40279-022-01644-9"
+  },
+  "malta2021": {
+   "short": "Malta et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33146851",
+   "apa": "Malta, E. S., Dutra, Y. M., Broatch, J. R., Bishop, D. J. &amp; Zagatto, A. M. (2021). The effects of regular cold-water immersion use on training-induced changes in strength and endurance performance: A systematic review with meta-analysis. <em>Sports Medicine, 51</em>(1), 161–174.",
+   "doi": "10.1007/s40279-020-01362-0"
+  },
+  "yin2022": {
+   "short": "Yin et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36281110",
+   "apa": "Yin, Y., Wang, J., Duan, K., Cai, H. &amp; Sun, J. (2022). The effect of vibration training on delayed muscle soreness: A meta-analysis. <em>Medicine, 101</em>(42), Artikel e31259.",
+   "doi": "10.1097/MD.0000000000031259"
+  },
+  "tan2022": {
+   "short": "Tan et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32796411",
+   "apa": "Tan, J., Shi, X., Witchalls, J., Waddington, G., Lun Fu, A. C., Wu, S., Tirosh, O., Wu, X. &amp; Han, J. (2022). Effects of pre-exercise acute vibration training on symptoms of exercise-induced muscle damage: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 36</em>(8), 2339–2348.",
+   "doi": "10.1519/JSC.0000000000003789"
+  },
+  "davies2018": {
+   "short": "Davies et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29462923",
+   "apa": "Davies, R. W., Carson, B. P. &amp; Jakeman, P. M. (2018). The effect of whey protein supplementation on the temporal recovery of muscle function following resistance training: A systematic review and meta-analysis. <em>Nutrients, 10</em>(2), Artikel 221.",
+   "doi": "10.3390/nu10020221"
+  },
+  "khemtong2021": {
+   "short": "Khemtong et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34072718",
+   "apa": "Khemtong, C., Kuo, C. H., Chen, C. Y., Jaime, S. J. &amp; Condello, G. (2021). Does branched-chain amino acids (BCAAs) supplementation attenuate muscle damage markers and soreness after resistance exercise in trained males? A meta-analysis of randomized controlled trials. <em>Nutrients, 13</em>(6), Artikel 1880.",
+   "doi": "10.3390/nu13061880"
+  },
+  "lv2020": {
+   "short": "Lv et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32382573",
+   "apa": "Lv, Z. T., Zhang, J. M. &amp; Zhu, W. T. (2020). Omega-3 polyunsaturated fatty acid supplementation for reducing muscle soreness after eccentric exercise: A systematic review and meta-analysis of randomized controlled trials. <em>BioMed Research International, 2020</em>, Artikel 8062017.",
+   "doi": "10.1155/2020/8062017"
+  },
+  "fernandes2025": {
+   "short": "Fernandes et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40174882",
+   "apa": "Fernandes, J. F. T., Wilson, L. J., Dingley, A. F., Hearn, A. N., Johnson, K. O., Hicks, K. M., Twist, C. &amp; Hayes, L. D. (2025). Advancing age is not associated with greater exercise-induced muscle damage: A systematic review, meta-analysis, and meta-regression. <em>Journal of Aging and Physical Activity, 33</em>(6), 606–624.",
+   "doi": "10.1123/japa.2024-0165"
+  },
+  "morawetz2020": {
+   "short": "Morawetz et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30908366",
+   "apa": "Morawetz, D., Blank, C., Koller, A., Arvandi, M., Siebert, U. &amp; Schobersberger, W. (2020). Sex-Related differences after a single bout of maximal eccentric exercise in response to acute effects: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 34</em>(9), 2697–2707.",
+   "doi": "10.1519/JSC.0000000000002867"
+  }
+ }
+}

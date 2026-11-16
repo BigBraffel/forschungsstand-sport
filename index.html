@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forschungsstand Sport</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: feste Themen-Seitenleiste links, Inhaltsspalte rechts; Abschnitte = Überblick, Ableitungen, Variablen, Abbildungen, Verlauf, Quellen, Methodik */
+:root {
+  color-scheme: light;
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface-2: #eef1f5;
+  --ink: #12161d;
+  --ink-2: #4a5160;
+  --ink-3: #6f7685;
+  --line: #d9dee6;
+  --accent: #1c5cab;
+  --accent-soft: #e3edfa;
+  --series-1: #2a78d6;
+  --good: #0a7d0a;
+  --good-bg: #e2f3e2;
+  --warn: #8a5a00;
+  --warn-bg: #fdf0d2;
+  --crit: #b42f2f;
+  --crit-bg: #fbe4e4;
+  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #12151a;
+    --surface: #1a1e25;
+    --surface-2: #232934;
+    --ink: #eef0f3;
+    --ink-2: #b9bfca;
+    --ink-3: #9198a5;
+    --line: #333a46;
+    --accent: #6da7ec;
+    --accent-soft: #1f2f45;
+    --series-1: #3987e5;
+    --good: #5fcf5f;
+    --good-bg: #17301a;
+    --warn: #f2c25a;
+    --warn-bg: #3a2d10;
+    --crit: #f08a8a;
+    --crit-bg: #3d1c1c;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #12151a;
+  --surface: #1a1e25;
+  --surface-2: #232934;
+  --ink: #eef0f3;
+  --ink-2: #b9bfca;
+  --ink-3: #9198a5;
+  --line: #333a46;
+  --accent: #6da7ec;
+  --accent-soft: #1f2f45;
+  --series-1: #3987e5;
+  --good: #5fcf5f;
+  --good-bg: #17301a;
+  --warn: #f2c25a;
+  --warn-bg: #3a2d10;
+  --crit: #f08a8a;
+  --crit-bg: #3d1c1c;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: 2.1rem; font-weight: 700; }
+h2 { font-size: 1.55rem; font-weight: 700; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+p { margin: 0; }
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+.shell { display: grid; grid-template-columns: 250px minmax(0, 1fr); min-height: 100%; }
+.side {
+  position: sticky; top: 0; align-self: start; height: 100vh; overflow-y: auto;
+  background: var(--surface); border-right: 1px solid var(--line);
+  padding: 24px 18px; display: flex; flex-direction: column; gap: 22px;
+}
+.brand { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; line-height: 1.25; }
+.brand small { display: block; font-family: var(--font-body); font-weight: 400; font-size: .8rem; color: var(--ink-3); }
+.side h4 { margin: 0 0 6px; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; }
+.topics, .toc { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+.topics li a, .topics li span, .toc a {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  padding: 7px 10px; border-radius: 6px; text-decoration: none; color: var(--ink-2); font-size: .92rem;
+}
+.topics li a.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.topics li span { color: var(--ink-3); }
+.topics li span em { font-style: normal; font-size: .72rem; border: 1px solid var(--line); border-radius: 99px; padding: 0 7px; }
+.toc a:hover, .topics li a:hover { background: var(--surface-2); }
+
+main { padding: 32px clamp(16px, 4vw, 56px) 80px; display: flex; flex-direction: column; gap: 48px; max-width: 1080px; }
+section { display: flex; flex-direction: column; gap: 18px; scroll-margin-top: 16px; }
+.lead { color: var(--ink-2); max-width: 68ch; }
+
+.status-bar { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .85rem; color: var(--ink-3); }
+.status-bar b { color: var(--ink-2); font-weight: 600; }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 2px 10px; border-radius: 99px; font-size: .78rem; font-weight: 600; white-space: nowrap; }
+.pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.ev-hoch { color: var(--good); background: var(--good-bg); }
+.ev-moderat { color: var(--warn); background: var(--warn-bg); }
+.ev-niedrig { color: var(--crit); background: var(--crit-bg); }
+.pill.neutral { color: var(--ink-2); background: var(--surface-2); }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; }
+.takeaways { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+.takeaway { display: flex; flex-direction: column; gap: 8px; }
+.takeaway .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.takeaway p { color: var(--ink-2); font-size: .95rem; }
+.cite { font-size: .82rem; color: var(--ink-3); }
+.cite a { color: var(--ink-3); }
+
+.rx { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+.rx .card { display: flex; flex-direction: column; gap: 6px; border-top: 3px solid var(--accent); }
+.rx .label { font-size: .75rem; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3); font-weight: 600; }
+.rx .value { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; line-height: 1.25; }
+.rx p { font-size: .9rem; color: var(--ink-2); }
+.note { border-left: 3px solid var(--line); padding: 4px 0 4px 14px; color: var(--ink-2); font-size: .92rem; max-width: 75ch; }
+
+.var { display: flex; flex-direction: column; gap: 0; padding: 0; overflow: hidden; }
+.var > summary { list-style: none; cursor: pointer; padding: 18px 22px; display: grid; grid-template-columns: 1fr auto; gap: 6px 16px; align-items: center; }
+.var > summary::-webkit-details-marker { display: none; }
+.var > summary .q { font-size: .95rem; color: var(--ink-2); grid-column: 1 / -1; }
+.var > summary h3::after { content: " ▾"; color: var(--ink-3); font-size: .9rem; }
+.var[open] > summary h3::after { content: " ▴"; }
+.var .body { padding: 0 22px 22px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px 28px; border-top: 1px solid var(--line); padding-top: 18px; }
+.var .body h4 { margin: 0 0 6px; font-size: .78rem; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3); }
+.var .body ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; font-size: .93rem; }
+.var .body p { font-size: .93rem; }
+.crit-box { background: var(--surface-2); border-radius: 8px; padding: 14px 16px; grid-column: 1 / -1; }
+.crit-box p { color: var(--ink-2); }
+.vars { display: flex; flex-direction: column; gap: 10px; }
+
+.figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 16px; }
+.fig { display: flex; flex-direction: column; gap: 10px; }
+.fig.wide { grid-column: 1 / -1; }
+.fig .cap { font-size: .85rem; color: var(--ink-3); }
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { fill: var(--ink-2); font-family: var(--font-body); font-size: 12px; }
+.chart .muted { fill: var(--ink-3); }
+.chart .grid { stroke: var(--line); stroke-width: 1; }
+.chart .zero { stroke: var(--ink-3); stroke-width: 1; stroke-dasharray: 3 3; }
+.chart .mark { fill: var(--series-1); }
+.chart .ci { stroke: var(--series-1); stroke-width: 2; stroke-linecap: round; }
+.chart .hit { fill: transparent; cursor: default; }
+.chart .row:hover .mark, .chart .row:focus .mark { fill: var(--accent); }
+.chart .row:hover .ci { stroke: var(--accent); }
+.chart .row:hover .rowbg { fill: var(--surface-2); }
+.rowbg { fill: transparent; }
+.tip {
+  position: absolute; pointer-events: none; z-index: 5; max-width: 280px;
+  background: var(--ink); color: var(--bg); font-size: .8rem; line-height: 1.4;
+  padding: 8px 10px; border-radius: 6px; opacity: 0; transition: opacity .1s;
+}
+.tip.show { opacity: 1; }
+details.table-view summary { cursor: pointer; font-size: .82rem; color: var(--accent); }
+.tbl-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .85rem; margin-top: 8px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--ink-3); font-weight: 600; font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; }
+td.r, th.r { text-align: right; }
+
+.timeline { list-style: none; margin: 0; padding: 0; position: relative; display: flex; flex-direction: column; gap: 0; }
+.timeline::before { content: ""; position: absolute; left: 66px; top: 6px; bottom: 6px; width: 2px; background: var(--line); }
+.tl { display: grid; grid-template-columns: 56px 22px minmax(0, 1fr); gap: 0 12px; padding: 10px 0; }
+.tl .yr { font-family: var(--font-mono); font-weight: 500; color: var(--ink-2); text-align: right; padding-top: 1px; }
+.tl .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); margin: 6px 0 0 4px; position: relative; z-index: 1; }
+.tl .txt { display: flex; flex-direction: column; gap: 4px; }
+.tl .txt .t { font-weight: 600; }
+.tl .txt p { font-size: .92rem; color: var(--ink-2); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: .72rem; padding: 1px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--ink-2); }
+.tag.conf { border-color: var(--good); color: var(--good); }
+.tag.rel { border-color: var(--warn); color: var(--warn); }
+.tag.contra { border-color: var(--crit); color: var(--crit); }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.filters button {
+  font: inherit; font-size: .85rem; padding: 5px 12px; border-radius: 99px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+}
+.filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+
+.refs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.refs li { padding-left: 2em; text-indent: -2em; font-size: .92rem; }
+.refs li .meta { display: inline-flex; gap: 6px; text-indent: 0; margin-left: 6px; vertical-align: 1px; }
+.refs em { font-style: italic; }
+.method { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.method ol { margin: 6px 0 0; padding-left: 20px; font-size: .92rem; color: var(--ink-2); display: flex; flex-direction: column; gap: 4px; }
+.method p { font-size: .92rem; color: var(--ink-2); }
+
+@media (max-width: 860px) {
+  .shell { grid-template-columns: 1fr; }
+  .side { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+  .toc { flex-direction: row; flex-wrap: wrap; }
+  .figs { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+html { scroll-behavior: smooth; }
+.toc.sub { padding-left: 12px; margin-top: 2px; }
+.toc.sub a { font-size: .85rem; padding: 4px 10px; }
+.var .figrow { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 14px; }
+.var .fig { border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; background: var(--surface); display: flex; flex-direction: column; gap: 8px; }
+.var .fig h5 { margin: 0; font-family: var(--font-display); font-size: 1rem; font-weight: 600; }
+.var .fig.wide { grid-column: 1 / -1; }
+.pill.flag { color: var(--warn); background: var(--warn-bg); }
+@media (max-width: 500px) { .var .figrow { grid-template-columns: 1fr; } }
+.grp > summary { cursor: pointer; list-style: none; padding: 7px 10px; border-radius: 6px; color: var(--ink-2); font-size: .92rem; display: flex; justify-content: space-between; }
+.grp > summary::-webkit-details-marker { display: none; }
+.grp > summary::after { content: "▸"; color: var(--ink-3); }
+.grp[open] > summary::after { content: "▾"; }
+.grp > summary:hover { background: var(--surface-2); }
+.topics.sub { padding-left: 12px; border-left: 1px solid var(--line); margin-left: 12px; }
+.topics.sub li span { font-size: .86rem; padding: 5px 10px; }
+.scr-bars { display: flex; flex-direction: column; gap: 6px; }
+.scr-row { display: grid; grid-template-columns: minmax(0, 1fr) 70px; gap: 4px 12px; align-items: center; font-size: .86rem; }
+.scr-row .lab { color: var(--ink-2); }
+.scr-row .n { text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.scr-row .track { grid-column: 1 / -1; height: 6px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
+.scr-row .fill { height: 100%; background: var(--series-1); border-radius: 3px; }
+
+.topics li a.planned { color: var(--ink-3); }
+.topics li a.planned em, .topics li span em { font-style: normal; font-size: .72rem; border: 1px solid var(--line); border-radius: 99px; padding: 0 7px; }
+.empty { padding: 28px; text-align: left; display: flex; flex-direction: column; gap: 10px; }
+.toc button { all: unset; cursor: pointer; display: block; padding: 7px 10px; border-radius: 6px; color: var(--ink-2); font-size: .92rem; }
+.toc button:hover { background: var(--surface-2); }
+.toc.sub button { font-size: .85rem; padding: 4px 10px; }
+.toc button:focus-visible { outline: 2px solid var(--accent); }
+.chart-bars svg, .chart-lineci svg, .chart-tiers svg { max-width: 520px; }
+.zone-scale { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 4px; margin-top: 4px; }
+.zone-scale div { border-radius: 6px; padding: 8px 10px; background: var(--surface-2); font-size: .82rem; display: flex; flex-direction: column; gap: 2px; border-top: 4px solid var(--series-1); }
+.zone-scale b { font-family: var(--font-display); font-size: .95rem; }
+@media (max-width: 700px) { .zone-scale { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="side" aria-label="Navigation">
+    <div class="brand">Forschungsstand Sport<small>Training &amp; Ernährung – evidenzbasiert</small></div>
+    <nav aria-label="Themen" id="nav-topics"></nav>
+    <nav aria-label="Auf dieser Seite">
+      <h4>Auf dieser Seite</h4>
+      <ul class="toc" id="toc"></ul>
+    </nav>
+  </aside>
+  <main id="main"></main>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+/* ===== Themenverzeichnis: neue Themen hier eintragen (Datei data/topics/<id>.json, Register data/screening/<id>.json) ===== */
+const NAV = [
+  { group: "Training", items: [
+    { id: "maximalkraft", title: "Maximalkrafttraining" },
+    { id: "hypertrophie", title: "Hypertrophie" },
+    { id: "ausdauer", title: "Ausdauertraining", children: [
+      { id: "zone-1", title: "Zone 1 · Regeneration", var: "zone1" },
+      { id: "zone-2", title: "Zone 2 · Grundlage", var: "zone2" },
+      { id: "zone-3", title: "Zone 3 · Tempo", var: "zone3" },
+      { id: "zone-4", title: "Zone 4 · Schwelle", var: "zone4" },
+      { id: "zone-5", title: "Zone 5 · VO₂max", var: "zone5" } ] },
+    { id: "regeneration", title: "Regeneration nach Krafttraining" } ] },
+  { group: "Ernährung", items: [
+    { title: "Makronährstoffe", children: [ { id: "protein", title: "Protein" } ] },
+    { title: "Supplemente", children: [
+      { id: "kreatin", title: "Kreatin" },
+      { id: "omega-3", title: "Omega-3-Fettsäuren" },
+      { id: "zink", title: "Zink" },
+      { id: "magnesium", title: "Magnesium" },
+      { id: "vitamin-d-k2", title: "Vitamin D3 und K2" } ] } ] }
+];
+const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2"];
+
+const $ = (id) => document.getElementById(id);
+const evLabel = { hoch: "Evidenz hoch", moderat: "Evidenz moderat", niedrig: "Evidenz niedrig" };
+const TAGS = { neu: ["Neuer Befund", ""], conf: ["Bestätigt", "conf"], rel: ["Relativiert", "rel"], contra: ["Widerspricht", "contra"] };
+const fmt = (n) => n.toFixed(2).replace(".", ",");
+const fmt1 = (n) => n.toFixed(1).replace(".", ",");
+const fmtN = (n) => Number.isInteger(n) ? String(n) : fmt(n);
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+const fmtDate = (s) => s.split("-").reverse().join(".");
+const cache = {};
+let T = null, active = "alle";
+
+/* ----- Navigation ----- */
+function routeOf(hash) {
+  const h = (hash || "").replace("#", "");
+  for (const g of NAV) for (const it of g.items) {
+    if (it.id === h) return { topic: it.id };
+    for (const c of it.children || []) if (c.id === h) return c.var ? { topic: it.id, scroll: "var-" + c.var } : { topic: c.id };
+  }
+  return { topic: "maximalkraft" };
+}
+function navItem(it, cur) {
+  const ok = AVAILABLE.includes(it.id);
+  return `<li><a href="#${it.id}" class="${it.id === cur ? "active" : ""}${ok ? "" : " planned"}"${it.id === cur ? ' aria-current="page"' : ""}>${it.title}${ok ? "" : " <em>geplant</em>"}</a></li>`;
+}
+function renderNav(cur) {
+  $("nav-topics").innerHTML = NAV.map((g, gi) => `<h4${gi ? ' style="margin-top:14px"' : ""}>${g.group}</h4><ul class="topics">${g.items.map(it => {
+    if (!it.children) return navItem(it, cur);
+    const open = it.id === cur || it.children.some(c => c.id === cur || (!c.var && cur === c.id)) || it.children.some(c => !c.var && c.id === cur);
+    const head = it.id ? `<a href="#${it.id}" class="${it.id === cur ? "active" : ""}${AVAILABLE.includes(it.id) ? "" : " planned"}" style="flex:1">${it.title}${AVAILABLE.includes(it.id) ? "" : " <em>geplant</em>"}</a>` : it.title;
+    return `<li><details class="grp"${open ? " open" : ""}><summary>${head}</summary><ul class="topics sub">${it.children.map(c => c.var
+      ? `<li><a href="#${c.id}"${AVAILABLE.includes(it.id) ? "" : ' class="planned"'}>${c.title}</a></li>` : navItem(c, cur)).join("")}</ul></details></li>`;
+  }).join("")}</ul>`).join("");
+}
+function scrollToId(id) { const el = $(id); if (!el) return; if (el.tagName === "DETAILS") el.open = true; el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); }
+document.addEventListener("click", (e) => {
+  const a = e.target.closest('a[href^="#"]'); if (!a) return;
+  const id = a.getAttribute("href").slice(1);
+  if (id.startsWith("ref-") || id.startsWith("var-")) { e.preventDefault(); scrollToId(id); }
+});
+document.addEventListener("click", (e) => { const b = e.target.closest("[data-scroll]"); if (b) scrollToId(b.dataset.scroll); });
+
+/* ----- Laden ----- */
+async function load() {
+  const r = routeOf(location.hash);
+  renderNav(location.hash.replace("#", "") || r.topic);
+  if (!AVAILABLE.includes(r.topic)) return renderPlanned(r.topic);
+  if (!cache[r.topic]) {
+    try { cache[r.topic] = await (await fetch(`data/topics/${r.topic}.json`)).json(); }
+    catch (e) { $("main").innerHTML = `<section><div class="card empty"><h2>Thema konnte nicht geladen werden</h2><p>Bitte die Seite neu laden.</p></div></section>`; return; }
+  }
+  T = cache[r.topic]; active = "alle";
+  renderTopic(T);
+  document.title = `Forschungsstand ${T.title}`;
+  if (r.scroll) setTimeout(() => scrollToId(r.scroll), 50); else window.scrollTo(0, 0);
+}
+window.addEventListener("hashchange", load);
+function findTitle(id) { for (const g of NAV) for (const it of g.items) { if (it.id === id) return it.title; for (const c of it.children || []) if (c.id === id) return c.title; } return id; }
+function renderPlanned(id) {
+  $("toc").innerHTML = "";
+  $("main").innerHTML = `<section><h1>${findTitle(id)}</h1><div class="card empty"><p>Dieses Thema wird gerade aufgebaut. Sobald die erste Literatursichtung abgeschlossen ist, erscheint hier der Forschungsstand.</p></div></section>`;
+}
+
+/* ----- Thema rendern ----- */
+function citeList(keys) { return "[" + keys.map(k => `<a href="#ref-${k}">${T.sources[k] ? T.sources[k].short : k}</a>`).join("; ") + "]"; }
+function renderTopic(t) {
+  const srcN = Object.keys(t.sources).length;
+  const years = Object.values(t.sources).map(s => s.year).filter(Boolean);
+  const intro = t.intro ? `<div class="card" style="display:flex;flex-direction:column;gap:8px">${t.intro}</div>` : "";
+  $("main").innerHTML = `
+  <section id="ueberblick">
+    <div class="status-bar">
+      <span><b>Stand:</b> ${fmtDate(t.stand)}</span>
+      <span><b>Quellen:</b> <span class="num">${srcN}</span> (${Math.min(...years)}–${Math.max(...years)})</span>
+      <span><b>Automatische Aktualisierung:</b> alle 2 Wochen freitags</span>
+    </div>
+    <h1>${t.title}</h1>
+    <p class="lead">${t.lead}</p>
+    ${intro}
+    <h2>Kurzfazit</h2>
+    <div class="takeaways">${t.takeaways.map(x => `
+      <article class="card takeaway">
+        <div class="head"><h3>${x.t}</h3><span class="pill ev-${x.ev}">${evLabel[x.ev]}</span></div>
+        <p>${x.p}</p><span class="cite">${citeList(x.s)}</span>
+      </article>`).join("")}</div>
+  </section>
+  <section id="ableitungen">
+    <h2>${t.rxtitle || "Ableitungen für die Praxis"}</h2>
+    <p class="lead">${t.rxlead}</p>
+    <div class="rx">${t.rx.map(c => `<div class="card"><span class="label">${c.label}</span><span class="value">${c.value}</span><p>${c.text}</p><span class="cite">[${c.cite}]</span></div>`).join("")}</div>
+    ${t.note ? `<p class="note">${t.note}</p>` : ""}
+  </section>
+  <section id="variablen">
+    <h2>${t.varstitle || "Im Detail"}</h2>
+    <p class="lead">${t.varslead || "Je Abschnitt: Befunde, eigene Abbildungen aus den berichteten Kennzahlen, kritische Einordnung und Quellen. Effektstärken (SMD/ES) sind standardisierte Mittelwertunterschiede: etwa 0,2 gilt als klein, 0,5 als mittel, 0,8 als groß."}</p>
+    <div class="vars">${t.vars.map(v => `
+      <details class="card var" id="var-${v.id}" open>
+        <summary><h3>${v.name}</h3><span class="pill ev-${v.ev}">${evLabel[v.ev]}</span><span class="q">${v.q}</span></summary>
+        <div class="body">
+          <div><h4>Befunde</h4><ul>${v.key.map(k => `<li>${k}</li>`).join("")}</ul></div>
+          <div><h4>Quellen</h4><ul>${v.s.map(k => `<li><a href="#ref-${k}">${t.sources[k].short}</a> · ${t.sources[k].type}</li>`).join("")}</ul></div>
+          ${v.figs && v.figs.length ? `<div class="figrow">${v.figs.map(f => `
+            <figure class="fig${f.wide || f.type === "forest" || f.type === "dots" ? " wide" : ""}" style="margin:0">
+              <h5>${f.title}</h5><div class="chart chart-${f.type}" id="${f.id}"></div>
+              <figcaption class="cap">${f.cap}</figcaption>
+              <details class="table-view"><summary>Als Tabelle anzeigen</summary><div class="tbl-wrap" id="${f.id}-tbl"></div></details>
+            </figure>`).join("")}</div>` : ""}
+          <div class="crit-box"><h4>Kritische Einordnung</h4><p>${v.critic}</p></div>
+        </div>
+      </details>`).join("")}</div>
+  </section>
+  <section id="verlauf">
+    <h2>Forschungsverlauf</h2>
+    <p class="lead">Wie sich der Kenntnisstand entwickelt hat. Markiert ist, ob eine Arbeit frühere Befunde bestätigt, relativiert oder ihnen widerspricht.</p>
+    <div class="filters" role="group" aria-label="Verlauf filtern" id="tl-filters"></div>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+  <section id="quellen">
+    <h2>Quellen</h2>
+    <p class="lead">Zitiert nach APA 7 (deutsche Fassung). Die Markierung zeigt Studientyp und ob Volltext oder nur Abstract ausgewertet wurde.</p>
+    <ol class="refs">${Object.entries(t.sources).sort((a, b) => a[1].apa.localeCompare(b[1].apa, "de")).map(([k, s]) => `<li id="ref-${k}">${s.apa}${s.doi ? ` <a href="https://doi.org/${s.doi}">https://doi.org/${s.doi}</a>` : ""}<span class="meta"><span class="pill neutral">${s.type}</span><span class="pill neutral">${s.basis}</span>${s.flag ? `<span class="pill flag">${s.flag}</span>` : ""}</span></li>`).join("")}</ol>
+  </section>
+  <section id="methodik">
+    <h2>Methodik</h2>
+    <div class="method">
+      <div class="card"><h3>Evidenzhierarchie</h3><ol>
+        <li>Positionspapiere auf Basis von Übersichtsarbeiten (Umbrella Reviews)</li>
+        <li>Netzwerk-Metaanalysen und Metaanalysen / Metaregressionen</li>
+        <li>Systematische Reviews ohne Metaanalyse</li>
+        <li>Randomisierte kontrollierte Einzelstudien</li>
+        <li>Sonstige Studien (historisch, nicht randomisiert)</li></ol></div>
+      <div class="card"><h3>Evidenzgrad je Aussage</h3>
+        <p><span class="pill ev-hoch">Hoch</span> mehrere Metaanalysen stimmen überein, aktuelle Bestätigung.</p>
+        <p style="margin-top:8px"><span class="pill ev-moderat">Moderat</span> Metaanalysen vorhanden, aber Widersprüche, kleine Effekte oder methodische Grenzen.</p>
+        <p style="margin-top:8px"><span class="pill ev-niedrig">Niedrig</span> nur systematische Reviews ohne Metaanalyse oder wenige Studien.</p></div>
+      <div class="card"><h3>Grenzen</h3><p>${t.limits || "Ausgewertet wurden überwiegend Abstracts; Zahlen stammen aus den Abstracts. Abbildungen der Originalarbeiten werden aus urheberrechtlichen Gründen nicht übernommen. Die automatische Aktualisierung läuft alle zwei Wochen freitags über eine feste PubMed-Suchanfrage je Thema; jeder neue Treffer wird anhand von Einschlusskriterien gesichtet, ergänzt durch eine Websuche nach Preprints und Positionspapieren."}</p></div>
+    </div>
+    <div class="card" id="screening">
+      <h3>Screening-Register</h3>
+      <p class="cap" id="scr-meta" style="margin:6px 0 12px">Wird geladen …</p>
+      <div class="scr-bars" id="scr-bars"></div>
+      <details class="table-view" style="margin-top:12px"><summary>Vorgemerkte Arbeiten anzeigen</summary><div class="tbl-wrap" id="scr-v"></div></details>
+      <details class="table-view" style="margin-top:6px"><summary>Aufgenommene PubMed-Einträge anzeigen</summary><div class="tbl-wrap" id="scr-a"></div></details>
+    </div>
+    <div class="card"><h3>Änderungsprotokoll</h3><div class="tbl-wrap"><table>
+      <thead><tr><th>Datum</th><th>Änderung</th></tr></thead>
+      <tbody>${t.changelog.map(c => `<tr><td class="num">${c.d}</td><td>${c.t}</td></tr>`).join("")}</tbody></table></div></div>
+  </section>`;
+  $("toc").innerHTML = [["ueberblick", "Kurzfazit"], ["ableitungen", "Ableitungen"], ["variablen", t.varstitle || "Im Detail"]].map(([i, l]) => `<li><button type="button" data-scroll="${i}">${l}</button></li>`).join("")
+    + `<li><ul class="toc sub">${t.vars.map(v => `<li><button type="button" data-scroll="var-${v.id}">${v.name}</button></li>`).join("")}</ul></li>`
+    + [["verlauf", "Forschungsverlauf"], ["quellen", "Quellen"], ["methodik", "Methodik"]].map(([i, l]) => `<li><button type="button" data-scroll="${i}">${l}</button></li>`).join("");
+  renderTimeline();
+  $("tl-filters").addEventListener("click", (ev) => { const b = ev.target.closest("button"); if (!b) return; active = b.dataset.f; renderTimeline(); });
+  t.vars.forEach(v => (v.figs || []).forEach(f => CHARTS[f.type](f.id, f.data, f.opts || {})));
+  loadScreening(t.id);
+}
+function renderTimeline() {
+  const filters = [["alle", "Alle"], ["conf", "Bestätigt"], ["rel", "Relativiert"], ["contra", "Widerspricht"]];
+  $("tl-filters").innerHTML = filters.map(([k, l]) => `<button type="button" data-f="${k}" aria-pressed="${k === active}">${l}</button>`).join("");
+  $("timeline").innerHTML = T.timeline.filter(e => active === "alle" || e.tag === active).sort((a, b) => a.y - b.y).map(e => `
+    <li class="tl"><span class="yr">${e.y}</span><span class="dot" aria-hidden="true"></span>
+      <div class="txt"><span class="t">${e.t}</span><p>${e.p}</p>
+        <div class="tags"><span class="tag ${TAGS[e.tag][1]}">${TAGS[e.tag][0]}</span><a class="tag" href="#ref-${e.s}">${T.sources[e.s].short}</a></div>
+      </div></li>`).join("");
+}
+function loadScreening(id) {
+  fetch(`data/screening/${id}.json`).then(r => r.json()).then(reg => {
+    const n = {}; Object.values(reg.r).forEach(c => n[c] = (n[c] || 0) + 1);
+    const total = Object.keys(reg.r).length, order = ["A", "V", "X", "S", "P", "E", "C", "M", "K"];
+    $("scr-meta").textContent = `${total.toLocaleString("de-DE")} PubMed-Einträge zur Suchanfrage gesichtet, Stand ${fmtDate(reg.meta.stand)}. Bei jeder Aktualisierung werden nur neue oder geänderte Einträge geprüft. ${reg.meta.hinweis}`;
+    const max = Math.max(...order.map(c => n[c] || 0));
+    $("scr-bars").innerHTML = order.filter(c => n[c]).map(c => `<div class="scr-row"><span class="lab">${reg.codes[c]}</span><span class="n">${n[c].toLocaleString("de-DE")}</span><div class="track"><div class="fill" style="width:${Math.max(0.6, n[c] / max * 100)}%"></div></div></div>`).join("");
+    const rows = c => Object.entries(reg.d).filter(([k]) => reg.r[k] === c).sort((a, b) => b[1].y - a[1].y)
+      .map(([k, v]) => [`<a href="https://pubmed.ncbi.nlm.nih.gov/${k}/">${v.t}</a>${v.n ? ` <span class="cite">(${v.n})</span>` : ""}`, v.y]);
+    $("scr-v").innerHTML = table(["Titel (englisch, wie in PubMed)", "Jahr"], rows("V"));
+    $("scr-a").innerHTML = table(["Titel (englisch, wie in PubMed)", "Jahr"], rows("A"));
+  }).catch(() => { $("scr-meta").textContent = "Das Screening-Register konnte nicht geladen werden."; });
+}
+
+/* ----- Tooltip und Tabellen ----- */
+const tip = $("tip");
+document.body.style.position = "relative";
+function showTip(evt, html) {
+  tip.innerHTML = html; tip.classList.add("show");
+  const pad = 14, w = tip.offsetWidth;
+  let x = evt.clientX + pad + window.scrollX, y = evt.clientY + pad + window.scrollY;
+  if (evt.clientX + pad + w > window.innerWidth - 8) x = evt.clientX + window.scrollX - w - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip() { tip.classList.remove("show"); }
+function mount(id, svg, tbl) {
+  const c = $(id); if (!c) return; c.innerHTML = svg; $(id + "-tbl").innerHTML = tbl;
+  c.querySelectorAll(".row").forEach(r => {
+    r.addEventListener("mousemove", e => showTip(e, r.dataset.tip));
+    r.addEventListener("mouseleave", hideTip);
+    r.addEventListener("focus", () => { const b = r.getBoundingClientRect(); showTip({ clientX: b.left + b.width / 2, clientY: b.top }, r.dataset.tip); });
+    r.addEventListener("blur", hideTip);
+  });
+}
+const table = (head, rows) => `<table><thead><tr>${head.map((h, i) => `<th${i ? ' class="r"' : ""}>${h}</th>`).join("")}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => `<td${i ? ' class="r num"' : ""}>${c}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+const unitFmt = (o) => (n) => o.unit === "%" ? fmt1(n) + " %" : o.unit === "kg" ? fmt(n) + " kg" : o.unit ? fmtN(n) + " " + o.unit : fmt(n);
+const tickFmt = (o, t) => o.unit ? String(t).replace(".", ",") + " " + o.unit : fmt1(t);
+const bar = (x0, y0, w, yb) => `M${x0},${yb} V${y0 + 4} Q${x0},${y0} ${x0 + 4},${y0} H${x0 + w - 4} Q${x0 + w},${y0} ${x0 + w},${y0 + 4} V${yb} Z`;
+
+/* ----- Diagrammtypen -----
+   forest: Zeilen {l, sub, es, lo?, hi?, pooled?}; opts {min, max, ticks, unit?, leftLab?, rightLab?}
+   dots:   Zeilen {l, sub, v, open?, sym?}; opts {min, max, ticks, ref?, unit, openTo?}
+   bars:   Kategorien {l, es}; opts {max, ticks, xlab, src, unit?}
+   lineci: Kategorien {l, es?, lo?, hi?}; opts {max, ticks, xlab, src, unit?, min?}
+   tiers:  Kategorien {l, v (null = kein Nutzen, 0 = bereits wirksam), txt}; opts {max, ticks, xlab, src} */
+const CHARTS = {
+  forest(id, rows, o) {
+    const W = 900, labelW = 320, right = 40, rowH = 42, top = 10, H = top + rows.length * rowH + (o.leftLab ? 40 : 26);
+    const x = v => labelW + (v - o.min) / (o.max - o.min) * (W - labelW - right), fv = unitFmt(o);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.aria || "Forest-Plot")}">`;
+    const ref = o.ref != null ? o.ref : 0;
+    o.ticks.forEach(t => { s += `<line class="${t === ref ? "zero" : "grid"}" x1="${x(t)}" x2="${x(t)}" y1="${top}" y2="${top + rows.length * rowH}"/><text class="muted num" x="${x(t)}" y="${top + rows.length * rowH + 16}" text-anchor="middle">${tickFmt(o, t)}</text>`; });
+    if (o.leftLab) s += `<text class="muted" x="${x(ref) - 8}" y="${H - 4}" text-anchor="end">← ${o.leftLab}</text><text class="muted" x="${x(ref) + 8}" y="${H - 4}">${o.rightLab} →</text>`;
+    rows.forEach((d, i) => {
+      const cy = top + i * rowH + rowH / 2, ci = d.lo != null;
+      const t = `<b>${d.l}</b><br>${d.sub || ""}<br>${o.unit ? "" : "ES "}${fv(d.es)}${ci ? ` [${fv(d.lo)}; ${fv(d.hi)}]` : " (kein Intervall berichtet)"}`;
+      const lx = ci ? x(d.hi) + 8 : x(d.es) + 12;
+      s += `<g class="row" tabindex="0" data-tip="${esc(t)}">
+        <rect class="rowbg" x="0" y="${cy - rowH / 2 + 2}" width="${W}" height="${rowH - 4}" rx="6"/>
+        <text x="8" y="${cy - 3}" style="font-weight:${d.pooled ? 700 : 500};fill:var(--ink)">${d.l}</text>
+        <text class="muted" x="8" y="${cy + 12}" style="font-size:11px">${d.sub || ""}</text>
+        ${ci ? `<line class="ci" x1="${x(d.lo)}" x2="${x(d.hi)}" y1="${cy}" y2="${cy}"/>` : ""}
+        ${d.pooled ? `<path class="mark" d="M${x(d.es) - 9},${cy} L${x(d.es)},${cy - 7} L${x(d.es) + 9},${cy} L${x(d.es)},${cy + 7} Z"/>` : `<rect class="mark" x="${x(d.es) - 5}" y="${cy - 5}" width="10" height="10" rx="2"/>`}
+        <text class="num" x="${lx}" y="${cy + 4}" style="font-size:11px">${fv(d.es)}</text></g>`;
+    });
+    mount(id, s + "</svg>", table(["Vergleich", o.unit ? `Wert (${o.unit})` : "ES", "Intervall"], rows.map(d => [`${d.l}${d.sub ? ` (${d.sub})` : ""}`, fmtN(d.es), d.lo != null ? `${fmtN(d.lo)} bis ${fmtN(d.hi)}` : "nicht berichtet"])));
+  },
+  dots(id, rows, o) {
+    const W = 900, labelW = 320, right = 50, rowH = 40, top = 10, H = top + rows.length * rowH + 30;
+    const x = v => labelW + (v - o.min) / (o.max - o.min) * (W - labelW - right), u = o.unit || "";
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Punktdiagramm">`;
+    o.ticks.forEach(t => { s += `<line class="grid" x1="${x(t)}" x2="${x(t)}" y1="${top}" y2="${top + rows.length * rowH}"/><text class="muted num" x="${x(t)}" y="${top + rows.length * rowH + 16}" text-anchor="middle">${t} ${u.split(" ")[0]}</text>`; });
+    if (o.ref != null) s += `<line class="zero" x1="${x(o.ref)}" x2="${x(o.ref)}" y1="${top}" y2="${top + rows.length * rowH}"/>`;
+    rows.forEach((d, i) => {
+      const cy = top + i * rowH + rowH / 2, end = o.openTo || o.max, pre = d.open ? (d.sym || "> ") : "";
+      const t = `<b>${d.l}</b><br>${d.sub || ""}<br>${pre}${fmtN(d.v)} ${u}`;
+      s += `<g class="row" tabindex="0" data-tip="${esc(t)}">
+        <rect class="rowbg" x="0" y="${cy - rowH / 2 + 2}" width="${W}" height="${rowH - 4}" rx="6"/>
+        <text x="8" y="${cy - 3}" style="font-weight:500;fill:var(--ink)">${d.l}</text>
+        <text class="muted" x="8" y="${cy + 12}" style="font-size:11px">${d.sub || ""}</text>
+        ${d.open ? `<line class="ci" x1="${x(d.v)}" x2="${x(end)}" y1="${cy}" y2="${cy}" stroke-dasharray="2 4"/>` : ""}
+        <circle class="mark" cx="${x(d.v)}" cy="${cy}" r="7"/>
+        <text class="num" x="${d.open ? x(end) + 8 : x(d.v) + 14}" y="${cy + 4}" style="font-size:11px">${pre}${fmtN(d.v)} ${u.split(" ")[0]}</text></g>`;
+    });
+    mount(id, s + "</svg>", table(["Gruppe / Quelle", u], rows.map(d => [`${d.l}${d.sub ? ` (${d.sub})` : ""}`, (d.open ? (d.sym || "> ") : "") + fmtN(d.v)])));
+  },
+  bars(id, rows, o) {
+    const W = 440, H = 270, l = 48, r = 14, t = 16, b = 46, mn = o.min || 0;
+    const bw = Math.min(54, (W - l - r) / rows.length * 0.6), gap = (W - l - r - bw * rows.length) / rows.length, y = v => t + (1 - (v - mn) / (o.max - mn)) * (H - t - b), fv = unitFmt(o);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Säulendiagramm">`;
+    o.ticks.forEach(v => { s += `<line class="grid" x1="${l}" x2="${W - r}" y1="${y(v)}" y2="${y(v)}"/><text class="muted num" x="${l - 6}" y="${y(v) + 4}" text-anchor="end">${tickFmt(o, v)}</text>`; });
+    rows.forEach((d, i) => {
+      const x0 = l + gap / 2 + i * (bw + gap), y0 = y(d.es);
+      const tt = `<b>${d.l}</b><br>${fv(d.es)}${d.lo != null ? ` [${fv(d.lo)}; ${fv(d.hi)}]` : ""}<br>${d.sub || o.src || ""}`;
+      s += `<g class="row" tabindex="0" data-tip="${esc(tt)}"><rect class="hit" x="${x0 - gap / 2}" y="${t}" width="${bw + gap}" height="${H - t - b}"/>
+        <path class="mark" d="${bar(x0, y0, bw, y(Math.max(mn, 0)))}"/>
+        ${d.lo != null ? `<line class="ci" x1="${x0 + bw / 2}" x2="${x0 + bw / 2}" y1="${y(d.lo)}" y2="${y(d.hi)}" style="stroke:var(--ink-2)"/>` : ""}
+        <text class="num" x="${x0 + bw / 2}" y="${(d.hi != null ? y(d.hi) : y0) - 6}" text-anchor="middle" style="fill:var(--ink);font-size:11px">${fv(d.es)}</text>
+        <text x="${x0 + bw / 2}" y="${H - b + 18}" text-anchor="middle" style="font-size:11px">${d.l}</text></g>`;
+    });
+    s += `<text class="muted" x="${l + (W - l - r) / 2}" y="${H - 6}" text-anchor="middle">${o.xlab || ""}</text></svg>`;
+    mount(id, s, table(["Kategorie", o.unit || "Wert", "Intervall"], rows.map(d => [d.l, fmtN(d.es), d.lo != null ? `${fmtN(d.lo)} bis ${fmtN(d.hi)}` : "–"])));
+  },
+  lineci(id, rows, o) {
+    const W = 440, H = 270, l = 48, r = 14, t = 16, b = 46, mn = o.min || 0;
+    const step = (W - l - r) / rows.length, xc = i => l + step * (i + 0.5), y = v => t + (1 - (v - mn) / (o.max - mn)) * (H - t - b), fv = unitFmt(o);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Dosis-Wirkungs-Diagramm">`;
+    o.ticks.forEach(v => { s += `<line class="grid" x1="${l}" x2="${W - r}" y1="${y(v)}" y2="${y(v)}"/><text class="muted num" x="${l - 6}" y="${y(v) + 4}" text-anchor="end">${tickFmt(o, v)}</text>`; });
+    const pts = rows.map((d, i) => d.es != null ? `${xc(i)},${y(d.es)}` : null).filter(Boolean);
+    s += `<polyline points="${pts.join(" ")}" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-opacity=".5"/>`;
+    rows.forEach((d, i) => {
+      if (d.es == null) { s += `<text class="muted" x="${xc(i)}" y="${H - b + 18}" text-anchor="middle" style="font-size:11px">${d.l}</text><text class="muted" x="${xc(i)}" y="${y((o.max + mn) / 2)}" text-anchor="middle" style="font-size:11px">kein Wert</text>`; return; }
+      const tt = `<b>${d.l}</b><br>${fv(d.es)}${d.lo != null ? ` [${fv(d.lo)}; ${fv(d.hi)}]` : ""}<br>${d.sub || o.src || ""}`;
+      s += `<g class="row" tabindex="0" data-tip="${esc(tt)}"><rect class="hit" x="${xc(i) - step / 2}" y="${t}" width="${step}" height="${H - t - b}"/>
+        ${d.lo != null ? `<line class="ci" x1="${xc(i)}" x2="${xc(i)}" y1="${y(d.lo)}" y2="${y(d.hi)}"/>` : ""}
+        <circle class="mark" cx="${xc(i)}" cy="${y(d.es)}" r="7"/>
+        <text class="num" x="${xc(i) + 12}" y="${y(d.es) + 4}" style="font-size:11px">${fv(d.es)}</text>
+        <text x="${xc(i)}" y="${H - b + 18}" text-anchor="middle" style="font-size:11px">${d.l}</text></g>`;
+    });
+    s += `<text class="muted" x="${l + (W - l - r) / 2}" y="${H - 6}" text-anchor="middle">${o.xlab || ""}</text></svg>`;
+    mount(id, s, table(["Kategorie", o.unit || "Wert", "Intervall"], rows.filter(d => d.es != null).map(d => [d.l, fmtN(d.es), d.lo != null ? `${fmtN(d.lo)} bis ${fmtN(d.hi)}` : "–"])));
+  },
+  tiers(id, rows, o) {
+    const W = 440, H = 270, l = 44, r = 14, t = 14, b = 46;
+    const step = (W - l - r) / rows.length, bw = 54, y = v => t + (1 - v / o.max) * (H - t - b);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Abnehmender Ertrag">`;
+    o.ticks.forEach(v => { s += `<line class="grid" x1="${l}" x2="${W - r}" y1="${y(v)}" y2="${y(v)}"/><text class="muted num" x="${l - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`; });
+    rows.forEach((d, i) => {
+      const x0 = l + step * i + (step - bw) / 2, cx = x0 + bw / 2;
+      const tt = `<b>${d.l}</b><br>${d.v === null ? "kein sicherer Zusatznutzen" : d.v === 0 ? "bereits wirksam" : "nötig: " + d.txt}<br>${o.src || ""}`;
+      let m;
+      if (d.v === null) m = `<rect x="${x0}" y="${y(o.max)}" width="${bw}" height="${y(0) - y(o.max)}" rx="4" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-dasharray="5 4"/><text x="${cx}" y="${y(o.max * 0.6)}" text-anchor="middle" style="font-size:11px">kein</text><text x="${cx}" y="${y(o.max * 0.6) + 14}" text-anchor="middle" style="font-size:11px">sicherer</text><text x="${cx}" y="${y(o.max * 0.6) + 28}" text-anchor="middle" style="font-size:11px">Nutzen</text>`;
+      else if (d.v === 0) m = `<line x1="${x0}" x2="${x0 + bw}" y1="${y(0)}" y2="${y(0)}" stroke="var(--series-1)" stroke-width="3" stroke-linecap="round"/><text x="${cx}" y="${y(0) - 26}" text-anchor="middle" style="font-size:11px">bereits</text><text x="${cx}" y="${y(0) - 12}" text-anchor="middle" style="font-size:11px">wirksam</text>`;
+      else m = `<path class="mark" d="${bar(x0, y(d.v), bw, y(0))}"/><text class="num" x="${cx}" y="${y(d.v) - 6}" text-anchor="middle" style="fill:var(--ink)">${d.txt}</text>`;
+      s += `<g class="row" tabindex="0" data-tip="${esc(tt)}"><rect class="hit" x="${l + step * i}" y="${t}" width="${step}" height="${H - t - b}"/>${m}<text x="${cx}" y="${H - b + 18}" text-anchor="middle">${d.l}</text></g>`;
+    });
+    s += `<text class="muted" x="${l + (W - l - r) / 2}" y="${H - 6}" text-anchor="middle">${o.xlab || ""}</text></svg>`;
+    mount(id, s, table(["Stufe", "Wert"], rows.map(d => [d.l, d.v === null ? "kein sicherer Zusatznutzen" : d.v === 0 ? "bereits wirksam" : d.txt])));
+  }
+};
+load();
+</script>
+</body>
+</html>

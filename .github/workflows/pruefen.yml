@@ -1,0 +1,14 @@
+name: Daten prüfen
+
+on:
+  push:
+    paths: ['data/**', 'index.html', 'tools/**']
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/pruefen.py
