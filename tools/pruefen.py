@@ -38,6 +38,21 @@ for sub in ('topics', 'screening', 'kandidaten'):
         for k, s in src.items():
             if not s.get('apa'):
                 fehler.append(f'{sub}/{f}: Quelle "{k}" ohne APA-Angabe')
+        vids = {v['id'] for v in j.get('vars', [])}
+        for g in j.get('matrix', []):
+            for k in ('bereich', 'ziel', 'kat', 'items'):
+                if k not in g: fehler.append(f'{sub}/{f}: Matrix-Gruppe ohne Feld "{k}"')
+            if g.get('bereich') not in ('Leistung', 'Regeneration', 'Gesundheit'):
+                fehler.append(f'{sub}/{f}: Matrix-Gruppe "{g.get("ziel")}" mit unbekanntem Bereich')
+            for it in g.get('items', []):
+                n = it.get('n', '?')
+                if it.get('g') not in ('A', 'B', 'C', 'D'): fehler.append(f'{sub}/{f}: Wirkung "{n}" ohne gültigen Grad')
+                if it.get('m') not in (None, -1, 0, 1, 2, 3, 4): fehler.append(f'{sub}/{f}: Wirkung "{n}" mit ungültiger Effektgröße')
+                if it.get('m') not in (0, None) and it.get('d') not in ('auf', 'ab'): fehler.append(f'{sub}/{f}: Wirkung "{n}" ohne Richtung')
+                if it.get('b') not in ('nutzen', 'schaden', 'neutral'): fehler.append(f'{sub}/{f}: Wirkung "{n}" ohne Bewertung')
+                if it.get('v') not in vids: fehler.append(f'{sub}/{f}: Wirkung "{n}" verweist auf unbekannten Abschnitt')
+                for k in it.get('s', []):
+                    if k not in src: fehler.append(f'{sub}/{f}: Wirkung "{n}" zitiert fehlende Quelle "{k}"')
         for v in j.get('vars', []):
             for fig in v.get('figs', []):
                 if not fig.get('data'):

@@ -1,7 +1,7 @@
 {
  "id": "vitamin-d-k2",
  "title": "Vitamin D3 und K2",
- "stand": "2026-11-16",
+ "stand": "2026-11-17",
  "lead": "Wie häufig ist ein Vitamin-D-Mangel bei Sportlern, verbessert Vitamin D Kraft und Leistung, schützt es vor Infekten und Knochenbrüchen, und was ist zu Vitamin K2 belegt? Zusammengefasst aus Metaanalysen.",
  "rxtitle": "Ableitungen für Ernährung und Training",
  "rxlead": "Für gesunde Erwachsene. Vitamin D ist sinnvoll, um einen Mangel auszugleichen, aber kein Leistungsmittel. Für die Kombination mit K2 bei Gesunden fehlen Belege.",
@@ -511,6 +511,10 @@
  ],
  "changelog": [
   {
+   "d": "17.11.2026",
+   "t": "Wirkungsübersicht ergänzt: 15 Wirkungen nach Verlässlichkeit (Grad A–D), Effekt und Datenbasis eingestuft; neue Übersichtsseite für alle Supplemente."
+  },
+  {
    "d": "16.11.2026",
    "t": "Vormerkungen ausgewertet: 11 geprüft, 11 aufgenommen, 0 ausgeschlossen. Ältere positive Kraftbefunde (Beaudart et al., 2014; Tomlinson et al., 2015) als Verlauf ergänzt und durch neuere Analysen bei Sportlern relativiert (neue Verlaufsabbildung); neuer Abschnitt Regeneration (Evidenz niedrig); Jolliffe et al. (2021) als früherer, 2025 relativierter Befund zu Atemwegsinfekten eingeordnet; Hallen- vs. Freiluftsport relativiert; Dosisangaben zum Status; zwei K2-/Vitamin-K-Analysen ergänzt."
   },
@@ -700,5 +704,269 @@
    "apa": "Zhao, Q. Y., Li, Q., Hasan Rashedi, M., Sohouli, M., Rohani, P. &amp; Velu, P. (2024). The effect of vitamin K supplementation on cardiovascular risk factors: A systematic review and meta-analysis. <em>Journal of Nutritional Science, 13</em>, e3.",
    "doi": "10.1017/jns.2023.106"
   }
- }
+ },
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und Leistung",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Muskelkraft bei Sportlern",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 13,
+     "p": 532,
+     "s": [
+      "zhang2019",
+      "trexler2024",
+      "han2019",
+      "farrokhyar2017",
+      "gu2026"
+     ],
+     "t": "SMD 0,05 (8 Studien); korrigierte Reanalyse SMD 0,16, nicht signifikant. Von 13 Studien maßen 7 die Leistung, keine fand einen Effekt.",
+     "v": "leistung"
+    },
+    {
+     "n": "Muskelkraft in der Allgemeinbevölkerung",
+     "g": "B",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 54,
+     "p": 8747,
+     "s": [
+      "bislev2021",
+      "beaudart2014",
+      "tomlinson2015",
+      "kazeminasab2026"
+     ],
+     "t": "Frühere Analysen: SMD 0,17 (30 Studien), bei Jüngeren 0,32. Die größte Analyse (54 Studien) fand dagegen eine minimal geringere Kniebeugerkraft (−3,3 N).",
+     "v": "leistung"
+    },
+    {
+     "n": "Sprung, Sprint und Ausdauer",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 9,
+     "p": 312,
+     "s": [
+      "gu2026"
+     ],
+     "t": "Bei Fußballern: Sprung g = 0,21, Sprint −0,03, aerobe Kapazität 0,00, alle nicht signifikant.",
+     "v": "leistung"
+    },
+    {
+     "n": "Körperzusammensetzung",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 28,
+     "p": 1675,
+     "s": [
+      "kazeminasab2026"
+     ],
+     "t": "Kein zusätzlicher Effekt zum Training auf fettfreie Masse oder Fettmasse.",
+     "v": "leistung"
+    },
+    {
+     "n": "Gehtest-Zeit (Timed-up-and-go)",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "schaden",
+     "k": 19,
+     "p": 5223,
+     "s": [
+      "bislev2021"
+     ],
+     "t": "Test um 0,15 s langsamer absolviert (19 Studien, n = 5223), praktisch bedeutungslos.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung nach Belastung",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Muskelschäden nach Belastung",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 6,
+     "p": null,
+     "s": [
+      "bello2021"
+     ],
+     "t": "Aus 6 Studien ließ sich keine Wirkung auf die Erholung nach Belastung ableiten.",
+     "v": "regeneration"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Vitamin-D-Spiegel",
+   "kat": "status",
+   "items": [
+    {
+     "n": "25(OH)D im Blut",
+     "g": "A",
+     "d": "auf",
+     "m": 4,
+     "b": "nutzen",
+     "k": 28,
+     "p": 1675,
+     "s": [
+      "kazeminasab2026",
+      "gu2026",
+      "farrokhyar2017"
+     ],
+     "t": "+34,11 nmol/L gegenüber Training allein; bei Fußballern g = 1,41. Bei Mangel mit 3000 IE/Tag +15,2 ng/ml.",
+     "v": "status"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Infekte",
+   "kat": "infekte",
+   "items": [
+    {
+     "n": "Atemwegsinfekte",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 40,
+     "p": 61589,
+     "s": [
+      "jolliffe2025",
+      "jolliffe2021"
+     ],
+     "t": "OR 0,94 (95-%-KI 0,88–1,00), knapp nicht signifikant; frühere Analyse OR 0,92. Bei täglicher Gabe stärker (OR 0,78).",
+     "v": "gesundheit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Knochen",
+   "kat": "knochen",
+   "items": [
+    {
+     "n": "Knochenbrüche",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 36,
+     "p": 44790,
+     "s": [
+      "bolland2018"
+     ],
+     "t": "RR 1,00, auch bei Dosen über 800 IE/Tag.",
+     "v": "gesundheit"
+    },
+    {
+     "n": "Stürze",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 37,
+     "p": null,
+     "s": [
+      "bolland2018"
+     ],
+     "t": "Kein Effekt, auch in Vergleichen hoher mit niedriger Dosis.",
+     "v": "gesundheit"
+    },
+    {
+     "n": "Knochendichte",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 41,
+     "p": null,
+     "s": [
+      "bolland2018"
+     ],
+     "t": "Keine klinisch relevanten Unterschiede an irgendeiner Stelle (−0,16 % bis 0,76 %).",
+     "v": "gesundheit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Vitamin K2",
+   "kat": "knochen",
+   "items": [
+    {
+     "n": "Knochendichte der Lendenwirbelsäule (K2)",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 10,
+     "p": null,
+     "s": [
+      "ma2022"
+     ],
+     "t": "Bei Frauen nach der Menopause signifikant verbessert (10 Studien); die Effektgröße nennt der Abstract nicht.",
+     "v": "k2"
+    },
+    {
+     "n": "Knochenbrüche (K2)",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 6,
+     "p": null,
+     "s": [
+      "ma2022"
+     ],
+     "t": "RR 0,96, nicht signifikant; nur nach Ausschluss einer abweichenden Studie RR 0,43.",
+     "v": "k2"
+    },
+    {
+     "n": "Gefäßverkalkung (Vitamin K)",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 14,
+     "p": 1533,
+     "s": [
+      "li2023"
+     ],
+     "t": "Fortschreiten der Koronarverkalkung gebremst (MD −17,37), überwiegend bei Patientinnen und Patienten.",
+     "v": "k2"
+    },
+    {
+     "n": "Insulinresistenz (Vitamin K)",
+     "g": "C",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "zhao2024"
+     ],
+     "t": "HOMA-IR −0,24; Vitamin K2 wirksamer als K1.",
+     "v": "k2"
+    }
+   ]
+  }
+ ]
 }

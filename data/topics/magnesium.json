@@ -1,7 +1,7 @@
 {
  "id": "magnesium",
  "title": "Magnesium",
- "stand": "2026-11-16",
+ "stand": "2026-11-17",
  "lead": "Verbessert Magnesium Kraft und Leistung, hilft es gegen Muskelkrämpfe oder beim Schlaf, und welche Gesundheitseffekte sind belegt? Zusammengefasst aus Metaanalysen und einem Cochrane-Review.",
  "rxtitle": "Ableitungen für Ernährung und Training",
  "rxlead": "Für gesunde Erwachsene. Bei guter Versorgung bringt Magnesium keinen Leistungsvorteil; die belegten Effekte betreffen vor allem Blutdruck und Stoffwechsel.",
@@ -283,6 +283,10 @@
  ],
  "changelog": [
   {
+   "d": "17.11.2026",
+   "t": "Wirkungsübersicht ergänzt: 8 Wirkungen nach Verlässlichkeit (Grad A–D), Effekt und Datenbasis eingestuft; neue Übersichtsseite für alle Supplemente."
+  },
+  {
    "d": "16.11.2026",
    "t": "Vormerkungen ausgewertet: 5 geprüft, 4 aufgenommen, 1 ausgeschlossen. Blutdrucksenkung durch ältere (Zhang et al., 2016) und neuere Analysen in der normotensiven Bevölkerung bestätigt (Behers et al., 2023; 2024), Dosis-/Dauerangaben ergänzt; Gefäßfunktion neu (Amiri et al., 2026); Abbildungen erweitert. Schlaf-Review ohne Magnesium-Metaanalyse ausgeschlossen."
   },
@@ -373,5 +377,158 @@
    "apa": "Amiri, A., Gholami-Chahkand, M. S., Javazm, A. K., Jannat, B., Seighali, F. &amp; Seighali, N. (2026). The effects of oral magnesium supplements on vascular and endothelial function: An updated systematic review and meta-analysis of randomized controlled trials. <em>BMC Cardiovascular Disorders, 26</em>(1), Artikel 985.",
    "doi": "10.1186/s12872-026-06476-3"
   }
- }
+ },
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und Leistung",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Muskelkraft und Leistung",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 14,
+     "p": null,
+     "s": [
+      "wang2017"
+     ],
+     "t": "Kein Effekt auf Kraft (WMD 0,87), Drehmoment oder Leistung; untersucht u. a. bei Sportlern (n = 215) und Untrainierten (n = 95).",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Muskelkrämpfe",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Nächtliche Wadenkrämpfe",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": 735,
+     "s": [
+      "garrison2020"
+     ],
+     "t": "Bei idiopathischen Krämpfen, überwiegend bei Älteren, keine Abnahme (−0,18 Krämpfe pro Woche, nicht signifikant). Belastungskrämpfe bei Sportlern wurden nicht untersucht.",
+     "v": "kraempfe"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Schlaf",
+   "kat": "gehirn",
+   "items": [
+    {
+     "n": "Einschlafdauer",
+     "g": "D",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": 3,
+     "p": 151,
+     "s": [
+      "mah2021"
+     ],
+     "t": "17,36 min schneller eingeschlafen, bei älteren Erwachsenen (3 Studien); Gesamtschlafdauer nicht signifikant verändert.",
+     "v": "schlaf"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz-Kreislauf und Stoffwechsel",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Blutdruck",
+     "g": "A",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 38,
+     "p": 2709,
+     "s": [
+      "argeros2025",
+      "zhang2016",
+      "mohammadi2026",
+      "behers2023",
+      "behers2024"
+     ],
+     "t": "−2,81/−2,05 mmHg (38 Studien); bei normalem Blutdruck −2,79 mmHg systolisch. Schon 2 mmHg weniger senken auf Bevölkerungsebene die Herz-Kreislauf-Sterblichkeit.",
+     "v": "herz"
+    },
+    {
+     "n": "Blutzucker und Insulinresistenz",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 78,
+     "p": null,
+     "s": [
+      "mohammadi2026"
+     ],
+     "t": "HOMA-IR −0,48; Nüchternblutzucker −3,60 mg/dL; HbA1c −0,15 %.",
+     "v": "herz"
+    },
+    {
+     "n": "Blutfette",
+     "g": "B",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 78,
+     "p": null,
+     "s": [
+      "mohammadi2026"
+     ],
+     "t": "LDL −3,21 mg/dL; Triglyzeride −9,24 mg/dL; HDL +1,45 mg/dL.",
+     "v": "herz"
+    },
+    {
+     "n": "Gefäßfunktion",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 12,
+     "p": null,
+     "s": [
+      "amiri2026"
+     ],
+     "t": "Flussvermittelte Dilatation insgesamt nicht verändert (MD 2,86, nicht signifikant); nur über 400 mg/Tag wirksam, bei nur 2 Studien.",
+     "v": "herz"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Leichte Nebenwirkungen (v. a. Durchfall)",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 4,
+     "p": 254,
+     "s": [
+      "garrison2020"
+     ],
+     "t": "RR 1,51 (95-%-KI 0,98–2,33): Tendenz zu mehr leichten Nebenwirkungen, aber nicht signifikant.",
+     "v": "kraempfe"
+    }
+   ]
+  }
+ ]
 }

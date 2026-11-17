@@ -1,7 +1,7 @@
 {
  "id": "zink",
  "title": "Zink",
- "stand": "2026-11-16",
+ "stand": "2026-11-17",
  "lead": "Braucht man als Sportler zusätzliches Zink, hilft es gegen Erkältungen, und wirkt es auf Testosteron oder Stoffwechsel? Zusammengefasst aus Metaanalysen und systematischen Reviews.",
  "rxtitle": "Ableitungen für Ernährung und Training",
  "rxlead": "Für gesunde Erwachsene. Zur sportlichen Leistung selbst gibt es keine belastbaren Metaanalysen; die Evidenz betrifft Versorgungsstatus, Infekte und Stoffwechsel.",
@@ -278,6 +278,10 @@
  ],
  "changelog": [
   {
+   "d": "17.11.2026",
+   "t": "Wirkungsübersicht ergänzt: 7 Wirkungen nach Verlässlichkeit (Grad A–D), Effekt und Datenbasis eingestuft; neue Übersichtsseite für alle Supplemente."
+  },
+  {
    "d": "16.11.2026",
    "t": "Vormerkungen ausgewertet: 2 geprüft, 2 aufgenommen, 0 ausgeschlossen. Abioye et al. (2021) bestätigt kürzere Symptomdauer ohne Vorbeugung bei Erwachsenen; Ceylan et al. (2021) bestätigt CRP-Senkung (neue Abbildung). Kritische Einordnung zu Infekten überarbeitet."
   },
@@ -368,5 +372,145 @@
    "apa": "Abioye, A. I., Bromage, S. &amp; Fawzi, W. (2021). Effect of micronutrient supplements on influenza and other respiratory tract infections among adults: A systematic review and meta-analysis. <em>BMJ Global Health, 6</em>(1), Artikel e003176.",
    "doi": "10.1136/bmjgh-2020-003176"
   }
- }
+ },
+ "matrix": [
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Erkältung und Atemwegsinfekte",
+   "kat": "infekte",
+   "items": [
+    {
+     "n": "Erkältungsdauer",
+     "g": "C",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": 28,
+     "p": 5446,
+     "s": [
+      "hunter2021",
+      "wang2020",
+      "abioye2021"
+     ],
+     "t": "Symptome etwa 2 Tage früher abgeklungen (sehr niedrige Vertrauenswürdigkeit). Bei gesunden Erwachsenen −2,25 Tage; in einer weiteren Analyse −47 % Symptomdauer.",
+     "v": "infekte"
+    },
+    {
+     "n": "Infektrisiko (Vorbeugung)",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "nutzen",
+     "k": 28,
+     "p": 5446,
+     "s": [
+      "hunter2021",
+      "abioye2021",
+      "vlieg2022"
+     ],
+     "t": "5 Atemwegsinfekte weniger pro 100 Personenmonate (Hunter et al., 2021). Eine weitere Analyse fand kein geringeres Risiko; in einer dritten wirkte Zink nur in Studien aus Asien (RR 0,86).",
+     "v": "infekte"
+    },
+    {
+     "n": "Symptomschwere",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "nutzen",
+     "k": 28,
+     "p": 5446,
+     "s": [
+      "hunter2021"
+     ],
+     "t": "Am 3. Tag milder (MD −1,20 Punkte), im Tagesmittel nicht (SMD −0,15).",
+     "v": "infekte"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Entzündung",
+   "kat": "entzuendung",
+   "items": [
+    {
+     "n": "Entzündungsmarker (CRP)",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 35,
+     "p": 1995,
+     "s": [
+      "jafari2022",
+      "ceylan2021"
+     ],
+     "t": "CRP, hs-CRP und TNF-α sanken; CRP bei Erwachsenen MD −0,75 (22 Studien). Überwiegend Studien mit Erkrankten.",
+     "v": "infekte"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Stoffwechsel",
+   "kat": "stoffwechsel",
+   "items": [
+    {
+     "n": "Blutzucker und Insulinresistenz",
+     "g": "B",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "daneshvar2024"
+     ],
+     "t": "Umbrella-Analyse: Nüchternblutzucker SMD −0,52, HOMA-IR SMD −0,78, HbA1c −0,35. Untersucht an Biomarkern des Typ-2-Diabetes.",
+     "v": "stoffwechsel"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Hormone",
+   "kat": "hormone",
+   "items": [
+    {
+     "n": "Testosteron",
+     "g": "D",
+     "d": "auf",
+     "m": null,
+     "b": "nutzen",
+     "k": 8,
+     "p": null,
+     "s": [
+      "te2023"
+     ],
+     "t": "Nur 8 Studien am Menschen neben 30 Tierstudien. Für gesunde Sportler ohne Zinkmangel nicht belegt.",
+     "v": "hormone"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Leichte Nebenwirkungen (Übelkeit, Reizung)",
+     "g": "B",
+     "d": "auf",
+     "m": 3,
+     "b": "schaden",
+     "k": 28,
+     "p": 5446,
+     "s": [
+      "hunter2021"
+     ],
+     "t": "RR 1,41 für nicht schwerwiegende Nebenwirkungen (bei 7 Behandelten tritt eine zusätzlich auf); keine schweren Nebenwirkungen.",
+     "v": "infekte"
+    }
+   ]
+  }
+ ]
 }

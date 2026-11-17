@@ -251,6 +251,73 @@ html { scroll-behavior: smooth; }
 .zone-scale div { border-radius: 6px; padding: 8px 10px; background: var(--surface-2); font-size: .82rem; display: flex; flex-direction: column; gap: 2px; border-top: 4px solid var(--series-1); }
 .zone-scale b { font-family: var(--font-display); font-size: .95rem; }
 @media (max-width: 700px) { .zone-scale { grid-template-columns: 1fr; } }
+
+/* ----- Wirkungsübersicht (Matrix) und Supplement-Übersicht ----- */
+.mx { padding: 0; overflow: hidden; }
+.mx-cols, .mx-row > summary, .mx-grp > summary { display: grid; grid-template-columns: minmax(0, 1.7fr) 64px minmax(150px, 1fr) minmax(150px, 1fr); gap: 12px; align-items: center; padding: 12px 18px; }
+.mx-cols { background: var(--surface-2); font-size: .74rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); border-bottom: 1px solid var(--line); }
+.mx-cols span:nth-child(2) { text-align: center; }
+.mx-grp { border-bottom: 1px solid var(--line); }
+.mx-grp:last-child { border-bottom: 0; }
+.mx-grp > summary { cursor: pointer; list-style: none; background: color-mix(in srgb, var(--surface-2) 60%, var(--surface)); }
+.mx-grp > summary::-webkit-details-marker, .mx-row > summary::-webkit-details-marker { display: none; }
+.mx-gname { font-family: var(--font-display); font-size: 1.08rem; font-weight: 600; display: flex; align-items: center; gap: 10px; }
+.mx-gname::before { content: ""; width: 8px; height: 8px; border-right: 2px solid var(--ink-3); border-bottom: 2px solid var(--ink-3); transform: rotate(-45deg); transition: transform .15s; flex: none; }
+.mx-grp[open] > summary .mx-gname::before { transform: rotate(45deg); }
+.mx-gname small { font-family: var(--font-body); font-size: .74rem; font-weight: 500; color: var(--ink-3); border: 1px solid var(--line); border-radius: 99px; padding: 0 8px; }
+.mx-gmeta { grid-column: 2 / -1; font-size: .85rem; color: var(--ink-2); }
+.mx-row { border-top: 1px solid var(--line); }
+.mx-row > summary { cursor: pointer; list-style: none; }
+.mx-row > summary:hover { background: var(--surface-2); }
+.mx-row > summary:focus-visible, .mx-grp > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.mx-name { padding-left: 18px; color: var(--accent); font-weight: 500; }
+.mx-sup { display: block; font-size: .74rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: var(--ink-3); }
+.grade { justify-self: center; display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 8px; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; }
+.grade.small { width: 24px; height: 24px; border-radius: 6px; font-size: .82rem; }
+.g-A { background: var(--accent); color: var(--bg); }
+.g-B { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); color: var(--ink); }
+.g-C { background: var(--accent-soft); color: var(--accent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 45%, transparent); }
+.g-D { background: transparent; color: var(--ink-2); box-shadow: inset 0 0 0 1px var(--ink-3); border: 1px dashed transparent; }
+.mx-eff { display: flex; align-items: center; gap: 10px; font-size: .88rem; color: var(--ink); }
+.mx-eff svg { flex: none; }
+.eff-nutzen svg { color: var(--good); }
+.eff-schaden svg { color: var(--crit); }
+.eff-neutral svg { color: var(--ink-2); }
+.mx-warn { font-style: normal; font-size: .72rem; font-weight: 600; color: var(--crit); background: var(--crit-bg); border-radius: 99px; padding: 0 7px; white-space: nowrap; }
+.mx-evi { font-size: .84rem; color: var(--ink-2); display: flex; flex-direction: column; gap: 3px; }
+.mx-evi span { display: inline-flex; align-items: center; gap: 6px; }
+.mx-evi svg { color: var(--ink-3); flex: none; }
+.mx-detail { padding: 2px 18px 16px 36px; display: flex; flex-direction: column; gap: 6px; max-width: 80ch; }
+.mx-detail p { margin: 0; }
+.mx-detail .cite { font-size: .82rem; color: var(--ink-3); }
+.mx-detail a.more { font-size: .85rem; font-weight: 600; }
+.mx-empty { padding: 18px; color: var(--ink-3); }
+.mx-legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+.mx-legend h3 { margin: 0 0 8px; }
+.mx-legend dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 8px 12px; align-items: center; font-size: .88rem; }
+.mx-legend dd { margin: 0; color: var(--ink-2); }
+.mx-legend .eff-key { display: flex; align-items: center; gap: 8px; }
+.sup-tools { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; margin: 4px 0 14px; }
+.sup-tools input[type="search"] { flex: 1 1 260px; min-width: 0; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
+.sup-tools input[type="search"]:focus-visible { outline: 2px solid var(--accent); border-color: var(--accent); }
+.sup-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.sup-card { display: flex; flex-direction: column; gap: 10px; }
+.sup-card h3 { margin: 0; font-size: 1.25rem; }
+.sup-card .meta { font-size: .82rem; color: var(--ink-3); }
+.sup-card ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.sup-card li { display: grid; grid-template-columns: 24px 1fr; gap: 10px; align-items: start; font-size: .9rem; }
+.sup-card li small { display: block; color: var(--ink-3); font-size: .8rem; }
+.sup-card h4 { margin: 4px 0 0; font-size: .74rem; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); }
+.sup-card .go { margin-top: auto; align-self: flex-start; font-weight: 600; font-size: .9rem; }
+@media (max-width: 760px) {
+  .mx-cols { display: none; }
+  .mx-row > summary, .mx-grp > summary { grid-template-columns: 1fr auto; gap: 8px 12px; }
+  .mx-row > summary .mx-name { grid-column: 1; }
+  .mx-row > summary .grade { grid-column: 2; grid-row: 1; }
+  .mx-row > summary .mx-eff, .mx-row > summary .mx-evi { grid-column: 1 / -1; padding-left: 18px; }
+  .mx-evi { flex-direction: row; flex-wrap: wrap; gap: 4px 14px; }
+  .mx-gmeta { grid-column: 1 / -1; }
+}
 </style>
 </head>
 <body>
@@ -283,6 +350,7 @@ const NAV = [
   { group: "Ernährung", items: [
     { title: "Makronährstoffe", children: [ { id: "protein", title: "Protein" } ] },
     { title: "Supplemente", children: [
+      { id: "supplemente", title: "Übersicht aller Supplemente" },
       { id: "kreatin", title: "Kreatin" },
       { id: "omega-3", title: "Omega-3-Fettsäuren" },
       { id: "zink", title: "Zink" },
@@ -291,6 +359,8 @@ const NAV = [
 ];
 const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2"];
 
+const PAGES = ["supplemente"]; /* Seiten ohne eigene Themendatei */
+const SUPPS = ["kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2"]; /* Supplemente mit Wirkungsübersicht */
 const $ = (id) => document.getElementById(id);
 const evLabel = { hoch: "Evidenz hoch", moderat: "Evidenz moderat", niedrig: "Evidenz niedrig" };
 const TAGS = { neu: ["Neuer Befund", ""], conf: ["Bestätigt", "conf"], rel: ["Relativiert", "rel"], contra: ["Widerspricht", "contra"] };
@@ -300,7 +370,7 @@ const fmtN = (n) => Number.isInteger(n) ? String(n) : fmt(n);
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
 const fmtDate = (s) => s.split("-").reverse().join(".");
 const cache = {};
-let T = null, active = "alle";
+let T = null, active = "alle", pendingScroll = null, mxArea = "alle";
 
 /* ----- Navigation ----- */
 function routeOf(hash) {
@@ -312,7 +382,7 @@ function routeOf(hash) {
   return { topic: "maximalkraft" };
 }
 function navItem(it, cur) {
-  const ok = AVAILABLE.includes(it.id);
+  const ok = AVAILABLE.includes(it.id) || PAGES.includes(it.id);
   return `<li><a href="#${it.id}" class="${it.id === cur ? "active" : ""}${ok ? "" : " planned"}"${it.id === cur ? ' aria-current="page"' : ""}>${it.title}${ok ? "" : " <em>geplant</em>"}</a></li>`;
 }
 function renderNav(cur) {
@@ -336,6 +406,7 @@ document.addEventListener("click", (e) => { const b = e.target.closest("[data-sc
 async function load() {
   const r = routeOf(location.hash);
   renderNav(location.hash.replace("#", "") || r.topic);
+  if (r.topic === "supplemente") return renderSupOverview();
   if (!AVAILABLE.includes(r.topic)) return renderPlanned(r.topic);
   if (!cache[r.topic]) {
     try { cache[r.topic] = await (await fetch(`data/topics/${r.topic}.json`)).json(); }
@@ -344,7 +415,8 @@ async function load() {
   T = cache[r.topic]; active = "alle";
   renderTopic(T);
   document.title = `Forschungsstand ${T.title}`;
-  if (r.scroll) setTimeout(() => scrollToId(r.scroll), 50); else window.scrollTo(0, 0);
+  const pend = pendingScroll; pendingScroll = null;
+  if (r.scroll || pend) setTimeout(() => scrollToId(r.scroll || pend), 50); else window.scrollTo(0, 0);
 }
 window.addEventListener("hashchange", load);
 function findTitle(id) { for (const g of NAV) for (const it of g.items) { if (it.id === id) return it.title; for (const c of it.children || []) if (c.id === id) return c.title; } return id; }
@@ -376,6 +448,13 @@ function renderTopic(t) {
         <p>${x.p}</p><span class="cite">${citeList(x.s)}</span>
       </article>`).join("")}</div>
   </section>
+  ${t.matrix ? `<section id="wirkung">
+    <h2>Wirkungsübersicht</h2>
+    <p class="lead">Alle untersuchten Wirkungen auf einen Blick: wie sicher der Befund ist (Grad), in welche Richtung und wie stark etwas wirkt (Effekt) und wie breit die Datenbasis ist (Evidenz). Für Befund und Quellen eine Zeile anklicken.</p>
+    <div class="filters" role="group" aria-label="Bereich filtern" id="mx-filters"></div>
+    <div class="card mx" id="mx" style="margin-top:12px"></div>
+    <details class="card table-view" style="margin-top:12px"><summary>Wie werden Grad und Effekt bestimmt?</summary><div style="margin-top:14px">${mxLegend()}</div></details>
+  </section>` : ""}
   <section id="ableitungen">
     <h2>${t.rxtitle || "Ableitungen für die Praxis"}</h2>
     <p class="lead">${t.rxlead}</p>
@@ -438,14 +517,167 @@ function renderTopic(t) {
       <thead><tr><th>Datum</th><th>Änderung</th></tr></thead>
       <tbody>${t.changelog.map(c => `<tr><td class="num">${c.d}</td><td>${c.t}</td></tr>`).join("")}</tbody></table></div></div>
   </section>`;
-  $("toc").innerHTML = [["ueberblick", "Kurzfazit"], ["ableitungen", "Ableitungen"], ["variablen", t.varstitle || "Im Detail"]].map(([i, l]) => `<li><button type="button" data-scroll="${i}">${l}</button></li>`).join("")
+  $("toc").innerHTML = [["ueberblick", "Kurzfazit"], ...(t.matrix ? [["wirkung", "Wirkungsübersicht"]] : []), ["ableitungen", "Ableitungen"], ["variablen", t.varstitle || "Im Detail"]].map(([i, l]) => `<li><button type="button" data-scroll="${i}">${l}</button></li>`).join("")
     + `<li><ul class="toc sub">${t.vars.map(v => `<li><button type="button" data-scroll="var-${v.id}">${v.name}</button></li>`).join("")}</ul></li>`
     + [["verlauf", "Forschungsverlauf"], ["quellen", "Quellen"], ["methodik", "Methodik"]].map(([i, l]) => `<li><button type="button" data-scroll="${i}">${l}</button></li>`).join("");
+  if (t.matrix) { mxArea = "alle"; renderMx(); $("mx-filters").addEventListener("click", (ev) => { const b = ev.target.closest("button"); if (!b) return; mxArea = b.dataset.f; renderMx(); }); }
   renderTimeline();
   $("tl-filters").addEventListener("click", (ev) => { const b = ev.target.closest("button"); if (!b) return; active = b.dataset.f; renderTimeline(); });
   t.vars.forEach(v => (v.figs || []).forEach(f => CHARTS[f.type](f.id, f.data, f.opts || {})));
   loadScreening(t.id);
 }
+
+/* ----- Wirkungsübersicht ----- */
+const GRADE = {
+  A: "Grad A – hoch: mehrere übereinstimmende Metaanalysen oder eine große Metaanalyse (mind. 20 Studien bzw. 1000 Teilnehmende) mit eindeutigem Ergebnis.",
+  B: "Grad B – moderat: mindestens eine Metaanalyse mit 8 oder mehr Studien, Ergebnisse überwiegend übereinstimmend.",
+  C: "Grad C – niedrig: wenige Studien, widersprüchliche Metaanalysen, hohe Heterogenität oder nur eingeschränkt übertragbare Population.",
+  D: "Grad D – sehr niedrig: sehr wenige oder kleine Studien, überwiegend indirekte Hinweise (z. B. Tierstudien)." };
+const AREAS = [["alle", "Alle"], ["Leistung", "Leistung"], ["Regeneration", "Regeneration"], ["Gesundheit", "Gesundheit"]];
+const KAT = [["kraft", "Kraft und Muskelfunktion"], ["masse", "Muskelmasse und Körperbau"], ["ausdauer", "Schnellkraft und Ausdauer"], ["regeneration", "Erholung und Regeneration"],
+  ["entzuendung", "Entzündung"], ["hormone", "Hormone"], ["herz", "Herz-Kreislauf und Stoffwechsel"], ["stoffwechsel", "Herz-Kreislauf und Stoffwechsel"], ["infekte", "Immunsystem und Infekte"],
+  ["knochen", "Knochen"], ["gehirn", "Gehirn und Schlaf"], ["status", "Nährstoffstatus"], ["sicherheit", "Sicherheit und Nebenwirkungen"]];
+const fmtInt = (n) => Number(n).toLocaleString("de-DE");
+const ICON_DOC = '<svg width="13" height="15" viewBox="0 0 13 15" aria-hidden="true"><path d="M2 1h6l3 3v10H2z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M4 7h5M4 9.5h5M4 12h3" stroke="currentColor" stroke-width="1.2"/></svg>';
+const ICON_PERS = '<svg width="13" height="14" viewBox="0 0 13 14" aria-hidden="true"><circle cx="6.5" cy="4" r="2.8" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M1.2 13.3c.6-3 2.7-4.6 5.3-4.6s4.7 1.6 5.3 4.6" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>';
+function effLabel(it) {
+  if (it.m === 0) return "Kein Effekt";
+  if (it.m === null || it.m === undefined) return "Uneinheitlich";
+  const dir = it.d === "auf" ? "Zunahme" : "Abnahme";
+  if (it.m === -1) return `${dir}, Größe nicht angegeben`;
+  return `${["", "Sehr kleine", "Kleine", "Mittlere", "Große"][it.m]} ${dir}`;
+}
+function effGlyph(it) {
+  const W = 52, H = 20;
+  if (it.m === 0) return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true"><rect x="2" y="9" width="16" height="3" rx="1.5" fill="currentColor"/></svg>`;
+  if (it.m === null || it.m === undefined) return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true"><path d="M2 7.5c3-3 5 3 8 0s5-3 8 0M2 13.5c3-3 5 3 8 0s5-3 8 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+  const up = it.d === "auf";
+  const arrow = up ? `<path d="M10 2 4 9h4v9h4V9h4z" fill="currentColor"/>` : `<path d="M10 18 4 11h4V2h4v9h4z" fill="currentColor"/>`;
+  const bars = [0, 1, 2, 3].map(i => { const h = 6 + i * 4; return `<rect x="${24 + i * 7}" y="${18 - h}" width="5" height="${h}" rx="1.5" fill="${it.m > i ? "currentColor" : "var(--line)"}"/>`; }).join("");
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true">${arrow}${bars}</svg>`;
+}
+function mxRow(it, opt) {
+  const cites = opt.cites(it.s);
+  return `<details class="mx-row"><summary>
+      <span class="mx-name">${opt.prefix ? `<span class="mx-sup">${opt.prefix}</span>` : ""}${it.n}</span>
+      <span class="grade g-${it.g}" title="${esc(GRADE[it.g])}" aria-label="${esc(GRADE[it.g].split(":")[0])}">${it.g}</span>
+      <span class="mx-eff eff-${it.b}">${effGlyph(it)}<span>${effLabel(it)}${it.b === "schaden" ? ' <em class="mx-warn">unerwünscht</em>' : ""}</span></span>
+      <span class="mx-evi"><span>${ICON_DOC}${it.k ? `${fmtInt(it.k)} Studien` : "Studienzahl k. A."}</span><span>${ICON_PERS}${it.p ? `${fmtInt(it.p)} Teilnehmende` : "Teilnehmende k. A."}</span></span>
+    </summary>
+    <div class="mx-detail"><p>${it.t}</p><span class="cite">${cites}</span>${opt.more(it)}</div></details>`;
+}
+function mxGroup(title, sub, items, opt, open = true) {
+  const src = new Set(items.flatMap(i => opt.srcKeys ? opt.srcKeys(i) : i.s)).size;
+  return `<details class="mx-grp"${open ? " open" : ""}><summary>
+      <span class="mx-gname">${title}${sub ? `<small>${sub}</small>` : ""}</span>
+      <span class="mx-gmeta">${items.length} ${items.length === 1 ? "Wirkung" : "Wirkungen"} · ${src} ${src === 1 ? "Quelle" : "Quellen"}</span>
+    </summary>${items.map(i => mxRow(i, opt)).join("")}</details>`;
+}
+const MX_COLS = `<div class="mx-cols" aria-hidden="true"><span>Ziel · Wirkung</span><span>Grad</span><span>Effekt</span><span>Evidenz</span></div>`;
+function renderMx() {
+  $("mx-filters").innerHTML = AREAS.map(([k, l]) => `<button type="button" data-f="${k}" aria-pressed="${k === mxArea}">${l}</button>`).join("");
+  const groups = T.matrix.filter(g => mxArea === "alle" || g.bereich === mxArea);
+  const opt = { cites: (keys) => citeList(keys), more: (it) => `<a class="more" href="#var-${it.v}">Zum Abschnitt im Detail →</a>` };
+  $("mx").innerHTML = MX_COLS + (groups.length ? groups.map(g => mxGroup(g.ziel, mxArea === "alle" ? g.bereich : "", g.items, opt)).join("") : `<p class="mx-empty">In diesem Bereich wurden keine Wirkungen untersucht.</p>`);
+}
+function mxLegend() {
+  const ex = (m, d, b) => `<span class="eff-key mx-eff eff-${b}">${effGlyph({ m, d })}<span>${effLabel({ m, d })}</span></span>`;
+  return `<div class="mx-legend">
+    <div><h3>Grad: Wie sicher ist der Befund?</h3><dl>${["A", "B", "C", "D"].map(g => `<dt><span class="grade small g-${g}">${g}</span></dt><dd>${GRADE[g].split(": ")[1]}</dd>`).join("")}</dl>
+      <p class="cap" style="margin-top:10px">Der Grad beschreibt die Verlässlichkeit, nicht die Stärke der Wirkung. Auch „Kein Effekt“ kann mit Grad A belegt sein.</p></div>
+    <div><h3>Effekt: Wie stark ist die Wirkung?</h3><dl>
+      <dt>${ex(1, "auf", "nutzen")}</dt><dd>SMD unter 0,2 bzw. Risikoänderung unter 10 %</dd>
+      <dt>${ex(2, "auf", "nutzen")}</dt><dd>SMD 0,2–0,49 bzw. 10–24 %</dd>
+      <dt>${ex(3, "auf", "nutzen")}</dt><dd>SMD 0,5–0,79 bzw. 25–49 %</dd>
+      <dt>${ex(4, "auf", "nutzen")}</dt><dd>SMD ab 0,8 bzw. ab 50 %</dd>
+      <dt>${ex(0, null, "neutral")}</dt><dd>nicht signifikant</dd>
+      <dt>${ex(null, null, "neutral")}</dt><dd>Metaanalysen widersprechen sich</dd></dl>
+      <p class="cap" style="margin-top:10px">Grün = erwünschte Wirkung, Rot mit Hinweis „unerwünscht“ = Nachteil. Bei Angaben in Kilogramm, mmHg oder Tagen wird die praktische Bedeutung im Befundtext eingeordnet.</p></div>
+    <div><h3>Evidenz</h3><p>Studien und Teilnehmende stammen aus der größten Metaanalyse zu dieser Wirkung, so wie sie im Abstract berichtet werden. „k. A.“ heißt: im Abstract nicht angegeben. Alle Zahlen stammen aus den zitierten Arbeiten; die Einstufung nimmt diese Website vor.</p></div>
+  </div>`;
+}
+
+/* ----- Übersicht aller Supplemente ----- */
+let supView = "sup", supArea = "alle", supQuery = "";
+async function renderSupOverview() {
+  $("toc").innerHTML = "";
+  document.title = "Forschungsstand Supplemente";
+  $("main").innerHTML = `<section><p class="lead">Wird geladen …</p></section>`;
+  try { await Promise.all(SUPPS.map(async id => { if (!cache[id]) cache[id] = await (await fetch(`data/topics/${id}.json`)).json(); })); }
+  catch (e) { $("main").innerHTML = `<section><div class="card empty"><h2>Übersicht konnte nicht geladen werden</h2><p>Bitte die Seite neu laden.</p></div></section>`; return; }
+  const tops = SUPPS.map(id => cache[id]).filter(t => t.matrix);
+  const nW = tops.reduce((a, t) => a + t.matrix.reduce((b, g) => b + g.items.length, 0), 0);
+  const nS = tops.reduce((a, t) => a + Object.keys(t.sources).length, 0);
+  const stand = tops.map(t => t.stand).sort().pop();
+  $("main").innerHTML = `
+  <section id="ueberblick">
+    <div class="status-bar"><span><b>Stand:</b> ${fmtDate(stand)}</span><span><b>Supplemente:</b> <span class="num">${tops.length}</span></span><span><b>Bewertete Wirkungen:</b> <span class="num">${nW}</span></span><span><b>Quellen:</b> <span class="num">${nS}</span></span></div>
+    <h1>Supplemente im Überblick</h1>
+    <p class="lead">Was wirkt wofür, und wie gut ist das belegt? Jede Wirkung ist aus Metaanalysen und systematischen Reviews abgeleitet und nach Verlässlichkeit (Grad A–D) und Stärke (Effekt) eingestuft. Ansicht wählen, filtern oder nach einem Ziel suchen.</p>
+    <div class="sup-tools">
+      <div class="filters" role="group" aria-label="Ansicht" id="sup-view-btns"></div>
+      <input type="search" id="sup-q" placeholder="Suchen, z. B. Kraft, Blutdruck, Erkältung" aria-label="Wirkungen durchsuchen" value="${esc(supQuery)}">
+      <div class="filters" role="group" aria-label="Bereich filtern" id="sup-area-btns"></div>
+    </div>
+    <div id="sup-out"></div>
+    <details class="card table-view" style="margin-top:14px"><summary>Wie werden Grad und Effekt bestimmt?</summary><div style="margin-top:14px">${mxLegend()}</div></details>
+  </section>`;
+  $("sup-view-btns").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; supView = b.dataset.f; drawSup(); });
+  $("sup-area-btns").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; supArea = b.dataset.f; drawSup(); });
+  $("sup-q").addEventListener("input", (e) => { supQuery = e.target.value; drawSup(); });
+  drawSup();
+  window.scrollTo(0, 0);
+}
+function supItems() {
+  const q = supQuery.trim().toLowerCase();
+  const out = [];
+  SUPPS.forEach(id => { const t = cache[id]; if (!t || !t.matrix) return;
+    t.matrix.forEach(g => { if (supArea !== "alle" && g.bereich !== supArea) return;
+      g.items.forEach(it => { const hay = `${t.title} ${g.ziel} ${it.n} ${it.t} ${(KAT.find(k => k[0] === g.kat) || ["", ""])[1]}`.toLowerCase();
+        if (!q || hay.includes(q)) out.push({ ...it, top: t, grp: g }); }); }); });
+  return out;
+}
+const rank = (it) => "ABCD".indexOf(it.g) * 10 - (it.b === "nutzen" && it.m > 0 ? it.m : 0);
+function supOpt() {
+  return { prefix: null, srcKeys: (i) => i.s.map(k => i.top.id + k),
+    cites: function (keys) { return "[" + keys.map(k => this.cur.top.sources[k].short).join("; ") + "]"; },
+    more: (it) => `<a class="more" href="#${it.top.id}" data-goto="var-${it.v}">Zu ${it.top.title} →</a>` };
+}
+function drawSup() {
+  $("sup-view-btns").innerHTML = [["sup", "Nach Supplement"], ["ziel", "Nach Ziel"]].map(([k, l]) => `<button type="button" data-f="${k}" aria-pressed="${k === supView}">${l}</button>`).join("");
+  $("sup-area-btns").innerHTML = AREAS.map(([k, l]) => `<button type="button" data-f="${k}" aria-pressed="${k === supArea}">${l}</button>`).join("");
+  const items = supItems();
+  if (!items.length) { $("sup-out").innerHTML = `<div class="card mx-empty">Keine passenden Wirkungen gefunden.</div>`; return; }
+  if (supView === "sup") {
+    $("sup-out").innerHTML = `<div class="sup-grid">${SUPPS.map(id => {
+      const t = cache[id]; const mine = items.filter(i => i.top.id === id); if (!mine.length) return "";
+      const pos = mine.filter(i => i.b === "nutzen" && i.m !== 0).sort((a, b) => rank(a) - rank(b)).slice(0, 4);
+      const none = mine.filter(i => i.m === 0).sort((a, b) => rank(a) - rank(b)).slice(0, 2);
+      const neg = mine.filter(i => i.b === "schaden");
+      const li = (i) => `<li><span class="grade small g-${i.g}" title="${esc(GRADE[i.g])}">${i.g}</span><span>${i.n}<small>${effLabel(i)}</small></span></li>`;
+      return `<article class="card sup-card">
+        <h3><a href="#${id}">${t.title}</a></h3>
+        <span class="meta">${mine.length} ${mine.length === 1 ? "Wirkung" : "Wirkungen"} · ${Object.keys(t.sources).length} Quellen · Stand ${fmtDate(t.stand)}</span>
+        ${pos.length ? `<h4>Belegte Wirkungen</h4><ul>${pos.map(li).join("")}</ul>` : ""}
+        ${none.length ? `<h4>Kein Effekt</h4><ul>${none.map(li).join("")}</ul>` : ""}
+        ${neg.length ? `<h4>Zu beachten</h4><ul>${neg.map(li).join("")}</ul>` : ""}
+        <a class="go" href="#${id}" data-goto="wirkung">Alle Wirkungen ansehen →</a>
+      </article>`; }).join("")}</div>`;
+  } else {
+    const opt = supOpt();
+    const seen = [];
+    const html = KAT.filter(([k, l]) => { if (seen.includes(l)) return false; seen.push(l); return true; }).map(([k, label]) => {
+      const keys = KAT.filter(x => x[1] === label).map(x => x[0]);
+      const rows = items.filter(i => keys.includes(i.grp.kat)).sort((a, b) => rank(a) - rank(b) || a.top.title.localeCompare(b.top.title, "de"));
+      if (!rows.length) return "";
+      const sup = new Set(rows.map(r => r.top.id)).size;
+      return `<details class="mx-grp" open><summary><span class="mx-gname">${label}</span><span class="mx-gmeta">${rows.length} ${rows.length === 1 ? "Wirkung" : "Wirkungen"} · ${sup} ${sup === 1 ? "Supplement" : "Supplemente"}</span></summary>${rows.map(r => { opt.cur = r; return mxRow(r, { ...opt, prefix: r.top.title, cites: (k) => opt.cites.call(opt, k) }); }).join("")}</details>`;
+    }).join("");
+    $("sup-out").innerHTML = `<div class="card mx">${MX_COLS}${html}</div>`;
+  }
+}
+document.addEventListener("click", (e) => { const a = e.target.closest("a[data-goto]"); if (a) pendingScroll = a.dataset.goto; });
+
 function renderTimeline() {
   const filters = [["alle", "Alle"], ["conf", "Bestätigt"], ["rel", "Relativiert"], ["contra", "Widerspricht"]];
   $("tl-filters").innerHTML = filters.map(([k, l]) => `<button type="button" data-f="${k}" aria-pressed="${k === active}">${l}</button>`).join("");

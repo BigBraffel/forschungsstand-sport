@@ -14,7 +14,42 @@ Diese Regeln gelten für jeden Aktualisierungslauf, ob automatisch oder von Hand
 - `timeline`: y, t, p, tag (neu/conf/rel/contra), s.
 - `changelog`: d (TT.MM.JJJJ), t. Der neueste Eintrag steht zuerst.
 
-`index.html` wird nur geändert, wenn ein neues Thema hinzukommt (NAV und AVAILABLE).
+`index.html` wird nur geändert, wenn ein neues Thema hinzukommt (NAV und AVAILABLE; ein neues Supplement zusätzlich in SUPPS).
+
+## Wirkungsübersicht (nur Supplemente, Feld `matrix`)
+
+`matrix` ist eine Liste von Gruppen: bereich (Leistung/Regeneration/Gesundheit), ziel, kat, items.
+- `kat` ordnet die Gruppe der themenübergreifenden Ansicht „Nach Ziel“ zu: kraft, masse, ausdauer, regeneration, entzuendung, hormone, herz, stoffwechsel, infekte, knochen, gehirn, status, sicherheit.
+- Jede Wirkung (`items`) hat diese Felder:
+  - n: Name
+  - g: Grad
+  - d: Richtung (`auf`/`ab`/null)
+  - m: Größe
+  - b: Bewertung (`nutzen`/`schaden`/`neutral`)
+  - k: Studien der größten Analyse
+  - p: Teilnehmende der größten Analyse, oder null
+  - s: Quellen
+  - t: Befund mit den Zahlen aus den Abstracts
+  - v: zugehöriger Abschnitt in `vars`
+
+**Grad (Verlässlichkeit, nicht Stärke):**
+- A: mehrere übereinstimmende Metaanalysen oder eine große (mind. 20 Studien bzw. 1000 Teilnehmende) mit eindeutigem Ergebnis.
+- B: mindestens eine Metaanalyse mit 8 oder mehr Studien, überwiegend übereinstimmend.
+- C: wenige Studien, widersprüchliche Metaanalysen, hohe Heterogenität oder eingeschränkt übertragbare Population.
+- D: sehr wenige oder kleine Studien, überwiegend indirekte Hinweise.
+
+**Größe `m`:**
+- 0: nicht signifikant
+- 1: SMD unter 0,2 bzw. Risikoänderung unter 10 %
+- 2: SMD 0,2–0,49 bzw. 10–24 %
+- 3: SMD 0,5–0,79 bzw. 25–49 %
+- 4: SMD ab 0,8 bzw. ab 50 %
+- null: Metaanalysen widersprechen sich
+- −1: Richtung belegt, Größe nicht berichtet
+
+Bei Rohwerten (kg, mmHg, Tage) wird die Größe nach praktischer Bedeutung eingestuft und im Befund begründet.
+
+**Pflege bei jedem Lauf:** Wird eine Arbeit zu einem Supplement aufgenommen, die passende Wirkung prüfen und anpassen (Grad, Effekt, Studienzahl, Befund, Quellen) oder eine neue Wirkung anlegen. Ändert sich eine Einstufung, kommt das in den changelog und, wenn es einem früheren Befund widerspricht, auch in die timeline.
 
 ## Ablauf je Thema
 

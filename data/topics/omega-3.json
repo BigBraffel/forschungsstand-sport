@@ -1,7 +1,7 @@
 {
  "id": "omega-3",
  "title": "Omega-3-Fettsäuren",
- "stand": "2026-11-16",
+ "stand": "2026-11-17",
  "lead": "Was bewirken die langkettigen Omega-3-Fettsäuren EPA und DHA bei Muskelkraft, Muskelmasse, Erholung und Herz-Kreislauf-Gesundheit? Zusammengefasst aus Metaanalysen und dem ISSN-Positionspapier 2025.",
  "rxtitle": "Ableitungen für Ernährung und Training",
  "rxlead": "Für gesunde Erwachsene. Omega-3 ist kein Muskelaufbaumittel, kann aber Entzündung und Muskelkater nach intensiver Belastung senken und hat gut belegte Herz-Kreislauf-Effekte.",
@@ -517,6 +517,10 @@
  ],
  "changelog": [
   {
+   "d": "17.11.2026",
+   "t": "Wirkungsübersicht ergänzt: 10 Wirkungen nach Verlässlichkeit (Grad A–D), Effekt und Datenbasis eingestuft; neue Übersichtsseite für alle Supplemente."
+  },
+  {
    "d": "16.11.2026",
    "t": "Vormerkungen ausgewertet: 10 geprüft, 10 aufgenommen, 0 ausgeschlossen. Kardiologische Metaanalysen (Hu 2019, Rizos 2021, Yan 2024, Dinu 2024) mit den vorhandenen abgeglichen: Nutzen bestätigt, aber dosisabhängig (bis 1 g/Tag kein Effekt), Vorhofflimmern-Risiko repliziert; Vergleichs- und Dosis-Abbildung ergänzt. Neuer Abschnitt „Muskel und Funktion bei Älteren“ (Alterseffekt, Evidenz niedrig); Netzwerk-Metaanalyse bei Trainierten zur Erholung ergänzt."
   },
@@ -679,5 +683,193 @@
    "apa": "Dinu, M., Sofi, F., Lotti, S., Colombini, B., Mattioli, A. V., Catapano, A. L., Casula, M., Baragetti, A., Wong, N. D., Steg, P. G. &amp; Ambrosio, G. (2024). Effects of omega-3 fatty acids on coronary revascularization and cardiovascular events: A meta-analysis. <em>European Journal of Preventive Cardiology, 31</em>(15), 1863–1875.",
    "doi": "10.1093/eurjpc/zwae184"
   }
- }
+ },
+ "matrix": [
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung nach Belastung",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Muskelkater und Erholung",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 35,
+     "p": 1211,
+     "s": [
+      "wang2026",
+      "li2026",
+      "jager2025"
+     ],
+     "t": "Bei Trainierten der stärkste Effekt auf Erholungsparameter unter den verglichenen Supplementen (SMD 0,40; 35 Studien, n = 1211); Muskelkater sank (SMD −0,4 bis −0,7).",
+     "v": "erholung"
+    },
+    {
+     "n": "Entzündungs- und Schädigungsmarker",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 41,
+     "p": null,
+     "s": [
+      "li2026"
+     ],
+     "t": "IL-6, TNF-α und Kreatinkinase sanken (SMD −0,4 bis −0,7), am deutlichsten ab 2 g/Tag EPA+DHA über mindestens 6 Wochen. CRP uneinheitlich. Einzelne Analyse ohne Angaben zur Studienqualität im Abstract.",
+     "v": "erholung"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Muskel bei jungen und gesunden Erwachsenen",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Muskelkraft",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 14,
+     "p": 1443,
+     "s": [
+      "santoandre2023",
+      "jager2025"
+     ],
+     "t": "SMD 0,12 und damit sehr klein (14 Studien, n = 1443).",
+     "v": "muskel"
+    },
+    {
+     "n": "Muskelmasse",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 14,
+     "p": 1443,
+     "s": [
+      "santoandre2023",
+      "delpino2021"
+     ],
+     "t": "SMD 0,07, nicht signifikant; auch 11 Studien zur fettfreien Masse ohne Effekt.",
+     "v": "muskel"
+    },
+    {
+     "n": "Muskelproteinsynthese",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 6,
+     "p": null,
+     "s": [
+      "therdyothin2025"
+     ],
+     "t": "SMD 0,03 (6 Studien); nur die Ganzkörper-Proteinsynthese stieg (SMD 0,51; 3 Studien).",
+     "v": "muskel"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Muskel im Alter",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Kraft bei Älteren",
+     "g": "C",
+     "d": "auf",
+     "m": null,
+     "b": "nutzen",
+     "k": 16,
+     "p": null,
+     "s": [
+      "cornish2022",
+      "ma2021",
+      "timraz2023",
+      "rondanelli2021"
+     ],
+     "t": "Beinkraft SMD 0,54 und Handkraft +1,17 kg in zwei Analysen; Oberkörperkraft (SMD 0,05) und Handkraft in anderen Analysen ohne Effekt.",
+     "v": "alter"
+    },
+    {
+     "n": "Gehtest-Zeit bei Älteren (Timed-up-and-go)",
+     "g": "B",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 14,
+     "p": 2220,
+     "s": [
+      "rondanelli2021",
+      "huang2020",
+      "ma2021"
+     ],
+     "t": "Test um 0,28 s bzw. 0,30 s schneller absolviert; in einer Analyse nicht signifikant (−0,25 s).",
+     "v": "alter"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz-Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Herzinfarkt",
+     "g": "A",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 40,
+     "p": 135267,
+     "s": [
+      "bernasconi2021",
+      "khan2021",
+      "hu2019",
+      "dinu2024",
+      "yan2024",
+      "rizos2021"
+     ],
+     "t": "RR 0,87 (40 Studien); 272 Personen müssen behandelt werden, um einen Infarkt zu verhindern. Bis 1 g/Tag kein Zusammenhang (Rizos et al., 2021).",
+     "v": "herz"
+    },
+    {
+     "n": "Kardiovaskuläre Sterblichkeit",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 38,
+     "p": 149051,
+     "s": [
+      "khan2021",
+      "hu2019",
+      "dinu2024",
+      "yan2024"
+     ],
+     "t": "RR 0,92 bis 0,94; mit EPA allein stärker (RR 0,82).",
+     "v": "herz"
+    },
+    {
+     "n": "Vorhofflimmern",
+     "g": "B",
+     "d": "auf",
+     "m": 3,
+     "b": "schaden",
+     "k": 38,
+     "p": 149051,
+     "s": [
+      "khan2021",
+      "yan2024"
+     ],
+     "t": "Risiko erhöht: RR 1,26 bzw. 1,25 in zwei unabhängigen Analysen.",
+     "v": "herz"
+    }
+   ]
+  }
+ ]
 }
