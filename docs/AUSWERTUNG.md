@@ -35,7 +35,7 @@ Diese Regeln gelten für jeden Aktualisierungslauf, ob automatisch oder von Hand
   - t: Befund mit den Zahlen aus den Abstracts
   - v: zugehöriger Abschnitt in `vars`
 
-**Grad (Verlässlichkeit, nicht Stärke):**
+**Grad (Verlässlichkeit, nicht Stärke).** Auf der Seite erscheint er als Beleglage mit vier Punkten: A = Stark (4), B = Gut (3), C = Begrenzt (2), D = Schwach (1), "0" = Keine Daten (leer). Es gibt bewusst keine Ampelfarben; farbig (Bernstein, „Nachteil“) sind nur Wirkungen mit b = schaden.
 - A: mehrere übereinstimmende Metaanalysen oder eine große (mind. 20 Studien bzw. 1000 Teilnehmende) mit eindeutigem Ergebnis.
 - B: mindestens eine Metaanalyse mit 8 oder mehr Studien, überwiegend übereinstimmend.
 - C: wenige Studien, widersprüchliche Metaanalysen, hohe Heterogenität oder eingeschränkt übertragbare Population.

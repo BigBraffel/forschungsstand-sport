@@ -112,7 +112,7 @@ p { margin: 0; }
 .topics li span em { font-style: normal; font-size: .72rem; border: 1px solid var(--line); border-radius: 99px; padding: 0 7px; }
 .toc a:hover, .topics li a:hover { background: var(--surface-2); }
 
-main { padding: 32px clamp(16px, 4vw, 56px) 80px; display: flex; flex-direction: column; gap: 48px; width: 100%; max-width: 1520px; margin: 0 auto; }
+main { padding: 32px clamp(16px, 4vw, 56px) 80px; display: flex; flex-direction: column; gap: 48px; width: 100%; box-sizing: border-box; min-width: 0; max-width: 1520px; margin: 0 auto; }
 section { display: flex; flex-direction: column; gap: 18px; scroll-margin-top: 16px; }
 .lead { color: var(--ink-2); max-width: 68ch; }
 
@@ -259,9 +259,9 @@ html { scroll-behavior: smooth; }
 
 /* ----- Wirkungsübersicht (Matrix) und Supplement-Übersicht ----- */
 .mx { padding: 0; overflow: hidden; }
-.mx-cols, .mx-row > summary, .mx-grp > summary { display: grid; grid-template-columns: minmax(0, 1.7fr) 64px minmax(150px, 1fr) minmax(150px, 1fr); gap: 12px; align-items: center; padding: 12px 18px; }
+.mx-cols, .mx-row > summary, .mx-grp > summary { display: grid; grid-template-columns: minmax(0, 1.7fr) 120px minmax(150px, 1fr) minmax(150px, 1fr); gap: 12px; align-items: center; padding: 12px 18px; }
 .mx-cols { background: var(--surface-2); font-size: .74rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); border-bottom: 1px solid var(--line); }
-.mx-cols span:nth-child(2) { text-align: center; }
+
 .mx-grp { border-bottom: 1px solid var(--line); }
 .mx-grp:last-child { border-bottom: 0; }
 .mx-grp > summary { cursor: pointer; list-style: none; background: color-mix(in srgb, var(--surface-2) 60%, var(--surface)); }
@@ -319,7 +319,7 @@ html { scroll-behavior: smooth; }
   .mx-cols { display: none; }
   .mx-row > summary, .mx-grp > summary { grid-template-columns: 1fr auto; gap: 8px 12px; }
   .mx-row > summary .mx-name { grid-column: 1; }
-  .mx-row > summary .grade { grid-column: 2; grid-row: 1; }
+  .mx-row > summary .ev { grid-column: 2; grid-row: 1; align-items: flex-end; }
   .mx-row > summary .mx-eff, .mx-row > summary .mx-evi { grid-column: 1 / -1; padding-left: 18px; }
   .mx-evi { flex-direction: row; flex-wrap: wrap; gap: 4px 14px; }
   .mx-gmeta { grid-column: 1 / -1; }
@@ -333,6 +333,19 @@ ol.findings li { display: grid; grid-template-columns: 26px 1fr; gap: 4px 10px; 
 ol.findings li::before { content: counter(f); display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; font-size: .75rem; font-weight: 700; background: var(--surface-2); color: var(--ink-2); grid-row: span 2; margin-top: 1px; }
 ol.findings li.lv0::before, ol.findings li.lv1::before { background: var(--accent); color: var(--surface); }
 ol.findings .lvl { font-size: .72rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: var(--ink-3); }
+
+.ev { display: inline-flex; flex-direction: column; gap: 4px; font-size: .8rem; color: var(--ink-2); line-height: 1.1; }
+.ev .dots { display: inline-flex; gap: 4px; }
+.ev .dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--line); display: block; }
+.ev .dots i.on { background: var(--accent); }
+.ev.ev-0 .dots i { background: transparent; box-shadow: inset 0 0 0 1.5px var(--ink-3); }
+.ev.small { flex-direction: row; align-items: center; gap: 0; }
+.ev.small .dots i { width: 8px; height: 8px; }
+.sup-card li .ev.small { padding-top: 6px; }
+.eff-nutzen svg, .eff-neutral svg { color: var(--accent); }
+.eff-schaden svg { color: var(--warn); }
+.mx-warn { color: var(--warn) !important; background: var(--warn-bg) !important; }
+.sup-card li { grid-template-columns: 44px 1fr !important; }
 </style>
 </head>
 <body>
@@ -507,10 +520,10 @@ function renderTopic(t) {
   </section>
   ${t.matrix ? `<section id="wirkung">
     <h2>Wirkungsübersicht</h2>
-    <p class="lead">Alle untersuchten Wirkungen auf einen Blick: wie sicher der Befund ist (Grad), in welche Richtung und wie stark etwas wirkt (Effekt) und wie breit die Datenbasis ist (Evidenz). Für Befund und Quellen eine Zeile anklicken.</p>
+    <p class="lead">Alle untersuchten Wirkungen auf einen Blick: wie gut der Befund belegt ist (Beleglage), in welche Richtung und wie stark etwas wirkt (Effekt) und wie breit die Datenbasis ist. Für Befund und Quellen eine Zeile anklicken.</p>
     <div class="filters" role="group" aria-label="Bereich filtern" id="mx-filters"></div>
     <div class="card mx" id="mx" style="margin-top:12px"></div>
-    <details class="card table-view" style="margin-top:12px"><summary>Wie werden Grad und Effekt bestimmt?</summary><div style="margin-top:14px">${mxLegend()}</div></details>
+    <details class="card table-view" style="margin-top:12px"><summary>Wie werden Beleglage und Effekt bestimmt?</summary><div style="margin-top:14px">${mxLegend()}</div></details>
   </section>` : ""}
   <section id="ableitungen">
     <h2>${t.rxtitle || "Ableitungen für die Praxis"}</h2>
@@ -586,12 +599,18 @@ function renderTopic(t) {
 
 /* ----- Wirkungsübersicht ----- */
 const GRADE = {
-  A: "Grad A – hoch: mehrere übereinstimmende Metaanalysen oder eine große Metaanalyse (mind. 20 Studien bzw. 1000 Teilnehmende) mit eindeutigem Ergebnis.",
-  B: "Grad B – moderat: mindestens eine Metaanalyse mit 8 oder mehr Studien, Ergebnisse überwiegend übereinstimmend.",
-  C: "Grad C – niedrig: wenige Studien, widersprüchliche Metaanalysen, hohe Heterogenität oder nur eingeschränkt übertragbare Population.",
-  D: "Grad D – sehr niedrig: sehr wenige oder kleine Studien, überwiegend indirekte Hinweise (z. B. Tierstudien).",
-  "0": "Keine Daten: zu dieser Wirkung wurde keine Metaanalyse oder systematische Übersicht gefunden." };
+  A: "Stark belegt: mehrere übereinstimmende Metaanalysen oder eine große Metaanalyse (mind. 20 Studien bzw. 1000 Teilnehmende) mit eindeutigem Ergebnis.",
+  B: "Gut belegt: mindestens eine Metaanalyse mit 8 oder mehr Studien, Ergebnisse überwiegend übereinstimmend.",
+  C: "Begrenzt belegt: wenige Studien, widersprüchliche Metaanalysen, hohe Heterogenität oder nur eingeschränkt übertragbare Population.",
+  D: "Schwach belegt: sehr wenige oder kleine Studien, überwiegend indirekte Hinweise (z. B. Tierstudien).",
+  "0": "Keine Daten: Zu dieser Wirkung wurde keine Metaanalyse oder systematische Übersicht gefunden." };
 const gLabel = (g) => g === "0" ? "–" : g;
+const EV_N = { A: 4, B: 3, C: 2, D: 1, "0": 0 };
+const EV_WORD = { A: "Stark", B: "Gut", C: "Begrenzt", D: "Schwach", "0": "Keine Daten" };
+function evHTML(g, small) {
+  const n = EV_N[g] ?? 0;
+  return `<span class="ev ev-${g}${small ? " small" : ""}" title="${esc(GRADE[g])}" aria-label="Beleglage: ${EV_WORD[g]}"><span class="dots">${[1, 2, 3, 4].map(i => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>${small ? "" : `<span>${EV_WORD[g]}</span>`}</span>`;
+}
 const AREAS = [["alle", "Alle"], ["Leistung", "Leistung"], ["Regeneration", "Regeneration"], ["Gesundheit", "Gesundheit"]];
 const KAT = [["kraft", "Kraft und Muskelfunktion"], ["masse", "Muskelmasse und Körperbau"], ["ausdauer", "Schnellkraft und Ausdauer"], ["regeneration", "Erholung und Regeneration"],
   ["entzuendung", "Entzündung"], ["hormone", "Hormone"], ["herz", "Herz-Kreislauf und Stoffwechsel"], ["stoffwechsel", "Herz-Kreislauf und Stoffwechsel"], ["infekte", "Immunsystem und Infekte"],
@@ -621,8 +640,8 @@ function mxRow(it, opt) {
   const cites = it.s.length ? opt.cites(it.s) : "";
   return `<details class="mx-row"><summary>
       <span class="mx-name">${opt.prefix ? `<span class="mx-sup">${opt.prefix}</span>` : ""}${it.n}</span>
-      <span class="grade g-${it.g}" title="${esc(GRADE[it.g])}" aria-label="${esc(GRADE[it.g].split(":")[0])}">${gLabel(it.g)}</span>
-      <span class="mx-eff eff-${it.b}">${effGlyph(it)}<span>${effLabel(it)}${it.b === "schaden" ? ' <em class="mx-warn">unerwünscht</em>' : ""}</span></span>
+      ${evHTML(it.g)}
+      <span class="mx-eff eff-${it.b}">${effGlyph(it)}<span>${effLabel(it)}${it.b === "schaden" ? ' <em class="mx-warn">Nachteil</em>' : ""}</span></span>
       <span class="mx-evi"><span>${ICON_DOC}${it.k ? `${fmtInt(it.k)} Studien` : "Studienzahl k. A."}</span><span>${ICON_PERS}${it.p ? `${fmtInt(it.p)} Teilnehmende` : "Teilnehmende k. A."}</span></span>
     </summary>
     <div class="mx-detail"><p>${it.t}</p><span class="cite">${cites}</span>${opt.more(it)}</div></details>`;
@@ -634,7 +653,7 @@ function mxGroup(title, sub, items, opt, open = true) {
       <span class="mx-gmeta">${items.length} ${items.length === 1 ? "Wirkung" : "Wirkungen"} · ${src} ${src === 1 ? "Quelle" : "Quellen"}</span>
     </summary>${items.map(i => mxRow(i, opt)).join("")}</details>`;
 }
-const MX_COLS = `<div class="mx-cols" aria-hidden="true"><span>Ziel · Wirkung</span><span>Grad</span><span>Effekt</span><span>Evidenz</span></div>`;
+const MX_COLS = `<div class="mx-cols" aria-hidden="true"><span>Ziel · Wirkung</span><span>Beleglage</span><span>Effekt</span><span>Datenbasis</span></div>`;
 function renderMx() {
   $("mx-filters").innerHTML = AREAS.map(([k, l]) => `<button type="button" data-f="${k}" aria-pressed="${k === mxArea}">${l}</button>`).join("");
   const groups = T.matrix.filter(g => mxArea === "alle" || g.bereich === mxArea);
@@ -644,8 +663,8 @@ function renderMx() {
 function mxLegend() {
   const ex = (m, d, b) => `<span class="eff-key mx-eff eff-${b}">${effGlyph({ m, d })}<span>${effLabel({ m, d })}</span></span>`;
   return `<div class="mx-legend">
-    <div><h3>Grad: Wie sicher ist der Befund?</h3><dl>${["A", "B", "C", "D", "0"].map(g => `<dt><span class="grade small g-${g}">${gLabel(g)}</span></dt><dd>${GRADE[g].split(": ")[1]}</dd>`).join("")}</dl>
-      <p class="cap" style="margin-top:10px">Der Grad beschreibt die Verlässlichkeit, nicht die Stärke der Wirkung. Auch „Kein Effekt“ kann mit Grad A belegt sein.</p></div>
+    <div><h3>Beleglage: Wie sicher ist der Befund?</h3><dl>${["A", "B", "C", "D", "0"].map(g => `<dt>${evHTML(g)}</dt><dd>${GRADE[g].split(": ")[1]}</dd>`).join("")}</dl>
+      <p class="cap" style="margin-top:10px">Die Punkte zeigen, wie verlässlich ein Befund ist, nicht wie stark oder wie gefährlich etwas ist. „Schwach“ heißt nur: wenig erforscht. Auch „Kein Effekt“ kann stark belegt sein.</p></div>
     <div><h3>Effekt: Wie stark ist die Wirkung?</h3><dl>
       <dt>${ex(1, "auf", "nutzen")}</dt><dd>SMD unter 0,2 bzw. Risikoänderung unter 10 %</dd>
       <dt>${ex(2, "auf", "nutzen")}</dt><dd>SMD 0,2–0,49 bzw. 10–24 %</dd>
@@ -653,7 +672,7 @@ function mxLegend() {
       <dt>${ex(4, "auf", "nutzen")}</dt><dd>SMD ab 0,8 bzw. ab 50 %</dd>
       <dt>${ex(0, null, "neutral")}</dt><dd>nicht signifikant</dd>
       <dt>${ex(null, null, "neutral")}</dt><dd>Metaanalysen widersprechen sich</dd></dl>
-      <p class="cap" style="margin-top:10px">Grün = erwünschte Wirkung, Rot mit Hinweis „unerwünscht“ = Nachteil. Bei Angaben in Kilogramm, mmHg oder Tagen wird die praktische Bedeutung im Befundtext eingeordnet.</p></div>
+      <p class="cap" style="margin-top:10px">Pfeil nach oben oder unten = Richtung, Balken = Stärke. Nur echte Nachteile sind farbig markiert und mit „Nachteil“ beschriftet. Bei Angaben in Kilogramm, mmHg oder Tagen wird die praktische Bedeutung im Befundtext eingeordnet.</p></div>
     <div><h3>Evidenz</h3><p>Studien und Teilnehmende stammen aus der größten Metaanalyse zu dieser Wirkung, so wie sie im Abstract berichtet werden. „k. A.“ heißt: im Abstract nicht angegeben. Alle Zahlen stammen aus den zitierten Arbeiten; die Einstufung nimmt diese Website vor.</p></div>
   </div>`;
 }
@@ -674,14 +693,14 @@ async function renderSupOverview() {
   <section id="ueberblick">
     <div class="status-bar"><span><b>Stand:</b> ${fmtDate(stand)}</span><span><b>Supplemente:</b> <span class="num">${tops.length}</span></span><span><b>Bewertete Wirkungen:</b> <span class="num">${nW}</span></span><span><b>Quellen:</b> <span class="num">${nS}</span></span></div>
     <h1>Supplemente im Überblick</h1>
-    <p class="lead">Was wirkt wofür, und wie gut ist das belegt? Jede Wirkung ist aus Metaanalysen und systematischen Reviews abgeleitet und nach Verlässlichkeit (Grad A–D) und Stärke (Effekt) eingestuft. Ansicht wählen, filtern oder nach einem Ziel suchen.</p>
+    <p class="lead">Was wirkt wofür, und wie gut ist das belegt? Jede Wirkung ist aus Metaanalysen und systematischen Reviews abgeleitet und nach Beleglage (vier Punkte: stark, gut, begrenzt, schwach) und Stärke (Effekt) eingestuft. Ansicht wählen, filtern oder nach einem Ziel suchen.</p>
     <div class="sup-tools">
       <div class="filters" role="group" aria-label="Ansicht" id="sup-view-btns"></div>
       <input type="search" id="sup-q" placeholder="Suchen, z. B. Kraft, Blutdruck, Erkältung" aria-label="Wirkungen durchsuchen" value="${esc(supQuery)}">
       <div class="filters" role="group" aria-label="Bereich filtern" id="sup-area-btns"></div>
     </div>
     <div id="sup-out"></div>
-    <details class="card table-view" style="margin-top:14px"><summary>Wie werden Grad und Effekt bestimmt?</summary><div style="margin-top:14px">${mxLegend()}</div></details>
+    <details class="card table-view" style="margin-top:14px"><summary>Wie werden Beleglage und Effekt bestimmt?</summary><div style="margin-top:14px">${mxLegend()}</div></details>
   </section>`;
   $("sup-view-btns").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; supView = b.dataset.f; drawSup(); });
   $("sup-area-btns").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; supArea = b.dataset.f; drawSup(); });
@@ -715,7 +734,7 @@ function drawSup() {
       const pos = mine.filter(i => i.b === "nutzen" && i.m !== 0).sort((a, b) => rank(a) - rank(b)).slice(0, 4);
       const none = mine.filter(i => i.m === 0).sort((a, b) => rank(a) - rank(b)).slice(0, 2);
       const neg = mine.filter(i => i.b === "schaden");
-      const li = (i) => `<li><span class="grade small g-${i.g}" title="${esc(GRADE[i.g])}">${gLabel(i.g)}</span><span>${i.n}<small>${effLabel(i)}</small></span></li>`;
+      const li = (i) => `<li>${evHTML(i.g, true)}<span>${i.n}<small>${effLabel(i)}</small></span></li>`;
       return `<article class="card sup-card">
         <h3><a href="#${id}">${t.title}</a></h3>
         <span class="meta">${mine.length} ${mine.length === 1 ? "Wirkung" : "Wirkungen"} · ${Object.keys(t.sources).length} Quellen · Stand ${fmtDate(t.stand)}</span>
