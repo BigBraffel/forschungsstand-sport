@@ -362,12 +362,52 @@ ol.findings .lvl { font-size: .72rem; font-weight: 600; letter-spacing: .03em; t
 .scale { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
 .scale span { padding: 4px 10px; border-radius: 6px; font-size: .8rem; font-weight: 600; }
 .sup-card li { grid-template-columns: 30px 1fr !important; }
+
+/* ----- Werkzeuge: Suche, Neu, Rechner, Glossar ----- */
+.side-search input { width: 100%; box-sizing: border-box; font: inherit; font-size: .9rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+.side-search input:focus-visible { outline: 2px solid var(--accent); border-color: var(--accent); }
+.page-input { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 4px 0 18px; }
+.page-input input { flex: 1 1 280px; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+.page-input input:focus-visible { outline: 2px solid var(--accent); border-color: var(--accent); }
+.res-topic { margin-top: 18px; }
+.res-topic h2 { font-size: 1.2rem; margin: 0 0 8px; display: flex; gap: 10px; align-items: baseline; }
+.res-topic h2 small { font-family: var(--font-body); font-weight: 400; font-size: .82rem; color: var(--ink-3); }
+.res { display: block; padding: 10px 14px; border-top: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+.res:hover { background: var(--surface-2); }
+.res .kind { font-size: .72rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); display: block; margin-bottom: 2px; }
+.res mark { background: var(--accent-soft); color: var(--ink); border-radius: 3px; padding: 0 2px; }
+.news { list-style: none; margin: 0; padding: 0; }
+.news li { display: grid; grid-template-columns: 110px 1fr; gap: 6px 18px; padding: 14px 0; border-top: 1px solid var(--line); }
+.news .d { font-variant-numeric: tabular-nums; color: var(--ink-3); font-size: .88rem; }
+.news .what { display: flex; flex-direction: column; gap: 4px; }
+.news .what a { font-weight: 600; }
+.news .fresh { font-size: .7rem; font-weight: 700; color: var(--accent); border: 1px solid var(--accent); border-radius: 99px; padding: 0 7px; margin-left: 8px; }
+.news .contra { font-size: .7rem; font-weight: 700; color: var(--warn); background: var(--warn-bg); border-radius: 99px; padding: 1px 8px; margin-left: 8px; }
+.calc-in { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 18px; }
+.calc-in label { display: flex; flex-direction: column; gap: 6px; font-size: .85rem; color: var(--ink-2); }
+.calc-in input { font: inherit; font-size: 1.1rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+.calc { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.calc .card { display: flex; flex-direction: column; gap: 6px; border-top: 3px solid var(--accent); }
+.calc .val { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; }
+.calc .lbl { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); font-weight: 600; }
+.calc p { margin: 0; font-size: .9rem; color: var(--ink-2); }
+.gl { text-decoration: underline dotted var(--ink-3); text-underline-offset: 3px; cursor: help; }
+.gltip { position: absolute; z-index: 50; max-width: 320px; background: var(--ink); color: var(--bg); font-size: .85rem; line-height: 1.4; padding: 10px 12px; border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,.25); }
+.gltip b { display: block; margin-bottom: 2px; }
+.gloss { display: grid; grid-template-columns: minmax(140px, 220px) 1fr; gap: 0; }
+.gloss dt, .gloss dd { margin: 0; padding: 12px 0; border-top: 1px solid var(--line); }
+.gloss dt { font-weight: 600; padding-right: 16px; }
+.gloss dd { color: var(--ink-2); }
+.mx-name .old-note { display: table; margin-top: 4px; }
+.old-note { font-size: .72rem; font-weight: 600; color: var(--ink-3); border: 1px dashed var(--ink-3); border-radius: 99px; padding: 0 7px; white-space: nowrap; }
+@media (max-width: 760px) { .news li, .gloss { grid-template-columns: 1fr; } .gloss dd { border-top: 0; padding-top: 0; } }
 </style>
 </head>
 <body>
 <div class="shell">
   <aside class="side" aria-label="Navigation">
     <div class="brand">Forschungsstand Sport<small>Training &amp; Ernährung – evidenzbasiert</small></div>
+    <form class="side-search" role="search" id="q-form"><input type="search" id="q" placeholder="Alle Themen durchsuchen" aria-label="Alle Themen durchsuchen" autocomplete="off"></form>
     <nav aria-label="Themen" id="nav-topics"></nav>
     <nav aria-label="Auf dieser Seite">
       <h4>Auf dieser Seite</h4>
@@ -377,10 +417,15 @@ ol.findings .lvl { font-size: .72rem; font-weight: 600; letter-spacing: .03em; t
   <main id="main"></main>
 </div>
 <div class="tip" id="tip" role="tooltip"></div>
+<div class="gltip" id="gltip" role="tooltip" hidden></div>
 
 <script>
 /* ===== Themenverzeichnis: neue Themen hier eintragen (Datei data/topics/<id>.json, Register data/screening/<id>.json) ===== */
 const NAV = [
+  { group: "Werkzeuge", items: [
+    { id: "neu", title: "Was ist neu?" },
+    { id: "rechner", title: "Rechner" },
+    { id: "glossar", title: "Glossar" } ] },
   { group: "Training", items: [
     { id: "maximalkraft", title: "Maximalkrafttraining" },
     { id: "hypertrophie", title: "Hypertrophie" },
@@ -420,7 +465,7 @@ const NAV = [
 ];
 const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette"];
 
-const PAGES = ["supplemente"]; /* Seiten ohne eigene Themendatei */
+const PAGES = ["supplemente", "suche", "neu", "rechner", "glossar"]; /* Seiten ohne eigene Themendatei */
 const SUPPS = ["protein", "kreatin", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "vitamin-d-k2", "vitamin-c", "b-vitamine", "multivitamin", "magnesium", "zink", "eisen", "calcium", "omega-3", "kollagen", "probiotika", "ashwagandha"]; /* Supplemente mit Wirkungsübersicht */
 const supList = () => SUPPS.filter(id => AVAILABLE.includes(id));
 const $ = (id) => document.getElementById(id);
@@ -436,7 +481,8 @@ let T = null, active = "alle", pendingScroll = null, mxArea = "alle";
 
 /* ----- Navigation ----- */
 function routeOf(hash) {
-  const h = (hash || "").replace("#", "");
+  const h = (hash || "").replace("#", "").split("?")[0];
+  if (PAGES.includes(h)) return { topic: h };
   for (const g of NAV) for (const it of g.items) {
     if (it.id === h) return { topic: it.id };
     for (const c of it.children || []) if (c.id === h) return c.var ? { topic: it.id, scroll: "var-" + c.var } : { topic: c.id };
@@ -469,6 +515,10 @@ async function load() {
   const r = routeOf(location.hash);
   renderNav(location.hash.replace("#", "") || r.topic);
   if (r.topic === "supplemente") return renderSupOverview();
+  if (r.topic === "suche") return renderSearch();
+  if (r.topic === "neu") return renderNews();
+  if (r.topic === "rechner") return renderCalc();
+  if (r.topic === "glossar") return renderGlossar();
   if (!AVAILABLE.includes(r.topic)) return renderPlanned(r.topic);
   if (!cache[r.topic]) {
     try { cache[r.topic] = await (await fetch(`data/topics/${r.topic}.json`)).json(); }
@@ -476,6 +526,7 @@ async function load() {
   }
   T = cache[r.topic]; active = "alle";
   renderTopic(T);
+  applyGlossar($("main"));
   document.title = `Forschungsstand ${T.title}`;
   const pend = pendingScroll; pendingScroll = null;
   if (r.scroll || pend) setTimeout(() => scrollToId(r.scroll || pend), 50); else window.scrollTo(0, 0);
@@ -552,7 +603,7 @@ function renderTopic(t) {
     <p class="lead">${t.varslead || "Je Abschnitt: Befunde, eigene Abbildungen aus den berichteten Kennzahlen, kritische Einordnung und Quellen. Die Befunde sind nach Aussagekraft der Quelle geordnet: Positionspapiere und Umbrella Reviews zuerst, dann Metaanalysen, systematische Reviews, Einzelstudien und narrative Reviews; innerhalb einer Stufe zuerst die Arbeiten mit den meisten Studien, dann die neuesten. Effektstärken (SMD/ES) sind standardisierte Mittelwertunterschiede: etwa 0,2 gilt als klein, 0,5 als mittel, 0,8 als groß."}</p>
     <div class="vars">${t.vars.map(v => `
       <details class="card var" id="var-${v.id}" open>
-        <summary><h3>${v.name}</h3><span class="pill ev-${v.ev}">${evLabel[v.ev]}</span><span class="q">${v.q}</span></summary>
+        <summary><h3>${v.name}</h3><span class="pill ev-${v.ev}">${evLabel[v.ev]}</span><span class="q">${v.q}${oldNote(v.s, t.sources)}</span></summary>
         <div class="body">
           <div><h4>Befunde, nach Aussagekraft geordnet</h4><ol class="findings">${rankFindings(v, t).map(f => `<li class="lv${f.lv}"><span class="lvl">${LV_NAMES[f.lv]}${f.n ? " · " + f.n + " Studien" : ""}${f.yr ? " · " + f.yr : ""}</span><span>${f.k}</span></li>`).join("")}</ol></div>
           <div><h4>Quellen</h4><ul>${v.s.map(k => `<li><a href="#ref-${k}">${t.sources[k].short}</a> · ${t.sources[k].type}</li>`).join("")}</ul></div>
@@ -676,10 +727,15 @@ function effGlyph(it) {
   const bars = [0, 1, 2, 3].map(i => { const h = 6 + i * 4; return `<rect x="${24 + i * 7}" y="${18 - h}" width="5" height="${h}" rx="1.5" fill="${it.m > i ? "currentColor" : "var(--line)"}"/>`; }).join("");
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true">${arrow}${bars}</svg>`;
 }
+function newestYear(keys, sources) { return Math.max(0, ...keys.map(k => (sources[k] || {}).year || 0)); }
+function oldNote(keys, sources) {
+  const y = newestYear(keys, sources);
+  return y && NOW_YEAR - y > OLD_AFTER ? ` <span class="old-note" title="Die neueste Quelle zu diesem Punkt ist von ${y}. Die Studienlage ist älter als ${OLD_AFTER} Jahre.">Stand der Forschung: ${y}</span>` : "";
+}
 function mxRow(it, opt) {
   const cites = it.s.length ? opt.cites(it.s) : "";
   return `<details class="mx-row"><summary>
-      <span class="mx-name">${opt.prefix ? `<span class="mx-sup">${opt.prefix}</span>` : ""}${it.n}</span>
+      <span class="mx-name">${opt.prefix ? `<span class="mx-sup">${opt.prefix}</span>` : ""}${it.n}${it.s.length ? oldNote(it.s, it.top ? it.top.sources : T.sources) : ""}</span>
       ${ltHTML(it, it.top ? it.top.sources : T.sources)}
       <span class="mx-eff eff-${it.b}">${effGlyph(it)}<span>${effLabel(it)}${it.b === "schaden" ? ' <em class="mx-warn">Nachteil</em>' : ""}</span></span>
       <span class="mx-evi"><span>${ICON_DOC}${it.k ? `${fmtInt(it.k)} Studien` : "Studienzahl k. A."}</span><span>${ICON_PERS}${it.p ? `${fmtInt(it.p)} Teilnehmende` : "Teilnehmende k. A."}</span></span>
@@ -800,6 +856,208 @@ function drawSup() {
   }
 }
 document.addEventListener("click", (e) => { const a = e.target.closest("a[data-goto]"); if (a) pendingScroll = a.dataset.goto; });
+
+
+/* ===== Werkzeuge ===== */
+async function loadAll() {
+  await Promise.all(AVAILABLE.map(async id => { if (!cache[id]) { try { cache[id] = await (await fetch(`data/topics/${id}.json`)).json(); } catch (e) {} } }));
+  return AVAILABLE.map(id => cache[id]).filter(Boolean);
+}
+const strip = (h) => String(h || "").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+const escH = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const NOW_YEAR = new Date().getFullYear();
+const OLD_AFTER = 8;
+
+/* --- Suche --- */
+let searchQ = "";
+function searchEntries(t) {
+  const out = [];
+  if (t.def) out.push({ kind: "Definition", text: t.def.t, go: "ueberblick" });
+  (t.takeaways || []).forEach(x => out.push({ kind: "Kurzfazit", text: `${x.t}: ${x.p}`, go: "ueberblick" }));
+  (t.rx || []).forEach(x => out.push({ kind: "Ableitung", text: `${x.label}: ${x.value}. ${x.text}`, go: "ableitungen" }));
+  (t.matrix || []).forEach(g => g.items.forEach(it => out.push({ kind: "Wirkung", text: `${it.n}: ${it.t}`, go: "wirkung" })));
+  (t.vars || []).forEach(v => {
+    out.push({ kind: "Abschnitt", text: `${v.name}: ${v.q}`, go: "var-" + v.id });
+    (v.key || []).forEach(k => out.push({ kind: `Befund · ${v.name}`, text: k, go: "var-" + v.id }));
+    if (v.critic) out.push({ kind: `Einordnung · ${v.name}`, text: v.critic, go: "var-" + v.id });
+  });
+  return out;
+}
+function snippet(text, words) {
+  const plain = strip(text); const low = plain.toLowerCase();
+  let i = Math.min(...words.map(w => { const j = low.indexOf(w); return j < 0 ? 1e9 : j; }));
+  if (i === 1e9) i = 0;
+  const start = Math.max(0, i - 80), end = Math.min(plain.length, i + 220);
+  let sn = (start ? "… " : "") + plain.slice(start, end) + (end < plain.length ? " …" : "");
+  sn = escH(sn);
+  words.forEach(w => { if (w.length > 1) sn = sn.replace(new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi"), m => `<mark>${m}</mark>`); });
+  return sn;
+}
+async function renderSearch() {
+  $("toc").innerHTML = ""; document.title = "Suche – Forschungsstand Sport";
+  const m = location.hash.match(/\?q=([^&]*)/); if (m) searchQ = decodeURIComponent(m[1]);
+  $("main").innerHTML = `<section><h1>Suche</h1>
+    <p class="lead">Durchsucht Definitionen, Kurzfazits, Ableitungen, Wirkungen, Befunde und Einordnungen aller Themen.</p>
+    <form class="page-input" id="s-form" role="search"><input type="search" id="s-q" value="${esc(searchQ)}" placeholder="z. B. Muskelkater, Schlaf, Blutdruck, 1RM" aria-label="Suchbegriff"></form>
+    <div id="s-out"><p class="cap">Wird geladen …</p></div></section>`;
+  const tops = await loadAll();
+  const run = () => {
+    searchQ = $("s-q").value.trim(); $("q").value = searchQ;
+    history.replaceState(null, "", "#suche" + (searchQ ? "?q=" + encodeURIComponent(searchQ) : ""));
+    const words = searchQ.toLowerCase().split(/\s+/).filter(w => w.length > 1);
+    if (!words.length) { $("s-out").innerHTML = `<p class="cap">Bitte mindestens einen Suchbegriff mit zwei Zeichen eingeben.</p>`; return; }
+    let total = 0;
+    const html = tops.map(t => {
+      const hits = searchEntries(t).filter(e => { const low = strip(e.text + " " + e.kind).toLowerCase(); return words.every(w => low.includes(w)); });
+      if (!hits.length) return "";
+      total += hits.length;
+      const shown = hits.slice(0, 8);
+      return `<div class="card res-topic" style="padding:16px 0 4px"><h2 style="padding:0 16px"><a href="#${t.id}">${t.title}</a><small>${hits.length} ${hits.length === 1 ? "Treffer" : "Treffer"}</small></h2>
+        ${shown.map(e => `<a class="res" href="#${t.id}" data-goto="${e.go}"><span class="kind">${escH(e.kind)}</span>${snippet(e.text, words)}</a>`).join("")}
+        ${hits.length > shown.length ? `<a class="res" href="#${t.id}"><span class="kind">… und ${hits.length - shown.length} weitere im Thema</span></a>` : ""}</div>`;
+    }).join("");
+    $("s-out").innerHTML = total ? `<p class="cap">${total} Treffer in ${tops.filter(t => html.includes(`href="#${t.id}"`)).length} Themen</p>${html}` : `<p class="cap">Keine Treffer für „${escH(searchQ)}“.</p>`;
+  };
+  let tm; $("s-q").addEventListener("input", () => { clearTimeout(tm); tm = setTimeout(run, 200); });
+  $("s-form").addEventListener("submit", (e) => { e.preventDefault(); run(); });
+  run(); $("s-q").focus();
+}
+document.addEventListener("submit", (e) => {
+  if (e.target.id !== "q-form") return; e.preventDefault();
+  searchQ = $("q").value.trim(); const nh = "#suche?q=" + encodeURIComponent(searchQ);
+  if (location.hash === nh) renderSearch(); else location.hash = nh;
+});
+
+/* --- Was ist neu? --- */
+const parseDE = (d) => { const m = String(d).match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/); return m ? new Date(+m[3], +m[2] - 1, +m[1]) : new Date(0); };
+let seenBefore = null;
+async function renderNews() {
+  $("toc").innerHTML = ""; document.title = "Was ist neu? – Forschungsstand Sport";
+  $("main").innerHTML = `<section><h1>Was ist neu?</h1><p class="cap">Wird geladen …</p></section>`;
+  const tops = await loadAll();
+  if (seenBefore === null) { try { seenBefore = +(localStorage.getItem("fs-neu-gesehen") || 0); localStorage.setItem("fs-neu-gesehen", String(Date.now())); } catch (e) { seenBefore = 0; } }
+  const items = [];
+  tops.forEach(t => (t.changelog || []).forEach(c => items.push({ t, d: parseDE(c.d), ds: c.d, text: c.t })));
+  items.sort((a, b) => b.d - a.d || a.t.title.localeCompare(b.t.title, "de"));
+  const contraYears = new Set(); // Befunde, die frühere widerlegen
+  const flag = (x) => /widerleg|widersprech|relativ|abgestuft|heruntergestuft|überholt|korrigiert|zurückgezogen/i.test(x.text);
+  const months = [...new Set(items.map(i => `${i.d.getFullYear()}-${String(i.d.getMonth() + 1).padStart(2, "0")}`))];
+  $("main").innerHTML = `<section>
+    <h1>Was ist neu?</h1>
+    <p class="lead">Alle Änderungen an der Website, neueste zuerst: neue Studien, geänderte Einschätzungen und neue Themen. Einträge seit deinem letzten Besuch sind markiert; Änderungen, bei denen frühere Aussagen relativiert oder widerlegt wurden, sind hervorgehoben.</p>
+    <div class="filters" role="group" aria-label="Filter" id="n-f"><button type="button" data-f="alle" aria-pressed="true">Alle</button><button type="button" data-f="wichtig" aria-pressed="false">Nur geänderte Einschätzungen</button></div>
+    <ul class="news" id="n-list" style="margin-top:14px"></ul></section>`;
+  const draw = (only) => {
+    $("n-list").innerHTML = items.filter(i => !only || flag(i)).map(i => `<li><span class="d">${i.ds}</span><span class="what"><span><a href="#${i.t.id}">${i.t.title}</a>${seenBefore && i.d.getTime() + 86400000 > seenBefore ? '<span class="fresh">neu</span>' : ""}${flag(i) ? '<span class="contra">Einschätzung geändert</span>' : ""}</span><span>${i.text}</span></span></li>`).join("") || `<li><span></span><span>Keine Einträge.</span></li>`;
+  };
+  $("n-f").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; [...$("n-f").children].forEach(x => x.setAttribute("aria-pressed", String(x === b))); draw(b.dataset.f === "wichtig"); });
+  draw(false); window.scrollTo(0, 0);
+}
+
+/* --- Rechner --- */
+const fmtK = (x, d = 0) => Number(x).toLocaleString("de-DE", { minimumFractionDigits: d, maximumFractionDigits: d });
+const CALC = [
+  { lbl: "Protein pro Tag", topic: "protein", go: "ableitungen", f: (kg) => `${fmtK(kg * 1.6)} g`, p: "Etwa 1,6 g pro kg Körpergewicht und Tag; darüber brachte zusätzliches Protein im Mittel keinen weiteren Zuwachs an fettfreier Masse.", cite: "Morton et al., 2018; Tagawa et al., 2020" },
+  { lbl: "Protein pro Mahlzeit", topic: "protein", go: "ableitungen", f: () => "20–40 g", p: "Auf mehrere Mahlzeiten über den Tag verteilt; 30–40 g Casein vor dem Schlafen erhöhen die nächtliche Muskelproteinsynthese.", cite: "Jäger et al., 2017" },
+  { lbl: "Kreatin pro Tag", topic: "kreatin", go: "ableitungen", f: (kg) => `3–5 g <small style="font-size:.9rem;font-weight:500">(0,3 g/kg = ${fmtK(kg * 0.3)} g)</small>`, p: "Kreatin-Monohydrat, kombiniert mit Krafttraining; höhere Dosen brachten keinen Zusatznutzen. Eine Ladephase (20 g/Tag für 5–7 Tage) ist möglich, aber nicht nötig.", cite: "Desai et al., 2024; Forbes et al., 2021; Kreider et al., 2017" },
+  { lbl: "Koffein vor der Belastung", topic: "koffein", go: "ableitungen", f: (kg) => `${fmtK(kg * 3)} mg <small style="font-size:.9rem;font-weight:500">(Spanne ${fmtK(kg * 2)}–${fmtK(kg * 6)} mg)</small>`, p: "Etwa 3 mg/kg rund 60 Minuten vorher; für Krafttraining wirkten schon 0,9–2 mg/kg. Ab 9 mg/kg kein Zusatznutzen, aber mehr Nebenwirkungen. Bei Abendtraining an den Schlaf denken.", cite: "Guest et al., 2021; Xue et al., 2025; Gardiner et al., 2023" },
+  { lbl: "Kohlenhydrate während der Belastung", topic: "kohlenhydrate", go: "ableitungen", f: (kg, h) => h < 1 ? "kaum nötig" : h <= 2.5 ? `30–60 g/h <small style="font-size:.9rem;font-weight:500">(gesamt ${fmtK(30 * h)}–${fmtK(60 * h)} g)</small>` : `bis 90 g/h <small style="font-size:.9rem;font-weight:500">(gesamt bis ${fmtK(90 * h)} g)</small>`, p: "Bei Einheiten über etwa 1 Stunde 30–60 g/h; über 2,5 Stunden bis 90 g/h als Mischung aus Glukose und Fruktose. Bei rund 1 Stunde genügen kleine Mengen oder eine Mundspülung.", cite: "Burke et al., 2011; Temesi et al., 2011; Stellingwerff & Cox, 2014" },
+  { lbl: "Carb-Loading vor dem Wettkampf", topic: "kohlenhydrate", go: "ableitungen", f: (kg) => `über ${fmtK(kg * 8)} g/Tag`, p: "Mehr als 8 g/kg/Tag für 36–48 Stunden füllt die Glykogenspeicher; lohnt sich vor allem bei Wettkämpfen über 90 Minuten.", cite: "Jones et al., 2026; Hawley et al., 1997" },
+  { lbl: "Kohlenhydrate bei kurzer Erholungspause", topic: "kohlenhydrate", go: "ableitungen", f: (kg) => `ca. ${fmtK(kg * 1.2)} g/h`, p: "Liegen weniger als 4 Stunden zwischen zwei Einheiten: etwa 1,2 g/kg/h, zusammen mit Flüssigkeit.", cite: "Kerksick et al., 2017; McCartney et al., 2018" },
+  { lbl: "Beta-Alanin pro Tag", topic: "beta-alanin", go: "ableitungen", f: () => "4–6 g", p: "Über mindestens 2–4 Wochen, aufgeteilt auf Einzeldosen von höchstens 1,6 g gegen das harmlose Kribbeln. Wirkt vor allem bei Belastungen von 30 Sekunden bis 10 Minuten.", cite: "Trexler et al., 2015; Saunders et al., 2017" },
+  { lbl: "Nitrat (Rote-Bete-Saft)", topic: "nitrat", go: "ableitungen", f: () => "5–15 mmol", p: "Etwa 2–3 Stunden vor der Belastung oder über mehrere Tage; Nutzen vor allem bei Freizeitsportlern, kaum bei Hochtrainierten.", cite: "Silva et al., 2022; Tian et al., 2025" }
+];
+function renderCalc() {
+  $("toc").innerHTML = ""; document.title = "Rechner – Forschungsstand Sport";
+  let kg = 75, h = 1.5; try { kg = +localStorage.getItem("fs-kg") || kg; h = +localStorage.getItem("fs-h") || h; } catch (e) {}
+  const avail = CALC.filter(c => AVAILABLE.includes(c.topic)).concat(window.EXTRA_CALC || []);
+  $("main").innerHTML = `<section>
+    <h1>Rechner</h1>
+    <p class="lead">Rechnet die Empfehlungen aus den Ableitungen dieser Website auf dein Körpergewicht um. Die Werte stammen aus Studien mit gesunden Erwachsenen und sind Richtwerte, keine individuelle Beratung. Bei Erkrankungen, Medikamenten oder Schwangerschaft vorher ärztlich abklären.</p>
+    <div class="calc-in">
+      <label>Körpergewicht in kg<input type="number" id="c-kg" min="30" max="250" step="1" value="${kg}" inputmode="decimal"></label>
+      <label>Dauer der Belastung in Stunden<input type="number" id="c-h" min="0" max="24" step="0.25" value="${h}" inputmode="decimal"></label>
+    </div>
+    <div class="calc" id="c-out"></div></section>`;
+  const draw = () => {
+    const k = Math.min(250, Math.max(30, +$("c-kg").value || 0)), hh = Math.max(0, +$("c-h").value || 0);
+    try { localStorage.setItem("fs-kg", String(k)); localStorage.setItem("fs-h", String(hh)); } catch (e) {}
+    $("c-out").innerHTML = avail.map(c => `<div class="card"><span class="lbl">${c.lbl}</span><span class="val">${c.f(k, hh)}</span><p>${c.p}</p><span class="cite">[${escH(c.cite)}] · <a href="#${c.topic}" data-goto="${c.go}">Zum Thema →</a></span></div>`).join("");
+  };
+  $("c-kg").addEventListener("input", draw); $("c-h").addEventListener("input", draw);
+  draw(); window.scrollTo(0, 0);
+}
+
+/* --- Glossar --- */
+const GLOSSAR = [
+  ["Metaanalyse", /\b(?:Netzwerk-)?Metaanalysen?\b/, "Statistische Zusammenfassung mehrerer Studien zur selben Frage. Ergibt einen gemeinsamen Effekt, der verlässlicher ist als jede Einzelstudie."],
+  ["Netzwerk-Metaanalyse", /\bNetzwerk-Metaanalysen?\b/, "Metaanalyse, die mehrere Maßnahmen gleichzeitig vergleicht, auch solche, die nie direkt gegeneinander getestet wurden (indirekte Vergleiche)."],
+  ["Metaregression", /\bMetaregressionen?\b/, "Prüft innerhalb einer Metaanalyse, ob ein Merkmal (z. B. Dosis oder Dauer) mit der Größe des Effekts zusammenhängt. Gut für Dosis-Wirkungs-Fragen."],
+  ["Umbrella Review", /\bUmbrella Reviews?\b/, "Übersicht über mehrere Metaanalysen und systematische Reviews zum selben Thema; steht ganz oben in der Evidenzhierarchie."],
+  ["Systematischer Review", /\b[Ss]ystematische[nr]? Reviews?\b/, "Übersichtsarbeit mit festgelegter, nachvollziehbarer Literatursuche und Auswahl. Ohne statistische Zusammenfassung ist sie schwächer als eine Metaanalyse."],
+  ["Narrativer Review", /\b[Nn]arrative[nr]? Reviews?\b/, "Übersichtsarbeit ohne systematische Suche; spiegelt stärker die Auswahl der Autoren wider und zählt daher wenig."],
+  ["Positionspapier", /\bPositionspapier(?:e|en)?\b/, "Stellungnahme einer Fachgesellschaft (z. B. ISSN, ACSM), die den Forschungsstand bewertet und Empfehlungen gibt."],
+  ["RCT", /\bRCTs?\b/, "Randomisierte kontrollierte Studie: Teilnehmende werden zufällig auf Maßnahme und Kontrolle verteilt. Bestes Design für Ursache-Wirkungs-Fragen."],
+  ["Kohortenstudie", /\bKohorten(?:studie|studien)?\b/, "Beobachtungsstudie, die Menschen über Zeit verfolgt. Zeigt Zusammenhänge, aber keine Ursache-Wirkung."],
+  ["SMD", /\bSMD\b/, "Standardisierte Mittelwertdifferenz: Effektgröße ohne Einheit. Faustregel: 0,2 klein, 0,5 mittel, 0,8 groß."],
+  ["Effektstärke (ES, g)", /\bES\b|\bHedges[’']? g\b/, "Maß für die Größe eines Unterschieds, unabhängig von der Messeinheit; gleiche Faustregel wie bei der SMD."],
+  ["MD / WMD", /\bW?MD\b(?= [−\-–\d+])/, "(Gewichtete) mittlere Differenz: Unterschied zwischen Gruppen in der Originaleinheit, z. B. kg oder mmHg."],
+  ["RR", /\bRR\b(?= [\d,]+)/, "Relatives Risiko: Wie stark ändert sich die Wahrscheinlichkeit eines Ereignisses? RR 0,80 heißt 20 % weniger, 1,25 heißt 25 % mehr."],
+  ["OR", /\bOR\b(?= [\d,]+)/, "Odds Ratio: ähnlich wie das relative Risiko; 1 bedeutet kein Unterschied."],
+  ["HR", /\bHR\b(?= [\d,]+)/, "Hazard Ratio: relatives Risiko über die Zeit, typisch für Kohortenstudien; 1 bedeutet kein Unterschied."],
+  ["Konfidenzintervall", /\bKonfidenzintervall\w*|\b95-%-KI\b|\bKI\b/, "Bereich, in dem der wahre Effekt mit 95 % Sicherheit liegt; auf dieser Seite in eckigen Klammern [a; b]. Schließt er 0 (bzw. 1 bei RR/OR) ein, ist der Effekt nicht gesichert."],
+  ["Heterogenität", /\bHeterogenität\b|\bI²/, "Wie stark die Ergebnisse der einzelnen Studien voneinander abweichen. Hohe Heterogenität macht den gemeinsamen Effekt unsicherer."],
+  ["Publikationsbias", /\bPublikationsbias\b/, "Verzerrung, weil Studien mit positiven Ergebnissen eher veröffentlicht werden; der Effekt wirkt dann größer, als er ist."],
+  ["GRADE", /\bGRADE\b/, "Standardverfahren zur Bewertung, wie vertrauenswürdig ein Gesamtergebnis ist (hoch, moderat, niedrig, sehr niedrig)."],
+  ["NNT / NNH", /\bNN[TH]\b/, "Number needed to treat/harm: Wie viele Personen müssen etwas einnehmen, damit eine profitiert bzw. eine einen Schaden hat?"],
+  ["1RM", /\b1RM\b/, "Einwiederholungsmaximum: die höchste Last, die man genau einmal sauber bewegen kann; Standardmaß für Maximalkraft."],
+  ["VO₂max", /VO₂(?:max|peak)/, "Maximale Sauerstoffaufnahme: Kennwert der aeroben Leistungsfähigkeit."],
+  ["Placebo", /\bPlacebo\w*/, "Scheinpräparat ohne Wirkstoff; erlaubt, die echte Wirkung von Erwartungseffekten zu trennen."]
+];
+const SKIP = new Set(["A", "BUTTON", "SUMMARY", "H1", "H2", "H3", "H4", "SVG", "TEXT", "INPUT", "TEXTAREA", "CODE", "MARK", "SCRIPT", "STYLE", "TH"]);
+function applyGlossar(root) {
+  if (!root) return;
+  const seen = new WeakMap();
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => {
+    for (let p = n.parentNode; p && p !== root; p = p.parentNode) { if (SKIP.has(p.nodeName.toUpperCase()) || (p.classList && (p.classList.contains("gl") || p.classList.contains("cite") || p.classList.contains("chart") || p.classList.contains("lvl") || p.classList.contains("kind") || p.classList.contains("mx-sup") || p.classList.contains("pill") || p.classList.contains("label")))) return NodeFilter.FILTER_REJECT; }
+    return n.nodeValue.trim().length > 2 ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT; } });
+  const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach(n => {
+    const box = n.parentNode.closest(".card, .var, section, details") || root;
+    const used = seen.get(box) || new Set(); seen.set(box, used);
+    for (const [term, re, def] of GLOSSAR) {
+      if (used.has(term)) continue;
+      const m = n.nodeValue.match(re); if (!m) continue;
+      used.add(term);
+      const after = n.splitText(m.index); after.nodeValue = after.nodeValue.slice(m[0].length);
+      const sp = document.createElement("span"); sp.className = "gl"; sp.tabIndex = 0; sp.dataset.gl = term; sp.textContent = m[0];
+      n.parentNode.insertBefore(sp, after);
+      break;
+    }
+  });
+}
+const GL_MAP = Object.fromEntries(GLOSSAR.map(([t, , d]) => [t, d]));
+function showGl(el) {
+  const tip = $("gltip"); const t = el.dataset.gl;
+  tip.innerHTML = `<b>${t}</b>${GL_MAP[t]}<br><a href="#glossar" style="color:inherit;text-decoration:underline">Alle Begriffe</a>`;
+  tip.hidden = false;
+  const r = el.getBoundingClientRect();
+  const x = Math.min(window.scrollX + r.left, window.scrollX + document.documentElement.clientWidth - 340);
+  tip.style.left = Math.max(8, x) + "px"; tip.style.top = (window.scrollY + r.bottom + 6) + "px";
+}
+const hideGl = () => { $("gltip").hidden = true; };
+document.addEventListener("mouseover", (e) => { const g = e.target.closest(".gl"); if (g) showGl(g); else if (!e.target.closest("#gltip")) hideGl(); });
+document.addEventListener("focusin", (e) => { const g = e.target.closest(".gl"); if (g) showGl(g); });
+document.addEventListener("click", (e) => { const g = e.target.closest(".gl"); if (g) { showGl(g); e.stopPropagation(); } else if (!e.target.closest("#gltip")) hideGl(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") hideGl(); });
+function renderGlossar() {
+  $("toc").innerHTML = ""; document.title = "Glossar – Forschungsstand Sport";
+  const list = [...GLOSSAR].sort((a, b) => a[0].localeCompare(b[0], "de"));
+  $("main").innerHTML = `<section><h1>Glossar</h1>
+    <p class="lead">Die wichtigsten Fachbegriffe dieser Website in einfachen Worten. In den Themen sind diese Begriffe gepunktet unterstrichen; beim Darüberfahren oder Antippen erscheint die Erklärung.</p>
+    <dl class="gloss card" style="padding:4px 22px">${list.map(([t, , d]) => `<dt>${t}</dt><dd>${d}</dd>`).join("")}</dl></section>`;
+  window.scrollTo(0, 0);
+}
 
 function renderTimeline() {
   const filters = [["alle", "Alle"], ["conf", "Bestätigt"], ["rel", "Relativiert"], ["contra", "Widerspricht"]];

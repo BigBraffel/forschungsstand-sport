@@ -57,6 +57,12 @@ Bei Rohwerten (kg, mmHg, Tage) wird die Größe nach praktischer Bedeutung einge
 
 **Pflege bei jedem Lauf:** Wird eine Arbeit zu einem Supplement aufgenommen, die passende Wirkung prüfen und anpassen (Grad, Effekt, Studienzahl, Befund, Quellen) oder eine neue Wirkung anlegen. Ändert sich eine Einstufung, kommt das in den changelog und, wenn es einem früheren Befund widerspricht, auch in die timeline.
 
+## Automatische Funktionen der Seite
+
+- **Suche, „Was ist neu?“ und Glossar** lesen die Themen-JSON direkt. „Was ist neu?“ zeigt die `changelog`-Einträge aller Themen. Ein Eintrag gilt als „Einschätzung geändert“, wenn er Wörter wie „widerlegt“, „relativiert“, „abgestuft“, „korrigiert“ oder „zurückgezogen“ enthält. Solche Änderungen deshalb im Changelog ausdrücklich so benennen.
+- **Hinweis auf veraltete Studienlage:** Ist die neueste Quelle einer Wirkung oder eines Abschnitts älter als 8 Jahre, erscheint „Stand der Forschung: Jahr“. Neue Metaanalysen zu solchen Punkten haben Vorrang.
+- **Rechner:** Die Werte stehen in `index.html` (`CALC`) und müssen zu den `rx` der Themen passen. Ändert sich eine Dosisempfehlung, den Rechner mit anpassen.
+
 ## Ablauf je Thema
 
 1. `data/kandidaten/<id>.json` lesen. Ausgewertet werden nur `neu_manuell`, `geaendert` und `vormerkungen`; alles andere wird nicht erneut geprüft.
