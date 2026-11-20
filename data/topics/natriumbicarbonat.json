@@ -1,0 +1,1178 @@
+{
+ "id": "natriumbicarbonat",
+ "title": "Natriumbicarbonat",
+ "stand": "2026-11-20",
+ "lead": "Bei welchen Belastungen hilft Natriumbicarbonat (Natron), wie dosiert man es, und wie lassen sich die häufigen Magen-Darm-Beschwerden vermeiden? Zusammengefasst aus Metaanalysen, einem Umbrella Review und dem ISSN-Positionspapier.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierte Erwachsene. Natriumbicarbonat puffert Säure im Blut und wirkt akut; der Nutzen ist klein und muss gegen Magen-Darm-Beschwerden abgewogen werden.",
+ "rx": [
+  {
+   "label": "Geeignete Belastungen",
+   "value": "hochintensiv, etwa 30 Sekunden bis 12 Minuten",
+   "text": "Am besten belegt für Mittelstrecke, Rudern, Radzeitfahren, Kraftausdauer und intermittierende Läufe; auch Kampfsport wird vom ISSN genannt.",
+   "cite": "Grgic et al. 2021; de Oliveira et al. 2022"
+  },
+  {
+   "label": "Dosis",
+   "value": "0,2–0,3 g/kg Körpergewicht",
+   "text": "0,2 g/kg gilt als Mindestdosis, 0,3 g/kg als optimal; höhere Dosen bringen keinen Zusatznutzen, aber mehr Beschwerden. Bei 70 kg sind das 14–21 g.",
+   "cite": "Grgic et al. 2021"
+  },
+  {
+   "label": "Zeitpunkt",
+   "value": "60–180 Minuten vorher, individuell testen",
+   "text": "Wer den Zeitpunkt nach dem eigenen Bicarbonat-Gipfel im Blut wählt, profitierte im Radzeitfahren. Alternativ 3–7 Tage vorher 0,4–0,5 g/kg pro Tag auf mehrere Mahlzeiten verteilen.",
+   "cite": "Grgic et al. 2021; Lopes-Silva &amp; Correia-Oliveira 2023"
+  },
+  {
+   "label": "Magen-Darm",
+   "value": "mit Mahlzeit, verteilt oder in Kapseln",
+   "text": "Beschwerden traten beim Laufen bei knapp 30 % auf (Placebo 2,6 %). Kleinere Dosen, Einnahme etwa 180 Minuten vorher mit kohlenhydratreicher Mahlzeit, magensaftresistente Kapseln oder Verteilen über Stunden mildern sie. Immer im Training testen, nie erstmals im Wettkampf.",
+   "cite": "Miller et al. 2025; Winter et al. 2026; Grgic et al. 2021"
+  },
+  {
+   "label": "Kaum Nutzen",
+   "value": "Maximalkraft, kurze Einzelsprints",
+   "text": "Kein Effekt auf Maximalkraft und auf die Spitzenleistung einzelner Sprints. Kombination mit <a href=\"#beta-alanin\">Beta-Alanin</a> möglicherweise additiv, mit <a href=\"#koffein\">Koffein</a> ohne gesicherten Zusatznutzen.",
+   "cite": "Grgic et al. 2020; Lopes-Silva et al. 2019; Curran-Bowen et al. 2024; Chen et al. 2026"
+  }
+ ],
+ "note": "<b>Hinweis:</b> 0,3 g/kg Natriumbicarbonat enthalten bei 70 kg rund 6 g Natrium. Für Menschen mit Bluthochdruck oder Nierenerkrankungen ist das relevant; in den Sportstudien wurde dies nicht untersucht. Ein Teil der Metaanalysen stammt von denselben Autorinnen und Autoren wie das ISSN-Positionspapier.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Kleiner, verlässlicher Leistungsgewinn bei hochintensiven Belastungen",
+   "ev": "hoch",
+   "p": "189 Studien: ES 0,17 insgesamt; am deutlichsten bei Belastungen ab etwa 30 Sekunden. Der Umbrella Review bestätigt Effekte bei Belastungen von etwa 45 Sekunden bis 8 Minuten, Kraftausdauer und Rudern.",
+   "s": [
+    "deoliveira2022",
+    "grgic2021u",
+    "carr2011",
+    "grgic2021"
+   ]
+  },
+  {
+   "t": "Kein Effekt auf Maximalkraft und Einzelsprints",
+   "ev": "moderat",
+   "p": "Maximalkraft (11 Studien), Spitzenleistung im Sprint und einzelne Wingate-Tests blieben unverändert.",
+   "s": [
+    "grgic2020k",
+    "lopessilva2019s",
+    "lopessilva2019w",
+    "grgic2022w"
+   ]
+  },
+  {
+   "t": "Magen-Darm-Beschwerden sind häufig",
+   "ev": "moderat",
+   "p": "Bei rund 30 % der Läuferinnen und Läufer traten Beschwerden auf; berücksichtigt man Studienabbrüche, war der Laufeffekt nicht mehr signifikant.",
+   "s": [
+    "miller2025",
+    "winter2026"
+   ]
+  },
+  {
+   "t": "0,2–0,3 g/kg, 60–180 Minuten vorher",
+   "ev": "moderat",
+   "p": "Höhere Dosen bringen keinen Zusatznutzen; individuelles Timing verbesserte die Leistung im Radzeitfahren.",
+   "s": [
+    "grgic2021",
+    "lopessilva2023",
+    "carr2011"
+   ]
+  },
+  {
+   "t": "Mit Beta-Alanin eher additiv, mit Koffein nicht belegt",
+   "ev": "niedrig",
+   "p": "Die Kombination mit Beta-Alanin war wirksam; mit Koffein war die Kombination nicht besser als jede Substanz allein.",
+   "s": [
+    "curranbowen2024",
+    "gilsanz2023",
+    "chen2026",
+    "liu2026"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "leistung",
+   "name": "Belastungen von 30 Sekunden bis 12 Minuten",
+   "q": "Bei welchen Ausdauer- und Wettkampfbelastungen hilft Natriumbicarbonat?",
+   "ev": "hoch",
+   "key": [
+    "Erste Metaanalyse (29 Studien): Leistung insgesamt verbessert, mit breiter Spanne der Effektgrößen (−0,12 bis 2,87); bei Tests bis zur Erschöpfung im Mittel 27 % längere Dauer (Matson &amp; Tran, 1993).",
+    "38 Studien zu Natriumbicarbonat: +1,7 % mittlere Leistung (90-%-KI ±2,0 %) bei etwa 0,3 g/kg in einem 1-Minuten-Sprint; der Effekt nahm je Verzehnfachung der Testdauer um 0,6 % ab, bei Nichtsportlern um 1,1 % und bei Frauen um 0,7 %. Natriumcitrat wirkte nicht (0,0 %) (Carr et al., 2011).",
+    "Gesamteffekt moderat, bei spezifisch Trainierten signifikant kleiner als bei Freizeitsportlern (Peart et al., 2012).",
+    "Intensive Ausdauerbelastungen (Geschwindigkeit): ES 0,40 [0,27; 0,54], ähnlich wie Koffein (Christensen et al., 2017).",
+    "Systematischer Review: Bei Belastungen bis 4 Minuten zeigten 11 von 20 Studien Vorteile, bei über 4 Minuten 6 von 15 (Hadzic et al., 2019).",
+    "2 000 m Rudern: +2,6 % mittlere Leistung (90-%-KI ±1,5 %) (Turnes et al., 2019).",
+    "Schwimmen: über 200 und 400 m signifikant schneller (SMD −0,22; −1,3 %), über 91,4 und 100 m nicht (Grgic &amp; Mikulic, 2022). Eine kleinere Analyse fand über 200 m keinen signifikanten Effekt (SMD 0,26 [−0,58; 1,10]) (Huang et al., 2025).",
+    "189 Studien mit 2 019 Personen: Blutbicarbonat +5,2 mmol/l; Gesamteffekt ES 0,17 [0,12; 0,21]; 0,5–10 min ES 0,18 [0,13; 0,24], über 10 min ES 0,22 [0,10; 0,33]. Natriumbicarbonat wirkte eher besser als Natriumcitrat (de Oliveira et al., 2022).",
+    "Radzeitfahren (18 Studien): mittlere Leistung SMD 0,42 [0,21; 0,63], Zeit SMD 0,22 [0,02; 0,43]; homogene Ergebnisse (I² = 0 %) (Lopes-Silva &amp; Correia-Oliveira, 2023).",
+    "Dauerlauf (11 Studien, 126 Personen, 1–30 min): nach Korrektur für Abbrüche wegen Magen-Darm-Beschwerden und Publikationsbias kein signifikanter Effekt (SMD 0,18 [−0,01; 0,36]); nur bei Männern SMD 0,40 [0,18; 0,63] (Miller et al., 2025).",
+    "Umbrella Review (8 Metaanalysen): Belastungen von etwa 45 s bis 8 min, Kraftausdauer und Yo-Yo-Test mit ähnlichen Effekten (0,36 bis 0,40); Evidenzqualität dort niedrig wegen Indirektheit und vermutetem Publikationsbias (Grgic et al., 2021).",
+    "ISSN: 0,2–0,5 g/kg verbessern Leistung bei hochintensiven Belastungen von 30 s bis 12 min, im Radfahren, Laufen, Schwimmen und Rudern, bei Männern und Frauen (Grgic et al., 2021)."
+   ],
+   "critic": "Der Effekt ist über drei Jahrzehnte und sehr viele Studien konsistent, aber klein (ES etwa 0,2–0,4). Die frühen, sehr großen Effekte (27 % längere Ausdauer bis zur Erschöpfung) sind für Wettkämpfe nicht übertragbar, weil Erschöpfungstests stärker reagieren als Zeitfahren. Bei Trainierten und Frauen fiel der Effekt kleiner aus. Die Laufanalyse von 2025 zeigt, dass Abbrüche wegen Magen-Darm-Beschwerden den Effekt in anderen Analysen überschätzen können. Dass die große Bayes-Analyse auch über 10 Minuten Vorteile fand, widerspricht der ISSN-Grenze von 12 Minuten nicht grundsätzlich, beruht aber auf weniger Studien.",
+   "figs": [
+    {
+     "id": "nb-leistung",
+     "title": "Natriumbicarbonat nach Belastungsart",
+     "cap": "Effektgröße gegenüber Placebo mit 95-%-KI bzw. Kredibilitätsintervall. Laufen: nach Korrektur für Abbrüche und Publikationsbias.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Belastungen (189 Studien)",
+       "sub": "de Oliveira et al., 2022",
+       "es": 0.17,
+       "lo": 0.12,
+       "hi": 0.21
+      },
+      {
+       "l": "0,5–10 Minuten",
+       "sub": "de Oliveira et al., 2022",
+       "es": 0.18,
+       "lo": 0.13,
+       "hi": 0.24
+      },
+      {
+       "l": "Über 10 Minuten",
+       "sub": "de Oliveira et al., 2022",
+       "es": 0.22,
+       "lo": 0.1,
+       "hi": 0.33
+      },
+      {
+       "l": "Intensive Ausdauer, Geschwindigkeit",
+       "sub": "Christensen et al., 2017",
+       "es": 0.4,
+       "lo": 0.27,
+       "hi": 0.54
+      },
+      {
+       "l": "Radzeitfahren, mittlere Leistung",
+       "sub": "Lopes-Silva &amp; Correia-Oliveira, 2023",
+       "es": 0.42,
+       "lo": 0.21,
+       "hi": 0.63
+      },
+      {
+       "l": "Dauerlauf, gemischte Gruppen",
+       "sub": "Miller et al., 2025",
+       "es": 0.18,
+       "lo": -0.01,
+       "hi": 0.36
+      },
+      {
+       "l": "Dauerlauf, nur Männer",
+       "sub": "Miller et al., 2025",
+       "es": 0.4,
+       "lo": 0.18,
+       "hi": 0.63
+      },
+      {
+       "l": "200 m Schwimmen (Zeit)",
+       "sub": "Huang et al., 2025",
+       "es": 0.26,
+       "lo": -0.58,
+       "hi": 1.1
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 1.2,
+      "ticks": [
+       -0.6,
+       -0.3,
+       0,
+       0.3,
+       0.6,
+       0.9,
+       1.2
+      ],
+      "unit": "ES",
+      "leftLab": "Placebo besser",
+      "rightLab": "Bicarbonat besser"
+     }
+    }
+   ],
+   "s": [
+    "matson1993",
+    "carr2011",
+    "peart2012",
+    "christensen2017",
+    "hadzic2019",
+    "turnes2019",
+    "grgic2022s",
+    "huang2025",
+    "deoliveira2022",
+    "lopessilva2023",
+    "miller2025",
+    "grgic2021u",
+    "grgic2021"
+   ]
+  },
+  {
+   "id": "sprints",
+   "name": "Wiederholte Sprints, Intervalle und Wingate-Test",
+   "q": "Hilft Natriumbicarbonat bei Sprints und intermittierenden Belastungen?",
+   "ev": "moderat",
+   "key": [
+    "Wingate-Test (9 Studien): akut kein Effekt auf Spitzen- (g = 0,02 [−0,19; 0,23]) oder mittlere Leistung (g = 0,15 [−0,06; 0,36]); nach mehrtägiger Einnahme deutliche Verbesserung (Spitze g = 1,21 [0,83; 1,42]; Mittel g = 1,26 [0,96; 1,56]) (Lopes-Silva et al., 2019).",
+    "Wiederholte Sprints: kein signifikanter Effekt auf Gesamtarbeit (g = 0,43 [−0,11; 0,97]), besten Sprint (g = 0,02 [−0,30; 0,34]) oder letzten Sprint (g = 0,20 [−0,13; 0,52]) (Lopes-Silva et al., 2019).",
+    "Yo-Yo-Test (5 Studien zu Bicarbonat, überwiegend Level 2): SMD 0,36 [0,10; 0,63]; +16,0 % (Grgic et al., 2020).",
+    "Einzelner Wingate-Test ohne Effekt; bei wiederholten Tests verbesserte mittlere Leistung im 2. und 4. Durchgang (SMD 0,09 bis 0,62) (Grgic, 2022).",
+    "Hochintensive intermittierende Belastungen bei Mannschaftssportlern (20 Studien, 241 Personen): g = 0,23 [0,07; 0,39], Vorhersageintervall −0,22 bis 0,68; für wiederholte Sprints, mittlere Leistung und Arbeitskapazität einzeln kein klarer Effekt. Laktat +1,73 mmol/l, Bicarbonat +2,73 mmol/l nach Belastung (Ge et al., 2026).",
+    "Umbrella Review: kein Unterschied zu Placebo bei wiederholten Sprints und allgemeiner mittlerer Leistung (Grgic et al., 2021)."
+   ],
+   "critic": "Kurze Einzelsprints werden kaum durch Übersäuerung begrenzt; dazu passen die Nullbefunde. Mit zunehmender Zahl von Wiederholungen und kurzen Pausen wird ein Vorteil wahrscheinlicher (Yo-Yo-Test, späte Wingate-Durchgänge). Die großen Effekte bei mehrtägiger Einnahme stammen aus nur drei Studien und sollten vorsichtig gelesen werden. Das Vorhersageintervall der neuesten Analyse schließt null ein: Nicht jede Person profitiert.",
+   "figs": [
+    {
+     "id": "nb-sprint",
+     "title": "Sprints und intermittierende Belastungen",
+     "cap": "Effektgröße gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Wiederholte Sprints, Gesamtarbeit",
+       "sub": "Lopes-Silva et al., 2019",
+       "es": 0.43,
+       "lo": -0.11,
+       "hi": 0.97
+      },
+      {
+       "l": "Wiederholte Sprints, bester Sprint",
+       "sub": "Lopes-Silva et al., 2019",
+       "es": 0.02,
+       "lo": -0.3,
+       "hi": 0.34
+      },
+      {
+       "l": "Wingate akut, mittlere Leistung",
+       "sub": "Lopes-Silva et al., 2019",
+       "es": 0.15,
+       "lo": -0.06,
+       "hi": 0.36
+      },
+      {
+       "l": "Wingate mehrtägig, mittlere Leistung",
+       "sub": "Lopes-Silva et al., 2019",
+       "es": 1.26,
+       "lo": 0.96,
+       "hi": 1.56
+      },
+      {
+       "l": "Yo-Yo-Test",
+       "sub": "Grgic et al., 2020",
+       "es": 0.36,
+       "lo": 0.1,
+       "hi": 0.63
+      },
+      {
+       "l": "Hochintensive Intervalle",
+       "sub": "Ge et al., 2026",
+       "es": 0.23,
+       "lo": 0.07,
+       "hi": 0.39
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 1.6,
+      "ticks": [
+       -0.4,
+       0,
+       0.4,
+       0.8,
+       1.2,
+       1.6
+      ],
+      "unit": "g",
+      "leftLab": "Placebo besser",
+      "rightLab": "Bicarbonat besser"
+     }
+    }
+   ],
+   "s": [
+    "lopessilva2019w",
+    "lopessilva2019s",
+    "grgic2020y",
+    "grgic2022w",
+    "ge2026",
+    "grgic2021u"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Kraftausdauer und Maximalkraft",
+   "q": "Bringt Natriumbicarbonat etwas im Krafttraining?",
+   "ev": "moderat",
+   "key": [
+    "Kraftausdauer (13 Studien): SMD 0,37 [0,15; 0,59], sowohl für kleine (SMD 0,31) als auch große Muskelgruppen (SMD 0,40). Maximalkraft (11 Studien): kein Effekt (SMD −0,03 [−0,18; 0,12]), weder ausgeruht noch ermüdet (Grgic et al., 2020).",
+    "ISSN: Längerfristige Einnahme vor jeder Einheit könnte Trainingsanpassungen wie Zeit bis zur Ermüdung und Leistung verbessern (Grgic et al., 2021)."
+   ],
+   "critic": "Die Trennung ist klar und mechanistisch plausibel: Serien mit vielen Wiederholungen profitieren, Einzelwiederholungen nicht. Ob regelmäßige Einnahme vor dem Training langfristig mehr Muskel oder Kraft bringt, ist kaum untersucht.",
+   "figs": [],
+   "s": [
+    "grgic2020k",
+    "grgic2021"
+   ]
+  },
+  {
+   "id": "kampfsport",
+   "name": "Kampfsport",
+   "q": "Profitieren Kampfsportler?",
+   "ev": "niedrig",
+   "key": [
+    "8 Studien: Natriumbicarbonat erhöhte das Blutlaktat, aber weder Leistung noch kampfspezifische Tests oder Anstrengungsempfinden signifikant (Miranda et al., 2022).",
+    "Netzwerk-Metaanalyse bei Elite-Kampfsportlern: Spitzenleistung SMD 0,35 [95-%-KrI 0,11; 0,57] gegenüber Placebo (Luo et al., 2025).",
+    "ISSN: verbessert die Leistung in Boxen, Judo, Karate, Taekwondo und Ringen (Grgic et al., 2021)."
+   ],
+   "critic": "Die Aussagen widersprechen sich: Die Metaanalyse von 2022 fand keinen Leistungseffekt, die Netzwerk-Metaanalyse von 2025 einen kleinen Effekt auf die Spitzenleistung. Höheres Laktat zeigt nur, dass mehr Säure abgepuffert wurde, nicht, dass besser gekämpft wird. Die ISSN-Aussage ist positiver als die Metaanalysen. Wahrscheinlichste Lesart: kleiner Nutzen bei wiederholt intensiven Phasen möglich, kampfspezifisch nicht gesichert.",
+   "figs": [],
+   "s": [
+    "miranda2022",
+    "luo2025",
+    "grgic2021"
+   ]
+  },
+  {
+   "id": "dosis",
+   "name": "Dosis, Zeitpunkt und individuelle Reaktion",
+   "q": "Wie viel und wann?",
+   "ev": "moderat",
+   "key": [
+    "ISSN: 0,2 g/kg Mindestdosis, 0,3 g/kg optimal; 0,4–0,5 g/kg bringen in Einzeldosis keinen Zusatznutzen, aber mehr Nebenwirkungen. Einnahme 60–180 Minuten vorher. Mehrtägig 0,4–0,5 g/kg pro Tag über 3–7 Tage, aufgeteilt auf 0,1–0,2 g/kg zu den Mahlzeiten (Grgic et al., 2021).",
+    "Pro 1 mmol/kg Körpergewicht mehr Bicarbonat stieg die Leistung um 0,5 % (Carr et al., 2011).",
+    "Größere Anstiege des Blutbicarbonats (4–6 mmol/l und über 6 mmol/l) gingen mit größeren Effekten einher als kleine (bis 4 mmol/l) (de Oliveira et al., 2022).",
+    "Radzeitfahren: Einnahme zum individuellen Bicarbonat-Gipfel verbesserte Zeit (SMD 0,34 [0,07; 0,61]) und Leistung (SMD 0,39 [0,03; 0,75]); das Standardprotokoll allein nicht (Lopes-Silva &amp; Correia-Oliveira, 2023).",
+    "Frauen (11 Studien mit reinen Frauenanalysen): große Anstiege des Blutbicarbonats und wahrscheinlich kleine bis mittlere Leistungseffekte; kein Grund für geschlechtsspezifische Dosierung, 0,2–0,3 g/kg 60–180 Minuten vorher (Saunders et al., 2022)."
+   ],
+   "critic": "Die Dosisempfehlung ist gut abgeleitet. Beim Zeitpunkt deutet einiges auf einen Vorteil individueller Protokolle hin; das stammt aber vor allem aus Radzeitfahren. Zu Frauen gibt es wenige Studien, und die Laufanalyse fand bei gemischten Gruppen kleinere Effekte als bei Männern.",
+   "figs": [],
+   "s": [
+    "grgic2021",
+    "carr2011",
+    "deoliveira2022",
+    "lopessilva2023",
+    "saunders2022"
+   ]
+  },
+  {
+   "id": "magen",
+   "name": "Magen-Darm-Beschwerden und Sicherheit",
+   "q": "Wie häufig sind Beschwerden, und wie vermeidet man sie?",
+   "ev": "moderat",
+   "key": [
+    "Dauerlauf: Magen-Darm-Beschwerden bei 29,5 % mit Bicarbonat vs. 2,6 % mit Placebo (OR 5,9; geringe Sicherheit); Studienabbruch deswegen 8,7 % vs. 1,6 % (OR 2,9; moderate Sicherheit) (Miller et al., 2025).",
+    "Systematischer Review (101 Untersuchungen): Übliche Dosen von 0,2–0,4 g/kg verursachen leichte bis starke Beschwerden, vermutlich dosisabhängig. Verteilen über Stunden, magensaftresistente Kapseln und Minitabletten in einem Kohlenhydratgel könnten helfen; direkte Vergleiche fehlen. 26 der 101 Studien prüften Beschwerden nicht statistisch (Winter et al., 2026).",
+    "ISSN: häufigste Nebenwirkungen sind Blähungen, Übelkeit, Erbrechen und Bauchschmerzen; sie können die Leistung mindern. Helfen können kleinere Dosen, Einnahme etwa 180 Minuten vorher, eine kohlenhydratreiche Mahlzeit und magensaftresistente Kapseln (Grgic et al., 2021)."
+   ],
+   "critic": "Die Beschwerden sind der wichtigste praktische Nachteil. Die Strategien zur Vermeidung sind plausibel, aber nicht direkt miteinander verglichen. Schwere Schäden wurden in den Sportstudien nicht berichtet; die hohe Natriummenge wurde nicht als eigener Endpunkt untersucht.",
+   "figs": [
+    {
+     "id": "nb-magen",
+     "title": "Magen-Darm-Beschwerden beim Laufen",
+     "cap": "Anteil der Personen in Prozent (Miller et al., 2025; 11 Studien).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Beschwerden, Bicarbonat",
+       "es": 29.5
+      },
+      {
+       "l": "Beschwerden, Placebo",
+       "es": 2.6
+      },
+      {
+       "l": "Abbruch wegen Beschwerden, Bicarbonat",
+       "es": 8.7
+      },
+      {
+       "l": "Abbruch wegen Beschwerden, Placebo",
+       "es": 1.6
+      }
+     ],
+     "opts": {
+      "max": 35,
+      "ticks": [
+       0,
+       10,
+       20,
+       30
+      ],
+      "unit": "%",
+      "xlab": "Anteil der Personen",
+      "src": "Miller et al., 2025"
+     }
+    }
+   ],
+   "s": [
+    "miller2025",
+    "winter2026",
+    "grgic2021"
+   ]
+  },
+  {
+   "id": "kombi",
+   "name": "Kombination mit Beta-Alanin und Koffein",
+   "q": "Lohnt sich die Kombination?",
+   "ev": "niedrig",
+   "key": [
+    "Mit <a href=\"#beta-alanin\">Beta-Alanin</a> (10 Studien, 243 Personen): Bicarbonat allein (SMD 0,17 [−0,08; 0,41]) und Beta-Alanin allein (SMD 0,18 [−0,06; 0,43]) nicht signifikant, die Kombination schon (SMD 0,32 [0,07; 0,57]); der Unterschied zu den Einzelsubstanzen war nicht signifikant (Curran-Bowen et al., 2024).",
+    "Systematischer Review (9 Studien, 221 Sportler): in 5 Studien zusätzliche Verbesserung von Pufferkapazität und Leistung durch die Kombination; empfohlen für Belastungen von 30 s bis 10 min (Gilsanz et al., 2023).",
+    "Mit <a href=\"#koffein\">Koffein</a> (13 Studien): gegenüber Placebo mittlere Leistung +8,43 W [1,85; 15,00] und Zeitfahren 1,6 % schneller, aber nicht robust und nicht besser als jede Substanz allein (Chen et al., 2026).",
+    "Netzwerk-Metaanalyse (13 Studien, 181 Personen): Koffein (g = 0,21), Bicarbonat (g = 0,21) und Kombination (g = 0,28) jeweils kleiner Vorteil; die Kombination war nicht klar überlegen, steigerte aber das Laktat am stärksten (g = 1,75) (Liu et al., 2026).",
+    "ISSN: Kombination mit Kreatin oder Beta-Alanin möglicherweise additiv; mit Koffein oder Nitrat unklar (Grgic et al., 2021)."
+   ],
+   "critic": "Für Beta-Alanin weisen alle Quellen in Richtung eines leichten Zusatznutzens, statistisch belegt ist die Überlegenheit gegenüber den Einzelsubstanzen aber nicht. Für Koffein zeigen die beiden neuesten Analysen übereinstimmend keinen Zusatznutzen. Dass Bicarbonat in der Kombinationsanalyse allein nicht signifikant war, widerspricht den großen Analysen und liegt vermutlich an der kleinen Studienzahl.",
+   "figs": [],
+   "s": [
+    "curranbowen2024",
+    "gilsanz2023",
+    "chen2026",
+    "liu2026",
+    "grgic2021"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 1993,
+   "t": "Erste Metaanalyse",
+   "p": "Leistung verbessert, große Streuung der Effekte.",
+   "tag": "neu",
+   "s": "matson1993"
+  },
+  {
+   "y": 2011,
+   "t": "Leistungsgewinn quantifiziert",
+   "p": "+1,7 % bei etwa 0,3 g/kg; kleiner bei Trainierten und Frauen; Citrat ohne Effekt.",
+   "tag": "rel",
+   "s": "carr2011"
+  },
+  {
+   "y": 2012,
+   "t": "Kleinerer Effekt bei Trainierten",
+   "p": "Gesamteffekt moderat.",
+   "tag": "conf",
+   "s": "peart2012"
+  },
+  {
+   "y": 2017,
+   "t": "Intensive Ausdauer",
+   "p": "ES 0,40, vergleichbar mit Koffein.",
+   "tag": "conf",
+   "s": "christensen2017"
+  },
+  {
+   "y": 2019,
+   "t": "Belastungsdauer",
+   "p": "Uneinheitliche Studien zu kurzen und längeren Belastungen.",
+   "tag": "rel",
+   "s": "hadzic2019"
+  },
+  {
+   "y": 2019,
+   "t": "Wingate-Test",
+   "p": "Akut kein Effekt, mehrtägig deutlicher Effekt.",
+   "tag": "neu",
+   "s": "lopessilva2019w"
+  },
+  {
+   "y": 2019,
+   "t": "Wiederholte Sprints",
+   "p": "Kein signifikanter Effekt.",
+   "tag": "contra",
+   "s": "lopessilva2019s"
+  },
+  {
+   "y": 2019,
+   "t": "Rudern",
+   "p": "+2,6 % über 2 000 m.",
+   "tag": "neu",
+   "s": "turnes2019"
+  },
+  {
+   "y": 2020,
+   "t": "Yo-Yo-Test",
+   "p": "Intermittierende Läufe verbessert.",
+   "tag": "neu",
+   "s": "grgic2020y"
+  },
+  {
+   "y": 2020,
+   "t": "Kraftausdauer ja, Maximalkraft nein",
+   "p": "13 bzw. 11 Studien.",
+   "tag": "neu",
+   "s": "grgic2020k"
+  },
+  {
+   "y": 2021,
+   "t": "Umbrella Review",
+   "p": "Bestätigt Effekte bei 45 s bis 8 min, Kraftausdauer und Rudern.",
+   "tag": "conf",
+   "s": "grgic2021u"
+  },
+  {
+   "y": 2021,
+   "t": "ISSN-Positionspapier",
+   "p": "0,2–0,3 g/kg, 60–180 min vorher, 30 s bis 12 min.",
+   "tag": "neu",
+   "s": "grgic2021"
+  },
+  {
+   "y": 2022,
+   "t": "Große Bayes-Metaanalyse",
+   "p": "189 Studien: ES 0,17; Bicarbonat besser als Citrat.",
+   "tag": "conf",
+   "s": "deoliveira2022"
+  },
+  {
+   "y": 2022,
+   "t": "Schwimmen",
+   "p": "200 und 400 m verbessert, Kurzstrecken nicht.",
+   "tag": "neu",
+   "s": "grgic2022s"
+  },
+  {
+   "y": 2022,
+   "t": "Wiederholte Wingate-Tests",
+   "p": "Vorteil erst in späteren Durchgängen.",
+   "tag": "rel",
+   "s": "grgic2022w"
+  },
+  {
+   "y": 2022,
+   "t": "Kampfsport",
+   "p": "Mehr Laktat, kein signifikanter Leistungseffekt.",
+   "tag": "contra",
+   "s": "miranda2022"
+  },
+  {
+   "y": 2022,
+   "t": "Frauen",
+   "p": "Gleiche Dosierung wie bei Männern angemessen.",
+   "tag": "neu",
+   "s": "saunders2022"
+  },
+  {
+   "y": 2023,
+   "t": "Radzeitfahren",
+   "p": "Individuelles Timing wirksam.",
+   "tag": "neu",
+   "s": "lopessilva2023"
+  },
+  {
+   "y": 2023,
+   "t": "Mit Beta-Alanin",
+   "p": "Teilweise zusätzliche Verbesserung.",
+   "tag": "neu",
+   "s": "gilsanz2023"
+  },
+  {
+   "y": 2024,
+   "t": "Kombination mit Beta-Alanin",
+   "p": "Kombination wirksam, Einzelsubstanzen hier nicht.",
+   "tag": "rel",
+   "s": "curranbowen2024"
+  },
+  {
+   "y": 2025,
+   "t": "Elite-Kampfsport",
+   "p": "Spitzenleistung leicht verbessert.",
+   "tag": "rel",
+   "s": "luo2025"
+  },
+  {
+   "y": 2025,
+   "t": "Dauerlauf",
+   "p": "Nach Korrektur kein signifikanter Effekt; Beschwerden häufig.",
+   "tag": "contra",
+   "s": "miller2025"
+  },
+  {
+   "y": 2025,
+   "t": "200 m Schwimmen",
+   "p": "Kein signifikanter Effekt.",
+   "tag": "contra",
+   "s": "huang2025"
+  },
+  {
+   "y": 2026,
+   "t": "Intervallbelastungen",
+   "p": "Kleiner Effekt, große individuelle Streuung.",
+   "tag": "conf",
+   "s": "ge2026"
+  },
+  {
+   "y": 2026,
+   "t": "Magen-Darm-Beschwerden",
+   "p": "101 Untersuchungen: dosisabhängige Beschwerden.",
+   "tag": "neu",
+   "s": "winter2026"
+  },
+  {
+   "y": 2026,
+   "t": "Kombination mit Koffein",
+   "p": "Kein Zusatznutzen.",
+   "tag": "neu",
+   "s": "chen2026"
+  },
+  {
+   "y": 2026,
+   "t": "Netzwerk-Metaanalyse Koffein und Bicarbonat",
+   "p": "Kombination nicht überlegen.",
+   "tag": "conf",
+   "s": "liu2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 374 Einträgen, 168 Übersichtsarbeiten nach Titel geprüft (davon 11 aus regelbasiert ausgeschlossenen Einträgen und 30 über eine ergänzende Suche nach Übersichtsarbeiten), 27 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Hochintensive Ausdauer (30 s bis 12 min)",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Leistung bei hochintensiven Belastungen",
+     "g": "A",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 189,
+     "p": 2019,
+     "s": [
+      "deoliveira2022",
+      "carr2011",
+      "grgic2021u",
+      "christensen2017"
+     ],
+     "t": "ES 0,17 insgesamt (189 Studien), 0,18 bei 0,5–10 min und 0,22 über 10 min; in Prozent etwa +1,7 % Leistung.",
+     "v": "leistung"
+    },
+    {
+     "n": "Radzeitfahren",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 18,
+     "p": null,
+     "s": [
+      "lopessilva2023"
+     ],
+     "t": "Mittlere Leistung SMD 0,42, Zeit SMD 0,22 (18 Studien, I² = 0 %).",
+     "v": "leistung"
+    },
+    {
+     "n": "Rudern 2 000 m",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "turnes2019",
+      "grgic2021u"
+     ],
+     "t": "+2,6 % mittlere Leistung; Evidenzqualität niedrig.",
+     "v": "leistung"
+    },
+    {
+     "n": "Schwimmen 200–400 m",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "grgic2022s",
+      "huang2025"
+     ],
+     "t": "SMD −0,22 (1,3 % schneller) über 200 und 400 m; eine kleinere Analyse fand über 200 m keinen signifikanten Effekt.",
+     "v": "leistung"
+    },
+    {
+     "n": "Dauerlauf 1–30 min",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": 126,
+     "s": [
+      "miller2025"
+     ],
+     "t": "Nach Korrektur für Abbrüche und Publikationsbias SMD 0,18, nicht signifikant; bei Männern SMD 0,40.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Sprints und intermittierende Belastungen",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Wiederholte Sprints",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "lopessilva2019s",
+      "grgic2021u",
+      "ge2026"
+     ],
+     "t": "Gesamtarbeit g = 0,43, bester Sprint g = 0,02, beide nicht signifikant; auch im Umbrella Review kein Effekt.",
+     "v": "sprints"
+    },
+    {
+     "n": "Intermittierende Läufe (Yo-Yo-Test)",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 5,
+     "p": null,
+     "s": [
+      "grgic2020y",
+      "grgic2021u"
+     ],
+     "t": "SMD 0,36 (+16,0 %) in 5 Studien; Evidenzqualität moderat.",
+     "v": "sprints"
+    },
+    {
+     "n": "Hochintensive Intervallbelastungen",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 20,
+     "p": 241,
+     "s": [
+      "ge2026"
+     ],
+     "t": "g = 0,23; Vorhersageintervall −0,22 bis 0,68, also nicht bei allen wirksam.",
+     "v": "sprints"
+    },
+    {
+     "n": "Einzelner Wingate-Test (akut)",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 9,
+     "p": null,
+     "s": [
+      "lopessilva2019w",
+      "grgic2022w"
+     ],
+     "t": "Spitzenleistung g = 0,02, mittlere Leistung g = 0,15; erst wiederholte Tests profitieren (SMD 0,09–0,62).",
+     "v": "sprints"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Kraftausdauer (Wiederholungen)",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 13,
+     "p": null,
+     "s": [
+      "grgic2020k",
+      "grgic2021u"
+     ],
+     "t": "SMD 0,37 für kleine und große Muskelgruppen (13 Studien).",
+     "v": "kraft"
+    },
+    {
+     "n": "Maximalkraft",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": null,
+     "s": [
+      "grgic2020k"
+     ],
+     "t": "SMD −0,03, weder ausgeruht noch ermüdet ein Effekt (11 Studien).",
+     "v": "kraft"
+    },
+    {
+     "n": "Kampfsportleistung",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 8,
+     "p": null,
+     "s": [
+      "miranda2022",
+      "luo2025"
+     ],
+     "t": "Kein signifikanter Leistungseffekt in 8 Studien; Netzwerk-Metaanalyse: Spitzenleistung SMD 0,35.",
+     "v": "kampfsport"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kombinationen",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Kombination mit Beta-Alanin",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": null,
+     "p": 243,
+     "s": [
+      "curranbowen2024",
+      "gilsanz2023"
+     ],
+     "t": "SMD 0,32 gegenüber Placebo; Unterschied zu den Einzelsubstanzen nicht signifikant.",
+     "v": "kombi"
+    },
+    {
+     "n": "Zusatznutzen der Kombination mit Koffein",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 13,
+     "p": 181,
+     "s": [
+      "chen2026",
+      "liu2026"
+     ],
+     "t": "Kombination g = 0,28, Bicarbonat allein g = 0,21, Koffein allein g = 0,21; nicht klar überlegen.",
+     "v": "kombi"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Magen-Darm-Beschwerden",
+     "g": "B",
+     "d": "auf",
+     "m": 4,
+     "b": "schaden",
+     "k": 11,
+     "p": 126,
+     "s": [
+      "miller2025",
+      "winter2026",
+      "grgic2021"
+     ],
+     "t": "29,5 % vs. 2,6 % mit Placebo (OR 5,9); dosisabhängig laut Review von 101 Untersuchungen.",
+     "v": "magen"
+    },
+    {
+     "n": "Studienabbruch wegen Beschwerden",
+     "g": "C",
+     "d": "auf",
+     "m": 4,
+     "b": "schaden",
+     "k": 11,
+     "p": 126,
+     "s": [
+      "miller2025"
+     ],
+     "t": "8,7 % vs. 1,6 % (OR 2,9).",
+     "v": "magen"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Säure-Basen-Haushalt",
+   "kat": "status",
+   "items": [
+    {
+     "n": "Blutbicarbonat",
+     "g": "A",
+     "d": "auf",
+     "m": 4,
+     "b": "neutral",
+     "k": 189,
+     "p": 2019,
+     "s": [
+      "deoliveira2022",
+      "ge2026"
+     ],
+     "t": "+5,2 mmol/l im Mittel; größere Anstiege gingen mit größeren Leistungseffekten einher.",
+     "v": "dosis"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "matson1993": {
+   "short": "Matson & Tran, 1993",
+   "year": 1993,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "8388767",
+   "apa": "Matson, L. G. &amp; Tran, Z. V. (1993). Effects of sodium bicarbonate ingestion on anaerobic performance: A meta-analytic review. <em>International Journal of Sport Nutrition, 3</em>(1), 2–28.",
+   "doi": "10.1123/ijsn.3.1.2"
+  },
+  "carr2011": {
+   "short": "Carr et al., 2011",
+   "year": 2011,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "21923200",
+   "apa": "Carr, A. J., Hopkins, W. G. &amp; Gore, C. J. (2011). Effects of acute alkalosis and acidosis on performance: A meta-analysis. <em>Sports Medicine, 41</em>(10), 801–814.",
+   "doi": "10.2165/11591440-000000000-00000"
+  },
+  "peart2012": {
+   "short": "Peart et al., 2012",
+   "year": 2012,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22505127",
+   "apa": "Peart, D. J., Siegler, J. C. &amp; Vince, R. V. (2012). Practical recommendations for coaches and athletes: A meta-analysis of sodium bicarbonate use for athletic performance. <em>Journal of Strength and Conditioning Research, 26</em>(7), 1975–1983.",
+   "doi": "10.1519/JSC.0b013e3182576f3d"
+  },
+  "christensen2017": {
+   "short": "Christensen et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28536531",
+   "apa": "Christensen, P. M., Shirai, Y., Ritz, C. &amp; Nordsborg, N. B. (2017). Caffeine and bicarbonate for speed. A meta-analysis of legal supplements potential for improving intense endurance exercise performance. <em>Frontiers in Physiology, 8</em>, Artikel 240.",
+   "doi": "10.3389/fphys.2017.00240"
+  },
+  "hadzic2019": {
+   "short": "Hadzic et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "31191097",
+   "apa": "Hadzic, M., Eckstein, M. L. &amp; Schugardt, M. (2019). The impact of sodium bicarbonate on performance in response to exercise duration in athletes: A systematic review. <em>Journal of Sports Science &amp; Medicine, 18</em>(2), 271–281."
+  },
+  "lopessilva2019w": {
+   "short": "Lopes-Silva et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30319077",
+   "apa": "Lopes-Silva, J. P., Reale, R. &amp; Franchini, E. (2019). Acute and chronic effect of sodium bicarbonate ingestion on Wingate test performance: A systematic review and meta-analysis. <em>Journal of Sports Sciences, 37</em>(7), 762–771.",
+   "doi": "10.1080/02640414.2018.1524739"
+  },
+  "lopessilva2019s": {
+   "short": "Lopes-Silva et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31036532",
+   "apa": "Lopes-Silva, J. P., Choo, H. C., Franchini, E. &amp; Abbiss, C. R. (2019). Isolated ingestion of caffeine and sodium bicarbonate on repeated sprint performance: A systematic review and meta-analysis. <em>Journal of Science and Medicine in Sport, 22</em>(8), 962–972.",
+   "doi": "10.1016/j.jsams.2019.03.007"
+  },
+  "turnes2019": {
+   "short": "Turnes et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31034295",
+   "apa": "Turnes, T., Cruz, R. S. O., Caputo, F. &amp; De Aguiar, R. A. (2019). The impact of preconditioning strategies designed to improve 2000-m rowing ergometer performance in trained rowers: A systematic review and meta-analysis. <em>International Journal of Sports Physiology and Performance, 14</em>(7), 871–879.",
+   "doi": "10.1123/ijspp.2019-0247"
+  },
+  "grgic2020y": {
+   "short": "Grgic et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31466868",
+   "apa": "Grgic, J., Garofolini, A., Pickering, C., Duncan, M. J., Tinsley, G. M. &amp; Del Coso, J. (2020). Isolated effects of caffeine and sodium bicarbonate ingestion on performance in the Yo-Yo test: A systematic review and meta-analysis. <em>Journal of Science and Medicine in Sport, 23</em>(1), 41–47.",
+   "doi": "10.1016/j.jsams.2019.08.016"
+  },
+  "grgic2020k": {
+   "short": "Grgic et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32096113",
+   "apa": "Grgic, J., Rodriguez, R. F., Garofolini, A., Saunders, B., Bishop, D. J., Schoenfeld, B. J. &amp; Pedisic, Z. (2020). Effects of sodium bicarbonate supplementation on muscular strength and endurance: A systematic review and meta-analysis. <em>Sports Medicine, 50</em>(7), 1361–1375.",
+   "doi": "10.1007/s40279-020-01275-y"
+  },
+  "grgic2021u": {
+   "short": "Grgic et al., 2021",
+   "year": 2021,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "34794476",
+   "apa": "Grgic, J., Grgic, I., Del Coso, J., Schoenfeld, B. J. &amp; Pedisic, Z. (2021). Effects of sodium bicarbonate supplementation on exercise performance: An umbrella review. <em>Journal of the International Society of Sports Nutrition, 18</em>(1), Artikel 71.",
+   "doi": "10.1186/s12970-021-00469-7"
+  },
+  "grgic2021": {
+   "short": "Grgic et al., 2021",
+   "year": 2021,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "34503527",
+   "apa": "Grgic, J., Pedisic, Z., Saunders, B., Artioli, G. G., Schoenfeld, B. J., McKenna, M. J., Bishop, D. J., Kreider, R. B., Stout, J. R., Kalman, D. S., Arent, S. M., VanDusseldorp, T. A., Lopez, H. L., Ziegenfuss, T. N., Burke, L. M., Antonio, J. &amp; Campbell, B. I. (2021). International Society of Sports Nutrition position stand: Sodium bicarbonate and exercise performance. <em>Journal of the International Society of Sports Nutrition, 18</em>(1), Artikel 61.",
+   "doi": "10.1186/s12970-021-00458-w"
+  },
+  "deoliveira2022": {
+   "short": "de Oliveira et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34687438",
+   "apa": "de Oliveira, L. F., Dolan, E., Swinton, P. A., Durkalec-Michalski, K., Artioli, G. G., McNaughton, L. R. &amp; Saunders, B. (2022). Extracellular buffering supplements to improve exercise capacity and performance: A comprehensive systematic review and meta-analysis. <em>Sports Medicine, 52</em>(3), 505–526.",
+   "doi": "10.1007/s40279-021-01575-x"
+  },
+  "grgic2022s": {
+   "short": "Grgic & Mikulic, 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34151681",
+   "apa": "Grgic, J. &amp; Mikulic, P. (2022). Ergogenic effects of sodium bicarbonate supplementation on middle-, but not short-distance swimming tests: A meta-analysis. <em>Journal of Dietary Supplements, 19</em>(6), 791–802.",
+   "doi": "10.1080/19390211.2021.1942381"
+  },
+  "grgic2022w": {
+   "short": "Grgic, 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33314967",
+   "apa": "Grgic, J. (2022). Effects of sodium bicarbonate ingestion on measures of Wingate test performance: A meta-analysis. <em>Journal of the American Nutrition Association, 41</em>(1), 1–10.",
+   "doi": "10.1080/07315724.2020.1850370"
+  },
+  "miranda2022": {
+   "short": "Miranda et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35394616",
+   "apa": "Miranda, W. A. S., Barreto, L. B. M., Miarka, B., Salinas, A. E., Soto, D. A. S., Muñoz, E. A. A. &amp; Brito, C. J. (2022). Can sodium bicarbonate supplementation improve combat sports performance? A systematic review and meta-analysis. <em>Current Nutrition Reports, 11</em>(2), 273–282.",
+   "doi": "10.1007/s13668-022-00396-2"
+  },
+  "saunders2022": {
+   "short": "Saunders et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review mit Metaanalyse (Kurzbeitrag)",
+   "basis": "Abstract",
+   "pmid": "33487131",
+   "apa": "Saunders, B., Oliveira, L. F., Dolan, E., Durkalec-Michalski, K., McNaughton, L., Artioli, G. G. &amp; Swinton, P. A. (2022). Sodium bicarbonate supplementation and the female athlete: A brief commentary with small scale systematic review and meta-analysis. <em>European Journal of Sport Science, 22</em>(5), 745–754.",
+   "doi": "10.1080/17461391.2021.1880649"
+  },
+  "lopessilva2023": {
+   "short": "Lopes-Silva & Correia-Oliveira, 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35633035",
+   "apa": "Lopes-Silva, J. P. &amp; Correia-Oliveira, C. R. (2023). Acute effects of sodium bicarbonate ingestion on cycling time-trial performance: A systematic review and meta-analysis of randomized controlled trials. <em>European Journal of Sport Science, 23</em>(6), 943–954.",
+   "doi": "10.1080/17461391.2022.2071171"
+  },
+  "gilsanz2023": {
+   "short": "Gilsanz et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34882489",
+   "apa": "Gilsanz, L., López-Seoane, J., Jiménez, S. L. &amp; Pareja-Galeano, H. (2023). Effect of β-alanine and sodium bicarbonate co-supplementation on the body's buffering capacity and sports performance: A systematic review. <em>Critical Reviews in Food Science and Nutrition, 63</em>(21), 5080–5093.",
+   "doi": "10.1080/10408398.2021.2012642"
+  },
+  "curranbowen2024": {
+   "short": "Curran-Bowen et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38952910",
+   "apa": "Curran-Bowen, T., Guedes da Silva, A., Barreto, G., Buckley, J. &amp; Saunders, B. (2024). Sodium bicarbonate and beta-alanine supplementation: Is combining both better than either alone? A systematic review and meta-analysis. <em>Biology of Sport, 41</em>(3), 79–87.",
+   "doi": "10.5114/biolsport.2024.132997"
+  },
+  "luo2025": {
+   "short": "Luo et al., 2025",
+   "year": 2025,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39747536",
+   "apa": "Luo, H., Tengku Kamalden, T. F., Zhu, X., Xiang, C. &amp; Nasharuddin, N. A. (2025). Advantages of different dietary supplements for elite combat sports athletes: A systematic review and Bayesian network meta-analysis. <em>Scientific Reports, 15</em>(1), Artikel 271.",
+   "doi": "10.1038/s41598-024-84359-3"
+  },
+  "miller2025": {
+   "short": "Miller et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41416636",
+   "apa": "Miller, L. E., Bhattacharyya, R., Katz, S. J., Bhattacharyya, M. &amp; Herbert, W. G. (2025). Negligible benefit of oral single-dose sodium bicarbonate on continuous running performance: Systematic review with meta-analysis of randomized, double-blind, placebo-controlled trials. <em>Journal of the International Society of Sports Nutrition, 22</em>(1), Artikel 2538606.",
+   "doi": "10.1080/15502783.2025.2538606"
+  },
+  "huang2025": {
+   "short": "Huang et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39841595",
+   "apa": "Huang, D., Wang, X., Takagi, H., Wang, Z., Wang, C., Yang, L. &amp; Huang, B. (2025). Effects of sodium bicarbonate on 200 m time trial performance and physiological responses in swimmers: A systematic review and meta-analysis of randomized controlled trials. <em>Research in Sports Medicine, 33</em>(3), 291–307.",
+   "doi": "10.1080/15438627.2025.2456630"
+  },
+  "ge2026": {
+   "short": "Ge et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42781544",
+   "apa": "Ge, X., Sun, H., Wu, C. &amp; Liu, S. (2026). Effects of acute or short-term oral sodium bicarbonate supplementation on high-intensity intermittent exercise performance and physiological responses in team-sport athletes: A systematic review and meta-analysis. <em>Frontiers in Nutrition, 13</em>, Artikel 1936178.",
+   "doi": "10.3389/fnut.2026.1936178"
+  },
+  "winter2026": {
+   "short": "Winter et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "42499192",
+   "apa": "Winter, I. P., Sarac, P. &amp; Wilson, P. B. (2026). Gastrointestinal symptoms associated with sodium bicarbonate supplementation protocols: A systematic review. <em>European Journal of Sport Science, 26</em>(8), Artikel e70225.",
+   "doi": "10.1002/ejsc.70225"
+  },
+  "chen2026": {
+   "short": "Chen et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42884622",
+   "apa": "Chen, X., Tu, W. &amp; Wang, J. (2026). The effects of combined caffeine and sodium bicarbonate supplementation on exercise performance, physiological responses, and gastrointestinal tolerability: A systematic review and meta-analysis. <em>Nutrients, 18</em>(19), Artikel 3171.",
+   "doi": "10.3390/nu18193171"
+  },
+  "liu2026": {
+   "short": "Liu et al., 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42783782",
+   "apa": "Liu, S., Fan, X., Song, T., Gu, J., Zhu, J., Zhang, X., Li, H. &amp; Deng, H. (2026). Individual and combined effects of acute caffeine and sodium bicarbonate supplementation on exercise performance and metabolic responses: A Bayesian network meta-analysis of co-supplementation trials. <em>Metabolites, 16</em>(9), Artikel 658.",
+   "doi": "10.3390/metabo16090658"
+  }
+ }
+}

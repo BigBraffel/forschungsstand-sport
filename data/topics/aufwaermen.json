@@ -1,0 +1,870 @@
+{
+ "id": "aufwaermen",
+ "title": "Aufwärmen",
+ "stand": "2026-11-20",
+ "lead": "Wie viel bringt Aufwärmen für Kraft, Sprint, Sprung und Ausdauer, und lohnt sich eine gezielte Aktivierung mit schweren Lasten (PAPE)? Zusammengefasst aus Metaanalysen und systematischen Reviews.",
+ "def": {
+  "t": "Aufwärmen umfasst vorbereitende Aktivitäten vor Training oder Wettkampf. Aktives Aufwärmen durch Bewegung erhöht Temperatur, Stoffwechsel und Sauerstoffaufnahme; passives Aufwärmen, etwa mit Wärmekleidung, erhöht die Temperatur ohne Energieverbrauch. Post-activation performance enhancement (PAPE) bezeichnet die kurzfristige Steigerung willkürlicher Leistung nach einer intensiven Konditionierungsaktivität; sie ist von der elektrisch gemessenen Postaktivierungspotenzierung (PAP) zu unterscheiden, die andere Mechanismen hat.",
+  "s": [
+   "mcgowan2015",
+   "zimmermann2020"
+  ]
+ },
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene und Sportler. Ein strukturiertes aktives Aufwärmen verbessert vor allem schnelle, explosive Leistungen. PAPE bringt darüber hinaus meist nur wenig.",
+ "rx": [
+  {
+   "label": "Grundaufbau",
+   "value": "10–15 min aktiv, Intensität steigern",
+   "text": "Lockeres Laufen, danach dynamische Übungen und kurze explosive Elemente; die Intensität schrittweise auf etwa 50–90 % der maximalen Herzfrequenz steigern.",
+   "cite": "Silva et al. 2018; Fradkin et al. 2010"
+  },
+  {
+   "label": "Übergang",
+   "value": "lange Wartezeiten vermeiden",
+   "text": "Nach dem Aufwärmen 2–10 min Pause; bei längeren Pausen Wärmekleidung nutzen oder kurz erneut explosiv aufwärmen (auch in der Halbzeit).",
+   "cite": "Silva et al. 2018; Zhang et al. 2026"
+  },
+  {
+   "label": "PAPE",
+   "value": "optional, für Trainierte: schwere oder plyometrische Aktivierung, 4–10 min Pause",
+   "text": "Der Zusatznutzen gegenüber einem gründlichen Aufwärmen ist klein. Pausen unter 3 min schaden eher. Kräftige, erfahrene Sportler profitieren am meisten.",
+   "cite": "Xu et al. 2025; Wilson et al. 2013; Dobbs et al. 2019"
+  },
+  {
+   "label": "Ausdauer",
+   "value": "kein PAPE nötig",
+   "text": "Für Ausdauerleistungen fand sich kein belastbarer Nutzen einer PAPE-Aktivierung.",
+   "cite": "Vasconcelos et al. 2024"
+  },
+  {
+   "label": "Dehnen im Aufwärmen",
+   "value": "kurz und gefolgt von dynamischen Übungen",
+   "text": "Kurze statische Dehnungen schaden der Leistung nicht, wenn danach dynamisch aufgewärmt wird; Details auf der Seite Dehnen.",
+   "cite": "Behm et al. 2016; Warneke &amp; Lohmann 2024"
+  }
+ ],
+ "note": "<b>Verweise:</b> Dehnen im Aufwärmen siehe <a href=\"#dehnen\">Dehnen und Beweglichkeit</a>; Aufwärmprogramme zur Verletzungsvorbeugung (FIFA 11+) ausführlich unter <a href=\"#verletzungspraevention\">Verletzungsprävention</a>.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Aufwärmen verbessert die Leistung",
+   "ev": "moderat",
+   "p": "In 79 % der untersuchten Messgrößen verbesserte Aufwärmen die Leistung; Hinweise auf Nachteile gab es kaum.",
+   "s": [
+    "fradkin2010"
+   ]
+  },
+  {
+   "t": "Wärme hilft schnellen, nicht maximalen Kräften",
+   "ev": "moderat",
+   "p": "Höhere Muskeltemperatur steigerte Kraftanstiegsrate und Leistung, nicht aber die Maximalkraft. Aktiv und passiv wirkten ähnlich.",
+   "s": [
+    "wilson2025"
+   ]
+  },
+  {
+   "t": "PAPE: kleiner Zusatznutzen",
+   "ev": "moderat",
+   "p": "Nach einer Konditionierungsaktivität verbesserte sich die Leistung nur trivial bis klein; nach einem gründlichen Aufwärmen fast gar nicht mehr.",
+   "s": [
+    "xu2025",
+    "seitz2016",
+    "dobbs2019"
+   ]
+  },
+  {
+   "t": "Pause entscheidet",
+   "ev": "moderat",
+   "p": "Zwischen Aktivierung und Leistung waren etwa 3–10 min günstig, unter 3 min eher nachteilig.",
+   "s": [
+    "wilson2013",
+    "gouvea2013",
+    "dobbs2019"
+   ]
+  },
+  {
+   "t": "Aufwärmprogramme senken Verletzungen",
+   "ev": "hoch",
+   "p": "FIFA-Aufwärmprogramme senkten Verletzungen im Fußball um 34 %.",
+   "s": [
+    "alattar2019"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "leistung",
+   "name": "Wirkung auf die Leistung",
+   "q": "Wie stark verbessert Aufwärmen Kraft, Sprint, Sprung und Ausdauer?",
+   "ev": "moderat",
+   "key": [
+    "32 Studien hoher Qualität: Aufwärmen verbesserte die Leistung in 79 % der untersuchten Messgrößen; Hinweise auf Nachteile gab es kaum (Fradkin et al., 2010).",
+    "33 Studien (n = 921): höhere Muskeltemperatur steigerte schnelle Kraftentfaltung und Leistung (willkürlich 3,7 % pro °C, ES 0,28 [0,14; 0,41]), nicht aber die Maximalkraft (ES 0,08 [−0,05; 0,22]). Aktives Aufwärmen war passivem nicht überlegen (Wilson et al., 2025).",
+    "30 Studien im Teamsport: 5 min Laufen plus 7 min dynamische Übungen verbesserten Sprint (d 1,72), Sprung (d 0,61) und Richtungswechsel (d 1,40); bei über 15 min Wartezeit half ein kurzes erneutes explosives Aufwärmen, in der Pause erhielt Wärmekleidung Sprint- und Sprungleistung (Silva et al., 2018).",
+    "20 Studien: erneutes Aufwärmen nach einer Pause verbesserte Gegenbewegungssprung, Sprint und Richtungswechsel gegenüber passiver Ruhe, nicht aber Maximalkraft oder wiederholte Sprints; die empfundene Anstrengung stieg (g 1,04) (Zhang et al., 2026).",
+    "Aktives Aufwärmen wirkt über Temperatur, Stoffwechsel, schnellere Sauerstoffaufnahme und nervale Effekte; viele Empfehlungen beruhen noch auf Erfahrung statt Studien (McGowan et al., 2015)."
+   ],
+   "critic": "Der Nutzen ist gut belegt, die Größe aber schwer zu beziffern: Die ältere Metaanalyse berichtet nur Anteile verbesserter Messgrößen, viele Studien sind klein, und die Teamsport-Werte stammen aus Einzelstudien (Silva et al., 2018). Am deutlichsten profitieren schnelle, explosive Leistungen; für die Maximalkraft spricht die neue Analyse gegen einen Temperatureffekt (Wilson et al., 2025). Für Ausdauerleistungen fehlen neuere Metaanalysen zum allgemeinen Aufwärmen.",
+   "figs": [
+    {
+     "id": "aw-temp",
+     "title": "Muskeltemperatur und Kraftentfaltung",
+     "cap": "Effektstärken mit 95-%-KI für eine höhere Muskeltemperatur (Wilson et al., 2025).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Schnelle Kraftentfaltung, willkürlich",
+       "sub": "Wilson et al., 2025",
+       "es": 0.28,
+       "lo": 0.14,
+       "hi": 0.41
+      },
+      {
+       "l": "Schnelle Kraftentfaltung, elektrisch ausgelöst",
+       "sub": "Wilson et al., 2025",
+       "es": 0.65,
+       "lo": 0.29,
+       "hi": 1.0
+      },
+      {
+       "l": "Maximalkraft, willkürlich",
+       "sub": "Wilson et al., 2025",
+       "es": 0.08,
+       "lo": -0.05,
+       "hi": 0.22
+      },
+      {
+       "l": "Maximalkraft, elektrisch ausgelöst",
+       "sub": "Wilson et al., 2025",
+       "es": -0.2,
+       "lo": -0.5,
+       "hi": 0.1
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 1.1,
+      "ticks": [
+       -0.5,
+       0,
+       0.5,
+       1.0
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    },
+    {
+     "id": "aw-team",
+     "title": "Aufwärmstrategien im Teamsport",
+     "cap": "Cohen-d für die Leistungsverbesserung aus den Studien des Reviews (Silva et al., 2018); kein Konfidenzintervall im Abstract.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "8 × 60-m-Sprints: Sprint",
+       "es": 1.2
+      },
+      {
+       "l": "Laufen + dynamisch: Sprint",
+       "es": 1.72
+      },
+      {
+       "l": "Laufen + dynamisch: Sprung",
+       "es": 0.61
+      },
+      {
+       "l": "Laufen + dynamisch: Richtungswechsel",
+       "es": 1.4
+      },
+      {
+       "l": "Spielformen: Sprung",
+       "es": 0.8
+      }
+     ],
+     "opts": {
+      "max": 2.0,
+      "ticks": [
+       0,
+       0.5,
+       1.0,
+       1.5,
+       2.0
+      ],
+      "xlab": "Effektstärke (d)",
+      "src": "Silva et al., 2018"
+     }
+    }
+   ],
+   "s": [
+    "fradkin2010",
+    "wilson2025",
+    "silva2018",
+    "zhang2026",
+    "mcgowan2015"
+   ]
+  },
+  {
+   "id": "pape",
+   "name": "Post-activation performance enhancement (PAPE)",
+   "q": "Steigert eine schwere Aktivierung die anschließende Leistung?",
+   "ev": "moderat",
+   "key": [
+    "62 Studien (1 039 Teilnehmende): trivialer Effekt im Vorher-nachher-Vergleich (ES 0,12 [0,06; 0,19]), kleiner Effekt gegenüber Kontrolle (ES 0,30 [0,20; 0,40]), teils weil die Kontrollgruppen nachließen. Nach einem gründlichen Aufwärmen war der Zusatzeffekt nahezu null (ES 0,01); Trainingserfahrung vergrößerte ihn (Xu et al., 2025).",
+    "47 Studien: kleine Effekte für Sprung (ES 0,29), Wurf (0,26) und Oberkörper-Ballistik (0,23), moderat für Sprint (0,51); größer bei stärkeren, erfahrenen Personen, nach plyometrischer Aktivierung (0,47) und mehreren Sätzen (0,69) (Seitz &amp; Haff, 2016).",
+    "36 Studien: insgesamt keine Verbesserung der Sprunghöhe (ES 0,08 [−0,04; 0,21]); isometrische Aktivierung war nachteilig (ES −0,52) (Dobbs et al., 2019). Neuer: 25 Studien mit isometrischer Aktivierung fanden eine höhere Sprunghöhe gegenüber Kontrolle (ES 0,35), aber keinen Effekt auf Kraft (He et al., 2026).",
+    "Auch Körpergewichtsübungen wirkten klein (19 Studien, 0,30 [0,14; 0,46]) (Brink et al., 2023); im Oberkörper verbesserte Bankdrücken ab 80 % 1RM den Bankwurf (ES 0,31) (Finlay et al., 2022).",
+    "Bei Spitzensprintern veränderten Konditionierungsaktivitäten die Sprintleistung nicht (SMD 0,16 [−0,02; 0,33]) (Loturco et al., 2024).",
+    "PAPE trat auch ohne messbare PAP auf; die Mechanismen sind unklar (Zimmermann et al., 2020)."
+   ],
+   "critic": "Ältere Analysen fanden kleine bis moderate Effekte (Wilson et al., 2013; Seitz &amp; Haff, 2016), neuere mit strengerer Methodik kleinere (Dobbs et al., 2019; Xu et al., 2025). Wahrscheinlich ist ein Teil des früheren PAPE-Effekts einfach ein unvollständiges Aufwärmen in der Kontrollgruppe. Die Studien haben ein hohes Verzerrungsrisiko und eine geringe Evidenzsicherheit; die Vorhersageintervalle reichen ins Negative (Xu et al., 2025). Für Spitzensportler ist der Nutzen fraglich (Loturco et al., 2024), obwohl Trainingserfahrung in anderen Analysen den Effekt vergrößerte.",
+   "figs": [
+    {
+     "id": "aw-pape",
+     "title": "PAPE: Effekte auf die Folgeleistung",
+     "cap": "Effektstärken; 95-%-KI wo im Abstract angegeben.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Vs. Kontrolle, alle Aufgaben",
+       "sub": "Xu et al., 2025",
+       "es": 0.3,
+       "lo": 0.2,
+       "hi": 0.4
+      },
+      {
+       "l": "Vorher vs. nachher",
+       "sub": "Xu et al., 2025",
+       "es": 0.12,
+       "lo": 0.06,
+       "hi": 0.19
+      },
+      {
+       "l": "Sprint",
+       "sub": "Seitz &amp; Haff, 2016",
+       "es": 0.51
+      },
+      {
+       "l": "Sprung",
+       "sub": "Seitz &amp; Haff, 2016",
+       "es": 0.29
+      },
+      {
+       "l": "Sprunghöhe",
+       "sub": "Dobbs et al., 2019",
+       "es": 0.08,
+       "lo": -0.04,
+       "hi": 0.21
+      },
+      {
+       "l": "Körpergewichtsübungen",
+       "sub": "Brink et al., 2023",
+       "es": 0.3,
+       "lo": 0.14,
+       "hi": 0.46
+      },
+      {
+       "l": "Spitzensprinter, Sprint",
+       "sub": "Loturco et al., 2024",
+       "es": 0.16,
+       "lo": -0.02,
+       "hi": 0.33
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 0.7,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "xu2025",
+    "seitz2016",
+    "dobbs2019",
+    "he2026",
+    "brink2023",
+    "finlay2022",
+    "loturco2024",
+    "zimmermann2020",
+    "wilson2013"
+   ]
+  },
+  {
+   "id": "dosis",
+   "name": "PAPE: Pause und Intensität",
+   "q": "Wie lange warten, wie schwer aktivieren?",
+   "ev": "moderat",
+   "key": [
+    "32 Studien: Gesamteffekt auf die Leistung ES 0,38; mehrere Sätze (0,66) wirkten stärker als einzelne (0,24), moderate Intensität von 60–84 % (1,06) stärker als über 85 % (0,31); Pausen von 7–10 min (0,7) waren günstiger als 3–7 min (0,54) und über 10 min (0,02). Athleten profitierten stärker (0,81) als Untrainierte (0,14) (Wilson et al., 2013).",
+    "14 Studien zur Sprunghöhe: 0–3 min Pause eher nachteilig (−0,25 [−0,51; 0,01]), 8–12 min am günstigsten (0,24 [−0,02; 0,49]) (Gouvêa et al., 2013); ähnlich günstig waren 3–7 min (ES 0,18 [0,05; 0,31]), unter 3 min ungünstig (Dobbs et al., 2019).",
+    "Der Effekt folgte über die Pausendauer einer umgekehrten U-Form (Xu et al., 2025); bei isometrischer Aktivierung waren 8–12 s Kontraktion und 4–8 min Pause günstig (He et al., 2026)."
+   ],
+   "critic": "Die Analysen stimmen darin überein, dass sehr kurze Pausen schaden und etwa 4–10 min günstig sind. Die genauen Grenzen schwanken zwischen den Analysen und beruhen auf Subgruppen mit breiten Konfidenzintervallen. Stärkere Personen erholen sich schneller und können kürzere Pausen nutzen (Seitz &amp; Haff, 2016).",
+   "figs": [
+    {
+     "id": "aw-pause",
+     "title": "Pause nach der Aktivierung und Sprungleistung",
+     "cap": "Effektstärken mit 95-%-KI nach Pausendauer.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "0–3 min",
+       "sub": "Gouvêa et al., 2013",
+       "es": -0.25,
+       "lo": -0.51,
+       "hi": 0.01
+      },
+      {
+       "l": "4–7 min",
+       "sub": "Gouvêa et al., 2013",
+       "es": 0.15,
+       "lo": -0.08,
+       "hi": 0.38
+      },
+      {
+       "l": "8–12 min",
+       "sub": "Gouvêa et al., 2013",
+       "es": 0.24,
+       "lo": -0.02,
+       "hi": 0.49
+      },
+      {
+       "l": "ab 16 min",
+       "sub": "Gouvêa et al., 2013",
+       "es": 0.07,
+       "lo": -0.21,
+       "hi": 0.24
+      },
+      {
+       "l": "unter 3 min",
+       "sub": "Dobbs et al., 2019",
+       "es": -0.15,
+       "lo": -0.31,
+       "hi": 0.01
+      },
+      {
+       "l": "3–7 min",
+       "sub": "Dobbs et al., 2019",
+       "es": 0.18,
+       "lo": 0.05,
+       "hi": 0.31
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.6,
+      "ticks": [
+       -0.5,
+       -0.25,
+       0,
+       0.25,
+       0.5
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    },
+    {
+     "id": "aw-pause2",
+     "title": "Pause nach der Aktivierung und Leistung (Power)",
+     "cap": "Mittlere Effektstärke nach Pausendauer (Wilson et al., 2013); kein Konfidenzintervall im Abstract.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "3–7 min",
+       "es": 0.54
+      },
+      {
+       "l": "7–10 min",
+       "es": 0.7
+      },
+      {
+       "l": "über 10 min",
+       "es": 0.02
+      }
+     ],
+     "opts": {
+      "max": 0.8,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "xlab": "Effektstärke",
+      "src": "Wilson et al., 2013"
+     }
+    }
+   ],
+   "s": [
+    "wilson2013",
+    "gouvea2013",
+    "dobbs2019",
+    "xu2025",
+    "he2026",
+    "seitz2016"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Aufwärmen und PAPE vor Ausdauerleistungen",
+   "q": "Hilft eine Aktivierung vor Ausdauerbelastungen?",
+   "ev": "moderat",
+   "key": [
+    "35 Studien (57 Vergleiche, 432 Teilnehmende): sehr kleiner Effekt (SMD 0,15 [0,03; 0,28]), der auf zwei Ausreißerstudien beruhte; nach Prüfung von Verzerrung und Evidenzsicherheit keine Empfehlung für PAPE vor Ausdauerleistungen (Vasconcelos et al., 2024).",
+    "Aktives Aufwärmen beschleunigt die Sauerstoffaufnahme und kann so die Folgeleistung vorbereiten (McGowan et al., 2015)."
+   ],
+   "critic": "Für Ausdauersportler ist ein normales aktives Aufwärmen plausibel, eine zusätzliche schwere Aktivierung nicht belegt. Eine aktuelle Metaanalyse zum allgemeinen Aufwärmen vor Ausdauerleistungen wurde nicht gefunden.",
+   "figs": [],
+   "s": [
+    "vasconcelos2024",
+    "mcgowan2015"
+   ]
+  },
+  {
+   "id": "verletzung",
+   "name": "Aufwärmprogramme gegen Verletzungen",
+   "q": "Senkt Aufwärmen das Verletzungsrisiko?",
+   "ev": "hoch",
+   "key": [
+    "Frühe Übersicht, 5 RCTs: 3 Studien fanden weniger Verletzungen, 2 keinen Effekt; die Evidenz sprach insgesamt eher für einen Nutzen (Fradkin et al., 2006).",
+    "Metaanalyse von 4 Metaanalysen (15 Studien): FIFA-Programme senkten Verletzungen insgesamt um 34 % (RR 0,66 [0,60; 0,73]) und an den Beinen um 29 % (RR 0,71 [0,63; 0,81]) (Al Attar &amp; Alshehri, 2019).",
+    "5 RCTs (2 025 Spieler): bei regelmäßiger Durchführung von FIFA 11+ deutlich weniger Verletzungen (95-%-KI des Risikoverhältnisses 0,12–0,22), bei sehr hoher Heterogenität (I² 89 %) (Zarei et al., 2026).",
+    "FIFA 11+ senkte Beinverletzungen bei Männern; für Frauen fehlen ausreichende Belege (Althomali et al., 2025)."
+   ],
+   "critic": "Die Belege für strukturierte neuromuskuläre Aufwärmprogramme im Fußball sind stark; die Wirkung hängt aber von der Regelmäßigkeit ab und die Heterogenität ist hoch. Zwei der vier Metaanalysen in der Übersicht hatten eine kritisch niedrige Qualität (Al Attar &amp; Alshehri, 2019). Ausführlich, auch zu anderen Sportarten, auf der Seite <a href=\"#verletzungspraevention\">Verletzungsprävention</a>.",
+   "figs": [
+    {
+     "id": "aw-fifa",
+     "title": "FIFA-Aufwärmprogramme und Verletzungsrisiko",
+     "cap": "Risikoverhältnis mit 95-%-KI; 1 = kein Unterschied (Al Attar &amp; Alshehri, 2019).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Verletzungen",
+       "sub": "Al Attar &amp; Alshehri, 2019",
+       "es": 0.66,
+       "lo": 0.6,
+       "hi": 0.73
+      },
+      {
+       "l": "Verletzungen der Beine",
+       "sub": "Al Attar &amp; Alshehri, 2019",
+       "es": 0.71,
+       "lo": 0.63,
+       "hi": 0.81
+      }
+     ],
+     "opts": {
+      "min": 0.4,
+      "max": 1.2,
+      "ticks": [
+       0.4,
+       0.6,
+       0.8,
+       1.0,
+       1.2
+      ],
+      "ref": 1,
+      "leftLab": "weniger Verletzungen",
+      "rightLab": "mehr Verletzungen"
+     }
+    }
+   ],
+   "s": [
+    "fradkin2006",
+    "alattar2019",
+    "zarei2026",
+    "althomali2025"
+   ]
+  },
+  {
+   "id": "dehnen",
+   "name": "Dehnen im Aufwärmen",
+   "q": "Gehört Dehnen ins Aufwärmen?",
+   "ev": "hoch",
+   "key": [
+    "Statisches Dehnen ab 60 s pro Muskel senkte die Leistung (−4,6 %), darunter kaum (−1,1 %); mit anschließenden dynamischen Übungen war kein klarer Effekt erkennbar, dynamisches Dehnen verbesserte die Leistung leicht (+1,3 %) (Behm et al., 2016).",
+    "Für Sprung und Sprint fand sich in kontrollierten Studien kein Nachteil durch statisches Dehnen (Warneke &amp; Lohmann, 2024)."
+   ],
+   "critic": "Kurz zusammengefasst; ausführlich auf der Seite <a href=\"#dehnen\">Dehnen und Beweglichkeit</a>.",
+   "figs": [],
+   "s": [
+    "behm2016",
+    "warneke2024a"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2006,
+   "t": "Aufwärmen und Verletzungen",
+   "p": "Wenige Studien, eher für einen Schutz.",
+   "tag": "neu",
+   "s": "fradkin2006"
+  },
+  {
+   "y": 2010,
+   "t": "Aufwärmen verbessert die Leistung",
+   "p": "In 79 % der Messgrößen besser.",
+   "tag": "neu",
+   "s": "fradkin2010"
+  },
+  {
+   "y": 2013,
+   "t": "PAPE: Dosis und Pause",
+   "p": "Mehrere Sätze, moderate Intensität, 7–10 min Pause am besten.",
+   "tag": "neu",
+   "s": "wilson2013"
+  },
+  {
+   "y": 2013,
+   "t": "Pausendauer und Sprunghöhe",
+   "p": "Unter 3 min nachteilig, 8–12 min günstig.",
+   "tag": "conf",
+   "s": "gouvea2013"
+  },
+  {
+   "y": 2015,
+   "t": "Mechanismen des Aufwärmens",
+   "p": "Temperatur, Stoffwechsel, Sauerstoffaufnahme; viel Erfahrungswissen.",
+   "tag": "neu",
+   "s": "mcgowan2015"
+  },
+  {
+   "y": 2016,
+   "t": "PAPE nach Aufgabe",
+   "p": "Klein für Sprung und Wurf, moderat für Sprint.",
+   "tag": "conf",
+   "s": "seitz2016"
+  },
+  {
+   "y": 2016,
+   "t": "Dehnen im Aufwärmen unbedenklich",
+   "p": "Mit anschließenden dynamischen Übungen kein klarer Nachteil.",
+   "tag": "neu",
+   "s": "behm2016"
+  },
+  {
+   "y": 2018,
+   "t": "Aufwärmen im Teamsport",
+   "p": "10–15 min aktiv, lange Wartezeiten vermeiden.",
+   "tag": "neu",
+   "s": "silva2018"
+  },
+  {
+   "y": 2019,
+   "t": "PAPE für Sprünge fraglich",
+   "p": "Insgesamt kein Effekt auf die Sprunghöhe.",
+   "tag": "contra",
+   "s": "dobbs2019"
+  },
+  {
+   "y": 2019,
+   "t": "FIFA-Programme senken Verletzungen",
+   "p": "Ein Drittel weniger Verletzungen im Fußball.",
+   "tag": "neu",
+   "s": "alattar2019"
+  },
+  {
+   "y": 2020,
+   "t": "PAPE ist nicht PAP",
+   "p": "Leistungssteigerung auch ohne messbare Potenzierung.",
+   "tag": "neu",
+   "s": "zimmermann2020"
+  },
+  {
+   "y": 2022,
+   "t": "PAPE im Oberkörper",
+   "p": "Schweres Bankdrücken verbessert den Bankwurf.",
+   "tag": "neu",
+   "s": "finlay2022"
+  },
+  {
+   "y": 2023,
+   "t": "Körpergewicht reicht zur Aktivierung",
+   "p": "Kleiner Effekt auf Sprung und Sprint.",
+   "tag": "conf",
+   "s": "brink2023"
+  },
+  {
+   "y": 2024,
+   "t": "Kein PAPE für Ausdauer",
+   "p": "Sehr kleiner Effekt, getragen von zwei Ausreißern.",
+   "tag": "neu",
+   "s": "vasconcelos2024"
+  },
+  {
+   "y": 2024,
+   "t": "Spitzensprinter ohne PAPE-Effekt",
+   "p": "Keine signifikante Sprintverbesserung.",
+   "tag": "contra",
+   "s": "loturco2024"
+  },
+  {
+   "y": 2024,
+   "t": "Dehnen vor Sprung und Sprint neu bewertet",
+   "p": "Kein Nachteil in kontrollierten Studien.",
+   "tag": "rel",
+   "s": "warneke2024a"
+  },
+  {
+   "y": 2025,
+   "t": "PAPE nach gründlichem Aufwärmen kaum wirksam",
+   "p": "Kleiner Effekt, hohe Unsicherheit.",
+   "tag": "rel",
+   "s": "xu2025"
+  },
+  {
+   "y": 2025,
+   "t": "Wärme für schnelle Kraft",
+   "p": "Kraftanstieg besser, Maximalkraft unverändert.",
+   "tag": "neu",
+   "s": "wilson2025"
+  },
+  {
+   "y": 2025,
+   "t": "FIFA 11+ bei Männern wirksam",
+   "p": "Für Frauen zu wenige Daten.",
+   "tag": "conf",
+   "s": "althomali2025"
+  },
+  {
+   "y": 2026,
+   "t": "Erneutes Aufwärmen in Pausen",
+   "p": "Besserer Sprung und Sprint, höhere Anstrengung.",
+   "tag": "conf",
+   "s": "zhang2026"
+  },
+  {
+   "y": 2026,
+   "t": "Regelmäßigkeit entscheidet bei FIFA 11+",
+   "p": "Deutlich weniger Verletzungen bei guter Durchführung.",
+   "tag": "conf",
+   "s": "zarei2026"
+  },
+  {
+   "y": 2026,
+   "t": "Isometrische Aktivierung",
+   "p": "Höhere Sprunghöhe, kein Effekt auf Kraft.",
+   "tag": "contra",
+   "s": "he2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 2 752 Einträgen, 225 Übersichtsarbeiten nach Titel geprüft, 22 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "mcgowan2015": {
+   "short": "McGowan et al., 2015",
+   "year": 2015,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "26400696",
+   "apa": "McGowan, C. J., Pyne, D. B., Thompson, K. G. &amp; Rattray, B. (2015). Warm-Up strategies for sport and exercise: Mechanisms and applications. <em>Sports Medicine, 45</em>(11), 1523–1546.",
+   "doi": "10.1007/s40279-015-0376-x"
+  },
+  "zimmermann2020": {
+   "short": "Zimmermann et al., 2020",
+   "year": 2020,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "31557447",
+   "apa": "Zimmermann, H. B., MacIntosh, B. R. &amp; Dal Pupo, J. (2020). Does postactivation potentiation (PAP) increase voluntary performance?. <em>Applied Physiology, Nutrition, and Metabolism, 45</em>(4), 349–356.",
+   "doi": "10.1139/apnm-2019-0406"
+  },
+  "fradkin2010": {
+   "short": "Fradkin et al., 2010",
+   "year": 2010,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "19996770",
+   "apa": "Fradkin, A. J., Zazryn, T. R. &amp; Smoliga, J. M. (2010). Effects of warming-up on physical performance: A systematic review with meta-analysis. <em>Journal of Strength and Conditioning Research, 24</em>(1), 140–148.",
+   "doi": "10.1519/JSC.0b013e3181c643a0"
+  },
+  "wilson2025": {
+   "short": "Wilson et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39864808",
+   "apa": "Wilson, C. J., Nunes, J. P. &amp; Blazevich, A. J. (2025). The effect of muscle warm-up on voluntary and evoked force-time parameters: A systematic review and meta-analysis with meta-regression. <em>Journal of Sport and Health Science, 14</em>, Artikel 101024.",
+   "doi": "10.1016/j.jshs.2025.101024"
+  },
+  "silva2018": {
+   "short": "Silva et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "29968230",
+   "apa": "Silva, L. M., Neiva, H. P., Marques, M. C., Izquierdo, M. &amp; Marinho, D. A. (2018). Effects of warm-up, post-warm-up, and re-warm-up strategies on explosive efforts in team sports: A systematic review. <em>Sports Medicine, 48</em>(10), 2285–2299.",
+   "doi": "10.1007/s40279-018-0958-5"
+  },
+  "zhang2026": {
+   "short": "Zhang et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42758700",
+   "apa": "Zhang, J., Tang, H., Zheng, X., Zuo, C., Xie, Y. &amp; Fan, Y. (2026). The effect of re-warm up and its moderators on performance enhancement and rating of perceived exertion in team-sport athletes: A systematic review and three-level meta-analysis. <em>PLOS ONE, 21</em>(9), Artikel e0358479.",
+   "doi": "10.1371/journal.pone.0358479"
+  },
+  "behm2016": {
+   "short": "Behm et al., 2016",
+   "year": 2016,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "26642915",
+   "apa": "Behm, D. G., Blazevich, A. J., Kay, A. D. &amp; McHugh, M. (2016). Acute effects of muscle stretching on physical performance, range of motion, and injury incidence in healthy active individuals: A systematic review. <em>Applied Physiology, Nutrition, and Metabolism, 41</em>(1), 1–11.",
+   "doi": "10.1139/apnm-2015-0235"
+  },
+  "warneke2024a": {
+   "short": "Warneke & Lohmann, 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38735533",
+   "apa": "Warneke, K. &amp; Lohmann, L. H. (2024). Revisiting the stretch-induced force deficit: A systematic review with multilevel meta-analysis of acute effects. <em>Journal of Sport and Health Science, 13</em>(6), 805–819.",
+   "doi": "10.1016/j.jshs.2024.05.002"
+  },
+  "xu2025": {
+   "short": "Xu et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39853660",
+   "apa": "Xu, K., Blazevich, A. J., Boullosa, D., Ramirez-Campillo, R., Yin, M., Zhong, Y., Tian, Y., Finlay, M., Byrne, P. J., Cuenca-Fernández, F. &amp; Wang, R. (2025). Optimizing post-activation performance enhancement in athletic tasks: A systematic review with meta-analysis for prescription variables and research methods. <em>Sports Medicine, 55</em>(4), 977–1008.",
+   "doi": "10.1007/s40279-024-02170-6"
+  },
+  "wilson2013": {
+   "short": "Wilson et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22580978",
+   "apa": "Wilson, J. M., Duncan, N. M., Marin, P. J., Brown, L. E., Loenneke, J. P., Wilson, S. M., Jo, E., Lowery, R. P. &amp; Ugrinowitsch, C. (2013). Meta-analysis of postactivation potentiation and power: Effects of conditioning activity, volume, gender, rest periods, and training status. <em>Journal of Strength and Conditioning Research, 27</em>(3), 854–859.",
+   "doi": "10.1519/JSC.0b013e31825c2bdb"
+  },
+  "seitz2016": {
+   "short": "Seitz & Haff, 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26508319",
+   "apa": "Seitz, L. B. &amp; Haff, G. G. (2016). Factors modulating post-activation potentiation of jump, sprint, throw, and upper-body ballistic performances: A systematic review with meta-analysis. <em>Sports Medicine, 46</em>(2), 231–240.",
+   "doi": "10.1007/s40279-015-0415-7"
+  },
+  "dobbs2019": {
+   "short": "Dobbs et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30138241",
+   "apa": "Dobbs, W. C., Tolusso, D. V., Fedewa, M. V. &amp; Esco, M. R. (2019). Effect of postactivation potentiation on explosive vertical jump: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 33</em>(7), 2009–2018.",
+   "doi": "10.1519/JSC.0000000000002750"
+  },
+  "gouvea2013": {
+   "short": "Gouvêa et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23140550",
+   "apa": "Gouvêa, A. L., Fernandes, I. A., César, E. P., Silva, W. A. &amp; Gomes, P. S. (2013). The effects of rest intervals on jumping performance: A meta-analysis on post-activation potentiation studies. <em>Journal of Sports Sciences, 31</em>(5), 459–467.",
+   "doi": "10.1080/02640414.2012.738924"
+  },
+  "brink2023": {
+   "short": "Brink et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36662121",
+   "apa": "Brink, N. J., Constantinou, D. &amp; Torres, G. (2023). Postactivation performance enhancement in healthy adults using a bodyweight conditioning activity: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 37</em>(4), 930–937.",
+   "doi": "10.1519/JSC.0000000000004370"
+  },
+  "finlay2022": {
+   "short": "Finlay et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34826109",
+   "apa": "Finlay, M. J., Bridge, C. A., Greig, M. &amp; Page, R. M. (2022). Upper-Body post-activation performance enhancement for athletic performance: A systematic review with meta-analysis and recommendations for future research. <em>Sports Medicine, 52</em>(4), 847–871.",
+   "doi": "10.1007/s40279-021-01598-4"
+  },
+  "loturco2024": {
+   "short": "Loturco et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38823792",
+   "apa": "Loturco, I., Pereira, L. A., Moura, T. B. M. A., McGuigan, M. R. &amp; Boullosa, D. (2024). Effects of different conditioning activities on the sprint performance of elite sprinters: A systematic review with meta-analysis. <em>International Journal of Sports Physiology and Performance, 19</em>(7), 712–721.",
+   "doi": "10.1123/ijspp.2024-0005"
+  },
+  "he2026": {
+   "short": "He et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42157573",
+   "apa": "He, Z., Xue, Z., Qiang, L., Lu, Z., Wang, Q., Zhang, R., Xu, Y., Tu, J., Bao, D. &amp; Zhou, J. (2026). From populations to programming variables: Post-Activation performance enhancement following isometric contractions on muscular strength and power-a systematic review and meta-analysis. <em>European Journal of Sport Science, 26</em>(6), Artikel e70183.",
+   "doi": "10.1002/ejsc.70183"
+  },
+  "vasconcelos2024": {
+   "short": "Vasconcelos et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37796168",
+   "apa": "Vasconcelos, G. C., Brietzke, C., Cesario, J. C. S., Douetts, C. D. B., Canestri, R., Vinicius, Í., Franco-Alvarenga, P. E. &amp; Pires, F. O. (2024). No evidence of postactivation performance enhancement on endurance exercises: A comprehensive systematic review and meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 56</em>(2), 315–327.",
+   "doi": "10.1249/MSS.0000000000003308"
+  },
+  "fradkin2006": {
+   "short": "Fradkin et al., 2006",
+   "year": 2006,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "16679062",
+   "apa": "Fradkin, A. J., Gabbe, B. J. &amp; Cameron, P. A. (2006). Does warming up prevent injury in sport? The evidence from randomised controlled trials?. <em>Journal of Science and Medicine in Sport, 9</em>(3), 214–220.",
+   "doi": "10.1016/j.jsams.2006.03.026"
+  },
+  "alattar2019": {
+   "short": "Al Attar & Alshehri, 2019",
+   "year": 2019,
+   "type": "Metaanalyse von Metaanalysen",
+   "basis": "Abstract",
+   "pmid": "31394009",
+   "apa": "Al Attar, W. S. A. &amp; Alshehri, M. A. (2019). A meta-analysis of meta-analyses of the effectiveness of FIFA injury prevention programs in soccer. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 29</em>(12), 1846–1855.",
+   "doi": "10.1111/sms.13535"
+  },
+  "zarei2026": {
+   "short": "Zarei et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41981827",
+   "apa": "Zarei, M., Aslani, M., Yaghoubitajani, Z. &amp; Sheikhhoseini, R. (2026). The effects of adherence to the FIFA 11+ program on injury risk in soccer players: A systematic review and meta-analysis. <em>The American Journal of Sports Medicine, 54</em>(8), 2030–2036.",
+   "doi": "10.1177/03635465261434222",
+   "flag": "Punktschätzer des Risikoverhältnisses im Abstract nicht angegeben, nur 95-%-KI 0,12–0,22."
+  },
+  "althomali2025": {
+   "short": "Althomali et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39360984",
+   "apa": "Althomali, O. W., Ibrahim, A. A., Algharbi, A. F., Alshammari, S. S., Alajlan, S. N., Albaqawi, J. A., Alshammari, A. F., Sheeha, B. B. &amp; Hussein, H. M. (2025). The FIFA 11+ injury prevention program reduces the incidence of lower extremity injuries in football players: A systematic review and meta-analysis. <em>The Journal of Sports Medicine and Physical Fitness, 65</em>(1), 117–124.",
+   "doi": "10.23736/S0022-4707.24.15910-5"
+  }
+ }
+}

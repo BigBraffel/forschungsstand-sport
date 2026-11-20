@@ -1,0 +1,779 @@
+{
+ "id": "koerpergewicht",
+ "title": "Körpergewichtstraining (Calisthenics)",
+ "stand": "2026-11-20",
+ "lead": "Reicht das eigene Körpergewicht, um Kraft und Muskeln aufzubauen, und wie schneidet es gegenüber Hanteln, Maschinen, elastischen Bändern und Schlingentrainern ab? Zusammengefasst aus Metaanalysen, systematischen Reviews und direkten Vergleichsstudien.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene, die ohne oder mit wenig Ausrüstung trainieren. Entscheidend ist nicht das Gerät, sondern eine ausreichend hohe Anstrengung und eine planvolle Steigerung.",
+ "rx": [
+  {
+   "label": "Anstrengung",
+   "value": "Sätze nahe ans Muskelversagen",
+   "text": "Mit leichtem Widerstand wächst der Muskel ähnlich wie mit schweren Lasten, wenn die Sätze bis bzw. nahe an das Versagen geführt werden. Echtes Versagen bringt für das Muskelwachstum kaum Zusatznutzen.",
+   "cite": "Schoenfeld et al. 2017; Refalo et al. 2023"
+  },
+  {
+   "label": "Progression",
+   "value": "Hebel und Varianten steigern",
+   "text": "Schwerere Übungsvarianten (z. B. erhöhte Füße, einbeinig) ersetzen die Zusatzlast. Progressive Liegestütz- und Kniebeugenprogramme steigerten Kraft und Muskeldicke ähnlich wie Bankdrücken bzw. Langhantel-Kniebeugen.",
+   "cite": "Kotarsky et al. 2018; Wei et al. 2023"
+  },
+  {
+   "label": "Elastische Bänder",
+   "value": "gleichwertige Zusatzlast",
+   "text": "Bänder erzeugen eine ähnliche Muskelaktivierung und ähnliche Kraftzuwächse wie Hanteln oder Maschinen. Sie eignen sich, um Körpergewichtsübungen zu erschweren.",
+   "cite": "Lopes et al. 2019; Aboodarda et al. 2016"
+  },
+  {
+   "label": "Maximalkraft",
+   "value": "Gewichte ergänzen",
+   "text": "Wer das Einwiederholungsmaximum (1RM) mit der Langhantel steigern will, profitiert von schweren Lasten. Körpergewichtstraining allein ist dafür nicht die beste Wahl.",
+   "cite": "Schoenfeld et al. 2017; Wiedenmann et al. 2025"
+  },
+  {
+   "label": "Gesundheit",
+   "value": "etwa 30–60 Minuten pro Woche",
+   "text": "Muskelkräftigende Aktivitäten, zu denen auch Körpergewichtsübungen zählen, waren mit 10–17 % geringerem Sterbe- und Krankheitsrisiko verbunden; der größte Vorteil lag bei etwa 30–60 Minuten pro Woche.",
+   "cite": "Momma et al. 2022"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Grundlagen zu Volumen, Last und Nähe zum Muskelversagen stehen ausführlich im Thema <a href=\"#hypertrophie\">Hypertrophietraining</a>, zur Maximalkraft im Thema <a href=\"#maximalkraft\">Maximalkrafttraining</a>. Hier werden nur die für Körpergewichtstraining wichtigen Punkte zusammengefasst.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Körpergewicht wirkt, Maschinen etwas stärker",
+   "ev": "moderat",
+   "p": "Alle Trainingsformen steigerten die Kraft älterer Erwachsener deutlich; Körpergewichtstraining hatte den kleinsten, Maschinentraining den größten Effekt.",
+   "s": [
+    "wiedenmann2025"
+   ]
+  },
+  {
+   "t": "Liegestütz kann Bankdrücken ersetzen",
+   "ev": "niedrig",
+   "p": "In kleinen RCTs brachten Liegestütze bei vergleichbarer Belastung ähnliche Zuwächse an Kraft und Muskeldicke wie Bankdrücken. Metaanalysen fehlen.",
+   "s": [
+    "calatayud2015",
+    "kikuchi2017",
+    "kotarsky2018"
+   ]
+  },
+  {
+   "t": "Elastische Bänder sind gleichwertig",
+   "ev": "moderat",
+   "p": "Bänder führten zu ähnlichen Kraftzuwächsen und ähnlicher Muskelaktivierung wie Hanteln und Maschinen.",
+   "s": [
+    "lopes2019",
+    "aboodarda2016",
+    "oliveira2017"
+   ]
+  },
+  {
+   "t": "Anstrengung statt Last",
+   "ev": "hoch",
+   "p": "Für das Muskelwachstum ist die Last weitgehend egal, solange die Sätze anstrengend genug sind; für das 1RM sind schwere Lasten überlegen.",
+   "s": [
+    "schoenfeld2017",
+    "refalo2023"
+   ]
+  },
+  {
+   "t": "Muskelkräftigung senkt das Krankheitsrisiko",
+   "ev": "moderat",
+   "p": "Kohortenstudien zeigen 10–17 % geringeres Risiko für Sterblichkeit, Herz-Kreislauf-Erkrankungen, Krebs und Diabetes; Heimtraining ohne Geräte verbesserte bei Älteren Beinkraft und Gleichgewicht.",
+   "s": [
+    "momma2022",
+    "manas2021"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "vergleich",
+   "name": "Körpergewicht vs. Gewichte und Maschinen",
+   "q": "Baut Körpergewichtstraining so viel Kraft und Muskulatur auf wie Training mit Gewichten?",
+   "ev": "moderat",
+   "key": [
+    "Netzwerk-Metaanalyse, 102 Studien, 4 754 ältere Erwachsene: alle Trainingsformen steigerten die Kraft gegenüber Kontrolle; Maschinen SMD 1,34 [1,16; 1,52], freie Gewichte 1,15 [0,28; 2,03], Bänder 0,93 [0,49; 1,37], gemischt 0,88 [0,51; 1,25], Körpergewicht 0,71 [0,16; 1,26] (Wiedenmann et al., 2025).",
+    "Bei Übergewicht und Adipositas, 15 Studien: Körpergewichtstraining steigerte die Skelettmuskelmasse am stärksten (SMD 0,48 [0,04; 0,92]), Bänder senkten den Körperfettanteil am stärksten (SMD −0,79 [−1,25; −0,33]); bei der Kraft unterschieden sich Körpergewicht, Bänder und freie Gewichte nicht (Liu et al., 2021).",
+    "RCT mit 13 untrainierten Frauen, 6 Wochen: progressive Körpergewichts-Kniebeugen (10 Stufen von beid- zu einbeinig) und Langhantel-Kniebeugen (60–80 % 1RM) steigerten Kraft und Muskeldicke ohne Gruppenunterschied; nur die Langhantelgruppe senkte den Körperfettanteil (28,66 auf 24,96 %) (Wei et al., 2023).",
+    "Schwere Lasten steigerten das 1RM stärker als leichte; die Hypertrophie war gleich, sofern alle Sätze bis zum Muskelversagen gingen, 21 Studien (Schoenfeld et al., 2017)."
+   ],
+   "critic": "Die einzige große Vergleichsanalyse stammt von Älteren (Mittel 70 Jahre). Dort war Körpergewichtstraining am schwächsten, aber mit überlappenden Konfidenzintervallen; die Autoren führen Unterschiede vor allem auf Belastungsdosis und Dauer zurück. Bei jungen Erwachsenen gibt es nur kleine RCTs, die keinen Unterschied finden. Wahrscheinlich: Für Muskelaufbau und allgemeine Kraft ist Körpergewicht bei ausreichender Anstrengung gleichwertig; für das 1RM im Gerätetest sind Gewichte überlegen, weil sie die Testbewegung schwer üben. Der Fettverlust-Befund bei Wei et al. beruht auf 13 Personen und ist nicht belastbar.",
+   "figs": [
+    {
+     "id": "kg-modus",
+     "title": "Kraftzuwachs nach Trainingsform (ältere Erwachsene)",
+     "cap": "SMD mit 95-%-KI gegenüber Kontrolle ohne Training, Netzwerk-Metaanalyse mit 102 Studien (Wiedenmann et al., 2025).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Maschinen",
+       "sub": "Wiedenmann et al., 2025",
+       "es": 1.34,
+       "lo": 1.16,
+       "hi": 1.52
+      },
+      {
+       "l": "Freie Gewichte",
+       "sub": "Wiedenmann et al., 2025",
+       "es": 1.15,
+       "lo": 0.28,
+       "hi": 2.03
+      },
+      {
+       "l": "Elastische Bänder",
+       "sub": "Wiedenmann et al., 2025",
+       "es": 0.93,
+       "lo": 0.49,
+       "hi": 1.37
+      },
+      {
+       "l": "Gemischt",
+       "sub": "Wiedenmann et al., 2025",
+       "es": 0.88,
+       "lo": 0.51,
+       "hi": 1.25
+      },
+      {
+       "l": "Körpergewicht",
+       "sub": "Wiedenmann et al., 2025",
+       "es": 0.71,
+       "lo": 0.16,
+       "hi": 1.26
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 2.2,
+      "ticks": [
+       0,
+       0.5,
+       1,
+       1.5,
+       2
+      ],
+      "leftLab": "Kontrolle besser",
+      "rightLab": "mehr Kraft"
+     }
+    }
+   ],
+   "s": [
+    "wiedenmann2025",
+    "liu2021",
+    "wei2023",
+    "schoenfeld2017"
+   ]
+  },
+  {
+   "id": "liegestuetz",
+   "name": "Liegestütz vs. Bankdrücken",
+   "q": "Ersetzt der Liegestütz das Bankdrücken?",
+   "ev": "niedrig",
+   "key": [
+    "RCT mit 30 erfahrenen Kraftsportlern, 5 Wochen: Liegestütze mit elastischem Band (6RM) und Bankdrücken (6RM) bei vergleichbarer Muskelaktivität steigerten 1RM und 6RM ähnlich (Zuwächse 13,65 bis 22,21 %) (Calatayud et al., 2015).",
+    "RCT mit 18 Männern, 8 Wochen: Liegestütze mit angepasster Position auf das Niveau von 40 % 1RM und Bankdrücken mit 40 % 1RM steigerten 1RM (61,1 auf 64,2 kg bzw. 60,0 auf 65,0 kg) und Muskeldicke von Trizeps und Brust ähnlich; der Bizeps wuchs nur beim Bankdrücken (Kikuchi &amp; Nakazato, 2017).",
+    "RCT mit 23 mäßig trainierten Männern, 4 Wochen, 3× pro Woche: progressive Liegestütz-Varianten steigerten das Bankdrück-1RM ebenso signifikant wie Bankdrücken; die Liegestütz-Leistung stieg nur in der Liegestützgruppe stärker (Kotarsky et al., 2018).",
+    "Systematischer Review, 26 Studien zu 46 Liegestütz-Varianten: die Kraftanteile auf den Armen unterscheiden sich je nach Variante deutlich; die Daten erlauben eine gezielte Dosierung über Handposition, Fußerhöhung und Instabilität (Dhahbi et al., 2022)."
+   ],
+   "critic": "Die Studien sind klein (18–30 Personen) und kurz (4–8 Wochen); eine Metaanalyse fehlt. Alle drei RCTs finden übereinstimmend gleichwertige Zuwächse, wenn die Belastung vergleichbar ist. Dass auch das Bankdrück-1RM nach reinem Liegestütztraining stieg, spricht gegen einen rein testspezifischen Effekt. Für Fortgeschrittene, deren Liegestütz-Last zu niedrig wird, ist offen, ob Varianten allein ausreichen.",
+   "figs": [],
+   "s": [
+    "calatayud2015",
+    "kikuchi2017",
+    "kotarsky2018",
+    "dhahbi2022"
+   ]
+  },
+  {
+   "id": "baender",
+   "name": "Elastische Bänder",
+   "q": "Sind Bänder ein vollwertiger Ersatz für Hanteln?",
+   "ev": "moderat",
+   "key": [
+    "8 Studien: kein Unterschied zwischen Bändern und konventionellen Geräten bei der Kraft der Beine (SMD −0,11 [−0,40; 0,19]) und der Arme (SMD 0,09 [−0,18; 0,35]) (Lopes et al., 2019).",
+    "Gesunde Erwachsene, 5 Studien: Bänder besser als keine Intervention, bei der Kraft gleich wie andere Krafttrainingsformen, bei der funktionellen Leistung schlechter (de Oliveira et al., 2017).",
+    "Muskelaktivität bei Band- und Hantelübungen gleich: Hauptmuskeln ES −0,037 [−0,202; 0,128], Gegenspieler 0,089 [−0,112; 0,290], Stabilisatoren 0,142 [−0,006; 0,289] (Aboodarda et al., 2016).",
+    "Mannschaftssportler, 729 Teilnehmende: Bandtraining verbesserte Sprungkraft (SMD 1,43), Richtungswechsel (SMD −2,54) und Sprint (SMD −1,64) gegenüber üblichem Training (Stanković et al., 2025).",
+    "Ältere Erwachsene, 25 Studien, 1 318 Teilnehmende: Bandtraining verbesserte Beinkraft (SMD 1,01 [0,36; 1,66]), Aufstehtest (SMD 2,04 [0,60; 3,48]) und Gleichgewicht (Meng et al., 2025)."
+   ],
+   "critic": "Der alte Einwand, Bänder würden die Muskeln wegen der zunehmenden Spannung nicht ausreichend fordern, ist durch die EMG-Metaanalyse widerlegt. Die Kraftvergleiche beruhen auf wenigen Studien (5–8), aber übereinstimmend. Die sehr großen Effekte bei Mannschaftssportlern und Älteren stammen aus Vergleichen mit Kontrollgruppen ohne zusätzliches Krafttraining und sind daher kein Beleg für eine Überlegenheit gegenüber Hanteln; ohne Konfidenzintervalle im Abstract ist die Präzision unklar.",
+   "figs": [
+    {
+     "id": "kg-band",
+     "title": "Bänder vs. Hanteln und Maschinen",
+     "cap": "Standardisierte Mittelwertdifferenz mit 95-%-KI; Werte nahe 0 = kein Unterschied. Kraftzuwachs nach Lopes et al. (2019), Muskelaktivierung (EMG) nach Aboodarda et al. (2016).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kraft Beine",
+       "sub": "Lopes et al., 2019",
+       "es": -0.11,
+       "lo": -0.4,
+       "hi": 0.19
+      },
+      {
+       "l": "Kraft Arme",
+       "sub": "Lopes et al., 2019",
+       "es": 0.09,
+       "lo": -0.18,
+       "hi": 0.35
+      },
+      {
+       "l": "EMG Hauptmuskeln",
+       "sub": "Aboodarda et al., 2016",
+       "es": -0.037,
+       "lo": -0.202,
+       "hi": 0.128
+      },
+      {
+       "l": "EMG Gegenspieler",
+       "sub": "Aboodarda et al., 2016",
+       "es": 0.089,
+       "lo": -0.112,
+       "hi": 0.29
+      },
+      {
+       "l": "EMG Synergisten",
+       "sub": "Aboodarda et al., 2016",
+       "es": -0.133,
+       "lo": -0.342,
+       "hi": 0.076
+      },
+      {
+       "l": "EMG Stabilisatoren",
+       "sub": "Aboodarda et al., 2016",
+       "es": 0.142,
+       "lo": -0.006,
+       "hi": 0.289
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.6,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4
+      ],
+      "leftLab": "Hanteln/Maschinen höher",
+      "rightLab": "Bänder höher"
+     }
+    }
+   ],
+   "s": [
+    "lopes2019",
+    "oliveira2017",
+    "aboodarda2016",
+    "stankovic2025",
+    "meng2025"
+   ]
+  },
+  {
+   "id": "suspension",
+   "name": "Suspension-Training und Instabilität",
+   "q": "Was bringt ein Schlingentrainer?",
+   "ev": "niedrig",
+   "key": [
+    "18 Studien: Liegestütz, umgekehrtes Rudern, Unterarmstütz und Beinbeuger-Curl im Schlingentrainer aktivierten Oberkörper- und Rumpfmuskulatur mäßig (21–40 % MVIC) bis sehr hoch (über 60 % MVIC), meist stärker als die stabile Variante; Ausnahme umgekehrtes Rudern (Aguilera-Castells et al., 2020).",
+    "9 Studien: Instabilität (Gymnastikball, Halbkugel, Schlingentrainer) verringerte Kraft, Leistung und Bewegungsgeschwindigkeit gegenüber stabilen Bedingungen; nahe dem 1RM fanden sich keine Unterschiede (Marquina et al., 2021)."
+   ],
+   "critic": "Die Belege beruhen fast nur auf akuter Muskelaktivität (EMG), nicht auf Trainingsstudien. Höhere Aktivität bedeutet nicht automatisch mehr Kraft- oder Muskelzuwachs; gleichzeitig sinkt die bewegte Last. Der Schlingentrainer ist daher vor allem ein Werkzeug, um Hebel und Rumpfanforderung zu variieren, kein nachgewiesen überlegenes Trainingsmittel.",
+   "figs": [],
+   "s": [
+    "aguilera2020",
+    "marquina2021"
+   ]
+  },
+  {
+   "id": "progression",
+   "name": "Progression ohne Zusatzlast",
+   "q": "Wie steigert man die Belastung ohne Gewichte?",
+   "ev": "moderat",
+   "key": [
+    "Muskelwachstum war mit leichten Lasten (≤ 60 % 1RM) gleich groß wie mit schweren, wenn alle Sätze bis zum Muskelversagen gingen; das 1RM stieg mit schweren Lasten stärker, 21 Studien (Schoenfeld et al., 2017). Ausführlich im Thema <a href=\"#hypertrophie\">Hypertrophietraining</a>.",
+    "15 Studien: Training bis zum Satzversagen brachte nur einen trivialen Vorteil für die Hypertrophie (ES 0,19 [0,00; 0,37]); echtes Muskelversagen gegenüber Nicht-Versagen keinen (ES 0,12 [−0,13; 0,37]) (Refalo et al., 2023).",
+    "Progression über Varianten mit zunehmendem Hebel bzw. von beid- zu einbeinig steigerte die Kraft ähnlich wie Hanteltraining (Kotarsky et al., 2018; Wei et al., 2023).",
+    "33 Studien: Körpergewichtstraining mit Blutflussrestriktion steigerte Muskelquerschnitt (3–5 %) und Kraft (4–11 %) (Bommasamudram et al., 2025)."
+   ],
+   "critic": "Bei leichtem Widerstand entscheidet die Nähe zum Versagen, ob ausreichend Muskelfasern rekrutiert werden. Die Metaanalysen zeigen: Sätze bis oder nahe an das Versagen reichen für Muskelwachstum; das letzte Ausreizen bringt wenig. Werden mit einer Variante sehr viele Wiederholungen möglich, ist der Wechsel zu einer schwereren Variante zeitsparender. Für Blutflussrestriktion mit Körpergewicht gibt es nur einen systematischen Review ohne Metaanalyse.",
+   "figs": [],
+   "s": [
+    "schoenfeld2017",
+    "refalo2023",
+    "kotarsky2018",
+    "wei2023",
+    "bommasamudram2025"
+   ]
+  },
+  {
+   "id": "gesundheit",
+   "name": "Gesundheit und Sicherheit",
+   "q": "Welchen gesundheitlichen Nutzen hat Körpergewichtstraining?",
+   "ev": "moderat",
+   "key": [
+    "16 Kohortenstudien: muskelkräftigende Aktivitäten gingen mit 10–17 % geringerem Risiko für Gesamtsterblichkeit, Herz-Kreislauf-Erkrankungen, Krebs, Diabetes und Lungenkrebs einher; größter Vorteil bei etwa 30–60 min pro Woche (J-förmiger Verlauf) (Momma et al., 2022).",
+    "Ältere zu Hause ohne Betreuung, 21 Studien, 4 053 Personen: Beinkraft g 0,33 [0,11; 0,57], Aufstehleistung g 0,44 [0,06; 0,84], Gleichgewicht g 0,32 [0,16; 0,49]; keine schweren Nebenwirkungen, Trainingstreue 67 %; kein Effekt auf Stürze und Lebensqualität (Mañas et al., 2021).",
+    "Gesunde Ältere, 9 RCTs, 682 Personen: Körpergewichtstraining verbesserte einzelne kognitive Bereiche wie Verarbeitungsgeschwindigkeit, Aufmerksamkeit und Kurzzeitgedächtnis; die Vertrauenswürdigkeit der Evidenz war unzureichend (Levín Catrilao et al., 2025).",
+    "Exercise Snacks (Einheiten bis 5 min, mehrmals täglich), 11 RCTs, 414 Inaktive: Ausdauerleistungsfähigkeit g 1,37 [0,58; 2,17], Kraftausdauer bei Älteren g 0,40 [0,06; 0,75]; kein Effekt auf Beinkraft, Körperzusammensetzung, Blutdruck und Blutfette (Rodríguez et al., 2026).",
+    "Befragung von 3 668 Nutzern einer App für Körpergewichtstraining: 4,57 Verletzungen pro 1 000 Stunden, meist Schulter (29 %) und Knie (28 %); bei erfahrenen Nutzern seltener (Hertel et al., 2022)."
+   ],
+   "critic": "Die Risikosenkung stammt aus Beobachtungsstudien und gilt für muskelkräftigende Aktivität allgemein, nicht speziell für Körpergewichtsübungen; Störfaktoren wie gesunder Lebensstil sind nicht auszuschließen. Die Interventionsstudien betreffen fast nur Ältere. Die Verletzungsdaten beruhen auf einer Selbstauskunft ohne Kontrollgruppe; ihre Aussagekraft ist gering.",
+   "figs": [
+    {
+     "id": "kg-gesund",
+     "title": "Heim- und Kurztraining: Wirkung auf Fitness",
+     "cap": "Hedges g mit 95-%-KI gegenüber Kontrolle. Heimtraining Älterer nach Mañas et al. (2021), Exercise Snacks bei Inaktiven nach Rodríguez et al. (2026).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Beinkraft (Heimtraining, Ältere)",
+       "sub": "Mañas et al., 2021",
+       "es": 0.33,
+       "lo": 0.11,
+       "hi": 0.57
+      },
+      {
+       "l": "Aufstehleistung (Heimtraining)",
+       "sub": "Mañas et al., 2021",
+       "es": 0.44,
+       "lo": 0.06,
+       "hi": 0.84
+      },
+      {
+       "l": "Gleichgewicht (Heimtraining)",
+       "sub": "Mañas et al., 2021",
+       "es": 0.32,
+       "lo": 0.16,
+       "hi": 0.49
+      },
+      {
+       "l": "Ausdauerfitness (Snacks, Erwachsene)",
+       "sub": "Rodríguez et al., 2026",
+       "es": 1.37,
+       "lo": 0.58,
+       "hi": 2.17
+      },
+      {
+       "l": "Kraftausdauer (Snacks, Ältere)",
+       "sub": "Rodríguez et al., 2026",
+       "es": 0.4,
+       "lo": 0.06,
+       "hi": 0.75
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 2.4,
+      "ticks": [
+       0,
+       0.5,
+       1,
+       1.5,
+       2
+      ],
+      "leftLab": "Kontrolle besser",
+      "rightLab": "Verbesserung"
+     }
+    }
+   ],
+   "s": [
+    "momma2022",
+    "manas2021",
+    "levin2025",
+    "rodriguez2026",
+    "hertel2022"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2015,
+   "t": "Liegestütz mit Band wie Bankdrücken",
+   "p": "Bei gleicher Muskelaktivität gleiche Kraftzuwächse bei Trainierten.",
+   "tag": "neu",
+   "s": "calatayud2015"
+  },
+  {
+   "y": 2016,
+   "t": "Bänder aktivieren Muskeln wie Hanteln",
+   "p": "EMG-Metaanalyse widerlegt den Einwand zu geringer Aktivierung.",
+   "tag": "neu",
+   "s": "aboodarda2016"
+  },
+  {
+   "y": 2017,
+   "t": "Bänder bei gesunden Erwachsenen",
+   "p": "Wirksam gegenüber Nichtstun, nicht besser als andere Krafttrainingsformen.",
+   "tag": "neu",
+   "s": "oliveira2017"
+  },
+  {
+   "y": 2017,
+   "t": "Leichte Lasten reichen für Muskelwachstum",
+   "p": "Bei Training bis zum Versagen gleiche Hypertrophie, aber weniger 1RM-Zuwachs.",
+   "tag": "neu",
+   "s": "schoenfeld2017"
+  },
+  {
+   "y": 2017,
+   "t": "Leichte Liegestütze wie leichtes Bankdrücken",
+   "p": "Ähnliche Zuwächse an Kraft und Muskeldicke über 8 Wochen.",
+   "tag": "conf",
+   "s": "kikuchi2017"
+  },
+  {
+   "y": 2018,
+   "t": "Progressive Liegestütze steigern das Bankdrück-1RM",
+   "p": "Erste Studie zu progressivem Calisthenics-Training.",
+   "tag": "conf",
+   "s": "kotarsky2018"
+  },
+  {
+   "y": 2019,
+   "t": "Bänder gleich wirksam wie Geräte",
+   "p": "Metaanalyse: kein Unterschied bei der Kraft von Armen und Beinen.",
+   "tag": "conf",
+   "s": "lopes2019"
+  },
+  {
+   "y": 2020,
+   "t": "Schlingentrainer erhöht Muskelaktivität",
+   "p": "Meist höhere Aktivierung als stabile Varianten.",
+   "tag": "neu",
+   "s": "aguilera2020"
+  },
+  {
+   "y": 2021,
+   "t": "Instabilität senkt Kraft und Leistung",
+   "p": "Geringere Kraft und Geschwindigkeit auf instabilen Geräten.",
+   "tag": "rel",
+   "s": "marquina2021"
+  },
+  {
+   "y": 2021,
+   "t": "Heimtraining für Ältere sicher und mäßig wirksam",
+   "p": "Mehr Beinkraft und Gleichgewicht, keine schweren Nebenwirkungen.",
+   "tag": "neu",
+   "s": "manas2021"
+  },
+  {
+   "y": 2021,
+   "t": "Körpergewicht bei Übergewicht",
+   "p": "Mehr Muskelmasse mit Körpergewicht, gleiche Kraft wie mit Gewichten.",
+   "tag": "neu",
+   "s": "liu2021"
+  },
+  {
+   "y": 2022,
+   "t": "Kraftübungen senken Sterberisiko",
+   "p": "10–17 % geringeres Risiko, Optimum bei 30–60 min pro Woche.",
+   "tag": "neu",
+   "s": "momma2022"
+  },
+  {
+   "y": 2022,
+   "t": "Liegestütz-Varianten dosieren",
+   "p": "Kraftdaten zu 46 Varianten als Grundlage für die Belastungssteuerung.",
+   "tag": "neu",
+   "s": "dhahbi2022"
+  },
+  {
+   "y": 2022,
+   "t": "Verletzungen beim App-Training",
+   "p": "4,57 Verletzungen pro 1 000 Stunden, vor allem Schulter und Knie.",
+   "tag": "neu",
+   "s": "hertel2022"
+  },
+  {
+   "y": 2023,
+   "t": "Versagen kaum nötig",
+   "p": "Kein Vorteil von echtem Muskelversagen für die Hypertrophie.",
+   "tag": "rel",
+   "s": "refalo2023"
+  },
+  {
+   "y": 2023,
+   "t": "Körpergewichts- vs. Langhantel-Kniebeuge",
+   "p": "Gleiche Kraft- und Muskelzuwächse bei untrainierten Frauen.",
+   "tag": "conf",
+   "s": "wei2023"
+  },
+  {
+   "y": 2025,
+   "t": "Trainingsformen im Netzwerkvergleich",
+   "p": "Alle wirken; Maschinen am stärksten, Körpergewicht am schwächsten.",
+   "tag": "rel",
+   "s": "wiedenmann2025"
+  },
+  {
+   "y": 2025,
+   "t": "Körpergewicht mit Blutflussrestriktion",
+   "p": "Zusätzliche Zuwächse an Kraft und Muskelquerschnitt ohne Geräte.",
+   "tag": "neu",
+   "s": "bommasamudram2025"
+  },
+  {
+   "y": 2025,
+   "t": "Bänder im Mannschaftssport",
+   "p": "Große Effekte auf Sprung, Sprint und Richtungswechsel.",
+   "tag": "conf",
+   "s": "stankovic2025"
+  },
+  {
+   "y": 2025,
+   "t": "Bänder für Ältere",
+   "p": "Mehr Beinkraft und besseres Gleichgewicht.",
+   "tag": "conf",
+   "s": "meng2025"
+  },
+  {
+   "y": 2025,
+   "t": "Körpergewicht und Kognition",
+   "p": "Hinweise auf bessere Kognition bei gesunden Älteren, unsichere Evidenz.",
+   "tag": "neu",
+   "s": "levin2025"
+  },
+  {
+   "y": 2026,
+   "t": "Was zählt als Krafttraining?",
+   "p": "Uneinheitliche Definitionen, ob Körpergewichtsübungen dazugehören.",
+   "tag": "neu",
+   "s": "lohmann2026"
+  },
+  {
+   "y": 2026,
+   "t": "Exercise Snacks",
+   "p": "Kurze Einheiten verbessern die Ausdauer Inaktiver, nicht die Beinkraft.",
+   "tag": "neu",
+   "s": "rodriguez2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 2435 Einträgen, 107 Übersichtsarbeiten nach Titel geprüft, ergänzt um eine Zusatzsuche nach Übersichtsarbeiten und direkten Vergleichsstudien; 23 Quellen aufgenommen."
+  }
+ ],
+ "def": {
+  "t": "Körpergewichtstraining (Calisthenics) ist Krafttraining, bei dem überwiegend das eigene Körpergewicht den Widerstand bildet, oft ergänzt durch elastische Bänder oder Schlingentrainer. Es gilt in Vergleichsstudien als eigene Krafttrainingsform neben Maschinen, freien Gewichten und Bändern. Ob wiederholte Aktionen gegen das eigene Körpergewicht als Krafttraining zählen, ist in der Literatur allerdings nicht einheitlich definiert.",
+  "s": [
+   "lohmann2026",
+   "wiedenmann2025"
+  ]
+ },
+ "sources": {
+  "lohmann2026": {
+   "short": "Lohmann et al., 2026",
+   "year": 2026,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "41701248",
+   "apa": "Lohmann, L. H., Afonso, J., Behm, D. G., Siegel, S. D., Keiner, M., Wirth, K., Blazevich, A. J., Helms, E. R., Spence, A. J. &amp; Warneke, K. (2026). What is resistance exercise? A review of current uses and potential ways forward. <em>European Journal of Applied Physiology, 126</em>(5), 2393–2403.",
+   "doi": "10.1007/s00421-026-06148-2"
+  },
+  "wiedenmann2025": {
+   "short": "Wiedenmann et al., 2025",
+   "year": 2025,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40452461",
+   "apa": "Wiedenmann, T., Held, S., Morat, T., Rappelt, L., Isenmann, E., Berndsen, E., Hopp, N. H. &amp; Donath, L. (2025). The effects of different resistance training modalities on muscle strength in community-dwelling older adults: A network meta-analysis. <em>Gerontology, 71</em>(7), 576–588.",
+   "doi": "10.1159/000546346"
+  },
+  "liu2021": {
+   "short": "Liu et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35250604",
+   "apa": "Liu, X., Gao, Y., Lu, J., Ma, Q., Shi, Y., Liu, J., Xin, S. &amp; Su, H. (2021). Effects of different resistance exercise forms on body composition and muscle strength in overweight and/or obese individuals: A systematic review and meta-analysis. <em>Frontiers in Physiology, 12</em>, Artikel 791999.",
+   "doi": "10.3389/fphys.2021.791999",
+   "flag": "Population: Übergewicht und Adipositas; Übertragbarkeit auf Normalgewichtige eingeschränkt."
+  },
+  "schoenfeld2017": {
+   "short": "Schoenfeld et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28834797",
+   "apa": "Schoenfeld, B. J., Grgic, J., Ogborn, D. &amp; Krieger, J. W. (2017). Strength and hypertrophy adaptations between low- vs. high-load resistance training: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 31</em>(12), 3508–3523.",
+   "doi": "10.1519/JSC.0000000000002200"
+  },
+  "refalo2023": {
+   "short": "Refalo et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36334240",
+   "apa": "Refalo, M. C., Helms, E. R., Trexler, E. T., Hamilton, D. L. &amp; Fyfe, J. J. (2023). Influence of resistance training proximity-to-failure on skeletal muscle hypertrophy: A systematic review with meta-analysis. <em>Sports Medicine, 53</em>(3), 649–665.",
+   "doi": "10.1007/s40279-022-01784-y"
+  },
+  "lopes2019": {
+   "short": "Lopes et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30815258",
+   "apa": "Lopes, J. S. S., Machado, A. F., Micheletti, J. K., de Almeida, A. C., Cavina, A. P. &amp; Pastre, C. M. (2019). Effects of training with elastic resistance versus conventional resistance on muscular strength: A systematic review and meta-analysis. <em>SAGE Open Medicine, 7</em>, Artikel 2050312119831116.",
+   "doi": "10.1177/2050312119831116",
+   "flag": "Erratum 2020 zu den Effektstärken; im Abstract als korrigiert gekennzeichnet."
+  },
+  "oliveira2017": {
+   "short": "de Oliveira et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28032811",
+   "apa": "de Oliveira, P. A., Blasczyk, J. C., Souza Junior, G., Lagoa, K. F., Soares, M., de Oliveira, R. J., Filho, P. J. B. G., Carregaro, R. L. &amp; Martins, W. R. (2017). Effects of elastic resistance exercise on muscle strength and functional performance in healthy adults: A systematic review and meta-analysis. <em>Journal of Physical Activity &amp; Health, 14</em>(4), 317–327.",
+   "doi": "10.1123/jpah.2016-0415"
+  },
+  "aboodarda2016": {
+   "short": "Aboodarda et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27681867",
+   "apa": "Aboodarda, S. J., Page, P. A. &amp; Behm, D. G. (2016). Muscle activation comparisons between elastic and isoinertial resistance: A meta-analysis. <em>Clinical Biomechanics, 39</em>, 52–61.",
+   "doi": "10.1016/j.clinbiomech.2016.09.008"
+  },
+  "stankovic2025": {
+   "short": "Stanković et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41133592",
+   "apa": "Stanković, D., Lazić, A., Trajković, N., Okičić, M., Bubanj, A., Vencúrik, T., Gašić, T. &amp; Bubanj, S. (2025). Effects of elastic band training on physical performance in team sports: A systematic review and meta-analysis. <em>Journal of Functional Morphology and Kinesiology, 10</em>(4), Artikel 402.",
+   "doi": "10.3390/jfmk10040402"
+  },
+  "meng2025": {
+   "short": "Meng et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41278596",
+   "apa": "Meng, Y., Hu, Y., Yang, W., Xue, Y. &amp; Yang, S. (2025). Effects of elastic band resistance training on lower limb strength and balance function in older adults: A systematic review and meta-analysis. <em>Frontiers in Sports and Active Living, 7</em>, Artikel 1649305.",
+   "doi": "10.3389/fspor.2025.1649305"
+  },
+  "aguilera2020": {
+   "short": "Aguilera-Castells et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "29902124",
+   "apa": "Aguilera-Castells, J., Buscà, B., Fort-Vanmeerhaeghe, A., Montalvo, A. M. &amp; Peña, J. (2020). Muscle activation in suspension training: A systematic review. <em>Sports Biomechanics, 19</em>(1), 55–75.",
+   "doi": "10.1080/14763141.2018.1472293"
+  },
+  "marquina2021": {
+   "short": "Marquina et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33498957",
+   "apa": "Marquina, M., Lorenzo-Calvo, J., Rivilla-García, J., García-Aliaga, A. &amp; Refoyo Román, I. (2021). Effects on strength, power and speed execution using exercise balls, semi-sphere balance balls and suspension training devices: A systematic review. <em>International Journal of Environmental Research and Public Health, 18</em>(3), Artikel 1026.",
+   "doi": "10.3390/ijerph18031026"
+  },
+  "dhahbi2022": {
+   "short": "Dhahbi et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "30284496",
+   "apa": "Dhahbi, W., Chaabene, H., Chaouachi, A., Padulo, J., Behm, D. G., Cochrane, J., Burnett, A. &amp; Chamari, K. (2022). Kinetic analysis of push-up exercises: A systematic review with practical recommendations. <em>Sports Biomechanics, 21</em>(1), 1–40.",
+   "doi": "10.1080/14763141.2018.1512149"
+  },
+  "bommasamudram2025": {
+   "short": "Bommasamudram et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "40043086",
+   "apa": "Bommasamudram, T., Morrell, Z. G., Clarkson, M. J., Nayak, K. R., Kadavigere, R., Russell, A. P. &amp; Warmington, S. A. (2025). Chronic adaptations to blood flow restriction aerobic or bodyweight resistance training: A systematic review. <em>Journal of Sports Sciences, 43</em>(19), 2241–2255.",
+   "doi": "10.1080/02640414.2025.2474346"
+  },
+  "momma2022": {
+   "short": "Momma et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "35228201",
+   "apa": "Momma, H., Kawakami, R., Honda, T. &amp; Sawada, S. S. (2022). Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: A systematic review and meta-analysis of cohort studies. <em>British Journal of Sports Medicine, 56</em>(13), 755–763.",
+   "doi": "10.1136/bjsports-2021-105061"
+  },
+  "manas2021": {
+   "short": "Mañas et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34022464",
+   "apa": "Mañas, A., Gómez-Redondo, P., Valenzuela, P. L., Morales, J. S., Lucía, A. &amp; Ara, I. (2021). Unsupervised home-based resistance training for community-dwelling older adults: A systematic review and meta-analysis of randomized controlled trials. <em>Ageing Research Reviews, 69</em>, Artikel 101368.",
+   "doi": "10.1016/j.arr.2021.101368"
+  },
+  "levin2025": {
+   "short": "Levín Catrilao et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "41302123",
+   "apa": "Levín Catrilao, Á., Parada-Flores, B., Aravena-Sagardia, P., Vásquez-Carrasco, E., Hernandez-Martinez, J., Caamaño-Navarrete, F., Arriagada-Hernandez, C., Sandoval, C., Herrera-Valenzuela, T., Branco, B. H. M. &amp; Valdés-Badilla, P. (2025). Effects of body weight strength training on cognitive function and quality of life in healthy older people: A systematic review of randomized controlled trials. <em>Life, 15</em>(11), Artikel 1698.",
+   "doi": "10.3390/life15111698"
+  },
+  "rodriguez2026": {
+   "short": "Rodríguez et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41057224",
+   "apa": "Rodríguez, M. Á., Quintana-Cepedal, M., Cheval, B., Thøgersen-Ntoumani, C., Crespo, I. &amp; Olmedillas, H. (2026). Effect of exercise snacks on fitness and cardiometabolic health in physically inactive individuals: Systematic review and meta-analysis. <em>British Journal of Sports Medicine, 60</em>(2), 133–141.",
+   "doi": "10.1136/bjsports-2025-110027"
+  },
+  "calatayud2015": {
+   "short": "Calatayud et al., 2015",
+   "year": 2015,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "24983847",
+   "apa": "Calatayud, J., Borreani, S., Colado, J. C., Martin, F., Tella, V. &amp; Andersen, L. L. (2015). Bench press and push-up at comparable levels of muscle activity results in similar strength gains. <em>Journal of Strength and Conditioning Research, 29</em>(1), 246–253.",
+   "doi": "10.1519/JSC.0000000000000589"
+  },
+  "kikuchi2017": {
+   "short": "Kikuchi & Nakazato, 2017",
+   "year": 2017,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "29541130",
+   "apa": "Kikuchi, N. &amp; Nakazato, K. (2017). Low-load bench press and push-up induce similar muscle hypertrophy and strength gain. <em>Journal of Exercise Science and Fitness, 15</em>(1), 37–42.",
+   "doi": "10.1016/j.jesf.2017.06.003",
+   "flag": "Im Abstract sind für den M. pectoralis major in beiden Gruppen identische Werte angegeben (17,0 auf 20,8 mm); vermutlich Übertragungsfehler."
+  },
+  "kotarsky2018": {
+   "short": "Kotarsky et al., 2018",
+   "year": 2018,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "29466268",
+   "apa": "Kotarsky, C. J., Christensen, B. K., Miller, J. S. &amp; Hackney, K. J. (2018). Effect of progressive calisthenic push-up training on muscle strength and thickness. <em>Journal of Strength and Conditioning Research, 32</em>(3), 651–659.",
+   "doi": "10.1519/JSC.0000000000002345"
+  },
+  "wei2023": {
+   "short": "Wei et al., 2023",
+   "year": 2023,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "37598268",
+   "apa": "Wei, W., Zhu, J., Ren, S., Jan, Y. K., Zhang, W., Su, R. &amp; He, L. (2023). Effects of progressive body-weight versus barbell back squat training on strength, hypertrophy and body fat among sedentary young women. <em>Scientific Reports, 13</em>(1), Artikel 13505.",
+   "doi": "10.1038/s41598-023-40319-x"
+  },
+  "hertel2022": {
+   "short": "Hertel et al., 2022",
+   "year": 2022,
+   "type": "Querschnittsbefragung",
+   "basis": "Abstract",
+   "pmid": "35883184",
+   "apa": "Hertel, G., Hochrein, A., Suren, C., Minzlaff, P., Banke, I. J., Willers, J., von Eisenhart-Rothe, R. &amp; Prodinger, P. M. (2022). Injury incidence and specific injury patterns in app-based bodyweight training (Freeletics): Results of an international survey with 3668 participants. <em>BMC Sports Science, Medicine &amp; Rehabilitation, 14</em>(1), Artikel 145.",
+   "doi": "10.1186/s13102-022-00525-y"
+  }
+ }
+}

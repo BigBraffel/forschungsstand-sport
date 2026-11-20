@@ -1,0 +1,708 @@
+{
+ "id": "tapering",
+ "title": "Tapering vor Wettkämpfen",
+ "stand": "2026-11-20",
+ "lead": "Wie stark und wie lange sollte das Training vor einem wichtigen Wettkampf reduziert werden, damit die Ermüdung abklingt, ohne dass die Form verloren geht? Zusammengefasst aus Metaanalysen zu Ausdauer-, Mannschafts- und Kraftsport sowie Studien zur Abgrenzung vom Detraining.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für Wettkampfsportler vor einem Saisonhöhepunkt. Die Werte stammen überwiegend aus dem Ausdauersport; für Kraftsportler gibt es nur kleine Einzelstudien und Befragungen.",
+ "rx": [
+  {
+   "label": "Umfang",
+   "value": "um etwa 40–60 % senken",
+   "text": "Der Trainingsumfang ist die Stellschraube des Tapers. Eine Reduktion um 41–60 % brachte in zwei Metaanalysen die besten Ergebnisse.",
+   "cite": "Bosquet et al. 2007; Wang et al. 2023"
+  },
+  {
+   "label": "Intensität",
+   "value": "beibehalten",
+   "text": "Die Intensität sollte nicht gesenkt werden; intensive Einheiten erhalten die Anpassungen, auch wenn der Umfang stark sinkt.",
+   "cite": "Bosquet et al. 2007; Mujika 2010"
+  },
+  {
+   "label": "Häufigkeit",
+   "value": "beibehalten, höchstens leicht senken",
+   "text": "Die Zahl der Einheiten weitgehend beibehalten; ältere Übersichten empfehlen höchstens etwa 20 % weniger Einheiten.",
+   "cite": "Bosquet et al. 2007; Mujika &amp; Padilla 2003"
+  },
+  {
+   "label": "Dauer",
+   "value": "etwa 1–2 Wochen",
+   "text": "Im Ausdauersport bewährt sich ein Taper von etwa 2 Wochen mit fortschreitender (exponentieller) Reduktion. Kraftsportler tapern meist kürzer (5–9 Tage) und pausieren zuletzt 1,5–4 Tage.",
+   "cite": "Bosquet et al. 2007; Winwood et al. 2026"
+  },
+  {
+   "label": "Vorbelastung",
+   "value": "Überlastung vor dem Taper",
+   "text": "Eine kurze Phase erhöhter Belastung vor dem Taper steigerte den Leistungsgewinn im Zeitfahren stärker als ein Taper ohne Vorbelastung.",
+   "cite": "Wang et al. 2023"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Die Grundlagen zu Trainingspausen und Kraftverlust stehen im Thema <a href=\"#maximalkraft\">Maximalkrafttraining</a>, zur Steuerung des Ausdauertrainings im Thema <a href=\"#ausdauer\">Ausdauertraining</a>.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Umfang runter, Intensität halten",
+   "ev": "hoch",
+   "p": "Am meisten Leistung brachte ein Taper, bei dem der Umfang um 41–60 % sinkt, während Intensität und Häufigkeit gleich bleiben.",
+   "s": [
+    "bosquet2007",
+    "wang2023",
+    "mujika2003"
+   ]
+  },
+  {
+   "t": "Etwa 2 Wochen, fortschreitend reduziert",
+   "ev": "moderat",
+   "p": "Ein zweiwöchiger Taper mit exponentieller Reduktion war im Mittel am wirksamsten; kürzere und längere Taper verbesserten die Leistung ebenfalls.",
+   "s": [
+    "bosquet2007",
+    "wang2023"
+   ]
+  },
+  {
+   "t": "Leistungsgewinn auch im Mannschaftssport",
+   "ev": "moderat",
+   "p": "Tapering steigerte Schnellkraft, Wiederholungssprints, Richtungswechsel, Sprunghöhe und VO<sub>2max</sub> bei Mannschaftssportlern.",
+   "s": [
+    "vachon2021",
+    "ramirez2021"
+   ]
+  },
+  {
+   "t": "Kraftsport: kurz und mit kurzer Pause",
+   "ev": "niedrig",
+   "p": "Kraftsportler tapern meist 5–9 Tage mit etwa 40–45 % weniger Umfang. Kleine Studien zeigen, dass 3–5 Tage Pause die Kraft erhalten oder leicht steigern.",
+   "s": [
+    "winwood2026",
+    "pritchard2018",
+    "travis2022",
+    "seppanen2022"
+   ]
+  },
+  {
+   "t": "Längere Pausen kosten Form",
+   "ev": "hoch",
+   "p": "Vollständige Trainingspausen senken VO<sub>2max</sub> und Kraft, umso stärker, je länger sie dauern. Reduziertes Training mit erhaltener Intensität verhindert das weitgehend.",
+   "s": [
+    "zheng2022",
+    "bosquet2013",
+    "mujika2000b"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "prinzip",
+   "name": "Umfang, Intensität und Häufigkeit",
+   "q": "Welche Trainingsvariable soll reduziert werden?",
+   "ev": "hoch",
+   "key": [
+    "27 Studien mit Wettkampfsportlern: am wirksamsten war es, den Umfang um 41–60 % zu senken (Effekt 0,72 ± 0,36), ohne Intensität (0,33 ± 0,14) oder Häufigkeit (0,35 ± 0,17) zu verändern (Bosquet et al., 2007).",
+    "Ausdauersportler, 14 Studien: Leistungsgewinne bei 41–60 % weniger Umfang und unveränderter Intensität und Häufigkeit (Wang et al., 2023).",
+    "Übersicht: Intensität beibehalten, Umfang um bis zu 60–90 % senken, Häufigkeit um höchstens 20 % senken (Mujika &amp; Padilla, 2003).",
+    "Hohe Intensität erhält oder steigert die Anpassungen während des Tapers; der Umfang kann deutlich sinken, ohne die Leistung zu beeinträchtigen (Mujika, 2010).",
+    "Umfang und Häufigkeit lassen sich stärker senken als die Intensität, ohne in ein Detraining zu geraten (Mujika, 1998)."
+   ],
+   "critic": "Die Empfehlungen sind seit den 1990er-Jahren stabil und durch zwei Metaanalysen gestützt. Die älteren Übersichten nennen größere Umfangsreduktionen (60–90 %) als die Metaanalysen (41–60 %). Die Metaanalysen beruhen auf mehr Daten und sind wahrscheinlicher zutreffend; die höheren Werte stammen vor allem aus dem Schwimmen mit sehr hohem Ausgangsumfang. Fast alle Studien sind Vorher-nachher-Vergleiche ohne Kontrollgruppe, was den Effekt überschätzen kann.",
+   "figs": [
+    {
+     "id": "tp-faktoren",
+     "title": "Was am Taper wirkt",
+     "cap": "Effektstärke der Leistungsverbesserung je Taper-Merkmal (Bosquet et al., 2007). Streuung im Abstract als ± angegeben und hier nicht dargestellt.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Umfang −41–60 %",
+       "es": 0.72
+      },
+      {
+       "l": "Dauer 2 Wochen",
+       "es": 0.59
+      },
+      {
+       "l": "Häufigkeit beibehalten",
+       "es": 0.35
+      },
+      {
+       "l": "Intensität beibehalten",
+       "es": 0.33
+      }
+     ],
+     "opts": {
+      "max": 0.8,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "xlab": "Effektstärke (Leistung nach vs. vor Taper)",
+      "src": "Bosquet et al., 2007"
+     }
+    }
+   ],
+   "s": [
+    "bosquet2007",
+    "wang2023",
+    "mujika2003",
+    "mujika2010",
+    "mujika1998"
+   ]
+  },
+  {
+   "id": "dauer",
+   "name": "Dauer und Form der Reduktion",
+   "q": "Wie lange und in welcher Form?",
+   "ev": "moderat",
+   "key": [
+    "Optimal war im Mittel ein Taper von 2 Wochen (Effekt 0,59 ± 0,33) mit exponentieller Umfangsreduktion (Bosquet et al., 2007).",
+    "Ausdauersportler: Taper von ≤ 7, 8–14 oder 15–21 Tagen sowie fortschreitende und stufenförmige Taper verbesserten das Zeitfahren signifikant (Wang et al., 2023).",
+    "Die optimale Dauer liegt zwischen 4 und über 28 Tagen; fortschreitende, nichtlineare Taper sind stufenförmigen überlegen (Mujika &amp; Padilla, 2003).",
+    "Schwimmen: abgestufte Umfangsreduktion um 60–90 % über 7–21 Tage mit täglichen hochintensiven Intervallen (Houmard &amp; Johns, 1994)."
+   ],
+   "critic": "Die Dauer hängt von der vorherigen Belastung ab: Wer stark ermüdet ist, braucht länger. Daher streuen die Empfehlungen breit. Die Überlegenheit fortschreitender gegenüber stufenförmiger Reduktion beruht auf älteren Daten; die neuere Metaanalyse fand für beide Formen Leistungsgewinne. Wahrscheinlich ist die Form weniger wichtig als eine ausreichende Umfangsreduktion bei erhaltener Intensität.",
+   "figs": [],
+   "s": [
+    "bosquet2007",
+    "wang2023",
+    "mujika2003",
+    "houmard1994"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Leistungsgewinn im Ausdauersport",
+   "q": "Wie viel bringt ein Taper?",
+   "ev": "moderat",
+   "key": [
+    "14 Studien: Verbesserung im Zeitfahren (SMD −0,45; kürzere Zeit) und in der Zeit bis zur Erschöpfung (SMD 1,28); VO<sub>2max</sub> und Bewegungsökonomie veränderten sich nicht (Wang et al., 2023).",
+    "Ein Taper nach vorheriger Überlastung verbesserte das Zeitfahren stärker als ein herkömmlicher Taper (Wang et al., 2023).",
+    "Die Leistung verbessert sich typischerweise um etwa 3 % (Spanne 0,5–6,0 %) (Mujika &amp; Padilla, 2003); bei Schwimmern ebenfalls etwa 3 % (Houmard &amp; Johns, 1994)."
+   ],
+   "critic": "Ein Gewinn von etwa 3 % ist im Spitzensport groß, liegt aber im Bereich der Tagesform. Da der Taper Ermüdung abbaut, hängt der Gewinn davon ab, wie ermüdet die Athleten vorher waren; das erklärt den größeren Effekt nach Überlastung. Dass VO<sub>2max</sub> unverändert blieb, spricht dafür, dass der Taper vor allem Erholung und neuromuskuläre Frische verbessert, nicht die aerobe Kapazität.",
+   "figs": [],
+   "s": [
+    "wang2023",
+    "mujika2003",
+    "houmard1994"
+   ]
+  },
+  {
+   "id": "team",
+   "name": "Mannschafts- und Schnellkraftsport",
+   "q": "Wirkt Tapering auch im Mannschaftssport?",
+   "ev": "moderat",
+   "key": [
+    "14 Studien mit Mannschaftssportlern: Wiederholungssprints SMD 0,41 [0,26; 0,55], Maximalleistung 0,44 [0,32; 0,56], Richtungswechsel 0,38 [0,15; 0,60] und VO<sub>2max</sub> 0,76 [0,43; 1,09] verbesserten sich (Vachon et al., 2021).",
+    "Plyometrisches Training mit eingeplantem Taper, 14 Studien: Sprungleistung verbesserte sich mäßig (ES 0,73); Dauer, Intensität und Umfang des Tapers wirkten ähnlich (Ramirez-Campillo et al., 2021).",
+    "Vor Turnieren oder Ligastart sollte der Taper hochintensive Inhalte enthalten (Mujika, 2010)."
+   ],
+   "critic": "Die Evidenz ist begrenzt bis mäßig (so die Autoren selbst), und es fehlen Vergleiche verschiedener Taper-Strategien. Anders als im Ausdauersport verbesserte sich hier auch VO<sub>2max</sub>; das kann daran liegen, dass Mannschaftssportler vor dem Taper weniger spezifisch ausdauertrainiert sind. Im Ligabetrieb mit wöchentlichen Spielen ist ein klassischer Taper nur vor Turnieren oder Saisonbeginn umsetzbar.",
+   "figs": [
+    {
+     "id": "tp-team",
+     "title": "Tapering im Mannschaftssport",
+     "cap": "SMD mit 95-%-KI (Vachon et al., 2021); Sprungleistung ohne Intervall im Abstract (Ramirez-Campillo et al., 2021).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Wiederholungssprints",
+       "sub": "Vachon et al., 2021",
+       "es": 0.41,
+       "lo": 0.26,
+       "hi": 0.55
+      },
+      {
+       "l": "Maximalleistung",
+       "sub": "Vachon et al., 2021",
+       "es": 0.44,
+       "lo": 0.32,
+       "hi": 0.56
+      },
+      {
+       "l": "Richtungswechsel",
+       "sub": "Vachon et al., 2021",
+       "es": 0.38,
+       "lo": 0.15,
+       "hi": 0.6
+      },
+      {
+       "l": "VO2max",
+       "sub": "Vachon et al., 2021",
+       "es": 0.76,
+       "lo": 0.43,
+       "hi": 1.09
+      },
+      {
+       "l": "Sprungleistung",
+       "sub": "Ramirez-Campillo et al., 2021",
+       "es": 0.73
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.2,
+      "ticks": [
+       0,
+       0.4,
+       0.8,
+       1.2
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser nach Taper"
+     }
+    }
+   ],
+   "s": [
+    "vachon2021",
+    "ramirez2021",
+    "mujika2010"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Tapering im Kraftsport",
+   "q": "Wie tapern Kraftsportler, und was ist belegt?",
+   "ev": "niedrig",
+   "key": [
+    "Befragungen, 7 Studien: Kraftsportler tapern fast immer, meist stufenförmig über 5–9 Tage mit etwa 40–45 % weniger Umfang; Trainingspause zuletzt 1,5–4 Tage; Kreuzheben zuletzt 6–8, Kniebeuge 5–6,5 und Bankdrücken 3–5 Tage vor dem Wettkampf (Winwood et al., 2026).",
+    "Für das Tapern der Maximalkraft fehlt ein evidenzbasiertes Protokoll; die Praxis beruht weitgehend auf Versuch und Irrtum (Travis et al., 2020).",
+    "14 Freizeit-Kraftsportler: sofortige Umfangsreduktion um 54 % steigerte das 1RM in der Kniebeuge stärker (3,4 %) als eine zweistufige Reduktion (38 %, dann 70 %; 1,7 %) (Seppänen &amp; Häkkinen, 2022).",
+    "16 Powerlifter: nach einer Überlastungswoche verbesserten sowohl ein einwöchiger stufenförmiger als auch ein dreiwöchiger exponentieller Taper das 1RM; der stufenförmige begünstigte die Muskelfasergröße (Travis et al., 2021).",
+    "11 Kraftsportler: ein Taper mit etwa 70 % weniger Umfang verbesserte die Sprunghöhe; höhere Intensität im Taper tendierte zu günstigeren Kraftwerten, ohne signifikanten Unterschied (Pritchard et al., 2019).",
+    "8 Kraftsportler: 3,5 und 5,5 Tage Trainingspause nach 4 Wochen Training steigerten Sprunghöhe und isometrische Bankdrückkraft gegenüber dem Ausgangswert (Pritchard et al., 2018). 19 Athleten: 3 und 5 Tage Pause erhielten die Beinkraft; die Oberkörperkraft sank nach 5 Tagen leicht (Travis et al., 2022)."
+   ],
+   "critic": "Für den Kraftsport gibt es keine Metaanalyse, nur kleine Studien (8–19 Personen) und Befragungen. Die Befunde passen zu den Ausdauerdaten: Umfang senken, Intensität halten. Abweichend scheint im Kraftsport eine schnelle, stufenförmige Reduktion mindestens gleich gut zu wirken wie eine fortschreitende. Kurze Pausen bis etwa 3 Tage sind unschädlich; ab 5 Tagen kann die Oberkörperkraft leicht sinken. Wegen der kleinen Stichproben sind diese Unterschiede unsicher.",
+   "figs": [],
+   "s": [
+    "winwood2026",
+    "travis2020",
+    "seppanen2022",
+    "travis2021",
+    "pritchard2019",
+    "pritchard2018",
+    "travis2022"
+   ]
+  },
+  {
+   "id": "detraining",
+   "name": "Abgrenzung zum Detraining",
+   "q": "Ab wann wird aus dem Taper ein Formverlust?",
+   "ev": "hoch",
+   "key": [
+    "Detraining ist der teilweise oder vollständige Verlust von Trainingsanpassungen durch einen unzureichenden Trainingsreiz; schon unter 4 Wochen sinken VO<sub>2max</sub> und Blutvolumen bei Hochtrainierten rasch, die Kraft dagegen nur begrenzt (Mujika &amp; Padilla, 2000a).",
+    "Über 4 Wochen sinkt die Ausdauerleistung deutlich; die Kraft nimmt langsam ab. Reduziertes Training mit erhaltener Intensität und nur mäßig verringerter Häufigkeit kann das verhindern, der Umfang darf deutlich sinken (Mujika &amp; Padilla, 2000b).",
+    "21 Studien mit Athleten: VO<sub>2max</sub> sank nach kurzer (ES −0,62 [−0,94; −0,31]) und stärker nach längerer Pause (ES −1,42 [−1,99; −0,84]); etwas Training während der Pause schwächte den Verlust ab (Zheng et al., 2022).",
+    "Pausen im Krafttraining senkten alle Kraftkomponenten, abhängig von der Dauer: submaximale Kraft SMD −0,62 [−0,80; −0,45], Maximalkraft −0,46 [−0,54; −0,37], Schnellkraft −0,20 [−0,28; −0,13], 103 Studien (Bosquet et al., 2013). Details im Thema <a href=\"#maximalkraft\">Maximalkrafttraining</a>.",
+    "Fußballer in der Sommerpause, 12 Studien: vollständige Pausen senkten VO<sub>2max</sub> (ES −1,48) und die Wiederholungssprintleistung stärker als Pausen mit Trainingsprogramm (VO<sub>2max</sub> ES −0,48) (Clemente et al., 2021)."
+   ],
+   "critic": "Der Unterschied zwischen Taper und Detraining liegt in der Intensität und der Dauer: Ein Taper senkt den Umfang bei erhaltener Intensität für wenige Tage bis Wochen, Detraining entsteht bei unzureichendem Reiz über längere Zeit. Die Befunde sind konsistent über viele Studien. Die Analyse von Zheng et al. zeigt für lange Pausen deutliche Heterogenität und Hinweise auf Publikationsbias (Egger-Test signifikant).",
+   "figs": [
+    {
+     "id": "tp-detrain",
+     "title": "Detraining: Verlust bei Trainingspausen",
+     "cap": "SMD bzw. ES mit 95-%-KI. Negative Werte = Leistungsverlust. VO2max nach Zheng et al. (2022), Kraft nach Bosquet et al. (2013).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "VO2max, kurze Pause",
+       "sub": "Zheng et al., 2022",
+       "es": -0.62,
+       "lo": -0.94,
+       "hi": -0.31
+      },
+      {
+       "l": "VO2max, lange Pause",
+       "sub": "Zheng et al., 2022",
+       "es": -1.42,
+       "lo": -1.99,
+       "hi": -0.84
+      },
+      {
+       "l": "Submaximale Kraft",
+       "sub": "Bosquet et al., 2013",
+       "es": -0.62,
+       "lo": -0.8,
+       "hi": -0.45
+      },
+      {
+       "l": "Maximalkraft",
+       "sub": "Bosquet et al., 2013",
+       "es": -0.46,
+       "lo": -0.54,
+       "hi": -0.37
+      },
+      {
+       "l": "Schnellkraft",
+       "sub": "Bosquet et al., 2013",
+       "es": -0.2,
+       "lo": -0.28,
+       "hi": -0.13
+      }
+     ],
+     "opts": {
+      "min": -2.2,
+      "max": 0.3,
+      "ticks": [
+       -2,
+       -1.5,
+       -1,
+       -0.5,
+       0
+      ],
+      "leftLab": "Verlust",
+      "rightLab": "Zuwachs"
+     }
+    }
+   ],
+   "s": [
+    "mujika2000a",
+    "mujika2000b",
+    "zheng2022",
+    "bosquet2013",
+    "clemente2021"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 1994,
+   "t": "Schwimmer: etwa 3 % durch Taper",
+   "p": "Abgestufte Umfangsreduktion um 60–90 % über 7–21 Tage.",
+   "tag": "neu",
+   "s": "houmard1994"
+  },
+  {
+   "y": 1998,
+   "t": "Intensität wichtiger als Umfang",
+   "p": "Umfang und Häufigkeit lassen sich stärker senken als die Intensität.",
+   "tag": "neu",
+   "s": "mujika1998"
+  },
+  {
+   "y": 2000,
+   "t": "Detraining kurzfristig",
+   "p": "Definition und rasche Verluste von VO2max in unter 4 Wochen.",
+   "tag": "neu",
+   "s": "mujika2000a"
+  },
+  {
+   "y": 2000,
+   "t": "Detraining langfristig",
+   "p": "Reduziertes Training mit erhaltener Intensität verhindert Verluste.",
+   "tag": "neu",
+   "s": "mujika2000b"
+  },
+  {
+   "y": 2003,
+   "t": "Wissenschaftliche Grundlagen des Tapers",
+   "p": "Definition des Tapers; Leistung steigt im Mittel um etwa 3 %.",
+   "tag": "conf",
+   "s": "mujika2003"
+  },
+  {
+   "y": 2007,
+   "t": "Erste Metaanalyse zum Tapering",
+   "p": "2 Wochen, Umfang −41–60 %, Intensität und Häufigkeit unverändert.",
+   "tag": "neu",
+   "s": "bosquet2007"
+  },
+  {
+   "y": 2010,
+   "t": "Intensität erhält die Form",
+   "p": "Hohe Intensität vor und während des Tapers ist entscheidend.",
+   "tag": "conf",
+   "s": "mujika2010"
+  },
+  {
+   "y": 2013,
+   "t": "Trainingspausen senken die Kraft",
+   "p": "Verlust aller Kraftkomponenten, abhängig von der Dauer.",
+   "tag": "neu",
+   "s": "bosquet2013"
+  },
+  {
+   "y": 2018,
+   "t": "Kurze Pause als Kraft-Taper",
+   "p": "3,5 bis 5,5 Tage Pause steigerten die Kraftleistung.",
+   "tag": "neu",
+   "s": "pritchard2018"
+  },
+  {
+   "y": 2019,
+   "t": "Intensität im Kraft-Taper",
+   "p": "Höhere Intensität tendenziell günstiger, kein signifikanter Unterschied.",
+   "tag": "conf",
+   "s": "pritchard2019"
+  },
+  {
+   "y": 2020,
+   "t": "Kraftsport ohne gesichertes Protokoll",
+   "p": "Peaking der Maximalkraft beruht weitgehend auf Erfahrung.",
+   "tag": "neu",
+   "s": "travis2020"
+  },
+  {
+   "y": 2021,
+   "t": "Mannschaftssport profitiert",
+   "p": "Bessere Sprints, Schnellkraft und VO2max nach Taper.",
+   "tag": "conf",
+   "s": "vachon2021"
+  },
+  {
+   "y": 2021,
+   "t": "Taper bei Sprungtraining",
+   "p": "Mäßige Verbesserung der Sprungleistung.",
+   "tag": "conf",
+   "s": "ramirez2021"
+  },
+  {
+   "y": 2021,
+   "t": "Sommerpause im Fußball",
+   "p": "Vollständige Pausen schaden mehr als Pausenprogramme.",
+   "tag": "neu",
+   "s": "clemente2021"
+  },
+  {
+   "y": 2021,
+   "t": "Stufen- vs. exponentieller Taper im Kraftsport",
+   "p": "Beide steigern das 1RM, stufenförmig günstiger für die Muskelfasern.",
+   "tag": "neu",
+   "s": "travis2021"
+  },
+  {
+   "y": 2022,
+   "t": "Schnelle Reduktion im Kraftsport besser",
+   "p": "Sofortige Umfangsreduktion steigerte das 1RM stärker als eine zweistufige.",
+   "tag": "contra",
+   "s": "seppanen2022"
+  },
+  {
+   "y": 2022,
+   "t": "3 vs. 5 Tage Pause",
+   "p": "Beinkraft bleibt erhalten, Oberkörperkraft sinkt nach 5 Tagen leicht.",
+   "tag": "neu",
+   "s": "travis2022"
+  },
+  {
+   "y": 2022,
+   "t": "Detraining senkt VO2max",
+   "p": "Stärkerer Verlust bei längeren Pausen.",
+   "tag": "conf",
+   "s": "zheng2022"
+  },
+  {
+   "y": 2023,
+   "t": "Metaanalyse Ausdauersport",
+   "p": "Bestätigt Umfang −41–60 %; Vorbelastung verstärkt den Gewinn.",
+   "tag": "conf",
+   "s": "wang2023"
+  },
+  {
+   "y": 2026,
+   "t": "Taper-Praxis im Kraftsport",
+   "p": "Meist 5–9 Tage, stufenförmig, etwa 40–45 % weniger Umfang.",
+   "tag": "neu",
+   "s": "winwood2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1171 Einträgen, 84 Übersichtsarbeiten nach Titel geprüft, ergänzt um eine Zusatzsuche nach Übersichtsarbeiten und Studien zum Tapering im Kraftsport; 20 Quellen aufgenommen."
+  }
+ ],
+ "def": {
+  "t": "Tapering ist eine fortschreitende, meist nichtlineare Reduktion der Trainingsbelastung über einen begrenzten Zeitraum vor einem Wettkampf. Ziel ist, die angesammelte Ermüdung abzubauen, ohne die Trainingsanpassungen zu gefährden. Davon abzugrenzen ist Detraining: der teilweise oder vollständige Verlust von Trainingsanpassungen durch einen unzureichenden Trainingsreiz.",
+  "s": [
+   "mujika2003",
+   "mujika2000a"
+  ]
+ },
+ "sources": {
+  "houmard1994": {
+   "short": "Houmard & Johns, 1994",
+   "year": 1994,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "8009136",
+   "apa": "Houmard, J. A. &amp; Johns, R. A. (1994). Effects of taper on swim performance. Practical implications. <em>Sports Medicine, 17</em>(4), 224–232.",
+   "doi": "10.2165/00007256-199417040-00003"
+  },
+  "mujika1998": {
+   "short": "Mujika, 1998",
+   "year": 1998,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "9839839",
+   "apa": "Mujika, I. (1998). The influence of training characteristics and tapering on the adaptation in highly trained individuals: A review. <em>International Journal of Sports Medicine, 19</em>(7), 439–446.",
+   "doi": "10.1055/s-2007-971942"
+  },
+  "mujika2000a": {
+   "short": "Mujika & Padilla, 2000a",
+   "year": 2000,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "10966148",
+   "apa": "Mujika, I. &amp; Padilla, S. (2000a). Detraining: Loss of training-induced physiological and performance adaptations. Part I: Short term insufficient training stimulus. <em>Sports Medicine, 30</em>(2), 79–87.",
+   "doi": "10.2165/00007256-200030020-00002"
+  },
+  "mujika2000b": {
+   "short": "Mujika & Padilla, 2000b",
+   "year": 2000,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "10999420",
+   "apa": "Mujika, I. &amp; Padilla, S. (2000b). Detraining: Loss of training-induced physiological and performance adaptations. Part II: Long term insufficient training stimulus. <em>Sports Medicine, 30</em>(3), 145–154.",
+   "doi": "10.2165/00007256-200030030-00001"
+  },
+  "mujika2003": {
+   "short": "Mujika & Padilla, 2003",
+   "year": 2003,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "12840640",
+   "apa": "Mujika, I. &amp; Padilla, S. (2003). Scientific bases for precompetition tapering strategies. <em>Medicine &amp; Science in Sports &amp; Exercise, 35</em>(7), 1182–1187.",
+   "doi": "10.1249/01.MSS.0000074448.73931.11"
+  },
+  "bosquet2007": {
+   "short": "Bosquet et al., 2007",
+   "year": 2007,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "17762369",
+   "apa": "Bosquet, L., Montpetit, J., Arvisais, D. &amp; Mujika, I. (2007). Effects of tapering on performance: A meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 39</em>(8), 1358–1365.",
+   "doi": "10.1249/mss.0b013e31806010e0",
+   "flag": "Effekte im Abstract als Wert ± Streuung angegeben; ob es sich um 95-%-KI handelt, ist im Abstract nicht angegeben. Abbildung daher ohne Intervalle."
+  },
+  "mujika2010": {
+   "short": "Mujika, 2010",
+   "year": 2010,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "20840559",
+   "apa": "Mujika, I. (2010). Intense training: The key to optimal performance before and during the taper. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 20 Suppl 2</em>, 24–31.",
+   "doi": "10.1111/j.1600-0838.2010.01189.x"
+  },
+  "bosquet2013": {
+   "short": "Bosquet et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23347054",
+   "apa": "Bosquet, L., Berryman, N., Dupuy, O., Mekary, S., Arvisais, D., Bherer, L. &amp; Mujika, I. (2013). Effect of training cessation on muscular performance: A meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 23</em>(3), e140–149.",
+   "doi": "10.1111/sms.12047"
+  },
+  "pritchard2018": {
+   "short": "Pritchard et al., 2018",
+   "year": 2018,
+   "type": "Crossover-Studie",
+   "basis": "Abstract",
+   "pmid": "29369954",
+   "apa": "Pritchard, H. J., Barnes, M. J., Stewart, R. J. C., Keogh, J. W. L. &amp; McGuigan, M. R. (2018). Short-Term training cessation as a method of tapering to improve maximal strength. <em>Journal of Strength and Conditioning Research, 32</em>(2), 458–465.",
+   "doi": "10.1519/JSC.0000000000001803"
+  },
+  "pritchard2019": {
+   "short": "Pritchard et al., 2019",
+   "year": 2019,
+   "type": "Crossover-Studie",
+   "basis": "Abstract",
+   "pmid": "30204523",
+   "apa": "Pritchard, H. J., Barnes, M. J., Stewart, R. J., Keogh, J. W. &amp; McGuigan, M. R. (2019). Higher- versus lower-intensity strength-training taper: Effects on neuromuscular performance. <em>International Journal of Sports Physiology and Performance, 14</em>(4), 458–463.",
+   "doi": "10.1123/ijspp.2018-0489"
+  },
+  "travis2020": {
+   "short": "Travis et al., 2020",
+   "year": 2020,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "32917000",
+   "apa": "Travis, S. K., Mujika, I., Gentles, J. A., Stone, M. H. &amp; Bazyler, C. D. (2020). Tapering and peaking maximal strength for powerlifting performance: A review. <em>Sports, 8</em>(9), Artikel 125.",
+   "doi": "10.3390/sports8090125"
+  },
+  "vachon2021": {
+   "short": "Vachon et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32172680",
+   "apa": "Vachon, A., Berryman, N., Mujika, I., Paquet, J. B., Arvisais, D. &amp; Bosquet, L. (2021). Effects of tapering on neuromuscular and metabolic fitness in team sports: A systematic review and meta-analysis. <em>European Journal of Sport Science, 21</em>(3), 300–311.",
+   "doi": "10.1080/17461391.2020.1736183"
+  },
+  "ramirez2021": {
+   "short": "Ramirez-Campillo et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32674540",
+   "apa": "Ramirez-Campillo, R., Pereira, L. A., Andrade, D. C., Mendez-Rebolledo, G., De La Fuente, C. I., Castro-Sepulveda, M., Garcia-Pinillos, F., Freitas, T. T. &amp; Loturco, I. (2021). Tapering strategies applied to plyometric jump training: A systematic review with meta-analysis of randomized-controlled trials. <em>The Journal of Sports Medicine and Physical Fitness, 61</em>(1), 53–62.",
+   "doi": "10.23736/S0022-4707.20.11128-9",
+   "flag": "Für den Gesamteffekt auf die Sprungleistung ist im Abstract kein Konfidenzintervall angegeben."
+  },
+  "clemente2021": {
+   "short": "Clemente et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33400214",
+   "apa": "Clemente, F. M., Ramirez-Campillo, R. &amp; Sarmento, H. (2021). Detrimental effects of the off-season in soccer players: A systematic review and meta-analysis. <em>Sports Medicine, 51</em>(4), 795–814.",
+   "doi": "10.1007/s40279-020-01407-4"
+  },
+  "travis2021": {
+   "short": "Travis et al., 2021",
+   "year": 2021,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "34777004",
+   "apa": "Travis, S. K., Zwetsloot, K. A., Mujika, I., Stone, M. H. &amp; Bazyler, C. D. (2021). Skeletal muscle adaptations and performance outcomes following a step and exponential taper in strength athletes. <em>Frontiers in Physiology, 12</em>, Artikel 735932.",
+   "doi": "10.3389/fphys.2021.735932"
+  },
+  "seppanen2022": {
+   "short": "Seppänen & Häkkinen, 2022",
+   "year": 2022,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "33337705",
+   "apa": "Seppänen, S. &amp; Häkkinen, K. (2022). Step vs. two-phase gradual volume reduction tapering protocols in strength training: Effects on neuromuscular performance and serum hormone concentrations. <em>Journal of Strength and Conditioning Research, 36</em>(10), 2771–2779.",
+   "doi": "10.1519/JSC.0000000000003939",
+   "flag": "In PubMed ist die Erstautorin als „Stina S“ erfasst; korrekt ist Seppänen, S. (so in der Zitierzeile des Abstracts)."
+  },
+  "travis2022": {
+   "short": "Travis et al., 2022",
+   "year": 2022,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "35180185",
+   "apa": "Travis, S. K., Mujika, I., Zwetsloot, K. A., Gentles, J. A., Stone, M. H. &amp; Bazyler, C. D. (2022). The effects of 3 vs. 5 days of training cessation on maximal strength. <em>Journal of Strength and Conditioning Research, 36</em>(3), 633–640.",
+   "doi": "10.1519/JSC.0000000000004183"
+  },
+  "zheng2022": {
+   "short": "Zheng et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36017396",
+   "apa": "Zheng, J., Pan, T., Jiang, Y. &amp; Shen, Y. (2022). Effects of short- and long-term detraining on maximal oxygen uptake in athletes: A systematic review and meta-analysis. <em>BioMed Research International, 2022</em>, Artikel 2130993.",
+   "doi": "10.1155/2022/2130993"
+  },
+  "wang2023": {
+   "short": "Wang et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37163550",
+   "apa": "Wang, Z., Wang, Y. T., Gao, W. &amp; Zhong, Y. (2023). Effects of tapering on performance in endurance athletes: A systematic review and meta-analysis. <em>PLOS ONE, 18</em>(5), Artikel e0282838.",
+   "doi": "10.1371/journal.pone.0282838"
+  },
+  "winwood2026": {
+   "short": "Winwood et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "42611173",
+   "apa": "Winwood, P. W., Travis, S. K., Barnes, M. J., Keogh, J. W. L. &amp; Pritchard, H. J. (2026). Tapering and peaking in the weight lifting sports: A systematic review of athletes' self-reported strategies. <em>Sports Medicine, 56</em>(12), 3099–3123.",
+   "doi": "10.1007/s40279-026-02500-w"
+  }
+ }
+}

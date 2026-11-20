@@ -435,11 +435,23 @@ const NAV = [
       { id: "zone-3", title: "Zone 3 · Tempo", var: "zone3" },
       { id: "zone-4", title: "Zone 4 · Schwelle", var: "zone4" },
       { id: "zone-5", title: "Zone 5 · VO₂max", var: "zone5" } ] },
-    { id: "regeneration", title: "Regeneration nach Krafttraining" } ] },
+    { id: "koerpergewicht", title: "Körpergewichtstraining (Calisthenics)" },
+    { id: "tapering", title: "Tapering vor Wettkämpfen" },
+    { id: "zyklus", title: "Training und Menstruationszyklus" },
+    { title: "Regeneration und Prävention", children: [
+      { id: "regeneration", title: "Regeneration nach Krafttraining" },
+      { id: "schlaf", title: "Schlaf" },
+      { id: "dehnen", title: "Dehnen und Beweglichkeit" },
+      { id: "aufwaermen", title: "Aufwärmen" },
+      { id: "verletzungspraevention", title: "Verletzungsprävention" } ] } ] },
   { group: "Ernährung", items: [
     { title: "Makronährstoffe", children: [ { id: "protein", title: "Protein" },
       { id: "kohlenhydrate", title: "Kohlenhydrate" },
       { id: "fette", title: "Fette" } ] },
+    { title: "Ernährungspraxis", children: [
+      { id: "energiebilanz", title: "Energiebilanz und Abnehmen" },
+      { id: "fluessigkeit", title: "Flüssigkeit und Elektrolyte" },
+      { id: "timing", title: "Nährstoff-Timing" } ] },
     { title: "Supplemente", children: [
       { id: "supplemente", title: "Übersicht aller Supplemente" },
       { sep: "Leistung" },
@@ -448,6 +460,9 @@ const NAV = [
       { id: "beta-alanin", title: "Beta-Alanin" },
       { id: "nitrat", title: "Nitrat (Rote-Bete-Saft)" },
       { id: "aminosaeuren", title: "BCAA und EAA" },
+      { id: "natriumbicarbonat", title: "Natriumbicarbonat" },
+      { id: "citrullin", title: "Citrullin" },
+      { id: "hmb", title: "HMB" },
       { sep: "Vitamine und Mineralstoffe" },
       { id: "vitamin-d-k2", title: "Vitamin D3 und K2" },
       { id: "vitamin-c", title: "Vitamin C" },
@@ -461,12 +476,14 @@ const NAV = [
       { id: "omega-3", title: "Omega-3-Fettsäuren" },
       { id: "kollagen", title: "Kollagen" },
       { id: "probiotika", title: "Probiotika" },
-      { id: "ashwagandha", title: "Ashwagandha" } ] } ] }
+      { id: "ashwagandha", title: "Ashwagandha" },
+      { id: "melatonin", title: "Melatonin" },
+      { id: "curcumin", title: "Curcumin (Kurkuma)" } ] } ] }
 ];
-const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette"];
+const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette", "dehnen", "aufwaermen", "verletzungspraevention", "koerpergewicht", "tapering", "zyklus", "schlaf", "energiebilanz", "fluessigkeit", "timing", "natriumbicarbonat", "citrullin", "hmb", "melatonin", "curcumin"];
 
 const PAGES = ["supplemente", "suche", "neu", "rechner", "glossar"]; /* Seiten ohne eigene Themendatei */
-const SUPPS = ["protein", "kreatin", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "vitamin-d-k2", "vitamin-c", "b-vitamine", "multivitamin", "magnesium", "zink", "eisen", "calcium", "omega-3", "kollagen", "probiotika", "ashwagandha"]; /* Supplemente mit Wirkungsübersicht */
+const SUPPS = ["protein", "kreatin", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "natriumbicarbonat", "citrullin", "hmb", "vitamin-d-k2", "vitamin-c", "b-vitamine", "multivitamin", "magnesium", "zink", "eisen", "calcium", "omega-3", "kollagen", "probiotika", "ashwagandha", "melatonin", "curcumin"]; /* Supplemente mit Wirkungsübersicht */
 const supList = () => SUPPS.filter(id => AVAILABLE.includes(id));
 const $ = (id) => document.getElementById(id);
 const evLabel = { hoch: "Evidenz hoch", moderat: "Evidenz moderat", niedrig: "Evidenz niedrig" };

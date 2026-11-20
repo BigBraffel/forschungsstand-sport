@@ -1,0 +1,1210 @@
+{
+ "id": "hmb",
+ "title": "HMB (β-Hydroxy-β-Methylbutyrat)",
+ "stand": "2026-11-20",
+ "lead": "Steigert HMB, ein Abbauprodukt der Aminosäure Leucin, Kraft und Muskelmasse, beschleunigt es die Erholung, und hält der frühe Optimismus unabhängigen Metaanalysen stand? Zusammengefasst aus Metaanalysen, Umbrella Reviews und Positionspapieren.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Die Effekte hängen stark von Trainingsstatus, Alter und Proteinzufuhr ab. Unabhängige Metaanalysen fallen deutlich zurückhaltender aus als frühe Arbeiten und herstellernahe Positionspapiere.",
+ "rx": [
+  {
+   "label": "Trainierte Kraftsportler",
+   "value": "kein Nutzen zu erwarten",
+   "text": "Bei trainierten Sportlern fanden Metaanalysen keine Wirkung auf Kraft, fettfreie Masse oder Fettmasse. Ein möglicher kleiner Effekt auf die fettfreie Masse zeigte sich nur bei Proteinzufuhr unter 1,6 g/kg/Tag; ausreichend Protein ist der wirksamere Hebel.",
+   "cite": "Sanchez-Martinez et al. 2018; Holland et al. 2022; Jakubowski et al. 2020"
+  },
+  {
+   "label": "Einsteiger",
+   "value": "allenfalls kleiner Kraftvorteil",
+   "text": "Bei zuvor Untrainierten war der Kraftzuwachs in der Beinkraft klein, aber erkennbar; eine Analyse junger Erwachsener fand insgesamt keinen Effekt.",
+   "cite": "Rowlands &amp; Thomson 2009; Jakubowski et al. 2020"
+  },
+  {
+   "label": "Ältere",
+   "value": "3 g/Tag über mehr als 12 Wochen, vor allem ohne Training",
+   "text": "Ohne Training nahmen Muskelmasse und Kraft leicht zu. In Kombination mit Krafttraining brachte HMB in den neuesten Analysen keinen Zusatznutzen; Training hat Vorrang.",
+   "cite": "Li et al. 2025; Lin et al. 2021; Wang et al. 2026"
+  },
+  {
+   "label": "Dosis und Zeitpunkt",
+   "value": "3 g/Tag bzw. 38 mg/kg, nahe am Training",
+   "text": "Für die Erholung nach Muskelschaden wirkte HMB nur in Studien ab 6 Wochen Einnahme signifikant; die ISSN empfiehlt die Einnahme in zeitlicher Nähe zum Training.",
+   "cite": "Rahimi et al. 2018; Wilson et al. 2013; Rathmacher et al. 2025"
+  },
+  {
+   "label": "Darreichungsform",
+   "value": "Calciumsalz genügt",
+   "text": "Die freie Säure (HMB-FA) wird besser ins Blut aufgenommen; ein Leistungsvorteil gegenüber dem Calciumsalz ist nicht belegt.",
+   "cite": "Wilson et al. 2013; Rathmacher et al. 2025"
+  }
+ ],
+ "note": "<b>Hinweis zu Interessenkonflikten:</b> Mehrere Autoren des ISSN-Positionspapiers von 2025 sind laut eigener Erklärung Erfinder von HMB-Patenten oder waren bei einem Unternehmen beschäftigt, das HMB vermarktet hat (Rathmacher et al., 2025). Die Aussagen des Positionspapiers werden hier deshalb gegen unabhängige Metaanalysen abgewogen.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Bei Trainierten kein Effekt auf Kraft und Körperbau",
+   "ev": "hoch",
+   "p": "Mehrere unabhängige Metaanalysen fanden bei trainierten Sportlern und jungen Erwachsenen mit Krafttraining keine Wirkung auf Kraft, fettfreie Masse oder Fettmasse.",
+   "s": [
+    "sanchezmartinez2018",
+    "jakubowski2020",
+    "holland2022",
+    "rowlands2009"
+   ]
+  },
+  {
+   "t": "Frühe große Effekte nicht bestätigt",
+   "ev": "moderat",
+   "p": "Die erste Metaanalyse von 2003 fand deutliche Zuwächse; spätere Analysen mit mehr und unabhängigeren Studien fanden kleine bis keine Effekte.",
+   "s": [
+    "nissen2003",
+    "decombaz2003",
+    "rowlands2009",
+    "jakubowski2020"
+   ]
+  },
+  {
+   "t": "Ältere: etwas mehr Muskel ohne Training, kein Zusatznutzen mit Training",
+   "ev": "moderat",
+   "p": "HMB allein erhöhte Muskelmasse und Kraft leicht; zusätzlich zu Krafttraining zeigte sich kein Vorteil.",
+   "s": [
+    "li2025",
+    "lin2021",
+    "wang2026",
+    "phillips2022"
+   ]
+  },
+  {
+   "t": "Weniger Muskelschadensmarker",
+   "ev": "moderat",
+   "p": "Kreatinkinase und LDH sanken nach Belastung, vor allem bei mindestens 6 Wochen Einnahme; ob das die Leistung verbessert, ist offen.",
+   "s": [
+    "rahimi2018",
+    "talebi2024"
+   ]
+  },
+  {
+   "t": "Ausdauer: mögliche Verbesserung, aber Verzerrung wahrscheinlich",
+   "ev": "niedrig",
+   "p": "Ausdauerleistung und VO₂max stiegen, die Effekte schrumpften jedoch nach Bereinigung um Publikationsbias deutlich.",
+   "s": [
+    "fernandezlanda2024"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "kraft",
+   "name": "Kraft und Muskelmasse bei jüngeren Erwachsenen",
+   "q": "Verbessert HMB Kraft und Muskelaufbau durch Krafttraining?",
+   "ev": "moderat",
+   "key": [
+    "Erste Metaanalyse (1967–2001): HMB erhöhte die fettfreie Masse um 0,28 % pro Woche und die Kraft um 1,40 % pro Woche zusätzlich (Nissen &amp; Sharp, 2003). Ein publizierter Kommentar kritisierte die Häufung der Datenquellen in dieser Analyse (Décombaz et al., 2003).",
+    "9 Studien mit 394 jungen Männern: bei Untrainierten kleiner Vorteil für die Beinkraft (+9,9 % ± 5,9 %) und die mittlere Kraft (+6,6 % ± 5,7 %), Oberkörperkraft vernachlässigbar (+2,1 % ± 5,5 %); bei Trainierten alle Krafteffekte trivial; Effekte auf Fett- und fettfreie Masse trivial (Rowlands &amp; Thomson, 2009).",
+    "6 Studien mit 193 trainierten bzw. Wettkampfsportlern: keine Effekte (Bankdrücken ES 0,00, Beinpresse 0,09, fettfreie Masse 0,16, Fettmasse −0,20; I² = 0 %), auch nicht nach Dosis, Dauer oder Trainingsstatus (Sanchez-Martinez et al., 2018).",
+    "11 Studien mit 302 jungen Erwachsenen (18–45 Jahre): nur das Körpergewicht stieg leicht; kein Effekt auf fettfreie Masse, Fettmasse oder Kraft (Jakubowski et al., 2020).",
+    "5 Studien mit 161 Sportlern: fettfreie Masse 0,30 [−0,07; 0,68], nicht signifikant, möglicherweise nur bei Proteinzufuhr unter 1,6 g/kg/Tag; Fettmasse −0,33 [−0,96; 0,31] und Körpergewicht −0,02 [−0,14; 0,10] unverändert (Holland et al., 2022).",
+    "Umbrella Review aus 11 Metaanalysen (23–79 Jahre): Muskelmasse ES 0,21 [0,06; 0,35], Kraftindex 0,27 [0,19; 0,35], fettfreie Masse 0,22 [0,11; 0,34]; Fettmasse und Körpergewicht unverändert. 3 der 11 Metaanalysen waren von kritisch niedriger Qualität (Bideshki et al., 2025a).",
+    "ISSN-Positionspapiere: 38 mg/kg pro Tag steigern Hypertrophie, Kraft und Leistung bei Untrainierten und Trainierten (Wilson et al., 2013); 2025 wird die Wirkung bei Trainierten als uneinheitlich beschrieben, bei Untrainierten als möglich (Rathmacher et al., 2025)."
+   ],
+   "critic": "Die Befunde haben sich über die Zeit deutlich abgeschwächt. Die erste Metaanalyse (Nissen &amp; Sharp, 2003) fand klare Zuwächse, wurde aber wegen der Häufung von Datenquellen kritisiert (Décombaz et al., 2003). Spätere, unabhängige Metaanalysen fanden bei Trainierten übereinstimmend keine Effekte (Sanchez-Martinez et al., 2018; Jakubowski et al., 2020, ohne Interessenkonflikte; I² = 0 %). Jakubowski et al. (2020) schlossen nach Funnel-Plot-Analyse Studien aus, was auf Verzerrung durch auffällige Einzelstudien hinweist. Die positiven Aussagen der ISSN-Positionspapiere stammen teils von Autoren mit HMB-Patenten oder Herstellerbindung (Rathmacher et al., 2025). Der kleine gepoolte Effekt im Umbrella Review mischt Ältere, Kranke und Junge und beruht teils auf Metaanalysen kritisch niedriger Qualität. Wahrscheinlichste Lesart: Für trainierte Kraftsportler bringt HMB keinen relevanten Nutzen; bei Untrainierten ist ein kleiner Kraftvorteil möglich.",
+   "figs": [
+    {
+     "id": "hmb-kraft-status",
+     "title": "HMB und Kraftzuwachs nach Trainingsstatus",
+     "cap": "Zusätzlicher Kraftzuwachs gegenüber Placebo in Prozent mit 90-%-Konfidenzgrenzen (Rowlands &amp; Thomson, 2009). Grenzen aus Mittelwert ± Konfidenzgrenze berechnet.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Untrainierte: Beinkraft",
+       "sub": "Rowlands &amp; Thomson, 2009",
+       "es": 9.9,
+       "lo": 4.0,
+       "hi": 15.8
+      },
+      {
+       "l": "Untrainierte: mittlere Kraft",
+       "sub": "Rowlands &amp; Thomson, 2009",
+       "es": 6.6,
+       "lo": 0.9,
+       "hi": 12.3
+      },
+      {
+       "l": "Untrainierte: Oberkörper",
+       "sub": "Rowlands &amp; Thomson, 2009",
+       "es": 2.1,
+       "lo": -3.4,
+       "hi": 7.6
+      },
+      {
+       "l": "Alle Studien: mittlere Kraft",
+       "sub": "Rowlands &amp; Thomson, 2009",
+       "es": 3.7,
+       "lo": 1.3,
+       "hi": 6.1
+      }
+     ],
+     "opts": {
+      "min": -5,
+      "max": 20,
+      "ticks": [
+       -5,
+       0,
+       5,
+       10,
+       15,
+       20
+      ],
+      "unit": "%",
+      "leftLab": "Placebo besser",
+      "rightLab": "HMB besser"
+     }
+    },
+    {
+     "id": "hmb-koerper",
+     "title": "HMB und Körperzusammensetzung",
+     "cap": "Effektstärken gegenüber Placebo mit 95-%-KI. Sportler: Holland et al. (2022); alle Altersgruppen: Umbrella Review von Bideshki et al. (2025a).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Fettfreie Masse, Sportler",
+       "sub": "Holland et al., 2022",
+       "es": 0.3,
+       "lo": -0.07,
+       "hi": 0.68
+      },
+      {
+       "l": "Fettmasse, Sportler",
+       "sub": "Holland et al., 2022",
+       "es": -0.33,
+       "lo": -0.96,
+       "hi": 0.31
+      },
+      {
+       "l": "Körpergewicht, Sportler",
+       "sub": "Holland et al., 2022",
+       "es": -0.02,
+       "lo": -0.14,
+       "hi": 0.1
+      },
+      {
+       "l": "Muskelmasse, alle",
+       "sub": "Bideshki et al., 2025a",
+       "es": 0.21,
+       "lo": 0.06,
+       "hi": 0.35
+      },
+      {
+       "l": "Fettfreie Masse, alle",
+       "sub": "Bideshki et al., 2025a",
+       "es": 0.22,
+       "lo": 0.11,
+       "hi": 0.34
+      },
+      {
+       "l": "Kraftindex, alle",
+       "sub": "Bideshki et al., 2025a",
+       "es": 0.27,
+       "lo": 0.19,
+       "hi": 0.35
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 1,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "unit": "ES",
+      "leftLab": "niedriger mit HMB",
+      "rightLab": "höher mit HMB"
+     }
+    }
+   ],
+   "s": [
+    "nissen2003",
+    "decombaz2003",
+    "rowlands2009",
+    "sanchezmartinez2018",
+    "jakubowski2020",
+    "holland2022",
+    "bideshki2025a",
+    "wilson2013",
+    "rathmacher2025"
+   ]
+  },
+  {
+   "id": "aeltere",
+   "name": "Muskelmasse, Kraft und Funktion im Alter",
+   "q": "Hilft HMB älteren Menschen beim Erhalt von Muskelmasse und Kraft?",
+   "ev": "moderat",
+   "key": [
+    "21 Studien mit 1935 Personen über 50 Jahre: appendikuläre Muskelmasse +1,56 kg [0,03; 3,09], fettfreie Masse +0,28 kg [0,16; 0,41], Handkraft +0,54 kg [0,04; 1,04], Aufstehtest −0,73 s [−1,35; −0,11], Gehgeschwindigkeit +0,06 m/s [0,01; 0,10]; am wirksamsten 3 g/Tag über mehr als 12 Wochen (Li et al., 2025).",
+    "9 Studien mit 448 Älteren: fettfreie Masse ES 0,37 [0,16; 0,58]; HMB allein 0,59 [0,32; 0,87], HMB mit Training kein Zusatzeffekt (0,06 [−0,26; 0,38]); Fettmasse unverändert (Lin et al., 2021). Erste Metaanalyse mit 7 Studien (287 Personen ab 65 Jahren): Muskelmasse SMD 0,352 [0,11; 0,594] (Wu et al., 2015).",
+    "9 Studien mit 896 Älteren: Kraft SMD 0,41 [0,28; 0,54] mit HMB oder HMB-haltigen Präparaten (Lin et al., 2022).",
+    "HMB zusätzlich zu Krafttraining, 13 Studien mit 561 Personen ab 50 Jahren: kein Vorteil bei Muskelmasse (SMD 0,05 [−0,10; 0,20]), Kraft (0,04 [−0,72; 0,63]) oder Fettmasse (0,24 [−0,01; 0,49]); kein Publikationsbias (Wang et al., 2026).",
+    "10 Studien mit 596 Älteren und Krafttraining: Handkraft SMD 0,24 [0,00; 0,48], grenzwertig; SPPB 0,54 [0,12; 0,95]; Gehgeschwindigkeit, appendikuläre Muskelmasse und Fettmasse unverändert; 5 von 10 Studien mit hohem Verzerrungsrisiko (García-Alonso et al., 2025). 10 Studien mit 384 Personen: HMB zusätzlich zu Training hatte keinen oder nur einen geringen Effekt (Courel-Ibáñez et al., 2019).",
+    "Umbrella Review aus 15 systematischen Reviews: nur 5 fanden Hinweise auf mehr fettarme Masse, 4 von 12 auf mehr Kraft; kein Review zeigte eine bessere körperliche Funktion (Phillips et al., 2022)."
+   ],
+   "critic": "Die Analysen widersprechen sich nur scheinbar: HMB allein oder in Nährstoffpräparaten erhöht Muskelmasse und Kraft bei Älteren leicht, zusätzlich zu Krafttraining bringt es keinen erkennbaren Vorteil (Lin et al., 2021; Wang et al., 2026; Courel-Ibáñez et al., 2019). Die positiven Analysen schließen oft Präparate mit weiteren Nährstoffen ein, sodass der Anteil von HMB unklar bleibt (Lin et al., 2022; Phillips et al., 2022). Die Zuwächse sind klein: Handkraft +0,54 kg ist klinisch kaum spürbar. Training hat daher Vorrang; HMB kommt am ehesten für Ältere infrage, die nicht trainieren können.",
+   "figs": [
+    {
+     "id": "hmb-aeltere",
+     "title": "HMB bei Älteren mit und ohne Krafttraining",
+     "cap": "Standardisierte Effektstärken gegenüber Kontrolle mit 95-%-KI. Bei Wang et al. (2026) ist das Kraftintervall im Abstract asymmetrisch angegeben.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Fettfreie Masse, HMB allein",
+       "sub": "Lin et al., 2021",
+       "es": 0.59,
+       "lo": 0.32,
+       "hi": 0.87
+      },
+      {
+       "l": "Fettfreie Masse, HMB + Training",
+       "sub": "Lin et al., 2021",
+       "es": 0.06,
+       "lo": -0.26,
+       "hi": 0.38
+      },
+      {
+       "l": "Kraft, HMB (auch in Präparaten)",
+       "sub": "Lin et al., 2022",
+       "es": 0.41,
+       "lo": 0.28,
+       "hi": 0.54
+      },
+      {
+       "l": "Muskelmasse, HMB + Krafttraining",
+       "sub": "Wang et al., 2026",
+       "es": 0.05,
+       "lo": -0.1,
+       "hi": 0.2
+      },
+      {
+       "l": "Kraft, HMB + Krafttraining",
+       "sub": "Wang et al., 2026",
+       "es": 0.04,
+       "lo": -0.72,
+       "hi": 0.63
+      },
+      {
+       "l": "Handkraft, HMB + Krafttraining",
+       "sub": "García-Alonso et al., 2025",
+       "es": 0.24,
+       "lo": 0.0,
+       "hi": 0.48
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 1,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "unit": "SMD",
+      "leftLab": "Kontrolle besser",
+      "rightLab": "HMB besser"
+     }
+    }
+   ],
+   "s": [
+    "wu2015",
+    "courelibanez2019",
+    "lin2021",
+    "lin2022",
+    "phillips2022",
+    "li2025",
+    "garciaalonso2025",
+    "wang2026"
+   ]
+  },
+  {
+   "id": "erholung",
+   "name": "Muskelschaden und Erholung",
+   "q": "Schützt HMB vor Muskelschaden und beschleunigt es die Erholung?",
+   "ev": "moderat",
+   "key": [
+    "10 Studien mit 324 Personen: Kreatinkinase −60,71 U/l [−78,12; −43,29], I² = 4,1 %; 8 Studien mit 229 Personen: LDH −15,42 U/l [−22,2; −8,6]; signifikant nur in Studien mit mindestens 6 Wochen Einnahme (Rahimi et al., 2018).",
+    "Umbrella Review aus 53 Metaanalysen zu 24 Ernährungsmaßnahmen: HMB senkte Kreatinkinase und LDH nach Belastung, mit moderater Vertrauenswürdigkeit (Talebi et al., 2024).",
+    "Frühere Metaanalyse mit 7 Schätzungen: Effekt auf die Kreatinkinase unklar (Rowlands &amp; Thomson, 2009).",
+    "ISSN: HMB kann die Erholung durch geringeren Muskelschaden bei Trainierten und Untrainierten fördern, am wirksamsten bei Einnahme ab 2 Wochen vor der Belastung (Wilson et al., 2013); 2025 wird der Effekt mit „kann“ formuliert und auf mögliche entzündungshemmende Wirkungen verwiesen (Rathmacher et al., 2025)."
+   ],
+   "critic": "Die Senkung von Kreatinkinase und LDH ist über zwei Übersichtsebenen konsistent. Es handelt sich aber um Blutmarker; Muskelkater oder Kraftverlust als funktionelle Erholungsmaße sind für HMB in diesen Analysen nicht belegt. Die ältere Analyse fand noch keinen klaren Effekt. Wahrscheinlich dämpft HMB bei längerer Einnahme die Marker des Muskelschadens etwas, ein spürbarer Vorteil für die Regeneration ist nicht gesichert.",
+   "figs": [
+    {
+     "id": "hmb-ck",
+     "title": "HMB und Muskelschadensmarker",
+     "cap": "Mittlere Differenz gegenüber Placebo in U/l mit 95-%-KI (Rahimi et al., 2018).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kreatinkinase (10 Studien)",
+       "sub": "Rahimi et al., 2018",
+       "es": -60.71,
+       "lo": -78.12,
+       "hi": -43.29
+      },
+      {
+       "l": "Laktatdehydrogenase (8 Studien)",
+       "sub": "Rahimi et al., 2018",
+       "es": -15.42,
+       "lo": -22.2,
+       "hi": -8.6
+      }
+     ],
+     "opts": {
+      "min": -90,
+      "max": 10,
+      "ticks": [
+       -80,
+       -60,
+       -40,
+       -20,
+       0
+      ],
+      "unit": "U/l",
+      "leftLab": "weniger mit HMB",
+      "rightLab": "mehr mit HMB"
+     }
+    }
+   ],
+   "s": [
+    "rowlands2009",
+    "rahimi2018",
+    "talebi2024",
+    "wilson2013",
+    "rathmacher2025"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Ausdauer und Schnellkraft",
+   "q": "Verbessert HMB Ausdauer oder Sprung- und Sprintleistung?",
+   "ev": "niedrig",
+   "key": [
+    "11 Studien mit 279 gesunden Personen, 3 g/Tag über 2–12 Wochen: Ausdauerleistung SMD 0,58 [0,28; 0,87], VO₂max 0,58 [0,21; 0,95]; nach Ausschluss asymmetrisch verteilter Studien im Funnel-Plot nur noch 0,38 [0,22; 0,53] bzw. 0,25 [0,09; 0,42] (Fernández-Landa et al., 2024).",
+    "Netzwerk-Metaanalyse mit 119 Studien bei aktiven Personen und Sportlern: HMB steigerte die Spitzenleistung um 64,70 W [19,15; 110,50] und die relative Spitzenleistung um 0,84 W/kg [0,42; 1,28], beides mit moderater Vertrauenswürdigkeit; direkte Vergleiche waren selten (Sun et al., 2026).",
+    "ISSN 2025: möglicher positiver Effekt auf die aerobe Leistung, besonders bei Trainierten; Mechanismus unbekannt (Rathmacher et al., 2025)."
+   ],
+   "critic": "Die Ausdauereffekte beruhen auf einer einzigen Metaanalyse mit kleinen Studien. Dass die Effekte nach Bereinigung um die Funnel-Plot-Asymmetrie um etwa ein Drittel bzw. mehr als die Hälfte schrumpfen, spricht für Publikationsbias. Die Netzwerk-Metaanalyse stützt einen Effekt auf die Spitzenleistung, beruht aber überwiegend auf indirekten Vergleichen. Wahrscheinlich gibt es einen kleinen Vorteil; die Belege sind schwächer als die Positionspapiere nahelegen.",
+   "figs": [
+    {
+     "id": "hmb-ausdauer",
+     "title": "HMB und Ausdauerleistung",
+     "cap": "Standardisierte Mittelwertdifferenzen mit 95-%-KI, vor und nach Ausschluss von Studien mit Funnel-Plot-Asymmetrie (Fernández-Landa et al., 2024).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Ausdauerleistung",
+       "sub": "alle Studien",
+       "es": 0.58,
+       "lo": 0.28,
+       "hi": 0.87
+      },
+      {
+       "l": "Ausdauerleistung",
+       "sub": "bereinigt",
+       "es": 0.38,
+       "lo": 0.22,
+       "hi": 0.53
+      },
+      {
+       "l": "VO₂max",
+       "sub": "alle Studien",
+       "es": 0.58,
+       "lo": 0.21,
+       "hi": 0.95
+      },
+      {
+       "l": "VO₂max",
+       "sub": "bereinigt",
+       "es": 0.25,
+       "lo": 0.09,
+       "hi": 0.42
+      }
+     ],
+     "opts": {
+      "min": -0.25,
+      "max": 1,
+      "ticks": [
+       0,
+       0.25,
+       0.5,
+       0.75,
+       1
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "HMB besser"
+     }
+    }
+   ],
+   "s": [
+    "fernandezlanda2024",
+    "sun2026",
+    "rathmacher2025"
+   ]
+  },
+  {
+   "id": "form",
+   "name": "HMB-Freie-Säure und Calciumsalz",
+   "q": "Ist die freie Säure (HMB-FA) wirksamer als das übliche Calciumsalz?",
+   "ev": "niedrig",
+   "key": [
+    "Systematischer Review mit 9 Studien, meist krafttrainierte Männer mit 3 g HMB-FA pro Tag: HMB-FA könnte Muskelschadensmarker dämpfen und Muskelmasse sowie Kraft steigern; weitere Studien nötig (Silva et al., 2017).",
+    "Narrativer Review: HMB-FA hat Hinweise auf ein größeres Wirkpotenzial als das Calciumsalz; viele Studien haben methodische Schwächen (Gepner et al., 2019).",
+    "ISSN 2013: HMB-FA erhöht Aufnahme und Verweildauer im Blut, die Forschung reicht aber nicht, um eine Form als überlegen zu bezeichnen (Wilson et al., 2013). ISSN 2025: HMB-FA führt zu höheren Blutspiegeln, neuere Ergebnisse sind uneinheitlich (Rathmacher et al., 2025)."
+   ],
+   "critic": "Für HMB-FA gibt es keine Metaanalyse mit gepoolten Effekten. Die Studien stammen überwiegend aus wenigen Arbeitsgruppen; die Positionspapiere wurden teils von Autoren mit Herstellerbindung verfasst. Bessere Blutspiegel sind belegt, ein Leistungsvorteil nicht. Die Wahl der Form ist daher zweitrangig.",
+   "figs": [],
+   "s": [
+    "silva2017",
+    "gepner2019",
+    "wilson2013",
+    "rathmacher2025"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Hormone, Blutfette und Sicherheit",
+   "q": "Verändert HMB Hormone oder Blutfette, und ist es sicher?",
+   "ev": "moderat",
+   "key": [
+    "15 kontrollierte Studien mit 712 Personen: Testosteron SMD 0,82 [0,35; 1,29]; Cortisol (−0,39 [−0,92; 0,14]), IGF-1 und Wachstumshormon unverändert; Evidenzqualität niedrig bis hoch (Bideshki et al., 2025b).",
+    "10 Studien mit 421 Personen: keine Veränderung von Gesamtcholesterin (−2,26 mg/dl [−6,11; 1,58]), Triglyzeriden, LDL oder HDL (Sadeghi et al., 2024).",
+    "ISSN 2025: HMB-Ca und HMB-FA sind nach verfügbaren Daten beim Menschen bis mindestens ein Jahr sicher; keine negativen Effekte auf Glukosetoleranz und Insulinempfindlichkeit (Rathmacher et al., 2025)."
+   ],
+   "critic": "Die Sicherheitsdaten sind beruhigend, stammen aber aus vergleichsweise kurzen Studien und werden im Positionspapier von Autoren mit Herstellerbindung bewertet. Der Testosteronanstieg ist statistisch deutlich, führt aber in den Metaanalysen bei Trainierten zu keinem Mehr an Kraft oder Muskelmasse; seine praktische Bedeutung ist daher fraglich.",
+   "figs": [],
+   "s": [
+    "bideshki2025b",
+    "sadeghi2024",
+    "rathmacher2025"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2003,
+   "t": "Erste Metaanalyse",
+   "p": "HMB steigert fettfreie Masse und Kraft bei Krafttraining.",
+   "tag": "neu",
+   "s": "nissen2003"
+  },
+  {
+   "y": 2003,
+   "t": "Kritik an der Datengrundlage",
+   "p": "Kommentar zur Häufung der Datenquellen.",
+   "tag": "contra",
+   "s": "decombaz2003"
+  },
+  {
+   "y": 2009,
+   "t": "Nur Untrainierte profitieren",
+   "p": "Kleiner Kraftvorteil bei Untrainierten, trivial bei Trainierten.",
+   "tag": "rel",
+   "s": "rowlands2009"
+  },
+  {
+   "y": 2013,
+   "t": "Erstes ISSN-Positionspapier",
+   "p": "Positive Bewertung für Erholung, Kraft und Muskelmasse.",
+   "tag": "conf",
+   "s": "wilson2013"
+  },
+  {
+   "y": 2015,
+   "t": "Ältere Erwachsene",
+   "p": "Mehr Muskelmasse, Fettmasse unverändert.",
+   "tag": "neu",
+   "s": "wu2015"
+  },
+  {
+   "y": 2017,
+   "t": "HMB-Freie-Säure",
+   "p": "Systematischer Review: mögliche Vorteile, wenige Studien.",
+   "tag": "neu",
+   "s": "silva2017"
+  },
+  {
+   "y": 2018,
+   "t": "Kein Effekt bei trainierten Sportlern",
+   "p": "6 Studien ohne Wirkung auf Kraft und Körperbau.",
+   "tag": "contra",
+   "s": "sanchezmartinez2018"
+  },
+  {
+   "y": 2018,
+   "t": "Weniger Muskelschadensmarker",
+   "p": "Kreatinkinase und LDH sinken bei längerer Einnahme.",
+   "tag": "neu",
+   "s": "rahimi2018"
+  },
+  {
+   "y": 2019,
+   "t": "Trainierte und Untrainierte",
+   "p": "Narrativer Review mit Fokus auf HMB-FA.",
+   "tag": "rel",
+   "s": "gepner2019"
+  },
+  {
+   "y": 2019,
+   "t": "HMB zusätzlich zu Training im Alter",
+   "p": "Kein oder nur geringer Zusatzeffekt.",
+   "tag": "rel",
+   "s": "courelibanez2019"
+  },
+  {
+   "y": 2020,
+   "t": "Junge Erwachsene ohne Nutzen",
+   "p": "Kein Effekt auf fettfreie Masse und Kraft.",
+   "tag": "contra",
+   "s": "jakubowski2020"
+  },
+  {
+   "y": 2021,
+   "t": "Ältere: HMB allein wirkt, mit Training nicht",
+   "p": "Mehr fettfreie Masse nur ohne Trainingsprogramm.",
+   "tag": "rel",
+   "s": "lin2021"
+  },
+  {
+   "y": 2022,
+   "t": "Kraft im Alter",
+   "p": "Mittlerer Effekt mit HMB-haltigen Präparaten.",
+   "tag": "conf",
+   "s": "lin2022"
+  },
+  {
+   "y": 2022,
+   "t": "Sportler: Körperbau",
+   "p": "Möglicher kleiner Effekt nur bei niedriger Proteinzufuhr.",
+   "tag": "conf",
+   "s": "holland2022"
+  },
+  {
+   "y": 2022,
+   "t": "Umbrella Review Alter und Klinik",
+   "p": "Geringe, uneinheitliche Belege.",
+   "tag": "rel",
+   "s": "phillips2022"
+  },
+  {
+   "y": 2024,
+   "t": "Muskelschaden im Umbrella Review",
+   "p": "HMB senkt Kreatinkinase und LDH, moderate Vertrauenswürdigkeit.",
+   "tag": "conf",
+   "s": "talebi2024"
+  },
+  {
+   "y": 2024,
+   "t": "Ausdauerleistung",
+   "p": "Verbesserung, nach Bias-Bereinigung kleiner.",
+   "tag": "neu",
+   "s": "fernandezlanda2024"
+  },
+  {
+   "y": 2024,
+   "t": "Blutfette unverändert",
+   "p": "Kein Effekt auf Cholesterin und Triglyzeride.",
+   "tag": "neu",
+   "s": "sadeghi2024"
+  },
+  {
+   "y": 2025,
+   "t": "Zweites ISSN-Positionspapier",
+   "p": "Bei Trainierten uneinheitlich; Autoren mit Herstellerbindung.",
+   "tag": "rel",
+   "s": "rathmacher2025"
+  },
+  {
+   "y": 2025,
+   "t": "Umbrella Review Körperbau",
+   "p": "Kleine Effekte auf Muskelmasse und Kraft.",
+   "tag": "conf",
+   "s": "bideshki2025a"
+  },
+  {
+   "y": 2025,
+   "t": "Testosteron",
+   "p": "Anstieg, andere Hormone unverändert.",
+   "tag": "neu",
+   "s": "bideshki2025b"
+  },
+  {
+   "y": 2025,
+   "t": "Über 50-Jährige: 21 Studien",
+   "p": "Kleine Zuwächse bei Muskelmasse, Kraft und Funktion.",
+   "tag": "conf",
+   "s": "li2025"
+  },
+  {
+   "y": 2025,
+   "t": "Ältere mit Krafttraining",
+   "p": "Funktion leicht besser, Muskelmasse unverändert.",
+   "tag": "rel",
+   "s": "garciaalonso2025"
+  },
+  {
+   "y": 2026,
+   "t": "Kein Zusatznutzen zu Krafttraining im Alter",
+   "p": "13 Studien ohne Effekt auf Muskelmasse und Kraft.",
+   "tag": "contra",
+   "s": "wang2026"
+  },
+  {
+   "y": 2026,
+   "t": "Spitzenleistung",
+   "p": "Netzwerk-Metaanalyse: höhere Spitzenleistung mit moderater Vertrauenswürdigkeit.",
+   "tag": "neu",
+   "s": "sun2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 837 Einträgen, 146 Übersichtsarbeiten nach Titel geprüft (davon 15 zunächst per Titelregel einer anderen Kategorie zugeordnet), dazu 11 Übersichtsarbeiten aus einer ergänzenden Suche; 25 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft bei jüngeren Erwachsenen",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Kraft bei Untrainierten",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 9,
+     "p": 394,
+     "s": [
+      "rowlands2009"
+     ],
+     "t": "Beinkraft +9,9 % und mittlere Kraft +6,6 %, nach Cohen-Schwellen als klein eingestuft; eine neuere Analyse junger Erwachsener fand keinen Krafteffekt.",
+     "v": "kraft"
+    },
+    {
+     "n": "Kraft bei Trainierten und Sportlern",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 6,
+     "p": 193,
+     "s": [
+      "sanchezmartinez2018",
+      "rowlands2009",
+      "jakubowski2020"
+     ],
+     "t": "Bankdrücken ES 0,00, Beinpresse 0,09 (I² = 0 %); auch bei jungen Erwachsenen mit Krafttraining (11 Studien) kein Effekt.",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Körperbau bei jüngeren Erwachsenen",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Fettfreie Masse",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 11,
+     "p": 302,
+     "s": [
+      "jakubowski2020",
+      "holland2022",
+      "sanchezmartinez2018",
+      "bideshki2025a"
+     ],
+     "t": "Bei jungen Erwachsenen und Sportlern nicht signifikant (Sportler 0,30 [−0,07; 0,68]); im Umbrella Review über alle Altersgruppen ES 0,22.",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Körperbau bei jüngeren Erwachsenen",
+   "kat": "koerper",
+   "items": [
+    {
+     "n": "Fettmasse",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": 302,
+     "s": [
+      "jakubowski2020",
+      "holland2022",
+      "sanchezmartinez2018",
+      "bideshki2025a"
+     ],
+     "t": "In allen Analysen kein signifikanter Effekt (Sportler −0,33 [−0,96; 0,31]; Umbrella Review 0,03).",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Ältere Erwachsene",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Muskelmasse bei Älteren (HMB allein)",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 21,
+     "p": 1935,
+     "s": [
+      "li2025",
+      "lin2021",
+      "wu2015"
+     ],
+     "t": "Fettfreie Masse +0,28 kg; ES 0,37 insgesamt, 0,59 bei HMB ohne Training.",
+     "v": "aeltere"
+    },
+    {
+     "n": "Muskelmasse bei Älteren mit Krafttraining",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 13,
+     "p": 561,
+     "s": [
+      "wang2026",
+      "lin2021",
+      "garciaalonso2025",
+      "courelibanez2019"
+     ],
+     "t": "Kein Zusatzeffekt zum Training: SMD 0,05 [−0,10; 0,20]; ebenso 0,06 in einer früheren Analyse.",
+     "v": "aeltere"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Ältere Erwachsene",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Kraft bei Älteren (HMB allein oder in Präparaten)",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 21,
+     "p": 1935,
+     "s": [
+      "lin2022",
+      "li2025",
+      "phillips2022"
+     ],
+     "t": "SMD 0,41 [0,28; 0,54] (9 Studien); Handkraft +0,54 kg. Umbrella Review: Belege überwiegend uneinheitlich.",
+     "v": "aeltere"
+    },
+    {
+     "n": "Kraft bei Älteren mit Krafttraining",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 13,
+     "p": 561,
+     "s": [
+      "wang2026",
+      "garciaalonso2025"
+     ],
+     "t": "SMD 0,04 [−0,72; 0,63] bei hoher Heterogenität; Handkraft in einer zweiten Analyse grenzwertig (0,24 [0,00; 0,48]).",
+     "v": "aeltere"
+    },
+    {
+     "n": "Körperliche Funktion bei Älteren",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 21,
+     "p": 1935,
+     "s": [
+      "li2025",
+      "garciaalonso2025",
+      "phillips2022"
+     ],
+     "t": "Gehgeschwindigkeit +0,06 m/s und SPPB SMD 0,54 in zwei Analysen; laut Umbrella Review kein Review mit Beleg für bessere Funktion.",
+     "v": "aeltere"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer und Schnellkraft",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Ausdauerleistung",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 11,
+     "p": 279,
+     "s": [
+      "fernandezlanda2024"
+     ],
+     "t": "SMD 0,58, nach Bereinigung um Funnel-Plot-Asymmetrie 0,38 [0,22; 0,53]; VO₂max bereinigt 0,25.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Spitzenleistung (Peak Power)",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "sun2026"
+     ],
+     "t": "+64,70 W bzw. +0,84 W/kg gegenüber Placebo, moderate Vertrauenswürdigkeit; überwiegend indirekte Vergleiche, standardisierte Größe nicht berichtet.",
+     "v": "ausdauer"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Muskelschaden",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Kreatinkinase und LDH nach Belastung (Abnahme)",
+     "g": "B",
+     "d": "ab",
+     "m": -1,
+     "b": "nutzen",
+     "k": 10,
+     "p": 324,
+     "s": [
+      "rahimi2018",
+      "talebi2024"
+     ],
+     "t": "Kreatinkinase −60,71 U/l, LDH −15,42 U/l; nur bei mindestens 6 Wochen Einnahme signifikant. Nur als Rohwerte berichtet.",
+     "v": "erholung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Hormone",
+   "kat": "hormone",
+   "items": [
+    {
+     "n": "Testosteron",
+     "g": "C",
+     "d": "auf",
+     "m": 4,
+     "b": "neutral",
+     "k": 15,
+     "p": 712,
+     "s": [
+      "bideshki2025b"
+     ],
+     "t": "SMD 0,82 [0,35; 1,29]; Evidenzqualität niedrig bis hoch. Cortisol, IGF-1 und Wachstumshormon unverändert; kein erkennbarer Nutzen für Kraft bei Trainierten.",
+     "v": "sicherheit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Stoffwechsel",
+   "kat": "stoffwechsel",
+   "items": [
+    {
+     "n": "Blutfette",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 10,
+     "p": 421,
+     "s": [
+      "sadeghi2024"
+     ],
+     "t": "Gesamtcholesterin, Triglyzeride, LDL und HDL unverändert; Evidenzqualität moderat bis niedrig.",
+     "v": "sicherheit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Unerwünschte Wirkungen",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "rathmacher2025",
+      "wilson2013"
+     ],
+     "t": "Laut ISSN bis mindestens ein Jahr sicher, ohne negative Effekte auf den Glukosestoffwechsel; Bewertung durch Autoren mit Herstellerbindung, keine eigene Sicherheits-Metaanalyse.",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "nissen2003": {
+   "short": "Nissen & Sharp, 2003",
+   "year": 2003,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "12433852",
+   "apa": "Nissen, S. L. &amp; Sharp, R. L. (2003). Effect of dietary supplements on lean mass and strength gains with resistance exercise: A meta-analysis. <em>Journal of Applied Physiology, 94</em>(2), 651–659.",
+   "doi": "10.1152/japplphysiol.00755.2002"
+  },
+  "decombaz2003": {
+   "short": "Décombaz et al., 2003",
+   "year": 2003,
+   "type": "Kommentar (Leserbrief)",
+   "basis": "Titel (Kommentar ohne Abstract)",
+   "pmid": "14555678",
+   "apa": "Décombaz, J., Bury, A. &amp; Hager, C. (2003). HMB meta-analysis and the clustering of data sources. <em>Journal of Applied Physiology, 95</em>(5), 2180–2182.",
+   "doi": "10.1152/japplphysiol.00563.2003",
+   "flag": "Kommentar ohne Abstract zur Metaanalyse von Nissen und Sharp (2003); hier nur der im Titel genannte Kritikpunkt (Häufung von Datenquellen) verwendet."
+  },
+  "rowlands2009": {
+   "short": "Rowlands & Thomson, 2009",
+   "year": 2009,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "19387395",
+   "apa": "Rowlands, D. S. &amp; Thomson, J. S. (2009). Effects of beta-hydroxy-beta-methylbutyrate supplementation during resistance training on strength, body composition, and muscle damage in trained and untrained young men: A meta-analysis. <em>Journal of Strength and Conditioning Research, 23</em>(3), 836–846.",
+   "doi": "10.1519/JSC.0b013e3181a00c80"
+  },
+  "wilson2013": {
+   "short": "Wilson et al., 2013",
+   "year": 2013,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "23374455",
+   "apa": "Wilson, J. M., Fitschen, P. J., Campbell, B., Wilson, G. J., Zanchi, N., Taylor, L., Wilborn, C., Kalman, D. S., Stout, J. R., Hoffman, J. R., Ziegenfuss, T. N., Lopez, H. L., Kreider, R. B., Smith-Ryan, A. E. &amp; Antonio, J. (2013). International society of sports nutrition position stand: Beta-hydroxy-beta-methylbutyrate (HMB). <em>Journal of the International Society of Sports Nutrition, 10</em>(1), 6.",
+   "doi": "10.1186/1550-2783-10-6"
+  },
+  "wu2015": {
+   "short": "Wu et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26169182",
+   "apa": "Wu, H., Xia, Y., Jiang, J., Du, H., Guo, X., Liu, X., Li, C., Huang, G. &amp; Niu, K. (2015). Effect of beta-hydroxy-beta-methylbutyrate supplementation on muscle loss in older adults: A systematic review and meta-analysis. <em>Archives of Gerontology and Geriatrics, 61</em>(2), 168–175.",
+   "doi": "10.1016/j.archger.2015.06.020",
+   "flag": "Im Abstract wird die standardisierte Mittelwertdifferenz mit der Einheit kg angegeben (0,352 kg); hier als SMD ohne Einheit wiedergegeben."
+  },
+  "silva2017": {
+   "short": "Silva et al., 2017",
+   "year": 2017,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "29037326",
+   "apa": "Silva, V. R., Belozo, F. L., Micheletti, T. O., Conrado, M., Stout, J. R., Pimentel, G. D. &amp; Gonzalez, A. M. (2017). β-hydroxy-β-methylbutyrate free acid supplementation may improve recovery and muscle adaptations after resistance training: A systematic review. <em>Nutrition Research, 45</em>, 1–9.",
+   "doi": "10.1016/j.nutres.2017.07.008"
+  },
+  "sanchezmartinez2018": {
+   "short": "Sanchez-Martinez et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29249685",
+   "apa": "Sanchez-Martinez, J., Santos-Lozano, A., Garcia-Hermoso, A., Sadarangani, K. P. &amp; Cristi-Montero, C. (2018). Effects of beta-hydroxy-beta-methylbutyrate supplementation on strength and body composition in trained and competitive athletes: A meta-analysis of randomized controlled trials. <em>Journal of Science and Medicine in Sport, 21</em>(7), 727–735.",
+   "doi": "10.1016/j.jsams.2017.11.003"
+  },
+  "rahimi2018": {
+   "short": "Rahimi et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29676656",
+   "apa": "Rahimi, M. H., Mohammadi, H., Eshaghi, H., Askari, G. &amp; Miraghajani, M. (2018). The effects of beta-hydroxy-beta-methylbutyrate supplementation on recovery following exercise-induced muscle damage: A systematic review and meta-analysis. <em>Journal of the American College of Nutrition, 37</em>(7), 640–649.",
+   "doi": "10.1080/07315724.2018.1451789"
+  },
+  "gepner2019": {
+   "short": "Gepner et al., 2019",
+   "year": 2019,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "30348016",
+   "apa": "Gepner, Y., Varanoske, A. N., Boffey, D. &amp; Hoffman, J. R. (2019). Benefits of β-hydroxy-β-methylbutyrate supplementation in trained and untrained individuals. <em>Research in Sports Medicine, 27</em>(2), 204–218.",
+   "doi": "10.1080/15438627.2018.1533470"
+  },
+  "courelibanez2019": {
+   "short": "Courel-Ibáñez et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31484462",
+   "apa": "Courel-Ibáñez, J., Vetrovsky, T., Dadova, K., Pallarés, J. G. &amp; Steffl, M. (2019). Health benefits of β-hydroxy-β-methylbutyrate (HMB) supplementation in addition to physical exercise in older adults: A systematic review with meta-analysis. <em>Nutrients, 11</em>(9), Artikel 2082.",
+   "doi": "10.3390/nu11092082"
+  },
+  "jakubowski2020": {
+   "short": "Jakubowski et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32456217",
+   "apa": "Jakubowski, J. S., Nunes, E. A., Teixeira, F. J., Vescio, V., Morton, R. W., Banfield, L. &amp; Phillips, S. M. (2020). Supplementation with the leucine metabolite β-hydroxy-β-methylbutyrate (HMB) does not improve resistance exercise-induced changes in body composition or strength in young subjects: A systematic review and meta-analysis. <em>Nutrients, 12</em>(5), Artikel 1523.",
+   "doi": "10.3390/nu12051523"
+  },
+  "lin2021": {
+   "short": "Lin et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33034021",
+   "apa": "Lin, Z., Zhao, Y. &amp; Chen, Q. (2021). Effects of oral administration of β-hydroxy β-methylbutyrate on lean body mass in older adults: A systematic review and meta-analysis. <em>European Geriatric Medicine, 12</em>(2), 239–251.",
+   "doi": "10.1007/s41999-020-00409-9"
+  },
+  "lin2022": {
+   "short": "Lin et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35911112",
+   "apa": "Lin, Z., Zhao, A. &amp; He, J. (2022). Effect of β-hydroxy-β-methylbutyrate (HMB) on the muscle strength in the elderly population: A meta-analysis. <em>Frontiers in Nutrition, 9</em>, Artikel 914866.",
+   "doi": "10.3389/fnut.2022.914866"
+  },
+  "holland2022": {
+   "short": "Holland et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31868817",
+   "apa": "Holland, B. M., Roberts, B. M., Krieger, J. W. &amp; Schoenfeld, B. J. (2022). Does HMB enhance body composition in athletes? A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 36</em>(2), 585–592.",
+   "doi": "10.1519/JSC.0000000000003461"
+  },
+  "phillips2022": {
+   "short": "Phillips et al., 2022",
+   "year": 2022,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "35818771",
+   "apa": "Phillips, S. M., Lau, K. J., D'Souza, A. C. &amp; Nunes, E. A. (2022). An umbrella review of systematic reviews of β-hydroxy-β-methyl butyrate supplementation in ageing and clinical practice. <em>Journal of Cachexia, Sarcopenia and Muscle, 13</em>(5), 2265–2275.",
+   "doi": "10.1002/jcsm.13030"
+  },
+  "talebi2024": {
+   "short": "Talebi et al., 2024",
+   "year": 2024,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "37460208",
+   "apa": "Talebi, S., Mohammadi, H., Zeraattalab-Motlagh, S., Arab, A., Keshavarz Mohammadian, M., Ghoreishy, S. M., Abbaspour Tehrani Fard, M., Amiri Khosroshahi, R. &amp; Djafarian, K. (2024). Nutritional interventions for exercise-induced muscle damage: An umbrella review of systematic reviews and meta-analyses of randomized trials. <em>Nutrition Reviews, 82</em>(5), 639–653.",
+   "doi": "10.1093/nutrit/nuad078"
+  },
+  "fernandezlanda2024": {
+   "short": "Fernández-Landa et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38090973",
+   "apa": "Fernández-Landa, J., Todorovic, N., Santibañez-Gutierrez, A., Ostojic, S. M., Calleja-González, J., Sekulic, D. &amp; Mielgo-Ayuso, J. (2024). Effects of HMB on endurance performance in a healthy population: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 38</em>(4), e202–e210.",
+   "doi": "10.1519/JSC.0000000000004690"
+  },
+  "sadeghi2024": {
+   "short": "Sadeghi et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39385778",
+   "apa": "Sadeghi, B., Bahari, H., Jozi, H., Hasanzadeh, M. A., Hashemi, D. &amp; Bideshki, M. V. (2024). Effects of β-hydroxy-β-methylbutyrate (HMB) supplementation on lipid profile in adults: A GRADE-assessed systematic review and meta-analysis of randomized controlled trials. <em>Frontiers in Nutrition, 11</em>, Artikel 1451282.",
+   "doi": "10.3389/fnut.2024.1451282"
+  },
+  "rathmacher2025": {
+   "short": "Rathmacher et al., 2025",
+   "year": 2025,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "39699070",
+   "apa": "Rathmacher, J. A., Pitchford, L. M., Stout, J. R., Townsend, J. R., Jäger, R., Kreider, R. B., Campbell, B. I., Kerksick, C. M., Harty, P. S., Candow, D. G., Roberts, B. M., Arent, S. M., Kalman, D. S. &amp; Antonio, J. (2025). International society of sports nutrition position stand: β-hydroxy-β-methylbutyrate (HMB). <em>Journal of the International Society of Sports Nutrition, 22</em>(1), Artikel 2434734.",
+   "doi": "10.1080/15502783.2024.2434734",
+   "flag": "Laut Interessenkonflikt-Erklärung im PubMed-Eintrag sind mehrere Autoren Erfinder von HMB-Patenten oder (ehemalige) Mitarbeitende bzw. Berater eines Unternehmens, das HMB vermarktet hat."
+  },
+  "bideshki2025a": {
+   "short": "Bideshki et al., 2025a",
+   "year": 2025,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "39797501",
+   "apa": "Bideshki, M. V., Behzadi, M., Jamali, M., Jamilian, P., Zarezadeh, M. &amp; Gargari, B. P. (2025a). Ergogenic benefits of β-hydroxy-β-methyl butyrate (HMB) supplementation on body composition and muscle strength: An umbrella review of meta-analyses. <em>Journal of Cachexia, Sarcopenia and Muscle, 16</em>(1), Artikel e13671.",
+   "doi": "10.1002/jcsm.13671"
+  },
+  "bideshki2025b": {
+   "short": "Bideshki et al., 2025b",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40612317",
+   "apa": "Bideshki, M. V., Sadeghi, B., Behzadi, M., Jozi, H., Eskandari Damaneh, H. &amp; Rashidinejad, A. (2025b). β-Hydroxy-β-methyl butyrate (HMB) supplementation elevates testosterone levels without significant changes to cortisol, IGF-1, or growth hormone in adults: A GRADE-assessed systematic review and meta-analysis of controlled trials. <em>Frontiers in Nutrition, 12</em>, Artikel 1582135.",
+   "doi": "10.3389/fnut.2025.1582135"
+  },
+  "li2025": {
+   "short": "Li et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40248035",
+   "apa": "Li, N., Chen, S., He, Y., Chen, Y., Duan, X., He, W., Wang, Q., Liu, S., Liu, T. &amp; Fang, H. (2025). Effects of oral supplementation of β-hydroxy-β-methylbutyrate on muscle mass and strength in individuals over the age of 50: A meta-analysis. <em>Frontiers in Nutrition, 12</em>, Artikel 1522287.",
+   "doi": "10.3389/fnut.2025.1522287"
+  },
+  "garciaalonso2025": {
+   "short": "García-Alonso et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41305674",
+   "apa": "García-Alonso, A., Sánchez-González, J. L., Navarro-López, V., Méndez-Sánchez, R. &amp; Polo-Ferrero, L. (2025). The role of HMB supplementation in enhancing the effects of resistance training in older adults: A systematic review and meta-analysis on muscle quality, body composition, and physical function. <em>Nutrients, 17</em>(22), Artikel 3624.",
+   "doi": "10.3390/nu17223624"
+  },
+  "wang2026": {
+   "short": "Wang et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41934514",
+   "apa": "Wang, G., Jawed, I., Tufail, M., Sharaf, M. S., Bin Gulzar, A. H., Qurat Ul Ain, H., Umair, M., Kumar, D. &amp; Jabeen, S. (2026). Efficacy of HMB supplementation as an adjunct to resistance training in older adults: A comprehensive meta-analysis. <em>Age and Ageing, 55</em>(3), afag073.",
+   "doi": "10.1093/ageing/afag073"
+  },
+  "sun2026": {
+   "short": "Sun et al., 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42821324",
+   "apa": "Sun, R., Su, M., Xu, X., Wang, N., Li, Z., Sun, X., Lin, W. &amp; Wang, H. (2026). Effects of dietary supplements on lower-limb power and jump performance in physically active individuals and athletes: A systematic review and Bayesian network meta-analysis. <em>Journal of the International Society of Sports Nutrition, 23</em>(1), Artikel 2740221.",
+   "doi": "10.1080/15502783.2026.2740221"
+  }
+ }
+}

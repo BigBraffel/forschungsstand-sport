@@ -1,0 +1,916 @@
+{
+ "id": "curcumin",
+ "title": "Curcumin (Kurkuma)",
+ "stand": "2026-11-20",
+ "lead": "Lindert Curcumin Muskelkater und Muskelschaden, senkt es Entzündungsmarker und Gelenkschmerz, und welche Rolle spielen Formulierung und Lebersicherheit? Zusammengefasst aus Metaanalysen, Umbrella Reviews und Fallserien.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Die Studien zum Sport sind klein und verwenden sehr unterschiedliche Präparate; die Entzündungs- und Gelenkdaten stammen überwiegend von Menschen mit Erkrankungen.",
+ "rx": [
+  {
+   "label": "Muskelkater",
+   "value": "allenfalls kleiner Effekt, keine Pflicht",
+   "text": "Mehrere Metaanalysen fanden etwas weniger Muskelkater und Kreatinkinase, eine Analyse über die Zeitpunkte nach der Belastung keinen signifikanten Effekt. Am ehesten in Phasen ungewohnter, exzentrischer Belastung.",
+   "cite": "Fang &amp; Nasir 2021; Beba et al. 2022; Oxley &amp; Peart 2024"
+  },
+  {
+   "label": "Zeitpunkt",
+   "value": "längere Einnahme bzw. nach der Belastung",
+   "text": "Längere Einnahme war am wirksamsten; für Kreatinkinase und IL-6 wirkte die Einnahme direkt nach der Belastung am besten, für Muskelkater eine vorbeugende niedrige Dosis.",
+   "cite": "Liu et al. 2024; Daniel Vasile et al. 2024"
+  },
+  {
+   "label": "Gelenkschmerz",
+   "value": "etwa 1000 mg Curcumin/Tag über mehr als 12 Wochen",
+   "text": "Bei Arthrose linderten Kurkuma-Extrakte Schmerz und Steifigkeit ähnlich wie entzündungshemmende Schmerzmittel, mit weniger Nebenwirkungen.",
+   "cite": "Daily et al. 2016; Zeng et al. 2021"
+  },
+  {
+   "label": "Formulierung",
+   "value": "keine Form klar überlegen",
+   "text": "Spezielle Formulierungen erhöhen die Aufnahme ins Blut um ein Vielfaches; vergleichende Wirksamkeitsstudien fehlen aber. Hoch bioverfügbare, hoch dosierte Produkte waren in Leberschadensfällen auffällig.",
+   "cite": "Jamwal 2018; Shi et al. 2026; Lombardi et al. 2021"
+  },
+  {
+   "label": "Für wen nicht",
+   "value": "Lebererkrankung, viele Begleitmedikamente",
+   "text": "Bei Bauchschmerz, dunklem Urin oder Gelbfärbung sofort absetzen. Leberschäden traten meist nach 1 bis 4 Monaten auf, häufig bei Kombination mit anderen Mitteln oder schwarzem Pfeffer (Piperin).",
+   "cite": "Akhtar et al. 2026; Halegoua-DeMarzio et al. 2023"
+  }
+ ],
+ "note": "<b>Hinweis zur Bioverfügbarkeit:</b> Von 171 systematischen Reviews zu oralem Curcumin berücksichtigten nur 3,5 % die unterschiedliche Bioverfügbarkeit der Präparate in ihren Methoden. Gepoolte Effekte mischen daher sehr verschiedene Produkte (Bučević Popović et al., 2024).",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Etwas weniger Muskelkater und Kreatinkinase",
+   "ev": "niedrig",
+   "p": "Drei Metaanalysen fanden kleine Vorteile, eine weitere keinen signifikanten Effekt; die Vertrauenswürdigkeit ist niedrig bis sehr niedrig.",
+   "s": [
+    "fang2021",
+    "beba2022",
+    "liu2024",
+    "oxley2024",
+    "lloretgil2026"
+   ]
+  },
+  {
+   "t": "Kein belegter Leistungseffekt",
+   "ev": "niedrig",
+   "p": "Nur die Hälfte der Studien fand Leistungsvorteile, bei sehr niedriger Vertrauenswürdigkeit.",
+   "s": [
+    "lloretgil2026",
+    "suhett2021"
+   ]
+  },
+  {
+   "t": "Entzündungsmarker sinken",
+   "ev": "moderat",
+   "p": "CRP, IL-6 und TNF-α sanken in vielen Metaanalysen, überwiegend bei Menschen mit erhöhten Entzündungswerten.",
+   "s": [
+    "naghsh2023",
+    "dehzad2023a",
+    "gorabi2022",
+    "sahebkar2014"
+   ]
+  },
+  {
+   "t": "Weniger Gelenkschmerz bei Arthrose",
+   "ev": "moderat",
+   "p": "Schmerz und Steifigkeit besserten sich ähnlich wie unter Schmerzmitteln; die Studienqualität ist uneinheitlich.",
+   "s": [
+    "zeng2021",
+    "daily2016",
+    "sahebkar2016",
+    "shi2026"
+   ]
+  },
+  {
+   "t": "Seltene, aber ernste Leberschäden",
+   "ev": "niedrig",
+   "p": "In Studien gut verträglich, in Fallserien jedoch Hepatitiden bis zum Leberversagen, oft nach 1 bis 4 Monaten.",
+   "s": [
+    "halegouademarzio2023",
+    "lombardi2021",
+    "akhtar2026",
+    "dehzad2023b"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "muskel",
+   "name": "Muskelkater, Muskelschaden und Leistung",
+   "q": "Lindert Curcumin Muskelkater und Muskelschaden nach dem Training?",
+   "ev": "niedrig",
+   "key": [
+    "Muskelkater und Kreatinkinase: Kreatinkinase −48,54 U/l [−80,67; −16,42], Muskelkater-Index −0,48 [−0,75; −0,20] (Fang &amp; Nasir, 2021).",
+    "10 Studien: Kreatinkinase −65,98 U/l [−99,53; −32,44], Muskelkater (VAS) −0,56 [−0,84; −0,27], TNF-α −0,22 pg/ml; Maximalkraft +3,10 Nm [1,45; 4,75], Beweglichkeit +6,49° [3,91; 9,07]; IL-6 und IL-8 unverändert (Beba et al., 2022).",
+    "14 Studien mit 349 Personen: Muskelkater −0,61, Kreatinkinase −137,32 U/l, Beweglichkeit +4,10, IL-6 −0,33 (jeweils mittlere Differenz, ohne Intervalle im Abstract); hohe Heterogenität bei der Kreatinkinase (I² = 79,7 %). Längere Einnahme wirkte am besten (Liu et al., 2024).",
+    "16 Studien: zu keinem Zeitpunkt (0 bis 96 Stunden) ein signifikanter Effekt auf Muskelschaden, Muskelkater oder Entzündung (Oxley &amp; Peart, 2024).",
+    "Umbrella Review aus 53 Metaanalysen: Curcumin verringerte den Muskelkater mit moderater Vertrauenswürdigkeit (Talebi et al., 2024).",
+    "15 doppelblinde Studien unter realen Sportbedingungen: Vorteile in 6 von 7 Studien zu oxidativem Stress, 4 von 6 zu Muskelschaden, 3 von 8 zu Entzündung, 3 von 7 zu Erholung und Muskelkater und 4 von 8 zur Leistung; Vertrauenswürdigkeit niedrig bzw. sehr niedrig (Lloret-Gil et al., 2026).",
+    "Systematische Reviews: Curcumin kann bei exzentrischer Belastung Muskelkater lindern, Einnahme nach der Belastung scheint günstiger (Daniel Vasile et al., 2024); weniger Entzündung, Schmerz und Muskelschaden, keine Nebenwirkungen berichtet (Suhett et al., 2021)."
+   ],
+   "critic": "Drei Metaanalysen finden kleine Vorteile, eine (Oxley &amp; Peart, 2024) bei getrennter Analyse nach Messzeitpunkt keinen. Die positiven Analysen poolen Zeitpunkte und haben teils hohe Heterogenität; Liu et al. (2024) berichten keine Konfidenzintervalle. Der neueste Review unter realen Sportbedingungen bewertet die Evidenz als sehr unsicher. Ein Muskelkater-Unterschied von etwa einem halben Punkt auf einer 10-Punkte-Skala ist klein. Wahrscheinlichste Lesart: allenfalls ein kleiner Effekt auf Muskelkater und Schadensmarker; ein Leistungsvorteil ist nicht belegt. Zu Muskelkater allgemein siehe <a href=\"#regeneration\">Regeneration</a>.",
+   "figs": [
+    {
+     "id": "cur-ck",
+     "title": "Curcumin und Kreatinkinase nach Belastung",
+     "cap": "Mittlere Differenz gegenüber Placebo in U/l mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kreatinkinase",
+       "sub": "Fang &amp; Nasir, 2021",
+       "es": -48.54,
+       "lo": -80.67,
+       "hi": -16.42
+      },
+      {
+       "l": "Kreatinkinase (10 Studien)",
+       "sub": "Beba et al., 2022",
+       "es": -65.98,
+       "lo": -99.53,
+       "hi": -32.44
+      }
+     ],
+     "opts": {
+      "min": -120,
+      "max": 20,
+      "ticks": [
+       -100,
+       -75,
+       -50,
+       -25,
+       0
+      ],
+      "unit": "U/l",
+      "leftLab": "weniger mit Curcumin",
+      "rightLab": "mehr mit Curcumin"
+     }
+    }
+   ],
+   "s": [
+    "suhett2021",
+    "fang2021",
+    "beba2022",
+    "oxley2024",
+    "liu2024",
+    "danielvasile2024",
+    "talebi2024",
+    "lloretgil2026"
+   ]
+  },
+  {
+   "id": "entzuendung",
+   "name": "Entzündungsmarker und oxidativer Stress",
+   "q": "Senkt Curcumin Entzündungsmarker?",
+   "ev": "moderat",
+   "key": [
+    "Umbrella-Metaanalyse aus 10 Metaanalysen mit 5870 Personen: CRP ES −0,74 [−1,11; −0,37], IL-6 −1,07 [−1,71; −0,44], TNF-α −1,92 [−2,64; −1,19]; stärkere Effekte bei Personen über 45 Jahren (Naghsh et al., 2023).",
+    "66 Studien: CRP −0,58 mg/l [−0,74; −0,41], TNF-α −3,48 pg/ml, IL-6 −1,31 pg/ml; IL-1β unverändert; antioxidative Kapazität +0,21 mmol/l, Malondialdehyd −0,33 µmol/l (Dehzad et al., 2023a).",
+    "CRP −3,67 mg/l [−6,96; −0,38] in 9 Studien bei entzündlichen Erkrankungen; stärker bei höchstens 1000 mg/Tag (Gorabi et al., 2022). Erste Metaanalyse mit 6 Studien und 342 Personen: CRP −6,44 mg/l [−10,77; −2,11], auch mit bioverfügbarkeitsverbesserten Präparaten (Sahebkar, 2014)."
+   ],
+   "critic": "Die Senkung der Entzündungsmarker ist über viele Analysen einheitlich, stammt aber überwiegend aus Studien mit Stoffwechsel- oder Entzündungserkrankungen. Bei Gesunden mit niedrigen Ausgangswerten ist ein kleinerer Effekt zu erwarten. Die großen Effektstärken im Umbrella Review beruhen auf heterogenen Metaanalysen (I² bis 75,6 %). Nach Belastung zeigte sich bei Sportlern kein einheitlicher Entzündungseffekt (siehe Abschnitt Muskelkater).",
+   "figs": [
+    {
+     "id": "cur-entz",
+     "title": "Curcumin und Entzündungsmarker (Umbrella-Metaanalyse)",
+     "cap": "Effektstärken gegenüber Kontrolle mit 95-%-KI; negative Werte bedeuten niedrigere Marker (Naghsh et al., 2023).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "CRP",
+       "sub": "Naghsh et al., 2023",
+       "es": -0.74,
+       "lo": -1.11,
+       "hi": -0.37
+      },
+      {
+       "l": "IL-6",
+       "sub": "Naghsh et al., 2023",
+       "es": -1.07,
+       "lo": -1.71,
+       "hi": -0.44
+      },
+      {
+       "l": "TNF-α",
+       "sub": "Naghsh et al., 2023",
+       "es": -1.92,
+       "lo": -2.64,
+       "hi": -1.19
+      }
+     ],
+     "opts": {
+      "min": -3,
+      "max": 0.5,
+      "ticks": [
+       -3,
+       -2,
+       -1,
+       0
+      ],
+      "unit": "ES",
+      "leftLab": "niedriger mit Curcumin",
+      "rightLab": "höher mit Curcumin"
+     }
+    }
+   ],
+   "s": [
+    "sahebkar2014",
+    "gorabi2022",
+    "naghsh2023",
+    "dehzad2023a"
+   ]
+  },
+  {
+   "id": "gelenke",
+   "name": "Gelenkschmerz",
+   "q": "Hilft Curcumin gegen Gelenkschmerz?",
+   "ev": "moderat",
+   "key": [
+    "8 Studien bei Gelenkarthritis: Schmerz (VAS) −2,04 [−2,85; −1,24] in 3 Studien, WOMAC −15,36 [−26,9; −3,77] in 4 Studien; kein Unterschied zu Schmerzmitteln; etwa 1000 mg Curcumin pro Tag (Daily et al., 2016).",
+    "8 Studien mit 606 Personen mit Schmerzen: SMD −0,57 [−1,11; −0,03], unabhängig von Dosis und Dauer, ohne Publikationsbias (Sahebkar &amp; Henrotin, 2016).",
+    "15 Studien mit 1621 Personen mit Arthrose: weniger Schmerz und Steifigkeit, bessere Funktion; Nebenwirkungen wie unter Placebo, seltener als unter NSAR; empfohlen über mehr als 12 Wochen (Zeng et al., 2021).",
+    "Umbrella Review aus 10 Übersichten: Effekte vergleichbar mit NSAR bei besserer Verträglichkeit; nur 3 Übersichten von hoher Qualität, keine direkten Vergleiche der Formulierungen (Shi et al., 2026)."
+   ],
+   "critic": "Die Richtung ist einheitlich, die Daten stammen aber von Menschen mit Arthrose, nicht von Sportlern mit Belastungsschmerz. Die erste Metaanalyse stammt teils von einer Autorin mit Unternehmensbindung (Daily et al., 2016). Die Gleichwertigkeit mit NSAR beruht auf wenigen Vergleichsstudien. Für Sportler mit Gelenkbeschwerden ist ein Versuch über mehrere Wochen vertretbar, eine Wirkung bei gesunden Gelenken ist nicht untersucht.",
+   "figs": [],
+   "s": [
+    "daily2016",
+    "sahebkar2016",
+    "zeng2021",
+    "shi2026"
+   ]
+  },
+  {
+   "id": "bioverfuegbarkeit",
+   "name": "Bioverfügbarkeit und Formulierungen",
+   "q": "Welche Curcumin-Form wirkt am besten?",
+   "ev": "niedrig",
+   "key": [
+    "Review von 11 Formulierungen mit Pharmakokinetik-Daten bei Gesunden: NovaSol® etwa 185-fach, CurcuWin® 136-fach und LongVida® 100-fach höhere Bioverfügbarkeit als nicht formuliertes Curcumin (Jamwal, 2018).",
+    "171 systematische Reviews (2003–2022): nur 3,5 % berücksichtigten die Bioverfügbarkeit in den Methoden und 6,4 % in den Ergebnissen; die Ergebnisse der meisten Reviews sind daher mit Vorsicht zu lesen (Bučević Popović et al., 2024).",
+    "Kein direkter Vergleich der Formulierungen in Arthrose-Studien (Shi et al., 2026). Die CRP-Senkung blieb auch in Studien mit bioverfügbarkeitsverbesserten Präparaten erhalten (Sahebkar, 2014)."
+   ],
+   "critic": "Höhere Blutspiegel sind für mehrere Formulierungen belegt, ein klinischer Vorteil im direkten Vergleich nicht. Die Pharmakokinetik-Studien sind meist klein und werden oft von Herstellern durchgeführt; Herstellerangaben zur „x-fachen“ Aufnahme sind daher kein Wirksamkeitsnachweis. Zugleich traten Leberschäden gehäuft mit hoch bioverfügbaren, hoch dosierten Produkten auf (Lombardi et al., 2021).",
+   "figs": [],
+   "s": [
+    "jamwal2018",
+    "bucevicpopovic2024",
+    "shi2026",
+    "sahebkar2014"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit und Leber",
+   "q": "Kann Curcumin der Leber schaden?",
+   "ev": "niedrig",
+   "key": [
+    "31 Studien: ALT −4,09 U/l [−6,49; −1,70] und AST −3,81 U/l [−5,71; −1,91] gesenkt, GGT unverändert; statistisch signifikant, aber ohne gesicherte klinische Bedeutung; Evidenzqualität niedrig (Dehzad et al., 2023b).",
+    "US-Register DILIN (2004–2022): 10 Fälle turmerikbedingter Leberschäden, alle seit 2011; 5 Krankenhausaufenthalte, 1 Todesfall durch akutes Leberversagen; Latenz 1–4 Monate; 3 von 7 untersuchten Produkten enthielten Piperin; starke Verbindung zu HLA-B*35:01 (Halegoua-DeMarzio et al., 2023).",
+    "Italien: 7 Fälle akuter Hepatitis, alle mit hoch bioverfügbaren und hoch dosierten Curcuma-Präparaten; in 23 Fällen aus der Literatur nahmen die meisten weitere Medikamente ein (Lombardi et al., 2021).",
+    "USP-Expertenkomitee: zahlreiche Studien ohne Organtoxizität oder schwere Nebenwirkungen, Leberschäden sehr selten und meist nach Absetzen rückläufig; empfohlen wird ein Warnhinweis für Menschen mit Lebererkrankungen (Akhtar et al., 2026).",
+    "In Arthrose-Studien Nebenwirkungen wie unter Placebo (Zeng et al., 2021)."
+   ],
+   "critic": "Studien und Fallberichte widersprechen sich nur scheinbar: Randomisierte Studien sind zu klein, um seltene, immunvermittelte Leberschäden zu erfassen. Die leicht gesenkten Leberwerte in Studien stammen überwiegend von Menschen mit Fettleber. Fallserien zeigen ein wiederkehrendes Muster mit genetischer Anfälligkeit (HLA-B*35:01), häufig in Kombination mit Piperin oder anderen Mitteln. Wahrscheinlich ist Curcumin für die meisten gut verträglich, aber nicht risikofrei.",
+   "figs": [
+    {
+     "id": "cur-leber",
+     "title": "Curcumin und Leberwerte in Studien",
+     "cap": "Mittlere Differenz gegenüber Kontrolle in U/l mit 95-%-KI (Dehzad et al., 2023b). Seltene Leberschäden aus Fallserien sind hier nicht abgebildet.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "ALT",
+       "sub": "Dehzad et al., 2023b",
+       "es": -4.09,
+       "lo": -6.49,
+       "hi": -1.7
+      },
+      {
+       "l": "AST",
+       "sub": "Dehzad et al., 2023b",
+       "es": -3.81,
+       "lo": -5.71,
+       "hi": -1.91
+      },
+      {
+       "l": "GGT",
+       "sub": "Dehzad et al., 2023b",
+       "es": -12.78,
+       "lo": -28.2,
+       "hi": 2.64
+      }
+     ],
+     "opts": {
+      "min": -30,
+      "max": 5,
+      "ticks": [
+       -30,
+       -20,
+       -10,
+       0
+      ],
+      "unit": "U/l",
+      "leftLab": "niedriger mit Curcumin",
+      "rightLab": "höher mit Curcumin"
+     }
+    }
+   ],
+   "s": [
+    "dehzad2023b",
+    "halegouademarzio2023",
+    "lombardi2021",
+    "akhtar2026",
+    "zeng2021"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2014,
+   "t": "CRP sinkt",
+   "p": "Erste Metaanalyse: niedrigeres CRP, auch mit bioverfügbaren Präparaten.",
+   "tag": "neu",
+   "s": "sahebkar2014"
+  },
+  {
+   "y": 2016,
+   "t": "Gelenkarthritis",
+   "p": "Weniger Schmerz, ähnlich wie Schmerzmittel.",
+   "tag": "neu",
+   "s": "daily2016"
+  },
+  {
+   "y": 2016,
+   "t": "Schmerz allgemein",
+   "p": "Mittlerer schmerzlindernder Effekt.",
+   "tag": "conf",
+   "s": "sahebkar2016"
+  },
+  {
+   "y": 2018,
+   "t": "Bioverfügbare Formulierungen",
+   "p": "Bis über 100-fach höhere Blutspiegel.",
+   "tag": "neu",
+   "s": "jamwal2018"
+  },
+  {
+   "y": 2021,
+   "t": "Sport und Bewegung",
+   "p": "Systematischer Review: weniger Entzündung und Muskelschaden.",
+   "tag": "neu",
+   "s": "suhett2021"
+  },
+  {
+   "y": 2021,
+   "t": "Muskelschaden",
+   "p": "Weniger Kreatinkinase und Muskelkater.",
+   "tag": "conf",
+   "s": "fang2021"
+  },
+  {
+   "y": 2021,
+   "t": "Arthrose: 15 Studien",
+   "p": "Wirksam, Nebenwirkungen wie unter Placebo.",
+   "tag": "conf",
+   "s": "zeng2021"
+  },
+  {
+   "y": 2021,
+   "t": "Leberschäden in Italien",
+   "p": "Fälle mit hoch bioverfügbaren Präparaten.",
+   "tag": "contra",
+   "s": "lombardi2021"
+  },
+  {
+   "y": 2022,
+   "t": "Muskelkater mit Dosis-Wirkung",
+   "p": "Weniger Kreatinkinase, bessere Kraft und Beweglichkeit.",
+   "tag": "conf",
+   "s": "beba2022"
+  },
+  {
+   "y": 2022,
+   "t": "CRP bei Entzündungserkrankungen",
+   "p": "Senkung bestätigt.",
+   "tag": "conf",
+   "s": "gorabi2022"
+  },
+  {
+   "y": 2023,
+   "t": "Leberschäden im US-Register",
+   "p": "10 Fälle, ein Todesfall, genetische Anfälligkeit.",
+   "tag": "contra",
+   "s": "halegouademarzio2023"
+  },
+  {
+   "y": 2023,
+   "t": "Umbrella-Metaanalyse Entzündung",
+   "p": "CRP, IL-6 und TNF-α niedriger.",
+   "tag": "conf",
+   "s": "naghsh2023"
+  },
+  {
+   "y": 2023,
+   "t": "66 Studien zu Entzündung und Oxidation",
+   "p": "Breite Senkung der Marker.",
+   "tag": "conf",
+   "s": "dehzad2023a"
+  },
+  {
+   "y": 2023,
+   "t": "Leberwerte in Studien",
+   "p": "Leichte Senkung von ALT und AST.",
+   "tag": "rel",
+   "s": "dehzad2023b"
+  },
+  {
+   "y": 2024,
+   "t": "Kein signifikanter Effekt nach Messzeitpunkt",
+   "p": "Muskelschaden, Muskelkater und Entzündung unverändert.",
+   "tag": "contra",
+   "s": "oxley2024"
+  },
+  {
+   "y": 2024,
+   "t": "14 Studien zum Muskelschaden",
+   "p": "Vorteile, beste Wirkung bei längerer Einnahme.",
+   "tag": "conf",
+   "s": "liu2024"
+  },
+  {
+   "y": 2024,
+   "t": "Sportler",
+   "p": "Linderung von Muskelkater, Einnahme nach Belastung günstiger.",
+   "tag": "conf",
+   "s": "danielvasile2024"
+  },
+  {
+   "y": 2024,
+   "t": "Umbrella Review Muskelschaden",
+   "p": "Weniger Muskelkater, moderate Vertrauenswürdigkeit.",
+   "tag": "conf",
+   "s": "talebi2024"
+  },
+  {
+   "y": 2024,
+   "t": "Bioverfügbarkeit in Reviews ignoriert",
+   "p": "Nur 3,5 % der Reviews analysieren sie.",
+   "tag": "rel",
+   "s": "bucevicpopovic2024"
+  },
+  {
+   "y": 2026,
+   "t": "Reale Sportbedingungen",
+   "p": "Uneinheitliche Effekte, sehr niedrige Vertrauenswürdigkeit.",
+   "tag": "rel",
+   "s": "lloretgil2026"
+  },
+  {
+   "y": 2026,
+   "t": "Formulierungen bei Arthrose",
+   "p": "Wirksam wie NSAR, keine Form klar überlegen.",
+   "tag": "conf",
+   "s": "shi2026"
+  },
+  {
+   "y": 2026,
+   "t": "USP-Warnhinweis",
+   "p": "Sehr seltene Leberschäden, Warnhinweis empfohlen.",
+   "tag": "rel",
+   "s": "akhtar2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 576 Einträgen, 309 Übersichtsarbeiten nach Titel geprüft (davon 83 zunächst per Titelregel einer anderen Kategorie zugeordnet), dazu 68 Übersichtsarbeiten und eine Suche nach Fallserien zu Leberschäden ergänzend gesichtet; 22 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung nach Belastung",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Muskelkater (Abnahme)",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "nutzen",
+     "k": 14,
+     "p": 349,
+     "s": [
+      "fang2021",
+      "beba2022",
+      "liu2024",
+      "talebi2024",
+      "oxley2024"
+     ],
+     "t": "VAS −0,56 bzw. Index −0,48 in zwei Analysen; nach Messzeitpunkt getrennt in einer dritten nicht signifikant.",
+     "v": "muskel"
+    },
+    {
+     "n": "Kreatinkinase nach Belastung (Abnahme)",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "nutzen",
+     "k": 14,
+     "p": 349,
+     "s": [
+      "fang2021",
+      "beba2022",
+      "liu2024",
+      "oxley2024"
+     ],
+     "t": "−48,54 bis −137,32 U/l in drei Analysen, bei hoher Heterogenität; in einer Analyse nach Zeitpunkten kein signifikanter Effekt.",
+     "v": "muskel"
+    },
+    {
+     "n": "Kraft nach Muskelschaden",
+     "g": "D",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 10,
+     "p": null,
+     "s": [
+      "beba2022"
+     ],
+     "t": "Maximalkraft +3,10 Nm [1,45; 4,75]; standardisierte Größe nicht berichtet, nur eine Analyse.",
+     "v": "muskel"
+    },
+    {
+     "n": "Beweglichkeit nach Muskelschaden",
+     "g": "D",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 10,
+     "p": null,
+     "s": [
+      "beba2022",
+      "liu2024"
+     ],
+     "t": "+6,49° [3,91; 9,07] bzw. +4,10; standardisierte Größe nicht berichtet.",
+     "v": "muskel"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Sportliche Leistung",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Sportliche Leistung",
+     "g": "D",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 15,
+     "p": null,
+     "s": [
+      "lloretgil2026"
+     ],
+     "t": "Vorteile in 4 von 8 Studien, sehr niedrige Vertrauenswürdigkeit; keine gepoolte Analyse.",
+     "v": "muskel"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Entzündung",
+   "kat": "entzuendung",
+   "items": [
+    {
+     "n": "CRP (Abnahme)",
+     "g": "B",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": null,
+     "p": 5870,
+     "s": [
+      "naghsh2023",
+      "dehzad2023a",
+      "gorabi2022",
+      "sahebkar2014"
+     ],
+     "t": "ES −0,74 [−1,11; −0,37] aus 10 Metaanalysen; −0,58 mg/l in 66 Studien. Überwiegend Menschen mit Erkrankungen.",
+     "v": "entzuendung"
+    },
+    {
+     "n": "IL-6 und TNF-α (Abnahme)",
+     "g": "B",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": null,
+     "p": 5870,
+     "s": [
+      "naghsh2023",
+      "dehzad2023a"
+     ],
+     "t": "IL-6 ES −1,07, TNF-α −1,92; nach Belastung bei Sportlern kein einheitlicher Effekt.",
+     "v": "entzuendung"
+    },
+    {
+     "n": "Antioxidative Kapazität",
+     "g": "B",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 66,
+     "p": null,
+     "s": [
+      "dehzad2023a"
+     ],
+     "t": "+0,21 mmol/l, Malondialdehyd −0,33 µmol/l; standardisierte Größe nicht berichtet.",
+     "v": "entzuendung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Gelenke",
+   "kat": "haut",
+   "items": [
+    {
+     "n": "Gelenkschmerz bei Arthrose (Abnahme)",
+     "g": "B",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": 15,
+     "p": 1621,
+     "s": [
+      "zeng2021",
+      "sahebkar2016",
+      "daily2016",
+      "shi2026"
+     ],
+     "t": "Schmerz SMD −0,57 (8 Studien, n = 606); in 15 Studien weniger Schmerz und Steifigkeit, ähnlich wie NSAR.",
+     "v": "gelenke"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Leberwerte in Studien",
+     "g": "C",
+     "d": "ab",
+     "m": 1,
+     "b": "neutral",
+     "k": 31,
+     "p": null,
+     "s": [
+      "dehzad2023b"
+     ],
+     "t": "ALT −4,09 U/l, AST −3,81 U/l; als sehr klein eingestuft, laut Autoren ohne gesicherte klinische Bedeutung.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Leberschäden (Fallberichte)",
+     "g": "D",
+     "d": "auf",
+     "m": -1,
+     "b": "schaden",
+     "k": null,
+     "p": null,
+     "s": [
+      "halegouademarzio2023",
+      "lombardi2021",
+      "akhtar2026"
+     ],
+     "t": "10 Fälle im US-Register mit einem Todesfall, 7 Fälle in Italien; Häufigkeit unbekannt, sehr selten.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Nebenwirkungen in Studien",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 15,
+     "p": 1621,
+     "s": [
+      "zeng2021",
+      "akhtar2026"
+     ],
+     "t": "Bei Arthrose wie unter Placebo und seltener als unter NSAR.",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "sahebkar2014": {
+   "short": "Sahebkar, 2014",
+   "year": 2014,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23922235",
+   "apa": "Sahebkar, A. (2014). Are curcuminoids effective C-reactive protein-lowering agents in clinical practice? Evidence from a meta-analysis. <em>Phytotherapy Research, 28</em>(5), 633–642.",
+   "doi": "10.1002/ptr.5045"
+  },
+  "daily2016": {
+   "short": "Daily et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27533649",
+   "apa": "Daily, J. W., Yang, M. &amp; Park, S. (2016). Efficacy of turmeric extracts and curcumin for alleviating the symptoms of joint arthritis: A systematic review and meta-analysis of randomized clinical trials. <em>Journal of Medicinal Food, 19</em>(8), 717–729.",
+   "doi": "10.1089/jmf.2016.3705",
+   "flag": "Die Erstautorin ist laut Affiliation in der Forschungsabteilung eines Unternehmens (Daily Manufacturing, Inc.) tätig."
+  },
+  "sahebkar2016": {
+   "short": "Sahebkar & Henrotin, 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26814259",
+   "apa": "Sahebkar, A. &amp; Henrotin, Y. (2016). Analgesic efficacy and safety of curcuminoids in clinical practice: A systematic review and meta-analysis of randomized controlled trials. <em>Pain Medicine, 17</em>(6), 1192–1202.",
+   "doi": "10.1093/pm/pnv024"
+  },
+  "jamwal2018": {
+   "short": "Jamwal, 2018",
+   "year": 2018,
+   "type": "Review (Pharmakokinetik-Studien)",
+   "basis": "Abstract",
+   "pmid": "30006023",
+   "apa": "Jamwal, R. (2018). Bioavailable curcumin formulations: A review of pharmacokinetic studies in healthy volunteers. <em>Journal of Integrative Medicine, 16</em>(6), 367–374.",
+   "doi": "10.1016/j.joim.2018.07.001"
+  },
+  "suhett2021": {
+   "short": "Suhett et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "32282223",
+   "apa": "Suhett, L. G., de Miranda Monteiro Santos, R., Silveira, B. K. S., Leal, A. C. G., de Brito, A. D. M., de Novaes, J. F. &amp; Lucia, C. M. D. (2021). Effects of curcumin supplementation on sport and physical exercise: A systematic review. <em>Critical Reviews in Food Science and Nutrition, 61</em>(6), 946–958.",
+   "doi": "10.1080/10408398.2020.1749025"
+  },
+  "fang2021": {
+   "short": "Fang & Nasir, 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33174301",
+   "apa": "Fang, W. &amp; Nasir, Y. (2021). The effect of curcumin supplementation on recovery following exercise-induced muscle damage and delayed-onset muscle soreness: A systematic review and meta-analysis of randomized controlled trials. <em>Phytotherapy Research, 35</em>(4), 1768–1781.",
+   "doi": "10.1002/ptr.6912"
+  },
+  "zeng2021": {
+   "short": "Zeng et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34017975",
+   "apa": "Zeng, L., Yu, G., Hao, W., Yang, K. &amp; Chen, H. (2021). The efficacy and safety of curcuma longa extract and curcumin supplements on osteoarthritis: A systematic review and meta-analysis. <em>Bioscience Reports, 41</em>(6), BSR20210817.",
+   "doi": "10.1042/BSR20210817"
+  },
+  "lombardi2021": {
+   "short": "Lombardi et al., 2021",
+   "year": 2021,
+   "type": "Fallserie mit systematischem Review",
+   "basis": "Abstract",
+   "pmid": "32656820",
+   "apa": "Lombardi, N., Crescioli, G., Maggini, V., Ippoliti, I., Menniti-Ippolito, F., Gallo, E., Brilli, V., Lanzi, C., Mannaioni, G., Firenzuoli, F. &amp; Vannacci, A. (2021). Acute liver injury following turmeric use in tuscany: An analysis of the Italian Phytovigilance database and systematic review of case reports. <em>British Journal of Clinical Pharmacology, 87</em>(3), 741–753.",
+   "doi": "10.1111/bcp.14460"
+  },
+  "beba2022": {
+   "short": "Beba et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse mit Dosis-Wirkungs-Analyse",
+   "basis": "Abstract",
+   "pmid": "35574627",
+   "apa": "Beba, M., Mohammadi, H., Clark, C. C. T. &amp; Djafarian, K. (2022). The effect of curcumin supplementation on delayed-onset muscle soreness, inflammation, muscle strength, and joint flexibility: A systematic review and dose-response meta-analysis of randomized controlled trials. <em>Phytotherapy Research, 36</em>(7), 2767–2778.",
+   "doi": "10.1002/ptr.7477"
+  },
+  "gorabi2022": {
+   "short": "Gorabi et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34586711",
+   "apa": "Gorabi, A. M., Abbasifard, M., Imani, D., Aslani, S., Razi, B., Alizadeh, S., Bagheri-Hosseinabadi, Z., Sathyapalan, T. &amp; Sahebkar, A. (2022). Effect of curcumin on C-reactive protein as a biomarker of systemic inflammation: An updated meta-analysis of randomized controlled trials. <em>Phytotherapy Research, 36</em>(1), 85–97.",
+   "doi": "10.1002/ptr.7284"
+  },
+  "halegouademarzio2023": {
+   "short": "Halegoua-DeMarzio et al., 2023",
+   "year": 2023,
+   "type": "Fallserie (DILIN-Register)",
+   "basis": "Abstract",
+   "pmid": "36252717",
+   "apa": "Halegoua-DeMarzio, D., Navarro, V., Ahmad, J., Avula, B., Barnhart, H., Barritt, A. S., Bonkovsky, H. L., Fontana, R. J., Ghabril, M. S., Hoofnagle, J. H., Khan, I. A., Kleiner, D. E., Phillips, E., Stolz, A. &amp; Vuppalanchi, R. (2023). Liver injury associated with turmeric-a growing problem: Ten cases from the Drug-Induced Liver Injury Network [DILIN]. <em>The American Journal of Medicine, 136</em>(2), 200–206.",
+   "doi": "10.1016/j.amjmed.2022.09.026"
+  },
+  "naghsh2023": {
+   "short": "Naghsh et al., 2023",
+   "year": 2023,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "36700039",
+   "apa": "Naghsh, N., Musazadeh, V., Nikpayam, O., Kavyani, Z., Moridpour, A. H., Golandam, F., Faghfouri, A. H. &amp; Ostadrahimi, A. (2023). Profiling inflammatory biomarkers following curcumin supplementation: An umbrella meta-analysis of randomized clinical trials. <em>Evidence-Based Complementary and Alternative Medicine, 2023</em>, Artikel 4875636.",
+   "doi": "10.1155/2023/4875636"
+  },
+  "dehzad2023a": {
+   "short": "Dehzad et al., 2023a",
+   "year": 2023,
+   "type": "Metaanalyse mit Dosis-Wirkungs-Analyse",
+   "basis": "Abstract",
+   "pmid": "36804260",
+   "apa": "Dehzad, M. J., Ghalandari, H., Nouri, M. &amp; Askarpour, M. (2023a). Antioxidant and anti-inflammatory effects of curcumin/turmeric supplementation in adults: A GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. <em>Cytokine, 164</em>, Artikel 156144.",
+   "doi": "10.1016/j.cyto.2023.156144"
+  },
+  "dehzad2023b": {
+   "short": "Dehzad et al., 2023b",
+   "year": 2023,
+   "type": "Metaanalyse mit Dosis-Wirkungs-Analyse",
+   "basis": "Abstract",
+   "pmid": "37178581",
+   "apa": "Dehzad, M. J., Ghalandari, H., Amini, M. R. &amp; Askarpour, M. (2023b). Effects of curcumin/turmeric supplementation on liver function in adults: A GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. <em>Complementary Therapies in Medicine, 74</em>, Artikel 102952.",
+   "doi": "10.1016/j.ctim.2023.102952"
+  },
+  "oxley2024": {
+   "short": "Oxley & Peart, 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37408367",
+   "apa": "Oxley, R. A. &amp; Peart, D. J. (2024). The effect of curcumin supplementation on functional strength outcomes and markers of exercise-induced muscle damage: A systematic review and meta-analysis. <em>Nutrition and Health, 30</em>(1), 77–92.",
+   "doi": "10.1177/02601060231186439"
+  },
+  "liu2024": {
+   "short": "Liu et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39008500",
+   "apa": "Liu, X., Lin, L. &amp; Hu, G. (2024). Meta-analysis of the effect of curcumin supplementation on skeletal muscle damage status. <em>PLOS ONE, 19</em>(7), Artikel e0299135.",
+   "doi": "10.1371/journal.pone.0299135"
+  },
+  "danielvasile2024": {
+   "short": "Daniel Vasile et al., 2024",
+   "year": 2024,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "39623590",
+   "apa": "Daniel Vasile, P. R., Patricia, M. L., Marta, M. S. &amp; Laura, E. (2024). Evaluation of curcumin intake in reducing exercise-induced muscle damage in athletes: A systematic review. <em>Journal of the International Society of Sports Nutrition, 21</em>(1), Artikel 2434217.",
+   "doi": "10.1080/15502783.2024.2434217"
+  },
+  "talebi2024": {
+   "short": "Talebi et al., 2024",
+   "year": 2024,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "37460208",
+   "apa": "Talebi, S., Mohammadi, H., Zeraattalab-Motlagh, S., Arab, A., Keshavarz Mohammadian, M., Ghoreishy, S. M., Abbaspour Tehrani Fard, M., Amiri Khosroshahi, R. &amp; Djafarian, K. (2024). Nutritional interventions for exercise-induced muscle damage: An umbrella review of systematic reviews and meta-analyses of randomized trials. <em>Nutrition Reviews, 82</em>(5), 639–653.",
+   "doi": "10.1093/nutrit/nuad078"
+  },
+  "bucevicpopovic2024": {
+   "short": "Bučević Popović et al., 2024",
+   "year": 2024,
+   "type": "Methodenstudie zu systematischen Reviews",
+   "basis": "Abstract",
+   "pmid": "38399379",
+   "apa": "Bučević Popović, V., Karahmet Farhat, E., Banjari, I., Jeličić Kadić, A. &amp; Puljak, L. (2024). Bioavailability of oral curcumin in systematic reviews: A methodological study. <em>Pharmaceuticals, 17</em>(2), Artikel 164.",
+   "doi": "10.3390/ph17020164"
+  },
+  "lloretgil2026": {
+   "short": "Lloret-Gil et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "42356379",
+   "apa": "Lloret-Gil, J., Victoria-Montesinos, D. &amp; Martínez-Noguera, F. J. (2026). Effects of curcumin supplementation on exercise recovery, oxidative stress, inflammation, muscle damage, and performance in exercise and sport contexts: A systematic review. <em>Nutrients, 18</em>(12), Artikel 1992.",
+   "doi": "10.3390/nu18121992"
+  },
+  "shi2026": {
+   "short": "Shi et al., 2026",
+   "year": 2026,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "42254374",
+   "apa": "Shi, C., Zhang, T., Xie, Y., Li, J., Chen, C. &amp; Liu, J. (2026). Efficacy and safety of different curcumin formulations in osteoarthritis: An umbrella review of systematic reviews. <em>Frontiers in Medicine, 13</em>, Artikel 1801273.",
+   "doi": "10.3389/fmed.2026.1801273"
+  },
+  "akhtar2026": {
+   "short": "Akhtar et al., 2026",
+   "year": 2026,
+   "type": "Sicherheitsbewertung (USP-Expertenkomitee)",
+   "basis": "Abstract",
+   "pmid": "42364655",
+   "apa": "Akhtar, N., Barnes, J., Gardiner, P., Gurley, B. J., Ko, R., Koturbash, I., Patel, D., van Breemen, R. B. &amp; Roe, A. L. (2026). Rarely reported cases of hepatotoxicity associated with turmeric- and curcuminoid-containing dietary supplements: A comprehensive review by USP. <em>Pharmaceutical Biology, 64</em>(1), 866–901.",
+   "doi": "10.1080/13880209.2026.2693375"
+  }
+ }
+}

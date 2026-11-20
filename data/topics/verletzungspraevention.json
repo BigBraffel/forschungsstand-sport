@@ -1,0 +1,969 @@
+{
+ "id": "verletzungspraevention",
+ "title": "Verletzungsprävention",
+ "stand": "2026-11-20",
+ "lead": "Welche Trainingsmaßnahmen senken das Verletzungsrisiko gesunder Sportler wirklich: Krafttraining, neuromuskuläre Programme, Nordic Hamstrings, Gleichgewichtstraining oder Belastungssteuerung? Zusammengefasst aus Metaanalysen und Umbrella Reviews; Rehabilitation nach Verletzungen ist nicht Thema dieser Seite.",
+ "def": {
+  "t": "Verletzungsprävention umfasst Maßnahmen, die Häufigkeit oder Schwere von Sportverletzungen senken. Übungsbasierte Präventionsprogramme kombinieren meist mehrere Bausteine wie Kraft-, Gleichgewichts-, Sprung-, Beweglichkeits-, Technik- und Aufwärmübungen; Kraft- und Gleichgewichtsübungen gelten als zentrale Bestandteile. Diese Seite behandelt die Vorbeugung bei gesunden Sportlern (Primärprävention), nicht die Rehabilitation.",
+  "s": [
+   "brunner2019",
+   "lauersen2014"
+  ]
+ },
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, vor allem erwachsene Sportler. Am besten belegt sind Krafttraining und strukturierte neuromuskuläre Programme, wenn sie regelmäßig und angeleitet durchgeführt werden. Dehnen allein schützt nicht.",
+ "rx": [
+  {
+   "label": "Krafttraining",
+   "value": "fester Bestandteil des Trainings",
+   "text": "Krafttraining senkte Sportverletzungen auf etwa ein Drittel; mehr Krafttrainingsvolumen ging mit geringerem Risiko einher.",
+   "cite": "Lauersen et al. 2014; Lauersen et al. 2018"
+  },
+  {
+   "label": "Teamsport",
+   "value": "neuromuskuläres Aufwärmprogramm (z. B. FIFA 11+) regelmäßig und angeleitet",
+   "text": "Programme mit Kraft-, Gleichgewichts- und Sprungübungen senkten Bein-, Knie-, Kreuzband- und Sprunggelenksverletzungen. Wirksam waren sie nur bei hoher Regelmäßigkeit und unter Anleitung.",
+   "cite": "Brunner et al. 2019; Valentin et al. 2024; Viiala et al. 2026"
+  },
+  {
+   "label": "Hintere Oberschenkel",
+   "value": "Nordic Hamstrings ins Programm aufnehmen",
+   "text": "Programme mit Nordic Hamstrings halbierten etwa die Zerrungsrate; die Belege aus streng randomisierten Studien sind aber weniger sicher.",
+   "cite": "van Dyk et al. 2019; Impellizzeri et al. 2021"
+  },
+  {
+   "label": "Sprunggelenk",
+   "value": "Gleichgewichtstraining, besonders nach früherem Umknicken",
+   "text": "Gleichgewichts- und propriozeptives Training senkte Sprunggelenksverletzungen um etwa ein Drittel; bei früherer Verletzung am deutlichsten.",
+   "cite": "Schiftan et al. 2015; Al Attar et al. 2022"
+  },
+  {
+   "label": "Belastung",
+   "value": "sprunghafte Steigerungen vermeiden, ACWR nicht allein steuern",
+   "text": "Rasche Belastungsspitzen gehen mit mehr Verletzungen einher. Die Acute:Chronic Workload Ratio ist aber kein belegtes Steuerungsinstrument.",
+   "cite": "Ding et al. 2026; Impellizzeri et al. 2020"
+  }
+ ],
+ "note": "<b>Verweise:</b> Dehnen und Verletzungen ausführlich unter <a href=\"#dehnen\">Dehnen und Beweglichkeit</a>, Aufwärmen allgemein unter <a href=\"#aufwaermen\">Aufwärmen</a>. <b>Population:</b> Viele Kreuzband- und Fußballstudien schließen Jugendliche ein; wo verfügbar, sind Ergebnisse für Erwachsene getrennt genannt.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Krafttraining schützt am stärksten",
+   "ev": "hoch",
+   "p": "Krafttraining senkte Sportverletzungen auf etwa ein Drittel (RR 0,32 bzw. 0,34), Dehnen hatte keinen Effekt.",
+   "s": [
+    "lauersen2014",
+    "lauersen2018"
+   ]
+  },
+  {
+   "t": "Neuromuskuläre Programme wirken, wenn man sie durchführt",
+   "ev": "hoch",
+   "p": "Mehrteilige Programme senkten Bein-, Knie-, Kreuzband- und Sprunggelenksverletzungen; ohne Anleitung oder bei geringer Regelmäßigkeit verschwand der Effekt.",
+   "s": [
+    "brunner2019",
+    "valentin2024",
+    "viiala2026"
+   ]
+  },
+  {
+   "t": "Kreuzbandrisse etwa halbiert",
+   "ev": "hoch",
+   "p": "Präventionsprogramme senkten Kreuzbandrisse um rund die Hälfte; bei Erwachsenen ist der Effekt etwas kleiner und weniger sicher.",
+   "s": [
+    "webster2018",
+    "watson2026",
+    "yao2026"
+   ]
+  },
+  {
+   "t": "Nordic Hamstrings: wahrscheinlich wirksam, Evidenz umstritten",
+   "ev": "moderat",
+   "p": "Programme mit Nordic Hamstrings halbierten die Zerrungsrate; eine Reanalyse nur echter RCTs fand keinen gesicherten Effekt.",
+   "s": [
+    "vandyk2019",
+    "impellizzeri2021"
+   ]
+  },
+  {
+   "t": "ACWR: Zusammenhang ja, Steuerungsinstrument nein",
+   "ev": "niedrig",
+   "p": "Eine hohe Acute:Chronic Workload Ratio war mit mehr Verletzungen verbunden; ein ursächlicher Zusammenhang ist nicht belegt.",
+   "s": [
+    "ding2026",
+    "impellizzeri2020"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "programme",
+   "name": "Krafttraining und neuromuskuläre Programme",
+   "q": "Welche Trainingsmaßnahmen senken Verletzungen insgesamt?",
+   "ev": "hoch",
+   "key": [
+    "25 Studien (26 610 Teilnehmende): Krafttraining senkte Verletzungen am stärksten (RR 0,315 [0,207; 0,480]), propriozeptives Training (RR 0,55 [0,35; 0,87]) und kombinierte Programme (RR 0,66 [0,52; 0,83]) ebenfalls; Dehnen nicht (RR 0,96 [0,85; 1,10]). Überlastungsverletzungen wurden fast halbiert (Lauersen et al., 2014).",
+    "6 Studien (7 738 Teilnehmende): Krafttraining senkte akute und Überlastungsverletzungen (RR 0,338 [0,238; 0,480]); 10 % mehr Krafttrainingsvolumen senkte das Risiko um über 4 Prozentpunkte; kein Publikationsbias (Lauersen et al., 2018).",
+    "Umbrella Review, 24 systematische Reviews: Mehrteilige Programme senkten Bein-, Knie-, Kreuzband- und Sprunggelenksverletzungen, nicht aber Leistenverletzungen; 10 von 11 wirksamen Programmen enthielten Kraft- und Gleichgewichtsübungen (Brunner et al., 2019).",
+    "Programme senkten Verletzungen insgesamt (RR 0,71), bei Frauen (0,73) und Männern (0,65) gleich; angeleitet wirksam (0,67), ohne Anleitung nicht (1,04); das Alter bis ins mittlere Erwachsenenalter änderte die Wirkung nicht (Valentin et al., 2024).",
+    "Bei hoher Programmtreue 47 % weniger Verletzungen (RR 0,53 [0,42; 0,67]), bei geringer kein signifikanter Effekt (RR 0,87 [0,75; 1,02]) (Viiala et al., 2026).",
+    "Frauen-Teamsport, 13 Studien (13 675 Sportlerinnen): 35 % weniger Verletzungen (RR 0,65 [0,53; 0,79]) (Gu et al., 2026b). Militär, 17 Studien: 14 % weniger (RR 0,86 [0,76; 0,98]) (Bunn et al., 2024).",
+    "Bei erwachsenen Freizeitsportlern (16 Studien) war der Effekt unsicher (RR 0,94 [0,80; 1,09]) (Liddle et al., 2024); bei Läufern (9 Studien) insgesamt nicht signifikant, nur angeleitete Programme wirkten (Wu et al., 2024)."
+   ],
+   "critic": "Für organisierte Sportler, vor allem im Teamsport, sind die Belege stark und konsistent. Bei Freizeitsportlern und Läufern fallen die Effekte kleiner und unsicher aus (Liddle et al., 2024; Wu et al., 2024); dort sind Programmtreue und Anleitung meist geringer. Mehrere Analysen zeigen übereinstimmend: Die Wirkung hängt stark von der Durchführung ab (Valentin et al., 2024; Viiala et al., 2026). Der sehr große Effekt des Krafttrainings bei Lauersen et al. (2018) stammt aus nur 6 Studien mit 177 Verletzungen und ist daher in der Größe unsicher, in der Richtung aber gut gestützt.",
+   "figs": [
+    {
+     "id": "vp-art",
+     "title": "Trainingsmaßnahmen und Verletzungsrisiko",
+     "cap": "Risikoverhältnis (RR) mit 95-%-KI; 1 = kein Unterschied, Werte unter 1 = weniger Verletzungen.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Krafttraining",
+       "sub": "Lauersen et al., 2014",
+       "es": 0.315,
+       "lo": 0.207,
+       "hi": 0.48
+      },
+      {
+       "l": "Krafttraining",
+       "sub": "Lauersen et al., 2018",
+       "es": 0.338,
+       "lo": 0.238,
+       "hi": 0.48
+      },
+      {
+       "l": "Propriozeptives Training",
+       "sub": "Lauersen et al., 2014",
+       "es": 0.55,
+       "lo": 0.347,
+       "hi": 0.869
+      },
+      {
+       "l": "Kombinierte Programme",
+       "sub": "Lauersen et al., 2014",
+       "es": 0.655,
+       "lo": 0.52,
+       "hi": 0.826
+      },
+      {
+       "l": "Programme, Frauen-Teamsport",
+       "sub": "Gu et al., 2026b",
+       "es": 0.65,
+       "lo": 0.53,
+       "hi": 0.79
+      },
+      {
+       "l": "Programme, Militär",
+       "sub": "Bunn et al., 2024",
+       "es": 0.86,
+       "lo": 0.76,
+       "hi": 0.98
+      },
+      {
+       "l": "Programme, Freizeitsportler",
+       "sub": "Liddle et al., 2024",
+       "es": 0.94,
+       "lo": 0.8,
+       "hi": 1.09
+      },
+      {
+       "l": "Dehnen",
+       "sub": "Lauersen et al., 2014",
+       "es": 0.963,
+       "lo": 0.846,
+       "hi": 1.095
+      }
+     ],
+     "opts": {
+      "min": 0.1,
+      "max": 1.2,
+      "ticks": [
+       0.2,
+       0.4,
+       0.6,
+       0.8,
+       1.0
+      ],
+      "ref": 1,
+      "leftLab": "weniger Verletzungen",
+      "rightLab": "mehr Verletzungen"
+     }
+    },
+    {
+     "id": "vp-treue",
+     "title": "Programmtreue und Anleitung",
+     "cap": "Risikoverhältnis; 95-%-KI wo im Abstract angegeben.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Hohe Programmtreue",
+       "sub": "Viiala et al., 2026",
+       "es": 0.53,
+       "lo": 0.42,
+       "hi": 0.67
+      },
+      {
+       "l": "Mittlere Programmtreue",
+       "sub": "Viiala et al., 2026",
+       "es": 0.5,
+       "lo": 0.39,
+       "hi": 0.64
+      },
+      {
+       "l": "Geringe Programmtreue",
+       "sub": "Viiala et al., 2026",
+       "es": 0.87,
+       "lo": 0.75,
+       "hi": 1.02
+      },
+      {
+       "l": "Angeleitet",
+       "sub": "Valentin et al., 2024",
+       "es": 0.67
+      },
+      {
+       "l": "Ohne Anleitung",
+       "sub": "Valentin et al., 2024",
+       "es": 1.04
+      }
+     ],
+     "opts": {
+      "min": 0.3,
+      "max": 1.2,
+      "ticks": [
+       0.4,
+       0.6,
+       0.8,
+       1.0,
+       1.2
+      ],
+      "ref": 1,
+      "leftLab": "weniger Verletzungen",
+      "rightLab": "mehr Verletzungen"
+     }
+    }
+   ],
+   "s": [
+    "lauersen2014",
+    "lauersen2018",
+    "brunner2019",
+    "valentin2024",
+    "viiala2026",
+    "gu2026b",
+    "bunn2024",
+    "liddle2024",
+    "wu2024"
+   ]
+  },
+  {
+   "id": "nordic",
+   "name": "Nordic Hamstrings und Zerrungen der hinteren Oberschenkelmuskulatur",
+   "q": "Verhindern Nordic Hamstrings Zerrungen?",
+   "ev": "moderat",
+   "key": [
+    "15 Studien: Programme mit Nordic Hamstrings senkten Zerrungen der hinteren Oberschenkelmuskulatur (RR 0,49 [0,32; 0,74]); nur RCTs: RR 0,52 [0,32; 0,85]; ohne Studien mit hohem Verzerrungsrisiko: RR 0,55 [0,34; 0,89] (van Dyk et al., 2019).",
+    "Reanalyse: nur 5 der 15 Studien randomisierten tatsächlich zu Nordic Hamstrings; mit einer weiteren RCT ergab sich RR 0,59 [0,27; 1,29] mit sehr breitem Vorhersageintervall, also kein gesicherter Effekt (Impellizzeri et al., 2021).",
+    "17 Studien: übungsbasierte Programme senkten das Risiko insgesamt (RR 0,49 [0,40; 0,59]); Häufigkeit, Laststeigerung und die Aufnahme von Nordic Hamstrings änderten den Effekt nicht (Vatovec et al., 2020).",
+    "108 Studien: exzentrisches Training senkte Zerrungen um 56,8–70,0 % und steigerte die exzentrische Kraft (Rudisill et al., 2023)."
+   ],
+   "critic": "Hier widersprechen sich die Analysen. Die Reanalyse ist methodisch strenger (nur echte Randomisierung, Vorhersageintervalle), hat aber wenige Studien und damit wenig Aussagekraft; ihr Punktschätzer (RR 0,59) zeigt in dieselbe Richtung wie die übrigen Analysen. Am wahrscheinlichsten ist ein Schutzeffekt, dessen Größe unsicher ist. Dass Nordic Hamstrings anderen Übungen überlegen sind, ist nicht belegt (Vatovec et al., 2020).",
+   "figs": [
+    {
+     "id": "vp-nordic",
+     "title": "Nordic Hamstrings und Zerrungsrisiko",
+     "cap": "Risikoverhältnis mit 95-%-KI; 1 = kein Unterschied.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Studien",
+       "sub": "van Dyk et al., 2019",
+       "es": 0.49,
+       "lo": 0.32,
+       "hi": 0.74
+      },
+      {
+       "l": "Nur RCTs",
+       "sub": "van Dyk et al., 2019",
+       "es": 0.52,
+       "lo": 0.32,
+       "hi": 0.85
+      },
+      {
+       "l": "Ohne hohes Verzerrungsrisiko",
+       "sub": "van Dyk et al., 2019",
+       "es": 0.55,
+       "lo": 0.34,
+       "hi": 0.89
+      },
+      {
+       "l": "Echte RCTs, Reanalyse",
+       "sub": "Impellizzeri et al., 2021",
+       "es": 0.59,
+       "lo": 0.27,
+       "hi": 1.29
+      },
+      {
+       "l": "Übungsprogramme allgemein",
+       "sub": "Vatovec et al., 2020",
+       "es": 0.49,
+       "lo": 0.4,
+       "hi": 0.59
+      }
+     ],
+     "opts": {
+      "min": 0.2,
+      "max": 1.4,
+      "ticks": [
+       0.2,
+       0.6,
+       1.0,
+       1.4
+      ],
+      "ref": 1,
+      "leftLab": "weniger Zerrungen",
+      "rightLab": "mehr Zerrungen"
+     }
+    }
+   ],
+   "s": [
+    "vandyk2019",
+    "impellizzeri2021",
+    "vatovec2020",
+    "rudisill2023"
+   ]
+  },
+  {
+   "id": "kreuzband",
+   "name": "Kreuzbandprävention",
+   "q": "Wie stark senken Programme das Risiko für Kreuzbandrisse?",
+   "ev": "hoch",
+   "key": [
+    "8 Metaanalysen: Präventionsprogramme senkten alle Kreuzbandverletzungen um 50 % (OR 0,5 [0,41; 0,59]) und nicht-kontaktbedingte bei Frauen um 67 % (OR 0,33 [0,27; 0,41]); für Männer zu wenige Daten (Webster &amp; Hewett, 2018).",
+    "8 hochwertige Studien: 53 % weniger Kreuzbandverletzungen (Ratenverhältnis 0,47 [0,30; 0,73]); die Programme enthielten meist Sprung-, Kraft- und Agilitätsübungen mit Rückmeldung zur Landetechnik (Huang et al., 2020).",
+    "18 Studien (25 166 Sportler, über 85 % weiblich): RR 0,46 [0,36; 0,57]; ab 18 Jahren RR 0,50 [0,38; 0,64], unter 18 Jahren RR 0,35 [0,22; 0,55] (Watson et al., 2026).",
+    "19 Studien: OR 0,456 [0,331; 0,627]; bei unter 18-Jährigen signifikant (OR 0,365), ab 18 Jahren nicht (OR 0,567 [0,291; 1,104]); der Effekt nahm mit dem Alter tendenziell ab (Yao et al., 2026). Frauen-Teamsport: RR 0,62 [0,43; 0,89] (Gu et al., 2026b)."
+   ],
+   "critic": "Der Schutzeffekt ist über viele Analysen konsistent und groß. Einschränkungen: Die Studien betreffen überwiegend junge Frauen im Hallen- und Fußballsport; für Männer und Erwachsene sind die Daten dünner. Bei Erwachsenen fand Watson et al. (2026) einen signifikanten Effekt, Yao et al. (2026) nicht; die Punktschätzer beider Analysen (0,50 bzw. 0,57) liegen nahe beieinander. Wahrscheinlich wirken die Programme auch bei Erwachsenen, aber etwas schwächer als bei Jugendlichen.",
+   "figs": [
+    {
+     "id": "vp-acl",
+     "title": "Präventionsprogramme und Kreuzbandverletzungen",
+     "cap": "Risiko- bzw. Odds Ratio mit 95-%-KI; 1 = kein Unterschied.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Sportler (OR)",
+       "sub": "Webster &amp; Hewett, 2018",
+       "es": 0.5,
+       "lo": 0.41,
+       "hi": 0.59
+      },
+      {
+       "l": "Frauen, ohne Kontakt (OR)",
+       "sub": "Webster &amp; Hewett, 2018",
+       "es": 0.33,
+       "lo": 0.27,
+       "hi": 0.41
+      },
+      {
+       "l": "Hochwertige Studien (Rate)",
+       "sub": "Huang et al., 2020",
+       "es": 0.47,
+       "lo": 0.3,
+       "hi": 0.73
+      },
+      {
+       "l": "Alle (RR)",
+       "sub": "Watson et al., 2026",
+       "es": 0.46,
+       "lo": 0.36,
+       "hi": 0.57
+      },
+      {
+       "l": "Ab 18 Jahren (RR)",
+       "sub": "Watson et al., 2026",
+       "es": 0.5,
+       "lo": 0.38,
+       "hi": 0.64
+      },
+      {
+       "l": "Ab 18 Jahren (OR)",
+       "sub": "Yao et al., 2026",
+       "es": 0.567,
+       "lo": 0.291,
+       "hi": 1.104
+      },
+      {
+       "l": "Frauen-Teamsport (RR)",
+       "sub": "Gu et al., 2026b",
+       "es": 0.62,
+       "lo": 0.43,
+       "hi": 0.89
+      }
+     ],
+     "opts": {
+      "min": 0.2,
+      "max": 1.2,
+      "ticks": [
+       0.2,
+       0.4,
+       0.6,
+       0.8,
+       1.0
+      ],
+      "ref": 1,
+      "leftLab": "weniger Verletzungen",
+      "rightLab": "mehr Verletzungen"
+     }
+    }
+   ],
+   "s": [
+    "webster2018",
+    "huang2020",
+    "watson2026",
+    "yao2026",
+    "gu2026b"
+   ]
+  },
+  {
+   "id": "sprunggelenk",
+   "name": "Sprunggelenk",
+   "q": "Verhindert Gleichgewichtstraining das Umknicken?",
+   "ev": "hoch",
+   "key": [
+    "7 RCTs (3 726 Teilnehmende): propriozeptives Training senkte Sprunggelenksverstauchungen (RR 0,65 [0,55; 0,77]), auch bei früherer Verstauchung (RR 0,64 [0,51; 0,81]); für die Erstvorbeugung ohne Vorverletzung blieb die Evidenz unklar (Schiftan et al., 2015).",
+    "8 Studien in der Metaanalyse (n = 1 722): Gleichgewichtstraining senkte Verstauchungen um 38 % (RR 0,62 [0,43; 0,90]) (de Vasconcelos et al., 2018).",
+    "Fußball, 4 959 Spieler: Programme mit Gleichgewichtsübungen senkten Sprunggelenksverletzungen um 36 % (IRR 0,64 [0,54; 0,77]), FIFA-Programme um 37 % (Al Attar et al., 2022).",
+    "9 RCTs (n = 11 687): FIFA-Programme senkten Sprunggelenksverletzungen um 38 % (RR 0,62 [0,50; 0,78]); FIFA 11+ wirksam (RR 0,57), das ältere FIFA 11 nicht (RR 0,94); bei Frauen kein signifikanter Effekt (RR 0,87); kleinere Studien zeigten größere Effekte (Gu et al., 2026a)."
+   ],
+   "critic": "Vier Analysen stimmen in einer Risikosenkung um etwa ein Drittel überein. Am klarsten ist der Nutzen nach früherem Umknicken; für Sportler ohne Vorverletzung ist er weniger sicher (Schiftan et al., 2015). Kleinere Studien zeigten größere Effekte, was auf eine Überschätzung hindeutet (Gu et al., 2026a). Ein Teil der Fußballstudien schließt Kinder und Jugendliche ein.",
+   "figs": [
+    {
+     "id": "vp-ankle",
+     "title": "Gleichgewichtstraining und Sprunggelenksverletzungen",
+     "cap": "Risikoverhältnis mit 95-%-KI; 1 = kein Unterschied.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Propriozeptives Training, alle",
+       "sub": "Schiftan et al., 2015",
+       "es": 0.65,
+       "lo": 0.55,
+       "hi": 0.77
+      },
+      {
+       "l": "Nach früherer Verstauchung",
+       "sub": "Schiftan et al., 2015",
+       "es": 0.64,
+       "lo": 0.51,
+       "hi": 0.81
+      },
+      {
+       "l": "Gleichgewichtstraining",
+       "sub": "de Vasconcelos et al., 2018",
+       "es": 0.62,
+       "lo": 0.43,
+       "hi": 0.9
+      },
+      {
+       "l": "Programme mit Gleichgewicht, Fußball",
+       "sub": "Al Attar et al., 2022",
+       "es": 0.64,
+       "lo": 0.54,
+       "hi": 0.77
+      },
+      {
+       "l": "FIFA-Programme",
+       "sub": "Gu et al., 2026a",
+       "es": 0.62,
+       "lo": 0.5,
+       "hi": 0.78
+      }
+     ],
+     "opts": {
+      "min": 0.3,
+      "max": 1.1,
+      "ticks": [
+       0.4,
+       0.6,
+       0.8,
+       1.0
+      ],
+      "ref": 1,
+      "leftLab": "weniger Verletzungen",
+      "rightLab": "mehr Verletzungen"
+     }
+    }
+   ],
+   "s": [
+    "schiftan2015",
+    "devasconcelos2018",
+    "alattar2022",
+    "gu2026a"
+   ]
+  },
+  {
+   "id": "belastung",
+   "name": "Trainingsbelastung und Acute:Chronic Workload Ratio",
+   "q": "Lassen sich Verletzungen über die Belastungssteuerung verhindern?",
+   "ev": "niedrig",
+   "key": [
+    "Das Konzept: Die Acute:Chronic Workload Ratio (ACWR) setzt die Belastung der letzten Woche ins Verhältnis zur mittleren Belastung der Vorwochen; hohe, gut aufgebaute Belastung soll schützen, rasche Spitzen sollen das Risiko erhöhen (Gabbett, 2016).",
+    "57 Studien: in 47 ein zumindest teilweise signifikanter Zusammenhang zwischen Trainingsbelastung und Verletzungsrisiko, am stärksten für die subjektive innere Belastung; die Richtung hing von Art und Zeitraum der Messung ab (Eckard et al., 2018).",
+    "20 Studien (1 234 Profisportler): meist höheres Risiko bei hoher ACWR, aber 14 verschiedene Einteilungen der ACWR-Werte (Andrade et al., 2020).",
+    "16 Studien (797 Sportler): hohe ACWR klein bis moderat mit Verletzungen verbunden (g 0,35 [0,16; 0,54]), bei sehr hoher Heterogenität (I² 95,8 %); kein Effekt für Ausfallzeit-Verletzungen; nicht als alleiniges Vorhersagemodell geeignet (Ding et al., 2026).",
+    "Methodische Kritik: Kein Beleg für einen ursächlichen Zusammenhang; die ACWR ist als Verhältniszahl statistisch fehlerhaft und erzeugt Artefakte; keine Grundlage für Trainingsempfehlungen zur Verletzungsvorbeugung (Impellizzeri et al., 2020)."
+   ],
+   "critic": "Die frühe Begeisterung für die ACWR (Gabbett, 2016) wurde durch methodische Arbeiten stark relativiert. Beobachtungsstudien zeigen einen Zusammenhang, aber mit sehr uneinheitlichen Methoden und ohne Belege, dass eine Steuerung der ACWR Verletzungen verhindert. Interventionsstudien fehlen. Wahrscheinlich ist: Plötzliche starke Belastungssteigerungen sind ungünstig, die ACWR als Zahl ist aber kein verlässliches Werkzeug.",
+   "figs": [],
+   "s": [
+    "gabbett2016",
+    "eckard2018",
+    "andrade2020",
+    "ding2026",
+    "impellizzeri2020"
+   ]
+  },
+  {
+   "id": "dehnen",
+   "name": "Dehnen",
+   "q": "Hilft Dehnen gegen Verletzungen?",
+   "ev": "hoch",
+   "key": [
+    "Dehnen senkte das Verletzungsrisiko nicht (RR 0,963 [0,846; 1,095]), im Gegensatz zu Kraft- und propriozeptivem Training (Lauersen et al., 2014)."
+   ],
+   "critic": "Kurz zusammengefasst; weitere Metaanalysen und die Frage nach Muskelzerrungen auf der Seite <a href=\"#dehnen\">Dehnen und Beweglichkeit</a>.",
+   "figs": [],
+   "s": [
+    "lauersen2014"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2014,
+   "t": "Krafttraining statt Dehnen",
+   "p": "Krafttraining senkt Verletzungen auf ein Drittel, Dehnen ohne Effekt.",
+   "tag": "neu",
+   "s": "lauersen2014"
+  },
+  {
+   "y": 2015,
+   "t": "Propriozeptives Training gegen Umknicken",
+   "p": "Ein Drittel weniger Verstauchungen, vor allem nach Vorverletzung.",
+   "tag": "neu",
+   "s": "schiftan2015"
+  },
+  {
+   "y": 2016,
+   "t": "Trainings-Präventions-Paradox",
+   "p": "Hohe, gut aufgebaute Belastung soll schützen; ACWR als Prädiktor vorgeschlagen.",
+   "tag": "neu",
+   "s": "gabbett2016"
+  },
+  {
+   "y": 2018,
+   "t": "Krafttraining dosisabhängig wirksam",
+   "p": "Mehr Volumen, weniger Verletzungen.",
+   "tag": "conf",
+   "s": "lauersen2018"
+  },
+  {
+   "y": 2018,
+   "t": "Kreuzbandrisse halbiert",
+   "p": "Metaanalyse von 8 Metaanalysen.",
+   "tag": "neu",
+   "s": "webster2018"
+  },
+  {
+   "y": 2018,
+   "t": "Gleichgewichtstraining bestätigt",
+   "p": "38 % weniger Verstauchungen.",
+   "tag": "conf",
+   "s": "devasconcelos2018"
+  },
+  {
+   "y": 2018,
+   "t": "Belastung und Verletzungen",
+   "p": "Zusammenhang in den meisten Studien, Richtung uneinheitlich.",
+   "tag": "neu",
+   "s": "eckard2018"
+  },
+  {
+   "y": 2019,
+   "t": "Kraft und Gleichgewicht als Kernbausteine",
+   "p": "Umbrella Review: mehrteilige Programme wirksam.",
+   "tag": "conf",
+   "s": "brunner2019"
+  },
+  {
+   "y": 2019,
+   "t": "Nordic Hamstrings halbieren Zerrungen",
+   "p": "RR 0,49 über 15 Studien.",
+   "tag": "neu",
+   "s": "vandyk2019"
+  },
+  {
+   "y": 2020,
+   "t": "Übungsprogramme gegen Zerrungen",
+   "p": "Halbiertes Risiko, unabhängig von Häufigkeit.",
+   "tag": "conf",
+   "s": "vatovec2020"
+  },
+  {
+   "y": 2020,
+   "t": "Kreuzband: hochwertige Studien bestätigen",
+   "p": "53 % weniger Verletzungen.",
+   "tag": "conf",
+   "s": "huang2020"
+  },
+  {
+   "y": 2020,
+   "t": "ACWR methodisch uneinheitlich",
+   "p": "14 verschiedene Einteilungen.",
+   "tag": "rel",
+   "s": "andrade2020"
+  },
+  {
+   "y": 2020,
+   "t": "ACWR grundlegend kritisiert",
+   "p": "Kein Kausalbeleg, statistische Artefakte.",
+   "tag": "contra",
+   "s": "impellizzeri2020"
+  },
+  {
+   "y": 2021,
+   "t": "Nordic Hamstrings: Reanalyse",
+   "p": "Nur echte RCTs: kein gesicherter Effekt.",
+   "tag": "contra",
+   "s": "impellizzeri2021"
+  },
+  {
+   "y": 2022,
+   "t": "Gleichgewicht im Fußball",
+   "p": "36 % weniger Sprunggelenksverletzungen.",
+   "tag": "conf",
+   "s": "alattar2022"
+  },
+  {
+   "y": 2023,
+   "t": "Exzentrisches Training gegen Zerrungen",
+   "p": "57–70 % weniger Zerrungen.",
+   "tag": "conf",
+   "s": "rudisill2023"
+  },
+  {
+   "y": 2024,
+   "t": "Anleitung entscheidend",
+   "p": "Nur angeleitete Programme wirksam.",
+   "tag": "rel",
+   "s": "valentin2024"
+  },
+  {
+   "y": 2024,
+   "t": "Freizeitsportler: Effekt unsicher",
+   "p": "Kein robuster Effekt bei erwachsenen Freizeitsportlern.",
+   "tag": "contra",
+   "s": "liddle2024"
+  },
+  {
+   "y": 2024,
+   "t": "Läufer: nur angeleitete Programme",
+   "p": "Insgesamt kein signifikanter Effekt.",
+   "tag": "contra",
+   "s": "wu2024"
+  },
+  {
+   "y": 2024,
+   "t": "Militär: kleiner Effekt",
+   "p": "14 % weniger Verletzungen.",
+   "tag": "conf",
+   "s": "bunn2024"
+  },
+  {
+   "y": 2026,
+   "t": "Programmtreue entscheidet",
+   "p": "Bei geringer Treue kein Effekt.",
+   "tag": "conf",
+   "s": "viiala2026"
+  },
+  {
+   "y": 2026,
+   "t": "Frauen-Teamsport",
+   "p": "35 % weniger Verletzungen, auch Kreuzband und Sprunggelenk.",
+   "tag": "conf",
+   "s": "gu2026b"
+  },
+  {
+   "y": 2026,
+   "t": "Kreuzband: auch bei Erwachsenen",
+   "p": "RR 0,50 ab 18 Jahren.",
+   "tag": "conf",
+   "s": "watson2026"
+  },
+  {
+   "y": 2026,
+   "t": "Kreuzband: schwächer mit dem Alter",
+   "p": "Ab 18 Jahren nicht signifikant.",
+   "tag": "rel",
+   "s": "yao2026"
+  },
+  {
+   "y": 2026,
+   "t": "FIFA-Programme und Sprunggelenk",
+   "p": "FIFA 11+ wirksam, FIFA 11 nicht.",
+   "tag": "conf",
+   "s": "gu2026a"
+  },
+  {
+   "y": 2026,
+   "t": "ACWR-Metaanalyse",
+   "p": "Kleiner bis moderater Zusammenhang, kein alleiniges Steuerungsmodell.",
+   "tag": "rel",
+   "s": "ding2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3 921 Einträgen, 592 Übersichtsarbeiten nach Titel geprüft, 26 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "lauersen2014": {
+   "short": "Lauersen et al., 2014",
+   "year": 2014,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24100287",
+   "apa": "Lauersen, J. B., Bertelsen, D. M. &amp; Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: A systematic review and meta-analysis of randomised controlled trials. <em>British Journal of Sports Medicine, 48</em>(11), 871–877.",
+   "doi": "10.1136/bjsports-2013-092538"
+  },
+  "lauersen2018": {
+   "short": "Lauersen et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30131332",
+   "apa": "Lauersen, J. B., Andersen, T. E. &amp; Andersen, L. B. (2018). Strength training as superior, dose-dependent and safe prevention of acute and overuse sports injuries: A systematic review, qualitative analysis and meta-analysis. <em>British Journal of Sports Medicine, 52</em>(24), 1557–1563.",
+   "doi": "10.1136/bjsports-2018-099078"
+  },
+  "brunner2019": {
+   "short": "Brunner et al., 2019",
+   "year": 2019,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "30201793",
+   "apa": "Brunner, R., Friesenbichler, B., Casartelli, N. C., Bizzini, M., Maffiuletti, N. A. &amp; Niedermann, K. (2019). Effectiveness of multicomponent lower extremity injury prevention programmes in team-sport athletes: An umbrella review. <em>British Journal of Sports Medicine, 53</em>(5), 282–288.",
+   "doi": "10.1136/bjsports-2017-098944"
+  },
+  "valentin2024": {
+   "short": "Valentin et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37283040",
+   "apa": "Valentin, S., Linton, L. &amp; Sculthorpe, N. F. (2024). Effect of supervision and athlete age and sex on exercise-based injury prevention programme effectiveness in sport: A meta-analysis of 44 studies. <em>Research in Sports Medicine, 32</em>(5), 705–724.",
+   "doi": "10.1080/15438627.2023.2220059"
+  },
+  "viiala2026": {
+   "short": "Viiala et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40764021",
+   "apa": "Viiala, J., Čech, P., Bakalár, P., Paravlic, A., Ružbarský, P., Sučka, J., Toivo, K., Parkkari, J. &amp; Leppänen, M. (2026). Effect of adherence to exercise-based injury prevention programmes on the risk of sports injuries: A systematic review and meta-analysis of randomised controlled trials. <em>Injury Prevention, 32</em>(1), 31–40.",
+   "doi": "10.1136/ip-2025-045632"
+  },
+  "liddle2024": {
+   "short": "Liddle et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37889449",
+   "apa": "Liddle, N., Taylor, J. M., Chesterton, P. &amp; Atkinson, G. (2024). The effects of exercise-based injury prevention programmes on injury risk in adult recreational athletes: A systematic review and meta-analysis. <em>Sports Medicine, 54</em>(3), 645–658.",
+   "doi": "10.1007/s40279-023-01950-w"
+  },
+  "gu2026b": {
+   "short": "Gu et al., 2026b",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42812234",
+   "apa": "Gu, J., Li, Y., Deng, H., Qi, Y., Xiao, L. &amp; Zhang, R. (2026). Effectiveness of injury prevention programmes in female team sports: A systematic review and meta-analysis of hierarchical injury outcomes, training dose-response relationships, and adherence. <em>Frontiers in Public Health, 14</em>, Artikel 1950998.",
+   "doi": "10.3389/fpubh.2026.1950998"
+  },
+  "bunn2024": {
+   "short": "Bunn et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35732343",
+   "apa": "Bunn, P. D. S., Sodré, R. D. S., Matos, M. I., Saliba, G. F., Silva, G. D. P., Caldas, R., Esteves, J. D. S. &amp; Silva, E. B. (2024). Effects of prevention programmes on injury risk in military personnel: A systematic review with meta-analysis. <em>BMJ Military Health, 170</em>(6), 529–536.",
+   "doi": "10.1136/bmjmilitary-2022-002098"
+  },
+  "wu2024": {
+   "short": "Wu et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38261240",
+   "apa": "Wu, H., Brooke-Wavell, K., Fong, D. T. P., Paquette, M. R. &amp; Blagrove, R. C. (2024). Do exercise-based prevention programs reduce injury in endurance runners? A systematic review and meta-analysis. <em>Sports Medicine, 54</em>(5), 1249–1267.",
+   "doi": "10.1007/s40279-024-01993-7"
+  },
+  "vandyk2019": {
+   "short": "van Dyk et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30808663",
+   "apa": "van Dyk, N., Behan, F. P. &amp; Whiteley, R. (2019). Including the Nordic hamstring exercise in injury prevention programmes halves the rate of hamstring injuries: A systematic review and meta-analysis of 8459 athletes. <em>British Journal of Sports Medicine, 53</em>(21), 1362–1370.",
+   "doi": "10.1136/bjsports-2018-100045"
+  },
+  "impellizzeri2021": {
+   "short": "Impellizzeri et al., 2021",
+   "year": 2021,
+   "type": "Methodische Reanalyse (Metaanalyse)",
+   "basis": "Abstract",
+   "pmid": "34520846",
+   "apa": "Impellizzeri, F. M., McCall, A. &amp; van Smeden, M. (2021). Why methods matter in a meta-analysis: A reappraisal showed inconclusive injury preventive effect of Nordic hamstring exercise. <em>Journal of Clinical Epidemiology, 140</em>, 111–124.",
+   "doi": "10.1016/j.jclinepi.2021.09.007"
+  },
+  "vatovec2020": {
+   "short": "Vatovec et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31680644",
+   "apa": "Vatovec, R., Kozinc, Ž. &amp; Šarabon, N. (2020). Exercise interventions to prevent hamstring injuries in athletes: A systematic review and meta-analysis. <em>European Journal of Sport Science, 20</em>(7), 992–1004.",
+   "doi": "10.1080/17461391.2019.1689300"
+  },
+  "rudisill2023": {
+   "short": "Rudisill et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35384731",
+   "apa": "Rudisill, S. S., Varady, N. H., Kucharik, M. P., Eberlin, C. T. &amp; Martin, S. D. (2023). Evidence-Based hamstring injury prevention and risk factor management: A systematic review and meta-analysis of randomized controlled trials. <em>The American Journal of Sports Medicine, 51</em>(7), 1927–1942.",
+   "doi": "10.1177/03635465221083998"
+  },
+  "webster2018": {
+   "short": "Webster & Hewett, 2018",
+   "year": 2018,
+   "type": "Metaanalyse von Metaanalysen",
+   "basis": "Abstract",
+   "pmid": "29737024",
+   "apa": "Webster, K. E. &amp; Hewett, T. E. (2018). Meta-analysis of meta-analyses of anterior cruciate ligament injury reduction training programs. <em>Journal of Orthopaedic Research, 36</em>(10), 2696–2708.",
+   "doi": "10.1002/jor.24043"
+  },
+  "huang2020": {
+   "short": "Huang et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31469584",
+   "apa": "Huang, Y. L., Jung, J., Mulligan, C. M. S., Oh, J. &amp; Norcross, M. F. (2020). A majority of anterior cruciate ligament injuries can be prevented by injury prevention programs: A systematic review of randomized controlled trials and cluster-randomized controlled trials with meta-analysis. <em>The American Journal of Sports Medicine, 48</em>(6), 1505–1515.",
+   "doi": "10.1177/0363546519870175"
+  },
+  "watson2026": {
+   "short": "Watson et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41486737",
+   "apa": "Watson, S. L., Gohal, C., Owen, M. M., Bajaj, P. M., Plantz, M. A. &amp; Tjong, V. K. (2026). A systematic review and meta-analysis of anterior cruciate ligament injury prevention programs: Training to stay in the game. <em>The American Journal of Sports Medicine, 54</em>(3), 733–740.",
+   "doi": "10.1177/03635465251376670"
+  },
+  "yao2026": {
+   "short": "Yao et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42273628",
+   "apa": "Yao, Y., Niu, X., Shao, N. &amp; Yao, Y. (2026). Age-related differences in the effectiveness of neuromuscular training for preventing anterior cruciate ligament injuries in athletes: A systematic review and meta-analysis. <em>Frontiers in Public Health, 14</em>, Artikel 1801019.",
+   "doi": "10.3389/fpubh.2026.1801019"
+  },
+  "schiftan2015": {
+   "short": "Schiftan et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24831756",
+   "apa": "Schiftan, G. S., Ross, L. A. &amp; Hahne, A. J. (2015). The effectiveness of proprioceptive training in preventing ankle sprains in sporting populations: A systematic review and meta-analysis. <em>Journal of Science and Medicine in Sport, 18</em>(3), 238–244.",
+   "doi": "10.1016/j.jsams.2014.04.005"
+  },
+  "devasconcelos2018": {
+   "short": "de Vasconcelos et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29996668",
+   "apa": "de Vasconcelos, G. S., Cini, A., Sbruzzi, G. &amp; Lima, C. S. (2018). Effects of proprioceptive training on the incidence of ankle sprain in athletes: Systematic review and meta-analysis. <em>Clinical Rehabilitation, 32</em>(12), 1581–1590.",
+   "doi": "10.1177/0269215518788683"
+  },
+  "alattar2022": {
+   "short": "Al Attar et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35753965",
+   "apa": "Al Attar, W. S. A., Khaledi, E. H., Bakhsh, J. M., Faude, O., Ghulam, H. &amp; Sanders, R. H. (2022). Injury prevention programs that include balance training exercises reduce ankle injury rates among soccer players: A systematic review. <em>Journal of Physiotherapy, 68</em>(3), 165–173.",
+   "doi": "10.1016/j.jphys.2022.05.019"
+  },
+  "gu2026a": {
+   "short": "Gu et al., 2026a",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41073236",
+   "apa": "Gu, J., Chen, S., Sun, J. &amp; Zhang, R. (2026). FIFA neuromuscular training programs on ankle injuries in football players: A meta-analysis with emphasis on evidence gaps. <em>Foot and Ankle Surgery, 32</em>(3), 229–237.",
+   "doi": "10.1016/j.fas.2025.10.005"
+  },
+  "gabbett2016": {
+   "short": "Gabbett, 2016",
+   "year": 2016,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "26758673",
+   "apa": "Gabbett, T. J. (2016). The training-injury prevention paradox: Should athletes be training smarter and harder?. <em>British Journal of Sports Medicine, 50</em>(5), 273–280.",
+   "doi": "10.1136/bjsports-2015-095788"
+  },
+  "eckard2018": {
+   "short": "Eckard et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "29943231",
+   "apa": "Eckard, T. G., Padua, D. A., Hearn, D. W., Pexa, B. S. &amp; Frank, B. S. (2018). The relationship between training load and injury in athletes: A systematic review. <em>Sports Medicine, 48</em>(8), 1929–1961.",
+   "doi": "10.1007/s40279-018-0951-z"
+  },
+  "andrade2020": {
+   "short": "Andrade et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "32572824",
+   "apa": "Andrade, R., Wik, E. H., Rebelo-Marques, A., Blanch, P., Whiteley, R., Espregueira-Mendes, J. &amp; Gabbett, T. J. (2020). Is the acute: Chronic workload ratio (ACWR) associated with risk of time-loss injury in professional team sports? A systematic review of methodology, variables and injury risk in practical situations. <em>Sports Medicine, 50</em>(9), 1613–1635.",
+   "doi": "10.1007/s40279-020-01308-6"
+  },
+  "impellizzeri2020": {
+   "short": "Impellizzeri et al., 2020",
+   "year": 2020,
+   "type": "Methodischer Review",
+   "basis": "Abstract",
+   "pmid": "32502973",
+   "apa": "Impellizzeri, F. M., Tenan, M. S., Kempton, T., Novak, A. &amp; Coutts, A. J. (2020). Acute:Chronic workload ratio: Conceptual issues and fundamental pitfalls. <em>International Journal of Sports Physiology and Performance, 15</em>(6), 907–913.",
+   "doi": "10.1123/ijspp.2019-0864"
+  },
+  "ding2026": {
+   "short": "Ding et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42662491",
+   "apa": "Ding, L., Weldon, A., Xu, J., Malone, S., Sampaio, J., Zhang, Z., Zhou, Z., Liu, X., Han, S., Xu, K., Wang, Y. &amp; Yuan, P. (2026). Acute:chronic workload ratio and load management for team sports: A multilevel meta-analysis. <em>Frontiers in Public Health, 14</em>, Artikel 1896651.",
+   "doi": "10.3389/fpubh.2026.1896651"
+  }
+ }
+}

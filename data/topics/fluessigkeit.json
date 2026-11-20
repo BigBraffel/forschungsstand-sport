@@ -1,0 +1,1138 @@
+{
+ "id": "fluessigkeit",
+ "title": "Flüssigkeit und Elektrolyte",
+ "stand": "2026-11-20",
+ "lead": "Ab wie viel Flüssigkeitsverlust leidet die Leistung, soll man nach Durst oder nach Plan trinken, und wann werden Natrium und Elektrolyte wichtig? Zusammengefasst aus Metaanalysen, systematischen Reviews und Positionspapieren (ACSM, NATA, SDA).",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Sporttreibende. Die bekannte 2-%-Regel gilt vor allem bei fest vorgegebener Belastung und Hitze; im Wettkampf mit freiem Tempo waren die Einbußen geringer.",
+ "rx": [
+  {
+   "label": "Vor der Belastung",
+   "value": "ausreichend getrunken starten",
+   "text": "Wer schon dehydriert startete, verlor rund 2,4 % Ausdauerleistung; einige Stunden vorher normal trinken, bis der Urin hell ist.",
+   "cite": "Deshayes et al. 2020; American College of Sports Medicine et al. 2007"
+  },
+  {
+   "label": "Während der Belastung",
+   "value": "nach Durst, bei langen Einheiten mit Plan prüfen",
+   "text": "Trinken nach Durst war in Belastungen von 1–2 Stunden mindestens gleichwertig zu festen Trinkmengen. Bei über 1 Stunde moderater Belastung verbesserte Trinken die Leistung um 2–3 %; bei 1 Stunde hoher Intensität brachte es nichts.",
+   "cite": "Goulet &amp; Hoffman 2019; Holland et al. 2017"
+  },
+  {
+   "label": "Nicht zu viel trinken",
+   "value": "nicht mehr trinken, als man schwitzt",
+   "text": "Hyponatriämie (Natrium unter 135 mmol/l) entsteht vor allem durch übermäßiges Trinken bei langen Belastungen; bei Ultraläufen betraf sie rund 9 % der Läufer.",
+   "cite": "Bennett et al. 2020; Lecina et al. 2022"
+  },
+  {
+   "label": "Getränk",
+   "value": "bei langer Belastung und Hitze Kohlenhydrat-Elektrolyt-Getränk",
+   "text": "Hypotone Kohlenhydrat-Elektrolyt-Getränke hielten das Plasmavolumen am besten; in warmer Umgebung verbesserten sie die Ausdauer (g 0,45).",
+   "cite": "Rowlands et al. 2022; Wang et al. 2026"
+  },
+  {
+   "label": "Nach der Belastung",
+   "value": "Defizit ausgleichen, mit Kohlenhydraten und Salz",
+   "text": "Flüssigkeit nach Dehydrierung verbesserte die folgende Ausdauerleistung; Kohlenhydrat-Elektrolyt-Getränke oder fettarme Milch rehydrierten besser als Wasser.",
+   "cite": "McCartney et al. 2017; Borra et al. 2025; De Brier et al. 2025"
+  }
+ ],
+ "note": "<b>Abgrenzung:</b> Kohlenhydratmengen während der Belastung sind im Thema <a href=\"#kohlenhydrate\">Kohlenhydrate</a> beschrieben, Koffein im Thema <a href=\"#koffein\">Koffein</a>. Gezieltes Gewichtmachen durch Entwässerung betrifft auch das Thema <a href=\"#energiebilanz\">Energiebilanz und Abnehmen</a>. Zu Natriumsupplementen während der Belastung wurde in PubMed keine Metaanalyse gefunden.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Dehydrierung kostet Kraft und Kraftausdauer",
+   "ev": "moderat",
+   "p": "Hypohydration senkte die Muskelkraft um 5,5 % und die Kraftausdauer um 8,3 %; Sprünge litten nicht.",
+   "s": [
+    "savoie2015",
+    "francisco2024"
+   ]
+  },
+  {
+   "t": "Die 2-%-Regel gilt nicht überall",
+   "ev": "moderat",
+   "p": "Bei fest vorgegebener Belastung schadeten über 2 % Gewichtsverlust; in Zeitfahren mit freiem Tempo bis 4 % Verlust nicht messbar.",
+   "s": [
+    "goulet2011",
+    "goulet2013",
+    "deshayes2020"
+   ]
+  },
+  {
+   "t": "Nach Durst trinken reicht meist",
+   "ev": "moderat",
+   "p": "Trinken nach Durst brachte bei halber Trinkmenge dieselbe Leistung wie ein fester Trinkplan; zu viel Trinken birgt das Risiko einer Hyponatriämie.",
+   "s": [
+    "goulet2019",
+    "bennett2020",
+    "mcdermott2017"
+   ]
+  },
+  {
+   "t": "Kohlenhydrat-Elektrolyt-Getränke bei Wärme und zur Rehydrierung",
+   "ev": "moderat",
+   "p": "Sie verbesserten die Ausdauer in warmer Umgebung und rehydrierten nach Belastung besser als Wasser.",
+   "s": [
+    "wang2026",
+    "borra2025",
+    "rowlands2022"
+   ]
+  },
+  {
+   "t": "Kognition: widersprüchliche Befunde",
+   "ev": "niedrig",
+   "p": "Eine Metaanalyse fand kleine Einbußen vor allem über 2 % Gewichtsverlust, eine andere keine.",
+   "s": [
+    "wittbrodt2018",
+    "goodman2019"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "ausdauer",
+   "name": "Dehydrierung und Ausdauerleistung",
+   "q": "Ab welchem Flüssigkeitsverlust leidet die Ausdauer?",
+   "ev": "moderat",
+   "key": [
+    "15 Studien, 122 Teilnehmende: Belastungsbedingte Dehydrierung beeinträchtigte die Leistung im Zeitfahren nicht (+0,09 %); bei fest vorgegebener Intensität sank sie um 1,91 %, ab 2 % Gewichtsverlust signifikant (Goulet, 2013).",
+    "Zeitfahren im Freien, 5 Studien: Bei 2,2 % Gewichtsverlust keine Leistungsänderung; Trinken nach Durst war besser als Trinken unter dem Durst (+5,2 %) (Goulet, 2011).",
+    "15 Studien, 186 Teilnehmende: Wer vor der Belastung dehydriert war (im Mittel 3,6 % Gewichtsverlust), verlor 2,4 % [0,8; 4,0] Ausdauerleistung und 2,4 % VO₂peak (Deshayes et al., 2020).",
+    "16 Studien: Die empfundene Anstrengung stieg je 1 % Gewichtsverlust um 0,21 Punkte; praktisch bedeutsam erst ab etwa 3 % (Deshayes et al., 2022).",
+    "9 Studien zum Radfahren: Trinken verschlechterte 1 Stunde intensives Fahren um 2,5 % [−4,1; −0,9]; bei mehr als 1–2 Stunden moderater Belastung verbesserte es die Leistung um 2,1 % [1,2; 2,9], über 2 Stunden um 3,2 % [0,8; 5,6] (Holland et al., 2017).",
+    "Mannschaftssport: Leistungseinbußen meist erst ab 3–4 % Gewichtsverlust und bei Hitze (Nuccio et al., 2017)."
+   ],
+   "critic": "Die Befunde widersprechen sich nur scheinbar: Laborstudien mit fester Intensität und ohne Fahrtwind zeigen Einbußen ab 2 %, Zeitfahren im Freien kaum. Wahrscheinlich ist die 2-%-Grenze für reale Wettkämpfe zu streng, aber bei Hitze und Dehydrierung vor dem Start relevant. Die Studien sind klein (oft unter 10 Teilnehmende), Verblindung ist schwierig, und zwei der Analysen stammen vom selben Erstautor.",
+   "figs": [
+    {
+     "id": "fl-dehyd",
+     "title": "Dehydrierung und Leistung",
+     "cap": "Mittlere Leistungsänderung in Prozent. 95-%-KI nur, wo im Abstract angegeben; bei Savoie et al. sind nur Standardfehler berichtet.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Zeitfahren, freies Tempo",
+       "sub": "Goulet, 2013",
+       "es": 0.09
+      },
+      {
+       "l": "Feste Intensität",
+       "sub": "Goulet, 2013",
+       "es": -1.91
+      },
+      {
+       "l": "Dehydriert gestartet, Ausdauer",
+       "sub": "Deshayes et al., 2020",
+       "es": -2.4,
+       "lo": -4.0,
+       "hi": -0.8
+      },
+      {
+       "l": "Muskelkraft",
+       "sub": "Savoie et al., 2015",
+       "es": -5.5
+      },
+      {
+       "l": "Kraftausdauer",
+       "sub": "Savoie et al., 2015",
+       "es": -8.3
+      },
+      {
+       "l": "Anaerobe Leistung",
+       "sub": "Savoie et al., 2015",
+       "es": -5.8
+      },
+      {
+       "l": "Sprunghöhe",
+       "sub": "Savoie et al., 2015",
+       "es": 0.9
+      }
+     ],
+     "opts": {
+      "min": -10,
+      "max": 2,
+      "ticks": [
+       -8,
+       -6,
+       -4,
+       -2,
+       0
+      ],
+      "unit": "%",
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    },
+    {
+     "id": "fl-trinken",
+     "title": "Trinken während der Belastung",
+     "cap": "Mittlere Leistungsänderung in Prozent mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Trinken vs. nicht, 1 h intensiv",
+       "sub": "Holland et al., 2017",
+       "es": -2.5,
+       "lo": -4.1,
+       "hi": -0.9
+      },
+      {
+       "l": "Trinken vs. nicht, >1–2 h moderat",
+       "sub": "Holland et al., 2017",
+       "es": 2.1,
+       "lo": 1.2,
+       "hi": 2.9
+      },
+      {
+       "l": "Trinken vs. nicht, >2 h moderat",
+       "sub": "Holland et al., 2017",
+       "es": 3.2,
+       "lo": 0.8,
+       "hi": 5.6
+      },
+      {
+       "l": "Nach Durst vs. nach Plan",
+       "sub": "Goulet &amp; Hoffman, 2019",
+       "es": 0.98,
+       "lo": 0.11,
+       "hi": 1.84
+      }
+     ],
+     "opts": {
+      "min": -5,
+      "max": 6,
+      "ticks": [
+       -4,
+       -2,
+       0,
+       2,
+       4
+      ],
+      "unit": "%",
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "goulet2013",
+    "goulet2011",
+    "deshayes2020",
+    "deshayes2022",
+    "holland2017",
+    "nuccio2017"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Dehydrierung, Kraft und Gewichtmachen",
+   "q": "Leiden Kraft und Schnellkraft?",
+   "ev": "moderat",
+   "key": [
+    "28 Arbeiten: Hypohydration senkte die Kraftausdauer um 8,3 %, die Kraft um 5,5 % und die anaerobe Leistung um 5,8 %; anaerobe Kapazität und Sprunghöhe änderten sich nicht signifikant. Trainierte waren weniger betroffen (Savoie et al., 2015).",
+    "Systematischer Review mit 23 Studien: Maximalkraft bei isometrischen und mittelschnellen Kontraktionen meist unverändert, bei langsamen Kontraktionen und in der Ermüdungswiderstandsfähigkeit reduziert; Ursache im Muskel, nicht im Nervensystem (Francisco et al., 2024).",
+    "Kampfsportler: Direkt nach schnellem Gewichtmachen sanken Maximalkraft (g −0,29 [−0,54; −0,03]) und wiederholte intensive Belastungen (g −0,37 [−0,59; −0,16]); nach 3–36 Stunden Erholung war die Leistung insgesamt wieder wie vorher (g 0,22 [−0,18; 0,62]) (Brechney et al., 2022)."
+   ],
+   "critic": "Die Einbußen sind konsistent, aber teilweise eine Folge der Methode: Aktive Dehydrierung durch Belastung oder Hitze senkte die Leistung stärker als passive (Savoie et al., 2015). Ein Teil des Effekts geht also wahrscheinlich auf Ermüdung und Wärme zurück, nicht allein auf den Wasserverlust. Die Angaben zur Streuung sind im Abstract nur als Standardfehler berichtet.",
+   "figs": [],
+   "s": [
+    "savoie2015",
+    "francisco2024",
+    "brechney2022"
+   ]
+  },
+  {
+   "id": "kognition",
+   "name": "Dehydrierung und kognitive Leistung",
+   "q": "Leiden Konzentration und Koordination?",
+   "ev": "niedrig",
+   "key": [
+    "33 Studien, 413 Teilnehmende: Dehydrierung verschlechterte die kognitive Leistung leicht (ES −0,21 [−0,31; −0,11]), vor allem Aufmerksamkeit (−0,52) und motorische Koordination (−0,40); über 2 % Gewichtsverlust stärker (−0,28) als darunter (−0,14) (Wittbrodt &amp; Millard-Stafford, 2018).",
+    "Metaanalyse zu aktiver Dehydrierung durch Belastung: keine Beeinträchtigung der Kognition (g −0,177 [−0,532; 0,179]), unabhängig davon, ob mehr oder weniger als 2 % Gewicht verloren wurden (Goodman et al., 2019)."
+   ],
+   "critic": "Die beiden Metaanalysen widersprechen sich. Wittbrodt &amp; Millard-Stafford (2018) schlossen mehr Studien ein, darunter auch Dehydrierung durch Flüssigkeitsentzug oder Hitze; Goodman et al. (2019) nur aktive Dehydrierung durch Belastung. Wahrscheinliche Lesart: Ein kleiner Effekt auf Aufmerksamkeit ist plausibel, vor allem bei höheren Verlusten und Hitze; bei moderater Dehydrierung durch Training ist er kaum nachweisbar.",
+   "figs": [
+    {
+     "id": "fl-kog",
+     "title": "Dehydrierung und Kognition",
+     "cap": "Effektstärke mit 95-%-KI. Negative Werte = schlechtere kognitive Leistung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Gesamt",
+       "sub": "Wittbrodt &amp; Millard-Stafford, 2018",
+       "es": -0.21,
+       "lo": -0.31,
+       "hi": -0.11,
+       "pooled": true
+      },
+      {
+       "l": "Aufmerksamkeit",
+       "sub": "Wittbrodt &amp; Millard-Stafford, 2018",
+       "es": -0.52,
+       "lo": -0.66,
+       "hi": -0.37
+      },
+      {
+       "l": "Motorische Koordination",
+       "sub": "Wittbrodt &amp; Millard-Stafford, 2018",
+       "es": -0.4,
+       "lo": -0.63,
+       "hi": -0.17
+      },
+      {
+       "l": "Über 2 % Gewichtsverlust",
+       "sub": "Wittbrodt &amp; Millard-Stafford, 2018",
+       "es": -0.28,
+       "lo": -0.41,
+       "hi": -0.16
+      },
+      {
+       "l": "Bis 2 % Gewichtsverlust",
+       "sub": "Wittbrodt &amp; Millard-Stafford, 2018",
+       "es": -0.14,
+       "lo": -0.27,
+       "hi": 0.0
+      },
+      {
+       "l": "Aktive Dehydrierung, gesamt",
+       "sub": "Goodman et al., 2019",
+       "es": -0.177,
+       "lo": -0.532,
+       "hi": 0.179,
+       "pooled": true
+      }
+     ],
+     "opts": {
+      "min": -0.8,
+      "max": 0.3,
+      "ticks": [
+       -0.6,
+       -0.4,
+       -0.2,
+       0,
+       0.2
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "wittbrodt2018",
+    "goodman2019"
+   ]
+  },
+  {
+   "id": "trinkstrategie",
+   "name": "Trinken nach Durst oder nach Plan",
+   "q": "Wie viel sollte man während der Belastung trinken?",
+   "ev": "moderat",
+   "key": [
+    "7 Studien, 82 Teilnehmende, 1–2 Stunden Belastung bei rund 28 °C: Trinken nach Durst (505 ml/h) brachte im Vergleich zum Trinkplan (1 073 ml/h) eine praktisch unbedeutende Verbesserung von 0,98 % [0,11; 1,84], obwohl der Gewichtsverlust mit 2,1 % doppelt so hoch war (Goulet &amp; Hoffman, 2019).",
+    "ACSM-Positionspapier: Ziel ist, einen Wasserverlust über 2 % des Körpergewichts zu vermeiden; wegen großer individueller Unterschiede bei Schweißrate und Elektrolytgehalt werden individuelle Trinkpläne empfohlen, die Schweißrate lässt sich über Wiegen vor und nach der Belastung bestimmen (American College of Sports Medicine et al., 2007).",
+    "NATA-Positionspapier: ausreichend, aber nicht übermäßig trinken; Schweißraten messen und auf die Risiken von Unter- und Überwässerung hinweisen (McDermott et al., 2017).",
+    "28 Studien: Hypotone Kohlenhydrat-Elektrolyt-Getränke hielten das Plasmavolumen während der Belastung am besten, besser als isotone Getränke und wahrscheinlich besser als Wasser (Rowlands et al., 2022).",
+    "10 Studien: Hyperhydrierung vor der Belastung (Natrium oder Glycerin) verbesserte die Zeit bis zur Erschöpfung (g 0,31 [0,13; 0,50]) und das Zeitfahren (g 0,25 [0,002; 0,51]) (McCubbin &amp; Irwin, 2024)."
+   ],
+   "critic": "Der Wechsel in den Empfehlungen ist gut sichtbar: Das ACSM-Positionspapier von 2007 zielt auf höchstens 2 % Verlust, neuere Metaanalysen zeigen, dass Trinken nach Durst in Belastungen bis 2 Stunden ausreicht. Beides lässt sich vereinbaren: Durst genügt meist; bei langen Belastungen in Hitze, hoher Schweißrate oder wenig Trinkgelegenheiten hilft ein individueller Plan. Die Durst-Studien sind klein (82 Teilnehmende) und decken Ultra-Belastungen nicht ab.",
+   "figs": [],
+   "s": [
+    "goulet2019",
+    "acsm2007",
+    "mcdermott2017",
+    "rowlands2022",
+    "mccubbin2024"
+   ]
+  },
+  {
+   "id": "natrium",
+   "name": "Natrium, Hyponatriämie und Krämpfe",
+   "q": "Wann wird zu viel Trinken gefährlich, und hilft Salz gegen Krämpfe?",
+   "ev": "niedrig",
+   "key": [
+    "Leitlinie: Belastungsassoziierte Hyponatriämie ist ein Natriumwert unter 135 mmol/l während oder bis 24 Stunden nach langer Belastung; die Symptome überschneiden sich mit Hitzeerschöpfung und Hitzschlag, was die Behandlung erschwert (Bennett et al., 2020).",
+    "Systematischer Review mit 28 Studien und 2 950 Ultra-Trail-Läufern: 9,11 % hatten eine Hyponatriämie, 42,04 % eine akute Nierenschädigung (Lecina et al., 2022).",
+    "Systematischer Review mit 590 Fällen von Wasservergiftung: in 12 % war Sport der Anlass; im Median 8 Liter Wasser pro Tag, 13 % der Fälle verliefen tödlich (Rangan et al., 2021).",
+    "9 Studien, 11 274 Teilnehmende: Belastungsbedingte Muskelkrämpfe hingen vor allem mit früheren Krämpfen zusammen (rund 4,4-fach höhere Odds); für Hydration fand sich kein einheitlicher Zusammenhang (Costa et al., 2026)."
+   ],
+   "critic": "Die Hyponatriämie-Daten stammen überwiegend aus Beobachtungsstudien und Fallberichten. Sie zeigen, dass übermäßiges Trinken die Hauptursache ist; das spricht gegen starre hohe Trinkmengen. Ob zusätzliches Natrium während langer Belastungen Hyponatriämie verhindert oder die Leistung verbessert, ist ohne Metaanalyse offen. Die verbreitete Annahme, Krämpfe entstünden durch Flüssigkeits- oder Salzmangel, wird durch die Kohortendaten nicht gestützt.",
+   "figs": [],
+   "s": [
+    "bennett2020",
+    "lecina2022",
+    "rangan2021",
+    "costa2026"
+   ]
+  },
+  {
+   "id": "rehydrierung",
+   "name": "Rehydrierung nach der Belastung",
+   "q": "Wie füllt man Flüssigkeit nach dem Training am besten auf?",
+   "ev": "moderat",
+   "key": [
+    "64 Studien, 643 Teilnehmende: Flüssigkeit nach Dehydrierung verbesserte die anschließende Ausdauerleistung (g 0,46 [0,32; 0,61]; 22 Studien), vor allem in Hitze und bei längeren Belastungen; für intermittierende, Kraft- und kognitive Leistungen war der Nutzen weniger klar (McCartney et al., 2017).",
+    "19 Studien: Kohlenhydrat-Elektrolyt-Getränke (vor allem 4–9 % Kohlenhydrate) rehydrierten wirksamer als Wasser (Borra et al., 2025).",
+    "11 Studien: Fettarme Milch rehydrierte in 4 Studien besser als Wasser; Kokoswasser war gleichwertig zu Wasser; für Bier fehlen ausreichende Belege. Vertrauen in die Evidenz sehr niedrig (De Brier et al., 2025).",
+    "45 Studien: Kohlenhydrate mit Wasser nach der Belastung verbesserten die nächste Leistung um 4,0 % [3,2; 4,7] gegenüber Wasser allein; zusätzliches Protein brachte nichts (McCartney et al., 2018). Mehr dazu im Thema <a href=\"#kohlenhydrate\">Kohlenhydrate</a>.",
+    "16 Studien: Koffein steigerte die Urinmenge in Ruhe (ES 0,54), bei Belastung nicht (ES 0,10 [−0,07; 0,27]) (Zhang et al., 2015)."
+   ],
+   "critic": "Die Richtung ist einheitlich: Getränke mit Kohlenhydraten, Natrium oder Eiweiß (Milch) werden besser im Körper gehalten als Wasser. Die Evidenzqualität ist aber niedrig bis sehr niedrig, und mit einer normalen Mahlzeit sind die Unterschiede vermutlich kleiner (Borra et al. empfehlen Getränke, wenn keine Mahlzeit verfügbar ist).",
+   "figs": [],
+   "s": [
+    "mccartney2017",
+    "borra2025",
+    "debrier2025",
+    "mccartney2018",
+    "zhang2015"
+   ]
+  },
+  {
+   "id": "hitze",
+   "name": "Hitze",
+   "q": "Was ändert sich bei Belastung in der Hitze?",
+   "ev": "moderat",
+   "key": [
+    "21 Studien, n = 316, 22 °C und wärmer: Kohlenhydrat-Elektrolyt-Getränke verbesserten die Leistung leicht (g 0,37 [0,21; 0,53]), vor allem die aerobe Ausdauer (g 0,45 [0,26; 0,64]); das Vorhersageintervall schloss aber null ein (Wang et al., 2026).",
+    "51 Studien, 502 Teilnehmende: In Hitze stiegen Kohlenhydratoxidation (SMD 0,29) und Glykogenverbrauch (SMD 0,78); Dehydrierung erhöhte den Kohlenhydratverbrauch vor allem bei Hitze (SMD 0,37), nicht bei gemäßigter Temperatur (Mougin et al., 2025).",
+    "SDA-Positionspapier: Hitzeakklimatisierung, euhydriert starten, Trinken nach Schweißverlust, Magenverträglichkeit und Durst planen; Hyperhydrierung mit Natrium oder Glycerin kann in bestimmten Fällen sinnvoll sein, kalte Getränke oder Eisbrei vor und während der Belastung senken die Körpertemperatur (McCubbin et al., 2020)."
+   ],
+   "critic": "Die Befunde passen zusammen: In Hitze steigen Flüssigkeits- und Kohlenhydratbedarf gleichzeitig. Wang et al. (2026) weisen darauf hin, dass ihre Studien nicht zeigen, ob Getränke den hitzebedingten Leistungsverlust ausgleichen. Frauen und Spitzensportler sind kaum untersucht (31 von 502 Teilnehmenden weiblich bei Mougin et al.).",
+   "figs": [],
+   "s": [
+    "wang2026",
+    "mougin2025",
+    "mccubbin2020"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2007,
+   "t": "ACSM: höchstens 2 % Verlust",
+   "p": "Individuelle Trinkpläne nach Schweißrate.",
+   "tag": "neu",
+   "s": "acsm2007"
+  },
+  {
+   "y": 2011,
+   "t": "Zeitfahren ohne Leistungsverlust",
+   "p": "Bis 4 % Verlust kein Effekt; Trinken nach Durst am besten.",
+   "tag": "contra",
+   "s": "goulet2011"
+  },
+  {
+   "y": 2013,
+   "t": "2-%-Regel nur bei fester Intensität",
+   "p": "Im Zeitfahren keine Einbußen.",
+   "tag": "rel",
+   "s": "goulet2013"
+  },
+  {
+   "y": 2015,
+   "t": "Kraft und Kraftausdauer leiden",
+   "p": "−5,5 % Kraft, −8,3 % Kraftausdauer.",
+   "tag": "neu",
+   "s": "savoie2015"
+  },
+  {
+   "y": 2015,
+   "t": "Koffein entwässert bei Belastung nicht",
+   "p": "Kein Effekt auf die Urinmenge während Belastung.",
+   "tag": "neu",
+   "s": "zhang2015"
+  },
+  {
+   "y": 2017,
+   "t": "Trinken nach Dauer der Belastung",
+   "p": "Nutzen erst ab über 1 Stunde.",
+   "tag": "neu",
+   "s": "holland2017"
+  },
+  {
+   "y": 2017,
+   "t": "NATA: weder zu wenig noch zu viel",
+   "p": "Schweißrate messen, Überwässerung vermeiden.",
+   "tag": "conf",
+   "s": "mcdermott2017"
+  },
+  {
+   "y": 2017,
+   "t": "Mannschaftssport",
+   "p": "Einbußen meist erst ab 3–4 % Verlust.",
+   "tag": "conf",
+   "s": "nuccio2017"
+  },
+  {
+   "y": 2017,
+   "t": "Trinken nach Dehydrierung hilft",
+   "p": "Bessere Ausdauerleistung in der nächsten Einheit.",
+   "tag": "neu",
+   "s": "mccartney2017"
+  },
+  {
+   "y": 2018,
+   "t": "Dehydrierung und Kognition",
+   "p": "Kleiner Effekt, vor allem über 2 %.",
+   "tag": "neu",
+   "s": "wittbrodt2018"
+  },
+  {
+   "y": 2018,
+   "t": "Kohlenhydrate nach der Belastung",
+   "p": "+4,0 % Leistung in der Folgeeinheit.",
+   "tag": "neu",
+   "s": "mccartney2018"
+  },
+  {
+   "y": 2019,
+   "t": "Durst so gut wie Plan",
+   "p": "Bei halber Trinkmenge gleiche Leistung.",
+   "tag": "conf",
+   "s": "goulet2019"
+  },
+  {
+   "y": 2019,
+   "t": "Kein Effekt auf Kognition",
+   "p": "Aktive Dehydrierung ohne nachweisbare Einbußen.",
+   "tag": "contra",
+   "s": "goodman2019"
+  },
+  {
+   "y": 2020,
+   "t": "Dehydriert starten schadet",
+   "p": "−2,4 % Ausdauerleistung.",
+   "tag": "neu",
+   "s": "deshayes2020"
+  },
+  {
+   "y": 2020,
+   "t": "Leitlinie Hyponatriämie",
+   "p": "Definition und Behandlung im Feld.",
+   "tag": "neu",
+   "s": "bennett2020"
+  },
+  {
+   "y": 2020,
+   "t": "Positionspapier Hitze",
+   "p": "Akklimatisierung, Trinkplanung, kalte Getränke.",
+   "tag": "neu",
+   "s": "mccubbin2020"
+  },
+  {
+   "y": 2021,
+   "t": "Wasservergiftung",
+   "p": "12 % der Fälle durch Sport.",
+   "tag": "neu",
+   "s": "rangan2021"
+  },
+  {
+   "y": 2022,
+   "t": "Hyponatriämie bei Ultraläufen",
+   "p": "9,11 % der Läufer betroffen.",
+   "tag": "neu",
+   "s": "lecina2022"
+  },
+  {
+   "y": 2022,
+   "t": "Hypotone Getränke am besten",
+   "p": "Plasmavolumen am besten erhalten.",
+   "tag": "neu",
+   "s": "rowlands2022"
+  },
+  {
+   "y": 2022,
+   "t": "Empfundene Anstrengung steigt erst ab 3 %",
+   "p": "0,21 Punkte je Prozent Verlust.",
+   "tag": "conf",
+   "s": "deshayes2022"
+  },
+  {
+   "y": 2022,
+   "t": "Gewichtmachen im Kampfsport",
+   "p": "Nach Erholung Leistung wieder hergestellt.",
+   "tag": "neu",
+   "s": "brechney2022"
+  },
+  {
+   "y": 2024,
+   "t": "Hyperhydrierung vor dem Start",
+   "p": "Kleiner Vorteil für die Ausdauer.",
+   "tag": "neu",
+   "s": "mccubbin2024"
+  },
+  {
+   "y": 2024,
+   "t": "Dehydrierung und neuromuskuläre Funktion",
+   "p": "Ermüdungswiderstand reduziert, Maximalkraft meist nicht.",
+   "tag": "rel",
+   "s": "francisco2024"
+  },
+  {
+   "y": 2025,
+   "t": "Rehydrierung: Getränke besser als Wasser",
+   "p": "Kohlenhydrat-Elektrolyt-Getränke wirksam.",
+   "tag": "conf",
+   "s": "borra2025"
+  },
+  {
+   "y": 2025,
+   "t": "Milch zur Rehydrierung",
+   "p": "Besser als Wasser, sehr niedrige Evidenz.",
+   "tag": "neu",
+   "s": "debrier2025"
+  },
+  {
+   "y": 2025,
+   "t": "Hitze steigert Kohlenhydratverbrauch",
+   "p": "Dehydrierung verstärkt den Effekt.",
+   "tag": "neu",
+   "s": "mougin2025"
+  },
+  {
+   "y": 2026,
+   "t": "Getränke in Wärme",
+   "p": "Kleiner Ausdauervorteil durch Kohlenhydrat-Elektrolyt-Getränke.",
+   "tag": "conf",
+   "s": "wang2026"
+  },
+  {
+   "y": 2026,
+   "t": "Krämpfe nicht durch Dehydrierung erklärt",
+   "p": "Frühere Krämpfe als stärkster Risikofaktor.",
+   "tag": "contra",
+   "s": "costa2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3 831 Einträgen, 654 Übersichtsarbeiten nach Titel geprüft, 28 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Zeitfahren bei Dehydrierung während der Belastung (bis 4 %)",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 15,
+     "p": 122,
+     "s": [
+      "goulet2013",
+      "goulet2011"
+     ],
+     "t": "Kein Effekt bei freiem Tempo (+0,09 %); zwei Analysen desselben Autors.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Ausdauer bei fester Intensität und über 2 % Gewichtsverlust",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 15,
+     "p": 122,
+     "s": [
+      "goulet2013"
+     ],
+     "t": "−1,91 % Leistung; in Ausdauersportarten praktisch relevant.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Ausdauer bei Start in dehydriertem Zustand",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 15,
+     "p": 186,
+     "s": [
+      "deshayes2020"
+     ],
+     "t": "Ausdauerleistung um 2,4 % [0,8; 4,0] verringert bei im Mittel 3,6 % Gewichtsverlust vor dem Start; VO₂peak −2,4 %.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Ausdauer mit Trinken (über 1 h, moderat)",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 9,
+     "p": null,
+     "s": [
+      "holland2017",
+      "mccartney2017"
+     ],
+     "t": "+2,1 % bei >1–2 h, +3,2 % bei über 2 h; bei 1 h intensivem Fahren dagegen −2,5 %.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Trinken nach Durst statt nach Plan",
+     "g": "C",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 7,
+     "p": 82,
+     "s": [
+      "goulet2019"
+     ],
+     "t": "+0,98 % [0,11; 1,84], praktisch unbedeutend: Durst ist mindestens gleichwertig, bei halber Trinkmenge.",
+     "v": "trinkstrategie"
+    },
+    {
+     "n": "Hyperhydrierung vor der Belastung",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 10,
+     "p": null,
+     "s": [
+      "mccubbin2024"
+     ],
+     "t": "Zeit bis zur Erschöpfung g 0,31 [0,13; 0,50], Zeitfahren g 0,25; keine Effekte auf Herzfrequenz und Körpertemperatur.",
+     "v": "trinkstrategie"
+    },
+    {
+     "n": "Kohlenhydrat-Elektrolyt-Getränk in warmer Umgebung",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 21,
+     "p": 316,
+     "s": [
+      "wang2026"
+     ],
+     "t": "g 0,37 [0,21; 0,53], aerobe Ausdauer g 0,45; Vorhersageintervall schließt null ein.",
+     "v": "hitze"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Muskelkraft bei Hypohydration",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 28,
+     "p": null,
+     "s": [
+      "savoie2015",
+      "francisco2024"
+     ],
+     "t": "−5,5 %; Trainierte weniger betroffen. Isometrische Maximalkraft im Review meist unverändert.",
+     "v": "kraft"
+    },
+    {
+     "n": "Kraftausdauer bei Hypohydration",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 28,
+     "p": null,
+     "s": [
+      "savoie2015",
+      "francisco2024"
+     ],
+     "t": "−8,3 %; geringere Ermüdungswiderstandsfähigkeit auch im systematischen Review.",
+     "v": "kraft"
+    },
+    {
+     "n": "Leistung nach Gewichtmachen und Erholung (Kampfsport)",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "brechney2022"
+     ],
+     "t": "Nach 3–36 h Erholung unverändert (g 0,22 [−0,18; 0,62]); direkt danach Maximalkraft g −0,29.",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Rehydrierung",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Folgeleistung durch Trinken nach Dehydrierung",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 22,
+     "p": 643,
+     "s": [
+      "mccartney2017"
+     ],
+     "t": "Ausdauer g 0,46 [0,32; 0,61], besonders in Hitze; für Kraft und Kognition unklar.",
+     "v": "rehydrierung"
+    },
+    {
+     "n": "Rehydrierung mit Kohlenhydrat-Elektrolyt-Getränk oder Milch statt Wasser",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 19,
+     "p": null,
+     "s": [
+      "borra2025",
+      "debrier2025",
+      "rowlands2022"
+     ],
+     "t": "Besser als Wasser (vor allem 4–9 % Kohlenhydrate); fettarme Milch in 4 Studien besser. Größe nicht gepoolt, Evidenz niedrig bis sehr niedrig.",
+     "v": "rehydrierung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Gehirn",
+   "kat": "gehirn",
+   "items": [
+    {
+     "n": "Kognitive Leistung bei Dehydrierung",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "schaden",
+     "k": 33,
+     "p": 413,
+     "s": [
+      "wittbrodt2018",
+      "goodman2019"
+     ],
+     "t": "ES −0,21 [−0,31; −0,11] in der größeren Analyse, kein Effekt (g −0,177) bei aktiver Dehydrierung: Metaanalysen widersprechen sich.",
+     "v": "kognition"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Hyponatriämie bei Ultra-Trail-Läufen",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "schaden",
+     "k": 28,
+     "p": 2950,
+     "s": [
+      "lecina2022",
+      "bennett2020",
+      "rangan2021"
+     ],
+     "t": "9,11 % der untersuchten Läufer; Hauptursache übermäßiges Trinken. Bei Wasservergiftungen verliefen 13 % tödlich (Fallberichte).",
+     "v": "natrium"
+    },
+    {
+     "n": "Muskelkrämpfe durch Flüssigkeitsmangel",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 9,
+     "p": 11274,
+     "s": [
+      "costa2026"
+     ],
+     "t": "Kein einheitlicher Zusammenhang mit Hydration; stärkster Risikofaktor sind frühere Krämpfe (rund 4,4-fache Odds).",
+     "v": "natrium"
+    },
+    {
+     "n": "Urinmenge durch Koffein während Belastung",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 16,
+     "p": null,
+     "s": [
+      "zhang2015"
+     ],
+     "t": "ES 0,10 [−0,07; 0,27] bei Belastung; nur in Ruhe stieg die Urinmenge (ES 0,54).",
+     "v": "rehydrierung"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "goulet2011": {
+   "short": "Goulet, 2011",
+   "year": 2011,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "21454440",
+   "apa": "Goulet, E. D. (2011). Effect of exercise-induced dehydration on time-trial exercise performance: A meta-analysis. <em>British Journal of Sports Medicine, 45</em>(14), 1149–1156.",
+   "doi": "10.1136/bjsm.2010.077966"
+  },
+  "goulet2013": {
+   "short": "Goulet, 2013",
+   "year": 2013,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "22763119",
+   "apa": "Goulet, E. D. (2013). Effect of exercise-induced dehydration on endurance performance: Evaluating the impact of exercise protocols on outcomes using a meta-analytic procedure. <em>British Journal of Sports Medicine, 47</em>(11), 679–686.",
+   "doi": "10.1136/bjsports-2012-090958"
+  },
+  "deshayes2020": {
+   "short": "Deshayes et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31728846",
+   "apa": "Deshayes, T. A., Jeker, D. &amp; Goulet, E. D. B. (2020). Impact of pre-exercise hypohydration on aerobic exercise performance, peak oxygen consumption and oxygen consumption at lactate threshold: A systematic review with meta-analysis. <em>Sports Medicine, 50</em>(3), 581–596.",
+   "doi": "10.1007/s40279-019-01223-5"
+  },
+  "deshayes2022": {
+   "short": "Deshayes et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35601980",
+   "apa": "Deshayes, T. A., Pancrate, T. &amp; Goulet, E. D. B. (2022). Impact of dehydration on perceived exertion during endurance exercise: A systematic review with meta-analysis. <em>Journal of Exercise Science and Fitness, 20</em>(3), 224–235.",
+   "doi": "10.1016/j.jesf.2022.03.006"
+  },
+  "holland2017": {
+   "short": "Holland et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "28497286",
+   "apa": "Holland, J. J., Skinner, T. L., Irwin, C. G., Leveritt, M. D. &amp; Goulet, E. D. B. (2017). The influence of drinking fluid on endurance cycling performance: A meta-analysis. <em>Sports Medicine, 47</em>(11), 2269–2284.",
+   "doi": "10.1007/s40279-017-0739-6"
+  },
+  "nuccio2017": {
+   "short": "Nuccio et al., 2017",
+   "year": 2017,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "28508338",
+   "apa": "Nuccio, R. P., Barnes, K. A., Carter, J. M. &amp; Baker, L. B. (2017). Fluid balance in team sport athletes and the effect of hypohydration on cognitive, technical, and physical performance. <em>Sports Medicine, 47</em>(10), 1951–1982.",
+   "doi": "10.1007/s40279-017-0738-7"
+  },
+  "savoie2015": {
+   "short": "Savoie et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26178327",
+   "apa": "Savoie, F. A., Kenefick, R. W., Ely, B. R., Cheuvront, S. N. &amp; Goulet, E. D. (2015). Effect of hypohydration on muscle endurance, strength, anaerobic power and capacity and vertical jumping ability: A meta-analysis. <em>Sports Medicine, 45</em>(8), 1207–1227.",
+   "doi": "10.1007/s40279-015-0349-0"
+  },
+  "francisco2024": {
+   "short": "Francisco et al., 2024",
+   "year": 2024,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "39047298",
+   "apa": "Francisco, R., Jesus, F., Santos, P., Trbovšek, P., Moreira, A. S., Nunes, C. L., Alvim, M., Sardinha, L. B., Lukaski, H., Mendonca, G. V. &amp; Silva, A. M. (2024). Does acute dehydration affect the neuromuscular function in healthy adults?-a systematic review. <em>Applied Physiology, Nutrition, and Metabolism, 49</em>(11), 1441–1460.",
+   "doi": "10.1139/apnm-2024-0192"
+  },
+  "brechney2022": {
+   "short": "Brechney et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35523423",
+   "apa": "Brechney, G. C., Cannon, J. &amp; Goodman, S. P. (2022). Effects of weight cutting on exercise performance in combat athletes: A meta-analysis. <em>International Journal of Sports Physiology and Performance, 17</em>(7), 995–1010.",
+   "doi": "10.1123/ijspp.2021-0104"
+  },
+  "wittbrodt2018": {
+   "short": "Wittbrodt & Millard-Stafford, 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29933347",
+   "apa": "Wittbrodt, M. T. &amp; Millard-Stafford, M. (2018). Dehydration impairs cognitive performance: A meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 50</em>(11), 2360–2368.",
+   "doi": "10.1249/MSS.0000000000001682"
+  },
+  "goodman2019": {
+   "short": "Goodman et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30876770",
+   "apa": "Goodman, S. P. J., Moreland, A. T. &amp; Marino, F. E. (2019). The effect of active hypohydration on cognitive function: A systematic review and meta-analysis. <em>Physiology &amp; Behavior, 204</em>, 297–308.",
+   "doi": "10.1016/j.physbeh.2019.03.008"
+  },
+  "goulet2019": {
+   "short": "Goulet & Hoffman, 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30659500",
+   "apa": "Goulet, E. D. B. &amp; Hoffman, M. D. (2019). Impact of ad libitum versus programmed drinking on endurance performance: A systematic review with meta-analysis. <em>Sports Medicine, 49</em>(2), 221–232.",
+   "doi": "10.1007/s40279-018-01051-z"
+  },
+  "rowlands2022": {
+   "short": "Rowlands et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse (bayesianisch)",
+   "basis": "Abstract",
+   "pmid": "34716905",
+   "apa": "Rowlands, D. S., Kopetschny, B. H. &amp; Badenhorst, C. E. (2022). The hydrating effects of hypertonic, isotonic and hypotonic sports drinks and waters on central hydration during continuous exercise: A systematic meta-analysis and perspective. <em>Sports Medicine, 52</em>(2), 349–375.",
+   "doi": "10.1007/s40279-021-01558-y"
+  },
+  "mccubbin2024": {
+   "short": "McCubbin & Irwin, 2024",
+   "year": 2024,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "38198662",
+   "apa": "McCubbin, A. J. &amp; Irwin, C. (2024). The effect of pre-exercise oral hyperhydration on endurance exercise performance, heart rate, and thermoregulation: A meta-analytical review. <em>Applied Physiology, Nutrition, and Metabolism, 49</em>(5), 569–583.",
+   "doi": "10.1139/apnm-2023-0384"
+  },
+  "acsm2007": {
+   "short": "American College of Sports Medicine et al., 2007",
+   "year": 2007,
+   "type": "Positionspapier (ACSM)",
+   "basis": "Abstract",
+   "pmid": "17277604",
+   "apa": "American College of Sports Medicine, Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J. &amp; Stachenfeld, N. S. (2007). American college of sports medicine position stand. Exercise and fluid replacement. <em>Medicine &amp; Science in Sports &amp; Exercise, 39</em>(2), 377–390.",
+   "doi": "10.1249/mss.0b013e31802ca597"
+  },
+  "mcdermott2017": {
+   "short": "McDermott et al., 2017",
+   "year": 2017,
+   "type": "Positionspapier (NATA)",
+   "basis": "Abstract",
+   "pmid": "28985128",
+   "apa": "McDermott, B. P., Anderson, S. A., Armstrong, L. E., Casa, D. J., Cheuvront, S. N., Cooper, L., Kenney, W. L., O'Connor, F. G. &amp; Roberts, W. O. (2017). National athletic trainers' association position statement: Fluid replacement for the physically active. <em>Journal of Athletic Training, 52</em>(9), 877–895.",
+   "doi": "10.4085/1062-6050-52.9.02"
+  },
+  "bennett2020": {
+   "short": "Bennett et al., 2020",
+   "year": 2020,
+   "type": "Leitlinie (Wilderness Medical Society)",
+   "basis": "Abstract",
+   "pmid": "32044213",
+   "apa": "Bennett, B. L., Hew-Butler, T., Rosner, M. H., Myers, T. &amp; Lipman, G. S. (2020). Wilderness medical society clinical practice guidelines for the management of exercise-associated hyponatremia: 2019 update. <em>Wilderness &amp; Environmental Medicine, 31</em>(1), 50–62.",
+   "doi": "10.1016/j.wem.2019.11.003"
+  },
+  "lecina2022": {
+   "short": "Lecina et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35629986",
+   "apa": "Lecina, M., Castellar-Otín, C., López-Laval, I., Carrasco Páez, L. &amp; Pradas, F. (2022). Acute kidney injury and hyponatremia in ultra-trail racing: A systematic review. <em>Medicina, 58</em>(5), Artikel 569.",
+   "doi": "10.3390/medicina58050569"
+  },
+  "rangan2021": {
+   "short": "Rangan et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34887267",
+   "apa": "Rangan, G. K., Dorani, N., Zhang, M. M., Abu-Zarour, L., Lau, H. C., Munt, A., Chandra, A. N., Saravanabavan, S., Rangan, A., Zhang, J. Q. J., Howell, M. &amp; Wong, A. T. (2021). Clinical characteristics and outcomes of hyponatraemia associated with oral water intake in adults: A systematic review. <em>BMJ Open, 11</em>(12), Artikel e046539.",
+   "doi": "10.1136/bmjopen-2020-046539"
+  },
+  "costa2026": {
+   "short": "Costa et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42693659",
+   "apa": "Costa, L. D. S., Correa, V. A. F., de Oliveira, V. F., Jahn, A. J. S., Aliano, G. B. &amp; Nunes, G. S. (2026). Risk factors for exercise-associated muscle cramps: A systematic review with meta-analysis. <em>Muscle &amp; Nerve, 74</em>(5), 1375–1386.",
+   "doi": "10.1002/mus.70389"
+  },
+  "mccartney2017": {
+   "short": "McCartney et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28316054",
+   "apa": "McCartney, D., Desbrow, B. &amp; Irwin, C. (2017). The effect of fluid intake following dehydration on subsequent athletic and cognitive performance: A systematic review and meta-analysis. <em>Sports Medicine – Open, 3</em>(1), 13.",
+   "doi": "10.1186/s40798-017-0079-y"
+  },
+  "mccartney2018": {
+   "short": "McCartney et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29098657",
+   "apa": "McCartney, D., Desbrow, B. &amp; Irwin, C. (2018). Post-exercise ingestion of carbohydrate, protein and water: A systematic review and meta-analysis for effects on subsequent athletic performance. <em>Sports Medicine, 48</em>(2), 379–408.",
+   "doi": "10.1007/s40279-017-0800-5"
+  },
+  "borra2025": {
+   "short": "Borra et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "38116803",
+   "apa": "Borra, V., De Brier, N., Berry, D. C., Zideman, D., Singletary, E., De Buck, E. &amp; International Liaison Committee on Resuscitation First Aid Task Force (2025). Oral rehydration beverages for treating exercise-associated dehydration: A systematic review, part I. Carbohydrate-Electrolyte solutions. <em>Journal of Athletic Training, 60</em>(1), 34–54.",
+   "doi": "10.4085/1062-6050-0682.22"
+  },
+  "debrier2025": {
+   "short": "De Brier et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "38116818",
+   "apa": "De Brier, N., Borra, V., Berry, D. C., Zideman, D., Singletary, E., De Buck, E. &amp; International Liaison Committee on Resuscitation First Aid Task Force (2025). Oral rehydration beverages for treating exercise-associated dehydration: A systematic review, part II. The effectiveness of alternatives to carbohydrate-electrolyte drinks. <em>Journal of Athletic Training, 60</em>(1), 55–69.",
+   "doi": "10.4085/1062-6050-0686.22"
+  },
+  "zhang2015": {
+   "short": "Zhang et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25154702",
+   "apa": "Zhang, Y., Coca, A., Casa, D. J., Antonio, J., Green, J. M. &amp; Bishop, P. A. (2015). Caffeine and diuresis during rest and exercise: A meta-analysis. <em>Journal of Science and Medicine in Sport, 18</em>(5), 569–574.",
+   "doi": "10.1016/j.jsams.2014.07.017"
+  },
+  "wang2026": {
+   "short": "Wang et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42884651",
+   "apa": "Wang, X., Liang, T., Liu, Y., Zhang, X., Zhao, S., Liang, Z., Du, S., Peng, Y. &amp; Ning, Z. (2026). Effects of acute carbohydrate-electrolyte supplementation on exercise performance in moderate-to-hot ambient conditions: A systematic review and meta-analysis. <em>Nutrients, 18</em>(19), Artikel 3200.",
+   "doi": "10.3390/nu18193200"
+  },
+  "mougin2025": {
+   "short": "Mougin et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40835807",
+   "apa": "Mougin, L., Macrae, H. Z., Taylor, L., James, L. J. &amp; Mears, S. A. (2025). The effect of heat stress and dehydration on carbohydrate use during endurance exercise: A systematic review and meta-analysis. <em>Sports Medicine, 55</em>(11), 2825–2847.",
+   "doi": "10.1007/s40279-025-02294-3"
+  },
+  "mccubbin2020": {
+   "short": "McCubbin et al., 2020",
+   "year": 2020,
+   "type": "Positionspapier (SDA)",
+   "basis": "Abstract",
+   "pmid": "31891914",
+   "apa": "McCubbin, A. J., Allanson, B. A., Caldwell Odgers, J. N., Cort, M. M., Costa, R. J. S., Cox, G. R., Crawshay, S. T., Desbrow, B., Freney, E. G., Gaskell, S. K., Hughes, D., Irwin, C., Jay, O., Lalor, B. J., Ross, M. L. R., Shaw, G., Périard, J. D. &amp; Burke, L. M. (2020). Sports dietitians australia position statement: Nutrition for exercise in hot environments. <em>International Journal of Sport Nutrition and Exercise Metabolism, 30</em>(1), 83–98.",
+   "doi": "10.1123/ijsnem.2019-0300"
+  }
+ }
+}

@@ -1,0 +1,987 @@
+{
+ "id": "timing",
+ "title": "Nährstoff-Timing rund ums Training",
+ "stand": "2026-11-20",
+ "lead": "Gibt es ein „anaboles Fenster“, wie sollte Protein über den Tag verteilt sein, lohnt sich Protein vor dem Schlafen, und sollte man nüchtern oder gegessen trainieren? Zusammengefasst aus Metaanalysen, systematischen Reviews und den ISSN-Positionspapieren.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierende Erwachsene. Wie viel Protein und Kohlenhydrate insgesamt sinnvoll sind, steht auf den Seiten <a href=\"#protein\">Protein</a> und <a href=\"#kohlenhydrate\">Kohlenhydrate</a>; hier geht es nur um den Zeitpunkt.",
+ "rx": [
+  {
+   "label": "Vorrang",
+   "value": "Tagesmenge vor Zeitpunkt",
+   "text": "In Metaanalysen erklärte die gesamte Proteinzufuhr den Muskelzuwachs besser als der Zeitpunkt. Erst die Tagesmenge sichern (siehe <a href=\"#protein\">Protein</a>), dann über das Timing nachdenken.",
+   "cite": "Schoenfeld et al. 2013; Wirth et al. 2020"
+  },
+  {
+   "label": "Verteilung",
+   "value": "20–40 g alle 3–4 Stunden",
+   "text": "Das ISSN empfiehlt Portionen von 0,25–0,40 g/kg hochwertigem Protein im Abstand von 3–4 Stunden; ein Review rechnet mit 0,4 g/kg pro Mahlzeit über mindestens vier Mahlzeiten.",
+   "cite": "Kerksick et al. 2017; Schoenfeld &amp; Aragon 2018"
+  },
+  {
+   "label": "Rund ums Training",
+   "value": "eine Proteinmahlzeit binnen etwa 2 Stunden",
+   "text": "Eine Portion vor oder nach dem Training ist sinnvoll; ein enges 30-Minuten-Fenster ist nicht belegt. Wer kurz vorher gegessen hat, muss danach weniger eilen.",
+   "cite": "Kerksick et al. 2017; Aragon &amp; Schoenfeld 2013; Casuso &amp; Goossens 2025"
+  },
+  {
+   "label": "Vor dem Schlafen",
+   "value": "30–40 g Casein, optional",
+   "text": "Erhöht die nächtliche Proteinsynthese. Für den langfristigen Muskelaufbau ist der Zusatznutzen unsicher, weil die Studien meist auch mehr Gesamtprotein lieferten.",
+   "cite": "Kerksick et al. 2017; Reis et al. 2021"
+  },
+  {
+   "label": "Nüchtern trainieren",
+   "value": "bei Kraft und kurzen Einheiten möglich, vor langen Ausdauereinheiten essen",
+   "text": "Gegessen verbesserte die Leistung bei langen Ausdauerbelastungen, bei kürzeren nicht. Krafttraining nüchtern brachte in wenigen Studien gleiche Kraft- und Muskelzuwächse.",
+   "cite": "Aird et al. 2018; Vieira et al. 2025"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Die ISSN-Positionspapiere stammen von Autorinnen und Autoren, die laut eigener Angabe vielfach von Supplementherstellern gefördert werden oder diese beraten. Ihre Empfehlungen zum Timing stützen sich zum Teil auf Kurzzeitmessungen der Muskelproteinsynthese, nicht auf Langzeitstudien.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Tagesmenge schlägt Timing",
+   "ev": "moderat",
+   "p": "Mehrere Metaanalysen fanden keinen verlässlichen Vorteil eines bestimmten Zeitpunkts für Muskelmasse oder Kraft, sobald die Gesamtproteinmenge berücksichtigt wurde.",
+   "s": [
+    "schoenfeld2013",
+    "wirth2020",
+    "casuso2025",
+    "hettiarachchi2024"
+   ]
+  },
+  {
+   "t": "Kein enges anaboles Fenster",
+   "ev": "moderat",
+   "p": "Das ISSN nennt heute „sofort bis 2 Stunden“ nach dem Training; 2008 hieß es noch „innerhalb von 30 Minuten“.",
+   "s": [
+    "kerksick2008",
+    "kerksick2017",
+    "aragon2013"
+   ]
+  },
+  {
+   "t": "Protein vor dem Schlaf erhöht die nächtliche Proteinsynthese",
+   "ev": "niedrig",
+   "p": "Akut gut belegt; ob daraus mehr Muskel entsteht, ist bei jungen Männern möglich, bei Älteren offen.",
+   "s": [
+    "reis2021",
+    "trommelen2016",
+    "zhou2024"
+   ]
+  },
+  {
+   "t": "Nüchtern: mehr Fettverbrennung während der Einheit, kein belegter Stoffwechselvorteil",
+   "ev": "moderat",
+   "p": "Die Fettoxidation stieg um etwa 3 g pro Einheit; Blutzucker, Insulin und Fettwerte sprachen danach nicht für einen Vorteil.",
+   "s": [
+    "vieira2016",
+    "kazeminasab2025",
+    "aird2018"
+   ]
+  },
+  {
+   "t": "Lange Ausdauer besser gegessen",
+   "ev": "moderat",
+   "p": "Eine Mahlzeit vorher verbesserte lange, aber nicht kurze Ausdauerbelastungen.",
+   "s": [
+    "aird2018"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "fenster",
+   "name": "Protein-Timing und anaboles Fenster",
+   "q": "Muss Protein direkt nach dem Training kommen?",
+   "ev": "moderat",
+   "key": [
+    "ISSN 2008: Kohlenhydrate innerhalb von 30 Minuten nach dem Training, Protein im Verhältnis 3–4:1 dazu; essenzielle Aminosäuren sofort bis 3 Stunden danach steigern die Muskelproteinsynthese (Kerksick et al., 2008).",
+    "Narrativer Review: Ob und wie lange ein Zeitfenster nach dem Training besteht, hängt von mehreren Faktoren ab; neuere Studien stellen die klassische Sicht in Frage (Aragon &amp; Schoenfeld, 2013).",
+    "Metaregression (Kraft: 20 Studien, 478 Personen; Hypertrophie: 23 Studien, 525 Personen): Ohne Adjustierung kleiner bis mittlerer Vorteil für Protein ums Training bei der Hypertrophie, keiner bei der Kraft. Nach Berücksichtigung der Gesamtproteinmenge kein Unterschied; die Gesamtmenge war der stärkste Prädiktor (Schoenfeld et al., 2013).",
+    "65 Studien, 2 907 Personen: Proteinsupplemente erhöhten die fettfreie Masse bei Erwachsenen (+0,62 kg [0,36; 0,88]) und Älteren (+0,46 kg [0,23; 0,70]); kein Zeitpunkt war in Untergruppen überlegen (Wirth et al., 2020).",
+    "Netzwerk-Metaanalyse (116 Studien, 4 711 Personen): Gegenüber Placebo wirkte Protein nach dem Training am stärksten auf die Muskelmasse (fettfreie Masse +0,54 kg [0,10; 0,99]), Protein am Abend am stärksten auf die Kraft (Handkraft +2,85 kg [0,49; 5,22]; Beinpresse +12,12 kg [3,26; 20,99]); direkte Vergleiche fehlen (Zhou et al., 2024).",
+    "Vor vs. nach dem Training (5 Studien): kein Unterschied bei Brustpresse und fettfreier Masse, knapp signifikanter Vorteil vor dem Training bei der Beinpresse (Casuso &amp; Goossens, 2025); Details auf der Seite <a href=\"#protein\">Protein</a>.",
+    "ISSN 2017: Protein sofort bis 2 Stunden nach dem Training steigert die Muskelproteinsynthese deutlich; Größe und Zeitpunkt einer Mahlzeit vor dem Training bestimmen mit, wie dringend Protein danach nötig ist (Kerksick et al., 2017)."
+   ],
+   "critic": "Die Empfehlungen haben sich deutlich verschoben: vom 30-Minuten-Fenster (2008) zu einem breiten Zeitraum von etwa 2 Stunden (2017). Grund ist die Metaregression von 2013, die zeigte, dass ältere Timing-Studien in der Interventionsgruppe meist mehr Gesamtprotein gaben. Die Netzwerk-Metaanalyse von 2024 widerspricht dem nur scheinbar: Sie vergleicht jeden Zeitpunkt mit Placebo, nicht die Zeitpunkte direkt miteinander. Wahrscheinlichste Lesart: Eine Proteinportion rund ums Training ist praktisch, der genaue Zeitpunkt aber zweitrangig.",
+   "figs": [
+    {
+     "id": "tim-zeitpunkt",
+     "title": "Protein zu verschiedenen Zeitpunkten gegenüber Placebo",
+     "cap": "Mittlere Differenz gegenüber Placebo in kg mit 95-%-KI: jeweils der wirksamste Zeitpunkt aus einer Netzwerk-Metaanalyse (Zhou et al., 2024) und zum Vergleich Protein unabhängig vom Zeitpunkt (Wirth et al., 2020). Kein direkter Vergleich der Zeitpunkte.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Fettfreie Masse, nach dem Training",
+       "sub": "Zhou et al., 2024",
+       "es": 0.54,
+       "lo": 0.1,
+       "hi": 0.99
+      },
+      {
+       "l": "Skelettmuskelmasse, nach dem Training",
+       "sub": "Zhou et al., 2024",
+       "es": 0.34,
+       "lo": 0.1,
+       "hi": 0.58
+      },
+      {
+       "l": "Handkraft, abends",
+       "sub": "Zhou et al., 2024",
+       "es": 2.85,
+       "lo": 0.49,
+       "hi": 5.22
+      },
+      {
+       "l": "Fettfreie Masse, Erwachsene, alle Zeitpunkte",
+       "sub": "Wirth et al., 2020",
+       "es": 0.62,
+       "lo": 0.36,
+       "hi": 0.88
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 6,
+      "ticks": [
+       -1,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6
+      ],
+      "unit": "kg",
+      "leftLab": "Placebo besser",
+      "rightLab": "Protein besser"
+     }
+    }
+   ],
+   "s": [
+    "kerksick2008",
+    "aragon2013",
+    "schoenfeld2013",
+    "wirth2020",
+    "zhou2024",
+    "casuso2025",
+    "kerksick2017"
+   ]
+  },
+  {
+   "id": "verteilung",
+   "name": "Verteilung über den Tag",
+   "q": "Wie oft und wie viel Protein pro Mahlzeit?",
+   "ev": "niedrig",
+   "key": [
+    "ISSN: Die Tagesmenge, möglichst gleichmäßig etwa alle 3 Stunden verteilt, hat Vorrang. 20–40 g (0,25–0,40 g/kg) hochwertiges Protein alle 3–4 Stunden wirken am günstigsten auf die Muskelproteinsynthese; etwa 10 g essenzielle Aminosäuren reizen sie maximal (Kerksick et al., 2017).",
+    "Narrativer Review: Für maximale Anabolie 0,4 g/kg pro Mahlzeit über mindestens vier Mahlzeiten, um mindestens 1,6 g/kg/Tag zu erreichen; bei 2,2 g/kg/Tag höchstens 0,55 g/kg pro Mahlzeit. Portionen über 20 g erhöhen zwar die Oxidation von Aminosäuren, ein Teil des Mehrs wird aber für den Muskelaufbau genutzt (Schoenfeld &amp; Aragon, 2018).",
+    "Narrativer Review: Der Effekt der Verteilung lässt sich nicht vom Effekt der Menge trennen. Bei 0,8–1,3 g/kg/Tag reicht mindestens eine Mahlzeit mit ausreichend Protein; eine gleichmäßige Verteilung hilft vor allem Menschen mit weniger als 0,8 g/kg/Tag, insgesamt mehr zu essen (Hudson et al., 2020).",
+    "Systematischer Review (15 Studien): gleichmäßige Verteilung in 3 von 7 Studien mit mehr Muskelmasse verbunden, in 2 von 7 mit mehr Kraft, in 1 von 6 mit höherer Proteinsynthese (Jespersen &amp; Agergaard, 2021).",
+    "Ältere zu Hause Lebende (28 Studien, 3 204 Personen): Protein erhöhte die Muskelmasse leicht (SMD 0,116 [0,032; 0,200]); Dosis, Häufigkeit und Zeitpunkt änderten daran nichts (Hettiarachchi et al., 2024).",
+    "ISSN zur Mahlzeitenfrequenz: Mehr Mahlzeiten verändern die Körperzusammensetzung Untrainierter nicht und erhöhen den Energieumsatz nicht; bei ausreichend Protein können sie in Diätphasen die Muskelmasse von Sportlern erhalten und den Hunger senken (La Bounty et al., 2011)."
+   ],
+   "critic": "Die Empfehlung „alle 3–4 Stunden 20–40 g“ beruht vor allem auf Kurzzeitmessungen der Muskelproteinsynthese. Langzeitstudien und Beobachtungsdaten sind uneinheitlich; die Metaanalyse bei Älteren fand keinen Einfluss der Verteilung. Wahrscheinlich ist eine gleichmäßige Verteilung ein praktischer Weg, die Tagesmenge zu erreichen, aber kein eigener Wirkfaktor.",
+   "figs": [],
+   "s": [
+    "kerksick2017",
+    "schoenfeld2018",
+    "hudson2020",
+    "jespersen2021",
+    "hettiarachchi2024",
+    "labounty2011"
+   ]
+  },
+  {
+   "id": "schlaf",
+   "name": "Protein vor dem Schlafen",
+   "q": "Bringt Protein vor dem Schlafen zusätzlichen Muskelaufbau?",
+   "ev": "niedrig",
+   "key": [
+    "Narrativer Review: Für einen deutlichen Anstieg der nächtlichen Muskelproteinsynthese braucht es mindestens 40 g Protein; vorheriges Training erhöht den Anteil, der in Muskel eingebaut wird (Trommelen &amp; van Loon, 2016).",
+    "ISSN: Etwa 30–40 g Casein vor dem Schlafen erhöhen akut die Muskelproteinsynthese und den nächtlichen Energieumsatz, ohne die Fettfreisetzung zu hemmen (Kerksick et al., 2017).",
+    "Systematischer Review (9 Arbeiten): 20–40 g Casein etwa 30 Minuten vor dem Schlafen steigerten die nächtliche Proteinsynthese. Über 10–12 Wochen Krafttraining verbesserte es Faserquerschnitt, Kraft und Muskelmasse bei jungen, nicht bei älteren Männern. Die Gruppen erhielten aber unterschiedlich viel Gesamtprotein (Reis et al., 2021).",
+    "Systematischer Review (11 Studien): 24–48 g Casein 30 Minuten vor dem Schlafen hatten wenig bis keinen Effekt auf Energieumsatz, Fettstoffwechsel, Appetit oder Nahrungsaufnahme (Dela Cruz &amp; Kahan, 2021).",
+    "Netzwerk-Metaanalyse: Protein am Abend war für die Kraft der wirksamste Zeitpunkt gegenüber Placebo (Zhou et al., 2024)."
+   ],
+   "critic": "Die akute Wirkung auf die nächtliche Proteinsynthese ist konsistent. Ob daraus mehr Muskelzuwachs folgt, ist offen: In den Langzeitstudien bekamen die Gruppen mit Protein vor dem Schlafen meist insgesamt mehr Protein, sodass der Zeitpunkt nicht vom Mehr an Protein zu trennen ist. Zum Energieumsatz widersprechen sich ISSN und der spätere systematische Review; der Review mit 11 Studien ist hier wahrscheinlich verlässlicher. Sinnvoll ist Protein vor dem Schlafen vor allem, um die Tagesmenge zu erreichen.",
+   "figs": [],
+   "s": [
+    "trommelen2016",
+    "kerksick2017",
+    "reis2021",
+    "delacruz2021",
+    "zhou2024"
+   ]
+  },
+  {
+   "id": "nuechtern",
+   "name": "Nüchtern trainieren: Ausdauer und Stoffwechsel",
+   "q": "Verbrennt Nüchterntraining mehr Fett, und ist das sinnvoll?",
+   "ev": "moderat",
+   "key": [
+    "27 Studien, 273 Personen (Ausdauerbelastung bis 120 Minuten): Nüchtern wurden während der Belastung 3,08 g mehr Fett oxidiert [0,79; 5,38]; freie Fettsäuren im Blut unterschieden sich nicht, Blutzucker und Insulin waren gegessen höher (Vieira et al., 2016).",
+    "46 Studien: Eine Mahlzeit vor der Belastung verbesserte lange (p = 0,012), aber nicht kürzere Ausdauerbelastungen (p = 0,687). Nüchtern stiegen die freien Fettsäuren nach der Belastung stärker; Signalwege der Stoffwechselanpassung wurden durch Essen gedämpft (Aird et al., 2018).",
+    "28 Studien, 302 Personen (36–150 Minuten Belastung): Nüchtern stiegen Blutzucker (+0,263 mmol/l) und Insulin (+8,84 mU/ml) stärker an, freie Fettsäuren fielen stärker ab (−0,121 mmol/l). Triglyzeride und respiratorischer Quotient unterschieden sich nicht. Nüchterntraining ist demnach nicht besser für den Zucker- oder Fettstoffwechsel (Kazeminasab et al., 2025).",
+    "Netzwerk-Metaanalyse (23 Studien): Nüchtern trainieren ohne anschließende Mahlzeit senkte die Energieaufnahme im Labor (−1 326 kJ [−2 102; −550]) und über 24 Stunden (−2 095 kJ [−3 910; −280]) gegenüber gegessen trainieren. Zugleich war der Energieverbrauch niedriger (−0,67 kJ/min [−1,10; −0,23]) und der Hunger höher (+23 mm [16; 30]) (Frampton et al., 2022)."
+   ],
+   "critic": "Mehr Fettverbrennung während der Einheit ist belegt, aber klein: rund 3 g Fett pro Einheit. Die aktuellere Metaanalyse fand im respiratorischen Quotienten keinen Unterschied und keine günstigeren Blutwerte. Die Hinweise auf bessere Langzeitanpassungen stammen aus Signalweg-Messungen, nicht aus Trainingsstudien. Die geringere Energieaufnahme nach Nüchterntraining beruht auf kurzen Laborstudien mit methodischen Schwächen; ein Autor erhielt Mittel von Lebensmittel- und Getränkeherstellern. Wahrscheinlichste Lesart: Nüchterntraining ist eine Frage der Vorliebe, kein Fettverbrennungstrick.",
+   "figs": [
+    {
+     "id": "tim-energie",
+     "title": "Nüchtern vs. gegessen trainieren: Energieaufnahme",
+     "cap": "Mittlere Differenz der Energieaufnahme in kJ mit 95-%-KI, nüchtern ohne Mahlzeit danach vs. gegessen ohne Mahlzeit danach (Frampton et al., 2022).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Energieaufnahme im Labor",
+       "sub": "Frampton et al., 2022",
+       "es": -1326,
+       "lo": -2102,
+       "hi": -550
+      },
+      {
+       "l": "Energieaufnahme über 24 Stunden",
+       "sub": "Frampton et al., 2022",
+       "es": -2095,
+       "lo": -3910,
+       "hi": -280
+      }
+     ],
+     "opts": {
+      "min": -4000,
+      "max": 500,
+      "ticks": [
+       -4000,
+       -3000,
+       -2000,
+       -1000,
+       0
+      ],
+      "unit": "kJ",
+      "leftLab": "nüchtern weniger",
+      "rightLab": "nüchtern mehr"
+     }
+    }
+   ],
+   "s": [
+    "vieira2016",
+    "aird2018",
+    "kazeminasab2025",
+    "frampton2022"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Krafttraining nüchtern oder gegessen",
+   "q": "Leidet der Muskelaufbau, wenn man nüchtern Krafttraining macht?",
+   "ev": "niedrig",
+   "key": [
+    "4 Studien, davon 3 mit hohem Verzerrungsrisiko: kein Unterschied zwischen nüchtern und gegessen bei fettfreier Masse (SMD 0,529 [−0,801; 1,859]), Hypertrophie (SMD 0,645 [−0,753; 2,042]) oder Kraft (SMD 0,415 [−0,399; 1,228]); nüchtern nahm die Fettmasse stärker ab (SMD −1,001 [−1,970; −0,032]) (Vieira et al., 2025).",
+    "ISSN: Protein oder Kohlenhydrate plus Protein vor und/oder nach dem Training können Kraft und Körperzusammensetzung fördern; Größe und Zeitpunkt einer Mahlzeit vor dem Training bestimmen mit, wie nötig Protein danach ist (Kerksick et al., 2017)."
+   ],
+   "critic": "Nur vier kleine Studien, überwiegend mit hohem Verzerrungsrisiko. Der stärkere Fettverlust ist knapp signifikant und sollte nicht überbewertet werden. Gut übertragbar ist vor allem die Aussage, dass Nüchterntraining nach einer Nacht den Kraft- und Muskelzuwachs nicht messbar mindert, wenn die Tagesmenge an Protein stimmt.",
+   "figs": [
+    {
+     "id": "tim-kraft",
+     "title": "Krafttraining nüchtern vs. gegessen",
+     "cap": "Standardisierte Mittelwertdifferenz mit 95-%-KI; Werte rechts von 0 bedeuten eine stärkere Zunahme nüchtern (Vieira et al., 2025; 4 Studien).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Fettfreie Masse",
+       "sub": "Vieira et al., 2025",
+       "es": 0.529,
+       "lo": -0.801,
+       "hi": 1.859
+      },
+      {
+       "l": "Muskelhypertrophie",
+       "sub": "Vieira et al., 2025",
+       "es": 0.645,
+       "lo": -0.753,
+       "hi": 2.042
+      },
+      {
+       "l": "Kraft",
+       "sub": "Vieira et al., 2025",
+       "es": 0.415,
+       "lo": -0.399,
+       "hi": 1.228
+      },
+      {
+       "l": "Fettmasse",
+       "sub": "Vieira et al., 2025",
+       "es": -1.001,
+       "lo": -1.97,
+       "hi": -0.032
+      }
+     ],
+     "opts": {
+      "min": -2.5,
+      "max": 2.5,
+      "ticks": [
+       -2,
+       -1,
+       0,
+       1,
+       2
+      ],
+      "unit": "SMD",
+      "leftLab": "gegessen mehr",
+      "rightLab": "nüchtern mehr"
+     }
+    }
+   ],
+   "s": [
+    "vieira2025",
+    "kerksick2017"
+   ]
+  },
+  {
+   "id": "vorher",
+   "name": "Mahlzeit vor dem Training",
+   "q": "Was und wann vor dem Training essen?",
+   "ev": "niedrig",
+   "key": [
+    "46 Studien: Gegessen verbesserte lange Ausdauerbelastungen, nicht aber kürzere (Aird et al., 2018).",
+    "ISSN: Bei intensiven Ausdauerbelastungen über etwa 70 Minuten 30–60 g Kohlenhydrate pro Stunde als 6–8-prozentige Lösung alle 10–15 Minuten; Glykogenspeicher füllen sich mit 8–12 g/kg/Tag (Kerksick et al., 2017).",
+    "Glykämischer Index der Mahlzeit vorher und Carb-Loading: siehe <a href=\"#kohlenhydrate\">Kohlenhydrate</a>.",
+    "Systematischer Review (5 Studien, 70 Personen): Ob vor dem Training gefrühstückt wurde, veränderte die Wirkung der Belastung auf die geistige Leistungsfähigkeit nicht; Studienqualität niedrig (PEDro im Mittel 4,0) (Hsieh et al., 2025)."
+   ],
+   "critic": "Die Datenlage zur Mahlzeit vor dem Training ist für Kurz- und Kraftbelastungen dünn; für lange Ausdauerbelastungen ist der Nutzen von Kohlenhydraten vorher und währenddessen gut belegt und auf der Seite <a href=\"#kohlenhydrate\">Kohlenhydrate</a> ausführlich beschrieben. Die Aussagen zu Frühstück und Kognition beruhen auf sehr wenigen, kleinen Studien.",
+   "figs": [],
+   "s": [
+    "aird2018",
+    "kerksick2017",
+    "hsieh2025"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2008,
+   "t": "ISSN: Nährstoff-Timing",
+   "p": "Kohlenhydrate und Protein innerhalb von 30 Minuten nach dem Training.",
+   "tag": "neu",
+   "s": "kerksick2008"
+  },
+  {
+   "y": 2011,
+   "t": "ISSN: Mahlzeitenfrequenz",
+   "p": "Mehr Mahlzeiten ändern den Körperbau kaum.",
+   "tag": "neu",
+   "s": "labounty2011"
+  },
+  {
+   "y": 2013,
+   "t": "Anaboles Fenster hinterfragt",
+   "p": "Das Zeitfenster ist breiter und weniger wichtig als angenommen.",
+   "tag": "contra",
+   "s": "aragon2013"
+  },
+  {
+   "y": 2013,
+   "t": "Metaregression zum Protein-Timing",
+   "p": "Nach Abgleich der Gesamtmenge kein Effekt des Zeitpunkts.",
+   "tag": "contra",
+   "s": "schoenfeld2013"
+  },
+  {
+   "y": 2016,
+   "t": "Protein vor dem Schlaf",
+   "p": "Mindestens 40 g für eine deutliche nächtliche Proteinsynthese.",
+   "tag": "neu",
+   "s": "trommelen2016"
+  },
+  {
+   "y": 2016,
+   "t": "Fettverbrennung nüchtern",
+   "p": "Etwa 3 g mehr Fettoxidation pro Ausdauereinheit.",
+   "tag": "neu",
+   "s": "vieira2016"
+  },
+  {
+   "y": 2017,
+   "t": "ISSN aktualisiert",
+   "p": "Protein sofort bis 2 Stunden nach dem Training; 20–40 g alle 3–4 Stunden; Casein vor dem Schlaf.",
+   "tag": "rel",
+   "s": "kerksick2017"
+  },
+  {
+   "y": 2018,
+   "t": "Nüchtern vs. gegessen",
+   "p": "Essen verbessert lange Ausdauerleistung.",
+   "tag": "neu",
+   "s": "aird2018"
+  },
+  {
+   "y": 2018,
+   "t": "Protein pro Mahlzeit",
+   "p": "0,4 g/kg über mindestens vier Mahlzeiten.",
+   "tag": "neu",
+   "s": "schoenfeld2018"
+  },
+  {
+   "y": 2020,
+   "t": "Timing unwichtig für fettfreie Masse",
+   "p": "65 Studien: kein Zeitpunkt überlegen.",
+   "tag": "conf",
+   "s": "wirth2020"
+  },
+  {
+   "y": 2020,
+   "t": "Verteilung vs. Menge",
+   "p": "Verteilungseffekt nicht von der Menge zu trennen.",
+   "tag": "rel",
+   "s": "hudson2020"
+  },
+  {
+   "y": 2021,
+   "t": "Gleichmäßige Verteilung",
+   "p": "Nur teilweise mit mehr Muskelmasse verbunden.",
+   "tag": "conf",
+   "s": "jespersen2021"
+  },
+  {
+   "y": 2021,
+   "t": "Protein vor dem Schlaf: Langzeit",
+   "p": "Möglicher Nutzen bei jungen Männern, ungleiche Gesamtmengen.",
+   "tag": "conf",
+   "s": "reis2021"
+  },
+  {
+   "y": 2021,
+   "t": "Casein vor dem Schlaf und Stoffwechsel",
+   "p": "Kaum Effekt auf Energieumsatz und Appetit.",
+   "tag": "contra",
+   "s": "delacruz2021"
+  },
+  {
+   "y": 2022,
+   "t": "Nüchterntraining und Energieaufnahme",
+   "p": "Weniger gegessen, aber mehr Hunger.",
+   "tag": "neu",
+   "s": "frampton2022"
+  },
+  {
+   "y": 2024,
+   "t": "Netzwerk-Metaanalyse zum Zeitpunkt",
+   "p": "Nach dem Training für Masse, abends für Kraft am günstigsten.",
+   "tag": "rel",
+   "s": "zhou2024"
+  },
+  {
+   "y": 2024,
+   "t": "Ältere Erwachsene",
+   "p": "Dosis, Häufigkeit und Zeitpunkt ohne Einfluss.",
+   "tag": "conf",
+   "s": "hettiarachchi2024"
+  },
+  {
+   "y": 2025,
+   "t": "Kein Stoffwechselvorteil nüchtern",
+   "p": "Blutzucker und Insulin stiegen nüchtern sogar stärker.",
+   "tag": "contra",
+   "s": "kazeminasab2025"
+  },
+  {
+   "y": 2025,
+   "t": "Vor vs. nach dem Training",
+   "p": "Kein Unterschied bei fettfreier Masse.",
+   "tag": "conf",
+   "s": "casuso2025"
+  },
+  {
+   "y": 2025,
+   "t": "Krafttraining nüchtern",
+   "p": "Gleiche Kraft- und Muskelzuwächse in 4 Studien.",
+   "tag": "neu",
+   "s": "vieira2025"
+  },
+  {
+   "y": 2025,
+   "t": "Frühstück und Kognition",
+   "p": "Kein Einfluss auf die Wirkung des Trainings.",
+   "tag": "neu",
+   "s": "hsieh2025"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 525 Einträgen, 244 Übersichtsarbeiten nach Titel geprüft (davon 13 aus regelbasiert ausgeschlossenen Einträgen und 99 über eine ergänzende Suche nach Übersichtsarbeiten), 21 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Muskelmasse und Kraft",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Muskelmasse durch Protein direkt ums Training (statt zu anderen Zeiten)",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 26,
+     "p": null,
+     "s": [
+      "schoenfeld2013",
+      "wirth2020",
+      "casuso2025"
+     ],
+     "t": "Kein Zeitpunkt überlegen (Wirth et al., 2020: 26 Studien zur fettfreien Masse); nach Abgleich der Gesamtmenge kein Effekt (23 Studien). Vor vs. nach dem Training: SMD −0,08.",
+     "v": "fenster"
+    },
+    {
+     "n": "Kraft durch Protein ums Training",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 20,
+     "p": 478,
+     "s": [
+      "schoenfeld2013",
+      "casuso2025"
+     ],
+     "t": "Kein Effekt des Zeitpunkts auf die Kraft (20 Studien). Einzig die Beinpresse war bei Protein vor dem Training knapp besser (SMD 0,70; 5 Studien).",
+     "v": "fenster"
+    },
+    {
+     "n": "Kraft durch Protein am Abend",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 116,
+     "p": 4711,
+     "s": [
+      "zhou2024",
+      "reis2021"
+     ],
+     "t": "Gegenüber Placebo Handkraft +2,85 kg und Beinpresse +12,12 kg; kein direkter Vergleich mit anderen Zeitpunkten, Gesamtproteinmenge nicht abgeglichen.",
+     "v": "schlaf"
+    },
+    {
+     "n": "Gleichmäßige Proteinverteilung über den Tag",
+     "g": "D",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 15,
+     "p": null,
+     "s": [
+      "jespersen2021",
+      "hudson2020"
+     ],
+     "t": "Mehr Muskelmasse in 3 von 7, mehr Kraft in 2 von 7 Studien; der Effekt ist nicht von der Gesamtmenge zu trennen.",
+     "v": "verteilung"
+    },
+    {
+     "n": "Dosis, Häufigkeit und Zeitpunkt bei Älteren",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 28,
+     "p": 3204,
+     "s": [
+      "hettiarachchi2024"
+     ],
+     "t": "Protein erhöhte die Muskelmasse (SMD 0,116), Dosis, Häufigkeit und Zeitpunkt änderten daran nichts.",
+     "v": "verteilung"
+    },
+    {
+     "n": "Muskelmasse und Kraft bei Krafttraining nüchtern",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 4,
+     "p": null,
+     "s": [
+      "vieira2025"
+     ],
+     "t": "Fettfreie Masse SMD 0,529, Hypertrophie SMD 0,645, Kraft SMD 0,415, alle nicht signifikant; 3 von 4 Studien mit hohem Verzerrungsrisiko.",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Lange Ausdauerleistung mit Mahlzeit vorher",
+     "g": "B",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 46,
+     "p": null,
+     "s": [
+      "aird2018"
+     ],
+     "t": "Gegessen besser als nüchtern bei langen Belastungen (p = 0,012); Effektgröße im Abstract nicht angegeben.",
+     "v": "nuechtern"
+    },
+    {
+     "n": "Kürzere Ausdauerleistung mit Mahlzeit vorher",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 46,
+     "p": null,
+     "s": [
+      "aird2018"
+     ],
+     "t": "Kein Unterschied zwischen nüchtern und gegessen (p = 0,687).",
+     "v": "nuechtern"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Muskelproteinsynthese",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Nächtliche Proteinsynthese durch Casein vor dem Schlaf",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 9,
+     "p": null,
+     "s": [
+      "reis2021",
+      "trommelen2016",
+      "kerksick2017"
+     ],
+     "t": "20–40 g Casein etwa 30 Minuten vor dem Schlafen steigerten die nächtliche Proteinsynthese; für einen deutlichen Anstieg vermutlich mindestens 40 g nötig.",
+     "v": "schlaf"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Stoffwechsel",
+   "kat": "stoffwechsel",
+   "items": [
+    {
+     "n": "Fettoxidation während nüchterner Ausdauerbelastung",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "neutral",
+     "k": 27,
+     "p": 273,
+     "s": [
+      "vieira2016",
+      "kazeminasab2025"
+     ],
+     "t": "+3,08 g Fett pro Einheit; praktisch gering. Eine neuere Analyse fand im respiratorischen Quotienten keinen Unterschied.",
+     "v": "nuechtern"
+    },
+    {
+     "n": "Blutzucker und Insulin nach nüchterner Belastung",
+     "g": "B",
+     "d": "auf",
+     "m": -1,
+     "b": "neutral",
+     "k": 28,
+     "p": 302,
+     "s": [
+      "kazeminasab2025"
+     ],
+     "t": "Nüchtern stiegen Blutzucker (+0,263 mmol/l) und Insulin (+8,84 mU/ml) stärker als gegessen; kein Hinweis auf einen Stoffwechselvorteil.",
+     "v": "nuechtern"
+    },
+    {
+     "n": "Energieverbrauch bei Casein vor dem Schlaf",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": null,
+     "s": [
+      "delacruz2021",
+      "kerksick2017"
+     ],
+     "t": "Wenig bis kein Effekt auf Energieumsatz, Fettstoffwechsel und Appetit (11 Studien); das ISSN berichtet einen höheren nächtlichen Umsatz.",
+     "v": "schlaf"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Körpergewicht und Appetit",
+   "kat": "koerper",
+   "items": [
+    {
+     "n": "Energieaufnahme nach Nüchterntraining (Abnahme)",
+     "g": "C",
+     "d": "ab",
+     "m": -1,
+     "b": "neutral",
+     "k": 23,
+     "p": null,
+     "s": [
+      "frampton2022"
+     ],
+     "t": "24-Stunden-Aufnahme −2 095 kJ gegenüber gegessen trainieren, aber geringerer Energieverbrauch (−0,67 kJ/min); kurze Laborstudien mit methodischen Schwächen.",
+     "v": "nuechtern"
+    },
+    {
+     "n": "Hunger nach Nüchterntraining",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "schaden",
+     "k": 23,
+     "p": null,
+     "s": [
+      "frampton2022"
+     ],
+     "t": "Subjektiver Hunger +23 mm auf der Skala gegenüber gegessen trainieren.",
+     "v": "nuechtern"
+    },
+    {
+     "n": "Fettmasse bei Krafttraining nüchtern (Abnahme)",
+     "g": "D",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": 4,
+     "p": null,
+     "s": [
+      "vieira2025"
+     ],
+     "t": "SMD −1,001, knapp signifikant; nur 4 Studien, 3 mit hohem Verzerrungsrisiko.",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Gehirn",
+   "kat": "gehirn",
+   "items": [
+    {
+     "n": "Kognitive Wirkung des Trainings mit oder ohne Frühstück",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 5,
+     "p": 70,
+     "s": [
+      "hsieh2025"
+     ],
+     "t": "Frühstück veränderte die Wirkung der Belastung auf die geistige Leistung nicht; niedrige Studienqualität.",
+     "v": "vorher"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "kerksick2008": {
+   "short": "Kerksick et al., 2008",
+   "year": 2008,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "18834505",
+   "apa": "Kerksick, C., Harvey, T., Stout, J., Campbell, B., Wilborn, C., Kreider, R., Kalman, D., Ziegenfuss, T., Lopez, H., Landis, J., Ivy, J. L. &amp; Antonio, J. (2008). International Society of Sports Nutrition position stand: Nutrient timing. <em>Journal of the International Society of Sports Nutrition, 5</em>, Artikel 17.",
+   "doi": "10.1186/1550-2783-5-17"
+  },
+  "labounty2011": {
+   "short": "La Bounty et al., 2011",
+   "year": 2011,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "21410984",
+   "apa": "La Bounty, P. M., Campbell, B. I., Wilson, J., Galvan, E., Berardi, J., Kleiner, S. M., Kreider, R. B., Stout, J. R., Ziegenfuss, T., Spano, M., Smith, A. &amp; Antonio, J. (2011). International Society of Sports Nutrition position stand: Meal frequency. <em>Journal of the International Society of Sports Nutrition, 8</em>, Artikel 4.",
+   "doi": "10.1186/1550-2783-8-4"
+  },
+  "aragon2013": {
+   "short": "Aragon & Schoenfeld, 2013",
+   "year": 2013,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "23360586",
+   "apa": "Aragon, A. A. &amp; Schoenfeld, B. J. (2013). Nutrient timing revisited: Is there a post-exercise anabolic window? <em>Journal of the International Society of Sports Nutrition, 10</em>(1), Artikel 5.",
+   "doi": "10.1186/1550-2783-10-5"
+  },
+  "schoenfeld2013": {
+   "short": "Schoenfeld et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse (Metaregression)",
+   "basis": "Abstract",
+   "pmid": "24299050",
+   "apa": "Schoenfeld, B. J., Aragon, A. A. &amp; Krieger, J. W. (2013). The effect of protein timing on muscle strength and hypertrophy: A meta-analysis. <em>Journal of the International Society of Sports Nutrition, 10</em>(1), Artikel 53.",
+   "doi": "10.1186/1550-2783-10-53"
+  },
+  "trommelen2016": {
+   "short": "Trommelen & van Loon, 2016",
+   "year": 2016,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "27916799",
+   "apa": "Trommelen, J. &amp; van Loon, L. J. (2016). Pre-sleep protein ingestion to improve the skeletal muscle adaptive response to exercise training. <em>Nutrients, 8</em>(12), Artikel 763.",
+   "doi": "10.3390/nu8120763"
+  },
+  "vieira2016": {
+   "short": "Vieira et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27609363",
+   "apa": "Vieira, A. F., Costa, R. R., Macedo, R. C., Coconcelli, L. &amp; Kruel, L. F. (2016). Effects of aerobic exercise performed in fasted v. fed state on fat and carbohydrate metabolism in adults: A systematic review and meta-analysis. <em>The British Journal of Nutrition, 116</em>(7), 1153–1164.",
+   "doi": "10.1017/S0007114516003160"
+  },
+  "kerksick2017": {
+   "short": "Kerksick et al., 2017",
+   "year": 2017,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "28919842",
+   "apa": "Kerksick, C. M., Arent, S., Schoenfeld, B. J., Stout, J. R., Campbell, B., Wilborn, C. D., Taylor, L., Kalman, D., Smith-Ryan, A. E., Kreider, R. B., Willoughby, D., Arciero, P. J., VanDusseldorp, T. A., Ormsbee, M. J., Wildman, R., Greenwood, M., Ziegenfuss, T. N., Aragon, A. A. &amp; Antonio, J. (2017). International Society of Sports Nutrition position stand: Nutrient timing. <em>Journal of the International Society of Sports Nutrition, 14</em>, Artikel 33.",
+   "doi": "10.1186/s12970-017-0189-4"
+  },
+  "aird2018": {
+   "short": "Aird et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29315892",
+   "apa": "Aird, T. P., Davies, R. W. &amp; Carson, B. P. (2018). Effects of fasted vs fed-state exercise on performance and post-exercise metabolism: A systematic review and meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 28</em>(5), 1476–1493.",
+   "doi": "10.1111/sms.13054"
+  },
+  "schoenfeld2018": {
+   "short": "Schoenfeld & Aragon, 2018",
+   "year": 2018,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "29497353",
+   "apa": "Schoenfeld, B. J. &amp; Aragon, A. A. (2018). How much protein can the body use in a single meal for muscle-building? Implications for daily protein distribution. <em>Journal of the International Society of Sports Nutrition, 15</em>, Artikel 10.",
+   "doi": "10.1186/s12970-018-0215-1"
+  },
+  "wirth2020": {
+   "short": "Wirth et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32232404",
+   "apa": "Wirth, J., Hillesheim, E. &amp; Brennan, L. (2020). The role of protein intake and its timing on body composition and muscle function in healthy adults: A systematic review and meta-analysis of randomized controlled trials. <em>The Journal of Nutrition, 150</em>(6), 1443–1460.",
+   "doi": "10.1093/jn/nxaa049"
+  },
+  "hudson2020": {
+   "short": "Hudson et al., 2020",
+   "year": 2020,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "32429355",
+   "apa": "Hudson, J. L., Bergia, R. E. &amp; Campbell, W. W. (2020). Protein distribution and muscle-related outcomes: Does the evidence support the concept? <em>Nutrients, 12</em>(5), Artikel 1441.",
+   "doi": "10.3390/nu12051441"
+  },
+  "jespersen2021": {
+   "short": "Jespersen & Agergaard, 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33550490",
+   "apa": "Jespersen, S. E. &amp; Agergaard, J. (2021). Evenness of dietary protein distribution is associated with higher muscle mass but not muscle strength or protein turnover in healthy adults: A systematic review. <em>European Journal of Nutrition, 60</em>(6), 3185–3202.",
+   "doi": "10.1007/s00394-021-02487-2"
+  },
+  "reis2021": {
+   "short": "Reis et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "32811763",
+   "apa": "Reis, C. E. G., Loureiro, L. M. R., Roschel, H. &amp; da Costa, T. H. M. (2021). Effects of pre-sleep protein consumption on muscle-related outcomes - A systematic review. <em>Journal of Science and Medicine in Sport, 24</em>(2), 177–182.",
+   "doi": "10.1016/j.jsams.2020.07.016"
+  },
+  "delacruz2021": {
+   "short": "Dela Cruz & Kahan, 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34070862",
+   "apa": "Dela Cruz, J. &amp; Kahan, D. (2021). Pre-sleep casein supplementation, metabolism, and appetite: A systematic review. <em>Nutrients, 13</em>(6), Artikel 1872.",
+   "doi": "10.3390/nu13061872"
+  },
+  "frampton2022": {
+   "short": "Frampton et al., 2022",
+   "year": 2022,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34732837",
+   "apa": "Frampton, J., Edinburgh, R. M., Ogden, H. B., Gonzalez, J. T. &amp; Chambers, E. S. (2022). The acute effect of fasted exercise on energy intake, energy expenditure, subjective hunger and gastrointestinal hormone release compared to fed exercise in healthy individuals: A systematic review and network meta-analysis. <em>International Journal of Obesity, 46</em>(2), 255–268.",
+   "doi": "10.1038/s41366-021-00993-1"
+  },
+  "zhou2024": {
+   "short": "Zhou et al., 2024",
+   "year": 2024,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38039960",
+   "apa": "Zhou, H. H., Liao, Y., Zhou, X., Peng, Z., Xu, S., Shi, S., Liu, L., Hao, L. &amp; Yang, W. (2024). Effects of timing and types of protein supplementation on improving muscle mass, strength, and physical performance in adults undergoing resistance training: A network meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 34</em>(1), 54–64.",
+   "doi": "10.1123/ijsnem.2023-0118"
+  },
+  "hettiarachchi2024": {
+   "short": "Hettiarachchi et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38830547",
+   "apa": "Hettiarachchi, J., Reijnierse, E. M., Kew, N., Fetterplace, K., Tan, S. Y. &amp; Maier, A. B. (2024). The effect of dose, frequency, and timing of protein supplementation on muscle mass in older adults: A systematic review and meta-analysis. <em>Ageing Research Reviews, 99</em>, Artikel 102325.",
+   "doi": "10.1016/j.arr.2024.102325"
+  },
+  "kazeminasab2025": {
+   "short": "Kazeminasab et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39921164",
+   "apa": "Kazeminasab, F., Rafiee, P., Miraghajani, M., Santos, H. O., Symonds, M. E. &amp; Rosenkranz, S. K. (2025). The effects of acute bouts of exercise in fasted vs. fed states on glucose and lipid metabolism in healthy adults: A systematic review and meta-analysis of randomized clinical trials. <em>Clinical Nutrition ESPEN, 66</em>, 320–331.",
+   "doi": "10.1016/j.clnesp.2025.02.002"
+  },
+  "casuso2025": {
+   "short": "Casuso & Goossens, 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40647175",
+   "apa": "Casuso, R. A. &amp; Goossens, L. (2025). Does protein ingestion timing affect exercise-induced adaptations? A systematic review with meta-analysis. <em>Nutrients, 17</em>(13), Artikel 2070.",
+   "doi": "10.3390/nu17132070"
+  },
+  "vieira2025": {
+   "short": "Vieira et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41316673",
+   "apa": "Vieira, A. F., Blanco-Rambo, E., Macedo, R. C. O. &amp; Cadore, E. L. (2025). Resistance training performed in the fasted state compared to the fed state on body composition and strength in adults: A systematic review with meta-analysis. <em>Journal of Bodywork and Movement Therapies, 45</em>, 99–109.",
+   "doi": "10.1016/j.jbmt.2025.08.003"
+  },
+  "hsieh2025": {
+   "short": "Hsieh et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "39794845",
+   "apa": "Hsieh, S. S., Tian, Y., Cheng, C. Y. &amp; Chen, Y. C. (2025). Systematic review on the effects of exercise with and without breakfast consumption on cognitive performance in healthy adults. <em>BMC Psychology, 13</em>(1), Artikel 29.",
+   "doi": "10.1186/s40359-024-02327-y"
+  }
+ }
+}

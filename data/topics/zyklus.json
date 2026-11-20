@@ -1,0 +1,670 @@
+{
+ "id": "zyklus",
+ "title": "Training und Menstruationszyklus",
+ "stand": "2026-11-20",
+ "lead": "Verändert der Menstruationszyklus Kraft und Ausdauer, lohnt sich ein Training, das sich nach den Zyklusphasen richtet, und wie wirkt die Pille? Zusammengefasst aus Metaanalysen, systematischen Reviews und randomisierten Trainingsstudien, mit besonderem Blick auf die Studienqualität.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für Frauen mit natürlichem Zyklus oder hormoneller Verhütung, die Kraft- oder Ausdauertraining betreiben. Die Gruppeneffekte sind klein; entscheidend ist die individuelle Reaktion.",
+ "rx": [
+  {
+   "label": "Trainingsplanung",
+   "value": "kein starres Zyklusschema nötig",
+   "text": "Ein Krafttraining mit Schwerpunkt in der Follikelphase brachte in der bislang sorgfältigsten Studie keinen Vorteil gegenüber gleichmäßigem Training; entscheidend war das Trainingsvolumen.",
+   "cite": "D’Souza et al. 2026; Colenso-Semple et al. 2023"
+  },
+  {
+   "label": "Individuell anpassen",
+   "value": "Zyklus und Beschwerden protokollieren",
+   "text": "Der Einfluss auf die Leistung ist im Mittel trivial, schwankt aber stark zwischen Personen. Viele Sportlerinnen erleben Leistungseinbußen vor allem durch Zyklusbeschwerden. Belastung bei Beschwerden anpassen statt pauschal nach Kalender.",
+   "cite": "McNulty et al. 2020; Oester et al. 2024"
+  },
+  {
+   "label": "Frühe Follikelphase",
+   "value": "Erholung im Blick behalten",
+   "text": "Um die Menstruation fiel die Leistung tendenziell am niedrigsten aus, und Muskelkater und Kraftverlust nach schädigendem Training waren größer. Längere Erholung kann sinnvoll sein; die Evidenz ist schwach.",
+   "cite": "McNulty et al. 2020; Romero-Parra et al. 2021"
+  },
+  {
+   "label": "Hormonelle Verhütung",
+   "value": "keine Entscheidung aus Leistungsgründen",
+   "text": "Die Pille veränderte Muskelaufbau und Kraftzuwachs nicht; die Leistung war höchstens trivial niedriger. Die Wahl der Verhütung sollte nicht nach sportlichen Gesichtspunkten erfolgen.",
+   "cite": "Nolan et al. 2024; Elliott-Sale et al. 2020"
+  },
+  {
+   "label": "Wettkampf",
+   "value": "nicht nach Zyklus verschieben",
+   "text": "Für Wettkampfplanung gibt es keine belastbare Grundlage; bei Spitzensportlerinnen fanden sich keine gesicherten Unterschiede der VO<sub>2max</sub> zwischen den Phasen.",
+   "cite": "Britton &amp; Duncan 2026; Schlie et al. 2025"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Allgemeine Grundsätze des Krafttrainings gelten für Frauen wie für Männer, siehe <a href=\"#hypertrophie\">Hypertrophietraining</a> und <a href=\"#maximalkraft\">Maximalkrafttraining</a>. Zyklusstörungen durch Energiemangel (z. B. RED-S) sind nicht Gegenstand dieser Seite.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Leistung schwankt im Zyklus kaum",
+   "ev": "moderat",
+   "p": "Über 78 Studien war die Leistung in der frühen Follikelphase nur trivial niedriger als in den anderen Phasen; Kraftmaße änderten sich kaum.",
+   "s": [
+    "mcnulty2020",
+    "blagrove2020"
+   ]
+  },
+  {
+   "t": "Zyklusbasiertes Training ohne gesicherten Vorteil",
+   "ev": "niedrig",
+   "p": "Ältere kleine Studien fanden Vorteile für Training in der Follikelphase; ein neueres, methodisch strengeres RCT mit Hormonbestimmung fand keinen Unterschied.",
+   "s": [
+    "sung2014",
+    "wikstrom2017",
+    "dsouza2026"
+   ]
+  },
+  {
+   "t": "Pille ohne Einfluss auf Trainingsanpassungen",
+   "ev": "moderat",
+   "p": "Orale Kontrazeptiva veränderten Hypertrophie, Kraft und Schnellkraft nicht; die akute Leistung war höchstens trivial geringer.",
+   "s": [
+    "nolan2024",
+    "elliottsale2020"
+   ]
+  },
+  {
+   "t": "Erholung könnte phasenabhängig sein",
+   "ev": "niedrig",
+   "p": "Muskelkater und Kraftverlust nach schädigendem Training waren in der frühen Follikelphase am größten; Pillennutzerinnen zeigten in einzelnen Studien eine langsamere Erholung.",
+   "s": [
+    "romeroparra2021",
+    "glenner2023"
+   ]
+  },
+  {
+   "t": "Viele Studien messen die Hormone nicht",
+   "ev": "hoch",
+   "p": "Nur 44 % der Studien bestimmten Östrogen und Progesteron; Zyklen ohne Eisprung bleiben so unerkannt und verfälschen die Ergebnisse.",
+   "s": [
+    "jansedejonge2019",
+    "schlie2025",
+    "colenso2023"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "leistung",
+   "name": "Leistung in den Zyklusphasen",
+   "q": "Sind Kraft und Ausdauer in bestimmten Phasen besser?",
+   "ev": "moderat",
+   "key": [
+    "78 Studien: Leistung in der frühen Follikelphase trivial niedriger als in allen anderen Phasen (ES −0,06 [95-%-Kredibilitätsintervall −0,16; 0,04]); größter Unterschied zwischen früher und später Follikelphase (ES −0,14 [−0,26; −0,03]); Evidenzqualität niedrig (McNulty et al., 2020).",
+    "21 Studien: alle Kraftmaße (Maximalkraft, isokinetisches Drehmoment, Explosivkraft) zwischen den Phasen nicht signifikant verschieden, Effekte klein bis trivial (g ≤ 0,35), keine Heterogenität (I² = 0 %) (Blagrove et al., 2020).",
+    "22 Studien, 433 Teilnehmerinnen: isometrische Maximalkraft in der späten Follikelphase höher (SMD 0,60; 7 Studien), isokinetische um den Eisprung (SMD 0,39; 5 Studien), dynamische kaum (SMD 0,14; 3 Studien) (Niering et al., 2024).",
+    "19 Studien mit Bestimmung von Östradiol, Progesteron und LH: Maximal- und Explosivkraft weitgehend unverändert; frühe Follikelphase in einzelnen Studien ungünstig für VO<sub>2max</sub> und Spitzenleistung (Schlie et al., 2025).",
+    "Spitzensportlerinnen, 5 Studien mit Hormonbestimmung: kein signifikanter Unterschied der VO<sub>2max</sub> zwischen früher Follikel- und mittlerer Lutealphase (Britton &amp; Duncan, 2026).",
+    "Das subjektive Belastungsempfinden (RPE) bei Ausdauerbelastung änderte sich über den Zyklus nicht, 17 Studien (Prado et al., 2024).",
+    "Bei Spitzensportlerinnen sind Richtung und Größe der Zykluseffekte uneinheitlich (Meignié et al., 2021)."
+   ],
+   "critic": "Die Metaanalysen widersprechen sich teilweise: Niering et al. finden für isometrische Kraft einen mittleren Effekt, Blagrove et al. und McNulty et al. nur triviale Effekte. Wahrscheinlicher zutreffend ist der kleine Effekt: Die Analysen von McNulty (78 Studien) und Blagrove (21 Studien, keine Heterogenität) sind größer, Niering stützt sich je Kraftform auf 3–7 Studien ohne berichtete Konfidenzintervalle. Die Analyse mit strenger Hormonbestimmung (Schlie et al.) bestätigt, dass die Kraft weitgehend unverändert bleibt. Ein leichter Nachteil um die Menstruation ist möglich, aber für die Trainingssteuerung meist bedeutungslos.",
+   "figs": [
+    {
+     "id": "zy-phasen",
+     "title": "Leistung: frühe Follikelphase im Vergleich",
+     "cap": "Gepoolte Effektstärke mit 95-%-Kredibilitätsintervall (McNulty et al., 2020). Negative Werte = geringere Leistung in der frühen Follikelphase.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "vs. alle anderen Phasen",
+       "sub": "McNulty et al., 2020",
+       "es": -0.06,
+       "lo": -0.16,
+       "hi": 0.04
+      },
+      {
+       "l": "vs. späte Follikelphase",
+       "sub": "McNulty et al., 2020",
+       "es": -0.14,
+       "lo": -0.26,
+       "hi": -0.03
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 0.2,
+      "ticks": [
+       -0.3,
+       -0.2,
+       -0.1,
+       0,
+       0.1
+      ],
+      "leftLab": "frühe Follikelphase schlechter",
+      "rightLab": "besser"
+     }
+    },
+    {
+     "id": "zy-kraft",
+     "title": "Maximalkraft: Vorteil der günstigsten Phase",
+     "cap": "Gewichtete mittlere SMD gegenüber der frühen Follikelphase (Niering et al., 2024); im Abstract ohne Konfidenzintervalle, 3–7 Studien je Kraftform.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Isometrisch (späte Follikelphase)",
+       "es": 0.6
+      },
+      {
+       "l": "Isokinetisch (Eisprung)",
+       "es": 0.39
+      },
+      {
+       "l": "Dynamisch (späte Follikelphase)",
+       "es": 0.14
+      }
+     ],
+     "opts": {
+      "max": 0.8,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "xlab": "SMD",
+      "src": "Niering et al., 2024"
+     }
+    }
+   ],
+   "s": [
+    "mcnulty2020",
+    "blagrove2020",
+    "niering2024",
+    "schlie2025",
+    "britton2026",
+    "prado2024",
+    "meignie2021"
+   ]
+  },
+  {
+   "id": "zyklustraining",
+   "name": "Zyklusbasiertes Training",
+   "q": "Bringt Training mit Schwerpunkt in der Follikelphase mehr?",
+   "ev": "niedrig",
+   "key": [
+    "20 Frauen, ein Bein vorwiegend in der Follikel-, das andere in der Lutealphase trainiert (drei Zyklen): Kraft und Muskeldurchmesser stiegen mit follikelphasenbetontem Training stärker (Sung et al., 2014).",
+    "Trainierte Frauen in drei Gruppen (19, 19 und 21), 4 Monate: hochfrequentes Beintraining in den ersten zwei Zykluswochen steigerte Sprungkraft, Drehmoment und Beinmagermasse; in den letzten zwei Wochen nicht; kein Unterschied zwischen Frauen mit und ohne Pille (Wikström-Frisén et al., 2017).",
+    "17 Studien, 418 Teilnehmerinnen: drei Trainingsstudien fanden follikelphasenbetontes Training überlegen, eine keinen Unterschied; die Befunde sind widersprüchlich und methodisch begrenzt (Thompson et al., 2020).",
+    "Übersicht: follikelphasenbetontes Training ist möglicherweise überlegen, weil Muskelstoffwechsel und Erholung von Östrogen und Progesteron abhängen (Kissow et al., 2022).",
+    "24 Frauen, drei Zyklen, Beine zufällig zugeteilt: hohes Volumen in der Follikel- bzw. Lutealphase oder gleichmäßiges Training ergaben gleiche Zuwächse an Magermasse, Muskelquerschnitt und 1RM; entscheidend war das Volumen (D’Souza et al., 2026).",
+    "14 Frauen, 8 Wochen polarisiertes Ausdauertraining: Anpassung an den Zyklus verbesserte VO<sub>2max</sub> und Schwellenwerte nicht stärker als reguläres Training (Kubica et al., 2024).",
+    "Umbrella Review: es ist verfrüht anzunehmen, dass kurzfristige Hormonschwankungen die Anpassungen an Krafttraining spürbar beeinflussen (Colenso-Semple et al., 2023)."
+   ],
+   "critic": "Hier zeigt der Forschungsverlauf einen Wechsel: Die frühen positiven Studien (2014, 2017) waren klein und bestimmten die Phasen überwiegend ohne Bestätigung des Eisprungs. Das neuere RCT (D’Souza et al., 2026) ist ebenfalls klein, kontrolliert aber das Volumen und vergleicht innerhalb derselben Person; es findet keinen Vorteil. Wahrscheinlich: Der frühere Vorteil beruhte zum Teil auf unterschiedlichem Trainingsumfang oder Zufall. Zyklusbasiertes Training ist eine Option nach persönlicher Vorliebe, keine Notwendigkeit.",
+   "figs": [],
+   "s": [
+    "sung2014",
+    "wikstrom2017",
+    "thompson2020",
+    "kissow2022",
+    "dsouza2026",
+    "kubica2024",
+    "colenso2023"
+   ]
+  },
+  {
+   "id": "erholung",
+   "name": "Muskelschaden und Erholung",
+   "q": "Erholen sich Frauen in manchen Phasen langsamer?",
+   "ev": "niedrig",
+   "key": [
+    "19 Studien: Muskelkater und Kraftverlust nach schädigendem Training unterschieden sich zwischen den Phasen; Kraftverlust in der frühen Follikelphase −3,46 [−4,95; −1,98], späten Follikelphase −1,63 [−2,36; −0,89], mittleren Lutealphase −0,72 [−1,07; −0,36]; CK ohne Unterschied (Romero-Parra et al., 2021).",
+    "Pillennutzerinnen: 10 von 11 Studien ohne Effekt auf die akute Kraft; nach schädigendem Training in 2 von 4 Studien stärkerer Kraftverlust und in 3 Studien höhere CK (Glenner-Frandsen et al., 2023)."
+   ],
+   "critic": "Die Befunde zur Erholung sind konsistenter als die zur Leistung, beruhen aber auf Studien mit mäßigem bis hohem Verzerrungsrisiko und wenigen Teilnehmerinnen. Die Autoren selbst leiten nur vorsichtige Empfehlungen ab (geringere Last oder längere Erholung in der frühen Follikelphase). Ob sich daraus langfristig andere Trainingsergebnisse ergeben, ist nicht belegt.",
+   "figs": [],
+   "s": [
+    "romeroparra2021",
+    "glenner2023"
+   ]
+  },
+  {
+   "id": "verhuetung",
+   "name": "Hormonelle Verhütung",
+   "q": "Verändert die Pille Leistung oder Trainingseffekt?",
+   "ev": "moderat",
+   "key": [
+    "42 Studien, 590 Teilnehmerinnen: Pillennutzerinnen hatten im Mittel höchstens trivial geringere Leistung als natürlich menstruierende Frauen; innerhalb des Pillenzyklus war die Leistung konstant; 83 % der Studien von mäßiger bis sehr niedriger Qualität (Elliott-Sale et al., 2020).",
+    "8 Studien, 325 Teilnehmerinnen: die Pille veränderte Hypertrophie (0,01 [−0,11; 0,13]), Schnellkraft (−0,04 [−0,93; 0,84]) und Kraft (0,10 [−0,08; 0,28]) nach Krafttraining nicht; andere Verhütungsformen wurden nicht untersucht (Nolan et al., 2024).",
+    "Einzelne Studien fanden günstigere Kraftzuwächse mit androgenen Pillenpräparaten als mit antiandrogenen (Thompson et al., 2020)."
+   ],
+   "critic": "Die Ergebnisse sind konsistent: kein relevanter Effekt der Pille auf Trainingsanpassungen. Einschränkungen: Pillen unterscheiden sich in Dosis und Gestagen, Hormonspiralen, Implantate und Spritzen sind kaum untersucht, und die meisten Studien haben geringe Qualität. Beide Metaanalysen empfehlen ausdrücklich keine allgemeine Empfehlung für oder gegen die Pille aus Leistungsgründen.",
+   "figs": [
+    {
+     "id": "zy-pille",
+     "title": "Pille und Anpassung an Krafttraining",
+     "cap": "Effektgröße mit 95-%-KI, Pillennutzerinnen vs. Nichtnutzerinnen (Nolan et al., 2024). Werte nahe 0 = kein Unterschied.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Hypertrophie",
+       "sub": "Nolan et al., 2024",
+       "es": 0.01,
+       "lo": -0.11,
+       "hi": 0.13
+      },
+      {
+       "l": "Kraft",
+       "sub": "Nolan et al., 2024",
+       "es": 0.1,
+       "lo": -0.08,
+       "hi": 0.28
+      },
+      {
+       "l": "Schnellkraft",
+       "sub": "Nolan et al., 2024",
+       "es": -0.04,
+       "lo": -0.93,
+       "hi": 0.84
+      }
+     ],
+     "opts": {
+      "min": -1.0,
+      "max": 1.0,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "leftLab": "Nichtnutzerinnen besser",
+      "rightLab": "Pillennutzerinnen besser"
+     }
+    }
+   ],
+   "s": [
+    "elliottsale2020",
+    "nolan2024",
+    "thompson2020"
+   ]
+  },
+  {
+   "id": "qualitaet",
+   "name": "Kritik an der Studienqualität",
+   "q": "Wie verlässlich ist die Forschung zum Zyklus?",
+   "ev": "hoch",
+   "key": [
+    "Studien 2008–2018: nur 44 % bestimmten Östrogen und Progesteron; Zyklen ohne Eisprung oder mit Lutealinsuffizienz verfälschen zusammen mit kleinen Stichproben die Ergebnisse. Empfohlen: Kalendermethode plus LH-Urintest plus Hormonbestimmung im Blut, Progesteron über 16 nmol/l für die Lutealphase (Janse de Jonge et al., 2019).",
+    "Auch in Studien mit hohem Standard waren Spitzensportlerinnen unterrepräsentiert (mittlere Stichprobe 13,9 Personen), und das Verzerrungsrisiko war mittel bis hoch (Schlie et al., 2025).",
+    "Die Metaanalysen zu Zyklus (42 % niedrige Qualität) und Pille (83 % mäßige bis sehr niedrige Qualität) bewerten die Evidenz überwiegend als schwach (McNulty et al., 2020; Elliott-Sale et al., 2020).",
+    "Übersichtsarbeiten von 1984 bis 2024 kommen bis heute zu keinem Konsens; die Mehrheit sieht keinen oder nur einen kleinen Effekt (Hackney et al., 2025).",
+    "39 Studien: 2,8 bis 100 % der Sportlerinnen berichteten Leistungseinbußen durch den Zyklus, vor allem wegen Beschwerden; die große Spannweite beruht auf unterschiedlichen Methoden und Erinnerungsverzerrung (Oester et al., 2024)."
+   ],
+   "critic": "Fehlende Hormonbestimmung ist der wichtigste Grund für widersprüchliche Ergebnisse: Wird eine Phase nur nach Kalender angenommen, kann eine Teilnehmerin ohne Eisprung fälschlich der Lutealphase zugeordnet werden. Das schwächt echte Effekte ab oder erzeugt Scheineffekte. Befunde aus Studien ohne Hormonbestimmung sollten daher geringer gewichtet werden. Die wenigen strengen Studien sprechen eher gegen große Zykluseffekte.",
+   "figs": [],
+   "s": [
+    "jansedejonge2019",
+    "schlie2025",
+    "mcnulty2020",
+    "elliottsale2020",
+    "hackney2025",
+    "oester2024"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2014,
+   "t": "Follikelphasenbetontes Krafttraining überlegen",
+   "p": "Mehr Kraft und Muskeldurchmesser im Bein-gegen-Bein-Vergleich.",
+   "tag": "neu",
+   "s": "sung2014"
+  },
+  {
+   "y": 2017,
+   "t": "Hochfrequent in den ersten zwei Zykluswochen",
+   "p": "Mehr Sprungkraft und Beinmagermasse als in der zweiten Zyklushälfte.",
+   "tag": "conf",
+   "s": "wikstrom2017"
+  },
+  {
+   "y": 2019,
+   "t": "Methodische Empfehlungen",
+   "p": "Nur 44 % der Studien bestimmten die Hormone; dreifache Phasenbestätigung empfohlen.",
+   "tag": "neu",
+   "s": "jansedejonge2019"
+  },
+  {
+   "y": 2020,
+   "t": "Große Metaanalyse zur Leistung",
+   "p": "Frühe Follikelphase nur trivial schlechter; individuelles Vorgehen empfohlen.",
+   "tag": "neu",
+   "s": "mcnulty2020"
+  },
+  {
+   "y": 2020,
+   "t": "Kraft kaum zyklusabhängig",
+   "p": "Alle Kraftmaße ohne signifikante Phasenunterschiede.",
+   "tag": "conf",
+   "s": "blagrove2020"
+  },
+  {
+   "y": 2020,
+   "t": "Pille und Leistung",
+   "p": "Höchstens trivial geringere Leistung, konstant im Pillenzyklus.",
+   "tag": "neu",
+   "s": "elliottsale2020"
+  },
+  {
+   "y": 2020,
+   "t": "Widersprüchliche Befunde zu Krafttraining",
+   "p": "Mehrere kleine Studien sehen Vorteile in der Follikelphase, methodisch begrenzt.",
+   "tag": "conf",
+   "s": "thompson2020"
+  },
+  {
+   "y": 2021,
+   "t": "Muskelschaden phasenabhängig",
+   "p": "Größerer Kraftverlust in der frühen Follikelphase.",
+   "tag": "neu",
+   "s": "romeroparra2021"
+  },
+  {
+   "y": 2021,
+   "t": "Spitzensportlerinnen",
+   "p": "Zykluseffekte bei Elite-Athletinnen uneinheitlich.",
+   "tag": "conf",
+   "s": "meignie2021"
+  },
+  {
+   "y": 2022,
+   "t": "Plädoyer für Follikelphasen-Training",
+   "p": "Möglicher Vorteil durch hormonabhängige Muskelanpassung.",
+   "tag": "conf",
+   "s": "kissow2022"
+  },
+  {
+   "y": 2023,
+   "t": "Umbrella Review: kein belegter Einfluss",
+   "p": "Verfrüht, Zykluseffekte auf Krafttraining anzunehmen.",
+   "tag": "contra",
+   "s": "colenso2023"
+  },
+  {
+   "y": 2023,
+   "t": "Pille und Erholung",
+   "p": "Hinweise auf langsamere Erholung nach Muskelschädigung.",
+   "tag": "neu",
+   "s": "glenner2023"
+  },
+  {
+   "y": 2024,
+   "t": "Maximalkraft je nach Phase",
+   "p": "Isometrische Kraft in der späten Follikelphase höher, wenige Studien.",
+   "tag": "contra",
+   "s": "niering2024"
+  },
+  {
+   "y": 2024,
+   "t": "Pille ohne Einfluss auf Krafttraining",
+   "p": "Keine Unterschiede bei Hypertrophie und Kraft.",
+   "tag": "neu",
+   "s": "nolan2024"
+  },
+  {
+   "y": 2024,
+   "t": "Belastungsempfinden unverändert",
+   "p": "RPE bei Ausdauerbelastung ohne Phasenunterschied.",
+   "tag": "conf",
+   "s": "prado2024"
+  },
+  {
+   "y": 2024,
+   "t": "Wahrgenommene Beeinträchtigung",
+   "p": "Sehr unterschiedliche Angaben, vor allem durch Beschwerden.",
+   "tag": "neu",
+   "s": "oester2024"
+  },
+  {
+   "y": 2024,
+   "t": "Zyklusangepasstes Ausdauertraining",
+   "p": "Kein Vorteil gegenüber regulärem Training.",
+   "tag": "contra",
+   "s": "kubica2024"
+  },
+  {
+   "y": 2025,
+   "t": "Nur Studien mit Hormonbestimmung",
+   "p": "Kraft weitgehend unverändert; hohe Verzerrungsrisiken.",
+   "tag": "conf",
+   "s": "schlie2025"
+  },
+  {
+   "y": 2025,
+   "t": "40 Jahre ohne Konsens",
+   "p": "Mehrheit der Übersichten sieht keinen oder kleinen Effekt.",
+   "tag": "conf",
+   "s": "hackney2025"
+  },
+  {
+   "y": 2026,
+   "t": "Spitzensport: VO2max unverändert",
+   "p": "Keine signifikanten Phasenunterschiede bei hormonbestätigten Phasen.",
+   "tag": "conf",
+   "s": "britton2026"
+  },
+  {
+   "y": 2026,
+   "t": "RCT: zyklusbasiertes Krafttraining ohne Vorteil",
+   "p": "Gleiche Zuwächse an Muskelmasse und Kraft; Volumen entscheidend.",
+   "tag": "contra",
+   "s": "dsouza2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1299 Einträgen, 163 Übersichtsarbeiten nach Titel geprüft, ergänzt um eine Zusatzsuche nach Übersichtsarbeiten und Studien zum zyklusbasierten Training; 21 Quellen aufgenommen."
+  }
+ ],
+ "def": {
+  "t": "Im Menstruationszyklus schwanken die körpereigenen Sexualhormone, vor allem Östradiol und Progesteron. Studien unterscheiden meist frühe und späte Follikelphase, Eisprung sowie frühe, mittlere und späte Lutealphase. Orale Kontrazeptiva senken die körpereigenen Hormone und führen zugleich Östrogen und Gestagen von außen zu. Zyklusbasiertes Training legt Trainingsschwerpunkte gezielt in bestimmte Phasen, meist in die Follikelphase.",
+  "s": [
+   "mcnulty2020",
+   "elliottsale2020",
+   "kissow2022"
+  ]
+ },
+ "sources": {
+  "sung2014": {
+   "short": "Sung et al., 2014",
+   "year": 2014,
+   "type": "RCT (Bein-gegen-Bein)",
+   "basis": "Abstract",
+   "pmid": "25485203",
+   "apa": "Sung, E., Han, A., Hinrichs, T., Vorgerd, M., Manchado, C. &amp; Platen, P. (2014). Effects of follicular versus luteal phase-based strength training in young women. <em>SpringerPlus, 3</em>, Artikel 668.",
+   "doi": "10.1186/2193-1801-3-668"
+  },
+  "wikstrom2017": {
+   "short": "Wikström-Frisén et al., 2017",
+   "year": 2017,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "26558833",
+   "apa": "Wikström-Frisén, L., Boraxbekk, C. J. &amp; Henriksson-Larsén, K. (2017). Effects on power, strength and lean body mass of menstrual/oral contraceptive cycle based resistance training. <em>The Journal of Sports Medicine and Physical Fitness, 57</em>(1-2), 43–52.",
+   "doi": "10.23736/S0022-4707.16.05848-5"
+  },
+  "jansedejonge2019": {
+   "short": "Janse de Jonge et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review (Methodik)",
+   "basis": "Abstract",
+   "pmid": "31246715",
+   "apa": "Janse de Jonge, X., Thompson, B. &amp; Han, A. (2019). Methodological recommendations for menstrual cycle research in sports and exercise. <em>Medicine &amp; Science in Sports &amp; Exercise, 51</em>(12), 2610–2617.",
+   "doi": "10.1249/MSS.0000000000002073"
+  },
+  "mcnulty2020": {
+   "short": "McNulty et al., 2020",
+   "year": 2020,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32661839",
+   "apa": "McNulty, K. L., Elliott-Sale, K. J., Dolan, E., Swinton, P. A., Ansdell, P., Goodall, S., Thomas, K. &amp; Hicks, K. M. (2020). The effects of menstrual cycle phase on exercise performance in eumenorrheic women: A systematic review and meta-analysis. <em>Sports Medicine, 50</em>(10), 1813–1827.",
+   "doi": "10.1007/s40279-020-01319-3"
+  },
+  "blagrove2020": {
+   "short": "Blagrove et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32456980",
+   "apa": "Blagrove, R. C., Bruinvels, G. &amp; Pedlar, C. R. (2020). Variations in strength-related measures during the menstrual cycle in eumenorrheic women: A systematic review and meta-analysis. <em>Journal of Science and Medicine in Sport, 23</em>(12), 1220–1227.",
+   "doi": "10.1016/j.jsams.2020.04.022"
+  },
+  "elliottsale2020": {
+   "short": "Elliott-Sale et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32666247",
+   "apa": "Elliott-Sale, K. J., McNulty, K. L., Ansdell, P., Goodall, S., Hicks, K. M., Thomas, K., Swinton, P. A. &amp; Dolan, E. (2020). The effects of oral contraceptives on exercise performance in women: A systematic review and meta-analysis. <em>Sports Medicine, 50</em>(10), 1785–1812.",
+   "doi": "10.1007/s40279-020-01317-5"
+  },
+  "thompson2020": {
+   "short": "Thompson et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "31677121",
+   "apa": "Thompson, B., Almarjawi, A., Sculley, D. &amp; Janse de Jonge, X. (2020). The effect of the menstrual cycle and oral contraceptives on acute responses and chronic adaptations to resistance training: A systematic review of the literature. <em>Sports Medicine, 50</em>(1), 171–185.",
+   "doi": "10.1007/s40279-019-01219-1"
+  },
+  "romeroparra2021": {
+   "short": "Romero-Parra et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33201156",
+   "apa": "Romero-Parra, N., Cupeiro, R., Alfaro-Magallanes, V. M., Rael, B., Rubio-Arias, J. Á., Peinado, A. B., Benito, P. J. &amp; IronFEMME Study Group (2021). Exercise-Induced muscle damage during the menstrual cycle: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 35</em>(2), 549–561.",
+   "doi": "10.1519/JSC.0000000000003878",
+   "flag": "Einheit der Mittelwertdifferenzen im Abstract nicht angegeben."
+  },
+  "meignie2021": {
+   "short": "Meignié et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34093223",
+   "apa": "Meignié, A., Duclos, M., Carling, C., Orhant, E., Provost, P., Toussaint, J. F. &amp; Antero, J. (2021). The effects of menstrual cycle phase on elite athlete performance: A critical and systematic review. <em>Frontiers in Physiology, 12</em>, Artikel 654585.",
+   "doi": "10.3389/fphys.2021.654585"
+  },
+  "kissow2022": {
+   "short": "Kissow et al., 2022",
+   "year": 2022,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "35471634",
+   "apa": "Kissow, J., Jacobsen, K. J., Gunnarsson, T. P., Jessen, S. &amp; Hostrup, M. (2022). Effects of follicular and luteal phase-based menstrual cycle resistance training on muscle strength and mass. <em>Sports Medicine, 52</em>(12), 2813–2819.",
+   "doi": "10.1007/s40279-022-01679-y"
+  },
+  "colenso2023": {
+   "short": "Colenso-Semple et al., 2023",
+   "year": 2023,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "37033884",
+   "apa": "Colenso-Semple, L. M., D'Souza, A. C., Elliott-Sale, K. J. &amp; Phillips, S. M. (2023). Current evidence shows no influence of women's menstrual cycle phase on acute strength performance or adaptations to resistance exercise training. <em>Frontiers in Sports and Active Living, 5</em>, Artikel 1054542.",
+   "doi": "10.3389/fspor.2023.1054542"
+  },
+  "glenner2023": {
+   "short": "Glenner-Frandsen et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "36154748",
+   "apa": "Glenner-Frandsen, A., With, C., Gunnarsson, T. P. &amp; Hostrup, M. (2023). The effect of monophasic oral contraceptives on muscle strength and markers of recovery after exercise-induced muscle damage: A systematic review. <em>Sports Health, 15</em>(3), 318–327.",
+   "doi": "10.1177/19417381221121653"
+  },
+  "niering2024": {
+   "short": "Niering et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38251305",
+   "apa": "Niering, M., Wolf-Belala, N., Seifert, J., Tovar, O., Coldewey, J., Kuranda, J. &amp; Muehlbauer, T. (2024). The influence of menstrual cycle phases on maximal strength performance in healthy female adults: A systematic review with meta-analysis. <em>Sports, 12</em>(1), 31.",
+   "doi": "10.3390/sports12010031",
+   "flag": "Gewichtete mittlere SMD ohne Konfidenzintervalle im Abstract; Analysen mit nur 3–7 Studien."
+  },
+  "nolan2024": {
+   "short": "Nolan et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37755666",
+   "apa": "Nolan, D., McNulty, K. L., Manninen, M. &amp; Egan, B. (2024). The effect of hormonal contraceptive use on skeletal muscle hypertrophy, power and strength adaptations to resistance exercise training: A systematic review and multilevel meta-analysis. <em>Sports Medicine, 54</em>(1), 105–125.",
+   "doi": "10.1007/s40279-023-01911-3"
+  },
+  "prado2024": {
+   "short": "Prado et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38659609",
+   "apa": "Prado, R. C. R., Hackney, A. C., Silveira, R., Kilpatrick, M. W., Takito, M. Y. &amp; Asano, R. Y. (2024). Effect of menstrual cycle phase on perceived exertion during aerobic exercise in eumenorrheic women: A systematic review and meta-analysis. <em>Journal of Women’s &amp; Pelvic Health Physical Therapy, 48</em>(2), 91–102.",
+   "doi": "10.5271/sjweh.1815"
+  },
+  "oester2024": {
+   "short": "Oester et al., 2024",
+   "year": 2024,
+   "type": "Scoping Review",
+   "basis": "Abstract",
+   "pmid": "38508888",
+   "apa": "Oester, C., Norris, D., Scott, D., Pedlar, C., Bruinvels, G. &amp; Lovell, R. (2024). Inconsistencies in the perceived impact of the menstrual cycle on sport performance and in the prevalence of menstrual cycle symptoms: A scoping review of the literature. <em>Journal of Science and Medicine in Sport, 27</em>(6), 373–384.",
+   "doi": "10.1016/j.jsams.2024.02.012"
+  },
+  "kubica2024": {
+   "short": "Kubica et al., 2024",
+   "year": 2024,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "37800402",
+   "apa": "Kubica, C., Ketelhut, S., Querciagrossa, D., Burger, M., Widmer, M., Bernhard, J., Schneider, M., Ries, T. &amp; Nigg, C. R. (2024). Effects of a training intervention tailored to the menstrual cycle on endurance performance and hemodynamics. <em>The Journal of Sports Medicine and Physical Fitness, 64</em>(1), 45–54.",
+   "doi": "10.23736/S0022-4707.23.15277-7"
+  },
+  "schlie2025": {
+   "short": "Schlie et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "40695607",
+   "apa": "Schlie, J., Krassowski, V. &amp; Schmidt, A. (2025). Effects of menstrual cycle phases on athletic performance and related physiological outcomes: A systematic review of studies using high methodological standards. <em>Journal of Applied Physiology, 139</em>(3), 650–667.",
+   "doi": "10.1152/japplphysiol.00223.2025"
+  },
+  "hackney2025": {
+   "short": "Hackney et al., 2025",
+   "year": 2025,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "40704904",
+   "apa": "Hackney, A. C., Hansen, M. &amp; Melin, A. (2025). Menstrual cycle effects on sports performance and adaptations to training: A historical perspective. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 35</em>(8), Artikel e70107.",
+   "doi": "10.1111/sms.70107"
+  },
+  "britton2026": {
+   "short": "Britton & Duncan, 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42455790",
+   "apa": "Britton, I. I. &amp; Duncan, W. C. (2026). The effects of hormone changes over the menstrual cycle on elite athlete performance: Meta-analysis and suggested standardised protocol. <em>Reproduction &amp; Fertility, 7</em>(3), RAF250131.",
+   "doi": "10.1530/RAF-25-0131",
+   "flag": "Nur 5 Studien; Effektgrößen im Abstract nicht angegeben."
+  },
+  "dsouza2026": {
+   "short": "D’Souza et al., 2026",
+   "year": 2026,
+   "type": "RCT (Bein-gegen-Bein)",
+   "basis": "Abstract",
+   "pmid": "42160459",
+   "apa": "D'Souza, A. C., Van Every, D. W., Bhinder, A., Elango, S., Lamont, G. A. C., Lees, M. J., Lim, C., McKendry, J., Newbold, J. P., Naphin, C., Rebalka, I. A., Roxburgh, L., Suthaharan, A., Wilson, B. K. &amp; Phillips, S. M. (2026). Menstrual cycle phase does not influence training-induced muscle hypertrophy or strength: A randomized controlled trial. <em>Medicine &amp; Science in Sports &amp; Exercise, 58</em>(10), 2255–2273.",
+   "doi": "10.1249/MSS.0000000000004031"
+  }
+ }
+}

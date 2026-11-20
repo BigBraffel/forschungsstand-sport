@@ -1,0 +1,989 @@
+{
+ "id": "schlaf",
+ "title": "Schlaf",
+ "stand": "2026-11-20",
+ "lead": "Wie stark kostet zu wenig Schlaf Kraft, Ausdauer und Konzentration, und was bringen mehr Schlaf, Nickerchen, Schlafhygiene oder die Wahl der Trainingszeit? Zusammengefasst aus Metaanalysen und systematischen Reviews.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für Sporttreibende und Sportler. Die Leistungseinbußen durch Schlafmangel sind gut belegt; zu Gegenmaßnahmen wie Schlafverlängerung und Schlafhygiene gibt es überwiegend kleine Studien.",
+ "rx": [
+  {
+   "label": "Schlafmangel",
+   "value": "lieber spät ins Bett als früh raus",
+   "text": "Wenn Schlaf knapp wird, schadete frühes Aufstehen (verkürztes Nachtende) der Leistung am stärksten; Belastungen am Morgen nach kurzer Nacht waren weniger beeinträchtigt als am Nachmittag.",
+   "cite": "Craven et al. 2022; Gong et al. 2024"
+  },
+  {
+   "label": "Nickerchen",
+   "value": "etwa 30–90 min am frühen Nachmittag",
+   "text": "Ein Mittagsschlaf am frühen Nachmittag (in den Studien meist ab 14 Uhr) verbesserte körperliche und kognitive Leistung; zwischen Aufwachen und Belastung sollte mehr als 1 Stunde liegen.",
+   "cite": "Mesas et al. 2023; Zheng et al. 2026"
+  },
+  {
+   "label": "Schlafverlängerung",
+   "value": "mehr Bettzeit in belastungsreichen Phasen",
+   "text": "Längere Nachtruhe und Nickerchen waren die wirksamsten Schlafmaßnahmen für die Leistung; die Studien sind aber klein.",
+   "cite": "Cunha et al. 2023; Bonnar et al. 2018"
+  },
+  {
+   "label": "Training am Abend",
+   "value": "möglich, aber nicht hart direkt vor dem Schlafen",
+   "text": "Abendtraining verschlechterte den Schlaf insgesamt nicht; nur intensives Training, das höchstens 1 Stunde vor dem Zubettgehen endet, kann das Einschlafen und Durchschlafen stören.",
+   "cite": "Stutz et al. 2019; Souabni et al. 2026"
+  },
+  {
+   "label": "Wettkampf und Belastungsspitzen",
+   "value": "Schlaf bewusst schützen",
+   "text": "In der Nacht vor bzw. nach Wettkämpfen und in harten Trainingsphasen schliefen Sportler deutlich kürzer; frühe Einheiten vor 7 Uhr verkürzten den Schlaf.",
+   "cite": "Roberts et al. 2019; Vlahoyiannis et al. 2021"
+  }
+ ],
+ "note": "<b>Melatonin und Koffein:</b> Melatonin als Supplement ist im eigenen Thema <a href=\"#melatonin\">Melatonin</a> beschrieben, die Wirkung von Koffein auf den Schlaf im Thema <a href=\"#koffein\">Koffein</a>. Zur Erholung nach Krafttraining insgesamt siehe <a href=\"#regeneration\">Regeneration</a>.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Schlafmangel kostet Leistung in fast allen Bereichen",
+   "ev": "hoch",
+   "p": "Akuter Schlafverlust senkte die Leistung im Mittel um 7,6 % (69 Publikationen); Ausdauer, Schnellkraft, Maximalkraft, Schnelligkeit und Technik waren betroffen.",
+   "s": [
+    "craven2022",
+    "kong2025",
+    "gong2024",
+    "lopes2023"
+   ]
+  },
+  {
+   "t": "Frühes Aufwachen schadet mehr als spätes Einschlafen",
+   "ev": "moderat",
+   "p": "Teilschlafentzug am Ende der Nacht wirkte deutlich stärker als am Anfang; die Leistung fiel mit jeder zusätzlichen Wachstunde um etwa 0,4 %.",
+   "s": [
+    "craven2022",
+    "gong2024"
+   ]
+  },
+  {
+   "t": "Nickerchen verbessern Leistung und Befinden",
+   "ev": "moderat",
+   "p": "Ein Mittagsschlaf steigerte körperliche (SMD 0,99) und kognitive Leistung (SMD 0,69) und senkte die empfundene Ermüdung; auf die Maximalkraft wirkte er nicht.",
+   "s": [
+    "mesas2023",
+    "boukhris2024",
+    "boukhris2026",
+    "zheng2026"
+   ]
+  },
+  {
+   "t": "Mehr Schlaf hilft, Belege sind aber dünn",
+   "ev": "niedrig",
+   "p": "Schlafverlängerung war in Reviews die wirksamste Maßnahme; Schlafhygiene-Schulungen wirkten nur als strukturierte Programme.",
+   "s": [
+    "silva2021",
+    "bonnar2018",
+    "cunha2023",
+    "george2026"
+   ]
+  },
+  {
+   "t": "Verletzungsrisiko: bei Jugendlichen belegt, bei Erwachsenen unklar",
+   "ev": "niedrig",
+   "p": "Chronisch schlecht schlafende Jugendliche verletzten sich häufiger (OR 1,58); bei erwachsenen Sportlern war Schlaf kein gesicherter unabhängiger Risikofaktor.",
+   "s": [
+    "gao2019",
+    "dobrosielski2021",
+    "lytle2026"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "schlafmangel",
+   "name": "Schlafmangel und körperliche Leistung",
+   "q": "Wie stark leidet die Leistung nach zu wenig Schlaf?",
+   "ev": "hoch",
+   "key": [
+    "69 Publikationen, 227 Messgrößen, n = 959 (89 % Männer): akuter Schlafverlust (höchstens 6 Stunden in 24 Stunden) senkte die Leistung um 7,56 % [−11,9; −3,13], signifikant in allen Kategorien; je Wachstunde vor der Belastung rund 0,4 % weniger. Aufgaben am Morgen blieben weitgehend unbeeinträchtigt (Craven et al., 2022).",
+    "45 Studien, nur randomisierte Studien: Bei Sportlern sanken aerobe Ausdauer (SMD −0,66 [−1,28; −0,04]), Schnellkraft (SMD −0,63 [−0,94; −0,33]), Maximalkraft (SMD −0,35 [−0,56; −0,14]), Schnelligkeit (SMD −0,52 [−0,83; −0,22]) und Technik (SMD −0,87 [−1,7; −0,04]); die empfundene Anstrengung stieg (SMD 0,39 [0,11; 0,66]) (Kong et al., 2025).",
+    "27 Studien bei Sportlern: Gesamteffekt −0,56; Teilschlafentzug am Nachtende −1,17, ganze Nacht −0,23, Teilschlafentzug am Nachtanfang −0,25 (nicht signifikant). Leistungstests am Nachmittag litten stärker (−1,11) als am Morgen (−0,30) (Gong et al., 2024).",
+    "31 Studien, n = 478: Schlafentzug senkte die Ausdauerleistung moderat (SMD −0,52 [−0,67; −0,38]); Belastungen über 30 Minuten waren stärker betroffen. Trainingszustand und Ausmaß des Schlafentzugs änderten den Effekt nicht (Lopes et al., 2023).",
+    "Systematischer Review mit 13 Studien zur Kraft: teils Einbußen bei Kraft, Leistung und Kraftausdauer, teils keine Unterschiede nach einer Nacht ohne Schlaf (Easow et al., 2025)."
+   ],
+   "critic": "Die Richtung ist in allen Analysen gleich, die Größe schwankt stark (I² 98,1 % bei Craven et al., 2022). Maximalkraft ist am wenigsten empfindlich; der Einzelreview zur Kraft fand deshalb uneinheitliche Ergebnisse. Das widerspricht den Metaanalysen nicht: kleine Effekte werden in Einzelstudien leicht übersehen. Widersprüchlich wirkt die Tageszeit: Craven et al. und Gong et al. fanden stärkere Einbußen am Nachmittag; Kong et al. fanden am Morgen vor allem Effekte auf die Schnelligkeit. Die Abkürzungen für frühen und späten Teilschlafentzug sind bei Kong et al. im Abstract uneindeutig. Fast alle Teilnehmenden waren Männer, untersucht wurde fast nur akuter Schlafmangel über 1–2 Nächte. Bei Kong et al. arbeitet ein Mitautor für ein Schlafprodukt-Unternehmen.",
+   "figs": [
+    {
+     "id": "sl-domains",
+     "title": "Schlafentzug bei Sportlern: Leistung nach Bereich",
+     "cap": "SMD mit 95-%-KI (Kong et al., 2025, 45 Studien). Negative Werte = schlechtere Leistung; bei der empfundenen Anstrengung bedeutet ein positiver Wert mehr Anstrengung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Aerobe Ausdauer",
+       "sub": "Kong et al., 2025",
+       "es": -0.66,
+       "lo": -1.28,
+       "hi": -0.04
+      },
+      {
+       "l": "Schnellkraft",
+       "sub": "Kong et al., 2025",
+       "es": -0.63,
+       "lo": -0.94,
+       "hi": -0.33
+      },
+      {
+       "l": "Maximalkraft",
+       "sub": "Kong et al., 2025",
+       "es": -0.35,
+       "lo": -0.56,
+       "hi": -0.14
+      },
+      {
+       "l": "Schnelligkeit",
+       "sub": "Kong et al., 2025",
+       "es": -0.52,
+       "lo": -0.83,
+       "hi": -0.22
+      },
+      {
+       "l": "Technik",
+       "sub": "Kong et al., 2025",
+       "es": -0.87,
+       "lo": -1.7,
+       "hi": -0.04
+      },
+      {
+       "l": "Empfundene Anstrengung",
+       "sub": "Kong et al., 2025",
+       "es": 0.39,
+       "lo": 0.11,
+       "hi": 0.66
+      },
+      {
+       "l": "Ausdauer (alle Gruppen)",
+       "sub": "Lopes et al., 2023",
+       "es": -0.52,
+       "lo": -0.67,
+       "hi": -0.38,
+       "pooled": true
+      }
+     ],
+     "opts": {
+      "min": -1.8,
+      "max": 0.8,
+      "ticks": [
+       -1.5,
+       -1,
+       -0.5,
+       0,
+       0.5
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser bzw. anstrengender"
+     }
+    },
+    {
+     "id": "sl-muster",
+     "title": "Art des Schlafentzugs und Tageszeit",
+     "cap": "Effektstärken ohne Intervall (im Abstract nicht berichtet; Gong et al., 2024, 27 Studien). Teilschlafentzug am Nachtanfang war nicht signifikant.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Teilschlafentzug am Nachtende",
+       "sub": "Gong et al., 2024",
+       "es": -1.17
+      },
+      {
+       "l": "Ganze Nacht ohne Schlaf",
+       "sub": "Gong et al., 2024",
+       "es": -0.23
+      },
+      {
+       "l": "Teilschlafentzug am Nachtanfang",
+       "sub": "Gong et al., 2024",
+       "es": -0.25
+      },
+      {
+       "l": "Test am Nachmittag",
+       "sub": "Gong et al., 2024",
+       "es": -1.11
+      },
+      {
+       "l": "Test am Morgen",
+       "sub": "Gong et al., 2024",
+       "es": -0.3
+      }
+     ],
+     "opts": {
+      "min": -1.4,
+      "max": 0.2,
+      "ticks": [
+       -1.2,
+       -0.8,
+       -0.4,
+       0
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "craven2022",
+    "kong2025",
+    "gong2024",
+    "lopes2023",
+    "easow2025"
+   ]
+  },
+  {
+   "id": "kognition",
+   "name": "Schlafmangel und kognitive Leistung",
+   "q": "Leiden Konzentration und Entscheidungen?",
+   "ev": "moderat",
+   "key": [
+    "24 Studien, n = 712: Schlafentzug verschlechterte die Hemmungskontrolle (Go/No-Go- und Stop-Signal-Aufgabe) moderat (Choong et al., 2025).",
+    "Systematischer Review mit 14 Arbeiten bei Personen mit kognitiv anspruchsvollen Tätigkeiten: Schlafrestriktion beeinträchtigte vor allem einfache Wachsamkeits- und Reaktionsaufgaben; anspruchsvolle Aufgaben litten meist nur, wenn kognitive Flexibilität gefragt war (Smithies et al., 2021).",
+    "Bei Sportlern sank unter Schlafentzug die Technik bzw. Geschicklichkeit (SMD −0,87; Kong et al., 2025) und Geschicklichkeit gehörte zu den am stärksten betroffenen Bereichen (−1,06; Gong et al., 2024)."
+   ],
+   "critic": "Die kognitiven Befunde stammen überwiegend aus Labor- und Berufsstudien, nicht aus dem Sport. Einfache Wachsamkeitstests reagieren empfindlich, übertragen sich aber nicht immer auf echte Aufgaben. Für Sportarten mit hohem Entscheidungs- und Technikanteil ist der Befund dennoch relevant, weil die Sportstudien in dieselbe Richtung zeigen.",
+   "figs": [],
+   "s": [
+    "choong2025",
+    "smithies2021",
+    "kong2025",
+    "gong2024"
+   ]
+  },
+  {
+   "id": "nickerchen",
+   "name": "Nickerchen (Napping)",
+   "q": "Lohnt sich ein Mittagsschlaf?",
+   "ev": "moderat",
+   "key": [
+    "22 randomisierte Studien, 291 Männer: Nach normaler Nacht verbesserte ein Nickerchen zwischen 12:30 und 16:50 Uhr die kognitive (SMD 0,69 [0,37; 1,00]) und körperliche Leistung (SMD 0,99 [0,67; 1,31]) und senkte die Ermüdung (SMD −0,76 [−1,24; −0,28]); am besten mit 30 bis unter 60 Minuten und über 1 Stunde Abstand zum Test (Mesas et al., 2023).",
+    "18 Studien: Nickerchen verbesserten die Leistung im 5-m-Pendellauf (ES 1,026 für die höchste Strecke), aber nicht die Muskelkraft (ES 0,175; nicht signifikant) (Boukhris et al., 2024).",
+    "12 randomisierte Studien mit 179 Mannschaftssportlern: großer Effekt auf die Ausdauer (SMD 0,96 [0,62; 1,29]), moderater auf die Agilität (SMD 0,55 [0,01; 1,09]); Kraft und Schnellkraft nicht signifikant (SMD 0,50 [−0,09; 1,09]). Nickerchen über 60 Minuten wirkten am stärksten (Zheng et al., 2026).",
+    "35 Studien, n = 489: Nickerchen senkten Ermüdung (SMD 0,91) und empfundene Anstrengung (SMD 1,62 während der Belastung) und verbesserten die empfundene Erholung (SMD 1,66); kein Effekt auf Muskelkater. Vertrauen in die Evidenz nur für die empfundene Anstrengung moderat, sonst niedrig bis sehr niedrig (Boukhris et al., 2026).",
+    "54 Studien in der Allgemeinbevölkerung: Nachmittagsschlaf verbesserte kognitive Tests insgesamt (d = 0,379 [0,296; 0,462]), besonders die Wachsamkeit (d = 0,610) (Leong et al., 2022).",
+    "Systematischer Review mit 18 Studien: Nickerchen von 90 Minuten brachten die größten Verbesserungen, vor allem nach verkürzter Nacht (Souabni et al., 2021)."
+   ],
+   "critic": "Die Befunde stimmen in der Richtung überein. Zur optimalen Dauer widersprechen sie sich: Mesas et al. (2023) fanden 30 bis unter 60 Minuten am günstigsten, Souabni et al. (2021) und Zheng et al. (2026) längere Nickerchen. Wahrscheinlich hängt das vom Schlafdefizit und vom Abstand zur Belastung ab: Längere Nickerchen erfordern mehr Zeit zum Wachwerden. Die Studien sind klein, die Teilnehmenden fast nur junge Männer, die Heterogenität ist hoch (I² bis 89,5 %), und eine Verblindung ist nicht möglich.",
+   "figs": [
+    {
+     "id": "sl-nap",
+     "title": "Nickerchen nach normaler Nacht",
+     "cap": "SMD mit 95-%-KI. Positive Werte = bessere Leistung; bei der Ermüdung bedeutet ein negativer Wert weniger Ermüdung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Körperliche Leistung",
+       "sub": "Mesas et al., 2023",
+       "es": 0.99,
+       "lo": 0.67,
+       "hi": 1.31
+      },
+      {
+       "l": "Kognitive Leistung",
+       "sub": "Mesas et al., 2023",
+       "es": 0.69,
+       "lo": 0.37,
+       "hi": 1.0
+      },
+      {
+       "l": "Empfundene Ermüdung",
+       "sub": "Mesas et al., 2023",
+       "es": -0.76,
+       "lo": -1.24,
+       "hi": -0.28
+      },
+      {
+       "l": "Ausdauer, Mannschaftssport",
+       "sub": "Zheng et al., 2026",
+       "es": 0.96,
+       "lo": 0.62,
+       "hi": 1.29
+      },
+      {
+       "l": "Agilität, Mannschaftssport",
+       "sub": "Zheng et al., 2026",
+       "es": 0.55,
+       "lo": 0.01,
+       "hi": 1.09
+      },
+      {
+       "l": "Kraft und Schnellkraft, Mannschaftssport",
+       "sub": "Zheng et al., 2026",
+       "es": 0.5,
+       "lo": -0.09,
+       "hi": 1.09
+      },
+      {
+       "l": "Kognition, Allgemeinbevölkerung",
+       "sub": "Leong et al., 2022",
+       "es": 0.379,
+       "lo": 0.296,
+       "hi": 0.462
+      }
+     ],
+     "opts": {
+      "min": -1.4,
+      "max": 1.5,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "leftLab": "weniger",
+      "rightLab": "mehr"
+     }
+    }
+   ],
+   "s": [
+    "mesas2023",
+    "boukhris2024",
+    "zheng2026",
+    "boukhris2026",
+    "leong2022",
+    "souabni2021"
+   ]
+  },
+  {
+   "id": "interventionen",
+   "name": "Schlafverlängerung und Schlafhygiene",
+   "q": "Was verbessert den Schlaf von Sportlern?",
+   "ev": "niedrig",
+   "key": [
+    "Systematischer Review mit 25 Studien: Schlafverlängerung und Nickerchen waren die häufigsten und wirksamsten Maßnahmen; Schlafhygiene, Verzicht auf elektronische Geräte am Abend und Kaltwasser zeigten in wenigen Studien keine Wirkung (Cunha et al., 2023).",
+    "Systematischer Review mit 10 Studien und 218 Sportlern: Schlafverlängerung hatte die günstigsten Effekte auf die Leistung (Bonnar et al., 2018).",
+    "Nur 2 Studien zur Schlafverlängerung (26–106 Minuten mehr): 6 von 15 Leistungswerten mit großem Effekt; Evidenzqualität sehr niedrig bis moderat (Silva et al., 2021).",
+    "Systematischer Review mit 10 Studien in körperlich fordernden Berufen (Militär, Rettungsdienst, Polizei): strukturierte Schulungsprogramme verbesserten die Schlafqualität moderat, Telefonbetreuung kaum, ein einzelner Vortrag nicht (George et al., 2026).",
+    "21 Schlaf- und Zirkadian-Interventionen bei Sportlern: stärkere Effekte auf positive als auf negative Stimmung (β = 0,68), außerdem auf Angst, Anspannung und Tatkraft (Walsh et al., 2026)."
+   ],
+   "critic": "Die Richtung ist einheitlich, die Belege aber schwach: wenige, kleine und überwiegend nicht verblindete Studien. Dass Schlafhygiene in Sportlerstudien keine Wirkung zeigte, beruht auf wenigen Studien; die Berufsstudien deuten darauf hin, dass es auf die Form ankommt (strukturiertes Programm statt einmaliger Information). Wahrscheinlich ist: Mehr Schlafzeit ist die wirksamste Maßnahme.",
+   "figs": [],
+   "s": [
+    "cunha2023",
+    "bonnar2018",
+    "silva2021",
+    "george2026",
+    "walsh2026"
+   ]
+  },
+  {
+   "id": "sportler",
+   "name": "Wie Sportler schlafen",
+   "q": "Schlafen Sportler genug, und was stört ihren Schlaf?",
+   "ev": "moderat",
+   "key": [
+    "81 Studien, 1 830 Sportler, 18 958 Nächte: Sportler schliefen im Mittel 7,2 Stunden bei 86,3 % Schlafeffizienz; in harten Trainingsphasen 36 Minuten kürzer als in der Vorbereitung und 42 Minuten kürzer als in der Saison (Vlahoyiannis et al., 2021).",
+    "54 Studien bei Spitzensportlern: In der Wettkampfnacht 60 Minuten weniger Schlaf als in den Nächten davor, nach Abendwettkämpfen (ab 18 Uhr) 80 Minuten, nach Tageswettkämpfen 20 Minuten. Training vor 7 Uhr, Belastungssteigerungen über 25 %, Reisen nach Osten und Höhe störten den Schlaf (Roberts et al., 2019).",
+    "Systematischer Review mit 37 Studien: Spitzensportler berichteten häufig Schlafprobleme mit längerer Einschlafzeit und mehr nächtlichem Erwachen; Auslöser waren Training, Reisen und Wettkampf (Gupta et al., 2017).",
+    "14 Studien zu Überlastung im Ausdauertraining: Die gemessene Schlafeffizienz sank um 2,0 % [−3,2; −0,8], die selbst eingeschätzte Schlafqualität nicht (Glass Δ −0,27 [−0,79; 0,25]) (Murphy et al., 2024)."
+   ],
+   "critic": "Überwiegend Beobachtungsstudien mit Aktigraphie; Ursache und Wirkung lassen sich nicht trennen. Der Befund von Murphy et al. (2024) ist bemerkenswert: Überlastung verschlechterte den gemessenen Schlaf, ohne dass die Sportler es merkten. Ein Schlaftagebuch allein kann Probleme daher übersehen.",
+   "figs": [
+    {
+     "id": "sl-verlust",
+     "title": "Weniger Schlaf durch Wettkampf und Trainingslast",
+     "cap": "Verkürzung der Gesamtschlafzeit in Minuten (Roberts et al., 2019; Vlahoyiannis et al., 2021). Kein Intervall im Abstract.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Abendwettkampf",
+       "es": 80,
+       "sub": "Roberts et al., 2019"
+      },
+      {
+       "l": "Wettkampfnacht",
+       "es": 60,
+       "sub": "Roberts et al., 2019"
+      },
+      {
+       "l": "Tageswettkampf",
+       "es": 20,
+       "sub": "Roberts et al., 2019"
+      },
+      {
+       "l": "Harte Phase vs. Saison",
+       "es": 42,
+       "sub": "Vlahoyiannis et al., 2021"
+      },
+      {
+       "l": "Harte Phase vs. Vorbereitung",
+       "es": 36,
+       "sub": "Vlahoyiannis et al., 2021"
+      }
+     ],
+     "opts": {
+      "max": 90,
+      "ticks": [
+       0,
+       20,
+       40,
+       60,
+       80
+      ],
+      "unit": "min",
+      "xlab": "Minuten weniger Schlaf",
+      "src": "Roberts et al., 2019; Vlahoyiannis et al., 2021"
+     }
+    }
+   ],
+   "s": [
+    "vlahoyiannis2021",
+    "roberts2019",
+    "gupta2017",
+    "murphy2024"
+   ]
+  },
+  {
+   "id": "verletzung",
+   "name": "Schlaf und Verletzungsrisiko",
+   "q": "Verletzen sich Sportler mit wenig Schlaf häufiger?",
+   "ev": "niedrig",
+   "key": [
+    "7 Studien bei Jugendlichen: Wer chronisch schlecht schlief, verletzte sich häufiger (OR 1,58 [1,05; 2,37]); zu akutem Schlafmangel war die Lage unklar (Gao et al., 2019).",
+    "12 prospektive Kohortenstudien bei Erwachsenen: Schlechter Schlaf war kein gesicherter unabhängiger Risikofaktor für Sportverletzungen; nur begrenzte Hinweise für Gehirnerschütterungen bei College-Sportlern (Dobrosielski et al., 2021).",
+    "Scoping Review mit 17 Aktigraphie-Studien: 4 von 7 Studien fanden mehr Verletzungen bei weniger Schlaf; insgesamt kein Konsens (Lytle et al., 2026)."
+   ],
+   "critic": "Die Befunde widersprechen sich zwischen Jugendlichen und Erwachsenen. Der positive Befund stammt aus nur 7 Studien mit Jugendlichen und beruht auf Beobachtungsdaten; Störfaktoren wie Trainingsumfang oder Stress lassen sich nicht ausschließen. Für Erwachsene ist der Zusammenhang wahrscheinlich schwächer oder bisher nicht nachweisbar. Plausibel bleibt er wegen der Effekte von Schlafmangel auf Reaktion und Technik.",
+   "figs": [
+    {
+     "id": "sl-verl",
+     "title": "Chronisch schlechter Schlaf und Verletzungen bei Jugendlichen",
+     "cap": "Odds Ratio mit 95-%-KI (Gao et al., 2019, 7 Studien). Werte über 1 = höheres Verletzungsrisiko.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Chronisch schlechter Schlaf",
+       "sub": "Gao et al., 2019",
+       "es": 1.58,
+       "lo": 1.05,
+       "hi": 2.37
+      }
+     ],
+     "opts": {
+      "min": 0.5,
+      "max": 2.6,
+      "ticks": [
+       0.5,
+       1,
+       1.5,
+       2,
+       2.5
+      ],
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "gao2019",
+    "dobrosielski2021",
+    "lytle2026"
+   ]
+  },
+  {
+   "id": "abendtraining",
+   "name": "Training am Abend und Schlaf",
+   "q": "Stört Training am Abend den Schlaf?",
+   "ev": "moderat",
+   "key": [
+    "23 Studien mit gesunden Erwachsenen: Abendtraining erhöhte den Tiefschlafanteil (+1,3 Prozentpunkte) und verlängerte die REM-Latenz (+7,7 Minuten). Nur intensives Training, das höchstens 1 Stunde vor dem Zubettgehen endete, könnte Einschlafen, Schlafdauer und Schlafeffizienz verschlechtern (Stutz et al., 2019).",
+    "25 Vergleichsstudien, davon 16 randomisierte in der Metaanalyse: kein klarer Vorteil von Morgen- gegenüber Abendtraining; Abendtraining ging mit mehr nächtlicher Wachzeit einher (SMD −0,51 [−0,89; −0,12]), vor allem bei hoher Intensität. Hinweise auf Verzerrung durch kleine Studien (Souabni et al., 2026).",
+    "14 Studien, n = 716: Die Einschlafzeit unterschied sich zwischen Morgen- und Abendtraining nicht (−2,24 Minuten [−10,22; 5,74]) (Pajareya et al., 2025).",
+    "Frühe Metaanalyse mit 38 Studien: Akute Belastung erhöhte Tiefschlaf und Gesamtschlafzeit moderat (0,18–0,52 Standardabweichungen); Dauer und Tageszeit der Belastung waren die wichtigsten Einflussgrößen (Youngstedt et al., 1997)."
+   ],
+   "critic": "Die Analysen stimmen weitgehend überein: Abendtraining schadet dem Schlaf insgesamt nicht. Der leichte Nachteil bei der nächtlichen Wachzeit (Souabni et al., 2026) betrifft vor allem intensive Einheiten und könnte durch kleine Studien überschätzt sein. Die Moderatoreffekte bei Stutz et al. (2019) verschwanden nach Entfernen einer einzelnen Studie. Untersucht wurden überwiegend gute Schläfer.",
+   "figs": [],
+   "s": [
+    "stutz2019",
+    "souabni2026",
+    "pajareya2025",
+    "youngstedt1997"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 1997,
+   "t": "Belastung verbessert den Schlaf leicht",
+   "p": "Erste Metaanalyse: moderate Effekte auf Tiefschlaf und Schlafdauer.",
+   "tag": "neu",
+   "s": "youngstedt1997"
+  },
+  {
+   "y": 2017,
+   "t": "Spitzensport und Schlafprobleme",
+   "p": "Häufig Einschlaf- und Durchschlafprobleme bei Spitzensportlern.",
+   "tag": "neu",
+   "s": "gupta2017"
+  },
+  {
+   "y": 2018,
+   "t": "Schlafverlängerung am wirksamsten",
+   "p": "Erster Review zu Schlafmaßnahmen bei Sportlern.",
+   "tag": "neu",
+   "s": "bonnar2018"
+  },
+  {
+   "y": 2019,
+   "t": "Wettkampf verkürzt den Schlaf",
+   "p": "60 Minuten weniger Schlaf in der Wettkampfnacht.",
+   "tag": "neu",
+   "s": "roberts2019"
+  },
+  {
+   "y": 2019,
+   "t": "Abendtraining stört den Schlaf nicht",
+   "p": "Nur harte Einheiten kurz vor dem Schlafen ungünstig.",
+   "tag": "neu",
+   "s": "stutz2019"
+  },
+  {
+   "y": 2019,
+   "t": "Schlechter Schlaf, mehr Verletzungen bei Jugendlichen",
+   "p": "OR 1,58 bei chronisch schlechtem Schlaf.",
+   "tag": "neu",
+   "s": "gao2019"
+  },
+  {
+   "y": 2021,
+   "t": "Kein gesicherter Zusammenhang bei Erwachsenen",
+   "p": "Schlaf kein unabhängiger Risikofaktor für Verletzungen.",
+   "tag": "contra",
+   "s": "dobrosielski2021"
+  },
+  {
+   "y": 2021,
+   "t": "Sportler schlafen rund 7,2 Stunden",
+   "p": "In harten Phasen über eine halbe Stunde weniger.",
+   "tag": "conf",
+   "s": "vlahoyiannis2021"
+  },
+  {
+   "y": 2021,
+   "t": "Schlafverlängerung: kaum Studien",
+   "p": "Nur 2 Studien, sehr niedrige bis moderate Evidenzqualität.",
+   "tag": "rel",
+   "s": "silva2021"
+  },
+  {
+   "y": 2021,
+   "t": "Nickerchen: lange Dauer günstig",
+   "p": "90 Minuten mit den größten Verbesserungen.",
+   "tag": "neu",
+   "s": "souabni2021"
+  },
+  {
+   "y": 2021,
+   "t": "Schlafrestriktion und Kognition",
+   "p": "Vor allem einfache Wachsamkeitsaufgaben betroffen.",
+   "tag": "neu",
+   "s": "smithies2021"
+  },
+  {
+   "y": 2022,
+   "t": "Schlafverlust kostet 7,6 % Leistung",
+   "p": "69 Publikationen; frühes Aufstehen besonders ungünstig.",
+   "tag": "neu",
+   "s": "craven2022"
+  },
+  {
+   "y": 2022,
+   "t": "Mittagsschlaf und Kognition",
+   "p": "Kleiner bis mittlerer Nutzen in 54 Studien.",
+   "tag": "neu",
+   "s": "leong2022"
+  },
+  {
+   "y": 2023,
+   "t": "Ausdauer leidet moderat",
+   "p": "SMD −0,52, stärker bei langen Belastungen.",
+   "tag": "conf",
+   "s": "lopes2023"
+  },
+  {
+   "y": 2023,
+   "t": "Nickerchen: 30 bis 60 Minuten",
+   "p": "Große Effekte auf körperliche Leistung.",
+   "tag": "rel",
+   "s": "mesas2023"
+  },
+  {
+   "y": 2023,
+   "t": "Schlafverlängerung und Nickerchen am wirksamsten",
+   "p": "Schlafhygiene allein ohne Effekt.",
+   "tag": "conf",
+   "s": "cunha2023"
+  },
+  {
+   "y": 2024,
+   "t": "Nickerchen: keine Wirkung auf Maximalkraft",
+   "p": "Effekte im Pendellauf, nicht bei der Kraft.",
+   "tag": "rel",
+   "s": "boukhris2024"
+  },
+  {
+   "y": 2024,
+   "t": "Schlafentzug bei Sportlern",
+   "p": "Teilschlafentzug am Nachtende am schädlichsten.",
+   "tag": "conf",
+   "s": "gong2024"
+  },
+  {
+   "y": 2024,
+   "t": "Überlastung verschlechtert den Schlaf",
+   "p": "Gemessen ja, empfunden nein.",
+   "tag": "neu",
+   "s": "murphy2024"
+  },
+  {
+   "y": 2025,
+   "t": "Schlafentzug in allen Leistungsbereichen",
+   "p": "45 Studien; Maximalkraft am wenigsten betroffen.",
+   "tag": "conf",
+   "s": "kong2025"
+  },
+  {
+   "y": 2025,
+   "t": "Kraft nach Schlafentzug uneinheitlich",
+   "p": "Review mit 13 Studien.",
+   "tag": "rel",
+   "s": "easow2025"
+  },
+  {
+   "y": 2025,
+   "t": "Hemmungskontrolle leidet",
+   "p": "Moderater Effekt in 24 Studien.",
+   "tag": "neu",
+   "s": "choong2025"
+  },
+  {
+   "y": 2025,
+   "t": "Tageszeit des Trainings ohne Einfluss",
+   "p": "Keine Unterschiede bei der Einschlafzeit.",
+   "tag": "conf",
+   "s": "pajareya2025"
+  },
+  {
+   "y": 2026,
+   "t": "Nickerchen im Mannschaftssport",
+   "p": "Großer Effekt auf Ausdauer, Kraft nicht signifikant.",
+   "tag": "conf",
+   "s": "zheng2026"
+  },
+  {
+   "y": 2026,
+   "t": "Nickerchen und Befinden",
+   "p": "Weniger Ermüdung und Anstrengung, kein Effekt auf Muskelkater.",
+   "tag": "conf",
+   "s": "boukhris2026"
+  },
+  {
+   "y": 2026,
+   "t": "Morgen- vs. Abendtraining",
+   "p": "Kein klarer Vorteil; hartes Abendtraining mit mehr nächtlicher Wachzeit.",
+   "tag": "rel",
+   "s": "souabni2026"
+  },
+  {
+   "y": 2026,
+   "t": "Schlafhygiene in fordernden Berufen",
+   "p": "Nur strukturierte Programme wirksam.",
+   "tag": "neu",
+   "s": "george2026"
+  },
+  {
+   "y": 2026,
+   "t": "Schlafmaßnahmen und Stimmung",
+   "p": "Vor allem positive Stimmung verbessert.",
+   "tag": "neu",
+   "s": "walsh2026"
+  },
+  {
+   "y": 2026,
+   "t": "Verletzungen: weiter kein Konsens",
+   "p": "Aktigraphie-Studien uneinheitlich.",
+   "tag": "conf",
+   "s": "lytle2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 4 180 Einträgen, 602 Übersichtsarbeiten nach Titel geprüft, 29 Quellen aufgenommen."
+  }
+ ],
+ "def": {
+  "t": "Schlafverlust bezeichnet in Studien meist höchstens 6 Stunden Schlaf in 24 Stunden. Unterschieden werden vollständiger Schlafentzug (eine Nacht ohne Schlaf) und Schlafrestriktion, entweder früh (verzögertes Einschlafen) oder spät (früher als gewohnt aufwachen).",
+  "s": [
+   "craven2022"
+  ]
+ },
+ "sources": {
+  "craven2022": {
+   "short": "Craven et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35708888",
+   "apa": "Craven, J., McCartney, D., Desbrow, B., Sabapathy, S., Bellinger, P., Roberts, L. &amp; Irwin, C. (2022). Effects of acute sleep loss on physical performance: A systematic and meta-analytical review. <em>Sports Medicine, 52</em>(11), 2669–2690.",
+   "doi": "10.1007/s40279-022-01706-y"
+  },
+  "gong2024": {
+   "short": "Gong et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39006249",
+   "apa": "Gong, M., Sun, M., Sun, Y., Jin, L. &amp; Li, S. (2024). Effects of acute sleep deprivation on sporting performance in athletes: A comprehensive systematic review and meta-analysis. <em>Nature and Science of Sleep, 16</em>, 935–948.",
+   "doi": "10.2147/NSS.S467531"
+  },
+  "kong2025": {
+   "short": "Kong et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40236824",
+   "apa": "Kong, Y., Yu, B., Guan, G., Wang, Y. &amp; He, H. (2025). Effects of sleep deprivation on sports performance and perceived exertion in athletes and non-athletes: A systematic review and meta-analysis. <em>Frontiers in Physiology, 16</em>, Artikel 1544286.",
+   "doi": "10.3389/fphys.2025.1544286",
+   "flag": "Ein Mitautor ist bei DeRucci Healthy Sleep Co., Ltd. angestellt. Die Abkürzungen PSDE/PSDB werden im Abstract mit „early“/„late“ beschrieben; PSDE bezeichnet vermutlich den Teilschlafentzug am Nachtende."
+  },
+  "lopes2023": {
+   "short": "Lopes et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36472094",
+   "apa": "Lopes, T. R., Pereira, H. M., Bittencourt, L. R. A. &amp; Silva, B. M. (2023). How much does sleep deprivation impair endurance performance? A systematic review and meta-analysis. <em>Sleep Medicine Reviews, 23</em>(7), 1279–1292.",
+   "doi": "10.1080/17461391.2022.2155583"
+  },
+  "easow2025": {
+   "short": "Easow et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "40663194",
+   "apa": "Easow, J., Bommasamudram, T., Munnilari, M., Adhikari, R., Edwards, B. J., Nayak, K. R., Vaishali, K., Ravindrakumar, A., Gallagher, C. &amp; Pullinger, S. A. (2025). Implications of sleep loss or sleep deprivation on muscle strength: A systematic review. <em>Sleep &amp; Breathing, 29</em>(4), Artikel 242.",
+   "doi": "10.1007/s11325-025-03413-0"
+  },
+  "smithies2021": {
+   "short": "Smithies et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33438751",
+   "apa": "Smithies, T. D., Toth, A. J., Dunican, I. C., Caldwell, J. A., Kowal, M. &amp; Campbell, M. J. (2021). The effect of sleep restriction on cognitive performance in elite cognitive performers: A systematic review. <em>Sleep, 44</em>(7), zsab008.",
+   "doi": "10.1093/sleep/zsab008"
+  },
+  "choong2025": {
+   "short": "Choong et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39700763",
+   "apa": "Choong, S. Y., Byrne, J. E. M., Drummond, S. P. A., Rispoli-Yovanovic, M., Jones, A., Lum, J. A. G. &amp; Staiger, P. K. (2025). A meta-analytic investigation of the effect of sleep deprivation on inhibitory control. <em>Sleep Medicine Reviews, 80</em>, Artikel 102042.",
+   "doi": "10.1016/j.smrv.2024.102042"
+  },
+  "mesas2023": {
+   "short": "Mesas et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36690376",
+   "apa": "Mesas, A. E., Núñez de Arenas-Arroyo, S., Martinez-Vizcaino, V., Garrido-Miguel, M., Fernández-Rodríguez, R., Bizzozero-Peroni, B. &amp; Torres-Costoso, A. I. (2023). Is daytime napping an effective strategy to improve sport-related cognitive and physical performance and reduce fatigue? A systematic review and meta-analysis of randomised controlled trials. <em>British Journal of Sports Medicine, 57</em>(7), 417–426.",
+   "doi": "10.1136/bjsports-2022-106355"
+  },
+  "boukhris2024": {
+   "short": "Boukhris et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "37700141",
+   "apa": "Boukhris, O., Trabelsi, K., Suppiah, H., Ammar, A., Clark, C. C. T., Jahrami, H., Chtourou, H. &amp; Driller, M. (2024). The impact of daytime napping following normal night-time sleep on physical performance: A systematic review, meta-analysis and meta-regression. <em>Sports Medicine, 54</em>(2), 323–345.",
+   "doi": "10.1007/s40279-023-01920-2"
+  },
+  "boukhris2026": {
+   "short": "Boukhris et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "41668951",
+   "apa": "Boukhris, O., Trabelsi, K., Suppiah, H., Jahrami, H. &amp; Driller, M. (2026). The effects of daytime napping on psychophysiological measures in physically active individuals and athletes: A systematic review, meta-analysis, and meta-regression, with assessment of the certainty of evidence. <em>Biology of Sport, 43</em>, 149–163.",
+   "doi": "10.5114/biolsport.2026.153310"
+  },
+  "zheng2026": {
+   "short": "Zheng et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42558951",
+   "apa": "Zheng, J., Ye, Y., Li, X. &amp; Peng, J. (2026). The effect of daytime napping on the athletic performance of team ball sports athletes: Systematic review and meta-analysis. <em>Frontiers in Physiology, 17</em>, Artikel 1878224.",
+   "doi": "10.3389/fphys.2026.1878224"
+  },
+  "souabni2021": {
+   "short": "Souabni et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34043185",
+   "apa": "Souabni, M., Hammouda, O., Romdhani, M., Trabelsi, K., Ammar, A. &amp; Driss, T. (2021). Benefits of daytime napping opportunity on physical and cognitive performances in physically active participants: A systematic review. <em>Sports Medicine, 51</em>(10), 2115–2146.",
+   "doi": "10.1007/s40279-021-01482-1"
+  },
+  "leong2022": {
+   "short": "Leong et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36041284",
+   "apa": "Leong, R. L. F., Lo, J. C. &amp; Chee, M. W. L. (2022). Systematic review and meta-analyses on the effects of afternoon napping on cognition. <em>Sleep Medicine Reviews, 65</em>, Artikel 101666.",
+   "doi": "10.1016/j.smrv.2022.101666"
+  },
+  "silva2021": {
+   "short": "Silva et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33352457",
+   "apa": "Silva, A. C., Silva, A., Edwards, B. J., Tod, D., Souza Amaral, A., de Alcântara Borba, D., Grade, I. &amp; Túlio de Mello, M. (2021). Sleep extension in athletes: What we know so far - A systematic review. <em>Sleep Medicine, 77</em>, 128–135.",
+   "doi": "10.1016/j.sleep.2020.11.028"
+  },
+  "bonnar2018": {
+   "short": "Bonnar et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "29352373",
+   "apa": "Bonnar, D., Bartel, K., Kakoschke, N. &amp; Lang, C. (2018). Sleep interventions designed to improve athletic performance and recovery: A systematic review of current approaches. <em>Sports Medicine, 48</em>(3), 683–703.",
+   "doi": "10.1007/s40279-017-0832-x"
+  },
+  "cunha2023": {
+   "short": "Cunha et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37462808",
+   "apa": "Cunha, L. A., Costa, J. A., Marques, E. A., Brito, J., Lastella, M. &amp; Figueiredo, P. (2023). The impact of sleep interventions on athletic performance: A systematic review. <em>Sports Medicine – Open, 9</em>(1), 58.",
+   "doi": "10.1186/s40798-023-00599-z"
+  },
+  "george2026": {
+   "short": "George et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "42580136",
+   "apa": "George, K., Lever, J. R., Vincent, G. E. &amp; Fullagar, H. H. K. (2026). A systematic review of sleep hygiene interventions in physically and operationally demanding occupations. <em>Sleep Medicine Reviews, 89</em>, Artikel 102344.",
+   "doi": "10.1016/j.smrv.2026.102344"
+  },
+  "walsh2026": {
+   "short": "Walsh et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41591657",
+   "apa": "Walsh, E., Leota, J., Huynh, M., Liddle, S. K., Drummond, S. P. A. &amp; Facer-Childs, E. R. (2026). Sleep and circadian interventions to improve athletes' mental health, mood and well-being: A systematic review and meta-analysis. <em>Sports Medicine, 56</em>(4), 997–1011.",
+   "doi": "10.1007/s40279-025-02387-z"
+  },
+  "roberts2019": {
+   "short": "Roberts et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30217831",
+   "apa": "Roberts, S. S. H., Teo, W. P. &amp; Warmington, S. A. (2019). Effects of training and competition on the sleep of elite athletes: A systematic review and meta-analysis. <em>British Journal of Sports Medicine, 53</em>(8), 513–522.",
+   "doi": "10.1136/bjsports-2018-099322"
+  },
+  "vlahoyiannis2021": {
+   "short": "Vlahoyiannis et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "32325024",
+   "apa": "Vlahoyiannis, A., Aphamis, G., Bogdanis, G. C., Sakkas, G. K., Andreou, E. &amp; Giannaki, C. D. (2021). Deconstructing athletes' sleep: A systematic review of the influence of age, sex, athletic expertise, sport type, and season on sleep characteristics. <em>Journal of Sport and Health Science, 10</em>(4), 387–402.",
+   "doi": "10.1016/j.jshs.2020.03.006"
+  },
+  "gupta2017": {
+   "short": "Gupta et al., 2017",
+   "year": 2017,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "27900583",
+   "apa": "Gupta, L., Morgan, K. &amp; Gilchrist, S. (2017). Does elite sport degrade sleep quality? A systematic review. <em>Sports Medicine, 47</em>(7), 1317–1333.",
+   "doi": "10.1007/s40279-016-0650-6"
+  },
+  "murphy2024": {
+   "short": "Murphy et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38809828",
+   "apa": "Murphy, C., Svansdottir, S. A., Dupuy, O. &amp; Louis, J. (2024). Does overreaching from endurance-based training impair sleep: A systematic review and meta-analysis. <em>PLOS ONE, 19</em>(5), Artikel e0303748.",
+   "doi": "10.1371/journal.pone.0303748"
+  },
+  "gao2019": {
+   "short": "Gao et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30888337",
+   "apa": "Gao, B., Dwivedi, S., Milewski, M. D. &amp; Cruz, A. I. (2019). Lack of sleep and sports injuries in adolescents: A systematic review and meta-analysis. <em>Journal of Pediatric Orthopedics, 39</em>(5), e324–e333.",
+   "doi": "10.1097/BPO.0000000000001306"
+  },
+  "dobrosielski2021": {
+   "short": "Dobrosielski et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33560506",
+   "apa": "Dobrosielski, D. A., Sweeney, L. &amp; Lisman, P. J. (2021). The association between poor sleep and the incidence of sport and physical training-related injuries in adult athletic populations: A systematic review. <em>Sports Medicine, 51</em>(4), 777–793.",
+   "doi": "10.1007/s40279-020-01416-3"
+  },
+  "lytle2026": {
+   "short": "Lytle et al., 2026",
+   "year": 2026,
+   "type": "Scoping Review",
+   "basis": "Abstract",
+   "pmid": "41618719",
+   "apa": "Lytle, C., Krishnan, P., Saraf, S. M. &amp; Mulcahey, M. K. (2026). Association between sports injuries and sleep as measured by sleep actigraphy: A scoping review. <em>The Physician and Sportsmedicine, 54</em>(3), 173–179.",
+   "doi": "10.1080/00913847.2026.2626259"
+  },
+  "stutz2019": {
+   "short": "Stutz et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30374942",
+   "apa": "Stutz, J., Eiholzer, R. &amp; Spengler, C. M. (2019). Effects of evening exercise on sleep in healthy participants: A systematic review and meta-analysis. <em>Sports Medicine, 49</em>(2), 269–287.",
+   "doi": "10.1007/s40279-018-1015-0"
+  },
+  "souabni2026": {
+   "short": "Souabni et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42632303",
+   "apa": "Souabni, M., Del Sordo, G. C., Saurel, M., Peyrel, P., Giacomoni, M., Souabni, M. J., Davenne, D., Gabriel, B. M., St-Onge, M. P. &amp; Saidi, O. (2026). Effects of morning versus evening exercise on sleep: A systematic review of comparative studies with a meta-analysis of randomized controlled trials. <em>Sleep Medicine Reviews, 90</em>, Artikel 102358.",
+   "doi": "10.1016/j.smrv.2026.102358"
+  },
+  "pajareya2025": {
+   "short": "Pajareya et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41032147",
+   "apa": "Pajareya, P., Siranart, N., Tokavanich, N., Keawkanha, P., Sowalertrat, W., Joensahakij, S., Kassels, T., Prasitlumkum, N., Navaravong, L., Cheungpasitporn, W. &amp; Chokesuwattanaskul, R. (2025). Effects of evening exercise on anthropometric indices, metabolic profiles, and sleep health: A systematic review and meta-analysis. <em>Sleep &amp; Breathing, 29</em>(5), Artikel 304.",
+   "doi": "10.1007/s11325-025-03459-0"
+  },
+  "youngstedt1997": {
+   "short": "Youngstedt et al., 1997",
+   "year": 1997,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "9178916",
+   "apa": "Youngstedt, S. D., O'Connor, P. J. &amp; Dishman, R. K. (1997). The effects of acute exercise on sleep: A quantitative synthesis. <em>Sleep, 20</em>(3), 203–214.",
+   "doi": "10.1093/sleep/20.3.203"
+  }
+ }
+}

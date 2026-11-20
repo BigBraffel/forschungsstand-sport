@@ -1,0 +1,1186 @@
+{
+ "id": "energiebilanz",
+ "title": "Energiebilanz und Abnehmen",
+ "stand": "2026-11-20",
+ "lead": "Wie verliert man Fett, ohne Muskeln und Leistung zu opfern? Zusammengefasst aus Metaanalysen und Positionspapieren zu Defizitgröße, Fastenformen, Abnehmtempo, Training und geringer Energieverfügbarkeit (RED-S).",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene und Sportler, die Körperfett reduzieren wollen. Viele Daten stammen aus Studien mit Übergewicht; für schlanke Trainierte ist die Evidenz dünner.",
+ "rx": [
+  {
+   "label": "Defizitgröße",
+   "value": "moderat, etwa bis 500 kcal pro Tag",
+   "text": "Ab einem Defizit von rund 500 kcal pro Tag blieb der Magermassezuwachs durch Krafttraining aus; wer Muskeln erhalten will, sollte größere Defizite vermeiden.",
+   "cite": "Murphy &amp; Koehler 2022"
+  },
+  {
+   "label": "Krafttraining",
+   "value": "während der Diät beibehalten",
+   "text": "Training verhinderte im Mittel fast die Hälfte des Verlusts an fettfreier Masse; Krafttraining oder kombiniertes Training wirkte am besten.",
+   "cite": "Deller et al. 2026; Ballor &amp; Poehlman 1994"
+  },
+  {
+   "label": "Protein",
+   "value": "1,6–2,2 g/kg, schlank und trainiert bis 3,2 g/kg",
+   "text": "Mehr Protein als die Basisempfehlung verringerte den Magermasseverlust in der Diät. Details im Thema <a href=\"#protein\">Protein</a>.",
+   "cite": "Aragon et al. 2026; Hudson et al. 2020; Helms et al. 2014"
+  },
+  {
+   "label": "Diätform",
+   "value": "nach Vorliebe wählen",
+   "text": "Intervallfasten und kontinuierliche Kalorienreduktion führten zu ähnlichem Gewichts- und Fettverlust; entscheidend ist, was sich durchhalten lässt.",
+   "cite": "Aragon et al. 2026; Schroor et al. 2024"
+  },
+  {
+   "label": "Warnzeichen",
+   "value": "Energieverfügbarkeit im Blick behalten",
+   "text": "Fast jeder zweite Sportler hatte in Studien eine geringe Energieverfügbarkeit; Leistungseinbußen, häufige Infekte, Zyklusstörungen oder Ermüdungsbrüche sind Warnsignale für RED-S.",
+   "cite": "Gallant et al. 2025; Mountjoy et al. 2023"
+  }
+ ],
+ "note": "<b>Abgrenzung:</b> Kurzfristiges „Gewichtmachen“ durch Entwässerung wird im Thema <a href=\"#fluessigkeit\">Flüssigkeit und Elektrolyte</a> behandelt, Proteinmengen im Thema <a href=\"#protein\">Protein</a>, Muskelaufbau im Thema <a href=\"#hypertrophie\">Hypertrophie</a>. Medikamente (z. B. GLP-1-Agonisten) sind hier nicht berücksichtigt.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Training schützt die Muskulatur in der Diät",
+   "ev": "hoch",
+   "p": "Training während einer Kalorienreduktion erhielt im Mittel 0,87 kg mehr fettfreie Masse und verhinderte fast die Hälfte des Verlusts (34 Studien).",
+   "s": [
+    "deller2026",
+    "ballor1994",
+    "anyiam2024"
+   ]
+  },
+  {
+   "t": "Große Defizite bremsen den Muskelaufbau",
+   "ev": "moderat",
+   "p": "Im Energiedefizit stieg die Magermasse durch Krafttraining weniger, die Kraft aber gleich stark; ab etwa 500 kcal Defizit pro Tag blieb der Zuwachs aus.",
+   "s": [
+    "murphyc2022",
+    "hudson2020",
+    "aragon2026"
+   ]
+  },
+  {
+   "t": "Fasten ist nicht besser als normale Kalorienreduktion",
+   "ev": "hoch",
+   "p": "Intervallfasten und kontinuierliche Reduktion führten zu vergleichbarem Gewichts- und Fettverlust; teils ging bei Fastenformen etwas mehr fettfreie Masse verloren.",
+   "s": [
+    "schroor2024",
+    "roman2019",
+    "patikorn2021",
+    "aragon2026"
+   ]
+  },
+  {
+   "t": "Training allein bringt wenig Gewichtsverlust",
+   "ev": "hoch",
+   "p": "Pro 30 Minuten Ausdauertraining pro Woche sank das Gewicht nur um 0,52 kg; Training wirkt aber stärker auf das Bauchfett als auf das Gewicht.",
+   "s": [
+    "jayedi2024",
+    "thorogood2011",
+    "miller1997",
+    "verheggen2016"
+   ]
+  },
+  {
+   "t": "Geringe Energieverfügbarkeit ist bei Sportlern häufig",
+   "ev": "moderat",
+   "p": "44,7 % der untersuchten Sportler hatten eine geringe Energieverfügbarkeit; sie ging mit schlechterer Leistung und Knochengesundheit einher.",
+   "s": [
+    "gallant2025",
+    "mountjoy2023",
+    "kuikman2022"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "muskelerhalt",
+   "name": "Energiedefizit und Muskelerhalt",
+   "q": "Wie viel Muskulatur geht beim Abnehmen verloren, und was schützt sie?",
+   "ev": "hoch",
+   "key": [
+    "Netzwerk-Metaanalyse mit 34 Studien und 1 455 Teilnehmenden mit Übergewicht: Training während der Kalorienreduktion erhielt 0,87 kg [0,59; 1,16] mehr fettfreie Masse und verhinderte im Mittel 45,7 % des Verlusts; kombiniertes Training +1,20 kg [0,67; 1,73], Krafttraining +0,83 kg [0,17; 1,49], Ausdauertraining +0,51 kg [−0,04; 1,05] (Deller et al., 2026).",
+    "49 Studien, n = 4 785, Diäten bis 900 kcal pro Tag: Die Muskelmasse machte rund ein Viertel des Gewichtsverlusts aus (27,5 % bei Personen ohne Diabetes); weniger strenge Diäten senkten Gewicht und Fett paradoxerweise stärker (Anyiam et al., 2024).",
+    "Frühe Metaanalyse: Mit Training bestand nur etwa die Hälfte des Gewichtsverlusts aus fettfreier Masse (Männer 13 % statt 28 %, Frauen 11 % statt 24 %) (Ballor &amp; Poehlman, 1994).",
+    "Krafttraining im Energiedefizit: geringerer Magermassezuwachs als ohne Defizit (ES −0,57), aber gleicher Kraftzuwachs (ES −0,31; nicht signifikant); ab rund 500 kcal Defizit pro Tag kein Magermassezuwachs mehr (Murphy &amp; Koehler, 2022). Mehr dazu im Thema <a href=\"#hypertrophie\">Hypertrophie</a>.",
+    "18 Studien: Proteinzufuhr über der Basisempfehlung von 0,8 g/kg verringerte den Magermasseverlust in der Diät um 0,36 kg [0,06; 0,67]; ohne Diät und ohne Training brachte sie nichts (Hudson et al., 2020).",
+    "Positionspapier: Krafttraining und ausreichend Protein sind unverzichtbar; 1,6–2,2 g/kg mit Krafttraining, bei schlanken Trainierten im Defizit 1,9–3,2 g/kg. Sehr niedrige Kalorienzufuhr (unter 800 kcal) bringt kurzfristig mehr Gewichtsverlust, aber keinen langfristigen Vorteil (Aragon et al., 2026).",
+    "Systematische Reviews bei Trainierten: Gruppen mit hohem Trainingsumfang (ab 10 Sätzen pro Muskel und Woche) verloren wenig oder keine Magermasse (Roth et al., 2022); bei schlanken Kraftsportlern werden 2,3–3,1 g Protein pro kg fettfreier Masse vorgeschlagen (Helms et al., 2014)."
+   ],
+   "critic": "Die Schutzwirkung von Training ist über drei Jahrzehnte konsistent belegt (Ballor &amp; Poehlman, 1994; Deller et al., 2026), allerdings fast nur bei Übergewicht. Fettfreie Masse enthält Wasser und Glykogen; direkt gemessene Muskelmasse berichteten nur 2 Studien bei Deller et al. Die 500-kcal-Schwelle stammt aus einer einzigen Metaregression und ist als Orientierung zu verstehen. Die hohen Proteinempfehlungen für schlanke Athleten beruhen auf wenigen kleinen Studien (Helms et al., 2014: 6 Studien).",
+   "figs": [
+    {
+     "id": "eb-ffm",
+     "title": "Erhalt der fettfreien Masse in der Diät",
+     "cap": "Mittlere Differenz in kg mit 95-%-KI gegenüber Kalorienreduktion ohne Training bzw. mit Protein in Höhe der Basisempfehlung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Training (gepoolt)",
+       "sub": "Deller et al., 2026",
+       "es": 0.87,
+       "lo": 0.59,
+       "hi": 1.16,
+       "pooled": true
+      },
+      {
+       "l": "Kombiniertes Training",
+       "sub": "Deller et al., 2026",
+       "es": 1.2,
+       "lo": 0.67,
+       "hi": 1.73
+      },
+      {
+       "l": "Krafttraining",
+       "sub": "Deller et al., 2026",
+       "es": 0.83,
+       "lo": 0.17,
+       "hi": 1.49
+      },
+      {
+       "l": "Ausdauertraining",
+       "sub": "Deller et al., 2026",
+       "es": 0.51,
+       "lo": -0.04,
+       "hi": 1.05
+      },
+      {
+       "l": "Protein über 0,8 g/kg",
+       "sub": "Hudson et al., 2020",
+       "es": 0.36,
+       "lo": 0.06,
+       "hi": 0.67
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.8,
+      "ticks": [
+       0,
+       0.5,
+       1,
+       1.5
+      ],
+      "unit": "kg",
+      "leftLab": "mehr Verlust",
+      "rightLab": "besser erhalten"
+     }
+    }
+   ],
+   "s": [
+    "deller2026",
+    "anyiam2024",
+    "ballor1994",
+    "murphyc2022",
+    "hudson2020",
+    "aragon2026",
+    "roth2022",
+    "helms2014"
+   ]
+  },
+  {
+   "id": "fasten",
+   "name": "Intermittierendes Fasten vs. kontinuierliche Reduktion",
+   "q": "Ist Fasten dem täglichen Kaloriensparen überlegen?",
+   "ev": "hoch",
+   "key": [
+    "28 randomisierte Studien bei gesunden Erwachsenen: Intervallfasten (16:8 bzw. zeitlich begrenztes Essen, Alternate-Day-Fasting, 5:2) und kontinuierliche Reduktion unterschieden sich nicht beim Gewicht (−0,42 kg [−0,96; 0,13]) und Fett (−0,31 kg [−0,98; 0,36]); Fasten senkte die fettfreie Masse etwas stärker (−0,20 kg [−0,39; −0,01]) (Schroor et al., 2024).",
+    "9 Studien, n = 782: Regelmäßiges Intervalldiäten führte zu mehr Magermasseverlust als kontinuierliches Diäten (−0,86 kg [−1,62; −0,10]), sonst keine Unterschiede (Roman et al., 2019).",
+    "Netzwerk-Metaanalyse mit 47 Studien, n = 3 363: Alternate-Day-Fasting senkte das Gewicht am stärksten (−3,42 kg [−4,28; −2,55]), gefolgt von zeitlich begrenztem Essen (−2,25 kg), Kurzzeitfasten (−1,87 kg) und kontinuierlicher Reduktion (−1,59 kg); nach 4–6 Monaten nahmen alle teilweise wieder zu (Huang et al., 2024).",
+    "Umbrella Review mit 11 Metaanalysen und 130 Studien: Fasten verbesserte Gewicht und Stoffwechselwerte, war aber auch mit weniger fettfreier Masse verbunden; nur 1 von 104 Zusammenhängen hatte hohe Evidenzqualität (Patikorn et al., 2021).",
+    "Mit Krafttraining: Intervallfasten senkte Körpermasse (−2,08 kg) und Fettmasse (−1,36 kg) stärker als normale Ernährung ohne Unterschied bei der fettfreien Masse (−0,27 kg [−0,82; 0,28]; 8 Studien) (Ashtary-Larky et al., 2021); zeitlich begrenztes Essen bei Kraftsportlern: Fettmasse −1,25 kg [−1,95; −0,54], fettfreie Masse unverändert (8 Studien) (Ali et al., 2026).",
+    "Positionspapier: kein Unterschied zwischen Fastenvarianten und kontinuierlicher Reduktion bei den Körpermaßen; die Mahlzeitenzahl ist zweitrangig, Protein sollte auf mindestens 3 Mahlzeiten verteilt werden (Aragon et al., 2026)."
+   ],
+   "critic": "Wenn die Kalorienzufuhr gleich ist, sind beide Formen gleichwertig; die Vorteile des Fastens in einzelnen Analysen entstehen vermutlich, weil Fastende insgesamt weniger aßen (Schroor et al. weisen auf ungleiche Energiezufuhr hin). Beim Magermasseverlust widersprechen sich die Analysen leicht: ohne Training etwas mehr Verlust mit Fasten, mit Krafttraining kein Unterschied. Wahrscheinlich gleicht Krafttraining den Nachteil aus. Die Studien sind meist kurz (Median 3 Monate).",
+   "figs": [
+    {
+     "id": "eb-if",
+     "title": "Fastenformen: Gewichtsverlust im Netzwerkvergleich",
+     "cap": "Mittlere Differenz des Körpergewichts in kg mit 95-%-KI (Huang et al., 2024, 47 Studien).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alternate-Day-Fasting",
+       "sub": "Huang et al., 2024",
+       "es": -3.42,
+       "lo": -4.28,
+       "hi": -2.55
+      },
+      {
+       "l": "Zeitlich begrenztes Essen",
+       "sub": "Huang et al., 2024",
+       "es": -2.25,
+       "lo": -2.92,
+       "hi": -1.59
+      },
+      {
+       "l": "Kurzzeitfasten (z. B. 5:2)",
+       "sub": "Huang et al., 2024",
+       "es": -1.87,
+       "lo": -3.32,
+       "hi": -0.56
+      },
+      {
+       "l": "Kontinuierliche Reduktion",
+       "sub": "Huang et al., 2024",
+       "es": -1.59,
+       "lo": -2.42,
+       "hi": -0.79
+      }
+     ],
+     "opts": {
+      "min": -5,
+      "max": 0.5,
+      "ticks": [
+       -4,
+       -3,
+       -2,
+       -1,
+       0
+      ],
+      "unit": "kg",
+      "leftLab": "mehr Abnahme",
+      "rightLab": "weniger"
+     }
+    },
+    {
+     "id": "eb-if-ffm",
+     "title": "Fasten vs. Vergleichsdiät: fettfreie Masse",
+     "cap": "Mittlere Differenz in kg mit 95-%-KI. Negative Werte = mehr Verlust mit Fasten.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Fastenformen vs. kontinuierlich",
+       "sub": "Schroor et al., 2024",
+       "es": -0.2,
+       "lo": -0.39,
+       "hi": -0.01
+      },
+      {
+       "l": "Intervalldiät vs. kontinuierlich",
+       "sub": "Roman et al., 2019",
+       "es": -0.86,
+       "lo": -1.62,
+       "hi": -0.1
+      },
+      {
+       "l": "Fasten mit Krafttraining",
+       "sub": "Ashtary-Larky et al., 2021",
+       "es": -0.27,
+       "lo": -0.82,
+       "hi": 0.28
+      },
+      {
+       "l": "Zeitlich begrenztes Essen, Kraftsportler",
+       "sub": "Ali et al., 2026",
+       "es": 0.27,
+       "lo": -0.8,
+       "hi": 1.34
+      }
+     ],
+     "opts": {
+      "min": -1.8,
+      "max": 1.5,
+      "ticks": [
+       -1.5,
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "unit": "kg",
+      "leftLab": "mehr Verlust",
+      "rightLab": "besser erhalten"
+     }
+    }
+   ],
+   "s": [
+    "schroor2024",
+    "roman2019",
+    "huang2024",
+    "patikorn2021",
+    "ashtarylarky2021",
+    "ali2026",
+    "aragon2026"
+   ]
+  },
+  {
+   "id": "tempo",
+   "name": "Abnehmtempo und Diätpausen",
+   "q": "Langsam oder schnell abnehmen, und helfen Pausen?",
+   "ev": "niedrig",
+   "key": [
+    "Bei gleichem Gesamtverlust führte langsames Abnehmen zu mehr Fettverlust (−1 kg [−1,70; −0,29]) und erhielt den Ruheumsatz besser; die fettfreie Masse unterschied sich nicht (Ashtary-Larky et al., 2020).",
+    "12 randomisierte Studien, n = 881: Diäten mit geplanten Pausen erreichten dieselben Veränderungen von Gewicht und Fett wie kontinuierliche Diäten; der Ruheumsatz sank aber nur bei kontinuierlicher Diät signifikant (Poon et al., 2025).",
+    "Gewichtsklassen-Sportler: Nach Gewichtsreduktion wurden Körpergewicht und fettfreie Masse wieder erreicht; Kraftsportler hatten danach weniger Fett als vorher (ES −0,39 [−0,77; −0,00]); 74 Studien (Bagot et al., 2024).",
+    "Kampfsport, 16 Studien: Ein schneller Gewichtsverlust bis etwa 5 % beeinträchtigte die Leistung teils nicht; mehr als 3–5 % führte häufig zu Einbußen. Empfohlen werden höchstens 3 bis 5 % und mindestens 24 Stunden zur Erholung (Martínez-Aranda et al., 2023)."
+   ],
+   "critic": "Die Belege sind uneinheitlich und überwiegend aus Studien mit Übergewicht. Der Vorteil des langsamen Abnehmens beim Fett ist klein (rund 1 kg). Ein Vorteil von Diätpausen zeigte sich nur beim Ruheumsatz, nicht beim Fettverlust. Zu „Refeeds“ (einzelne Tage mit hoher Kohlenhydratzufuhr) fand sich keine Metaanalyse. Das Konfidenzintervall für den Ruheumsatz bei Ashtary-Larky et al. (2020) ist im Abstract widersprüchlich.",
+   "figs": [],
+   "s": [
+    "ashtarylarky2020",
+    "poon2025",
+    "bagot2024",
+    "martinezaranda2023"
+   ]
+  },
+  {
+   "id": "reds",
+   "name": "Geringe Energieverfügbarkeit und RED-S",
+   "q": "Wann wird das Defizit für Sportler gefährlich?",
+   "ev": "moderat",
+   "key": [
+    "IOC-Konsens 2023: RED-S ist ein Syndrom gesundheitlicher und leistungsbezogener Folgen bei Sportlerinnen und Sportlern mit geringer Energieverfügbarkeit, also zu geringer Energiezufuhr im Verhältnis zum Trainingsverbrauch; auch geringe Kohlenhydratverfügbarkeit spielt eine Rolle (Mountjoy et al., 2023).",
+    "59 Studien: 2 737 von 6 118 Sportlern (44,7 %) hatten eine geringe Energieverfügbarkeit (Frauen 44,2 %, Männer 49,4 %); 63,0 % in 8 Studien hatten ein RED-S-Risiko. Betroffene zeigten schlechtere Ausdauer, Schnellkraft, Koordination und Konzentration, mehr Krankheitsausfälle und eine schlechtere Knochengesundheit mit mehr Knochenstressverletzungen (Gallant et al., 2025).",
+    "Militär, 9 Studien: Ein kumuliertes Defizit von −39 243 bis −59 377 kcal ging mit 7–10 % weniger Kraft und Schnellkraft der Beine einher; bis etwa −19 109 kcal höchstens 2 % (Murphy et al., 2018).",
+    "21 Studien: Bei geringer Energieverfügbarkeit fielen Magermassezuwächse geringer aus (−1 % bis −5 %) und sportspezifische Leistungen sanken (−4 % bis −10 %) (DeJong Lempke et al., 2026).",
+    "Überlastete Ausdauersportler: Bei Leistungsabfall sanken Fettmasse, Ruheumsatz und Leptin; Sportler mit mindestens 2 Markern geringer Energieverfügbarkeit hatten aber keine schlechtere Leistung (d 0,09 [−0,30; 0,49]) (Kuikman et al., 2022)."
+   ],
+   "critic": "Die Prävalenzangaben schwanken stark, weil Energieverfügbarkeit unterschiedlich gemessen wird. Zum Leistungseffekt widersprechen sich die Analysen: Gallant et al. (2025) fanden Einbußen, Kuikman et al. (2022) in kontrollierten Trainingsblöcken nicht. Wahrscheinlich hängt der Effekt von Dauer und Ausmaß des Mangels ab: kurzfristig gut verkraftbar, langfristig mit Folgen für Knochen, Hormone und Training. Beobachtungsdaten überwiegen.",
+   "figs": [
+    {
+     "id": "eb-lea",
+     "title": "Häufigkeit geringer Energieverfügbarkeit",
+     "cap": "Anteil der Sportler in Prozent (Gallant et al., 2025; 46 bzw. 8 Studien).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Alle Sportler",
+       "es": 44.7
+      },
+      {
+       "l": "Frauen",
+       "es": 44.2
+      },
+      {
+       "l": "Männer",
+       "es": 49.4
+      },
+      {
+       "l": "RED-S-Risiko",
+       "es": 63.0
+      }
+     ],
+     "opts": {
+      "max": 70,
+      "ticks": [
+       0,
+       20,
+       40,
+       60
+      ],
+      "unit": "%",
+      "xlab": "Anteil der Sportler",
+      "src": "Gallant et al., 2025"
+     }
+    }
+   ],
+   "s": [
+    "mountjoy2023",
+    "gallant2025",
+    "murphyn2018",
+    "dejong2026",
+    "kuikman2022"
+   ]
+  },
+  {
+   "id": "training",
+   "name": "Training allein vs. Diät",
+   "q": "Kann man sich schlank trainieren?",
+   "ev": "hoch",
+   "key": [
+    "Frühe Metaanalyse über 25 Jahre (493 Studien): Diät brachte 10,7 kg, Training allein 2,9 kg und Diät plus Training 11,0 kg Gewichtsverlust; nach einem Jahr hielt die Kombination mehr (8,6 kg vs. 6,6 kg) (Miller et al., 1997).",
+    "14 Studien, n = 1 847: Isoliertes Ausdauertraining über 6 Monate senkte das Gewicht nur um 1,6 kg (Thorogood et al., 2011).",
+    "116 Studien, n = 6 880: Je 30 Minuten Ausdauertraining pro Woche sank das Gewicht um 0,52 kg [−0,61; −0,44], der Taillenumfang um 0,56 cm und der Körperfettanteil um 0,37 %; klinisch bedeutsam ab etwa 150 Minuten pro Woche (Jayedi et al., 2024).",
+    "117 Studien, n = 4 815: Diät senkte das Gewicht stärker, Training tendenziell stärker das Bauchfett; ohne Gewichtsverlust sank das viszerale Fett mit Training um 6,1 %, mit Diät um 1,1 % (Verheggen et al., 2016).",
+    "ACSM-Positionspapier: 150–250 Minuten Bewegung pro Woche bringen nur bescheidenen Gewichtsverlust, über 250 Minuten deutlicheren; Krafttraining steigert den Gewichtsverlust nicht, kann aber die fettfreie Masse erhöhen (Donnelly et al., 2009).",
+    "35 Studien, n = 1 266: Fasten oder Kalorienreduktion zusätzlich zum Training verschlechterte VO₂max, Kraft und Sprung nicht; die Griffkraft stieg sogar (+1,707 kg) (Kazeminasab et al., 2025).",
+    "14 Studien: Training zusätzlich zur Diät verbesserte die Knochendichte insgesamt nicht; nur Krafttraining hatte in 3 Studien einen kleinen Vorteil (+0,01 g/cm²) (Yazdanpanah et al., 2022)."
+   ],
+   "critic": "Seit den ersten Metaanalysen ist das Bild stabil: Für das Gewicht ist die Ernährung entscheidend, Training bringt allein wenig, verbessert aber Körperzusammensetzung, Bauchfett und den Erhalt des Gewichtsverlusts. Ein Grund für den geringen Effekt ist, dass Menschen nach Trainingsbeginn ihre übrige Alltagsaktivität oft verringern. Die meisten Studien betrafen Menschen mit Übergewicht.",
+   "figs": [
+    {
+     "id": "eb-train",
+     "title": "Diät, Training oder beides: Gewichtsverlust",
+     "cap": "Mittlerer Gewichtsverlust in kg nach etwa 15 Wochen (Miller et al., 1997). Kein Intervall im Abstract.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Diät",
+       "es": 10.7
+      },
+      {
+       "l": "Training",
+       "es": 2.9
+      },
+      {
+       "l": "Diät + Training",
+       "es": 11.0
+      }
+     ],
+     "opts": {
+      "max": 12,
+      "ticks": [
+       0,
+       3,
+       6,
+       9,
+       12
+      ],
+      "unit": "kg",
+      "xlab": "Gewichtsverlust",
+      "src": "Miller et al., 1997"
+     }
+    }
+   ],
+   "s": [
+    "miller1997",
+    "thorogood2011",
+    "jayedi2024",
+    "verheggen2016",
+    "donnelly2009",
+    "kazeminasab2025",
+    "yazdanpanah2022"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 1994,
+   "t": "Training schützt fettfreie Masse",
+   "p": "Mit Training nur halb so viel Verlust an fettfreier Masse.",
+   "tag": "neu",
+   "s": "ballor1994"
+  },
+  {
+   "y": 1997,
+   "t": "Diät wirkt stärker als Training allein",
+   "p": "10,7 kg vs. 2,9 kg; Kombination langfristig besser.",
+   "tag": "neu",
+   "s": "miller1997"
+  },
+  {
+   "y": 2009,
+   "t": "ACSM: mehr als 250 Minuten Bewegung",
+   "p": "Für deutlichen Gewichtsverlust nötig.",
+   "tag": "neu",
+   "s": "donnelly2009"
+  },
+  {
+   "y": 2011,
+   "t": "Ausdauertraining allein wenig wirksam",
+   "p": "1,6 kg nach 6 Monaten.",
+   "tag": "conf",
+   "s": "thorogood2011"
+  },
+  {
+   "y": 2014,
+   "t": "Mehr Protein für schlanke Athleten",
+   "p": "2,3–3,1 g/kg fettfreie Masse vorgeschlagen.",
+   "tag": "neu",
+   "s": "helms2014"
+  },
+  {
+   "y": 2016,
+   "t": "Training senkt Bauchfett",
+   "p": "Auch ohne Gewichtsverlust.",
+   "tag": "neu",
+   "s": "verheggen2016"
+  },
+  {
+   "y": 2018,
+   "t": "Kumuliertes Defizit und Leistung",
+   "p": "Große Defizite kosten Kraft und Schnellkraft.",
+   "tag": "neu",
+   "s": "murphyn2018"
+  },
+  {
+   "y": 2019,
+   "t": "Intervalldiäten: mehr Magermasseverlust",
+   "p": "−0,86 kg gegenüber kontinuierlicher Diät.",
+   "tag": "contra",
+   "s": "roman2019"
+  },
+  {
+   "y": 2020,
+   "t": "Protein schützt Magermasse in der Diät",
+   "p": "+0,36 kg bei höherer Zufuhr.",
+   "tag": "neu",
+   "s": "hudson2020"
+  },
+  {
+   "y": 2020,
+   "t": "Langsam abnehmen: mehr Fettverlust",
+   "p": "Fettfreie Masse ohne Unterschied.",
+   "tag": "neu",
+   "s": "ashtarylarky2020"
+  },
+  {
+   "y": 2021,
+   "t": "Fasten mit Krafttraining",
+   "p": "Mehr Fettverlust, fettfreie Masse erhalten.",
+   "tag": "rel",
+   "s": "ashtarylarky2021"
+  },
+  {
+   "y": 2021,
+   "t": "Umbrella Review zum Fasten",
+   "p": "Nutzen für Gewicht, meist niedrige Evidenzqualität.",
+   "tag": "conf",
+   "s": "patikorn2021"
+  },
+  {
+   "y": 2022,
+   "t": "Defizit bremst Muskelaufbau",
+   "p": "Ab etwa 500 kcal pro Tag kein Zuwachs.",
+   "tag": "neu",
+   "s": "murphyc2022"
+  },
+  {
+   "y": 2022,
+   "t": "Hohes Trainingsvolumen in der Diät",
+   "p": "Wenig Magermasseverlust bei mindestens 10 Sätzen.",
+   "tag": "neu",
+   "s": "roth2022"
+  },
+  {
+   "y": 2022,
+   "t": "Energieverfügbarkeit und Übertraining",
+   "p": "Leistungsabfall auch ohne geringe Energieverfügbarkeit.",
+   "tag": "rel",
+   "s": "kuikman2022"
+  },
+  {
+   "y": 2022,
+   "t": "Knochen in der Diät",
+   "p": "Nur Krafttraining mit kleinem Vorteil.",
+   "tag": "neu",
+   "s": "yazdanpanah2022"
+  },
+  {
+   "y": 2023,
+   "t": "IOC-Konsens zu RED-S",
+   "p": "Neue Modelle und Diagnosewerkzeug.",
+   "tag": "neu",
+   "s": "mountjoy2023"
+  },
+  {
+   "y": 2023,
+   "t": "Gewichtmachen im Kampfsport",
+   "p": "Höchstens 3–5 % empfohlen.",
+   "tag": "neu",
+   "s": "martinezaranda2023"
+  },
+  {
+   "y": 2024,
+   "t": "Fasten gleichwertig zur Kalorienreduktion",
+   "p": "Gewicht und Fett ohne Unterschied.",
+   "tag": "conf",
+   "s": "schroor2024"
+  },
+  {
+   "y": 2024,
+   "t": "Netzwerkvergleich der Fastenformen",
+   "p": "Alternate-Day-Fasting vorne, danach Wiederzunahme.",
+   "tag": "rel",
+   "s": "huang2024"
+  },
+  {
+   "y": 2024,
+   "t": "Muskelmasse ein Viertel des Gewichtsverlusts",
+   "p": "49 Studien.",
+   "tag": "conf",
+   "s": "anyiam2024"
+  },
+  {
+   "y": 2024,
+   "t": "Dosis-Wirkung von Ausdauertraining",
+   "p": "0,52 kg je 30 Minuten pro Woche.",
+   "tag": "conf",
+   "s": "jayedi2024"
+  },
+  {
+   "y": 2024,
+   "t": "Gewichtszyklen bei Sportlern",
+   "p": "Gewicht und fettfreie Masse werden wieder erreicht.",
+   "tag": "neu",
+   "s": "bagot2024"
+  },
+  {
+   "y": 2025,
+   "t": "Diätpausen erhalten Ruheumsatz",
+   "p": "Fettverlust gleich wie kontinuierlich.",
+   "tag": "neu",
+   "s": "poon2025"
+  },
+  {
+   "y": 2025,
+   "t": "Fast jeder zweite Sportler betroffen",
+   "p": "44,7 % mit geringer Energieverfügbarkeit.",
+   "tag": "neu",
+   "s": "gallant2025"
+  },
+  {
+   "y": 2025,
+   "t": "Diät mit Training ohne Leistungsverlust",
+   "p": "VO₂max und Kraft unverändert.",
+   "tag": "neu",
+   "s": "kazeminasab2025"
+  },
+  {
+   "y": 2026,
+   "t": "Training erhält fast die Hälfte der fettfreien Masse",
+   "p": "Netzwerk-Metaanalyse, 34 Studien.",
+   "tag": "conf",
+   "s": "deller2026"
+  },
+  {
+   "y": 2026,
+   "t": "ISSN-Positionspapier zum Abnehmen",
+   "p": "Diätform zweitrangig, Krafttraining und Protein zentral.",
+   "tag": "conf",
+   "s": "aragon2026"
+  },
+  {
+   "y": 2026,
+   "t": "Zeitlich begrenztes Essen bei Kraftsportlern",
+   "p": "Etwas weniger Fett, fettfreie Masse erhalten.",
+   "tag": "conf",
+   "s": "ali2026"
+  },
+  {
+   "y": 2026,
+   "t": "Geringe Energieverfügbarkeit bremst Anpassung",
+   "p": "Geringere Magermassezuwächse und Leistungen.",
+   "tag": "conf",
+   "s": "dejong2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3 745 Einträgen, 655 Übersichtsarbeiten nach Titel geprüft, 30 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Muskelerhalt im Defizit",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Erhalt der fettfreien Masse durch Training in der Diät",
+     "g": "A",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": 34,
+     "p": 1455,
+     "s": [
+      "deller2026",
+      "ballor1994"
+     ],
+     "t": "+0,87 kg [0,59; 1,16] gegenüber Diät ohne Training; 45,7 % weniger Verlust (daher Stufe „mittel“). Schon 1994 halbierte Training den Anteil der fettfreien Masse am Gewichtsverlust.",
+     "v": "muskelerhalt"
+    },
+    {
+     "n": "Verlust an Muskelmasse bei Diät ohne Training",
+     "g": "A",
+     "d": "ab",
+     "m": -1,
+     "b": "schaden",
+     "k": 49,
+     "p": 4785,
+     "s": [
+      "anyiam2024"
+     ],
+     "t": "Muskelmasse machte rund ein Viertel des Gewichtsverlusts aus (27,5 % ohne Diabetes); als Effektstärke nicht berichtet.",
+     "v": "muskelerhalt"
+    },
+    {
+     "n": "Magermassezuwachs bei Krafttraining im Defizit",
+     "g": "C",
+     "d": "ab",
+     "m": 3,
+     "b": "schaden",
+     "k": null,
+     "p": null,
+     "s": [
+      "murphyc2022"
+     ],
+     "t": "ES −0,57 gegenüber Training ohne Defizit; ab rund 500 kcal Defizit pro Tag kein Zuwachs mehr. Studienzahl im Abstract nicht angegeben.",
+     "v": "muskelerhalt"
+    },
+    {
+     "n": "Kraftzuwachs bei Krafttraining im Defizit",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "murphyc2022"
+     ],
+     "t": "ES −0,31, nicht signifikant: Kraft stieg im Defizit ähnlich wie ohne Defizit.",
+     "v": "muskelerhalt"
+    },
+    {
+     "n": "Magermasse durch Protein über 0,8 g/kg in der Diät",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 18,
+     "p": null,
+     "s": [
+      "hudson2020",
+      "aragon2026"
+     ],
+     "t": "+0,36 kg [0,06; 0,67] (14 Vergleiche); praktisch klein, aber bei längeren Diäten relevant. ISSN empfiehlt 1,6–2,2 g/kg, schlank und trainiert bis 3,2 g/kg.",
+     "v": "muskelerhalt"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Diätstrategien",
+   "kat": "koerper",
+   "items": [
+    {
+     "n": "Gewichtsverlust: Intervallfasten vs. kontinuierliche Reduktion",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 28,
+     "p": null,
+     "s": [
+      "schroor2024",
+      "aragon2026",
+      "patikorn2021"
+     ],
+     "t": "Kein Unterschied (−0,42 kg [−0,96; 0,13]); Fettmasse ebenfalls ohne Unterschied. ISSN-Positionspapier bestätigt.",
+     "v": "fasten"
+    },
+    {
+     "n": "Fettfreie Masse: Intervallfasten vs. kontinuierliche Reduktion",
+     "g": "C",
+     "d": "ab",
+     "m": 1,
+     "b": "schaden",
+     "k": 28,
+     "p": null,
+     "s": [
+      "schroor2024",
+      "roman2019",
+      "ashtarylarky2021",
+      "ali2026"
+     ],
+     "t": "−0,20 kg [−0,39; −0,01] bzw. −0,86 kg [−1,62; −0,10] mehr Verlust mit Fasten; mit Krafttraining kein Unterschied (−0,27 kg, nicht signifikant).",
+     "v": "fasten"
+    },
+    {
+     "n": "Fettverlust: langsames vs. schnelles Abnehmen",
+     "g": "C",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "ashtarylarky2020"
+     ],
+     "t": "Bei gleichem Gewichtsverlust Fettmasse −1 kg [−1,70; −0,29] stärker gesenkt mit langsamem Tempo; fettfreie Masse ohne Unterschied. Praktisch klein.",
+     "v": "tempo"
+    },
+    {
+     "n": "Abfall des Ruheumsatzes mit Diätpausen (vs. kontinuierlich)",
+     "g": "C",
+     "d": "ab",
+     "m": -1,
+     "b": "nutzen",
+     "k": 12,
+     "p": 881,
+     "s": [
+      "poon2025"
+     ],
+     "t": "Der Ruheumsatz sank nur bei kontinuierlicher Diät signifikant; Gewicht und Fett ohne Unterschied. Größe im Abstract nicht angegeben.",
+     "v": "tempo"
+    },
+    {
+     "n": "Gewichtsverlust durch Ausdauertraining allein",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 116,
+     "p": 6880,
+     "s": [
+      "jayedi2024",
+      "thorogood2011",
+      "miller1997"
+     ],
+     "t": "−0,52 kg je 30 Minuten pro Woche; 6 Monate Training allein: −1,6 kg. Im Vergleich zur Diät gering.",
+     "v": "training"
+    },
+    {
+     "n": "Bauchfett (viszeral) durch Training",
+     "g": "B",
+     "d": "ab",
+     "m": -1,
+     "b": "nutzen",
+     "k": 117,
+     "p": 4815,
+     "s": [
+      "verheggen2016",
+      "jayedi2024"
+     ],
+     "t": "Ohne Gewichtsverlust −6,1 % viszerales Fett mit Training, −1,1 % mit Diät; je 30 Minuten pro Woche −1,60 cm².",
+     "v": "training"
+    },
+    {
+     "n": "Leistung bei Diät plus Training",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 35,
+     "p": 1266,
+     "s": [
+      "kazeminasab2025"
+     ],
+     "t": "VO₂max, Bankdrücken, Beinpresse und Sprung unverändert gegenüber Training allein; Griffkraft +1,707 kg.",
+     "v": "training"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Geringe Energieverfügbarkeit (RED-S)",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Leistungseinbußen bei geringer Energieverfügbarkeit",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "schaden",
+     "k": 59,
+     "p": 6118,
+     "s": [
+      "gallant2025",
+      "kuikman2022",
+      "murphyn2018",
+      "dejong2026"
+     ],
+     "t": "Gallant et al. fanden schlechtere Ausdauer, Schnellkraft und Konzentration; Kuikman et al. keinen Leistungseffekt (d 0,09). Große kumulierte Defizite kosteten 7–10 % Beinleistung.",
+     "v": "reds"
+    },
+    {
+     "n": "Knochenstressverletzungen bei geringer Energieverfügbarkeit",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "schaden",
+     "k": 59,
+     "p": 6118,
+     "s": [
+      "gallant2025",
+      "mountjoy2023"
+     ],
+     "t": "Die meisten Studien fanden schlechtere Knochengesundheit und mehr Knochenstressverletzungen; überwiegend Beobachtungsdaten.",
+     "v": "reds"
+    },
+    {
+     "n": "Knochendichte bei Diät plus Training",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 14,
+     "p": null,
+     "s": [
+      "yazdanpanah2022"
+     ],
+     "t": "Training insgesamt ohne Effekt (+0,002 g/cm²); nur Krafttraining in 3 Studien +0,01 g/cm².",
+     "v": "training"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "deller2026": {
+   "short": "Deller et al., 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42144246",
+   "apa": "Deller, M., Weiershaus, J., Held, S. &amp; Brinkmann, C. (2026). Effects of calorie restriction with and without strength, endurance or mixed training on fat-free and skeletal muscle mass in overweight or obese individuals-a systematic review with pairwise meta-analysis and network meta-analysis of randomized controlled studies. <em>Diabetes, Obesity &amp; Metabolism, 28</em>(8), 6810–6823.",
+   "doi": "10.1111/dom.70873"
+  },
+  "anyiam2024": {
+   "short": "Anyiam et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39408294",
+   "apa": "Anyiam, O., Abdul Rashid, R. S., Bhatti, A., Khan-Madni, S., Ogunyemi, O., Ardavani, A. &amp; Idris, I. (2024). A systematic review and meta-analysis of the effect of caloric restriction on skeletal muscle mass in individuals with, and without, Type 2 diabetes. <em>Nutrients, 16</em>(19), Artikel 3328.",
+   "doi": "10.3390/nu16193328"
+  },
+  "ballor1994": {
+   "short": "Ballor & Poehlman, 1994",
+   "year": 1994,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "8130813",
+   "apa": "Ballor, D. L. &amp; Poehlman, E. T. (1994). Exercise-training enhances fat-free mass preservation during diet-induced weight loss: A meta-analytical finding. <em>International Journal of Obesity and Related Metabolic Disorders, 18</em>(1), 35–40."
+  },
+  "murphyc2022": {
+   "short": "Murphy & Koehler, 2022",
+   "year": 2022,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "34623696",
+   "apa": "Murphy, C. &amp; Koehler, K. (2022). Energy deficiency impairs resistance training gains in lean mass but not strength: A meta-analysis and meta-regression. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 32</em>(1), 125–137.",
+   "doi": "10.1111/sms.14075"
+  },
+  "roth2022": {
+   "short": "Roth et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35146569",
+   "apa": "Roth, C., Schoenfeld, B. J. &amp; Behringer, M. (2022). Lean mass sparing in resistance-trained athletes during caloric restriction: The role of resistance training volume. <em>European Journal of Applied Physiology, 122</em>(5), 1129–1151.",
+   "doi": "10.1007/s00421-022-04896-5"
+  },
+  "helms2014": {
+   "short": "Helms et al., 2014",
+   "year": 2014,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "24092765",
+   "apa": "Helms, E. R., Zinn, C., Rowlands, D. S. &amp; Brown, S. R. (2014). A systematic review of dietary protein during caloric restriction in resistance trained lean athletes: A case for higher intakes. <em>International Journal of Sport Nutrition and Exercise Metabolism, 24</em>(2), 127–138.",
+   "doi": "10.1123/ijsnem.2013-0054"
+  },
+  "hudson2020": {
+   "short": "Hudson et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31794597",
+   "apa": "Hudson, J. L., Wang, Y., Bergia Iii, R. E. &amp; Campbell, W. W. (2020). Protein intake greater than the RDA differentially influences whole-body lean mass responses to purposeful catabolic and anabolic stressors: A systematic review and meta-analysis. <em>Advances in Nutrition, 11</em>(3), 548–558.",
+   "doi": "10.1093/advances/nmz106"
+  },
+  "aragon2026": {
+   "short": "Aragon et al., 2026",
+   "year": 2026,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "42867412",
+   "apa": "Aragon, A. A., Campbell, B. I., Schoenfeld, B. J., Stout, J. R., Kalman, D., Arciero, P. J., Arent, S. M., Kreider, R. B., Taylor, L. W., Bannock, L., Wildman, R. E. C., Kerksick, C. M. &amp; Antonio, J. (2026). International society of sports nutrition position stand: Diets for body weight reduction. <em>Journal of the International Society of Sports Nutrition, 23</em>(1), Artikel 2740266.",
+   "doi": "10.1080/15502783.2026.2740266"
+  },
+  "patikorn2021": {
+   "short": "Patikorn et al., 2021",
+   "year": 2021,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "34919135",
+   "apa": "Patikorn, C., Roubal, K., Veettil, S. K., Chandran, V., Pham, T., Lee, Y. Y., Giovannucci, E. L., Varady, K. A. &amp; Chaiyakunapruk, N. (2021). Intermittent fasting and obesity-related health outcomes: An umbrella review of meta-analyses of randomized clinical trials. <em>JAMA Network Open, 4</em>(12), Artikel e2139558.",
+   "doi": "10.1001/jamanetworkopen.2021.39558"
+  },
+  "schroor2024": {
+   "short": "Schroor et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37827491",
+   "apa": "Schroor, M. M., Joris, P. J., Plat, J. &amp; Mensink, R. P. (2024). Effects of intermittent energy restriction compared with those of continuous energy restriction on body composition and cardiometabolic risk markers - A systematic review and meta-analysis of randomized controlled trials in adults. <em>Advances in Nutrition, 15</em>(1), Artikel 100130.",
+   "doi": "10.1016/j.advnut.2023.10.003"
+  },
+  "roman2019": {
+   "short": "Roman et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30206335",
+   "apa": "Roman, Y. M., Dominguez, M. C., Easow, T. M., Pasupuleti, V., White, C. M. &amp; Hernandez, A. V. (2019). Effects of intermittent versus continuous dieting on weight and body composition in obese and overweight people: A systematic review and meta-analysis of randomized controlled trials. <em>International Journal of Obesity, 43</em>(10), 2017–2027.",
+   "doi": "10.1038/s41366-018-0204-0"
+  },
+  "huang2024": {
+   "short": "Huang et al., 2024",
+   "year": 2024,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39327619",
+   "apa": "Huang, J., Li, Y., Chen, M., Cai, Z., Cai, Z. &amp; Jiang, Z. (2024). Comparing caloric restriction regimens for effective weight management in adults: A systematic review and network meta-analysis. <em>The International Journal of Behavioral Nutrition and Physical Activity, 21</em>(1), Artikel 108.",
+   "doi": "10.1186/s12966-024-01657-9"
+  },
+  "ashtarylarky2021": {
+   "short": "Ashtary-Larky et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33984329",
+   "apa": "Ashtary-Larky, D., Bagheri, R., Tinsley, G. M., Asbaghi, O., Paoli, A. &amp; Moro, T. (2021). Effects of intermittent fasting combined with resistance training on body composition: A systematic review and meta-analysis. <em>Physiology &amp; Behavior, 237</em>, Artikel 113453.",
+   "doi": "10.1016/j.physbeh.2021.113453"
+  },
+  "ali2026": {
+   "short": "Ali et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41687432",
+   "apa": "Ali, A. M., Messenburger, G. P., Neves Collares, L. D., Nuñez, F. F. &amp; Pieniz, S. (2026). Time-restricted eating shows a modest reduction in fat mass in resistance-trained individuals: A systematic review and meta-analysis. <em>Nutrition Research, 147</em>, 1–15.",
+   "doi": "10.1016/j.nutres.2026.01.001"
+  },
+  "kazeminasab2025": {
+   "short": "Kazeminasab et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40573103",
+   "apa": "Kazeminasab, F., Sharafifard, F., Bahrami Kerchi, A., Bagheri, R., Carteri, R. B., Kirwan, R., Santos, H. O. &amp; Dutheil, F. (2025). Effects of intermittent fasting and calorie restriction on exercise performance: A systematic review and meta-analysis. <em>Nutrients, 17</em>(12), Artikel 1992.",
+   "doi": "10.3390/nu17121992"
+  },
+  "poon2025": {
+   "short": "Poon et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38193357",
+   "apa": "Poon, E. T., Tsang, J. H., Sun, F., Zheng, C. &amp; Wong, S. H. (2025). Effects of intermittent dieting with break periods on body composition and metabolic adaptation: A systematic review and meta-analysis. <em>Nutrition Reviews, 83</em>(1), 59–71.",
+   "doi": "10.1093/nutrit/nuad168"
+  },
+  "ashtarylarky2020": {
+   "short": "Ashtary-Larky et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32576318",
+   "apa": "Ashtary-Larky, D., Bagheri, R., Abbasnezhad, A., Tinsley, G. M., Alipour, M. &amp; Wong, A. (2020). Effects of gradual weight loss v. rapid weight loss on body composition and RMR: A systematic review and meta-analysis. <em>The British Journal of Nutrition, 124</em>(11), 1121–1132.",
+   "doi": "10.1017/S000711452000224X",
+   "flag": "Das Konfidenzintervall für den Ruheumsatz ist im Abstract widersprüchlich angegeben (407,48 kJ; 95-%-KI 76,76 bis 118,01)."
+  },
+  "bagot2024": {
+   "short": "Bagot et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38096860",
+   "apa": "Bagot, S., Pélissier, L., Pereira, B., Chanséaume Bussiere, E., Duclos, M., Dulloo, A., Miles-Chan, J., Charlot, K., Boirie, Y., Thivel, D. &amp; Isacco, L. (2024). Weight regain, body composition, and metabolic responses to weight loss in weight cycling athletes: A systematic review and meta-analyses. <em>Obesity Reviews, 25</em>(2), Artikel e13658.",
+   "doi": "10.1111/obr.13658"
+  },
+  "martinezaranda2023": {
+   "short": "Martínez-Aranda et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "36982067",
+   "apa": "Martínez-Aranda, L. M., Sanz-Matesanz, M., Orozco-Durán, G., González-Fernández, F. T., Rodríguez-García, L. &amp; Guadalupe-Grau, A. (2023). Effects of different rapid weight loss strategies and percentages on performance-related parameters in combat sports: An updated systematic review. <em>International Journal of Environmental Research and Public Health, 20</em>(6), Artikel 5158.",
+   "doi": "10.3390/ijerph20065158"
+  },
+  "mountjoy2023": {
+   "short": "Mountjoy et al., 2023",
+   "year": 2023,
+   "type": "Positionspapier (IOC)",
+   "basis": "Abstract",
+   "pmid": "37752011",
+   "apa": "Mountjoy, M., Ackerman, K. E., Bailey, D. M., Burke, L. M., Constantini, N., Hackney, A. C., Heikura, I. A., Melin, A., Pensgaard, A. M., Stellingwerff, T., Sundgot-Borgen, J. K., Torstveit, M. K., Jacobsen, A. U., Verhagen, E., Budgett, R., Engebretsen, L. &amp; Erdener, U. (2023). 2023 International Olympic committee's (IOC) consensus statement on relative energy deficiency in sport (REDs). <em>British Journal of Sports Medicine, 57</em>(17), 1073–1097.",
+   "doi": "10.1136/bjsports-2023-106994"
+  },
+  "gallant2025": {
+   "short": "Gallant et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39485653",
+   "apa": "Gallant, T. L., Ong, L. F., Wong, L., Sparks, M., Wilson, E., Puglisi, J. L. &amp; Gerriets, V. A. (2025). Low energy availability and relative energy deficiency in sport: A systematic review and meta-analysis. <em>Sports Medicine, 55</em>(2), 325–339.",
+   "doi": "10.1007/s40279-024-02130-0"
+  },
+  "murphyn2018": {
+   "short": "Murphy et al., 2018",
+   "year": 2018,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "pmid": "29949108",
+   "apa": "Murphy, N. E., Carrigan, C. T., Philip Karl, J., Pasiakos, S. M. &amp; Margolis, L. M. (2018). Threshold of energy deficit and lower-body performance declines in military personnel: A meta-regression. <em>Sports Medicine, 48</em>(9), 2169–2178.",
+   "doi": "10.1007/s40279-018-0945-x"
+  },
+  "kuikman2022": {
+   "short": "Kuikman et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35819582",
+   "apa": "Kuikman, M. A., Coates, A. M. &amp; Burr, J. F. (2022). Markers of low energy availability in overreached athletes: A systematic review and meta-analysis. <em>Sports Medicine, 52</em>(12), 2925–2941.",
+   "doi": "10.1007/s40279-022-01723-x"
+  },
+  "dejong2026": {
+   "short": "DeJong Lempke et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "41087038",
+   "apa": "DeJong Lempke, A. F., Smulligan, K. L., Desai, G. A., Hagan, K. E., Oldham, J. R., Islam, L. Z. &amp; Whitney, K. E. (2026). Impaired neuromusculoskeletal response to training stimuli associated with low energy availability: A systematic review. <em>British Journal of Sports Medicine, 60</em>(1), 55–66.",
+   "doi": "10.1136/bjsports-2025-110096"
+  },
+  "miller1997": {
+   "short": "Miller et al., 1997",
+   "year": 1997,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "9347414",
+   "apa": "Miller, W. C., Koceja, D. M. &amp; Hamilton, E. J. (1997). A meta-analysis of the past 25 years of weight loss research using diet, exercise or diet plus exercise intervention. <em>International Journal of Obesity and Related Metabolic Disorders, 21</em>(10), 941–947.",
+   "doi": "10.1038/sj.ijo.0800499"
+  },
+  "thorogood2011": {
+   "short": "Thorogood et al., 2011",
+   "year": 2011,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "21787904",
+   "apa": "Thorogood, A., Mottillo, S., Shimony, A., Filion, K. B., Joseph, L., Genest, J., Pilote, L., Poirier, P., Schiffrin, E. L. &amp; Eisenberg, M. J. (2011). Isolated aerobic exercise and weight loss: A systematic review and meta-analysis of randomized controlled trials. <em>The American Journal of Medicine, 124</em>(8), 747–755.",
+   "doi": "10.1016/j.amjmed.2011.02.037"
+  },
+  "jayedi2024": {
+   "short": "Jayedi et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse (Dosis-Wirkung)",
+   "basis": "Abstract",
+   "pmid": "39724371",
+   "apa": "Jayedi, A., Soltani, S., Emadi, A., Zargar, M. S. &amp; Najafi, A. (2024). Aerobic exercise and weight loss in adults: A systematic review and dose-response meta-analysis. <em>JAMA Network Open, 7</em>(12), Artikel e2452185.",
+   "doi": "10.1001/jamanetworkopen.2024.52185"
+  },
+  "verheggen2016": {
+   "short": "Verheggen et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27213481",
+   "apa": "Verheggen, R. J., Maessen, M. F., Green, D. J., Hermus, A. R., Hopman, M. T. &amp; Thijssen, D. H. (2016). A systematic review and meta-analysis on the effects of exercise training versus hypocaloric diet: Distinct effects on body weight and visceral adipose tissue. <em>Obesity Reviews, 17</em>(8), 664–690.",
+   "doi": "10.1111/obr.12406"
+  },
+  "donnelly2009": {
+   "short": "Donnelly et al., 2009",
+   "year": 2009,
+   "type": "Positionspapier (ACSM)",
+   "basis": "Abstract",
+   "pmid": "19127177",
+   "apa": "Donnelly, J. E., Blair, S. N., Jakicic, J. M., Manore, M. M., Rankin, J. W., Smith, B. K. &amp; American College of Sports Medicine (2009). American college of sports medicine position stand. Appropriate physical activity intervention strategies for weight loss and prevention of weight regain for adults. <em>Medicine &amp; Science in Sports &amp; Exercise, 41</em>(2), 459–471.",
+   "doi": "10.1249/MSS.0b013e3181949333"
+  },
+  "yazdanpanah2022": {
+   "short": "Yazdanpanah et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34643754",
+   "apa": "Yazdanpanah, Z., Beigrezaei, S., Mohseni-Takalloo, S., Soltani, S., Rajaie, S. H., Zohrabi, T., Kaviani, M., Forbes, S. C., Baker, J. S. &amp; Salehi-Abargouei, A. (2022). Does exercise affect bone mineral density and content when added to a calorie-restricted diet? A systematic review and meta-analysis of controlled clinical trials. <em>Osteoporosis International, 33</em>(2), 339–354.",
+   "doi": "10.1007/s00198-021-06187-9"
+  }
+ }
+}

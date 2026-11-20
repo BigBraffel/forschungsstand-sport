@@ -1,0 +1,964 @@
+{
+ "id": "melatonin",
+ "title": "Melatonin",
+ "stand": "2026-11-20",
+ "lead": "Hilft Melatonin beim Einschlafen, gegen Jetlag und bei der Erholung von Sportlern, und wie sicher ist es? Zusammengefasst aus Cochrane-Reviews, Metaanalysen und Sicherheitsübersichten.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Die Schlafeffekte sind klein, beim Jetlag deutlicher. Für sportliche Leistung ist die Studienlage widersprüchlich und beruht auf wenigen, kleinen Studien.",
+ "rx": [
+  {
+   "label": "Jetlag",
+   "value": "0,5–5 mg zur Schlafenszeit am Zielort",
+   "text": "Bei Flügen über fünf oder mehr Zeitzonen, besonders nach Osten, linderte Melatonin den Jetlag deutlich. Dosen über 5 mg wirkten nicht besser; zur falschen Tageszeit eingenommen verzögert es die Anpassung und macht müde.",
+   "cite": "Herxheimer &amp; Petrie 2002; Tortorolo et al. 2015"
+  },
+  {
+   "label": "Einschlafen",
+   "value": "bis etwa 4 mg, rund 3 Stunden vor dem Zubettgehen",
+   "text": "Die Einschlafzeit verkürzt sich nur um wenige Minuten. Die Wirkung war bis 4 mg/Tag und bei früherer Einnahme am größten.",
+   "cite": "Ferracioli-Oda et al. 2013; Cruz-Sanabria et al. 2024"
+  },
+  {
+   "label": "Sportler",
+   "value": "wenn überhaupt abends, nicht vor dem Training",
+   "text": "Leistungsvorteile sind unsicher. Positive Befunde zeigten sich bei abendlicher Einnahme mit mehr als 6 Stunden Abstand zur Belastung; direkt vor dem Training senkte Melatonin teils Kraft und Schnellkraft.",
+   "cite": "Guo et al. 2026; Faria et al. 2024; Drummond et al. 2024"
+  },
+  {
+   "label": "Für wen nicht",
+   "value": "Epilepsie, Gerinnungshemmer, Blutdruckmittel",
+   "text": "Fallberichte deuten auf Risiken bei Epilepsie und unter Warfarin hin; Wechselwirkungen mit Blutdruckmitteln sind beschrieben. Vor Autofahren oder Training auf Tagesmüdigkeit achten.",
+   "cite": "Herxheimer &amp; Petrie 2002; Foley &amp; Steel 2019"
+  },
+  {
+   "label": "Rechtlicher Status",
+   "value": "in EU und UK als Arzneimittel reguliert",
+   "text": "In den USA und Kanada ist Melatonin frei als Nahrungsergänzungsmittel erhältlich, in Großbritannien und der EU als Arzneimittel reguliert.",
+   "cite": "Besag &amp; Vasey 2022"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Die meisten Studien dauerten 4 Wochen oder kürzer. Zur Sicherheit bei jahrelanger Einnahme fehlen placebokontrollierte Langzeitstudien (Besag &amp; Vasey, 2022).",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Etwas schnelleres Einschlafen",
+   "ev": "hoch",
+   "p": "Die Einschlafzeit verkürzte sich um etwa 4 bis 12 Minuten, die Schlafzeit verlängerte sich um etwa 8 bis 13 Minuten; der Nutzen ist statistisch gesichert, aber klein.",
+   "s": [
+    "ferraciolioda2013",
+    "brzezinski2005",
+    "buscemi2005",
+    "low2020"
+   ]
+  },
+  {
+   "t": "Wirksam gegen Jetlag",
+   "ev": "moderat",
+   "p": "9 von 10 Studien fanden weniger Jetlag bei Flügen über fünf oder mehr Zeitzonen; eine ältere Analyse fand keinen Effekt auf die Einschlafzeit.",
+   "s": [
+    "herxheimer2002",
+    "tortorolo2015",
+    "buscemi2006"
+   ]
+  },
+  {
+   "t": "Kein gesicherter Leistungseffekt",
+   "ev": "niedrig",
+   "p": "Eine Metaanalyse fand keinen Effekt auf Ausdauer und Kraft, eine neuere einen mittleren Ausdauereffekt bei abendlicher Einnahme. Beide beruhen auf wenigen kleinen Studien.",
+   "s": [
+    "drummond2024",
+    "guo2026",
+    "faria2024"
+   ]
+  },
+  {
+   "t": "Weniger Muskelschaden und oxidativer Stress",
+   "ev": "niedrig",
+   "p": "Kreatinkinase sank, antioxidative Marker stiegen; ob das die Erholung spürbar verbessert, ist offen.",
+   "s": [
+    "guo2026",
+    "drummond2024",
+    "ghorbaninejad2020",
+    "almendrosruiz2023"
+   ]
+  },
+  {
+   "t": "Kurzfristig gut verträglich, Müdigkeit möglich",
+   "ev": "moderat",
+   "p": "Häufigste Nebenwirkungen sind Tagesmüdigkeit, Kopfschmerz und Schwindel; schwere Ereignisse waren nicht häufiger als unter Placebo. Langzeitdaten fehlen.",
+   "s": [
+    "besag2019",
+    "menczelschrire2022",
+    "besag2022",
+    "foley2019"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "schlaf",
+   "name": "Einschlafzeit, Schlafdauer und Schlafqualität",
+   "q": "Schläft man mit Melatonin schneller ein und besser?",
+   "ev": "moderat",
+   "key": [
+    "17 Studien mit 284 Personen, überwiegend gesund oder nur mit Schlaflosigkeit: Einschlafzeit −4,0 min [2,5; 5,4], Schlafeffizienz +2,2 %, Gesamtschlafzeit +12,8 min [2,9; 22,8] (Brzezinski et al., 2005).",
+    "Primäre Schlafstörungen: Einschlafzeit −11,7 min [−18,2; −5,2], bei Schlaflosigkeit nur −7,2 min, bei verzögerter Schlafphase −38,8 min; bei Kurzzeitgebrauch bis 4 Wochen bei den meisten Störungen nicht wirksam (Buscemi et al., 2005).",
+    "19 Studien mit 1683 Personen: Einschlafzeit −7,06 min [4,37; 9,75], Gesamtschlafzeit +8,25 min [1,74; 14,75], Schlafqualität SMD 0,22 [0,12; 0,32]; die Effekte ließen bei längerer Einnahme nicht nach (Ferracioli-Oda et al., 2013).",
+    "Umbrella Review mit 12 Übersichten zu Melatonin: signifikante Verbesserungen der Einschlafzeit und Gesamtschlafzeit, aber kein Konsens, ob sie klinisch bedeutsam sind; methodische Qualität moderat bis kritisch niedrig (Low et al., 2020).",
+    "23 Studien bei Erwachsenen mit verschiedenen Erkrankungen: Schlafqualität (PSQI) −1,24 Punkte [−1,77; −0,71], I² = 80,7 % (Fatemeh et al., 2022).",
+    "24 Studien zu chronischer Schlaflosigkeit: bei Erwachsenen ohne Begleiterkrankung keine signifikante Wirkung auf Einschlafzeit, Gesamtschlafzeit oder Schlafeffizienz, wohl aber bei Kindern und Jugendlichen (Choi et al., 2022).",
+    "22 Studien mit 4875 Personen mit Schlaflosigkeit: Melatonin mit verzögerter Freisetzung verkürzte die gemessene Einschlafzeit um 5,05 min und die subjektive um 6,30 min, kleine bis mittlere Effekte; stärker ab einem Durchschnittsalter von 55 Jahren (Maruani et al., 2023).",
+    "26 Studien (1689 Beobachtungen): Wirkung stieg bis 4 mg/Tag; frühere Einnahme (etwa 3 Stunden vor dem Zubettgehen) war wirksamer als die übliche Gabe von 2 mg 30 Minuten vorher (Cruz-Sanabria et al., 2024)."
+   ],
+   "critic": "Alle großen Analysen finden statistisch signifikante, aber kleine Effekte: wenige Minuten schnelleres Einschlafen. Choi et al. (2022) fanden bei Erwachsenen mit chronischer Schlaflosigkeit gar keinen Effekt, die übrigen Analysen kleine Vorteile. Der Unterschied liegt vermutlich an Auswahl und Untergruppen; die sehr hohe Heterogenität bei der Schlafqualität (I² = 80,7 %) stammt zum großen Teil aus Studien mit Kranken. Der deutlich größere Effekt bei verzögerter Schlafphase zeigt, dass Melatonin vor allem den Rhythmus verschiebt und weniger als Schlafmittel wirkt. Wahrscheinlichste Lesart: Bei normalem Schlafrhythmus ist der Nutzen gering.",
+   "figs": [
+    {
+     "id": "mel-schlaf",
+     "title": "Melatonin und Schlaf",
+     "cap": "Mittlere Differenz gegenüber Placebo in Minuten mit 95-%-KI; negative Werte bei der Einschlafzeit bedeuten schnelleres Einschlafen. Vorzeichen bei Brzezinski et al. (2005) und Ferracioli-Oda et al. (2013) entsprechend der berichteten Verkürzung gesetzt.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Einschlafzeit",
+       "sub": "Brzezinski et al., 2005",
+       "es": -4.0,
+       "lo": -5.4,
+       "hi": -2.5
+      },
+      {
+       "l": "Einschlafzeit",
+       "sub": "Ferracioli-Oda et al., 2013",
+       "es": -7.06,
+       "lo": -9.75,
+       "hi": -4.37
+      },
+      {
+       "l": "Einschlafzeit",
+       "sub": "Buscemi et al., 2005",
+       "es": -11.7,
+       "lo": -18.2,
+       "hi": -5.2
+      },
+      {
+       "l": "Gesamtschlafzeit",
+       "sub": "Ferracioli-Oda et al., 2013",
+       "es": 8.25,
+       "lo": 1.74,
+       "hi": 14.75
+      },
+      {
+       "l": "Gesamtschlafzeit",
+       "sub": "Brzezinski et al., 2005",
+       "es": 12.8,
+       "lo": 2.9,
+       "hi": 22.8
+      }
+     ],
+     "opts": {
+      "min": -20,
+      "max": 25,
+      "ticks": [
+       -20,
+       -10,
+       0,
+       10,
+       20
+      ],
+      "unit": "min",
+      "leftLab": "kürzer mit Melatonin",
+      "rightLab": "länger mit Melatonin"
+     }
+    }
+   ],
+   "s": [
+    "brzezinski2005",
+    "buscemi2005",
+    "ferraciolioda2013",
+    "low2020",
+    "fatemeh2022",
+    "choi2022",
+    "maruani2023",
+    "cruzsanabria2024"
+   ]
+  },
+  {
+   "id": "jetlag",
+   "name": "Jetlag und Schichtarbeit",
+   "q": "Hilft Melatonin gegen Jetlag und bei Schichtarbeit?",
+   "ev": "moderat",
+   "key": [
+    "Cochrane-Review mit 10 Studien: 9 fanden weniger Jetlag bei Flügen über fünf oder mehr Zeitzonen, wenn Melatonin nahe der Zielschlafenszeit (22 bis 24 Uhr) genommen wurde; NNT 2. 0,5–5 mg wirkten ähnlich, 5 mg ließ schneller einschlafen, höhere Dosen brachten nichts; zur falschen Tageszeit verursacht es Müdigkeit und verzögert die Anpassung (Herxheimer &amp; Petrie, 2002).",
+    "Zusammenfassung von 4 systematischen Reviews mit 11 Studien (GRADE): orales Melatonin verringert wahrscheinlich die Jetlag-Symptome; Nebenwirkungen wären wahrscheinlich leicht (Tortorolo et al., 2015).",
+    "Schlafstörungen bei Schlafeinschränkung wie Jetlag und Schichtarbeit, 9 Studien mit 427 Personen: kein Effekt auf die Einschlafzeit (−1,0 min [−2,3; 0,3]) (Buscemi et al., 2006).",
+    "Cochrane-Review zu Schichtarbeit: 1–10 mg nach der Nachtschicht verlängerte den Tagschlaf um 24 min [9,8; 38,9] (7 Studien, 263 Personen) und den Nachtschlaf um 17 min, die Einschlafzeit blieb gleich; Evidenzqualität niedrig (Liira et al., 2014)."
+   ],
+   "critic": "Der scheinbare Widerspruch zwischen Cochrane-Review und Buscemi et al. (2006) erklärt sich durch verschiedene Zielgrößen: Melatonin lindert die Jetlag-Symptome insgesamt, verkürzt aber kaum die Einschlafzeit. Die Jetlag-Studien sind alt und klein, die Richtung ist jedoch über mehrere Reviews einheitlich. Für Schichtarbeit ist die Evidenz niedrig. Für reisende Sportler ist der Nutzen am ehesten bei Ostflügen über viele Zeitzonen plausibel.",
+   "figs": [],
+   "s": [
+    "herxheimer2002",
+    "tortorolo2015",
+    "buscemi2006",
+    "liira2014"
+   ]
+  },
+  {
+   "id": "leistung",
+   "name": "Sportliche Leistung",
+   "q": "Verbessert Melatonin Ausdauer, Kraft oder Schnellkraft?",
+   "ev": "niedrig",
+   "key": [
+    "19 Studien in der Metaanalyse: kein Effekt auf Ausdauer im Zeitfahren (−0,04 [−0,51; 0,44]), auf VO₂ (0,00 [−0,57; 0,57]) oder Kraft (0,19 [−0,28; 0,65]); die Autoren folgern, Melatonin sei kein leistungssteigerndes Hormon (Drummond et al., 2024).",
+    "19 Studien mit 266 Sportlern und Aktiven: Schnellkraft SMD 0,29 [0,05; 0,53], Ausdauerleistung SMD 0,58 [0,29; 0,87], I² = 46 %; besser bei abendlicher Einnahme mit mehr als 6 Stunden Abstand zur Belastung und bei 6–10 mg (Guo et al., 2026).",
+    "Akute Gabe, 10 Studien: keine Veränderung von Schnelligkeit und kurzer Ausdauerleistung; bei Kraft und Schnellkraft 5 Studien ohne Unterschied und 2 mit Leistungsabfall; Verbesserungen nur bei Gleichgewicht und langer Ausdauer bei Nichtsportlern (Faria et al., 2024).",
+    "Hochtrainierte Sportler, 21 Studien mit 5–100 mg: bessere antioxidative und entzündliche Marker, direkte Leistungsverbesserung nicht belegt (Celorrio San Miguel et al., 2024). Profifußballer, 8 Studien mit 5–8 mg: weniger oxidativer Stress, Muskelschaden und Entzündung, Leistungseffekte nicht nachgewiesen (Almendros-Ruiz et al., 2023)."
+   ],
+   "critic": "Die beiden Metaanalysen widersprechen sich bei der Ausdauer. Die neuere Analyse (Guo et al., 2026) führt den Vorteil auf abendliche Einnahme mit großem Abstand zur Belastung zurück, was zum Befund von Faria et al. (2024) passt, dass Melatonin kurz vor der Belastung Kraft und Schnellkraft eher senkt. Beide Analysen beruhen auf wenigen, sehr kleinen Studien (bei Guo et al., 2026 im Mittel 14 Personen pro Studie); die Untergruppen sind explorativ. Wahrscheinlichste Lesart: Ein direkter Leistungseffekt ist nicht gesichert; wenn überhaupt, wirkt Melatonin über besseren Schlaf und Erholung.",
+   "figs": [
+    {
+     "id": "mel-leistung",
+     "title": "Melatonin und Leistung: zwei Metaanalysen",
+     "cap": "Standardisierte Effektstärken gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Ausdauer (Zeitfahren)",
+       "sub": "Drummond et al., 2024",
+       "es": -0.04,
+       "lo": -0.51,
+       "hi": 0.44
+      },
+      {
+       "l": "VO₂",
+       "sub": "Drummond et al., 2024",
+       "es": 0.0,
+       "lo": -0.57,
+       "hi": 0.57
+      },
+      {
+       "l": "Kraft",
+       "sub": "Drummond et al., 2024",
+       "es": 0.19,
+       "lo": -0.28,
+       "hi": 0.65
+      },
+      {
+       "l": "Ausdauerleistung",
+       "sub": "Guo et al., 2026",
+       "es": 0.58,
+       "lo": 0.29,
+       "hi": 0.87
+      },
+      {
+       "l": "Schnellkraft",
+       "sub": "Guo et al., 2026",
+       "es": 0.29,
+       "lo": 0.05,
+       "hi": 0.53
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 1,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Melatonin besser"
+     }
+    }
+   ],
+   "s": [
+    "drummond2024",
+    "guo2026",
+    "faria2024",
+    "celorriosanmiguel2024",
+    "almendrosruiz2023"
+   ]
+  },
+  {
+   "id": "erholung",
+   "name": "Muskelschaden und oxidativer Stress",
+   "q": "Unterstützt Melatonin die Erholung nach Belastung?",
+   "ev": "niedrig",
+   "key": [
+    "19 Studien: Kreatinkinase deutlich gesenkt (SMD 0,59 [0,29; 0,89], I² = 0 %), LDH nicht signifikant (SMD 0,45 [−0,03; 0,94]) (Guo et al., 2026).",
+    "Bei Sportlern stieg nur die Glutathionperoxidase (1,40 [0,29; 2,51]); die Autoren werten Melatonin als förderlich für die Erholung (Drummond et al., 2024).",
+    "15 Studien in gemischten Populationen: totale antioxidative Kapazität SMD 1,03 [0,24; 1,81], Malondialdehyd −0,94 [−1,48; −0,40], Proteincarbonyle −1,78 [−2,97; −0,58] (Ghorbaninejad et al., 2020).",
+    "Systematische Reviews bei Profifußballern und Hochtrainierten: weniger oxidativer Stress, Entzündungs- und Muskelschadensmarker (Almendros-Ruiz et al., 2023; Celorrio San Miguel et al., 2024)."
+   ],
+   "critic": "Die Befunde betreffen Blutmarker, nicht funktionelle Erholung wie Kraftverlauf oder Muskelkater. Die Analyse zum oxidativen Stress stammt überwiegend aus Studien außerhalb des Sports. Die systematischen Reviews bei Sportlern poolen keine Daten. Ein antioxidativer Effekt ist plausibel; ob er die Trainingsanpassung fördert oder hemmt, ist nicht untersucht.",
+   "figs": [
+    {
+     "id": "mel-oxstress",
+     "title": "Melatonin und Marker von Muskelschaden und oxidativem Stress",
+     "cap": "Standardisierte Effektstärken mit 95-%-KI. Bei Kreatinkinase und LDH bedeuten positive Werte laut Abstract eine Senkung zugunsten von Melatonin.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kreatinkinase (Senkung)",
+       "sub": "Guo et al., 2026",
+       "es": 0.59,
+       "lo": 0.29,
+       "hi": 0.89
+      },
+      {
+       "l": "LDH (Senkung)",
+       "sub": "Guo et al., 2026",
+       "es": 0.45,
+       "lo": -0.03,
+       "hi": 0.94
+      },
+      {
+       "l": "Glutathionperoxidase",
+       "sub": "Drummond et al., 2024",
+       "es": 1.4,
+       "lo": 0.29,
+       "hi": 2.51
+      },
+      {
+       "l": "Antioxidative Kapazität",
+       "sub": "Ghorbaninejad et al., 2020",
+       "es": 1.03,
+       "lo": 0.24,
+       "hi": 1.81
+      },
+      {
+       "l": "Malondialdehyd",
+       "sub": "Ghorbaninejad et al., 2020",
+       "es": -0.94,
+       "lo": -1.48,
+       "hi": -0.4
+      }
+     ],
+     "opts": {
+      "min": -2,
+      "max": 3,
+      "ticks": [
+       -2,
+       -1,
+       0,
+       1,
+       2,
+       3
+      ],
+      "unit": "SMD"
+     }
+    }
+   ],
+   "s": [
+    "guo2026",
+    "drummond2024",
+    "ghorbaninejad2020",
+    "almendrosruiz2023",
+    "celorriosanmiguel2024"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit, Tagesmüdigkeit und rechtlicher Status",
+   "q": "Wie sicher ist Melatonin, und macht es tagsüber müde?",
+   "ev": "moderat",
+   "key": [
+    "37 Studien mit 0,15–12 mg/Tag, meist bis 4 Wochen: häufigste Nebenwirkungen Tagesmüdigkeit (1,66 %), Kopfschmerz (0,74 %), Schwindel (0,74 %) und Unterkühlung (0,62 %); keine lebensbedrohlichen Ereignisse (Besag et al., 2019).",
+    "Hohe Dosen ab 10 mg, 79 Studien mit 3861 Personen: in 4 Studien mit niedrigem Verzerrungsrisiko keine Zunahme schwerer Nebenwirkungen (RR 0,88 [0,52; 1,50]), aber mehr Benommenheit, Kopfschmerz und Schwindel (RR 1,40 [1,15; 1,69]); 37 % der Studien berichteten nichts zu Nebenwirkungen (Menczel Schrire et al., 2022).",
+    "50 kontrollierte Studien: Nebenwirkungen meist leicht und kurz, vor allem Müdigkeit, Stimmung sowie psychomotorische und kognitive Leistung; vereinzelt Effekte auf Hormone, Blutzucker und Blutdruck sowie Wechselwirkungen mit Blutdruckmitteln, abhängig von Dosis und Zeitpunkt (Foley &amp; Steel, 2019).",
+    "Kurzzeitgebrauch bis 3 Monate sicher (Buscemi et al., 2006). Fallberichte: mögliche Schäden bei Epilepsie und unter Warfarin; eine Qualitätskontrolle der Präparate wurde gefordert (Herxheimer &amp; Petrie, 2002).",
+    "In Großbritannien und der EU als Arzneimittel reguliert, in den USA und Kanada frei als Nahrungsergänzungsmittel erhältlich. Zu Langzeitanwendung ab 6 Monaten fehlen placebokontrollierte Studien (Besag &amp; Vasey, 2022)."
+   ],
+   "critic": "Die Sicherheitsübersichten stimmen überein: kurzfristig gut verträglich, Müdigkeit ist die typische Nebenwirkung. Die Datenlage ist aber lückenhaft, da viele Studien Nebenwirkungen nicht berichten und Langzeitdaten fehlen. Für Sportler relevant: Tagesmüdigkeit und psychomotorische Effekte bei falschem Einnahmezeitpunkt, etwa vor Training oder Wettkampf.",
+   "figs": [],
+   "s": [
+    "besag2019",
+    "menczelschrire2022",
+    "foley2019",
+    "buscemi2006",
+    "herxheimer2002",
+    "besag2022"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2002,
+   "t": "Cochrane-Review Jetlag",
+   "p": "Melatonin lindert Jetlag deutlich, NNT 2.",
+   "tag": "neu",
+   "s": "herxheimer2002"
+  },
+  {
+   "y": 2005,
+   "t": "Erste Schlaf-Metaanalyse",
+   "p": "Einschlafzeit um 4 Minuten kürzer.",
+   "tag": "neu",
+   "s": "brzezinski2005"
+  },
+  {
+   "y": 2005,
+   "t": "Primäre Schlafstörungen",
+   "p": "Meist kein relevanter Effekt, außer bei verzögerter Schlafphase.",
+   "tag": "rel",
+   "s": "buscemi2005"
+  },
+  {
+   "y": 2006,
+   "t": "Jetlag und Schichtarbeit",
+   "p": "Kein Effekt auf die Einschlafzeit; kurzfristig sicher.",
+   "tag": "contra",
+   "s": "buscemi2006"
+  },
+  {
+   "y": 2013,
+   "t": "19 Studien zu Schlafstörungen",
+   "p": "Kleine, aber anhaltende Verbesserungen.",
+   "tag": "conf",
+   "s": "ferraciolioda2013"
+  },
+  {
+   "y": 2014,
+   "t": "Cochrane-Review Schichtarbeit",
+   "p": "Etwas längerer Tagschlaf, niedrige Evidenzqualität.",
+   "tag": "neu",
+   "s": "liira2014"
+  },
+  {
+   "y": 2015,
+   "t": "Jetlag nach GRADE",
+   "p": "Melatonin verringert wahrscheinlich die Symptome.",
+   "tag": "conf",
+   "s": "tortorolo2015"
+  },
+  {
+   "y": 2019,
+   "t": "Nebenwirkungen in 37 Studien",
+   "p": "Selten und meist leicht, Tagesmüdigkeit am häufigsten.",
+   "tag": "neu",
+   "s": "besag2019"
+  },
+  {
+   "y": 2019,
+   "t": "Kritischer Sicherheitsreview",
+   "p": "Günstiges Profil, Wechselwirkungen möglich.",
+   "tag": "conf",
+   "s": "foley2019"
+  },
+  {
+   "y": 2020,
+   "t": "Umbrella Review Schlaflosigkeit",
+   "p": "Signifikant, klinische Bedeutung umstritten.",
+   "tag": "rel",
+   "s": "low2020"
+  },
+  {
+   "y": 2020,
+   "t": "Oxidativer Stress",
+   "p": "Antioxidative Kapazität steigt, Malondialdehyd sinkt.",
+   "tag": "neu",
+   "s": "ghorbaninejad2020"
+  },
+  {
+   "y": 2022,
+   "t": "Schlafqualität",
+   "p": "PSQI besser, stark heterogen.",
+   "tag": "conf",
+   "s": "fatemeh2022"
+  },
+  {
+   "y": 2022,
+   "t": "Chronische Schlaflosigkeit bei Erwachsenen",
+   "p": "Kein signifikanter Effekt.",
+   "tag": "contra",
+   "s": "choi2022"
+  },
+  {
+   "y": 2022,
+   "t": "Hohe Dosen",
+   "p": "Mehr leichte Nebenwirkungen, keine schweren.",
+   "tag": "neu",
+   "s": "menczelschrire2022"
+  },
+  {
+   "y": 2022,
+   "t": "Langzeitsicherheit und Regulierung",
+   "p": "Langzeitdaten fehlen; in der EU Arzneimittel.",
+   "tag": "rel",
+   "s": "besag2022"
+  },
+  {
+   "y": 2023,
+   "t": "Retard-Melatonin bei Schlaflosigkeit",
+   "p": "Kleine bis mittlere Effekte.",
+   "tag": "conf",
+   "s": "maruani2023"
+  },
+  {
+   "y": 2023,
+   "t": "Profifußballer",
+   "p": "Weniger Schadens- und Entzündungsmarker.",
+   "tag": "neu",
+   "s": "almendrosruiz2023"
+  },
+  {
+   "y": 2024,
+   "t": "Kein ergogenes Hormon",
+   "p": "Kein Effekt auf Ausdauer und Kraft.",
+   "tag": "neu",
+   "s": "drummond2024"
+  },
+  {
+   "y": 2024,
+   "t": "Akute Gabe vor Belastung",
+   "p": "Teils geringere Kraft und Schnellkraft.",
+   "tag": "rel",
+   "s": "faria2024"
+  },
+  {
+   "y": 2024,
+   "t": "Hochtrainierte Sportler",
+   "p": "Bessere Biomarker, Leistung unklar.",
+   "tag": "rel",
+   "s": "celorriosanmiguel2024"
+  },
+  {
+   "y": 2024,
+   "t": "Dosis und Zeitpunkt",
+   "p": "Bis 4 mg, etwa 3 Stunden vor dem Schlafen.",
+   "tag": "neu",
+   "s": "cruzsanabria2024"
+  },
+  {
+   "y": 2026,
+   "t": "Zeitpunkt entscheidet",
+   "p": "Ausdauer besser bei abendlicher Einnahme, weniger Kreatinkinase.",
+   "tag": "contra",
+   "s": "guo2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 483 Einträgen, 364 Übersichtsarbeiten nach Titel geprüft (davon 70 zunächst per Titelregel einer anderen Kategorie zugeordnet), dazu 175 Übersichtsarbeiten aus einer ergänzenden Suche nach Titel gesichtet; 22 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Sportliche Leistung",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Ausdauerleistung",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 19,
+     "p": 266,
+     "s": [
+      "guo2026",
+      "drummond2024"
+     ],
+     "t": "Eine Metaanalyse fand SMD 0,58 bei abendlicher Einnahme, eine andere keinen Effekt (Zeitfahren −0,04). Sehr kleine Studien.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Sportliche Leistung",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Kraft und Schnellkraft",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 19,
+     "p": 266,
+     "s": [
+      "guo2026",
+      "drummond2024",
+      "faria2024"
+     ],
+     "t": "Schnellkraft SMD 0,29 in einer Analyse, Kraft 0,19 nicht signifikant in einer anderen; akut vor der Belastung teils Leistungsabfall.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Schlaf",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Einschlafzeit (Abnahme)",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 19,
+     "p": 1683,
+     "s": [
+      "ferraciolioda2013",
+      "brzezinski2005",
+      "buscemi2005",
+      "low2020",
+      "maruani2023",
+      "choi2022"
+     ],
+     "t": "−4 bis −12 min; als sehr klein eingestuft, da es nur wenige Minuten sind. Bei chronischer Schlaflosigkeit Erwachsener in einer Analyse nicht signifikant.",
+     "v": "schlaf"
+    },
+    {
+     "n": "Gesamtschlafzeit (Zunahme)",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 19,
+     "p": 1683,
+     "s": [
+      "ferraciolioda2013",
+      "brzezinski2005"
+     ],
+     "t": "+8,25 min bzw. +12,8 min; als sehr klein eingestuft.",
+     "v": "schlaf"
+    },
+    {
+     "n": "Schlafqualität",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 19,
+     "p": 1683,
+     "s": [
+      "ferraciolioda2013",
+      "fatemeh2022"
+     ],
+     "t": "SMD 0,22 [0,12; 0,32]; PSQI −1,24 Punkte bei sehr hoher Heterogenität (überwiegend Kranke).",
+     "v": "schlaf"
+    },
+    {
+     "n": "Jetlag-Symptome (Abnahme)",
+     "g": "B",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": 10,
+     "p": null,
+     "s": [
+      "herxheimer2002",
+      "tortorolo2015",
+      "buscemi2006"
+     ],
+     "t": "NNT 2 bei Flügen über fünf oder mehr Zeitzonen; die Einschlafzeit selbst änderte sich bei Schlafeinschränkung nicht.",
+     "v": "jetlag"
+    },
+    {
+     "n": "Tagschlaf nach Nachtschicht (Zunahme)",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 7,
+     "p": 263,
+     "s": [
+      "liira2014"
+     ],
+     "t": "+24 min [9,8; 38,9]; niedrige Evidenzqualität, standardisierte Größe nicht berichtet.",
+     "v": "jetlag"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung nach Belastung",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Kreatinkinase nach Belastung (Abnahme)",
+     "g": "C",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": 19,
+     "p": 266,
+     "s": [
+      "guo2026",
+      "almendrosruiz2023"
+     ],
+     "t": "SMD 0,59 [0,29; 0,89] zugunsten von Melatonin, I² = 0 %; LDH nicht signifikant.",
+     "v": "erholung"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung nach Belastung",
+   "kat": "entzuendung",
+   "items": [
+    {
+     "n": "Antioxidative Kapazität",
+     "g": "C",
+     "d": "auf",
+     "m": 4,
+     "b": "nutzen",
+     "k": 15,
+     "p": null,
+     "s": [
+      "ghorbaninejad2020",
+      "drummond2024"
+     ],
+     "t": "SMD 1,03 [0,24; 1,81], überwiegend außerhalb des Sports; bei Sportlern stieg die Glutathionperoxidase (1,40).",
+     "v": "erholung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Benommenheit, Kopfschmerz, Schwindel",
+     "g": "C",
+     "d": "auf",
+     "m": 3,
+     "b": "schaden",
+     "k": 4,
+     "p": null,
+     "s": [
+      "menczelschrire2022",
+      "besag2019",
+      "foley2019"
+     ],
+     "t": "RR 1,40 [1,15; 1,69] bei Dosen ab 10 mg; Tagesmüdigkeit bei 1,66 % in 37 Studien mit üblichen Dosen.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Schwere Nebenwirkungen",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 4,
+     "p": null,
+     "s": [
+      "menczelschrire2022",
+      "besag2019",
+      "buscemi2006"
+     ],
+     "t": "RR 0,88 [0,52; 1,50]; in 37 Studien keine lebensbedrohlichen Ereignisse. Langzeitdaten fehlen.",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "herxheimer2002": {
+   "short": "Herxheimer & Petrie, 2002",
+   "year": 2002,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "12076414",
+   "apa": "Herxheimer, A. &amp; Petrie, K. J. (2002). Melatonin for the prevention and treatment of jet lag. <em>Cochrane Database of Systematic Reviews</em>(2), CD001520.",
+   "doi": "10.1002/14651858.CD001520"
+  },
+  "brzezinski2005": {
+   "short": "Brzezinski et al., 2005",
+   "year": 2005,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "15649737",
+   "apa": "Brzezinski, A., Vangel, M. G., Wurtman, R. J., Norrie, G., Zhdanova, I., Ben-Shushan, A. &amp; Ford, I. (2005). Effects of exogenous melatonin on sleep: A meta-analysis. <em>Sleep Medicine Reviews, 9</em>(1), 41–50.",
+   "doi": "10.1016/j.smrv.2004.06.004"
+  },
+  "buscemi2005": {
+   "short": "Buscemi et al., 2005",
+   "year": 2005,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "16423108",
+   "apa": "Buscemi, N., Vandermeer, B., Hooton, N., Pandya, R., Tjosvold, L., Hartling, L., Baker, G., Klassen, T. P. &amp; Vohra, S. (2005). The efficacy and safety of exogenous melatonin for primary sleep disorders. A meta-analysis. <em>Journal of General Internal Medicine, 20</em>(12), 1151–1158.",
+   "doi": "10.1111/j.1525-1497.2005.0243.x"
+  },
+  "buscemi2006": {
+   "short": "Buscemi et al., 2006",
+   "year": 2006,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "16473858",
+   "apa": "Buscemi, N., Vandermeer, B., Hooton, N., Pandya, R., Tjosvold, L., Hartling, L., Vohra, S., Klassen, T. P. &amp; Baker, G. (2006). Efficacy and safety of exogenous melatonin for secondary sleep disorders and sleep disorders accompanying sleep restriction: Meta-analysis. <em>BMJ, 332</em>(7538), 385–393.",
+   "doi": "10.1136/bmj.38731.532766.F6"
+  },
+  "ferraciolioda2013": {
+   "short": "Ferracioli-Oda et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23691095",
+   "apa": "Ferracioli-Oda, E., Qawasmi, A. &amp; Bloch, M. H. (2013). Meta-analysis: Melatonin for the treatment of primary sleep disorders. <em>PLOS ONE, 8</em>(5), Artikel e63773.",
+   "doi": "10.1371/journal.pone.0063773"
+  },
+  "liira2014": {
+   "short": "Liira et al., 2014",
+   "year": 2014,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "25113164",
+   "apa": "Liira, J., Verbeek, J. H., Costa, G., Driscoll, T. R., Sallinen, M., Isotalo, L. K. &amp; Ruotsalainen, J. H. (2014). Pharmacological interventions for sleepiness and sleep disturbances caused by shift work. <em>Cochrane Database of Systematic Reviews, 2014</em>(8), CD009776.",
+   "doi": "10.1002/14651858.CD009776.pub2"
+  },
+  "tortorolo2015": {
+   "short": "Tortorolo et al., 2015",
+   "year": 2015,
+   "type": "Zusammenfassung systematischer Reviews mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26731279",
+   "apa": "Tortorolo, F., Farren, F. &amp; Rada, G. (2015). Is melatonin useful for jet lag? <em>Medwave, 15</em>(Suppl. 3), Artikel e6343.",
+   "doi": "10.5867/medwave.2015.6343"
+  },
+  "besag2019": {
+   "short": "Besag et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "31722088",
+   "apa": "Besag, F. M. C., Vasey, M. J., Lao, K. S. J. &amp; Wong, I. C. K. (2019). Adverse events associated with melatonin for the treatment of primary or secondary sleep disorders: A systematic review. <em>CNS Drugs, 33</em>(12), 1167–1186.",
+   "doi": "10.1007/s40263-019-00680-w"
+  },
+  "foley2019": {
+   "short": "Foley & Steel, 2019",
+   "year": 2019,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "30670284",
+   "apa": "Foley, H. M. &amp; Steel, A. E. (2019). Adverse events associated with oral administration of melatonin: A critical systematic review of clinical evidence. <em>Complementary Therapies in Medicine, 42</em>, 65–81.",
+   "doi": "10.1016/j.ctim.2018.11.003"
+  },
+  "low2020": {
+   "short": "Low et al., 2020",
+   "year": 2020,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "31715492",
+   "apa": "Low, T. L., Choo, F. N. &amp; Tan, S. M. (2020). The efficacy of melatonin and melatonin agonists in insomnia – An umbrella review. <em>Journal of Psychiatric Research, 121</em>, 10–23.",
+   "doi": "10.1016/j.jpsychires.2019.10.022"
+  },
+  "ghorbaninejad2020": {
+   "short": "Ghorbaninejad et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33185572",
+   "apa": "Ghorbaninejad, P., Sheikhhossein, F., Djafari, F., Tijani, A. J., Mohammadpour, S. &amp; Shab-Bidar, S. (2020). Effects of melatonin supplementation on oxidative stress: A systematic review and meta-analysis of randomized controlled trials. <em>Hormone Molecular Biology and Clinical Investigation, 41</em>(4).",
+   "doi": "10.1515/hmbci-2020-0030"
+  },
+  "fatemeh2022": {
+   "short": "Fatemeh et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33417003",
+   "apa": "Fatemeh, G., Sajjad, M., Niloufar, R., Neda, S., Leila, S. &amp; Khadijeh, M. (2022). Effect of melatonin supplementation on sleep quality: A systematic review and meta-analysis of randomized controlled trials. <em>Journal of Neurology, 269</em>(1), 205–216.",
+   "doi": "10.1007/s00415-020-10381-w"
+  },
+  "choi2022": {
+   "short": "Choi et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36179487",
+   "apa": "Choi, K., Lee, Y. J., Park, S., Je, N. K. &amp; Suh, H. S. (2022). Efficacy of melatonin for chronic insomnia: Systematic reviews and meta-analyses. <em>Sleep Medicine Reviews, 66</em>, Artikel 101692.",
+   "doi": "10.1016/j.smrv.2022.101692"
+  },
+  "menczelschrire2022": {
+   "short": "Menczel Schrire et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34923676",
+   "apa": "Menczel Schrire, Z., Phillips, C. L., Chapman, J. L., Duffy, S. L., Wong, G., D'Rozario, A. L., Comas, M., Raisin, I., Saini, B., Gordon, C. J., McKinnon, A. C., Naismith, S. L., Marshall, N. S., Grunstein, R. R. &amp; Hoyos, C. M. (2022). Safety of higher doses of melatonin in adults: A systematic review and meta-analysis. <em>Journal of Pineal Research, 72</em>(2), Artikel e12782.",
+   "doi": "10.1111/jpi.12782"
+  },
+  "besag2022": {
+   "short": "Besag & Vasey, 2022",
+   "year": 2022,
+   "type": "Review (Langzeitstudien)",
+   "basis": "Abstract",
+   "pmid": "36562403",
+   "apa": "Besag, F. M. C. &amp; Vasey, M. J. (2022). Adverse events in long-term studies of exogenous melatonin. <em>Expert Opinion on Drug Safety, 21</em>(12), 1469–1481.",
+   "doi": "10.1080/14740338.2022.2160444"
+  },
+  "maruani2023": {
+   "short": "Maruani et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37434463",
+   "apa": "Maruani, J., Reynaud, E., Chambe, J., Palagini, L., Bourgin, P. &amp; Geoffroy, P. A. (2023). Efficacy of melatonin and ramelteon for the acute and long-term management of insomnia disorder in adults: A systematic review and meta-analysis. <em>Journal of Sleep Research, 32</em>(6), Artikel e13939.",
+   "doi": "10.1111/jsr.13939"
+  },
+  "almendrosruiz2023": {
+   "short": "Almendros-Ruiz et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37892543",
+   "apa": "Almendros-Ruiz, A., Lopez-Moro, A., Conde-Pipò, J., Santalla, A., Requena, B. &amp; Mariscal-Arcas, M. (2023). The effects of melatonin supplementation on professional football player performance: A systematic review. <em>Nutrients, 15</em>(20), Artikel 4467.",
+   "doi": "10.3390/nu15204467"
+  },
+  "drummond2024": {
+   "short": "Drummond et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37658244",
+   "apa": "Drummond, F. R., Drummond, L. R., Campos, H. O., Fernandes, J. G. R. P., da Costa Monteiro, M., Lara, H. F. G., de Almeida Mafra, T. C., Lavorato, V. N., Pereira, A. B., Leite, L. H. R., Poletini, M. O. &amp; Coimbra, C. C. (2024). Is melatonin as an ergogenic hormone a myth? A systematic review and meta-analysis. <em>Endocrine, 83</em>(2), 302–321.",
+   "doi": "10.1007/s12020-023-03498-1"
+  },
+  "faria2024": {
+   "short": "Faria et al., 2024",
+   "year": 2024,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "36872593",
+   "apa": "Faria, V. S., Messias, L. H. D., Pejon, T. M. M. &amp; Beck, W. R. (2024). Influence of acute melatonin administration on human physical performance: A systematic review. <em>Sports Health, 16</em>(1), 70–78.",
+   "doi": "10.1177/19417381231155142"
+  },
+  "celorriosanmiguel2024": {
+   "short": "Celorrio San Miguel et al., 2024",
+   "year": 2024,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "38613044",
+   "apa": "Celorrio San Miguel, A. M., Roche, E., Herranz-López, M., Celorrio San Miguel, M., Mielgo-Ayuso, J. &amp; Fernández-Lázaro, D. (2024). Impact of melatonin supplementation on sports performance and circulating biomarkers in highly trained athletes: A systematic review of randomized controlled trials. <em>Nutrients, 16</em>(7), Artikel 1011.",
+   "doi": "10.3390/nu16071011"
+  },
+  "cruzsanabria2024": {
+   "short": "Cruz-Sanabria et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse mit Dosis-Wirkungs-Analyse",
+   "basis": "Abstract",
+   "pmid": "38888087",
+   "apa": "Cruz-Sanabria, F., Bruno, S., Crippa, A., Frumento, P., Scarselli, M., Skene, D. J. &amp; Faraguna, U. (2024). Optimizing the time and dose of melatonin as a sleep-promoting drug: A systematic review of randomized controlled trials and dose-response meta-analysis. <em>Journal of Pineal Research, 76</em>(5), Artikel e12985.",
+   "doi": "10.1111/jpi.12985"
+  },
+  "guo2026": {
+   "short": "Guo et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41769636",
+   "apa": "Guo, J., Zhou, L., Gu, J., Sun, J., Liu, G. &amp; Wei, C. (2026). Timing-dependent effects of melatonin supplementation on exercise performance and exercise-induced muscle damage: A systematic review and meta-analysis. <em>Frontiers in Nutrition, 13</em>, Artikel 1742464.",
+   "doi": "10.3389/fnut.2026.1742464",
+   "flag": "Die Senkung der Kreatinkinase wird im Abstract als positive SMD (0,59) angegeben; hier als Senkung wiedergegeben."
+  }
+ }
+}

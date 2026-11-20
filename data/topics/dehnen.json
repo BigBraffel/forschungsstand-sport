@@ -1,0 +1,1154 @@
+{
+ "id": "dehnen",
+ "title": "Dehnen und Beweglichkeit",
+ "stand": "2026-11-20",
+ "lead": "Wie wird man am wirksamsten beweglicher, schadet Dehnen vor dem Training der Leistung, und schützt es vor Verletzungen oder Muskelkater? Zusammengefasst aus Metaanalysen und einem Expertenkonsens zu statischem, dynamischem und PNF-Dehnen.",
+ "def": {
+  "t": "Dehnen umfasst Übungen, die den Bewegungsumfang (Range of Motion, ROM) eines Gelenks vergrößern sollen. Beim statischen Dehnen wird eine Endposition gehalten, beim dynamischen Dehnen wird das Gelenk kontrolliert durch den Bewegungsumfang geführt, ohne die Endposition zu halten; ballistisches Dehnen nutzt schnellere, federnde Bewegungen. PNF-Dehnen (propriozeptive neuromuskuläre Fazilitation) kombiniert die Dehnung mit einer Muskelanspannung, z. B. als Halten-Entspannen oder Anspannen-Entspannen.",
+  "s": [
+   "warneke2025",
+   "matsuo2025",
+   "cayco2019"
+  ]
+ },
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene und Sportler. Dehnen ist ein wirksames Mittel für mehr Beweglichkeit, aber kein Mittel gegen Muskelkater, kein umfassender Verletzungsschutz und kein Ersatz für Krafttraining.",
+ "rx": [
+  {
+   "label": "Beweglichkeit steigern",
+   "value": "statisch oder PNF, ca. 4 min pro Muskel und Einheit, mind. 10 min pro Woche",
+   "text": "Darüber hinaus nahm der Zugewinn kaum weiter zu; Intensität und Häufigkeit spielten keine messbare Rolle. Wer wenig beweglich ist, profitiert am meisten.",
+   "cite": "Ingram et al. 2025a; Konrad et al. 2024a"
+  },
+  {
+   "label": "Vor Kraft- und Schnellkraftleistung",
+   "value": "statisch unter 60 s pro Muskel, danach dynamisch aufwärmen",
+   "text": "Lange Haltedauern (ab 60 s pro Muskel) senken die Maximalkraft isolierter Muskeln messbar; kurze Dehnungen im Aufwärmen mit anschließenden dynamischen Übungen sind unproblematisch.",
+   "cite": "Kay &amp; Blazevich 2012; Behm et al. 2016; Warneke &amp; Lohmann 2024"
+  },
+  {
+   "label": "Im Krafttraining",
+   "value": "nicht direkt vor dem Krafttraining dehnen",
+   "text": "Dehnen vor den Krafteinheiten schwächte den Kraftzuwachs. Krafttraining über den vollen Bewegungsumfang verbessert die Beweglichkeit selbst etwa so stark wie Dehnen.",
+   "cite": "Thomas et al. 2023; Alizadeh et al. 2023"
+  },
+  {
+   "label": "Muskelkater, Verletzungen",
+   "value": "Dehnen nicht als Schutzmaßnahme einplanen",
+   "text": "Weder Muskelkater noch die Gesamtverletzungsrate wurden in Metaanalysen nennenswert gesenkt. Für Verletzungsvorbeugung sind Kraft- und neuromuskuläre Programme besser belegt.",
+   "cite": "Herbert et al. 2011; Lauersen et al. 2014"
+  },
+  {
+   "label": "Muskelwachstum",
+   "value": "kein Ersatz für Krafttraining",
+   "text": "Übliche Dehnprogramme bewirken kaum Muskelwachstum; kleine Effekte zeigen sich erst bei sehr hohen Dehnvolumina.",
+   "cite": "Warneke et al. 2025; Arntz et al. 2024"
+  }
+ ],
+ "note": "<b>Verweise:</b> Zur Faszienrolle siehe <a href=\"#regeneration\">Regeneration</a>, zum Training in der gedehnten Position siehe <a href=\"#hypertrophie\">Hypertrophie</a>. Aufwärmprogramme und Verletzungsvorbeugung haben eigene Seiten: <a href=\"#aufwaermen\">Aufwärmen</a>, <a href=\"#verletzungspraevention\">Verletzungsprävention</a>.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Dehnen macht beweglicher, langfristig deutlich",
+   "ev": "hoch",
+   "p": "Statisches Dehnen steigerte die Beweglichkeit akut moderat und über Wochen stark; PNF und statisches Dehnen wirkten langfristig stärker als dynamisches Dehnen.",
+   "s": [
+    "ingram2025a",
+    "konrad2024a"
+   ]
+  },
+  {
+   "t": "Wenig reicht: rund 10 Minuten pro Woche",
+   "ev": "moderat",
+   "p": "Über 4 min pro Einheit bzw. 10 min pro Woche hinaus fand sich kein zusätzlicher Nutzen für die Beweglichkeit.",
+   "s": [
+    "ingram2025a",
+    "mendez2026"
+   ]
+  },
+  {
+   "t": "Kraftverlust nur bei langen Haltedauern",
+   "ev": "hoch",
+   "p": "Statisches Dehnen ab etwa 60 s pro Muskel senkt die Maximalkraft isolierter Muskeln; Sprung- und Sprintleistungen litten in neueren Analysen nicht.",
+   "s": [
+    "kay2012",
+    "simic2013",
+    "behm2016",
+    "warneke2024a"
+   ]
+  },
+  {
+   "t": "Krafttraining ist auch Beweglichkeitstraining",
+   "ev": "moderat",
+   "p": "Krafttraining mit Zusatzlast verbesserte die Beweglichkeit ähnlich wie Dehnen.",
+   "s": [
+    "alizadeh2023",
+    "favro2025"
+   ]
+  },
+  {
+   "t": "Kein Schutz vor Muskelkater oder Verletzungen allgemein",
+   "ev": "hoch",
+   "p": "Dehnen senkte Muskelkater nur um wenige Punkte auf einer 100-Punkte-Skala und die Gesamtverletzungsrate nicht signifikant.",
+   "s": [
+    "herbert2011",
+    "thacker2004",
+    "lauersen2014",
+    "warneke2025"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "methoden",
+   "name": "Beweglichkeit: statisch, dynamisch, PNF",
+   "q": "Welche Dehnform verbessert die Beweglichkeit am stärksten?",
+   "ev": "hoch",
+   "key": [
+    "189 Studien (6 654 Erwachsene): statisches Dehnen verbesserte die Beweglichkeit akut moderat (g 0,63 [0,52; 0,75]) und nach mehreren Wochen stark (g 0,96 [0,84; 1,09]); Intensität, Alter, Geschlecht und Trainingsstatus moderierten den Effekt nicht (Ingram et al., 2025a).",
+    "77 Studien: Dehntraining steigerte den Bewegungsumfang langfristig moderat (ES 1,00 [0,84; 1,17]); PNF und statisches Dehnen wirkten stärker als ballistisches bzw. dynamisches Dehnen, Frauen gewannen mehr als Männer (Konrad et al., 2024a).",
+    "Netzwerk-Metaanalyse, 41 RCTs (n = 1 670) zur Sprunggelenksbeweglichkeit: PNF und Faszienrolle lagen insgesamt vorn; nach über einem Monat waren beide der Kontrolle überlegen (SMD 1,04 [0,64; 1,44] bzw. 1,03 [0,53; 1,53]); keine unerwünschten Ereignisse (Park et al., 2026).",
+    "84 Studien bei verkürzter hinterer Oberschenkelmuskulatur: statisches Dehnen verbesserte den Kniestrecktest um 9,03° (Nichtsportler) bzw. 9,00° (Sportler); PNF hatte einen kleinen Vorteil gegenüber statischem Dehnen (3,18°) (Mendez-Rebolledo et al., 2026).",
+    "17 Studien: dynamisches und ballistisches Dehnen steigerten die Beweglichkeit akut nur klein (ES 0,37 [0,19; 0,56]) (Matsuo et al., 2025); Halten-Entspannen und Anspannen-Entspannen wirkten gegenüber Kontrolle groß (SMD 1,02 [0,69; 1,35]), im Vergleich zu statischem Dehnen widersprüchlich (Cayco et al., 2019).",
+    "Statisches Dehntraining und Faszienrollen-Training steigerten den Bewegungsumfang ähnlich; bei Programmen bis 4 Wochen war nur statisches Dehnen wirksam (Konrad et al., 2024b). Akut war Dehnen anderen Aufwärmformen nicht überlegen (38 Studien, ES 0,01) (Warneke et al., 2024a).",
+    "Schon der frühe Review (13 Studien) fand nach regelmäßigem Dehnen einen um 8° [6; 9] größeren Bewegungsumfang (Harvey et al., 2002)."
+   ],
+   "critic": "Der Nutzen für die Beweglichkeit ist über viele Metaanalysen und Jahrzehnte stabil. Die Rangfolge der Methoden ist weniger sicher: PNF schneidet langfristig meist etwas besser ab, aber die Vorteile gegenüber statischem Dehnen sind klein und teils widersprüchlich (Cayco et al., 2019). Die Heterogenität ist hoch (I² 75 % bei Konrad et al., 2024a), die Studienqualität oft niedrig, Programme dauerten im Mittel nur 7,4 Wochen und nie über 6 Monate (Afonso et al., 2024). Wahrscheinlich gilt: Die Methode ist zweitrangig, entscheidend ist regelmäßiges Üben.",
+   "figs": [
+    {
+     "id": "deh-methoden",
+     "title": "Dehnformen und Beweglichkeit",
+     "cap": "Effektstärken mit 95-%-KI gegenüber Kontrolle. Bei Konrad et al. (2024a) ist das Vorzeichen zur einheitlichen Darstellung umgekehrt (im Abstract −1,002 [−1,165; −0,840]).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Statisch, akut",
+       "sub": "Ingram et al., 2025a",
+       "es": 0.63,
+       "lo": 0.52,
+       "hi": 0.75
+      },
+      {
+       "l": "Statisch, langfristig",
+       "sub": "Ingram et al., 2025a",
+       "es": 0.96,
+       "lo": 0.84,
+       "hi": 1.09
+      },
+      {
+       "l": "Alle Dehnformen, langfristig",
+       "sub": "Konrad et al., 2024a",
+       "es": 1.002,
+       "lo": 0.84,
+       "hi": 1.165
+      },
+      {
+       "l": "Dynamisch/ballistisch, akut",
+       "sub": "Matsuo et al., 2025",
+       "es": 0.372,
+       "lo": 0.187,
+       "hi": 0.557
+      },
+      {
+       "l": "PNF (Halten-/Anspannen-Entspannen), akut",
+       "sub": "Cayco et al., 2019",
+       "es": 1.02,
+       "lo": 0.69,
+       "hi": 1.35
+      },
+      {
+       "l": "PNF, über 1 Monat (Sprunggelenk)",
+       "sub": "Park et al., 2026",
+       "es": 1.04,
+       "lo": 0.64,
+       "hi": 1.44
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.6,
+      "ticks": [
+       0,
+       0.4,
+       0.8,
+       1.2,
+       1.6
+      ],
+      "leftLab": "weniger beweglich",
+      "rightLab": "beweglicher"
+     }
+    },
+    {
+     "id": "deh-grad",
+     "title": "Zugewinn an Beweglichkeit in Grad",
+     "cap": "Mittlere Differenz gegenüber keiner Intervention. Kniestrecktest (AKE), passiver Kniestrecktest (PKE) und Beinheben (SLR) bei verkürzter hinterer Oberschenkelmuskulatur (Mendez-Rebolledo et al., 2026); Gelenkbeweglichkeit allgemein mit 95-%-KI (Harvey et al., 2002).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Statisch, AKE",
+       "es": 9.03
+      },
+      {
+       "l": "Statisch, PKE",
+       "es": 8.44
+      },
+      {
+       "l": "Statisch, SLR",
+       "es": 12.11
+      },
+      {
+       "l": "PNF, AKE",
+       "es": 10.1
+      },
+      {
+       "l": "Regelmäßiges Dehnen (2002)",
+       "es": 8,
+       "lo": 6,
+       "hi": 9
+      }
+     ],
+     "opts": {
+      "max": 14,
+      "ticks": [
+       0,
+       4,
+       8,
+       12
+      ],
+      "unit": "°",
+      "xlab": "Zugewinn an Bewegungsumfang",
+      "src": "Mendez-Rebolledo et al., 2026; Harvey et al., 2002"
+     }
+    }
+   ],
+   "s": [
+    "ingram2025a",
+    "konrad2024a",
+    "park2026",
+    "mendez2026",
+    "matsuo2025",
+    "cayco2019",
+    "konrad2024b",
+    "warneke2024b",
+    "harvey2002",
+    "afonso2024"
+   ]
+  },
+  {
+   "id": "dosis",
+   "name": "Dosis: wie lange und wie oft?",
+   "q": "Wie viel Dehnen ist nötig?",
+   "ev": "moderat",
+   "key": [
+    "Der Zugewinn war bei 4 min Dehnen pro Einheit (akut) und 10 min pro Woche (langfristig) ausgeschöpft; Häufigkeit pro Woche und Programmdauer moderierten den Effekt nicht (Ingram et al., 2025a).",
+    "Eine einzelne kurze Einheit (1,5 min) überschritt die kleinste sicher messbare Veränderung (12°) nicht; wiederholtes Dehnen über mindestens 1 Woche mit insgesamt 70 min übertraf sie eher. Die Dosis-Wirkungs-Kurven waren nicht linear (Mendez-Rebolledo et al., 2026).",
+    "Volumen, Intensität und Häufigkeit zeigten keinen signifikanten Einfluss auf den langfristigen Zugewinn (Konrad et al., 2024a); dagegen gingen mehr Wiederholungen und mehr Zeit unter Dehnung pro Einheit mit größeren Beweglichkeitsgewinnen einher (Arntz et al., 2023)."
+   ],
+   "critic": "Die Analysen widersprechen sich nur scheinbar: Ein Mindestmaß an Gesamtzeit ist nötig, darüber flacht der Nutzen ab. Die größte und neueste Analyse (189 Studien; Ingram et al., 2025a) spricht für ein Plateau bei etwa 10 min pro Woche und Muskelgruppe. Die Studien dauerten meist nur wenige Wochen; ob mehr Volumen über Monate weiterhilft, etwa in Sportarten mit extremem Bewegungsumfang, ist kaum untersucht (Afonso et al., 2024).",
+   "figs": [],
+   "s": [
+    "ingram2025a",
+    "mendez2026",
+    "konrad2024a",
+    "arntz2023",
+    "afonso2024"
+   ]
+  },
+  {
+   "id": "mechanismen",
+   "name": "Warum wird man beweglicher?",
+   "q": "Verändert Dehnen den Muskel oder nur die Toleranz?",
+   "ev": "moderat",
+   "key": [
+    "65 Studien (1 542 Erwachsene): akutes und langfristiges statisches Dehnen senkte die Steifigkeit leicht (g 0,42 bzw. 0,37); nur langfristiges Dehnen erhöhte die Dehntoleranz (g 0,74 [0,38; 1,10]); die Faszikellänge änderte sich nicht (Ingram et al., 2025b).",
+    "19 Studien: Dehntraining verlängerte die Faszikel in Ruhe nur trivial (SMD 0,17 [0,01; 0,33]) und während der Dehnung leicht (SMD 0,39 [0,05; 0,74]), nur bei hohen Volumina; die Muskeldicke nahm insgesamt nicht zu, nur bei hohen Dehnintensitäten (Panidi et al., 2023)."
+   ],
+   "critic": "Beide Analysen zeigen: Der Zugewinn beruht vor allem auf höherer Dehntoleranz und geringerer Steifigkeit, kaum auf längeren Muskelfasern. Panidi et al. (2023) finden bei hohen Volumina eine kleine Faszikelverlängerung, Ingram et al. (2025b) mit mehr Studien keine. Wahrscheinlich ist ein struktureller Effekt allenfalls klein und an hohe Dehnvolumina gebunden.",
+   "figs": [
+    {
+     "id": "deh-mech",
+     "title": "Mechanismen des Beweglichkeitszuwachses",
+     "cap": "Effektstärken mit 95-%-KI. Positive Werte = geringere Steifigkeit, höhere Dehntoleranz bzw. längere Faszikel.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Steifigkeit gesenkt, akut",
+       "sub": "Ingram et al., 2025b",
+       "es": 0.42,
+       "lo": 0.21,
+       "hi": 0.63
+      },
+      {
+       "l": "Steifigkeit gesenkt, langfristig",
+       "sub": "Ingram et al., 2025b",
+       "es": 0.37,
+       "lo": 0.18,
+       "hi": 0.56
+      },
+      {
+       "l": "Dehntoleranz, langfristig",
+       "sub": "Ingram et al., 2025b",
+       "es": 0.74,
+       "lo": 0.38,
+       "hi": 1.1
+      },
+      {
+       "l": "Faszikellänge in Ruhe",
+       "sub": "Panidi et al., 2023",
+       "es": 0.17,
+       "lo": 0.01,
+       "hi": 0.33
+      },
+      {
+       "l": "Faszikellänge in Dehnung",
+       "sub": "Panidi et al., 2023",
+       "es": 0.39,
+       "lo": 0.05,
+       "hi": 0.74
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.2,
+      "ticks": [
+       0,
+       0.4,
+       0.8,
+       1.2
+      ]
+     }
+    }
+   ],
+   "s": [
+    "ingram2025b",
+    "panidi2023"
+   ]
+  },
+  {
+   "id": "akut",
+   "name": "Akute Leistungseinbußen nach statischem Dehnen",
+   "q": "Schadet Dehnen vor dem Training der Leistung?",
+   "ev": "hoch",
+   "key": [
+    "106 Studien: statisches Dehnen unter 30 s pro Muskel änderte die Maximalleistung kaum (−1,1 %), 30–45 s ebenfalls nicht signifikant (−1,9 %); deutliche Einbußen traten erst ab 60 s auf (Kay &amp; Blazevich, 2012).",
+    "104 Studien: Kraft sank um 5,4 % [−6,6; −4,2] (SMD −0,10), Leistung um 1,9 % (nicht signifikant), Explosivkraft um 2,0 %; Effekte am kleinsten bei höchstens 45 s Dehndauer und stärker bei isometrischen Tests (Simic et al., 2013).",
+    "Statisches Dehnen senkte die Leistung um 3,7 %, PNF um 4,4 %, dynamisches Dehnen steigerte sie um 1,3 %; ab 60 s pro Muskel −4,6 %, darunter −1,1 %. Mit anschließenden dynamischen Aufwärmübungen war kein klarer Effekt erkennbar (Behm et al., 2016).",
+    "83 Studien (2 012 Teilnehmende) mit Kontrollbedingung: kleiner Kraftverlust (ES −0,21), groß ab 60 s pro Dehnung (ES −0,84); auf sportliche Leistungen insgesamt kein negativer Effekt, für Sprünge sogar ein kleiner positiver (ES 0,15) (Warneke &amp; Lohmann, 2024)."
+   ],
+   "critic": "Der Kraftverlust nach langem statischem Dehnen ist gut belegt, aber vor allem in Labortests isolierter Muskeln. Ältere Reviews leiteten daraus ab, statisches Dehnen vor dem Sport zu meiden. Die neuere Analyse mit kontrollierten Studien (Warneke &amp; Lohmann, 2024) findet für Sprung und Sprint keinen Nachteil; ältere Analysen enthielten viele Studien ohne Kontrollbedingung. Am wahrscheinlichsten: Kurze Dehnungen unter 60 s pro Muskel im Rahmen eines vollständigen Aufwärmens sind unbedenklich, lange Haltedauern direkt vor Maximalkraftleistungen ungünstig.",
+   "figs": [
+    {
+     "id": "deh-dauer",
+     "title": "Leistungsänderung direkt nach dem Dehnen",
+     "cap": "Mittlere prozentuale Leistungsänderung (Behm et al., 2016); kein Konfidenzintervall im Abstract.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Statisch, unter 60 s pro Muskel",
+       "sub": "Behm et al., 2016",
+       "es": -1.1
+      },
+      {
+       "l": "Statisch, ab 60 s pro Muskel",
+       "sub": "Behm et al., 2016",
+       "es": -4.6
+      },
+      {
+       "l": "Statisch, alle Dauern",
+       "sub": "Behm et al., 2016",
+       "es": -3.7
+      },
+      {
+       "l": "PNF",
+       "sub": "Behm et al., 2016",
+       "es": -4.4
+      },
+      {
+       "l": "Dynamisch",
+       "sub": "Behm et al., 2016",
+       "es": 1.3
+      }
+     ],
+     "opts": {
+      "min": -6,
+      "max": 2,
+      "ticks": [
+       -6,
+       -4,
+       -2,
+       0,
+       2
+      ],
+      "unit": "%",
+      "leftLab": "Leistungsabfall",
+      "rightLab": "Leistungsgewinn"
+     }
+    },
+    {
+     "id": "deh-smd",
+     "title": "Statisches Dehnen: standardisierte Effekte",
+     "cap": "SMD bzw. ES; 95-%-KI wo im Abstract angegeben. Negative Werte = Leistungsabfall.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kraft",
+       "sub": "Simic et al., 2013",
+       "es": -0.1,
+       "lo": -0.15,
+       "hi": -0.04
+      },
+      {
+       "l": "Leistung (Power)",
+       "sub": "Simic et al., 2013",
+       "es": -0.04,
+       "lo": -0.16,
+       "hi": 0.08
+      },
+      {
+       "l": "Explosivkraft",
+       "sub": "Simic et al., 2013",
+       "es": -0.03,
+       "lo": -0.07,
+       "hi": 0.01
+      },
+      {
+       "l": "Maximalkraft, alle Dauern",
+       "sub": "Warneke &amp; Lohmann, 2024",
+       "es": -0.21
+      },
+      {
+       "l": "Maximalkraft, ab 60 s pro Dehnung",
+       "sub": "Warneke &amp; Lohmann, 2024",
+       "es": -0.84
+      },
+      {
+       "l": "Sprungleistung",
+       "sub": "Warneke &amp; Lohmann, 2024",
+       "es": 0.15
+      }
+     ],
+     "opts": {
+      "min": -1.0,
+      "max": 0.4,
+      "ticks": [
+       -1,
+       -0.6,
+       -0.2,
+       0.2
+      ]
+     }
+    }
+   ],
+   "s": [
+    "kay2012",
+    "simic2013",
+    "behm2016",
+    "warneke2024a"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Langfristiges Dehnen: Kraft und Muskelwachstum",
+   "q": "Macht regelmäßiges Dehnen stärker oder muskulöser?",
+   "ev": "moderat",
+   "key": [
+    "41 Studien: langfristiges statisches Dehnen steigerte Kraft (SMD 0,21 [0,10; 0,32]) und Schnellkraft (SMD 0,19 [0,12; 0,26]) trivial bis klein, bei Untrainierten deutlicher (SMD 0,58) als bei Freizeitsportlern (SMD 0,16) (Arntz et al., 2023).",
+    "35 Studien: Dehnprogramme steigerten die dynamische Kraft klein (ES 0,33), die isometrische nicht. Dehnen direkt vor dem Krafttraining schwächte den Kraftzuwachs (7 Studien, ES −0,43) (Thomas et al., 2023).",
+    "42 Studien: kleine Effekte auf Maximalkraft (d 0,30) und Muskelwachstum (d 0,20); nur längere Dehndauern, Programme und höhere Häufigkeit erreichten Signifikanz (Warneke et al., 2024b).",
+    "25 Studien: der Effekt auf das Muskelwachstum war unklar und trivial (SMD 0,12; 95-%-Vorhersageintervall −0,23 bis 0,47), bei Trainierten größer (Arntz et al., 2024).",
+    "Expertenkonsens: Dehntraining trägt nicht wesentlich zum Muskelwachstum bei (Warneke et al., 2025)."
+   ],
+   "critic": "Die Metaanalysen stimmen überein: Kraftzuwächse durch Dehnen sind klein und bei Untrainierten am größten. Für Muskelwachstum ist der Effekt höchstens klein und an sehr hohe Dehnvolumina gebunden; der Konsens schätzt ihn als nicht praxisrelevant ein. Für Trainierende ist Krafttraining deutlich zeiteffizienter. Das Training in der gedehnten Position ist ein anderes Thema (siehe <a href=\"#hypertrophie\">Hypertrophie</a>).",
+   "figs": [
+    {
+     "id": "deh-kraft",
+     "title": "Langfristiges Dehnen: Kraft und Muskelwachstum",
+     "cap": "Effektstärken; 95-%-KI wo im Abstract angegeben. Bei Arntz et al. (2024) ist das Intervall ein 95-%-Vorhersageintervall.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kraft",
+       "sub": "Arntz et al., 2023",
+       "es": 0.21,
+       "lo": 0.1,
+       "hi": 0.32
+      },
+      {
+       "l": "Schnellkraft",
+       "sub": "Arntz et al., 2023",
+       "es": 0.19,
+       "lo": 0.12,
+       "hi": 0.26
+      },
+      {
+       "l": "Dynamische Kraft",
+       "sub": "Thomas et al., 2023",
+       "es": 0.33
+      },
+      {
+       "l": "Dehnen vor dem Krafttraining",
+       "sub": "Thomas et al., 2023",
+       "es": -0.43
+      },
+      {
+       "l": "Maximalkraft",
+       "sub": "Warneke et al., 2024b",
+       "es": 0.3
+      },
+      {
+       "l": "Muskelwachstum",
+       "sub": "Warneke et al., 2024b",
+       "es": 0.2
+      },
+      {
+       "l": "Muskelwachstum",
+       "sub": "Arntz et al., 2024",
+       "es": 0.118,
+       "lo": -0.233,
+       "hi": 0.469
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.8,
+      "ticks": [
+       -0.4,
+       0,
+       0.4,
+       0.8
+      ],
+      "leftLab": "Nachteil",
+      "rightLab": "Vorteil"
+     }
+    }
+   ],
+   "s": [
+    "arntz2023",
+    "thomas2023",
+    "warneke2024c",
+    "arntz2024",
+    "warneke2025"
+   ]
+  },
+  {
+   "id": "krafttraining",
+   "name": "Krafttraining als Beweglichkeitstraining",
+   "q": "Braucht man zusätzlich Dehnen, wenn man Krafttraining macht?",
+   "ev": "moderat",
+   "key": [
+    "55 Studien: Krafttraining steigerte den Bewegungsumfang (ES 0,73), außer bei reinem Körpergewichtstraining. Es war Dehnen ebenbürtig (ES 0,08), und Dehnen zusätzlich zum Krafttraining brachte keinen Vorteil gegenüber Dehnen allein (Alizadeh et al., 2023).",
+    "36 Studien (1 469 Teilnehmende): Krafttraining verbesserte die Beweglichkeit (g 0,63 [0,48; 0,79]), stärker bei hoher Intensität; keine Studie mit niedrigem Verzerrungsrisiko (Favro et al., 2025)."
+   ],
+   "critic": "Zwei unabhängige Analysen kommen zum gleichen Ergebnis. Einschränkend: hohe Heterogenität und hohes Verzerrungsrisiko (Favro et al., 2025). Wer vor allem allgemeine Beweglichkeit erhalten will, erreicht das wahrscheinlich auch durch Krafttraining über den vollen Bewegungsumfang; für extreme Beweglichkeit (z. B. Turnen, Kampfsport) ist gezieltes Dehnen vermutlich weiterhin sinnvoll.",
+   "figs": [
+    {
+     "id": "deh-kt",
+     "title": "Krafttraining und Beweglichkeit",
+     "cap": "Effektstärken; 95-%-KI wo im Abstract angegeben.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Krafttraining vs. Kontrolle",
+       "sub": "Alizadeh et al., 2023",
+       "es": 0.73
+      },
+      {
+       "l": "Krafttraining vs. Dehnen",
+       "sub": "Alizadeh et al., 2023",
+       "es": 0.08
+      },
+      {
+       "l": "Krafttraining vs. Kontrolle",
+       "sub": "Favro et al., 2025",
+       "es": 0.6325,
+       "lo": 0.4762,
+       "hi": 0.7888
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.0,
+      "ticks": [
+       0,
+       0.25,
+       0.5,
+       0.75,
+       1.0
+      ]
+     }
+    }
+   ],
+   "s": [
+    "alizadeh2023",
+    "favro2025"
+   ]
+  },
+  {
+   "id": "verletzung",
+   "name": "Verletzungen und Muskelkater",
+   "q": "Schützt Dehnen vor Verletzungen oder Muskelkater?",
+   "ev": "hoch",
+   "key": [
+    "Cochrane-Review, 12 Studien: Dehnen vor dem Training senkte den Muskelkater am Folgetag um 0,52 Punkte, nach dem Training um 1,04 Punkte auf einer 100-Punkte-Skala; in einer großen Feldstudie (2 377 Teilnehmende) um 3,80 Punkte, statistisch signifikant, aber sehr klein (Herbert et al., 2011).",
+    "Bereits 2002: kein relevanter Effekt auf Muskelkater (0,9 mm auf 100 mm) und Verletzungen (HR 0,95 [0,78; 1,16]; 2 Studien mit Rekruten) (Herbert &amp; Gabriel, 2002).",
+    "Dehnen war nicht mit weniger Verletzungen insgesamt verbunden (OR 0,93 [0,78; 1,11]) (Thacker et al., 2004).",
+    "25 Studien (26 610 Teilnehmende): Dehnprogramme senkten das Verletzungsrisiko nicht (RR 0,96 [0,85; 1,10]), Krafttraining dagegen deutlich (Lauersen et al., 2014).",
+    "Statisches Dehnen senkte die Gesamtverletzungsrate nicht; vorläufige Hinweise auf weniger Muskel-Sehnen-Verletzungen (Small et al., 2008). Auch Behm et al. (2016) fanden keinen klaren Effekt auf Gesamt- oder Überlastungsverletzungen.",
+    "Expertenkonsens: Dehnen ist keine umfassende Verletzungsprävention und verbessert die Erholung nach Belastung akut nicht (Warneke et al., 2025)."
+   ],
+   "critic": "Die Befunde sind über mehr als 20 Jahre konsistent: kein relevanter Schutz vor Muskelkater oder Verletzungen insgesamt. Offen bleibt, ob Dehnen spezielle Muskelzerrungen reduziert (Small et al., 2008; Behm et al., 2016); diese Hinweise stammen aus wenigen Studien. Die großen Studien wurden oft mit Rekruten durchgeführt, Daten zu dynamischem Dehnen fehlen. Für Verletzungsvorbeugung sind Kraft- und neuromuskuläre Programme besser belegt (siehe <a href=\"#verletzungspraevention\">Verletzungsprävention</a>).",
+   "figs": [
+    {
+     "id": "deh-verl",
+     "title": "Dehnen und Verletzungsrisiko",
+     "cap": "Verhältnismaße mit 95-%-KI; 1 = kein Unterschied.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Verletzungen, Rekruten (HR)",
+       "sub": "Herbert &amp; Gabriel, 2002",
+       "es": 0.95,
+       "lo": 0.78,
+       "hi": 1.16
+      },
+      {
+       "l": "Verletzungen gesamt (OR)",
+       "sub": "Thacker et al., 2004",
+       "es": 0.93,
+       "lo": 0.78,
+       "hi": 1.11
+      },
+      {
+       "l": "Sportverletzungen (RR)",
+       "sub": "Lauersen et al., 2014",
+       "es": 0.963,
+       "lo": 0.846,
+       "hi": 1.095
+      }
+     ],
+     "opts": {
+      "min": 0.6,
+      "max": 1.3,
+      "ticks": [
+       0.6,
+       0.8,
+       1.0,
+       1.2
+      ],
+      "ref": 1,
+      "leftLab": "weniger Verletzungen",
+      "rightLab": "mehr Verletzungen"
+     }
+    },
+    {
+     "id": "deh-doms",
+     "title": "Dehnen und Muskelkater",
+     "cap": "Mittlere Differenz auf einer 100-Punkte-Skala mit 95-%-KI (Herbert et al., 2011). Negative Werte = weniger Muskelkater.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Dehnen vorher, Tag 1",
+       "sub": "Herbert et al., 2011",
+       "es": -0.52,
+       "lo": -11.3,
+       "hi": 10.26
+      },
+      {
+       "l": "Dehnen nachher, Tag 1",
+       "sub": "Herbert et al., 2011",
+       "es": -1.04,
+       "lo": -6.88,
+       "hi": 4.79
+      },
+      {
+       "l": "Vorher und nachher, Spitzenwert (große Studie)",
+       "sub": "Herbert et al., 2011",
+       "es": -3.8,
+       "lo": -5.17,
+       "hi": -2.43
+      }
+     ],
+     "opts": {
+      "min": -12,
+      "max": 12,
+      "ticks": [
+       -10,
+       -5,
+       0,
+       5,
+       10
+      ],
+      "unit": "Punkte"
+     }
+    }
+   ],
+   "s": [
+    "herbert2011",
+    "herbert2002",
+    "thacker2004",
+    "lauersen2014",
+    "small2008",
+    "behm2016",
+    "warneke2025"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2002,
+   "t": "Regelmäßiges Dehnen macht beweglicher",
+   "p": "Rund 8° mehr Bewegungsumfang in Studien moderater Qualität.",
+   "tag": "neu",
+   "s": "harvey2002"
+  },
+  {
+   "y": 2002,
+   "t": "Kein Schutz vor Muskelkater und Verletzungen",
+   "p": "Erste Metaanalyse findet keine relevanten Effekte.",
+   "tag": "neu",
+   "s": "herbert2002"
+  },
+  {
+   "y": 2004,
+   "t": "Verletzungsrisiko unverändert",
+   "p": "Dehnen nicht mit weniger Verletzungen verbunden.",
+   "tag": "conf",
+   "s": "thacker2004"
+  },
+  {
+   "y": 2008,
+   "t": "Hinweis auf weniger Muskelverletzungen",
+   "p": "Gesamtrate unverändert, möglicherweise weniger Muskel-Sehnen-Verletzungen.",
+   "tag": "conf",
+   "s": "small2008"
+  },
+  {
+   "y": 2011,
+   "t": "Cochrane: Muskelkater kaum beeinflusst",
+   "p": "Nur wenige Punkte auf einer 100-Punkte-Skala.",
+   "tag": "conf",
+   "s": "herbert2011"
+  },
+  {
+   "y": 2012,
+   "t": "Kraftverlust erst ab 60 s",
+   "p": "Kurze Dehnungen ohne relevanten Leistungsverlust.",
+   "tag": "neu",
+   "s": "kay2012"
+  },
+  {
+   "y": 2013,
+   "t": "Statisches Dehnen allein als Aufwärmen meiden",
+   "p": "Kleiner Kraftverlust, abhängig von der Dehndauer.",
+   "tag": "conf",
+   "s": "simic2013"
+  },
+  {
+   "y": 2014,
+   "t": "Krafttraining statt Dehnen zur Vorbeugung",
+   "p": "Dehnen ohne Effekt, Krafttraining senkt Verletzungen deutlich.",
+   "tag": "conf",
+   "s": "lauersen2014"
+  },
+  {
+   "y": 2016,
+   "t": "Dehnen im vollständigen Aufwärmen unbedenklich",
+   "p": "Mit anschließenden dynamischen Übungen kein klarer Leistungsnachteil.",
+   "tag": "rel",
+   "s": "behm2016"
+  },
+  {
+   "y": 2019,
+   "t": "PNF wirkt akut stark",
+   "p": "Halten-Entspannen und Anspannen-Entspannen gegenüber Kontrolle wirksam.",
+   "tag": "neu",
+   "s": "cayco2019"
+  },
+  {
+   "y": 2023,
+   "t": "Dehnen steigert Kraft leicht",
+   "p": "Kleine Kraftzuwächse, vor allem bei Untrainierten.",
+   "tag": "neu",
+   "s": "arntz2023"
+  },
+  {
+   "y": 2023,
+   "t": "Dehnen vor dem Krafttraining bremst den Kraftzuwachs",
+   "p": "Kleiner positiver Effekt allein, negativ direkt vor dem Training.",
+   "tag": "neu",
+   "s": "thomas2023"
+  },
+  {
+   "y": 2023,
+   "t": "Faszikel kaum länger",
+   "p": "Nur trivial längere Faszikel, nur bei hohen Volumina.",
+   "tag": "neu",
+   "s": "panidi2023"
+  },
+  {
+   "y": 2023,
+   "t": "Krafttraining verbessert Beweglichkeit",
+   "p": "Ebenso wirksam wie Dehnen.",
+   "tag": "neu",
+   "s": "alizadeh2023"
+  },
+  {
+   "y": 2024,
+   "t": "PNF und statisch langfristig am wirksamsten",
+   "p": "77 Studien; Volumen ohne messbaren Einfluss.",
+   "tag": "conf",
+   "s": "konrad2024a"
+  },
+  {
+   "y": 2024,
+   "t": "Dehnen und Faszienrolle gleichwertig",
+   "p": "Bei kurzen Programmen nur Dehnen wirksam.",
+   "tag": "neu",
+   "s": "konrad2024b"
+  },
+  {
+   "y": 2024,
+   "t": "Leistungsverlust neu bewertet",
+   "p": "Kraftverlust bestätigt, aber kein Nachteil für Sprung und Sprint.",
+   "tag": "rel",
+   "s": "warneke2024a"
+  },
+  {
+   "y": 2024,
+   "t": "Dehnen akut nicht besser als anderes Aufwärmen",
+   "p": "Gleicher Beweglichkeitsgewinn durch andere Aktivitäten.",
+   "tag": "rel",
+   "s": "warneke2024b"
+  },
+  {
+   "y": 2024,
+   "t": "Kleines Muskelwachstum nur bei hoher Dosis",
+   "p": "Kleine Effekte auf Kraft und Muskelmasse.",
+   "tag": "neu",
+   "s": "warneke2024c"
+  },
+  {
+   "y": 2024,
+   "t": "Muskelwachstum unklar",
+   "p": "Trivialer Effekt, bei Trainierten etwas größer.",
+   "tag": "contra",
+   "s": "arntz2024"
+  },
+  {
+   "y": 2024,
+   "t": "Forschungslücken",
+   "p": "300 Studien, meist akut, kaum Spitzensportler.",
+   "tag": "neu",
+   "s": "afonso2024"
+  },
+  {
+   "y": 2025,
+   "t": "Dosis: 10 Minuten pro Woche",
+   "p": "Größte Analyse, 189 Studien; Plateau bei 4 min pro Einheit.",
+   "tag": "neu",
+   "s": "ingram2025a"
+  },
+  {
+   "y": 2025,
+   "t": "Toleranz statt Muskelverlängerung",
+   "p": "Höhere Dehntoleranz, geringere Steifigkeit, keine längeren Faszikel.",
+   "tag": "neu",
+   "s": "ingram2025b"
+  },
+  {
+   "y": 2025,
+   "t": "Dynamisches Dehnen akut klein wirksam",
+   "p": "Kleiner, aber stabiler Beweglichkeitsgewinn.",
+   "tag": "neu",
+   "s": "matsuo2025"
+  },
+  {
+   "y": 2025,
+   "t": "Krafttraining und Beweglichkeit bestätigt",
+   "p": "Größerer Effekt bei hoher Intensität.",
+   "tag": "conf",
+   "s": "favro2025"
+  },
+  {
+   "y": 2025,
+   "t": "Expertenkonsens zum Dehnen",
+   "p": "Wirksam für Beweglichkeit, nicht für Muskelwachstum, Verletzungsschutz oder Erholung.",
+   "tag": "conf",
+   "s": "warneke2025"
+  },
+  {
+   "y": 2026,
+   "t": "Netzwerkvergleich Sprunggelenk",
+   "p": "PNF und Faszienrolle vorn, keine Nebenwirkungen.",
+   "tag": "neu",
+   "s": "park2026"
+  },
+  {
+   "y": 2026,
+   "t": "Dosis-Wirkung bei verkürzten Oberschenkelmuskeln",
+   "p": "Eine kurze Einheit reicht nicht, wiederholtes Dehnen über mindestens 1 Woche nötig.",
+   "tag": "conf",
+   "s": "mendez2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 2 746 Einträgen, 312 Übersichtsarbeiten nach Titel geprüft, 28 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "warneke2025": {
+   "short": "Warneke et al., 2025",
+   "year": 2025,
+   "type": "Konsenspapier (Delphi)",
+   "basis": "Abstract",
+   "pmid": "40513717",
+   "apa": "Warneke, K., Thomas, E., Blazevich, A. J., Afonso, J., Behm, D. G., Marchetti, P. H., Trajano, G. S., Nakamura, M., Ayala, F., Longo, S., Babault, N., Freitas, S. R., Costa, P. B., Konrad, A., Nordez, A., Nelson, A., Zech, A., Kay, A. D., Donti, O. &amp; Wilke, J. (2025). Practical recommendations on stretching exercise: A delphi consensus statement of international research experts. <em>Journal of Sport and Health Science, 14</em>, Artikel 101067.",
+   "doi": "10.1016/j.jshs.2025.101067"
+  },
+  "ingram2025a": {
+   "short": "Ingram et al., 2025a",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39614059",
+   "apa": "Ingram, L. A., Tomkinson, G. R., d'Unienville, N. M. A., Gower, B., Gleadhill, S., Boyle, T. &amp; Bennett, H. (2025). Optimising the dose of static stretching to improve flexibility: A systematic review, meta-analysis and multivariate meta-regression. <em>Sports Medicine, 55</em>(3), 597–617.",
+   "doi": "10.1007/s40279-024-02143-9"
+  },
+  "ingram2025b": {
+   "short": "Ingram et al., 2025b",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40180774",
+   "apa": "Ingram, L. A., Tomkinson, G. R., d'Unienville, N. M. A., Gower, B., Gleadhill, S., Boyle, T. &amp; Bennett, H. (2025). Mechanisms underlying range of motion improvements following acute and chronic static stretching: A systematic review, meta-analysis and multivariate meta-regression. <em>Sports Medicine, 55</em>(6), 1449–1466.",
+   "doi": "10.1007/s40279-025-02204-7"
+  },
+  "konrad2024a": {
+   "short": "Konrad et al., 2024a",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37301370",
+   "apa": "Konrad, A., Alizadeh, S., Daneshjoo, A., Anvar, S. H., Graham, A., Zahiri, A., Goudini, R., Edwards, C., Scharf, C. &amp; Behm, D. G. (2024). Chronic effects of stretching on range of motion with consideration of potential moderating variables: A systematic review with meta-analysis. <em>Journal of Sport and Health Science, 13</em>(2), 186–194.",
+   "doi": "10.1016/j.jshs.2023.06.002"
+  },
+  "konrad2024b": {
+   "short": "Konrad et al., 2024b",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38760635",
+   "apa": "Konrad, A., Alizadeh, S., Anvar, S. H., Fischer, J., Manieu, J. &amp; Behm, D. G. (2024). Static stretch training versus foam rolling training effects on range of motion: A systematic review and meta-analysis. <em>Sports Medicine, 54</em>(9), 2311–2326.",
+   "doi": "10.1007/s40279-024-02041-0"
+  },
+  "mendez2026": {
+   "short": "Mendez-Rebolledo et al., 2026",
+   "year": 2026,
+   "type": "Dosis-Wirkungs-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42551249",
+   "apa": "Mendez-Rebolledo, G., Salazar-Méndez, J., Araya-Quintanilla, F., Guzmán-Muñoz, E., Alarcón-Rivera, M., Torreblanca-Vargas, S., Gutiérrez Espinoza, H. J. &amp; Suso-Martí, L. (2026). Optimal stretching dose for improving range of motion in non-athletes and athletes with hamstring shortening: A dose-response meta-analysis. <em>Annals of Physical and Rehabilitation Medicine, 69</em>(7), Artikel 102153.",
+   "doi": "10.1016/j.rehab.2026.102153"
+  },
+  "park2026": {
+   "short": "Park et al., 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42134336",
+   "apa": "Park, J. M., Lee, K. W., Yoon, S. Y., Kim, Y. W. &amp; Lee, S. C. (2026). Flexibility-enhancing interventions for ankle range of motion: A network meta-analysis. <em>International Journal of Sports Medicine, 47</em>(11), 843–853.",
+   "doi": "10.1055/a-2876-9237"
+  },
+  "matsuo2025": {
+   "short": "Matsuo et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40469856",
+   "apa": "Matsuo, S., Takeuchi, K., Nakamura, M., Fukaya, T., Oba, K., Nakao, G. &amp; Mizuno, T. (2025). Acute effects of dynamic and ballistic stretching on flexibility: A systematic review and meta-analysis. <em>Journal of Sports Science &amp; Medicine, 24</em>(2), 463–474.",
+   "doi": "10.52082/jssm.2025.463"
+  },
+  "cayco2019": {
+   "short": "Cayco et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30423500",
+   "apa": "Cayco, C. S., Labro, A. V. &amp; Gorgon, E. J. R. (2019). Hold-relax and contract-relax stretching for hamstrings flexibility: A systematic review with meta-analysis. <em>Physical Therapy in Sport, 35</em>, 42–55.",
+   "doi": "10.1016/j.ptsp.2018.11.001"
+  },
+  "harvey2002": {
+   "short": "Harvey et al., 2002",
+   "year": 2002,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "11992980",
+   "apa": "Harvey, L., Herbert, R. &amp; Crosbie, J. (2002). Does stretching induce lasting increases in joint ROM? A systematic review. <em>Physiotherapy Research International, 7</em>(1), 1–13.",
+   "doi": "10.1002/pri.236"
+  },
+  "behm2016": {
+   "short": "Behm et al., 2016",
+   "year": 2016,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "26642915",
+   "apa": "Behm, D. G., Blazevich, A. J., Kay, A. D. &amp; McHugh, M. (2016). Acute effects of muscle stretching on physical performance, range of motion, and injury incidence in healthy active individuals: A systematic review. <em>Applied Physiology, Nutrition, and Metabolism, 41</em>(1), 1–11.",
+   "doi": "10.1139/apnm-2015-0235"
+  },
+  "kay2012": {
+   "short": "Kay & Blazevich, 2012",
+   "year": 2012,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "21659901",
+   "apa": "Kay, A. D. &amp; Blazevich, A. J. (2012). Effect of acute static stretch on maximal muscle performance: A systematic review. <em>Medicine &amp; Science in Sports &amp; Exercise, 44</em>(1), 154–164.",
+   "doi": "10.1249/MSS.0b013e318225cb27"
+  },
+  "simic2013": {
+   "short": "Simic et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22316148",
+   "apa": "Simic, L., Sarabon, N. &amp; Markovic, G. (2013). Does pre-exercise static stretching inhibit maximal muscular performance? A meta-analytical review. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 23</em>(2), 131–148.",
+   "doi": "10.1111/j.1600-0838.2012.01444.x"
+  },
+  "warneke2024a": {
+   "short": "Warneke & Lohmann, 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38735533",
+   "apa": "Warneke, K. &amp; Lohmann, L. H. (2024). Revisiting the stretch-induced force deficit: A systematic review with multilevel meta-analysis of acute effects. <em>Journal of Sport and Health Science, 13</em>(6), 805–819.",
+   "doi": "10.1016/j.jshs.2024.05.002"
+  },
+  "warneke2024b": {
+   "short": "Warneke et al., 2024a",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38244921",
+   "apa": "Warneke, K., Plöschberger, G., Lohmann, L. H., Lichtenstein, E., Jochum, D., Siegel, S. D., Zech, A. &amp; Behm, D. G. (2024). Foam rolling and stretching do not provide superior acute flexibility and stiffness improvements compared to any other warm-up intervention: A systematic review with meta-analysis. <em>Journal of Sport and Health Science, 13</em>(4), 509–520.",
+   "doi": "10.1016/j.jshs.2024.01.006"
+  },
+  "arntz2023": {
+   "short": "Arntz et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36719536",
+   "apa": "Arntz, F., Markov, A., Behm, D. G., Behrens, M., Negra, Y., Nakamura, M., Moran, J. &amp; Chaabene, H. (2023). Chronic effects of static stretching exercises on muscle strength and power in healthy individuals across the lifespan: A systematic review with multi-level meta-analysis. <em>Sports Medicine, 53</em>(3), 723–745.",
+   "doi": "10.1007/s40279-022-01806-9"
+  },
+  "thomas2023": {
+   "short": "Thomas et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36525533",
+   "apa": "Thomas, E., Ficarra, S., Nunes, J. P., Paoli, A., Bellafiore, M., Palma, A. &amp; Bianco, A. (2023). Does stretching training influence muscular strength? A systematic review with meta-analysis and meta-regression. <em>Journal of Strength and Conditioning Research, 37</em>(5), 1145–1156.",
+   "doi": "10.1519/JSC.0000000000004400"
+  },
+  "warneke2024c": {
+   "short": "Warneke et al., 2024b",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38637473",
+   "apa": "Warneke, K., Lohmann, L. H., Behm, D. G., Wirth, K., Keiner, M., Schiemann, S. &amp; Wilke, J. (2024). Effects of chronic static stretching on maximal strength and muscle hypertrophy: A systematic review and meta-analysis with meta-regression. <em>Sports Medicine – Open, 10</em>(1), 45.",
+   "doi": "10.1186/s40798-024-00706-8"
+  },
+  "arntz2024": {
+   "short": "Arntz et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39340744",
+   "apa": "Arntz, F., Markov, A., Schoenfeld, B. J., Behrens, M., Behm, D. G., Prieske, O., Negra, Y. &amp; Chaabene, H. (2024). Chronic effects of static stretching exercises on skeletal muscle hypertrophy in healthy individuals: A systematic review and multilevel meta-analysis. <em>Sports Medicine – Open, 10</em>(1), Artikel 106.",
+   "doi": "10.1186/s40798-024-00772-y"
+  },
+  "panidi2023": {
+   "short": "Panidi et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37318696",
+   "apa": "Panidi, I., Donti, O., Konrad, A., Dinas, P. C., Terzis, G., Mouratidis, A., Gaspari, V., Donti, A. &amp; Bogdanis, G. C. (2023). Muscle architecture adaptations to static stretching training: A systematic review with meta-analysis. <em>Sports Medicine – Open, 9</em>(1), 47.",
+   "doi": "10.1186/s40798-023-00591-7"
+  },
+  "alizadeh2023": {
+   "short": "Alizadeh et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36622555",
+   "apa": "Alizadeh, S., Daneshjoo, A., Zahiri, A., Anvar, S. H., Goudini, R., Hicks, J. P., Konrad, A. &amp; Behm, D. G. (2023). Resistance training induces improvements in range of motion: A systematic review and meta-analysis. <em>Sports Medicine, 53</em>(3), 707–722.",
+   "doi": "10.1007/s40279-022-01804-x"
+  },
+  "favro2025": {
+   "short": "Favro et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39787531",
+   "apa": "Favro, F., Roma, E., Gobbo, S., Bullo, V., Di Blasio, A., Cugusi, L. &amp; Bergamin, M. (2025). The influence of resistance training on joint flexibility in healthy adults: A systematic review, meta-analysis, and meta-regression. <em>Journal of Strength and Conditioning Research, 39</em>(3), 386–397.",
+   "doi": "10.1519/JSC.0000000000005000"
+  },
+  "herbert2011": {
+   "short": "Herbert et al., 2011",
+   "year": 2011,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "21735398",
+   "apa": "Herbert, R. D., de Noronha, M. &amp; Kamper, S. J. (2011). Stretching to prevent or reduce muscle soreness after exercise. <em>Cochrane Database of Systematic Reviews, None</em>(7), CD004577.",
+   "doi": "10.1002/14651858.CD004577.pub3"
+  },
+  "herbert2002": {
+   "short": "Herbert & Gabriel, 2002",
+   "year": 2002,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "12202327",
+   "apa": "Herbert, R. D. &amp; Gabriel, M. (2002). Effects of stretching before and after exercising on muscle soreness and risk of injury: Systematic review. <em>BMJ, 325</em>(7362), Artikel 468.",
+   "doi": "10.1136/bmj.325.7362.468"
+  },
+  "thacker2004": {
+   "short": "Thacker et al., 2004",
+   "year": 2004,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "15076777",
+   "apa": "Thacker, S. B., Gilchrist, J., Stroup, D. F. &amp; Kimsey, C. D. (2004). The impact of stretching on sports injury risk: A systematic review of the literature. <em>Medicine &amp; Science in Sports &amp; Exercise, 36</em>(3), 371–378.",
+   "doi": "10.1249/01.mss.0000117134.83018.f7"
+  },
+  "lauersen2014": {
+   "short": "Lauersen et al., 2014",
+   "year": 2014,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24100287",
+   "apa": "Lauersen, J. B., Bertelsen, D. M. &amp; Andersen, L. B. (2014). The effectiveness of exercise interventions to prevent sports injuries: A systematic review and meta-analysis of randomised controlled trials. <em>British Journal of Sports Medicine, 48</em>(11), 871–877.",
+   "doi": "10.1136/bjsports-2013-092538"
+  },
+  "small2008": {
+   "short": "Small et al., 2008",
+   "year": 2008,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "18785063",
+   "apa": "Small, K., Mc Naughton, L. &amp; Matthews, M. (2008). A systematic review into the efficacy of static stretching as part of a warm-up for the prevention of exercise-related injury. <em>Research in Sports Medicine, 16</em>(3), 213–231.",
+   "doi": "10.1080/15438620802310784"
+  },
+  "afonso2024": {
+   "short": "Afonso et al., 2024",
+   "year": 2024,
+   "type": "Scoping Review",
+   "basis": "Abstract",
+   "pmid": "38457105",
+   "apa": "Afonso, J., Andrade, R., Rocha-Rodrigues, S., Nakamura, F. Y., Sarmento, H., Freitas, S. R., Silva, A. F., Laporta, L., Abarghoueinejad, M., Akyildiz, Z., Chen, R., Pizarro, A., Ramirez-Campillo, R. &amp; Clemente, F. M. (2024). What we do not know about stretching in healthy athletes: A scoping review with evidence gap map from 300 trials. <em>Sports Medicine, 54</em>(6), 1517–1551.",
+   "doi": "10.1007/s40279-024-02002-7"
+  }
+ }
+}

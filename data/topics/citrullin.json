@@ -1,0 +1,1104 @@
+{
+ "id": "citrullin",
+ "title": "Citrullin",
+ "stand": "2026-11-20",
+ "lead": "Verbessert Citrullin die Kraftausdauer, die Ausdauerleistung oder die Erholung, wirkt es auf Blutdruck und Gefäße, und wie schneidet es im Vergleich zu Arginin ab? Zusammengefasst aus Metaanalysen und systematischen Reviews.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Citrullin wird im Körper zu Arginin umgebaut und dient der Stickstoffmonoxid-Bildung. Die Leistungseffekte sind klein und unsicher.",
+ "rx": [
+  {
+   "label": "Kraftausdauer",
+   "value": "6–8 g Citrullinmalat 40–60 Minuten vorher, optional",
+   "text": "Bei Serien bis zum Muskelversagen waren im Mittel etwa 3 Wiederholungen mehr möglich (6,4 %); der Effekt ist klein, für Maximalkraft fehlt er.",
+   "cite": "Vårvik et al. 2021; Aguiar &amp; Casonatto 2022"
+  },
+  {
+   "label": "Ausdauer",
+   "value": "kein Grund zur Einnahme",
+   "text": "In mehreren Metaanalysen kein signifikanter Effekt auf Ausdauerleistung. Für Ausdauersport ist <a href=\"#nitrat\">Nitrat</a> besser belegt.",
+   "cite": "Viribay et al. 2022; Harnden et al. 2023"
+  },
+  {
+   "label": "Blutdruck und Gefäße",
+   "value": "mehrere Gramm L-Citrullin täglich über Wochen",
+   "text": "Bei Erwachsenen mittleren und höheren Alters sank der systolische Blutdruck um etwa 4 mmHg, und die gefäßabhängige Erweiterung verbesserte sich. Das ersetzt keine Behandlung bei Bluthochdruck.",
+   "cite": "Luo et al. 2025; Smeets et al. 2022"
+  },
+  {
+   "label": "Produktwahl",
+   "value": "auf deklariertes Verhältnis achten",
+   "text": "Bei Citrullinmalat entsprachen die Mengenverhältnisse in Analysen teils nicht den Angaben; ein direkter Vergleich von L-Citrullin und Citrullinmalat fehlt.",
+   "cite": "Gough et al. 2021"
+  },
+  {
+   "label": "Arginin",
+   "value": "für Leistung nicht empfohlen",
+   "text": "Arginin senkt den Blutdruck ähnlich, für die Leistung ist die Evidenz schwach und methodisch kritisiert; zudem Magen-Darm-Beschwerden.",
+   "cite": "Shiraseb et al. 2022; Brooks et al. 2016; Trexler 2025"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Eine Metaanalyse zu Citrullin und Blutdruck (Mahboobi et al., 2019) wurde zurückgezogen und ist hier nicht berücksichtigt. Viele Studien sind klein, und Citrullinmalat-Präparate unterscheiden sich in ihrer Zusammensetzung.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Kleiner Effekt auf Kraftausdauer",
+   "ev": "moderat",
+   "p": "Hochintensive Kraft- und Schnellkraftleistung SMD 0,20 (12 Studien); mit Citrullinmalat etwa 6 % mehr Wiederholungen bis zum Versagen.",
+   "s": [
+    "trexler2019",
+    "varvik2021",
+    "wang2026"
+   ]
+  },
+  {
+   "t": "Kein Effekt auf Maximalkraft und Ausdauer",
+   "ev": "moderat",
+   "p": "Weder Maximalkraft (4 Studien) noch Ausdauerleistung (9–10 Studien) verbesserten sich signifikant.",
+   "s": [
+    "aguiar2022",
+    "viribay2022",
+    "harnden2023"
+   ]
+  },
+  {
+   "t": "Etwas weniger Muskelkater am Folgetag",
+   "ev": "niedrig",
+   "p": "Muskelkater 24 Stunden nach der Belastung geringer; nach 72 Stunden kein Unterschied, Entzündungsmarker unverändert.",
+   "s": [
+    "rhim2020",
+    "xu2026",
+    "porto2023"
+   ]
+  },
+  {
+   "t": "Blutdruck sinkt um einige mmHg",
+   "ev": "moderat",
+   "p": "Systolisch etwa −4 mmHg in mehreren Metaanalysen; eine frühe, kleine Analyse fand keinen Effekt.",
+   "s": [
+    "luo2025b",
+    "yang2019",
+    "barkhidarian2019",
+    "mirenayat2018"
+   ]
+  },
+  {
+   "t": "Gefäßfunktion verbessert",
+   "ev": "niedrig",
+   "p": "Die flussvermittelte Gefäßerweiterung stieg; die Gefäßsteifigkeit änderte sich nicht klar.",
+   "s": [
+    "smeets2022",
+    "luo2025g"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "kraft",
+   "name": "Kraftausdauer und Maximalkraft",
+   "q": "Bringt Citrullin mehr Wiederholungen oder mehr Kraft?",
+   "ev": "moderat",
+   "key": [
+    "12 Studien, 198 Personen: akut ein kleiner Vorteil bei hochintensiver Kraft- und Schnellkraftleistung (SMD 0,20 [0,01; 0,39]); geringe Heterogenität (I² = 0 %), kein Hinweis auf Publikationsbias. Alle Einzelstudien schlossen null im Konfidenzintervall ein (Trexler et al., 2019).",
+    "8 Studien, 137 Personen: 6–8 g Citrullinmalat 40–60 Minuten vor dem Training ermöglichten 3 ± 5 Wiederholungen mehr (6,4 %; SMD 0,196) bei etwa 70 % des Maximums; Beine tendenziell (SMD 0,27; p = 0,051), Oberkörper nicht signifikant (SMD 0,16) (Vårvik et al., 2021).",
+    "Maximalkraft bei Krafttrainierten (4 Studien): kein Effekt von Citrullinmalat (SMD 0,13 [−0,21; 0,46]), weder für Beine noch Oberkörper (Aguiar &amp; Casonatto, 2022).",
+    "30 Studien, 644 Personen: Citrullinmalat verbesserte die Leistung insgesamt leicht (g = 0,16), mit breiten Vorhersageintervallen und niedriger bis sehr niedriger Evidenzqualität. Dosis, Zeitpunkt, Geschlecht und Trainingsstatus beeinflussten den Effekt nicht (Wang et al., 2026)."
+   ],
+   "critic": "Die Befunde sind konsistent klein: Ein messbarer Vorteil zeigt sich bei Serien bis zum Versagen, nicht bei Einzelwiederholungen. Die Spannweite von ±5 Wiederholungen zeigt, dass viele Personen nicht profitieren. Laut einem kritischen Review erschweren unterschiedliche Testprotokolle und Präparate mit falsch deklariertem Citrullin-Malat-Verhältnis die Bewertung (Gough et al., 2021).",
+   "figs": [
+    {
+     "id": "cit-leistung",
+     "title": "Citrullin: Kraft und Ausdauer",
+     "cap": "Standardisierte Mittelwertdifferenz gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Hochintensive Kraft und Schnellkraft",
+       "sub": "Trexler et al., 2019",
+       "es": 0.2,
+       "lo": 0.01,
+       "hi": 0.39
+      },
+      {
+       "l": "Maximalkraft (Citrullinmalat)",
+       "sub": "Aguiar &amp; Casonatto, 2022",
+       "es": 0.13,
+       "lo": -0.21,
+       "hi": 0.46
+      },
+      {
+       "l": "Aerobe Leistung",
+       "sub": "Viribay et al., 2022",
+       "es": 0.15,
+       "lo": -0.02,
+       "hi": 0.32
+      },
+      {
+       "l": "Zeit bis zur Erschöpfung",
+       "sub": "Harnden et al., 2023",
+       "es": 0.03,
+       "lo": -0.27,
+       "hi": 0.33
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 0.6,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Citrullin besser"
+     }
+    }
+   ],
+   "s": [
+    "trexler2019",
+    "varvik2021",
+    "aguiar2022",
+    "wang2026",
+    "gough2021"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Ausdauerleistung",
+   "q": "Hilft Citrullin bei Ausdauerbelastungen?",
+   "ev": "moderat",
+   "key": [
+    "Frühe Übersicht: Citrullin allein verbessert die Leistung nicht; Untrainierte profitierten eher als Hochtrainierte (Sureda &amp; Pons, 2012).",
+    "118 Studien zu Lebensmitteln: citrullinreiche Lebensmittel (3 Studien) ohne Effekt auf die Ausdauerleistung (SMD −0,03), nitrat- und polyphenolreiche Lebensmittel mit kleinen Vorteilen (SMD 0,15 bzw. 0,17) (d’Unienville et al., 2021).",
+    "10 Studien: kein Effekt auf aerobe Leistung (SMD 0,15 [−0,02; 0,32]), Anstrengungsempfinden, Sauerstoffaufnahme-Kinetik oder Laktat (Viribay et al., 2022).",
+    "9 Studien, 158 junge Gesunde: weder Zeit bis zur Erschöpfung (SMD 0,03 [−0,27; 0,33]) noch Zeitfahren (SMD −0,07 [−0,50; 0,15]) verbessert (Harnden et al., 2023).",
+    "Citrullinmalat: in Untergruppen akuter Studien möglicher Nutzen für aerobe Ausdauer, aber nicht robust in Sensitivitätsanalysen (Wang et al., 2026)."
+   ],
+   "critic": "Die Analysen stimmen überein: kein belegter Ausdauereffekt. Die Ergebnisse sind homogen (I² = 0 %), was gegen übersehene Untergruppen spricht. Für Ausdauersport ist <a href=\"#nitrat\">Nitrat</a> die besser belegte Stickstoffmonoxid-Strategie.",
+   "figs": [],
+   "s": [
+    "sureda2012",
+    "dunienville2021",
+    "viribay2022",
+    "harnden2023",
+    "wang2026"
+   ]
+  },
+  {
+   "id": "erholung",
+   "name": "Muskelkater und Erholung",
+   "q": "Mindert Citrullin den Muskelkater?",
+   "ev": "niedrig",
+   "key": [
+    "13 Studien, 206 Personen (meist 8 g Citrullinmalat): Anstrengungsempfinden geringer (7 Studien, p = 0,03), Muskelkater nach 24 Stunden geringer (7 Studien, p = 0,04); nach 72 Stunden kein Effekt (p = 0,62), Laktat unverändert (Rhim et al., 2020).",
+    "Netzwerk-Metaanalyse (19 Studien, 356 Personen): Wassermelone mit zugesetztem Citrullin senkte den Muskelkater nach 24 Stunden (SMD −0,97 [−1,64; −0,31]); nach 48 und 72 Stunden kein Effekt. Isolierte Aminosäure-Vorstufen waren der Wassermelone unterlegen (Xu et al., 2026).",
+    "7 Studien: weder Citrullin noch Arginin veränderten Entzündungsmarker oder oxidativen Stress nach Belastung (Porto et al., 2023)."
+   ],
+   "critic": "Der Effekt beschränkt sich auf den ersten Tag nach der Belastung und beruht auf wenigen kleinen Studien. Für 48 Stunden nennt der Abstract von Rhim et al. (2020) eine Senkung, berichtet aber p = 0,25; das ist nicht signifikant. Ob das geringere Anstrengungsempfinden robust ist, bleibt offen: zwei spätere Metaanalysen fanden dort keinen Effekt (Viribay et al., 2022; Wang et al., 2026).",
+   "figs": [],
+   "s": [
+    "rhim2020",
+    "xu2026",
+    "porto2023"
+   ]
+  },
+  {
+   "id": "form",
+   "name": "L-Citrullin oder Citrullinmalat",
+   "q": "Welche Form ist sinnvoller?",
+   "ev": "niedrig",
+   "key": [
+    "Citrullin unterliegt nicht dem Abbau in Darm und Leber wie Arginin und hebt den Argininspiegel daher wirksamer an; Citrullinmalat könnte zusätzlich die Ammoniak-Elimination nach erschöpfender Belastung fördern (Sureda &amp; Pons, 2012).",
+    "Kritischer Review: Die Wirkung von Citrullinmalat ist uneindeutig; Ursachen sind Testprotokolle, Dosierung und Qualitätsmängel bei Herstellerangaben zum Citrullin-Malat-Verhältnis (Gough et al., 2021).",
+    "Kraftausdauer-Effekte stammen überwiegend aus Studien mit Citrullinmalat (6–8 g), Blutdruck- und Gefäßeffekte aus Studien mit L-Citrullin (3–9 g/Tag) (Vårvik et al., 2021; Barkhidarian et al., 2019)."
+   ],
+   "critic": "Eine Metaanalyse, die beide Formen direkt vergleicht, fehlt. Die Herstellerangaben zum Citrullingehalt stimmen nicht immer. Für Leistung ist die Datenlage zu Citrullinmalat etwas breiter, für Gefäßeffekte zu L-Citrullin.",
+   "figs": [],
+   "s": [
+    "sureda2012",
+    "gough2021",
+    "varvik2021",
+    "barkhidarian2019"
+   ]
+  },
+  {
+   "id": "gefaesse",
+   "name": "Blutdruck und Gefäßfunktion",
+   "q": "Senkt Citrullin den Blutdruck?",
+   "ev": "moderat",
+   "key": [
+    "5 Interventionen: kein Effekt auf brachialen (systolisch +0,28 mmHg [−2,87; 2,31]) oder aortalen Blutdruck (Mirenayat et al., 2018).",
+    "8 Studien (3–9 g/Tag, 1–17 Wochen): systolisch −4,10 mmHg [−7,94; −0,26], diastolisch −2,08 mmHg [−4,32; 0,16]; diastolisch signifikant nur ab 6 g/Tag (−2,75 mmHg) (Barkhidarian et al., 2019).",
+    "8 Studien mit 14 Vergleichen: brachial systolisch −4,49 mmHg [−7,33; −1,65], diastolisch −3,63 mmHg [−5,83; −1,43]; aortal systolisch −6,76 mmHg (Yang et al., 2019).",
+    "Längerfristige L-Citrullin-Gabe verbesserte die flussvermittelte Gefäßerweiterung um 0,9 Prozentpunkte [0,7; 1,1]; Wassermelone senkte die Pulswellengeschwindigkeit um 0,9 m/s; akut kein Effekt (Smeets et al., 2022).",
+    "Mittleres und höheres Alter (15 Studien, 415 Personen): systolisch −4,02 mmHg [−6,54; −1,50], diastolisch −2,54 mmHg [−4,27; −0,81]; zusammen mit Arginin −10,44 mmHg (Luo et al., 2025).",
+    "8 Studien, 176 Personen: flussvermittelte Gefäßerweiterung +1,81 [0,76; 2,85], Pulswellengeschwindigkeit nicht signifikant (−0,14 [−0,45; 0,17]) (Luo et al., 2025).",
+    "Wassermelone (16 Studien): systolisch −5,53 mmHg [−8,99; −2,06], diastolisch −2,55 mmHg; hohe Heterogenität (I² = 89,7 %), niedrige Evidenzsicherheit (Lei et al., 2026).",
+    "Frauen nach der Menopause (12 Studien, 360 Frauen): meist niedrigerer systolischer Blutdruck, uneinheitliche Effekte auf Gefäßsteifigkeit und Stoffwechsel, keine Nebenwirkungen berichtet (Bahari et al., 2026)."
+   ],
+   "critic": "Die erste Analyse mit nur 5 Interventionen fand keinen Effekt; alle späteren, größeren Analysen fanden eine Senkung des systolischen Blutdrucks um etwa 4 mmHg. Die neueren Befunde sind wahrscheinlicher, sie stützen sich aber zum Teil auf ähnliche, kleine Studien, oft bei Älteren oder Übergewichtigen. Eine weitere Metaanalyse zum Blutdruck wurde zurückgezogen und ist nicht berücksichtigt. Für junge, normotensive Sportler ist der Nutzen kaum untersucht.",
+   "figs": [
+    {
+     "id": "cit-blutdruck",
+     "title": "Citrullin, Wassermelone und Arginin: systolischer Blutdruck",
+     "cap": "Mittlere Differenz des systolischen Blutdrucks in mmHg mit 95-%-KI gegenüber Kontrolle.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "L-Citrullin, 5 Interventionen",
+       "sub": "Mirenayat et al., 2018",
+       "es": 0.28,
+       "lo": -2.87,
+       "hi": 2.31
+      },
+      {
+       "l": "L-Citrullin, 8 Studien",
+       "sub": "Barkhidarian et al., 2019",
+       "es": -4.1,
+       "lo": -7.94,
+       "hi": -0.26
+      },
+      {
+       "l": "L-Citrullin, brachial",
+       "sub": "Yang et al., 2019",
+       "es": -4.49,
+       "lo": -7.33,
+       "hi": -1.65
+      },
+      {
+       "l": "Citrullin/Wassermelone, mittleres und höheres Alter",
+       "sub": "Luo et al., 2025",
+       "es": -4.02,
+       "lo": -6.54,
+       "hi": -1.5
+      },
+      {
+       "l": "Wassermelone",
+       "sub": "Lei et al., 2026",
+       "es": -5.53,
+       "lo": -8.99,
+       "hi": -2.06
+      },
+      {
+       "l": "Arginin, 11 Studien",
+       "sub": "Dong et al., 2011",
+       "es": -5.39,
+       "lo": -8.54,
+       "hi": -2.25
+      },
+      {
+       "l": "Arginin, 22 Studien",
+       "sub": "Shiraseb et al., 2022",
+       "es": -6.4,
+       "lo": -8.74,
+       "hi": -4.05
+      }
+     ],
+     "opts": {
+      "min": -10,
+      "max": 4,
+      "ticks": [
+       -10,
+       -8,
+       -6,
+       -4,
+       -2,
+       0,
+       2,
+       4
+      ],
+      "unit": "mmHg",
+      "leftLab": "niedriger",
+      "rightLab": "höher"
+     }
+    }
+   ],
+   "s": [
+    "mirenayat2018",
+    "barkhidarian2019",
+    "yang2019",
+    "smeets2022",
+    "luo2025b",
+    "luo2025g",
+    "lei2026",
+    "bahari2026"
+   ]
+  },
+  {
+   "id": "koerper",
+   "name": "Körperzusammensetzung",
+   "q": "Verändert Citrullin Muskel- oder Fettmasse?",
+   "ev": "niedrig",
+   "key": [
+    "21 Studien: kein Effekt auf Körpergewicht, Fettmasse, Körperfettanteil oder fettfreie Masse; in Untergruppen weniger Fettmasse ab 6 g/Tag und bei über 40-Jährigen (Ashtary-Larky et al., 2025).",
+    "Mit Training (9 Studien): gegenüber Training allein etwas weniger Körperfett (SMD −0,21 [−0,40; −0,01]) und Bauchfett (SMD −0,32), keine Wirkung auf Gewicht oder fettfreie Masse (SMD −0,02) (Wang et al., 2026)."
+   ],
+   "critic": "Insgesamt kein Effekt; die positiven Befunde stammen aus Untergruppen oder einer kleineren Analyse mit knapp signifikantem Ergebnis. Für den Muskelaufbau gibt es keinen Hinweis auf Nutzen.",
+   "figs": [],
+   "s": [
+    "ashtarylarky2025",
+    "wang2026k"
+   ]
+  },
+  {
+   "id": "arginin",
+   "name": "Zum Vergleich: Arginin",
+   "q": "Ist Arginin die bessere Wahl?",
+   "ev": "niedrig",
+   "key": [
+    "Blutdruck (11 Studien, 387 Personen, 4–24 g/Tag): systolisch −5,39 mmHg [−8,54; −2,25], diastolisch −2,66 mmHg (Dong et al., 2011).",
+    "22 Studien: systolisch −6,40 mmHg [−8,74; −4,05], diastolisch −2,64 mmHg; wirksam ab etwa 4 g/Tag, nicht über 9 g/Tag (Shiraseb et al., 2022).",
+    "Leistung (15 Studien): aerob SMD 0,84 [0,12; 1,56] bei I² = 89 %, anaerob SMD 0,24 [0,05; 0,43] (Viribay et al., 2020). Ein Kommentar beschreibt in dieser Analyse mehrere typische methodische Fehler, die die Effekte verzerren (Trexler, 2025).",
+    "Systematischer Review: wenig Nutzen für Leistung und Erholung, kleine Studien mit Verzerrungsrisiko; kurzfristig Magen-Darm- und Herz-Kreislauf-Nebenwirkungen möglich (Brooks et al., 2016)."
+   ],
+   "critic": "Beim Blutdruck sind Arginin und Citrullin ähnlich wirksam. Für die Leistung widersprechen sich die Arbeiten: Die positive Metaanalyse von 2020 ist methodisch kritisiert und sehr heterogen; der Review von 2016 sah kaum Nutzen. Arginin wird zudem vor dem Eintritt ins Blut stärker abgebaut als Citrullin (Sureda &amp; Pons, 2012), und kurzfristig sind Magen-Darm-Beschwerden beschrieben (Brooks et al., 2016).",
+   "figs": [],
+   "s": [
+    "dong2011",
+    "shiraseb2022",
+    "viribay2020",
+    "trexler2025",
+    "brooks2016",
+    "sureda2012"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2011,
+   "t": "Arginin senkt den Blutdruck",
+   "p": "11 Studien: systolisch −5,4 mmHg.",
+   "tag": "neu",
+   "s": "dong2011"
+  },
+  {
+   "y": 2012,
+   "t": "Citrullin und Arginin im Sport",
+   "p": "Kein Leistungsvorteil bei Hochtrainierten.",
+   "tag": "neu",
+   "s": "sureda2012"
+  },
+  {
+   "y": 2016,
+   "t": "Arginin für Soldaten und Sportler",
+   "p": "Wenig Nutzen, mögliche Nebenwirkungen.",
+   "tag": "neu",
+   "s": "brooks2016"
+  },
+  {
+   "y": 2018,
+   "t": "Kein Blutdruckeffekt",
+   "p": "Erste kleine Metaanalyse zu Citrullin.",
+   "tag": "neu",
+   "s": "mirenayat2018"
+  },
+  {
+   "y": 2019,
+   "t": "Kraft und Schnellkraft",
+   "p": "Kleiner Vorteil (SMD 0,20).",
+   "tag": "neu",
+   "s": "trexler2019"
+  },
+  {
+   "y": 2019,
+   "t": "Blutdruck gesenkt",
+   "p": "Systolisch −4,1 mmHg.",
+   "tag": "contra",
+   "s": "barkhidarian2019"
+  },
+  {
+   "y": 2019,
+   "t": "Brachialer und aortaler Blutdruck",
+   "p": "Systolisch −4,5 mmHg.",
+   "tag": "conf",
+   "s": "yang2019"
+  },
+  {
+   "y": 2020,
+   "t": "Arginin und Leistung",
+   "p": "Positive Effekte, später methodisch kritisiert.",
+   "tag": "neu",
+   "s": "viribay2020"
+  },
+  {
+   "y": 2020,
+   "t": "Muskelkater und Anstrengung",
+   "p": "Weniger Muskelkater nach 24 Stunden.",
+   "tag": "neu",
+   "s": "rhim2020"
+  },
+  {
+   "y": 2021,
+   "t": "Citrullinmalat kritisch betrachtet",
+   "p": "Qualitätsmängel bei Präparaten.",
+   "tag": "rel",
+   "s": "gough2021"
+  },
+  {
+   "y": 2021,
+   "t": "Citrullinreiche Lebensmittel",
+   "p": "Kein Ausdauereffekt.",
+   "tag": "neu",
+   "s": "dunienville2021"
+  },
+  {
+   "y": 2021,
+   "t": "Wiederholungen bis zum Versagen",
+   "p": "6,4 % mehr Wiederholungen.",
+   "tag": "conf",
+   "s": "varvik2021"
+  },
+  {
+   "y": 2022,
+   "t": "Maximalkraft",
+   "p": "Kein Effekt von Citrullinmalat.",
+   "tag": "neu",
+   "s": "aguiar2022"
+  },
+  {
+   "y": 2022,
+   "t": "Gefäßfunktion",
+   "p": "Flussvermittelte Gefäßerweiterung verbessert.",
+   "tag": "neu",
+   "s": "smeets2022"
+  },
+  {
+   "y": 2022,
+   "t": "Arginin: Dosis-Wirkung beim Blutdruck",
+   "p": "Wirksam ab etwa 4 g/Tag.",
+   "tag": "conf",
+   "s": "shiraseb2022"
+  },
+  {
+   "y": 2022,
+   "t": "Aerobe Leistung",
+   "p": "Kein Effekt.",
+   "tag": "neu",
+   "s": "viribay2022"
+  },
+  {
+   "y": 2023,
+   "t": "Ausdauer bei jungen Gesunden",
+   "p": "Kein Effekt bestätigt.",
+   "tag": "conf",
+   "s": "harnden2023"
+  },
+  {
+   "y": 2023,
+   "t": "Entzündung und oxidativer Stress",
+   "p": "Kein Effekt.",
+   "tag": "neu",
+   "s": "porto2023"
+  },
+  {
+   "y": 2025,
+   "t": "Methodenkritik an Arginin-Metaanalyse",
+   "p": "Verzerrte Effektgrößen.",
+   "tag": "contra",
+   "s": "trexler2025"
+  },
+  {
+   "y": 2025,
+   "t": "Blutdruck bei Älteren",
+   "p": "Systolisch −4,0 mmHg.",
+   "tag": "conf",
+   "s": "luo2025b"
+  },
+  {
+   "y": 2025,
+   "t": "Gefäßfunktion bei Älteren",
+   "p": "Bessere Gefäßerweiterung, Steifigkeit unverändert.",
+   "tag": "conf",
+   "s": "luo2025g"
+  },
+  {
+   "y": 2025,
+   "t": "Körperzusammensetzung",
+   "p": "Insgesamt kein Effekt.",
+   "tag": "neu",
+   "s": "ashtarylarky2025"
+  },
+  {
+   "y": 2026,
+   "t": "Citrullinmalat, 30 Studien",
+   "p": "Kleiner, unsicherer Gesamteffekt.",
+   "tag": "conf",
+   "s": "wang2026"
+  },
+  {
+   "y": 2026,
+   "t": "Citrullin mit Training",
+   "p": "Etwas weniger Körperfett.",
+   "tag": "rel",
+   "s": "wang2026k"
+  },
+  {
+   "y": 2026,
+   "t": "Muskelkater: Netzwerk-Metaanalyse",
+   "p": "Wassermelone mit Citrullin wirksam nach 24 Stunden.",
+   "tag": "conf",
+   "s": "xu2026"
+  },
+  {
+   "y": 2026,
+   "t": "Wassermelone und Blutdruck",
+   "p": "Systolisch −5,5 mmHg, hohe Heterogenität.",
+   "tag": "conf",
+   "s": "lei2026"
+  },
+  {
+   "y": 2026,
+   "t": "Frauen nach der Menopause",
+   "p": "Blutdrucksenkung, keine Nebenwirkungen.",
+   "tag": "neu",
+   "s": "bahari2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 708 Einträgen, 294 Übersichtsarbeiten nach Titel geprüft (davon 14 aus regelbasiert ausgeschlossenen Einträgen und 104 über eine ergänzende Suche nach Übersichtsarbeiten), 27 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Hochintensive Kraft- und Schnellkraftleistung",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 12,
+     "p": 198,
+     "s": [
+      "trexler2019",
+      "wang2026"
+     ],
+     "t": "SMD 0,20 (12 Studien, I² = 0 %); mit Citrullinmalat in 30 Studien g = 0,16 bei niedriger Evidenzqualität.",
+     "v": "kraft"
+    },
+    {
+     "n": "Wiederholungen bis zum Versagen (Citrullinmalat)",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 8,
+     "p": 137,
+     "s": [
+      "varvik2021"
+     ],
+     "t": "3 ± 5 Wiederholungen mehr (6,4 %), SMD 0,196; Oberkörper nicht signifikant.",
+     "v": "kraft"
+    },
+    {
+     "n": "Maximalkraft (Citrullinmalat)",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 4,
+     "p": null,
+     "s": [
+      "aguiar2022"
+     ],
+     "t": "SMD 0,13 [−0,21; 0,46], nicht signifikant.",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Ausdauerleistung",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 10,
+     "p": null,
+     "s": [
+      "viribay2022",
+      "harnden2023",
+      "dunienville2021"
+     ],
+     "t": "SMD 0,15 (10 Studien) bzw. 0,03 für Zeit bis zur Erschöpfung (9 Studien), jeweils nicht signifikant.",
+     "v": "ausdauer"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Körperzusammensetzung",
+   "kat": "koerper",
+   "items": [
+    {
+     "n": "Körpergewicht, Fett- und fettfreie Masse",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 21,
+     "p": null,
+     "s": [
+      "ashtarylarky2025"
+     ],
+     "t": "Kein Effekt in 21 Studien; Untergruppen mit weniger Fettmasse ab 6 g/Tag.",
+     "v": "koerper"
+    },
+    {
+     "n": "Körperfett zusammen mit Training (Abnahme)",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 9,
+     "p": null,
+     "s": [
+      "wang2026k"
+     ],
+     "t": "SMD −0,21 gegenüber Training allein, knapp signifikant; fettfreie Masse unverändert.",
+     "v": "koerper"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung nach Belastung",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Muskelkater nach 24 Stunden",
+     "g": "C",
+     "d": "ab",
+     "m": -1,
+     "b": "nutzen",
+     "k": 7,
+     "p": null,
+     "s": [
+      "rhim2020",
+      "xu2026"
+     ],
+     "t": "Signifikant geringer (7 Studien, p = 0,04); Wassermelone mit Citrullin SMD −0,97. Nach 72 Stunden kein Unterschied.",
+     "v": "erholung"
+    },
+    {
+     "n": "Anstrengungsempfinden",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 7,
+     "p": null,
+     "s": [
+      "rhim2020",
+      "viribay2022",
+      "wang2026"
+     ],
+     "t": "Geringer in einer Analyse (p = 0,03), in zwei anderen kein Effekt (SMD −0,03).",
+     "v": "erholung"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Entzündung",
+   "kat": "entzuendung",
+   "items": [
+    {
+     "n": "Entzündung und oxidativer Stress nach Belastung",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 7,
+     "p": null,
+     "s": [
+      "porto2023"
+     ],
+     "t": "Weder Citrullin noch Arginin veränderten die Marker (7 Studien).",
+     "v": "erholung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz-Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Systolischer Blutdruck",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 15,
+     "p": 415,
+     "s": [
+      "luo2025b",
+      "yang2019",
+      "barkhidarian2019",
+      "mirenayat2018",
+      "lei2026"
+     ],
+     "t": "Etwa −4 mmHg (−4,02 bis −4,49) in drei Analysen; praktisch bedeutsam für Ältere. Die erste Analyse mit 5 Interventionen fand keinen Effekt.",
+     "v": "gefaesse"
+    },
+    {
+     "n": "Diastolischer Blutdruck",
+     "g": "C",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 15,
+     "p": 415,
+     "s": [
+      "luo2025b",
+      "yang2019",
+      "barkhidarian2019"
+     ],
+     "t": "−2,54 bzw. −3,63 mmHg; in einer Analyse nur ab 6 g/Tag signifikant.",
+     "v": "gefaesse"
+    },
+    {
+     "n": "Gefäßfunktion (flussvermittelte Erweiterung)",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 8,
+     "p": 176,
+     "s": [
+      "smeets2022",
+      "luo2025g"
+     ],
+     "t": "+0,9 Prozentpunkte bei längerer Einnahme bzw. +1,81; akut kein Effekt.",
+     "v": "gefaesse"
+    },
+    {
+     "n": "Gefäßsteifigkeit (Pulswellengeschwindigkeit)",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 8,
+     "p": 176,
+     "s": [
+      "luo2025g",
+      "bahari2026"
+     ],
+     "t": "−0,14, nicht signifikant; bei Frauen nach der Menopause uneinheitlich.",
+     "v": "gefaesse"
+    },
+    {
+     "n": "Vergleich: Blutdrucksenkung durch Arginin",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 22,
+     "p": null,
+     "s": [
+      "shiraseb2022",
+      "dong2011"
+     ],
+     "t": "Systolisch −6,40 mmHg (22 Studien) bzw. −5,39 mmHg (11 Studien), ähnlich wie Citrullin.",
+     "v": "arginin"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Nebenwirkungen von Citrullin",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 12,
+     "p": 360,
+     "s": [
+      "bahari2026"
+     ],
+     "t": "In 12 Studien bei Frauen nach der Menopause keine Nebenwirkungen berichtet.",
+     "v": "gefaesse"
+    },
+    {
+     "n": "Vergleich: Leistungseffekt von Arginin",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 15,
+     "p": null,
+     "s": [
+      "viribay2020",
+      "trexler2025",
+      "brooks2016"
+     ],
+     "t": "Positive Metaanalyse (aerob SMD 0,84, I² = 89 %) methodisch kritisiert; ein systematischer Review sah kaum Nutzen.",
+     "v": "arginin"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "dong2011": {
+   "short": "Dong et al., 2011",
+   "year": 2011,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22137067",
+   "apa": "Dong, J. Y., Qin, L. Q., Zhang, Z., Zhao, Y., Wang, J., Arigoni, F. &amp; Zhang, W. (2011). Effect of oral L-arginine supplementation on blood pressure: A meta-analysis of randomized, double-blind, placebo-controlled trials. <em>American Heart Journal, 162</em>(6), 959–965.",
+   "doi": "10.1016/j.ahj.2011.09.012"
+  },
+  "sureda2012": {
+   "short": "Sureda & Pons, 2012",
+   "year": 2012,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "23075551",
+   "apa": "Sureda, A. &amp; Pons, A. (2012). Arginine and citrulline supplementation in sports and exercise: Ergogenic nutrients? <em>Medicine and Sport Science, 59</em>, 18–28.",
+   "doi": "10.1159/000341937"
+  },
+  "brooks2016": {
+   "short": "Brooks et al., 2016",
+   "year": 2016,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "27753625",
+   "apa": "Brooks, J. R., Oketch-Rabah, H., Low Dog, T., Gorecki, D. K., Barrett, M. L., Cantilena, L., Chung, M., Costello, R. B., Dwyer, J., Hardy, M. L., Jordan, S. A., Maughan, R. J., Marles, R. J., Osterberg, R. E., Rodda, B. E., Wolfe, R. R., Zuniga, J. M., Valerio, L. G., Jones, D., … Sarma, N. D. (2016). Safety and performance benefits of arginine supplements for military personnel: A systematic review. <em>Nutrition Reviews, 74</em>(11), 708–721.",
+   "doi": "10.1093/nutrit/nuw040"
+  },
+  "mirenayat2018": {
+   "short": "Mirenayat et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30284051",
+   "apa": "Mirenayat, M. S., Moradi, S., Mohammadi, H. &amp; Rouhani, M. H. (2018). Effect of L-Citrulline supplementation on blood pressure: A systematic review and meta-analysis of clinical trials. <em>Current Hypertension Reports, 20</em>(11), Artikel 98.",
+   "doi": "10.1007/s11906-018-0898-3"
+  },
+  "trexler2019": {
+   "short": "Trexler et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30895562",
+   "apa": "Trexler, E. T., Persky, A. M., Ryan, E. D., Schwartz, T. A., Stoner, L. &amp; Smith-Ryan, A. E. (2019). Acute effects of citrulline supplementation on high-intensity strength and power performance: A systematic review and meta-analysis. <em>Sports Medicine, 49</em>(5), 707–718.",
+   "doi": "10.1007/s40279-019-01091-z"
+  },
+  "barkhidarian2019": {
+   "short": "Barkhidarian et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30788274",
+   "apa": "Barkhidarian, B., Khorshidi, M., Shab-Bidar, S. &amp; Hashemi, B. (2019). Effects of L-citrulline supplementation on blood pressure: A systematic review and meta-analysis. <em>Avicenna Journal of Phytomedicine, 9</em>(1), 10–20."
+  },
+  "yang2019": {
+   "short": "Yang et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31889969",
+   "apa": "Yang, H. H., Li, X. L., Zhang, W. G., Figueroa, A., Chen, L. H. &amp; Qin, L. Q. (2019). Effect of oral L-citrulline on brachial and aortic blood pressure defined by resting status: Evidence from randomized controlled trials. <em>Nutrition &amp; Metabolism, 16</em>, Artikel 89.",
+   "doi": "10.1186/s12986-019-0415-y"
+  },
+  "viribay2020": {
+   "short": "Viribay et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32370176",
+   "apa": "Viribay, A., Burgos, J., Fernández-Landa, J., Seco-Calvo, J. &amp; Mielgo-Ayuso, J. (2020). Effects of arginine supplementation on athletic performance based on energy metabolism: A systematic review and meta-analysis. <em>Nutrients, 12</em>(5), Artikel 1300.",
+   "doi": "10.3390/nu12051300",
+   "flag": "Methodische Fehler in einem späteren Kommentar beschrieben (Trexler, 2025); Effektgrößen vermutlich überschätzt."
+  },
+  "rhim2020": {
+   "short": "Rhim et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33308806",
+   "apa": "Rhim, H. C., Kim, S. J., Park, J. &amp; Jang, K. M. (2020). Effect of citrulline on post-exercise rating of perceived exertion, muscle soreness, and blood lactate levels: A systematic review and meta-analysis. <em>Journal of Sport and Health Science, 9</em>(6), 553–561.",
+   "doi": "10.1016/j.jshs.2020.02.003",
+   "flag": "Abstract nennt für Muskelkater nach 48 Stunden eine Senkung, aber p = 0,25."
+  },
+  "gough2021": {
+   "short": "Gough et al., 2021",
+   "year": 2021,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "34417881",
+   "apa": "Gough, L. A., Sparks, S. A., McNaughton, L. R., Higgins, M. F., Newbury, J. W., Trexler, E., Faghy, M. A. &amp; Bridge, C. A. (2021). A critical review of citrulline malate supplementation and exercise performance. <em>European Journal of Applied Physiology, 121</em>(12), 3283–3295.",
+   "doi": "10.1007/s00421-021-04774-6"
+  },
+  "dunienville2021": {
+   "short": "d'Unienville et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34965876",
+   "apa": "d'Unienville, N. M. A., Blake, H. T., Coates, A. M., Hill, A. M., Nelson, M. J. &amp; Buckley, J. D. (2021). Effect of food sources of nitrate, polyphenols, L-arginine and L-citrulline on endurance exercise performance: A systematic review and meta-analysis of randomised controlled trials. <em>Journal of the International Society of Sports Nutrition, 18</em>(1), Artikel 76.",
+   "doi": "10.1186/s12970-021-00472-y"
+  },
+  "varvik2021": {
+   "short": "Vårvik et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34010809",
+   "apa": "Vårvik, F. T., Bjørnsen, T. &amp; Gonzalez, A. M. (2021). Acute effect of citrulline malate on repetition performance during strength training: A systematic review and meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 31</em>(4), 350–358.",
+   "doi": "10.1123/ijsnem.2020-0295"
+  },
+  "aguiar2022": {
+   "short": "Aguiar & Casonatto, 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34176406",
+   "apa": "Aguiar, A. F. &amp; Casonatto, J. (2022). Effects of citrulline malate supplementation on muscle strength in resistance-trained adults: A systematic review and meta-analysis of randomized controlled trials. <em>Journal of Dietary Supplements, 19</em>(6), 772–790.",
+   "doi": "10.1080/19390211.2021.1939473"
+  },
+  "smeets2022": {
+   "short": "Smeets et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34863321",
+   "apa": "Smeets, E. T. H. C., Mensink, R. P. &amp; Joris, P. J. (2022). Effects of l-citrulline supplementation and watermelon consumption on longer-term and postprandial vascular function and cardiometabolic risk markers: A meta-analysis of randomised controlled trials in adults. <em>The British Journal of Nutrition, 128</em>(9), 1758–1770.",
+   "doi": "10.1017/S0007114521004803"
+  },
+  "shiraseb2022": {
+   "short": "Shiraseb et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse (Dosis-Wirkung)",
+   "basis": "Abstract",
+   "pmid": "34967840",
+   "apa": "Shiraseb, F., Asbaghi, O., Bagheri, R., Wong, A., Figueroa, A. &amp; Mirzaei, K. (2022). Effect of l-arginine supplementation on blood pressure in adults: A systematic review and dose-response meta-analysis of randomized clinical trials. <em>Advances in Nutrition, 13</em>(4), 1226–1242.",
+   "doi": "10.1093/advances/nmab155"
+  },
+  "viribay2022": {
+   "short": "Viribay et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36079738",
+   "apa": "Viribay, A., Fernández-Landa, J., Castañeda-Babarro, A., Collado, P. S., Fernández-Lázaro, D. &amp; Mielgo-Ayuso, J. (2022). Effects of citrulline supplementation on different aerobic exercise performance outcomes: A systematic review and meta-analysis. <em>Nutrients, 14</em>(17), Artikel 3479.",
+   "doi": "10.3390/nu14173479"
+  },
+  "harnden2023": {
+   "short": "Harnden et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37155582",
+   "apa": "Harnden, C. S., Agu, J. &amp; Gascoyne, T. (2023). Effects of citrulline on endurance performance in young healthy adults: A systematic review and meta-analysis. <em>Journal of the International Society of Sports Nutrition, 20</em>(1), Artikel 2209056.",
+   "doi": "10.1080/15502783.2023.2209056"
+  },
+  "porto2023": {
+   "short": "Porto et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37111214",
+   "apa": "Porto, A. A., Gonzaga, L. A., Benjamim, C. J. R. &amp; Valenti, V. E. (2023). Absence of effects of L-arginine and L-citrulline on inflammatory biomarkers and oxidative stress in response to physical exercise: A systematic review with meta-analysis. <em>Nutrients, 15</em>(8), Artikel 1995.",
+   "doi": "10.3390/nu15081995"
+  },
+  "trexler2025": {
+   "short": "Trexler, 2025",
+   "year": 2025,
+   "type": "Kommentar",
+   "basis": "Abstract",
+   "pmid": "40733000",
+   "apa": "Trexler, E. T. (2025). Common errors in sports nutrition meta-analyses lead to distortion of pooled effect estimates. Comment on Viribay et al. Effects of arginine supplementation on athletic performance based on energy metabolism: A systematic review and meta-analysis. Nutrients 2020, 12, 1300. <em>Nutrients, 17</em>(14), Artikel 2375.",
+   "doi": "10.3390/nu17142375"
+  },
+  "luo2025b": {
+   "short": "Luo et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40789388",
+   "apa": "Luo, P., Chen, J., Liu, K. &amp; Zhang, J. (2025). Does l-citrulline supplementation and watermelon intake reduce blood pressure in middle-aged and older adults? A systematic review and meta-analysis of randomized controlled trials. <em>Clinical Nutrition ESPEN, 69</em>, 653–664.",
+   "doi": "10.1016/j.clnesp.2025.07.1130"
+  },
+  "luo2025g": {
+   "short": "Luo et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41323997",
+   "apa": "Luo, P., Li, Z., Liu, K. &amp; Gao, W. (2025). Effects of L-citrulline supplementation and watermelon intake on arterial stiffness and endothelial function in middle-aged and older adults: A systematic review and meta-analysis of randomized controlled trials. <em>Frontiers in Nutrition, 12</em>, Artikel 1632952.",
+   "doi": "10.3389/fnut.2025.1632952"
+  },
+  "ashtarylarky2025": {
+   "short": "Ashtary-Larky et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse (Dosis-Wirkung)",
+   "basis": "Abstract",
+   "pmid": "41097202",
+   "apa": "Ashtary-Larky, D., Mohammadi, S., Mousavi, S. A. H., Hajizadeh, L., Candow, D. G., Forbes, S. C., Afrisham, R., Farrokhi, V., Antonio, J. &amp; Suzuki, K. (2025). Effects of citrulline or watermelon supplementation on body composition: A systematic review and dose-response meta-analysis. <em>Nutrients, 17</em>(19), Artikel 3126.",
+   "doi": "10.3390/nu17193126"
+  },
+  "wang2026": {
+   "short": "Wang et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42356270",
+   "apa": "Wang, X., Fan, X., Chang, J., Li, H., Zhang, X., Zhang, Y., Song, T., Liu, P., Huang, Q., Naharudin, M. N. B. &amp; Deng, H. (2026). Effects of citrulline malate supplementation on exercise performance: A systematic review and three-level meta-analysis. <em>Nutrients, 18</em>(12), Artikel 1881.",
+   "doi": "10.3390/nu18121881"
+  },
+  "wang2026k": {
+   "short": "Wang et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41786156",
+   "apa": "Wang, W., Cai, S., Liu, K. &amp; Luo, P. (2026). Synergistic effect of long-term L-citruline supplementation combined with exercise on body composition in adults: A systematic review and meta-analysis of randomized controlled trials. <em>Complementary Therapies in Medicine, 98</em>, Artikel 103339.",
+   "doi": "10.1016/j.ctim.2026.103339"
+  },
+  "xu2026": {
+   "short": "Xu et al., 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42959749",
+   "apa": "Xu, K. X., Guo, S., Xie, Z. F. &amp; Xiao, Y. W. (2026). Nitric oxide precursor interventions for post-exercise delayed onset muscle soreness: A systematic review and network meta-analysis of randomized placebo-controlled trials. <em>Frontiers in Nutrition, 13</em>, Artikel 1868555.",
+   "doi": "10.3389/fnut.2026.1868555"
+  },
+  "lei2026": {
+   "short": "Lei et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "43045014",
+   "apa": "Lei, Y., Diao, J., Xu, M., Huang, N. &amp; Jiang, Q. (2026). Watermelon supplementation lowers blood pressure: A systematic review and meta-analysis of randomized controlled trials. <em>The Journal of Nutrition, None</em>, Artikel 101944.",
+   "doi": "10.1016/j.tjnut.2026.101944"
+  },
+  "bahari2026": {
+   "short": "Bahari et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "41588439",
+   "apa": "Bahari, H., Ramezani, E. &amp; Malekahmadi, M. (2026). Citrulline supplementation in postmenopausal women: A systematic review of vascular, muscular, and metabolic effects. <em>BMC Women's Health, 26</em>(1), Artikel 116.",
+   "doi": "10.1186/s12905-026-04277-6"
+  }
+ }
+}
