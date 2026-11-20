@@ -1,10 +1,13 @@
 {
  "abfrage": {
   "von": "2026/11/16",
-  "bis": "2026/11/17"
+  "bis": "2026/11/20"
  },
  "neu_manuell": [],
- "neu_regel": {},
+ "neu_regel": {
+  "43056321": "S",
+  "43043379": "K"
+ },
  "geaendert": [],
  "vormerkungen": [],
  "bearbeitet": false,

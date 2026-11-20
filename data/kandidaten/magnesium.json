@@ -1,9 +1,21 @@
 {
  "abfrage": {
   "von": "2026/11/16",
-  "bis": "2026/11/17"
+  "bis": "2026/11/20"
  },
- "neu_manuell": [],
+ "neu_manuell": [
+  {
+   "pmid": "43056250",
+   "t": "Train hard, recover smart: the supplement framework to enhance exercise recovery in recreational and elite-level athletes.",
+   "y": "2026",
+   "j": "J Int Soc Sports Nutr",
+   "pt": [
+    "Journal Article",
+    "Review"
+   ],
+   "doi": "10.1080/15502783.2026.2763838"
+  }
+ ],
  "neu_regel": {
   "43037885": "P"
  },

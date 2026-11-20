@@ -1,26 +1,26 @@
 {
- "datum": "2026-11-17",
+ "datum": "2026-11-20",
  "themen": {
   "ausdauer": {
    "manuell": 0,
    "geaendert": 0,
-   "regel": 0,
+   "regel": 1,
    "vormerkungen": 0
   },
   "hypertrophie": {
    "manuell": 0,
    "geaendert": 0,
-   "regel": 0,
+   "regel": 1,
    "vormerkungen": 0
   },
   "kreatin": {
-   "manuell": 0,
+   "manuell": 1,
    "geaendert": 0,
    "regel": 0,
    "vormerkungen": 0
   },
   "magnesium": {
-   "manuell": 0,
+   "manuell": 1,
    "geaendert": 0,
    "regel": 1,
    "vormerkungen": 0
@@ -28,11 +28,11 @@
   "maximalkraft": {
    "manuell": 0,
    "geaendert": 0,
-   "regel": 0,
+   "regel": 2,
    "vormerkungen": 0
   },
   "omega-3": {
-   "manuell": 0,
+   "manuell": 1,
    "geaendert": 0,
    "regel": 0,
    "vormerkungen": 0
@@ -46,7 +46,7 @@
   "regeneration": {
    "manuell": 0,
    "geaendert": 0,
-   "regel": 1,
+   "regel": 3,
    "vormerkungen": 0
   },
   "vitamin-d-k2": {
