@@ -32,7 +32,7 @@ for sub in ('topics', 'screening', 'kandidaten'):
         if sub != 'topics':
             continue
         src = j.get('sources', {})
-        for k in set(keys_in({x: j.get(x) for x in ('rx', 'takeaways', 'vars', 'timeline')})):
+        for k in set(keys_in({x: j.get(x) for x in ('rx', 'takeaways', 'vars', 'timeline', 'def')})):
             if k not in src:
                 fehler.append(f'{sub}/{f}: Quelle "{k}" wird zitiert, fehlt aber in sources')
         for k, s in src.items():
@@ -46,7 +46,7 @@ for sub in ('topics', 'screening', 'kandidaten'):
                 fehler.append(f'{sub}/{f}: Matrix-Gruppe "{g.get("ziel")}" mit unbekanntem Bereich')
             for it in g.get('items', []):
                 n = it.get('n', '?')
-                if it.get('g') not in ('A', 'B', 'C', 'D'): fehler.append(f'{sub}/{f}: Wirkung "{n}" ohne gültigen Grad')
+                if it.get('g') not in ('A', 'B', 'C', 'D', '0'): fehler.append(f'{sub}/{f}: Wirkung "{n}" ohne gültigen Grad')
                 if it.get('m') not in (None, -1, 0, 1, 2, 3, 4): fehler.append(f'{sub}/{f}: Wirkung "{n}" mit ungültiger Effektgröße')
                 if it.get('m') not in (0, None) and it.get('d') not in ('auf', 'ab'): fehler.append(f'{sub}/{f}: Wirkung "{n}" ohne Richtung')
                 if it.get('b') not in ('nutzen', 'schaden', 'neutral'): fehler.append(f'{sub}/{f}: Wirkung "{n}" ohne Bewertung')

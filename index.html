@@ -21,6 +21,7 @@
   --accent: #1c5cab;
   --accent-soft: #e3edfa;
   --series-1: #2a78d6;
+  --gA: #1f9d55; --gA-ink: #ffffff; --gB: #7cc04f; --gB-ink: #10200a; --gC: #f0c93a; --gC-ink: #2a2005; --gD: #d64541; --gD-ink: #ffffff; --g0: #c9ced6; --g0-ink: #2b3340;
   --good: #0a7d0a;
   --good-bg: #e2f3e2;
   --warn: #8a5a00;
@@ -44,6 +45,7 @@
     --accent: #6da7ec;
     --accent-soft: #1f2f45;
     --series-1: #3987e5;
+    --gA: #3fbf72; --gA-ink: #0b1a11; --gB: #9ad46a; --gB-ink: #142010; --gC: #e6c547; --gC-ink: #221c05; --gD: #e5534b; --gD-ink: #ffffff; --g0: #5b6573; --g0-ink: #e6e9ee;
     --good: #5fcf5f;
     --good-bg: #17301a;
     --warn: #f2c25a;
@@ -54,6 +56,7 @@
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
+  --gA: #3fbf72; --gA-ink: #0b1a11; --gB: #9ad46a; --gB-ink: #142010; --gC: #e6c547; --gC-ink: #221c05; --gD: #e5534b; --gD-ink: #ffffff; --g0: #5b6573; --g0-ink: #e6e9ee;
   --bg: #12151a;
   --surface: #1a1e25;
   --surface-2: #232934;
@@ -109,7 +112,7 @@ p { margin: 0; }
 .topics li span em { font-style: normal; font-size: .72rem; border: 1px solid var(--line); border-radius: 99px; padding: 0 7px; }
 .toc a:hover, .topics li a:hover { background: var(--surface-2); }
 
-main { padding: 32px clamp(16px, 4vw, 56px) 80px; display: flex; flex-direction: column; gap: 48px; max-width: 1080px; }
+main { padding: 32px clamp(16px, 4vw, 56px) 80px; display: flex; flex-direction: column; gap: 48px; width: 100%; max-width: 1520px; margin: 0 auto; }
 section { display: flex; flex-direction: column; gap: 18px; scroll-margin-top: 16px; }
 .lead { color: var(--ink-2); max-width: 68ch; }
 
@@ -143,7 +146,7 @@ section { display: flex; flex-direction: column; gap: 18px; scroll-margin-top: 1
 .var > summary .q { font-size: .95rem; color: var(--ink-2); grid-column: 1 / -1; }
 .var > summary h3::after { content: " ▾"; color: var(--ink-3); font-size: .9rem; }
 .var[open] > summary h3::after { content: " ▴"; }
-.var .body { padding: 0 22px 22px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px 28px; border-top: 1px solid var(--line); padding-top: 18px; }
+.var .body { padding: 0 22px 22px; display: grid; grid-template-columns: minmax(0, 2.2fr) minmax(220px, 1fr); gap: 18px 32px; border-top: 1px solid var(--line); padding-top: 18px; }
 .var .body h4 { margin: 0 0 6px; font-size: .78rem; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3); }
 .var .body ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; font-size: .93rem; }
 .var .body p { font-size: .93rem; }
@@ -219,12 +222,13 @@ td.r, th.r { text-align: right; }
 html { scroll-behavior: smooth; }
 .toc.sub { padding-left: 12px; margin-top: 2px; }
 .toc.sub a { font-size: .85rem; padding: 4px 10px; }
-.var .figrow { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 14px; }
+.var .figrow { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(max(340px, calc(50% - 7px)), 1fr)); gap: 14px; }
 .var .fig { border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; background: var(--surface); display: flex; flex-direction: column; gap: 8px; }
 .var .fig h5 { margin: 0; font-family: var(--font-display); font-size: 1rem; font-weight: 600; }
 .var .fig.wide { grid-column: 1 / -1; }
 .pill.flag { color: var(--warn); background: var(--warn-bg); }
 @media (max-width: 500px) { .var .figrow { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .var .body { grid-template-columns: 1fr; } }
 .grp > summary { cursor: pointer; list-style: none; padding: 7px 10px; border-radius: 6px; color: var(--ink-2); font-size: .92rem; display: flex; justify-content: space-between; }
 .grp > summary::-webkit-details-marker { display: none; }
 .grp > summary::after { content: "▸"; color: var(--ink-3); }
@@ -240,6 +244,7 @@ html { scroll-behavior: smooth; }
 .scr-row .fill { height: 100%; background: var(--series-1); border-radius: 3px; }
 
 .topics li a.planned { color: var(--ink-3); }
+.topics li.nav-sep { font-size: .7rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); padding: 10px 10px 2px; }
 .topics li a.planned em, .topics li span em { font-style: normal; font-size: .72rem; border: 1px solid var(--line); border-radius: 99px; padding: 0 7px; }
 .empty { padding: 28px; text-align: left; display: flex; flex-direction: column; gap: 10px; }
 .toc button { all: unset; cursor: pointer; display: block; padding: 7px 10px; border-radius: 6px; color: var(--ink-2); font-size: .92rem; }
@@ -274,10 +279,11 @@ html { scroll-behavior: smooth; }
 .mx-sup { display: block; font-size: .74rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: var(--ink-3); }
 .grade { justify-self: center; display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 8px; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; }
 .grade.small { width: 24px; height: 24px; border-radius: 6px; font-size: .82rem; }
-.g-A { background: var(--accent); color: var(--bg); }
-.g-B { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); color: var(--ink); }
-.g-C { background: var(--accent-soft); color: var(--accent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 45%, transparent); }
-.g-D { background: transparent; color: var(--ink-2); box-shadow: inset 0 0 0 1px var(--ink-3); border: 1px dashed transparent; }
+.g-A { background: var(--gA); color: var(--gA-ink); }
+.g-B { background: var(--gB); color: var(--gB-ink); }
+.g-C { background: var(--gC); color: var(--gC-ink); }
+.g-D { background: var(--gD); color: var(--gD-ink); }
+.g-0 { background: var(--g0); color: var(--g0-ink); }
 .mx-eff { display: flex; align-items: center; gap: 10px; font-size: .88rem; color: var(--ink); }
 .mx-eff svg { flex: none; }
 .eff-nutzen svg { color: var(--good); }
@@ -318,6 +324,15 @@ html { scroll-behavior: smooth; }
   .mx-evi { flex-direction: row; flex-wrap: wrap; gap: 4px 14px; }
   .mx-gmeta { grid-column: 1 / -1; }
 }
+
+.def-box { border-left: 4px solid var(--accent); background: var(--accent-soft); display: flex; flex-direction: column; gap: 6px; }
+.def-box .label { font-size: .75rem; text-transform: uppercase; letter-spacing: .07em; color: var(--accent); font-weight: 700; }
+.def-box p { margin: 0; max-width: 90ch; }
+ol.findings { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; counter-reset: f; }
+ol.findings li { display: grid; grid-template-columns: 26px 1fr; gap: 4px 10px; align-items: start; counter-increment: f; }
+ol.findings li::before { content: counter(f); display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; font-size: .75rem; font-weight: 700; background: var(--surface-2); color: var(--ink-2); grid-row: span 2; margin-top: 1px; }
+ol.findings li.lv0::before, ol.findings li.lv1::before { background: var(--accent); color: var(--surface); }
+ol.findings .lvl { font-size: .72rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: var(--ink-3); }
 </style>
 </head>
 <body>
@@ -351,16 +366,32 @@ const NAV = [
     { title: "Makronährstoffe", children: [ { id: "protein", title: "Protein" } ] },
     { title: "Supplemente", children: [
       { id: "supplemente", title: "Übersicht aller Supplemente" },
+      { sep: "Leistung" },
       { id: "kreatin", title: "Kreatin" },
-      { id: "omega-3", title: "Omega-3-Fettsäuren" },
-      { id: "zink", title: "Zink" },
+      { id: "koffein", title: "Koffein" },
+      { id: "beta-alanin", title: "Beta-Alanin" },
+      { id: "nitrat", title: "Nitrat (Rote-Bete-Saft)" },
+      { id: "aminosaeuren", title: "BCAA und EAA" },
+      { sep: "Vitamine und Mineralstoffe" },
+      { id: "vitamin-d-k2", title: "Vitamin D3 und K2" },
+      { id: "vitamin-c", title: "Vitamin C" },
+      { id: "b-vitamine", title: "Vitamin B12 und B-Vitamine" },
+      { id: "multivitamin", title: "Multivitamin-Präparate" },
       { id: "magnesium", title: "Magnesium" },
-      { id: "vitamin-d-k2", title: "Vitamin D3 und K2" } ] } ] }
+      { id: "zink", title: "Zink" },
+      { id: "eisen", title: "Eisen" },
+      { id: "calcium", title: "Calcium" },
+      { sep: "Weitere" },
+      { id: "omega-3", title: "Omega-3-Fettsäuren" },
+      { id: "kollagen", title: "Kollagen" },
+      { id: "probiotika", title: "Probiotika" },
+      { id: "ashwagandha", title: "Ashwagandha" } ] } ] }
 ];
 const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2"];
 
 const PAGES = ["supplemente"]; /* Seiten ohne eigene Themendatei */
-const SUPPS = ["kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2"]; /* Supplemente mit Wirkungsübersicht */
+const SUPPS = ["protein", "kreatin", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "vitamin-d-k2", "vitamin-c", "b-vitamine", "multivitamin", "magnesium", "zink", "eisen", "calcium", "omega-3", "kollagen", "probiotika", "ashwagandha"]; /* Supplemente mit Wirkungsübersicht */
+const supList = () => SUPPS.filter(id => AVAILABLE.includes(id));
 const $ = (id) => document.getElementById(id);
 const evLabel = { hoch: "Evidenz hoch", moderat: "Evidenz moderat", niedrig: "Evidenz niedrig" };
 const TAGS = { neu: ["Neuer Befund", ""], conf: ["Bestätigt", "conf"], rel: ["Relativiert", "rel"], contra: ["Widerspricht", "contra"] };
@@ -390,7 +421,7 @@ function renderNav(cur) {
     if (!it.children) return navItem(it, cur);
     const open = it.id === cur || it.children.some(c => c.id === cur || (!c.var && cur === c.id)) || it.children.some(c => !c.var && c.id === cur);
     const head = it.id ? `<a href="#${it.id}" class="${it.id === cur ? "active" : ""}${AVAILABLE.includes(it.id) ? "" : " planned"}" style="flex:1">${it.title}${AVAILABLE.includes(it.id) ? "" : " <em>geplant</em>"}</a>` : it.title;
-    return `<li><details class="grp"${open ? " open" : ""}><summary>${head}</summary><ul class="topics sub">${it.children.map(c => c.var
+    return `<li><details class="grp"${open ? " open" : ""}><summary>${head}</summary><ul class="topics sub">${it.children.map(c => c.sep ? `<li class="nav-sep">${c.sep}</li>` : c.var
       ? `<li><a href="#${c.id}"${AVAILABLE.includes(it.id) ? "" : ' class="planned"'}>${c.title}</a></li>` : navItem(c, cur)).join("")}</ul></details></li>`;
   }).join("")}</ul>`).join("");
 }
@@ -427,6 +458,29 @@ function renderPlanned(id) {
 
 /* ----- Thema rendern ----- */
 function citeList(keys) { return "[" + keys.map(k => `<a href="#ref-${k}">${T.sources[k] ? T.sources[k].short : k}</a>`).join("; ") + "]"; }
+const LV_NAMES = ["Positionspapier / Umbrella Review", "Metaanalyse", "Systematischer Review", "Einzelstudie", "Narrativer Review / Sonstiges"];
+function srcLevel(type) {
+  const x = (type || "").toLowerCase();
+  if (/umbrella|positionspapier|konsens|position stand|leitlinie/.test(x)) return 0;
+  if (/meta|cochrane/.test(x)) return 1;
+  if (/systematisch/.test(x)) return 2;
+  if (/rct|studie|kohorte/.test(x) && !/review/.test(x)) return 3;
+  return 4;
+}
+function rankFindings(v, t) {
+  const plain = (x) => x.replace(/&amp;/g, "&").replace(/<[^>]+>/g, "");
+  return v.key.map((k, i) => {
+    const txt = plain(k);
+    const hits = v.s.filter(key => { const s = t.sources[key]; if (!s) return false;
+      const sh = plain(s.short).replace(/\s*\([^)]*\)\s*$/, ""); if (txt.includes(sh)) return true;
+      const m = sh.match(/^(.*?),\s*(\d{4}[a-z]?)$/); return m ? txt.includes(`${m[1]} (${m[2]})`) : false; });
+    const lv = hits.length ? Math.min(...hits.map(key => srcLevel(t.sources[key].type))) : 4;
+    const yr = hits.length ? Math.max(...hits.map(key => t.sources[key].year || 0)) : 0;
+    const km = txt.match(/(\d[\d.\u202f\u00a0 ]*)\s+(?:randomisierte\s+|kontrollierte\s+|placebokontrollierte\s+)?(?:Studien|RCTs|Interventionsstudien|Kohortenstudien)/);
+    const n = km ? parseInt(km[1].replace(/[^\d]/g, ""), 10) : 0;
+    return { k, i, lv, yr, n };
+  }).sort((a, b) => a.lv - b.lv || b.n - a.n || b.yr - a.yr || a.i - b.i);
+}
 function renderTopic(t) {
   const srcN = Object.keys(t.sources).length;
   const years = Object.values(t.sources).map(s => s.year).filter(Boolean);
@@ -439,6 +493,7 @@ function renderTopic(t) {
       <span><b>Automatische Aktualisierung:</b> alle 2 Wochen freitags</span>
     </div>
     <h1>${t.title}</h1>
+    ${t.def ? `<div class="card def-box"><span class="label">Definition</span><p>${t.def.t}</p><span class="cite">${citeList(t.def.s)}</span></div>` : ""}
     <p class="lead">${t.lead}</p>
     ${intro}
     <h2>Kurzfazit</h2>
@@ -463,12 +518,12 @@ function renderTopic(t) {
   </section>
   <section id="variablen">
     <h2>${t.varstitle || "Im Detail"}</h2>
-    <p class="lead">${t.varslead || "Je Abschnitt: Befunde, eigene Abbildungen aus den berichteten Kennzahlen, kritische Einordnung und Quellen. Effektstärken (SMD/ES) sind standardisierte Mittelwertunterschiede: etwa 0,2 gilt als klein, 0,5 als mittel, 0,8 als groß."}</p>
+    <p class="lead">${t.varslead || "Je Abschnitt: Befunde, eigene Abbildungen aus den berichteten Kennzahlen, kritische Einordnung und Quellen. Die Befunde sind nach Aussagekraft der Quelle geordnet: Positionspapiere und Umbrella Reviews zuerst, dann Metaanalysen, systematische Reviews, Einzelstudien und narrative Reviews; innerhalb einer Stufe zuerst die Arbeiten mit den meisten Studien, dann die neuesten. Effektstärken (SMD/ES) sind standardisierte Mittelwertunterschiede: etwa 0,2 gilt als klein, 0,5 als mittel, 0,8 als groß."}</p>
     <div class="vars">${t.vars.map(v => `
       <details class="card var" id="var-${v.id}" open>
         <summary><h3>${v.name}</h3><span class="pill ev-${v.ev}">${evLabel[v.ev]}</span><span class="q">${v.q}</span></summary>
         <div class="body">
-          <div><h4>Befunde</h4><ul>${v.key.map(k => `<li>${k}</li>`).join("")}</ul></div>
+          <div><h4>Befunde, nach Aussagekraft geordnet</h4><ol class="findings">${rankFindings(v, t).map(f => `<li class="lv${f.lv}"><span class="lvl">${LV_NAMES[f.lv]}${f.n ? " · " + f.n + " Studien" : ""}${f.yr ? " · " + f.yr : ""}</span><span>${f.k}</span></li>`).join("")}</ol></div>
           <div><h4>Quellen</h4><ul>${v.s.map(k => `<li><a href="#ref-${k}">${t.sources[k].short}</a> · ${t.sources[k].type}</li>`).join("")}</ul></div>
           ${v.figs && v.figs.length ? `<div class="figrow">${v.figs.map(f => `
             <figure class="fig${f.wide || f.type === "forest" || f.type === "dots" ? " wide" : ""}" style="margin:0">
@@ -532,7 +587,9 @@ const GRADE = {
   A: "Grad A – hoch: mehrere übereinstimmende Metaanalysen oder eine große Metaanalyse (mind. 20 Studien bzw. 1000 Teilnehmende) mit eindeutigem Ergebnis.",
   B: "Grad B – moderat: mindestens eine Metaanalyse mit 8 oder mehr Studien, Ergebnisse überwiegend übereinstimmend.",
   C: "Grad C – niedrig: wenige Studien, widersprüchliche Metaanalysen, hohe Heterogenität oder nur eingeschränkt übertragbare Population.",
-  D: "Grad D – sehr niedrig: sehr wenige oder kleine Studien, überwiegend indirekte Hinweise (z. B. Tierstudien)." };
+  D: "Grad D – sehr niedrig: sehr wenige oder kleine Studien, überwiegend indirekte Hinweise (z. B. Tierstudien).",
+  "0": "Keine Daten: zu dieser Wirkung wurde keine Metaanalyse oder systematische Übersicht gefunden." };
+const gLabel = (g) => g === "0" ? "–" : g;
 const AREAS = [["alle", "Alle"], ["Leistung", "Leistung"], ["Regeneration", "Regeneration"], ["Gesundheit", "Gesundheit"]];
 const KAT = [["kraft", "Kraft und Muskelfunktion"], ["masse", "Muskelmasse und Körperbau"], ["ausdauer", "Schnellkraft und Ausdauer"], ["regeneration", "Erholung und Regeneration"],
   ["entzuendung", "Entzündung"], ["hormone", "Hormone"], ["herz", "Herz-Kreislauf und Stoffwechsel"], ["stoffwechsel", "Herz-Kreislauf und Stoffwechsel"], ["infekte", "Immunsystem und Infekte"],
@@ -541,6 +598,7 @@ const fmtInt = (n) => Number(n).toLocaleString("de-DE");
 const ICON_DOC = '<svg width="13" height="15" viewBox="0 0 13 15" aria-hidden="true"><path d="M2 1h6l3 3v10H2z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M4 7h5M4 9.5h5M4 12h3" stroke="currentColor" stroke-width="1.2"/></svg>';
 const ICON_PERS = '<svg width="13" height="14" viewBox="0 0 13 14" aria-hidden="true"><circle cx="6.5" cy="4" r="2.8" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M1.2 13.3c.6-3 2.7-4.6 5.3-4.6s4.7 1.6 5.3 4.6" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>';
 function effLabel(it) {
+  if (it.g === "0") return "Nicht untersucht";
   if (it.m === 0) return "Kein Effekt";
   if (it.m === null || it.m === undefined) return "Uneinheitlich";
   const dir = it.d === "auf" ? "Zunahme" : "Abnahme";
@@ -549,6 +607,7 @@ function effLabel(it) {
 }
 function effGlyph(it) {
   const W = 52, H = 20;
+  if (it.g === "0") return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="3 3"/></svg>`;
   if (it.m === 0) return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true"><rect x="2" y="9" width="16" height="3" rx="1.5" fill="currentColor"/></svg>`;
   if (it.m === null || it.m === undefined) return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true"><path d="M2 7.5c3-3 5 3 8 0s5-3 8 0M2 13.5c3-3 5 3 8 0s5-3 8 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
   const up = it.d === "auf";
@@ -557,10 +616,10 @@ function effGlyph(it) {
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true">${arrow}${bars}</svg>`;
 }
 function mxRow(it, opt) {
-  const cites = opt.cites(it.s);
+  const cites = it.s.length ? opt.cites(it.s) : "";
   return `<details class="mx-row"><summary>
       <span class="mx-name">${opt.prefix ? `<span class="mx-sup">${opt.prefix}</span>` : ""}${it.n}</span>
-      <span class="grade g-${it.g}" title="${esc(GRADE[it.g])}" aria-label="${esc(GRADE[it.g].split(":")[0])}">${it.g}</span>
+      <span class="grade g-${it.g}" title="${esc(GRADE[it.g])}" aria-label="${esc(GRADE[it.g].split(":")[0])}">${gLabel(it.g)}</span>
       <span class="mx-eff eff-${it.b}">${effGlyph(it)}<span>${effLabel(it)}${it.b === "schaden" ? ' <em class="mx-warn">unerwünscht</em>' : ""}</span></span>
       <span class="mx-evi"><span>${ICON_DOC}${it.k ? `${fmtInt(it.k)} Studien` : "Studienzahl k. A."}</span><span>${ICON_PERS}${it.p ? `${fmtInt(it.p)} Teilnehmende` : "Teilnehmende k. A."}</span></span>
     </summary>
@@ -583,7 +642,7 @@ function renderMx() {
 function mxLegend() {
   const ex = (m, d, b) => `<span class="eff-key mx-eff eff-${b}">${effGlyph({ m, d })}<span>${effLabel({ m, d })}</span></span>`;
   return `<div class="mx-legend">
-    <div><h3>Grad: Wie sicher ist der Befund?</h3><dl>${["A", "B", "C", "D"].map(g => `<dt><span class="grade small g-${g}">${g}</span></dt><dd>${GRADE[g].split(": ")[1]}</dd>`).join("")}</dl>
+    <div><h3>Grad: Wie sicher ist der Befund?</h3><dl>${["A", "B", "C", "D", "0"].map(g => `<dt><span class="grade small g-${g}">${gLabel(g)}</span></dt><dd>${GRADE[g].split(": ")[1]}</dd>`).join("")}</dl>
       <p class="cap" style="margin-top:10px">Der Grad beschreibt die Verlässlichkeit, nicht die Stärke der Wirkung. Auch „Kein Effekt“ kann mit Grad A belegt sein.</p></div>
     <div><h3>Effekt: Wie stark ist die Wirkung?</h3><dl>
       <dt>${ex(1, "auf", "nutzen")}</dt><dd>SMD unter 0,2 bzw. Risikoänderung unter 10 %</dd>
@@ -603,9 +662,9 @@ async function renderSupOverview() {
   $("toc").innerHTML = "";
   document.title = "Forschungsstand Supplemente";
   $("main").innerHTML = `<section><p class="lead">Wird geladen …</p></section>`;
-  try { await Promise.all(SUPPS.map(async id => { if (!cache[id]) cache[id] = await (await fetch(`data/topics/${id}.json`)).json(); })); }
+  try { await Promise.all(supList().map(async id => { if (!cache[id]) cache[id] = await (await fetch(`data/topics/${id}.json`)).json(); })); }
   catch (e) { $("main").innerHTML = `<section><div class="card empty"><h2>Übersicht konnte nicht geladen werden</h2><p>Bitte die Seite neu laden.</p></div></section>`; return; }
-  const tops = SUPPS.map(id => cache[id]).filter(t => t.matrix);
+  const tops = supList().map(id => cache[id]).filter(t => t.matrix);
   const nW = tops.reduce((a, t) => a + t.matrix.reduce((b, g) => b + g.items.length, 0), 0);
   const nS = tops.reduce((a, t) => a + Object.keys(t.sources).length, 0);
   const stand = tops.map(t => t.stand).sort().pop();
@@ -631,13 +690,13 @@ async function renderSupOverview() {
 function supItems() {
   const q = supQuery.trim().toLowerCase();
   const out = [];
-  SUPPS.forEach(id => { const t = cache[id]; if (!t || !t.matrix) return;
+  supList().forEach(id => { const t = cache[id]; if (!t || !t.matrix) return;
     t.matrix.forEach(g => { if (supArea !== "alle" && g.bereich !== supArea) return;
       g.items.forEach(it => { const hay = `${t.title} ${g.ziel} ${it.n} ${it.t} ${(KAT.find(k => k[0] === g.kat) || ["", ""])[1]}`.toLowerCase();
         if (!q || hay.includes(q)) out.push({ ...it, top: t, grp: g }); }); }); });
   return out;
 }
-const rank = (it) => "ABCD".indexOf(it.g) * 10 - (it.b === "nutzen" && it.m > 0 ? it.m : 0);
+const rank = (it) => (it.g === "0" ? 4 : "ABCD".indexOf(it.g)) * 10 - (it.b === "nutzen" && it.m > 0 ? it.m : 0);
 function supOpt() {
   return { prefix: null, srcKeys: (i) => i.s.map(k => i.top.id + k),
     cites: function (keys) { return "[" + keys.map(k => this.cur.top.sources[k].short).join("; ") + "]"; },
@@ -649,12 +708,12 @@ function drawSup() {
   const items = supItems();
   if (!items.length) { $("sup-out").innerHTML = `<div class="card mx-empty">Keine passenden Wirkungen gefunden.</div>`; return; }
   if (supView === "sup") {
-    $("sup-out").innerHTML = `<div class="sup-grid">${SUPPS.map(id => {
+    $("sup-out").innerHTML = `<div class="sup-grid">${supList().map(id => {
       const t = cache[id]; const mine = items.filter(i => i.top.id === id); if (!mine.length) return "";
       const pos = mine.filter(i => i.b === "nutzen" && i.m !== 0).sort((a, b) => rank(a) - rank(b)).slice(0, 4);
       const none = mine.filter(i => i.m === 0).sort((a, b) => rank(a) - rank(b)).slice(0, 2);
       const neg = mine.filter(i => i.b === "schaden");
-      const li = (i) => `<li><span class="grade small g-${i.g}" title="${esc(GRADE[i.g])}">${i.g}</span><span>${i.n}<small>${effLabel(i)}</small></span></li>`;
+      const li = (i) => `<li><span class="grade small g-${i.g}" title="${esc(GRADE[i.g])}">${gLabel(i.g)}</span><span>${i.n}<small>${effLabel(i)}</small></span></li>`;
       return `<article class="card sup-card">
         <h3><a href="#${id}">${t.title}</a></h3>
         <span class="meta">${mine.length} ${mine.length === 1 ? "Wirkung" : "Wirkungen"} · ${Object.keys(t.sources).length} Quellen · Stand ${fmtDate(t.stand)}</span>

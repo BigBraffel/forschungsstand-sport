@@ -278,6 +278,10 @@
  ],
  "changelog": [
   {
+   "d": "20.11.2026",
+   "t": "Wirkungsübersicht: „Kraft- und Ausdauerleistung“ als nicht untersucht ergänzt (keine Metaanalyse vorhanden)."
+  },
+  {
    "d": "17.11.2026",
    "t": "Wirkungsübersicht ergänzt: 7 Wirkungen nach Verlässlichkeit (Grad A–D), Effekt und Datenbasis eingestuft; neue Übersichtsseite für alle Supplemente."
   },
@@ -472,9 +476,21 @@
   },
   {
    "bereich": "Leistung",
-   "ziel": "Hormone",
+   "ziel": "Leistung und Hormone",
    "kat": "hormone",
    "items": [
+    {
+     "n": "Kraft- und Ausdauerleistung",
+     "g": "0",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [],
+     "t": "Zu Zink und sportlicher Leistung bei Gesunden wurde in PubMed keine Metaanalyse und kein systematischer Review gefunden.",
+     "v": "hormone"
+    },
     {
      "n": "Testosteron",
      "g": "D",

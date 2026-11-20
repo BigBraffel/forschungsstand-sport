@@ -934,6 +934,10 @@
  ],
  "changelog": [
   {
+   "d": "20.11.2026",
+   "t": "Definition am Seitenanfang ergänzt (Haun et al., 2019)."
+  },
+  {
    "d": "16.11.2026",
    "t": "Vormerkungen ausgewertet: 18 geprüft, 15 aufgenommen, 3 ausgeschlossen (reine Mechanismusarbeiten). Neue Abschnitte Übungsauswahl, Satzstruktur und „Was ist realistisch?“; Versagen relativiert (Vorteil nur bei ungleichem Volumen), Volumen um Satzzahl pro Einheit ergänzt, Geschlecht und Tageszeit ergänzt; neuer Kernsatz und zwei neue Ableitungen."
   },
@@ -1251,6 +1255,21 @@
    "apa": "Grgic, J., Lazinica, B., Garofolini, A., Schoenfeld, B. J., Saner, N. J. &amp; Mikulic, P. (2019). The effects of time of day-specific resistance training on adaptations in skeletal muscle hypertrophy and muscle strength: A systematic review and meta-analysis. <em>Chronobiology International, 36</em>(4), 449–460.",
    "doi": "10.1080/07420528.2019.1567524",
    "journal": "Chronobiology International"
+  },
+  "haun2019": {
+   "short": "Haun et al., 2019",
+   "year": 2019,
+   "type": "Kritischer Review",
+   "basis": "Abstract",
+   "pmid": "30930796",
+   "apa": "Haun, C. T., Vann, C. G., Roberts, B. M., Vigotsky, A. D., Schoenfeld, B. J. &amp; Roberts, M. D. (2019). A critical evaluation of the biological construct skeletal muscle hypertrophy: Size matters but so does the measurement. <em>Frontiers in Physiology, 10</em>, Artikel 247.",
+   "doi": "10.3389/fphys.2019.00247"
   }
+ },
+ "def": {
+  "t": "Muskelhypertrophie bezeichnet das Wachstum der Skelettmuskulatur durch Training. Sie zeigt sich als Zunahme von Muskelmasse, Muskeldicke, Muskelquerschnitt, Muskelvolumen und der Querschnittsfläche einzelner Muskelfasern. Diese Messgrößen stimmen nur begrenzt überein; Ergebnisse hängen daher auch davon ab, wie gemessen wird.",
+  "s": [
+   "haun2019"
+  ]
  }
 }

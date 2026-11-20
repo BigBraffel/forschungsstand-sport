@@ -1845,6 +1845,15 @@
    "pmid": "33629976",
    "apa": "Nuzzo, J. L. (2021). History of strength training research in man: An inventory and quantitative overview of studies published in english between 1894 and 1979. <em>Journal of Strength and Conditioning Research, 35</em>(5), 1425–1448.",
    "doi": "10.1519/JSC.0000000000003959"
+  },
+  "suchomel2016": {
+   "short": "Suchomel et al., 2016",
+   "year": 2016,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "26838985",
+   "apa": "Suchomel, T. J., Nimphius, S. &amp; Stone, M. H. (2016). The importance of muscular strength in athletic performance. <em>Sports Medicine, 46</em>(10), 1419–1449.",
+   "doi": "10.1007/s40279-016-0486-0"
   }
  },
  "timeline": [
@@ -2362,6 +2371,10 @@
  ],
  "changelog": [
   {
+   "d": "20.11.2026",
+   "t": "Definition am Seitenanfang ergänzt (Suchomel et al., 2016)."
+  },
+  {
    "d": "16.11.2026",
    "t": "Vormerkungen ausgewertet: 57 geprüft, 41 aufgenommen, 16 ausgeschlossen. Neue Abschnitte „Übungsauswahl und Spezifität“, „Belastungssteuerung“, „Frauen und Männer“, „Warum wird man stärker?“ und „Tageszeit und Trainingspausen“; Blutflussrestriktion und Spezialmethoden ergänzt; Periodisierung weiter relativiert."
   },
@@ -2377,5 +2390,11 @@
    "d": "16.11.2026",
    "t": "Erstfassung des Themas Maximalkrafttraining mit 18 Quellen (1962–2026)."
   }
- ]
+ ],
+ "def": {
+  "t": "Maximalkraft ist die höchste Kraft, die die Muskulatur willkürlich gegen einen Widerstand entfalten kann. In Studien wird sie meist dynamisch als Einwiederholungsmaximum (1RM) oder isometrisch gemessen. Größere Maximalkraft geht mit besseren Sprung-, Sprint- und Richtungswechselleistungen und einem geringeren Verletzungsrisiko einher.",
+  "s": [
+   "suchomel2016"
+  ]
+ }
 }

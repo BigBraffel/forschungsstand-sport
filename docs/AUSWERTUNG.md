@@ -14,6 +14,9 @@ Diese Regeln gelten für jeden Aktualisierungslauf, ob automatisch oder von Hand
 - `timeline`: y, t, p, tag (neu/conf/rel/contra), s.
 - `changelog`: d (TT.MM.JJJJ), t. Der neueste Eintrag steht zuerst.
 
+- `def` (optional, Trainingsthemen): Definition am Seitenanfang, {t, s}; nur mit wissenschaftlicher Quelle.
+- Die Reihenfolge der Befunde in `key` ist egal: Die Seite ordnet sie automatisch nach Aussagekraft der zitierten Quelle (Positionspapier/Umbrella > Metaanalyse > systematischer Review > Einzelstudie > narrativer Review), innerhalb einer Stufe nach Studienzahl („N Studien“ im Text) und Jahr. Jeder Befund muss deshalb seine Quelle im Text nennen (Nachname et al., Jahr).
+
 `index.html` wird nur geändert, wenn ein neues Thema hinzukommt (NAV und AVAILABLE; ein neues Supplement zusätzlich in SUPPS).
 
 ## Wirkungsübersicht (nur Supplemente, Feld `matrix`)
@@ -37,6 +40,7 @@ Diese Regeln gelten für jeden Aktualisierungslauf, ob automatisch oder von Hand
 - B: mindestens eine Metaanalyse mit 8 oder mehr Studien, überwiegend übereinstimmend.
 - C: wenige Studien, widersprüchliche Metaanalysen, hohe Heterogenität oder eingeschränkt übertragbare Population.
 - D: sehr wenige oder kleine Studien, überwiegend indirekte Hinweise.
+- "0": keine Daten. Für eine relevante Wirkung wurde keine Metaanalyse oder systematische Übersicht gefunden (s = [], m = null). Wird grau dargestellt.
 
 **Größe `m`:**
 - 0: nicht signifikant

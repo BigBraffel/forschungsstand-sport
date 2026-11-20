@@ -1,7 +1,7 @@
 {
  "id": "protein",
  "title": "Protein",
- "stand": "2026-11-16",
+ "stand": "2026-11-17",
  "lead": "Wie viel Protein braucht man für Muskelaufbau und Kraft, spielt der Zeitpunkt eine Rolle, sind pflanzliche Quellen gleichwertig, und ist eine hohe Zufuhr gesundheitlich unbedenklich? Zusammengefasst aus Metaanalysen, Dosis-Wirkungs-Analysen und einem Positionspapier.",
  "rxtitle": "Ableitungen für Ernährung und Training",
  "rxlead": "Für gesunde, krafttrainierende Erwachsene. Entscheidend ist die tägliche Gesamtmenge; Zeitpunkt und Quelle sind nachrangig.",
@@ -606,6 +606,10 @@
  ],
  "changelog": [
   {
+   "d": "17.11.2026",
+   "t": "Wirkungsübersicht ergänzt: 10 Wirkungen nach Verlässlichkeit (Grad A–D), Effekt und Datenbasis eingestuft."
+  },
+  {
    "d": "16.11.2026",
    "t": "Vormerkungen ausgewertet: 10 geprüft, 10 aufgenommen, 0 ausgeschlossen. Neuer Abschnitt „Proteinpräparate“ (Milchprotein, Molke, essenzielle Aminosäuren) mit Abbildung; Pflanzenprotein-Bewertung differenziert (Soja/Erbse nahezu gleichwertig, kleiner Gesamtvorteil tierischer Proteine); akute Proteinsynthese-Daten zum Zeitpunkt ergänzt; Expertenkonsens zur Unsicherheit verbreiteter Annahmen eingeordnet."
   },
@@ -804,5 +808,187 @@
    "apa": "Ferrando, A. A., Wolfe, R. R., Hirsch, K. R., Church, D. D., Kviatkovsky, S. A., Roberts, M. D., Stout, J. R., Gonzalez, D. E., Sowinski, R. J., Kreider, R. B., Kerksick, C. M., Burd, N. A., Pasiakos, S. M., Ormsbee, M. J., Arent, S. M., Arciero, P. J., Campbell, B. I., VanDusseldorp, T. A., Jager, R., … Antonio, J. (2023). International society of sports nutrition position stand: Effects of essential amino acid supplementation on exercise and performance. <em>Journal of the International Society of Sports Nutrition, 20</em>(1), Artikel 2263409.",
    "doi": "10.1080/15502783.2023.2263409"
   }
- }
+ },
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Muskelmasse und Körperbau",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Fettfreie Masse (mit Krafttraining)",
+     "g": "A",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 74,
+     "p": null,
+     "s": [
+      "nunes2022",
+      "morton2018",
+      "tagawa2020",
+      "mohammadi2025"
+     ],
+     "t": "Mehr Protein steigerte den Zuwachs an fettfreier Masse bei Krafttraining (SMD 0,22; 62 Studien); +0,30 kg in 49 Studien (n = 1863). Bei Trainierten stärker (+0,75 kg).",
+     "v": "menge"
+    },
+    {
+     "n": "Körperfett (Milchprotein)",
+     "g": "B",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 150,
+     "p": null,
+     "s": [
+      "mohammadi2025",
+      "sepandi2022"
+     ],
+     "t": "Milchprotein senkte die Fettmasse um 0,66 kg und den Körperfettanteil um 0,66 Prozentpunkte (150 Studien).",
+     "v": "praeparate"
+    },
+    {
+     "n": "Muskelmasse bei Zufuhr über 1,3–1,6 g/kg/Tag",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 49,
+     "p": 1863,
+     "s": [
+      "morton2018",
+      "tagawa2020",
+      "jager2017"
+     ],
+     "t": "Über 1,62 g/kg/Tag kein weiterer Zuwachs (Morton et al., 2018). In einer Dosis-Wirkungs-Analyse brachte jedes zusätzliche 0,1 g/kg oberhalb von 1,3 g/kg/Tag nur noch +0,12 kg statt +0,39 kg darunter.",
+     "v": "menge"
+    },
+    {
+     "n": "Muskelmasse: pflanzliches statt tierisches Protein",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "neutral",
+     "k": 30,
+     "p": null,
+     "s": [
+      "reidmccann2025",
+      "piridamaghi2022",
+      "zhao2024"
+     ],
+     "t": "Mit pflanzlichem Protein etwas weniger Muskelmasse (SMD −0,20; 30 Studien). Soja und Milchprotein unterschieden sich nicht (17 Studien), andere Pflanzenproteine schnitten schlechter ab (SMD −0,58).",
+     "v": "quelle"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und Leistung",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Maximalkraft (1RM)",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 49,
+     "p": 1863,
+     "s": [
+      "morton2018",
+      "nunes2022"
+     ],
+     "t": "+2,49 kg im 1RM (49 Studien). Unterkörperkraft ab 1,6 g/kg/Tag SMD 0,40, Bankdrücken bei unter 65-Jährigen SMD 0,18; Evidenzqualität niedrig.",
+     "v": "menge"
+    },
+    {
+     "n": "Sportliche Leistungstests (pflanzliches Protein)",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "zhao2024"
+     ],
+     "t": "Gegenüber keinem oder wenig Protein besser (SMD 0,281); gegenüber anderen Proteinarten etwas schwächer (SMD −0,119).",
+     "v": "quelle"
+    },
+    {
+     "n": "Körperliche Funktion (Gehtests)",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 116,
+     "p": 4711,
+     "s": [
+      "zhou2024"
+     ],
+     "t": "Weder Zeitpunkt noch Proteinart verbesserten Timed-up-and-go-Test, 6-Minuten-Gehtest oder Ganggeschwindigkeit (116 Studien).",
+     "v": "timing"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Zeitpunkt",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Muskelmasse: Einnahme vor statt nach dem Training",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 5,
+     "p": null,
+     "s": [
+      "casuso2025",
+      "zhou2024",
+      "jager2017"
+     ],
+     "t": "Kein Unterschied für die fettfreie Masse (SMD −0,08; 5 Studien). Entscheidend ist die Tagesmenge; laut ISSN 20–40 g je Mahlzeit, verteilt alle 3–4 Stunden.",
+     "v": "timing"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Nierenschädigung bei hoher Proteinzufuhr",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 28,
+     "p": 1358,
+     "s": [
+      "devries2018",
+      "teixeira2026"
+     ],
+     "t": "Die Veränderung der GFR unterschied sich nicht (SMD 0,11; 28 Studien); eGFR stieg sogar (SMD 0,39; 22 Studien), Serumkreatinin unverändert, ohne Hinweis auf Nierenschäden bei Nierengesunden.",
+     "v": "gesundheit"
+    },
+    {
+     "n": "Herz-Kreislauf-Ereignisse bei hoher Proteinzufuhr",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 6,
+     "p": 221583,
+     "s": [
+      "mantzouranis2023"
+     ],
+     "t": "Kein Zusammenhang mit kardiovaskulärem Tod (OR 0,94) oder Schlaganfall (OR 1,02); nur Beobachtungsstudien.",
+     "v": "gesundheit"
+    }
+   ]
+  }
+ ]
 }

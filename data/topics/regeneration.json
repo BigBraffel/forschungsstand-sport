@@ -709,6 +709,10 @@
  ],
  "changelog": [
   {
+   "d": "20.11.2026",
+   "t": "Definition am Seitenanfang ergänzt (Kellmann et al., 2018)."
+  },
+  {
    "d": "16.11.2026",
    "t": "Vormerkungen ausgewertet: 10 geprüft, 10 aufgenommen, 0 ausgeschlossen. Kälte durch zwei Metaanalysen bestätigt und differenziert (akut Schnellkraft und Empfinden, regelmäßig Bremse für Kraftzuwachs); neue Abschnitte Nahrungsergänzung (BCAA, Omega-3) sowie Alter und Geschlecht; Vorbelastung und Vibration ergänzt; Protein bestätigt; zwei neue Kernsätze und Ableitungen."
   },
@@ -915,6 +919,21 @@
    "pmid": "30908366",
    "apa": "Morawetz, D., Blank, C., Koller, A., Arvandi, M., Siebert, U. &amp; Schobersberger, W. (2020). Sex-Related differences after a single bout of maximal eccentric exercise in response to acute effects: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 34</em>(9), 2697–2707.",
    "doi": "10.1519/JSC.0000000000002867"
+  },
+  "kellmann2018": {
+   "short": "Kellmann et al., 2018",
+   "year": 2018,
+   "type": "Konsenspapier",
+   "basis": "Abstract",
+   "pmid": "29345524",
+   "apa": "Kellmann, M., Bertollo, M., Bosquet, L., Brink, M., Coutts, A. J., Duffield, R., Erlacher, D., Halson, S. L., Hecksteden, A., Heidari, J., Kallus, K. W., Meeusen, R., Mujika, I., Robazza, C., Skorski, S., Venter, R. &amp; Beckmann, J. (2018). Recovery and performance in sport: Consensus statement. <em>International Journal of Sports Physiology and Performance, 13</em>(2), 240–245.",
+   "doi": "10.1123/ijspp.2017-0759"
   }
+ },
+ "def": {
+  "t": "Regeneration (Erholung) ist die Wiederherstellung der Leistungsfähigkeit nach Trainings- und Wettkampfbelastung; sie umfasst physiologische und psychologische Vorgänge. Ziel ist ein Gleichgewicht zwischen Belastung und Erholung, um dauerhaft leistungsfähig zu bleiben und Unter-Erholung, Übertraining, Verletzungen oder Erkrankungen vorzubeugen. Diese Seite behandelt die Erholung nach einer Krafttrainingseinheit.",
+  "s": [
+   "kellmann2018"
+  ]
  }
 }
