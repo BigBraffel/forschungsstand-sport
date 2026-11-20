@@ -1,0 +1,974 @@
+{
+ "id": "eisen",
+ "title": "Eisen",
+ "stand": "2026-11-17",
+ "lead": "Wem nützt zusätzliches Eisen: Steigert es bei Eisenmangel ohne Anämie Ausdauer und VO₂max, lindert es Müdigkeit, und wie dosiert man es verträglich? Zusammengefasst aus Metaanalysen, Cochrane-Reviews und systematischen Reviews.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierende Erwachsene. Eisen ist kein allgemeines Leistungssupplement: Ein Nutzen ist an einen niedrigen Eisenstatus gebunden, der vorher per Blutbild und Ferritin geprüft werden sollte.",
+ "rx": [
+  {
+   "label": "Für wen",
+   "value": "nur bei niedrigem Ferritin",
+   "text": "Der Ferritinanstieg war bei Ausgangswerten ≤ 12 µg/l deutlich, bei höheren Werten minimal. Rund die Hälfte der College-Sportler hatte Ferritin unter 50 µg/l; vor allem Sportlerinnen sollten regelmäßig untersucht werden.",
+   "cite": "Šmid et al. 2024; Thompson et al. 2025"
+  },
+  {
+   "label": "Dosis und Dauer",
+   "value": "16–100 mg elementares Eisen, 6–8 Wochen",
+   "text": "In Studien mit Sportlern wirkten 16 bis 100 mg elementares Eisen täglich über 6 bis 8 Wochen; kürzere Protokolle waren wirkungslos. Bei Sportlerinnen mit Mangel wurden meist etwa 100 mg pro Tag eingesetzt.",
+   "cite": "Šmid et al. 2024; Pengelly et al. 2025"
+  },
+  {
+   "label": "Rhythmus",
+   "value": "jeden zweiten Tag ist eine Option",
+   "text": "Einnahme jeden zweiten Tag hob das Hämoglobin nicht signifikant schwächer als die tägliche Einnahme und war in einem Review besser verträglich. Die Evidenz ist sehr unsicher.",
+   "cite": "Dhanvijay et al. 2025; Kamath et al. 2024"
+  },
+  {
+   "label": "Zeitpunkt",
+   "value": "nicht direkt nach langen Einheiten",
+   "text": "Hepcidin, das die Eisenaufnahme hemmt, steigt nach Belastung auf das 1,5- bis 2,5-Fache; die Zunahme hing vor allem von der Belastungsdauer ab. Eine Einnahme morgens vor dem Training oder an Ruhetagen ist daraus abgeleitet, aber nicht in Metaanalysen geprüft.",
+   "cite": "Fensham et al. 2023"
+  },
+  {
+   "label": "Für wen nicht",
+   "value": "bei normalem Eisenstatus",
+   "text": "Ohne Mangel ist kein Leistungsgewinn belegt, Magen-Darm-Beschwerden sind dagegen etwa doppelt so häufig. Infusionen gehören in ärztliche Hand.",
+   "cite": "Tolkien et al. 2015; Low et al. 2016"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Eisenmangel sollte ärztlich abgeklärt werden (Ursachen wie Blutverluste). Eisen ohne nachgewiesenen Bedarf dauerhaft einzunehmen, ist nicht sinnvoll; Überladung ist hier nicht durch eigene Metaanalysen bewertet.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Eisenmangel ist bei Sportlern häufig",
+   "ev": "moderat",
+   "p": "Etwa 54 % der College-Sportler hatten Ferritin unter 50 µg/l, 23 % unter 20 µg/l.",
+   "s": [
+    "thompson2025"
+   ]
+  },
+  {
+   "t": "Supplemente füllen leere Speicher",
+   "ev": "hoch",
+   "p": "Eisen erhöhte Ferritin und Hämoglobin deutlich, am stärksten bei sehr niedrigem Ausgangsferritin.",
+   "s": [
+    "smid2024",
+    "burden2015",
+    "low2016",
+    "mccarthy2026"
+   ]
+  },
+  {
+   "t": "VO₂max steigt vor allem bei Frauen mit Mangel",
+   "ev": "moderat",
+   "p": "Bei Frauen im gebärfähigen Alter und bei eisenarmen Ausdauersportlern stieg die VO₂max; bei Erwachsenen ohne Anämie insgesamt fand sich kein objektiver Effekt.",
+   "s": [
+    "pasricha2014",
+    "burden2015",
+    "houston2018",
+    "smid2024"
+   ]
+  },
+  {
+   "t": "Weniger Müdigkeit bei Mangel ohne Anämie",
+   "ev": "moderat",
+   "p": "Eisen verringerte die selbst berichtete Müdigkeit klein bis moderat.",
+   "s": [
+    "houston2018",
+    "yokoi2017",
+    "fiani2025"
+   ]
+  },
+  {
+   "t": "Magen-Darm-Beschwerden sind der Preis",
+   "ev": "hoch",
+   "p": "Eisensulfat verdoppelte etwa das Risiko für Magen-Darm-Nebenwirkungen; Einnahme jeden zweiten Tag kann die Verträglichkeit verbessern.",
+   "s": [
+    "tolkien2015",
+    "low2016",
+    "kamath2024"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "mangel",
+   "name": "Eisenmangel bei Sportlern",
+   "q": "Wie häufig ist Eisenmangel ohne Anämie bei Sportlern?",
+   "ev": "moderat",
+   "key": [
+    "122 Quellen mit 17 519 College-Sportlern aus 23 Ländern: etwa 53,9 % hatten Ferritin unter 50 µg/l, 23,0 % einen absoluten Eisenmangel (Ferritin unter 20 µg/l) (Thompson et al., 2025).",
+    "Bei Sportlerinnen mit Eisenmangel (Ferritin unter 40 µg/l) lag die Ausdauerleistung um 3–4 % niedriger; Kraft- und anaerobe Leistung waren je nach Schwere des Mangels um −23 % bis +4 % verändert (Pengelly et al., 2025)."
+   ],
+   "critic": "Die Prävalenz hängt stark vom Grenzwert ab: Mit 50 µg/l gilt die Hälfte als betroffen, mit 20 µg/l knapp ein Viertel. Die Daten stammen aus 41 Jahren und sehr verschiedenen Sportarten. Die Leistungseinbußen bei Mangel stammen aus kleinen Studien (meist höchstens 20 Personen je Gruppe).",
+   "figs": [
+    {
+     "id": "fe-praev",
+     "title": "Niedriges Ferritin bei College-Sportlern",
+     "cap": "Anteil der Sportler unterhalb des Ferritin-Grenzwerts (Thompson et al., 2025; 17 519 Sportler).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Ferritin < 50 µg/l",
+       "es": 53.9
+      },
+      {
+       "l": "Ferritin < 20 µg/l",
+       "es": 23.0
+      }
+     ],
+     "opts": {
+      "max": 60,
+      "ticks": [
+       0,
+       20,
+       40,
+       60
+      ],
+      "unit": "%",
+      "xlab": "Anteil der Sportler",
+      "src": "Thompson et al., 2025"
+     }
+    }
+   ],
+   "s": [
+    "thompson2025",
+    "pengelly2025"
+   ]
+  },
+  {
+   "id": "status",
+   "name": "Wirkung auf den Eisenstatus",
+   "q": "Wie stark heben Eisensupplemente Ferritin und Hämoglobin?",
+   "ev": "hoch",
+   "key": [
+    "Sportler, 13 RCTs (n = 449): Ferritin stieg (SMD 1,27 [0,44; 2,10]); Hämoglobin (SMD 1,31 [−0,29; 2,93]), Transferrinrezeptor und Transferrinsättigung veränderten sich nicht signifikant. Wirksam waren 16–100 mg elementares Eisen über 6–8 Wochen, vor allem bei Ausgangsferritin ≤ 12 µg/l (Šmid et al., 2024).",
+    "Eisenarme Ausdauersportler ohne Anämie, 17 Studien: großer Effekt auf Ferritin (g = 1,088 [0,914; 1,263]) und Serumeisen (g = 1,004), moderater auf Hämoglobin (g = 0,695 [0,533; 0,836]). Behandlungen über 80 Tage wirkten am schwächsten auf Ferritin (Burden et al., 2015).",
+    "Aktive Frauen: Eisensulfat erhöhte Hämoglobin um 0,42 g/dl [0,10; 0,74] und Ferritin um 12,61 ng/ml [8,29; 16,92] (McCarthy et al., 2026).",
+    "Menstruierende Frauen, 67 Studien (n = 8 506): seltener Anämie (RR 0,39 [0,25; 0,60]) und Eisenmangel (RR 0,62 [0,50; 0,76]); Hämoglobin +5,30 g/l [4,14; 6,45], hohe Evidenzqualität (Low et al., 2016)."
+   ],
+   "critic": "Alle Analysen stimmen darin überein, dass Supplemente die Eisenspeicher füllen. Beim Hämoglobin widerspricht die Sportler-Analyse von Šmid et al. (2024) den übrigen; sie umfasst aber nur 13 Studien mit großer Unsicherheit, während der Cochrane-Review 51 Studien mit hoher Evidenzqualität zum Hämoglobin bündelt. Der positive Befund ist daher wahrscheinlicher. Der Effekt hängt stark vom Ausgangsstatus ab: Wer volle Speicher hat, gewinnt wenig.",
+   "figs": [
+    {
+     "id": "fe-status",
+     "title": "Eisen und Eisenstatus bei Sportlern",
+     "cap": "Standardisierte Effektgröße (SMD bzw. Hedges g) gegenüber Kontrolle mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Ferritin, Sportler",
+       "sub": "Šmid et al., 2024",
+       "es": 1.27,
+       "lo": 0.44,
+       "hi": 2.1
+      },
+      {
+       "l": "Ferritin, eisenarme Ausdauersportler",
+       "sub": "Burden et al., 2015",
+       "es": 1.088,
+       "lo": 0.914,
+       "hi": 1.263
+      },
+      {
+       "l": "Hämoglobin, Sportler",
+       "sub": "Šmid et al., 2024",
+       "es": 1.31,
+       "lo": -0.29,
+       "hi": 2.93
+      },
+      {
+       "l": "Hämoglobin, eisenarme Ausdauersportler",
+       "sub": "Burden et al., 2015",
+       "es": 0.695,
+       "lo": 0.533,
+       "hi": 0.836
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 3,
+      "ticks": [
+       0,
+       1,
+       2,
+       3
+      ],
+      "leftLab": "weniger",
+      "rightLab": "mehr"
+     }
+    }
+   ],
+   "s": [
+    "smid2024",
+    "burden2015",
+    "mccarthy2026",
+    "low2016"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "VO₂max und Ausdauerleistung",
+   "q": "Verbessert Eisen die Ausdauer, auch ohne Anämie?",
+   "ev": "moderat",
+   "key": [
+    "Frauen im gebärfähigen Alter, 22 auswertbare Studien: relative VO₂max +2,35 ml/(kg·min) [0,82; 3,88] (18 Studien), SMD 0,37 [0,11; 0,62] (20 Studien); bei submaximaler Belastung 4,05 Schläge/min niedrigere Herzfrequenz [−7,25; −0,85]. Nur 3 Studien mit niedrigem Verzerrungsrisiko (Pasricha et al., 2014).",
+    "Eisenarme Ausdauersportler ohne Anämie: VO₂max g = 0,610 [0,399; 0,821] (Burden et al., 2015).",
+    "Erwachsene mit Eisenmangel ohne Anämie, 18 RCTs (n = 1 170): kein Effekt auf die VO₂max (SMD 0,11 [−0,15; 0,37]; 9 Studien, 235 Personen) oder zeitbasierte Leistungstests (Houston et al., 2018).",
+    "Sportler, alle Ausgangswerte: Trend zu höherer VO₂max (SMD 0,49 [−0,09; 1,07]), nicht signifikant (Šmid et al., 2024).",
+    "Sportlerinnen mit Mangel: Ausdauerleistung +2 % bis +20 % mit etwa 100 mg/Tag bis 56 Tage oral; maximale aerobe Kapazität +6 % bis +15 % mit 16–100 mg/Tag über 36–126 Tage (Pengelly et al., 2025).",
+    "Eisen als Infusion bei Erwachsenen ohne Anämie: Spitzen-VO₂ +1,77 ml/kg/min [0,57; 2,97] (21 RCTs, n = 3 514; Dugan et al., 2022); in der älteren Cochrane-Fassung mit nur 2 Studien nicht signifikant (+2,77 [−0,89; 6,43]; Miles et al., 2019)."
+   ],
+   "critic": "Die Befunde widersprechen sich. Positive Analysen (Pasricha et al., 2014; Burden et al., 2015) betreffen Frauen und eisenarme Ausdauersportler, also Gruppen mit echtem Defizit. Houston et al. (2018) fanden bei gemischten Erwachsenen keinen Effekt; Šmid et al. (2024) schlossen Sportler unabhängig vom Ausgangsstatus ein. Wahrscheinlichste Lesart: Eisen verbessert die VO₂max, wenn ein Mangel besteht, sonst kaum. Die Studien sind klein, viele mit hohem Verzerrungsrisiko; der Review von Pengelly et al. (2025) ist eine Übersicht ohne gepoolte Schätzung.",
+   "figs": [
+    {
+     "id": "fe-vo2",
+     "title": "Eisen und VO₂max in vier Metaanalysen",
+     "cap": "Standardisierte Effektgröße gegenüber Kontrolle mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Eisenarme Ausdauersportler ohne Anämie",
+       "sub": "Burden et al., 2015",
+       "es": 0.61,
+       "lo": 0.399,
+       "hi": 0.821
+      },
+      {
+       "l": "Frauen im gebärfähigen Alter",
+       "sub": "Pasricha et al., 2014",
+       "es": 0.37,
+       "lo": 0.11,
+       "hi": 0.62
+      },
+      {
+       "l": "Sportler, alle Ausgangswerte",
+       "sub": "Šmid et al., 2024",
+       "es": 0.49,
+       "lo": -0.09,
+       "hi": 1.07
+      },
+      {
+       "l": "Erwachsene mit Mangel ohne Anämie",
+       "sub": "Houston et al., 2018",
+       "es": 0.11,
+       "lo": -0.15,
+       "hi": 0.37
+      }
+     ],
+     "opts": {
+      "min": -0.3,
+      "max": 1.2,
+      "ticks": [
+       0,
+       0.4,
+       0.8,
+       1.2
+      ],
+      "leftLab": "weniger",
+      "rightLab": "mehr"
+     }
+    }
+   ],
+   "s": [
+    "pasricha2014",
+    "burden2015",
+    "houston2018",
+    "smid2024",
+    "pengelly2025",
+    "dugan2022",
+    "miles2019"
+   ]
+  },
+  {
+   "id": "muedigkeit",
+   "name": "Müdigkeit, Psyche und Kognition",
+   "q": "Hilft Eisen gegen Müdigkeit, auch ohne Anämie?",
+   "ev": "moderat",
+   "key": [
+    "Erwachsene mit Eisenmangel ohne Anämie: weniger selbst berichtete Müdigkeit (SMD −0,38 [−0,52; −0,23]; 4 Studien, 714 Personen; I² 0 %) (Houston et al., 2018).",
+    "6 RCTs bei Müdigkeit und Eisenmangel ohne Anämie: Effektgröße 0,33 [0,17; 0,48]; in 6 Querschnittsstudien kein robuster Zusammenhang zwischen Mangel und Müdigkeit (Yokoi et al., 2017).",
+    "Nicht anämische Jugendliche und menstruierende Erwachsene, 18 Studien (n = 1 408): in RCTs weniger Angst (d = 0,34) und Müdigkeit (d = 0,34), besseres Kurzzeitgedächtnis (d = 0,53), kein Effekt auf Aufmerksamkeit oder Depression. Ohne Teilnehmende mit Eisenmangel verschwand der Effekt (Fiani et al., 2025).",
+    "Ältere Kinder, Jugendliche und Frauen, 14 RCTs: Aufmerksamkeit und Konzentration verbessert (SMD 0,59 [0,29; 0,90]); IQ +2,5 Punkte nur bei Anämie; Hinweis auf Publikationsbias (Falkingham et al., 2010).",
+    "Infusionen bei Mangel ohne Anämie: Müdigkeit verbessert, Lebensqualität nicht (MD 0,15 [−0,01; 0,31]); Müdigkeit war der einzige Endpunkt mit mehr als niedriger Evidenzqualität (Dugan et al., 2022)."
+   ],
+   "critic": "Die Wirkung auf Müdigkeit ist über mehrere Analysen konsistent, aber klein bis moderat und beruht auf Selbstauskunft; in nicht verblindeten Studien ist ein Erwartungseffekt möglich. Entscheidend ist der Mangel: Ohne Eisenmangel fand sich kein Effekt (Fiani et al., 2025). Die Kognitionsdaten stammen vor allem aus Kindern und Frauen und sind durch Publikationsbias belastet.",
+   "figs": [
+    {
+     "id": "fe-fatigue",
+     "title": "Eisen und Müdigkeit bei Mangel ohne Anämie",
+     "cap": "Standardisierte Effektgröße mit 95-%-KI, Vorzeichen einheitlich so, dass positive Werte weniger Müdigkeit bedeuten. Fiani et al. (2025) ohne Intervall im Abstract.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Orale oder parenterale Gabe, Erwachsene",
+       "sub": "Houston et al., 2018",
+       "es": 0.38,
+       "lo": 0.23,
+       "hi": 0.52
+      },
+      {
+       "l": "RCTs bei Müdigkeit",
+       "sub": "Yokoi et al., 2017",
+       "es": 0.33,
+       "lo": 0.17,
+       "hi": 0.48
+      },
+      {
+       "l": "RCTs, Jugendliche und menstruierende Erwachsene",
+       "sub": "Fiani et al., 2025",
+       "es": 0.34
+      }
+     ],
+     "opts": {
+      "min": -0.1,
+      "max": 0.7,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "leftLab": "mehr Müdigkeit",
+      "rightLab": "weniger Müdigkeit"
+     }
+    }
+   ],
+   "s": [
+    "houston2018",
+    "yokoi2017",
+    "fiani2025",
+    "falkingham2010",
+    "dugan2022"
+   ]
+  },
+  {
+   "id": "hepcidin",
+   "name": "Hepcidin, Einnahmezeitpunkt und Rhythmus",
+   "q": "Wann und wie oft sollte man Eisen nehmen?",
+   "ev": "niedrig",
+   "key": [
+    "Belastung erhöhte Hepcidin auf das 1,5- bis 2,5-Fache. Der Ausgangswert erklärte etwa 44 % der Streuung des Werts nach 3 Stunden; die Größe des Anstiegs hing vor allem von der Belastungsdauer ab (etwa 44 % der Varianz). Frauen hatten einen um etwa 30 % geringeren Anstieg als Männer; wegen ungleicher Stichproben ist dieser Unterschied laut Autoren nicht sicher (Fensham et al., 2023).",
+    "23 Studien: Hepcidin stieg in 16 Studien nach Ausdauer- wie Krafttraining; Hepcidin nach Belastung korrelierte mit dem Ausgangsferritin (r = 0,69) und dem IL-6-Anstieg (r = 0,625) (Larsuphrom et al., 2021).",
+    "Täglich vs. jeden zweiten Tag, 11 RCTs (n = 1 014): Hämoglobin mit täglicher Gabe nur tendenziell höher (MD 0,28 [−0,01; 0,56]); Ferritin und weitere Eisenwerte ohne Unterschied; Nebenwirkungen ähnlich (RR 1,07 [0,86; 1,34]), metallischer Geschmack häufiger bei täglicher Gabe; Evidenz meist sehr unsicher (Dhanvijay et al., 2025).",
+    "7 Studien (n = 594): kein Unterschied bei Hämoglobin, Ferritin und Hepcidin; Übelkeit, metallischer Geschmack und veränderter Stuhlgang seltener bei Gabe jeden zweiten Tag (Kamath et al., 2024)."
+   ],
+   "critic": "Die Hepcidin-Daten zeigen den Mechanismus, prüfen aber nicht, ob ein bestimmter Einnahmezeitpunkt mehr Eisen in den Körper bringt. Die Vergleiche täglich gegen jeden zweiten Tag stammen aus Patienten mit Eisenmangelanämie, nicht aus Sportlern. Die beiden Reviews stimmen in der gleichwertigen Wirkung überein, bei den Nebenwirkungen nicht ganz: Die Metaanalyse fand keinen Unterschied insgesamt, der kleinere Review weniger Beschwerden. Die gepoolte Analyse ist hier gewichtiger; ein Vorteil bei einzelnen Beschwerden ist plausibel.",
+   "figs": [],
+   "s": [
+    "fensham2023",
+    "larsuphrom2021",
+    "dhanvijay2025",
+    "kamath2024"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Nebenwirkungen und Darreichungsform",
+   "q": "Wie gut wird Eisen vertragen?",
+   "ev": "hoch",
+   "key": [
+    "43 RCTs (n = 6 831): Eisensulfat erhöhte Magen-Darm-Nebenwirkungen gegenüber Placebo (OR 2,32 [1,74; 3,08]; 20 Studien, n = 3 168) und gegenüber Infusion (OR 3,05 [2,07; 4,48]); kein Zusammenhang mit der Dosis (Tolkien et al., 2015).",
+    "Menstruierende Frauen: mehr Magen-Darm-Beschwerden (RR 1,99 [1,26; 3,12]), Durchfall (RR 2,13 [1,10; 4,11]) und Verstopfung (RR 2,07 [1,35; 3,17]); Übelkeit nicht erhöht (RR 1,19 [0,78; 1,82]) (Low et al., 2016).",
+    "Hämeisen gegenüber Nicht-Hämeisen, 13 Studien: 38 % weniger Nebenwirkungen (RR 0,62 [0,40; 0,96]), bei sehr niedriger Evidenzqualität (Gallo Ruelas et al., 2024).",
+    "Infusion bei Mangel ohne Anämie: mehr leichte Nebenwirkungen (RR 1,77 [1,10; 2,83]), keine Zunahme schwerer Ereignisse (Dugan et al., 2022); in der Cochrane-Fassung von 2019 traten keine schweren Ereignisse auf (Miles et al., 2019)."
+   ],
+   "critic": "Die Magen-Darm-Belastung durch orales Eisen ist gut belegt und mit großen Datensätzen konsistent. Dass sie in der Analyse von Tolkien et al. (2015) nicht von der Dosis abhing, steht in gewisser Spannung zu den Reviews zur Einnahme jeden zweiten Tag; hier fehlen direkte Vergleiche bei Sportlern. Der Vorteil von Hämeisen beruht auf wenigen, heterogenen Studien.",
+   "figs": [
+    {
+     "id": "fe-gi",
+     "title": "Magen-Darm-Nebenwirkungen von oralem Eisen",
+     "cap": "Odds Ratio bzw. Risk Ratio gegenüber Placebo/Kontrolle mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Magen-Darm-Beschwerden (OR)",
+       "sub": "Tolkien et al., 2015",
+       "es": 2.32,
+       "lo": 1.74,
+       "hi": 3.08
+      },
+      {
+       "l": "Magen-Darm-Beschwerden (RR)",
+       "sub": "Low et al., 2016",
+       "es": 1.99,
+       "lo": 1.26,
+       "hi": 3.12
+      },
+      {
+       "l": "Durchfall",
+       "sub": "Low et al., 2016",
+       "es": 2.13,
+       "lo": 1.1,
+       "hi": 4.11
+      },
+      {
+       "l": "Verstopfung",
+       "sub": "Low et al., 2016",
+       "es": 2.07,
+       "lo": 1.35,
+       "hi": 3.17
+      },
+      {
+       "l": "Übelkeit",
+       "sub": "Low et al., 2016",
+       "es": 1.19,
+       "lo": 0.78,
+       "hi": 1.82
+      }
+     ],
+     "opts": {
+      "min": 0.5,
+      "max": 4.5,
+      "ticks": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "ref": 1,
+      "leftLab": "seltener",
+      "rightLab": "häufiger"
+     }
+    }
+   ],
+   "s": [
+    "tolkien2015",
+    "low2016",
+    "gallo2024",
+    "dugan2022",
+    "miles2019"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2010,
+   "t": "Eisen und Kognition",
+   "p": "Bessere Aufmerksamkeit; IQ-Gewinn nur bei Anämie.",
+   "tag": "neu",
+   "s": "falkingham2010"
+  },
+  {
+   "y": 2014,
+   "t": "Höhere VO₂max bei Frauen",
+   "p": "Tägliches Eisen verbesserte maximale und submaximale Leistung.",
+   "tag": "neu",
+   "s": "pasricha2014"
+  },
+  {
+   "y": 2015,
+   "t": "Eisenarme Ausdauersportler profitieren",
+   "p": "Moderater Effekt auf die VO₂max bei Mangel ohne Anämie.",
+   "tag": "conf",
+   "s": "burden2015"
+  },
+  {
+   "y": 2015,
+   "t": "Magen-Darm-Nebenwirkungen",
+   "p": "Eisensulfat verdoppelt etwa das Risiko.",
+   "tag": "neu",
+   "s": "tolkien2015"
+  },
+  {
+   "y": 2016,
+   "t": "Cochrane-Review menstruierende Frauen",
+   "p": "Weniger Anämie, bessere Leistung, mehr Magen-Darm-Beschwerden.",
+   "tag": "conf",
+   "s": "low2016"
+  },
+  {
+   "y": 2017,
+   "t": "Weniger Müdigkeit",
+   "p": "Eisen senkte Müdigkeit bei Mangel ohne Anämie.",
+   "tag": "neu",
+   "s": "yokoi2017"
+  },
+  {
+   "y": 2018,
+   "t": "Kein objektiver Leistungseffekt bei Erwachsenen",
+   "p": "Weniger Müdigkeit, aber keine höhere VO₂max.",
+   "tag": "contra",
+   "s": "houston2018"
+  },
+  {
+   "y": 2019,
+   "t": "Infusionen: Evidenz unzureichend",
+   "p": "Cochrane-Review sieht nur kleinen Hämoglobin-Effekt.",
+   "tag": "rel",
+   "s": "miles2019"
+  },
+  {
+   "y": 2021,
+   "t": "Hepcidin steigt nach Training",
+   "p": "Nach Ausdauer- und Krafttraining, abhängig von Ferritin und IL-6.",
+   "tag": "neu",
+   "s": "larsuphrom2021"
+  },
+  {
+   "y": 2022,
+   "t": "Infusion verbessert Spitzen-VO₂",
+   "p": "Aktualisierte Analyse mit 21 Studien, niedrige Evidenzqualität.",
+   "tag": "rel",
+   "s": "dugan2022"
+  },
+  {
+   "y": 2023,
+   "t": "Hepcidin-Antwort quantifiziert",
+   "p": "1,5- bis 2,5-facher Anstieg, abhängig von der Belastungsdauer.",
+   "tag": "conf",
+   "s": "fensham2023"
+  },
+  {
+   "y": 2024,
+   "t": "Sportler: Ferritin ja, VO₂max unsicher",
+   "p": "Effekt vor allem bei Ferritin ≤ 12 µg/l.",
+   "tag": "rel",
+   "s": "smid2024"
+  },
+  {
+   "y": 2024,
+   "t": "Jeden zweiten Tag",
+   "p": "Gleich wirksam, weniger Beschwerden.",
+   "tag": "neu",
+   "s": "kamath2024"
+  },
+  {
+   "y": 2024,
+   "t": "Hämeisen besser verträglich",
+   "p": "Weniger Nebenwirkungen bei sehr unsicherer Evidenz.",
+   "tag": "neu",
+   "s": "gallo2024"
+  },
+  {
+   "y": 2025,
+   "t": "Hohe Mangelquote bei Sportlern",
+   "p": "54 % unter 50 µg/l Ferritin.",
+   "tag": "neu",
+   "s": "thompson2025"
+  },
+  {
+   "y": 2025,
+   "t": "Sportlerinnen: Ausdauer +2 bis 20 %",
+   "p": "Mit etwa 100 mg elementarem Eisen pro Tag.",
+   "tag": "conf",
+   "s": "pengelly2025"
+  },
+  {
+   "y": 2025,
+   "t": "Täglich vs. jeden zweiten Tag",
+   "p": "Metaanalyse: kein signifikanter Unterschied.",
+   "tag": "conf",
+   "s": "dhanvijay2025"
+  },
+  {
+   "y": 2025,
+   "t": "Psyche und Kognition",
+   "p": "Weniger Angst und Müdigkeit, nur bei Eisenmangel.",
+   "tag": "conf",
+   "s": "fiani2025"
+  },
+  {
+   "y": 2026,
+   "t": "Aktive Frauen",
+   "p": "Eisensulfat erhöht Hämoglobin und Ferritin.",
+   "tag": "conf",
+   "s": "mccarthy2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "17.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 470 Einträgen, 332 Übersichtsarbeiten nach Titel geprüft (232 aus der Themensuche, 100 aus ergänzenden Suchen), 19 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer bei Eisenmangel",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "VO₂max bei Frauen im gebärfähigen Alter",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 20,
+     "p": null,
+     "s": [
+      "pasricha2014",
+      "low2016"
+     ],
+     "t": "SMD 0,37 (20 Studien), relativ +2,35 ml/(kg·min); nur 3 Studien mit niedrigem Verzerrungsrisiko.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "VO₂max bei Sportlern und Erwachsenen ohne Anämie",
+     "g": "C",
+     "d": "auf",
+     "m": null,
+     "b": "nutzen",
+     "k": 17,
+     "p": null,
+     "s": [
+      "burden2015",
+      "houston2018",
+      "smid2024"
+     ],
+     "t": "Bei eisenarmen Ausdauersportlern g = 0,61; bei Erwachsenen ohne Anämie (SMD 0,11) und Sportlern aller Ausgangswerte (SMD 0,49) nicht signifikant.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Herzfrequenz bei submaximaler Belastung",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 6,
+     "p": null,
+     "s": [
+      "pasricha2014"
+     ],
+     "t": "−4,05 Schläge/min (6 Studien) bei gleicher Belastung; als kleiner, praktisch spürbarer Effekt eingestuft.",
+     "v": "ausdauer"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Eisenstatus",
+   "kat": "status",
+   "items": [
+    {
+     "n": "Ferritin (Eisenspeicher)",
+     "g": "A",
+     "d": "auf",
+     "m": 4,
+     "b": "nutzen",
+     "k": 17,
+     "p": null,
+     "s": [
+      "burden2015",
+      "smid2024",
+      "mccarthy2026",
+      "houston2018"
+     ],
+     "t": "g = 1,088 (17 Studien) und SMD 1,27 (13 Studien, n = 449); deutlich vor allem bei Ausgangsferritin ≤ 12 µg/l.",
+     "v": "status"
+    },
+    {
+     "n": "Hämoglobin",
+     "g": "A",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": 51,
+     "p": 6861,
+     "s": [
+      "low2016",
+      "burden2015",
+      "smid2024",
+      "mccarthy2026"
+     ],
+     "t": "Frauen +5,30 g/l (51 Studien, hohe Evidenzqualität); eisenarme Ausdauersportler g = 0,695. Bei Sportlern aller Ausgangswerte nicht signifikant (SMD 1,31).",
+     "v": "status"
+    },
+    {
+     "n": "Risiko für Anämie",
+     "g": "B",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": 10,
+     "p": 3273,
+     "s": [
+      "low2016"
+     ],
+     "t": "RR 0,39 bei menstruierenden Frauen (10 Studien, n = 3 273, moderate Evidenzqualität).",
+     "v": "status"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Befinden und Kognition",
+   "kat": "psyche",
+   "items": [
+    {
+     "n": "Selbst berichtete Müdigkeit",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 4,
+     "p": 714,
+     "s": [
+      "houston2018",
+      "yokoi2017",
+      "fiani2025",
+      "dugan2022"
+     ],
+     "t": "SMD −0,38 bei Mangel ohne Anämie (4 Studien, n = 714); 0,33 in 6 RCTs; ohne Eisenmangel kein Effekt.",
+     "v": "muedigkeit"
+    },
+    {
+     "n": "Angst und Kurzzeitgedächtnis",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 18,
+     "p": 1408,
+     "s": [
+      "fiani2025",
+      "falkingham2010"
+     ],
+     "t": "Weniger Angst (d = 0,34), besseres Kurzzeitgedächtnis (d = 0,53); Depression und Aufmerksamkeit in RCTs unverändert.",
+     "v": "muedigkeit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit und Einnahme",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Magen-Darm-Nebenwirkungen (Eisensulfat)",
+     "g": "A",
+     "d": "auf",
+     "m": 4,
+     "b": "schaden",
+     "k": 20,
+     "p": 3168,
+     "s": [
+      "tolkien2015",
+      "low2016"
+     ],
+     "t": "OR 2,32 gegenüber Placebo (20 Studien, n = 3 168); bei Frauen RR 1,99, Verstopfung RR 2,07, Durchfall RR 2,13.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Hämoglobinanstieg: täglich statt jeden zweiten Tag",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": 1014,
+     "s": [
+      "dhanvijay2025",
+      "kamath2024"
+     ],
+     "t": "MD 0,28 zugunsten täglicher Gabe, nicht signifikant (11 RCTs, n = 1 014); Ferritin ohne Unterschied.",
+     "v": "hepcidin"
+    },
+    {
+     "n": "Nebenwirkungen bei Gabe jeden zweiten Tag",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "nutzen",
+     "k": 11,
+     "p": 1014,
+     "s": [
+      "dhanvijay2025",
+      "kamath2024"
+     ],
+     "t": "Insgesamt kein Unterschied (RR 1,07); in einem Review seltener Übelkeit, metallischer Geschmack und veränderter Stuhlgang.",
+     "v": "hepcidin"
+    },
+    {
+     "n": "Leichte Nebenwirkungen bei Infusion",
+     "g": "B",
+     "d": "auf",
+     "m": 4,
+     "b": "schaden",
+     "k": 21,
+     "p": 3514,
+     "s": [
+      "dugan2022",
+      "miles2019"
+     ],
+     "t": "RR 1,77 für leichte Nebenwirkungen; schwere Ereignisse nicht häufiger (Risikodifferenz 0).",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "pasricha2014": {
+   "short": "Pasricha et al., 2014",
+   "year": 2014,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24717371",
+   "apa": "Pasricha, S. R., Low, M., Thompson, J., Farrell, A. &amp; De-Regil, L. M. (2014). Iron supplementation benefits physical performance in women of reproductive age: A systematic review and meta-analysis. <em>The Journal of Nutrition, 144</em>(6), 906–914.",
+   "doi": "10.3945/jn.113.189589"
+  },
+  "burden2015": {
+   "short": "Burden et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25361786",
+   "apa": "Burden, R. J., Morton, K., Richards, T., Whyte, G. P. &amp; Pedlar, C. R. (2015). Is iron treatment beneficial in, iron-deficient but non-anaemic (IDNA) endurance athletes? A systematic review and meta-analysis. <em>British Journal of Sports Medicine, 49</em>(21), 1389–1397.",
+   "doi": "10.1136/bjsports-2014-093624"
+  },
+  "falkingham2010": {
+   "short": "Falkingham et al., 2010",
+   "year": 2010,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "20100340",
+   "apa": "Falkingham, M., Abdelhamid, A., Curtis, P., Fairweather-Tait, S., Dye, L. &amp; Hooper, L. (2010). The effects of oral iron supplementation on cognition in older children and adults: A systematic review and meta-analysis. <em>Nutrition Journal, 9</em>, Artikel 4.",
+   "doi": "10.1186/1475-2891-9-4"
+  },
+  "tolkien2015": {
+   "short": "Tolkien et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25700159",
+   "apa": "Tolkien, Z., Stecher, L., Mander, A. P., Pereira, D. I. &amp; Powell, J. J. (2015). Ferrous sulfate supplementation causes significant gastrointestinal side-effects in adults: A systematic review and meta-analysis. <em>PLOS ONE, 10</em>(2), Artikel e0117383.",
+   "doi": "10.1371/journal.pone.0117383"
+  },
+  "low2016": {
+   "short": "Low et al., 2016",
+   "year": 2016,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "27087396",
+   "apa": "Low, M. S., Speedy, J., Styles, C. E., De-Regil, L. M. &amp; Pasricha, S. R. (2016). Daily iron supplementation for improving anaemia, iron status and health in menstruating women. <em>Cochrane Database of Systematic Reviews</em>(4), Artikel CD009747.",
+   "doi": "10.1002/14651858.CD009747.pub2"
+  },
+  "yokoi2017": {
+   "short": "Yokoi & Konomi, 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28625177",
+   "apa": "Yokoi, K. &amp; Konomi, A. (2017). Iron deficiency without anaemia is a potential cause of fatigue: Meta-analyses of randomised controlled trials and cross-sectional studies. <em>British Journal of Nutrition, 117</em>(10), 1422–1431.",
+   "doi": "10.1017/S0007114517001349"
+  },
+  "houston2018": {
+   "short": "Houston et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29626044",
+   "apa": "Houston, B. L., Hurrie, D., Graham, J., Perija, B., Rimmer, E., Rabbani, R., Bernstein, C. N., Turgeon, A. F., Fergusson, D. A., Houston, D. S., Abou-Setta, A. M. &amp; Zarychanski, R. (2018). Efficacy of iron supplementation on fatigue and physical capacity in non-anaemic iron-deficient adults: A systematic review of randomised controlled trials. <em>BMJ Open, 8</em>(4), Artikel e019240.",
+   "doi": "10.1136/bmjopen-2017-019240"
+  },
+  "miles2019": {
+   "short": "Miles et al., 2019",
+   "year": 2019,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "31860749",
+   "apa": "Miles, L. F., Litton, E., Imberger, G. &amp; Story, D. (2019). Intravenous iron therapy for non-anaemic, iron-deficient adults. <em>Cochrane Database of Systematic Reviews</em>(12), Artikel CD013084.",
+   "doi": "10.1002/14651858.CD013084.pub2"
+  },
+  "larsuphrom2021": {
+   "short": "Larsuphrom & Latunde-Dada, 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33513924",
+   "apa": "Larsuphrom, P. &amp; Latunde-Dada, G. O. (2021). Association of serum hepcidin levels with aerobic and resistance exercise: A systematic review. <em>Nutrients, 13</em>(2), Artikel 393.",
+   "doi": "10.3390/nu13020393"
+  },
+  "dugan2022": {
+   "short": "Dugan et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse (gekürzter Cochrane-Review)",
+   "basis": "Abstract",
+   "pmid": "36321348",
+   "apa": "Dugan, C., Cabolis, K., Miles, L. F. &amp; Richards, T. (2022). Systematic review and meta-analysis of intravenous iron therapy for adults with non-anaemic iron deficiency: An abridged Cochrane review. <em>Journal of Cachexia, Sarcopenia and Muscle, 13</em>(6), 2637–2649.",
+   "doi": "10.1002/jcsm.13114",
+   "flag": "Müdigkeit: SMD 0,30 mit KI [−0,52; −0,09] im Abstract; Vorzeichen von Punktschätzer und Intervall uneinheitlich."
+  },
+  "fensham2023": {
+   "short": "Fensham et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse (individuelle Teilnehmerdaten)",
+   "basis": "Abstract",
+   "pmid": "37347443",
+   "apa": "Fensham, N. C., Govus, A. D., Peeling, P., Burke, L. M. &amp; McKay, A. K. A. (2023). Factors influencing the hepcidin response to exercise: An individual participant data meta-analysis. <em>Sports Medicine, 53</em>(10), 1931–1949.",
+   "doi": "10.1007/s40279-023-01874-5"
+  },
+  "smid2024": {
+   "short": "Šmid et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "38407751",
+   "apa": "Šmid, A. N., Golja, P., Hadžić, V., Abazović, E., Drole, K. &amp; Paravlic, A. H. (2024). Effects of oral iron supplementation on blood iron status in athletes: A systematic review, meta-analysis and meta-regression of randomized controlled trials. <em>Sports Medicine, 54</em>(5), 1231–1247.",
+   "doi": "10.1007/s40279-024-01992-8"
+  },
+  "kamath2024": {
+   "short": "Kamath et al., 2024",
+   "year": 2024,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37979057",
+   "apa": "Kamath, S., Parveen, R. S., Hegde, S., Mathias, E. G., Nayak, V. &amp; Boloor, A. (2024). Daily versus alternate day oral iron therapy in iron deficiency anemia: A systematic review. <em>Naunyn-Schmiedeberg’s Archives of Pharmacology, 397</em>(5), 2701–2714.",
+   "doi": "10.1007/s00210-023-02817-7"
+  },
+  "gallo2024": {
+   "short": "Gallo Ruelas et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39708071",
+   "apa": "Gallo Ruelas, M., Alvarado-Gamarra, G., Aramburu, A., Dolores-Maldonado, G., Cueva, K., Rojas-Limache, G., Diaz-Parra, C. D. P. &amp; Lanata, C. F. (2024). A comparative analysis of heme vs non-heme iron administration: A systematic review and meta-analysis of randomized controlled trials. <em>European Journal of Nutrition, 64</em>(1), Artikel 51.",
+   "doi": "10.1007/s00394-024-03564-y"
+  },
+  "pengelly2025": {
+   "short": "Pengelly et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "39536912",
+   "apa": "Pengelly, M., Pumpa, K., Pyne, D. B. &amp; Etxebarria, N. (2025). Iron deficiency, supplementation, and sports performance in female athletes: A systematic review. <em>Journal of Sport and Health Science, 14</em>, Artikel 101009.",
+   "doi": "10.1016/j.jshs.2024.101009"
+  },
+  "thompson2025": {
+   "short": "Thompson et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse (Prävalenz)",
+   "basis": "Abstract",
+   "pmid": "39530537",
+   "apa": "Thompson, C., Block, D., Wang, Z., Foster, N., Hassett, L. C., Steien, D., Galardy, P. &amp; Al-Huniti, A. (2025). The global prevalence of iron deficiency in collegiate athletes: A systematic review and meta-analysis. <em>Pediatric Blood &amp; Cancer, 72</em>(2), Artikel e31415.",
+   "doi": "10.1002/pbc.31415"
+  },
+  "dhanvijay2025": {
+   "short": "Dhanvijay et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40841680",
+   "apa": "Dhanvijay, A. D., Patidar, V., Singh, J., Kumar, S., Mudgal, S. K., Varikasuvu, S. R. &amp; Kumar, R. (2025). Efficacy of daily versus alternate day oral iron supplementation for management of anaemia among general population: A systematic review and meta-analysis. <em>BMC Pharmacology &amp; Toxicology, 26</em>(1), Artikel 152.",
+   "doi": "10.1186/s40360-025-00984-2"
+  },
+  "fiani2025": {
+   "short": "Fiani et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40945632",
+   "apa": "Fiani, D., Chahine, S., Zaboube, M., Solmi, M., Powers, J. M. &amp; Calarge, C. (2025). Psychiatric and cognitive outcomes of iron supplementation in non-anemic children, adolescents, and menstruating adults: A meta-analysis and systematic review. <em>Neuroscience and Biobehavioral Reviews, 178</em>, Artikel 106372.",
+   "doi": "10.1016/j.neubiorev.2025.106372"
+  },
+  "mccarthy2026": {
+   "short": "McCarthy et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42271116",
+   "apa": "McCarthy, E., Pekler, J. P., Tran, T., Deluca, L. E., Fresco, T., Hampton-Marcell, J., Bernabe, B. P., Hamstra-Wright, K., Koenig, M. D., Colegrove, D. &amp; Tussing-Humphreys, L. (2026). The effect of diet and dietary supplements on iron status of active females: A systematic review and meta-analysis of interventional trials. <em>Sports Medicine, 56</em>(10), 2527–2549.",
+   "doi": "10.1007/s40279-026-02464-x"
+  }
+ }
+}

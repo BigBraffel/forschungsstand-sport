@@ -1,0 +1,1259 @@
+{
+ "id": "nitrat",
+ "title": "Nitrat (Rote-Bete-Saft)",
+ "stand": "2026-11-17",
+ "lead": "Verbessert Nitrat aus Rote-Bete-Saft Ausdauer, Sauerstoffökonomie, Kraft und Blutdruck, und profitieren davon auch gut trainierte Sportler? Zusammengefasst aus Umbrella Reviews und Metaanalysen.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Nitrat wirkt am ehesten bei Freizeitsportlern und bei Belastungen von wenigen Minuten bis zur Erschöpfung.",
+ "rx": [
+  {
+   "label": "Dosis",
+   "value": "etwa 5–15 mmol Nitrat",
+   "text": "Am wirksamsten waren akut 5–14,9 mmol; Umbrella Reviews nennen mindestens 6 mmol (372 mg) bzw. 8,3–16,4 mmol (515–1017 mg) pro Tag. Rote-Bete-Saft oder nitratreiches Gemüse wirkten besser als Nitratsalze.",
+   "cite": "Silva et al. 2022; Poon et al. 2025; Tian et al. 2025"
+  },
+  {
+   "label": "Zeitpunkt",
+   "value": "2–3 Stunden vorher, ggf. über mehrere Tage",
+   "text": "Eine Einnahme mindestens 150 Minuten vor der Belastung oder eine Einnahme über mindestens 3 Tage brachte die beständigsten Effekte.",
+   "cite": "Silva et al. 2022; Tian et al. 2025; Qin &amp; Kim 2026"
+  },
+  {
+   "label": "Für wen",
+   "value": "Freizeitsportler, Belastungen 2–10 min",
+   "text": "Der Nutzen zeigte sich vor allem bei weniger Trainierten, in Tests bis zur Erschöpfung und unter Sauerstoffmangel (Höhe).",
+   "cite": "Campos et al. 2018; Senefeld et al. 2020; Silva et al. 2022"
+  },
+  {
+   "label": "Für wen kaum",
+   "value": "hochtrainierte Ausdauersportler",
+   "text": "Bei Athleten mit sehr hoher Ausdauerleistungsfähigkeit fanden mehrere Analysen keinen Leistungsvorteil; auch im Zeitfahren ist der Effekt klein.",
+   "cite": "Senefeld et al. 2020; Xie et al. 2026"
+  },
+  {
+   "label": "Mundspülung",
+   "value": "antibakterielle Mundspülung meiden",
+   "text": "Maßnahmen, die die Mundbakterien reduzieren, schwächten die Wirkung ab, weil diese Bakterien Nitrat zu Nitrit umwandeln.",
+   "cite": "Silva et al. 2022"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Rote-Bete-Saft kann Urin und Stuhl rötlich färben. Hohe Nitratzufuhr kann die Bildung von N-Nitroso-Verbindungen fördern; zu möglichen Risiken gibt es deutlich weniger Daten als zum Nutzen (Zamani et al., 2021).",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Längere Zeit bis zur Erschöpfung",
+   "ev": "hoch",
+   "p": "Mehrere Metaanalysen und ein Umbrella Review fanden kleine bis mittlere Effekte (SMD 0,33); im Zeitfahren ist der Nutzen deutlich kleiner.",
+   "s": [
+    "poon2025",
+    "mcmahon2017",
+    "hoon2013",
+    "wong2022"
+   ]
+  },
+  {
+   "t": "Vor allem für weniger Trainierte",
+   "ev": "hoch",
+   "p": "Bei Freizeitsportlern wirksam, bei gut trainierten Ausdauerathleten in mehreren Analysen ohne Effekt.",
+   "s": [
+    "campos2018",
+    "senefeld2020",
+    "xie2026"
+   ]
+  },
+  {
+   "t": "Sauerstoffökonomie verbessert",
+   "ev": "moderat",
+   "p": "Bei submaximaler Belastung sank der Sauerstoffverbrauch (SMD −0,26); die VO₂max stieg nur wenig oder gar nicht.",
+   "s": [
+    "pawlakchaouch2016",
+    "gao2021",
+    "qin2026"
+   ]
+  },
+  {
+   "t": "Mehr Muskelleistung, kaum mehr Kraft",
+   "ev": "moderat",
+   "p": "Muskelleistung (Power) stieg um etwa 5 %, Kraftausdauer leicht; die Maximalkraft kaum, Sprints nicht.",
+   "s": [
+    "coggan2021",
+    "alvares2022",
+    "eroglu2026"
+   ]
+  },
+  {
+   "t": "Blutdruck sinkt leicht",
+   "ev": "moderat",
+   "p": "Systolisch etwa −4 mmHg in Kurzzeitstudien; bei 24-Stunden-Messung und mit Nitratsalzen bei Älteren nicht bestätigt.",
+   "s": [
+    "siervo2013",
+    "ashor2017",
+    "forster2026"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "ausdauer",
+   "name": "Ausdauer und Zeitfahren",
+   "q": "Verbessert Nitrat die Ausdauerleistung?",
+   "ev": "hoch",
+   "key": [
+    "Erste Metaanalyse (17 Studien): Tests bis zur Erschöpfung ES 0,79 [0,23; 1,35]; Zeitfahren ES 0,11 [−0,16; 0,37] und Stufentests ES 0,26 [−0,10; 0,62] nicht signifikant (Hoon et al., 2013).",
+    "47 Studien mit 76 Versuchen: Tests bis zur Erschöpfung ES 0,33 [0,15; 0,50]; Stufentests ES 0,25, nicht signifikant; für Zeitfahren ist ein Effekt laut Autoren weniger wahrscheinlich (McMahon et al., 2017).",
+    "73 Studien, 1 061 Personen: Leistung +4,6 W, Zeit bis zur Erschöpfung +25,3 s, Strecke +163,7 m; kein Unterschied im Zeitfahren und in der geleisteten Arbeit (Gao et al., 2021).",
+    "Hochintensives Zeitfahren über 5–30 min (24 Studien): g = 0,15 [−0,00; 0,31]; mehrtägige Einnahme g = 0,30 [−0,00; 0,59], einmalige Einnahme nicht signifikant (Wong et al., 2022).",
+    "123 Studien, 1 705 Personen: SMD 0,101 [0,051; 0,151]; am wirksamsten bei Belastungen von 2–10 min und zunehmendem Sauerstoffmangel (Silva et al., 2022).",
+    "Umbrella Review (20 Metaanalysen, 180 Studien, 2 672 Personen): Zeit bis zur Erschöpfung SMD 0,33 [0,19; 0,47], zurückgelegte Strecke SMD 0,42 [0,09; 0,76]; andere Endpunkte nicht signifikant; Qualität der meisten Reviews niedrig bis kritisch niedrig (Poon et al., 2025)."
+   ],
+   "critic": "Der Befund ist über mehr als zehn Jahre stabil: Nitrat verlängert die Zeit bis zur Erschöpfung, verbessert aber Zeitfahren kaum. Da Zeitfahren dem Wettkampf näherkommt, ist der praktische Nutzen kleiner als die Kapazitätstests vermuten lassen. Der hohe Effekt der ersten Analyse (ES 0,79) wurde in späteren, größeren Analysen nicht bestätigt (0,33). Die methodische Qualität vieler Reviews ist laut Umbrella Review niedrig.",
+   "figs": [
+    {
+     "id": "nit-ausdauer",
+     "title": "Nitrat: Erschöpfungstests und Zeitfahren",
+     "cap": "Effektgröße gegenüber Placebo mit 95-%-KI. Positive Werte bedeuten bessere Leistung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Bis zur Erschöpfung",
+       "sub": "Poon et al., 2025",
+       "es": 0.33,
+       "lo": 0.19,
+       "hi": 0.47
+      },
+      {
+       "l": "Bis zur Erschöpfung",
+       "sub": "McMahon et al., 2017",
+       "es": 0.33,
+       "lo": 0.15,
+       "hi": 0.5
+      },
+      {
+       "l": "Bis zur Erschöpfung",
+       "sub": "Hoon et al., 2013",
+       "es": 0.79,
+       "lo": 0.23,
+       "hi": 1.35
+      },
+      {
+       "l": "Zeitfahren",
+       "sub": "Hoon et al., 2013",
+       "es": 0.11,
+       "lo": -0.16,
+       "hi": 0.37
+      },
+      {
+       "l": "Zeitfahren 5–30 min",
+       "sub": "Wong et al., 2022",
+       "es": 0.15,
+       "lo": -0.0,
+       "hi": 0.31
+      },
+      {
+       "l": "Zeitfahren, mehrtägige Einnahme",
+       "sub": "Wong et al., 2022",
+       "es": 0.3,
+       "lo": -0.0,
+       "hi": 0.59
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 1.4,
+      "ticks": [
+       -0.4,
+       0,
+       0.4,
+       0.8,
+       1.2
+      ],
+      "unit": "ES",
+      "leftLab": "Placebo besser",
+      "rightLab": "Nitrat besser"
+     }
+    }
+   ],
+   "s": [
+    "hoon2013",
+    "mcmahon2017",
+    "gao2021",
+    "wong2022",
+    "silva2022",
+    "poon2025"
+   ]
+  },
+  {
+   "id": "vo2",
+   "name": "VO₂max und Sauerstoffökonomie",
+   "q": "Senkt Nitrat den Sauerstoffbedarf und steigert es die VO₂max?",
+   "ev": "moderat",
+   "key": [
+    "26 Studien: geringerer Sauerstoffverbrauch bei submaximaler Belastung (−0,26 [−0,38; −0,15]), bei moderater (−0,29) und schwerer Intensität (−0,33); bei chronisch Kranken kein Effekt (Pawlak-Chaouch et al., 2016).",
+    "Sauerstoffaufnahme bei Belastung −0,04 l/min, keine Wirkung auf VO₂max oder Laktat (Gao et al., 2021).",
+    "38 Studien, 703 Personen: VO₂max SMD 0,24 [0,11; 0,37], nach Korrektur für Publikationsbias 0,19 [0,07; 0,31]; bei Freizeitsportlern 0,38, bei Hochtrainierten 0,07 [−0,09; 0,23] (Qin &amp; Kim, 2026).",
+    "Umbrella Review: VO₂max SMD 0,16, statistisch signifikant, aber vernachlässigbar klein (Tian et al., 2025).",
+    "In Kombination mit Training (9 Studien, 228 Personen) keine zusätzliche Verbesserung der VO₂peak (SMD 0,18 [−0,09; 0,44]) oder der Zeit bis zur Erschöpfung (SMD 0,08) (Hogwood et al., 2023)."
+   ],
+   "critic": "Die bessere Sauerstoffökonomie ist der am besten belegte Mechanismus. Zur VO₂max widersprechen sich die Analysen: Gao et al. (2021) fanden keinen Effekt, Qin &amp; Kim (2026) einen kleinen Effekt, der nach Bias-Korrektur schrumpft und bei Hochtrainierten verschwindet. Wahrscheinlich ist der Effekt auf die VO₂max klein und für Trainierte bedeutungslos. Ob Nitrat die Trainingsanpassung langfristig verbessert, ist nicht belegt; die Studien dazu sind klein und statistisch schwach.",
+   "figs": [
+    {
+     "id": "nit-vo2",
+     "title": "Sauerstoffverbrauch und VO₂max",
+     "cap": "Standardisierte Mittelwertdifferenz gegenüber Placebo mit 95-%-KI. Negative Werte beim submaximalen Sauerstoffverbrauch bedeuten bessere Ökonomie.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Submaximaler O₂-Verbrauch",
+       "sub": "Pawlak-Chaouch et al., 2016",
+       "es": -0.26,
+       "lo": -0.38,
+       "hi": -0.15
+      },
+      {
+       "l": "O₂-Verbrauch, moderate Intensität",
+       "sub": "Pawlak-Chaouch et al., 2016",
+       "es": -0.29,
+       "lo": -0.48,
+       "hi": -0.1
+      },
+      {
+       "l": "O₂-Verbrauch, schwere Intensität",
+       "sub": "Pawlak-Chaouch et al., 2016",
+       "es": -0.33,
+       "lo": -0.54,
+       "hi": -0.12
+      },
+      {
+       "l": "VO₂max, alle",
+       "sub": "Qin &amp; Kim, 2026",
+       "es": 0.24,
+       "lo": 0.11,
+       "hi": 0.37
+      },
+      {
+       "l": "VO₂max, Hochtrainierte",
+       "sub": "Qin &amp; Kim, 2026",
+       "es": 0.07,
+       "lo": -0.09,
+       "hi": 0.23
+      },
+      {
+       "l": "VO₂peak nach Training",
+       "sub": "Hogwood et al., 2023",
+       "es": 0.18,
+       "lo": -0.09,
+       "hi": 0.44
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.6,
+      "ticks": [
+       -0.6,
+       -0.3,
+       0,
+       0.3,
+       0.6
+      ],
+      "unit": "SMD",
+      "leftLab": "weniger",
+      "rightLab": "mehr"
+     }
+    }
+   ],
+   "s": [
+    "pawlakchaouch2016",
+    "gao2021",
+    "qin2026",
+    "tian2025",
+    "hogwood2023"
+   ]
+  },
+  {
+   "id": "trainiert",
+   "name": "Trainierte und Untrainierte",
+   "q": "Profitieren auch gut trainierte Sportler?",
+   "ev": "hoch",
+   "key": [
+    "53 Studien: Nitrat verbesserte die Leistung von Nichtsportlern (ES 0,25 [0,11; 0,38]), besonders in langen Tests bis zur Erschöpfung (ES 0,47), nicht aber von Sportlern (ES 0,04 [−0,05; 0,15]) (Campos et al., 2018).",
+    "80 Studien: insgesamt d = 0,174 [0,120; 0,229]; kein Effekt bei gut trainierten Ausdauerathleten (VO₂max ≥ 65 ml/kg/min; d = 0,021) und in Studien nur mit Frauen (d = 0,116, nicht signifikant) (Senefeld et al., 2020).",
+    "45 Studien mit 659 Athleten: kein signifikanter Effekt auf Spitzen- oder Durchschnittsleistung, VO₂max, Herzfrequenz, Laktat oder Anstrengungsempfinden (Xie et al., 2026).",
+    "Umbrella Review: bei Profisportlern kleiner Kraftvorteil (SMD 0,27), bei Nichtsportlern Ausdauervorteil (SMD 0,26) (Tian et al., 2025)."
+   ],
+   "critic": "Mehrere unabhängige Analysen kommen zum selben Ergebnis: Je besser trainiert, desto geringer der Nutzen. Eine Erklärung ist, dass Hochtrainierte bereits mehr Stickstoffmonoxid bilden. Ein Nullbefund ist aber kein Beweis für fehlende Wirkung; kleine Effekte im Wettkampf lassen sich mit den kleinen Studien nicht ausschließen. Frauen sind in den Daten unterrepräsentiert.",
+   "figs": [
+    {
+     "id": "nit-trainiert",
+     "title": "Wirkung nach Trainingszustand",
+     "cap": "Effektgröße gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Nichtsportler",
+       "sub": "Campos et al., 2018",
+       "es": 0.25,
+       "lo": 0.11,
+       "hi": 0.38
+      },
+      {
+       "l": "Sportler",
+       "sub": "Campos et al., 2018",
+       "es": 0.04,
+       "lo": -0.05,
+       "hi": 0.15
+      },
+      {
+       "l": "Alle Studien",
+       "sub": "Senefeld et al., 2020",
+       "es": 0.174,
+       "lo": 0.12,
+       "hi": 0.229
+      },
+      {
+       "l": "VO₂max ≥ 65 ml/kg/min",
+       "sub": "Senefeld et al., 2020",
+       "es": 0.021,
+       "lo": -0.103,
+       "hi": 0.144
+      },
+      {
+       "l": "Nur Frauen",
+       "sub": "Senefeld et al., 2020",
+       "es": 0.116,
+       "lo": -0.126,
+       "hi": 0.358
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 0.5,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4
+      ],
+      "unit": "ES",
+      "leftLab": "Placebo besser",
+      "rightLab": "Nitrat besser"
+     }
+    }
+   ],
+   "s": [
+    "campos2018",
+    "senefeld2020",
+    "xie2026",
+    "tian2025"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Kraft, Schnellkraft und Sprints",
+   "q": "Hilft Nitrat bei Kraft, Power und Sprints?",
+   "ev": "moderat",
+   "key": [
+    "Individuelle Daten aus 19 Studien (268 Personen): maximale Muskelleistung g = 0,45 [0,30; 0,61], im Mittel etwa 5 %; nach Einmalgabe größer (0,54) als nach mehrtägiger Einnahme (0,22) (Coggan et al., 2021).",
+    "34 Studien: Maximalkraft SMD 0,08 (trivial, aber signifikant), Kraftausdauer SMD 0,31 (Alvares et al., 2022).",
+    "Krafttrainierte Männer (6 Studien): mehr Wiederholungen bis zum Muskelversagen (SMD 0,43 [0,156; 0,699]) und höhere mittlere Leistung (SMD 0,40), keine höhere Spitzenleistung (Tan et al., 2023).",
+    "Kurze hochintensive Belastungen (23 Studien): Zeit bis zur Spitzenleistung (SMD 0,75), mittlere Leistung (SMD 0,20) und Yo-Yo-Test (SMD 0,17) verbessert (Alsharif et al., 2023).",
+    "Sprints (21 Studien, 401 Personen): kein Effekt auf Sprungkraft, Spitzen- oder Durchschnittsleistung und 10- bzw. 20-m-Sprint; Evidenzqualität niedrig bis sehr niedrig (Eroglu et al., 2026).",
+    "Frauen: Power SMD 0,38 [0,06; 0,69], Kraft (0,10) und Sprint (0,14) nicht signifikant (Meng et al., 2025).",
+    "Umbrella Review: Kraftausdauer SMD 0,48 [0,23; 0,74], Spitzenleistung SMD 0,25 [0,10; 0,39] (Poon et al., 2025)."
+   ],
+   "critic": "Nitrat verbessert eher die Geschwindigkeit der Kraftentfaltung und die Kraftausdauer als die Maximalkraft. Bei Sprints widersprechen sich die Analysen teilweise: Alsharif et al. (2023) fanden kleine Vorteile, Eroglu et al. (2026) mit neueren Studien keine bei Sprintzeiten. Da beide nur niedrige Evidenzqualität erreichen, ist ein relevanter Sprintvorteil unwahrscheinlich. Die Analysen zum Krafttraining beruhen auf wenigen Studien mit Männern.",
+   "figs": [
+    {
+     "id": "nit-kraft",
+     "title": "Nitrat und Muskelleistung",
+     "cap": "Standardisierte Effektgröße gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Maximale Muskelleistung",
+       "sub": "Coggan et al., 2021",
+       "es": 0.45,
+       "lo": 0.3,
+       "hi": 0.61
+      },
+      {
+       "l": "Kraftausdauer",
+       "sub": "Poon et al., 2025",
+       "es": 0.48,
+       "lo": 0.23,
+       "hi": 0.74
+      },
+      {
+       "l": "Spitzenleistung",
+       "sub": "Poon et al., 2025",
+       "es": 0.25,
+       "lo": 0.1,
+       "hi": 0.39
+      },
+      {
+       "l": "Wiederholungen bis Versagen",
+       "sub": "Tan et al., 2023",
+       "es": 0.43,
+       "lo": 0.156,
+       "hi": 0.699
+      },
+      {
+       "l": "Frauen: Power",
+       "sub": "Meng et al., 2025",
+       "es": 0.38,
+       "lo": 0.06,
+       "hi": 0.69
+      },
+      {
+       "l": "Frauen: Maximalkraft",
+       "sub": "Meng et al., 2025",
+       "es": 0.1,
+       "lo": -0.1,
+       "hi": 0.3
+      },
+      {
+       "l": "Frauen: Sprint",
+       "sub": "Meng et al., 2025",
+       "es": 0.14,
+       "lo": -0.13,
+       "hi": 0.41
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 0.8,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Nitrat besser"
+     }
+    }
+   ],
+   "s": [
+    "coggan2021",
+    "alvares2022",
+    "tan2023",
+    "alsharif2023",
+    "eroglu2026",
+    "meng2025",
+    "poon2025"
+   ]
+  },
+  {
+   "id": "dosis",
+   "name": "Dosis und Timing",
+   "q": "Wie viel Nitrat, in welcher Form und wann?",
+   "ev": "moderat",
+   "key": [
+    "Akut am wirksamsten 5–14,9 mmol mindestens 150 Minuten vor der Belastung; bei mehrtägiger Einnahme 5–9,9 mmol pro Tag; Rote-Bete-Saft und nitratreiche Ernährung wirkten, Nitratsalze nicht signifikant; Mundspülungen schwächten den Effekt (Silva et al., 2022).",
+    "Bei der Zeit bis zur Erschöpfung stärkere Effekte ab 6 mmol (372 mg) pro Tag und bei Einnahme über mehr als 3 Tage (Poon et al., 2025).",
+    "Einnahme 2–3 Stunden vorher oder über mindestens 3 Tage wirksam; akut SMD 0,20, mehrtägig 0,13; 8,3–16,4 mmol (515–1017 mg) empfohlen (Tian et al., 2025).",
+    "VO₂max: am beständigsten bei 6,4–12,8 mmol und mindestens 3 Tagen Einnahme (Qin &amp; Kim, 2026)."
+   ],
+   "critic": "Ob eine einmalige oder mehrtägige Einnahme besser ist, beantworten die Analysen unterschiedlich: Für Muskelleistung wirkte die Einmalgabe stärker (Coggan et al., 2021), für Zeitfahren und VO₂max die mehrtägige Einnahme (Wong et al., 2022; Qin &amp; Kim, 2026). Praktisch spricht nichts dagegen, beides zu kombinieren: einige Tage vorher beginnen und am Wettkampftag 2–3 Stunden vorher einnehmen. Die Dosisbereiche der Analysen überlappen bei etwa 6–15 mmol.",
+   "figs": [],
+   "s": [
+    "silva2022",
+    "poon2025",
+    "tian2025",
+    "qin2026",
+    "coggan2021",
+    "wong2022"
+   ]
+  },
+  {
+   "id": "blutdruck",
+   "name": "Blutdruck und Gefäßfunktion",
+   "q": "Senkt Nitrat den Blutdruck?",
+   "ev": "moderat",
+   "key": [
+    "16 Studien, 254 Personen (2 Stunden bis 15 Tage): systolisch −4,4 mmHg [−5,9; −2,8], diastolisch −1,1 mmHg [−2,2; 0,1] (Siervo et al., 2013).",
+    "Gefäßfunktion (12 Studien, 246 Personen): SMD 0,36 [0,16; 0,56]; geringerer Effekt bei Älteren und höherem Risiko (Lara et al., 2016).",
+    "Einnahme über mindestens eine Woche (13 Studien, 325 Personen): systolisch −4,1 mmHg [−6,1; −2,2], diastolisch −2,0 mmHg [−3,0; −0,9]; aber nur bei Messung in der Praxis, nicht bei 24-Stunden- oder Heimmessung (Ashor et al., 2017).",
+    "Während Belastung: systolischer Anstieg um 2,81 mmHg [−5,20; −0,41] geringer, diastolisch −2,41 mmHg [−4,02; −0,79] (Benjamim et al., 2024).",
+    "75 Studien, 1 823 Personen: pro mmol Nitrat systolisch −0,28 mmHg akut und −0,48 mmHg mittelfristig; Pulswellengeschwindigkeit und flussvermittelte Dilatation verbessert (Norouzzadeh et al., 2025).",
+    "Natriumnitrat über mindestens eine Woche bei über 50-Jährigen (6 Studien, 181 Personen): keine signifikante Senkung (systolisch −3,81 mmHg [−10,05; 2,43]) (Forster et al., 2026)."
+   ],
+   "critic": "Kurzfristig ist die Blutdrucksenkung gut belegt und dosisabhängig. Ob sie im Alltag anhält, ist unsicher: Mit genaueren Methoden (24-Stunden-Messung) war sie nicht nachweisbar, und Nitratsalze senkten den Blutdruck bei Älteren nicht signifikant. Die Analyse mit 24-Stunden-Messung ist methodisch überzeugender. Wahrscheinlich ist ein kleiner, kurzfristiger Effekt, dessen Dauerhaftigkeit nicht gesichert ist.",
+   "figs": [
+    {
+     "id": "nit-blutdruck",
+     "title": "Nitrat und Blutdruck",
+     "cap": "Mittlere Veränderung in mmHg gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Systolisch, bis 15 Tage",
+       "sub": "Siervo et al., 2013",
+       "es": -4.4,
+       "lo": -5.9,
+       "hi": -2.8
+      },
+      {
+       "l": "Diastolisch, bis 15 Tage",
+       "sub": "Siervo et al., 2013",
+       "es": -1.1,
+       "lo": -2.2,
+       "hi": 0.1
+      },
+      {
+       "l": "Systolisch, ≥ 1 Woche",
+       "sub": "Ashor et al., 2017",
+       "es": -4.1,
+       "lo": -6.1,
+       "hi": -2.2
+      },
+      {
+       "l": "Diastolisch, ≥ 1 Woche",
+       "sub": "Ashor et al., 2017",
+       "es": -2.0,
+       "lo": -3.0,
+       "hi": -0.9
+      },
+      {
+       "l": "Systolisch während Belastung",
+       "sub": "Benjamim et al., 2024",
+       "es": -2.81,
+       "lo": -5.2,
+       "hi": -0.41
+      },
+      {
+       "l": "Systolisch, Natriumnitrat, > 50 Jahre",
+       "sub": "Forster et al., 2026",
+       "es": -3.81,
+       "lo": -10.05,
+       "hi": 2.43
+      }
+     ],
+     "opts": {
+      "min": -11,
+      "max": 3,
+      "ticks": [
+       -10,
+       -8,
+       -6,
+       -4,
+       -2,
+       0,
+       2
+      ],
+      "unit": "mmHg",
+      "leftLab": "Senkung",
+      "rightLab": "Anstieg"
+     }
+    }
+   ],
+   "s": [
+    "siervo2013",
+    "lara2016",
+    "ashor2017",
+    "benjamim2024",
+    "norouzzadeh2025",
+    "forster2026"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit",
+   "q": "Gibt es Risiken bei regelmäßigem Rote-Bete-Saft?",
+   "ev": "niedrig",
+   "key": [
+    "Rote-Bete-Saft kann die Nitratzufuhr leicht über die akzeptable Tagesdosis heben; Nitrat fördert die körpereigene Bildung von N-Nitroso-Verbindungen, die als krebserregend gelten. Zu Risiken gibt es deutlich weniger Daten als zum Nutzen (Zamani et al., 2021)."
+   ],
+   "critic": "Die Risikobewertung beruht auf einem systematischen Review ohne Metaanalyse und auf Mechanismen. Gemüse als Nitratquelle enthält zugleich Stoffe, die die Bildung von Nitroso-Verbindungen hemmen können; dazu macht der Abstract aber keine Angaben. Für eine Daueranwendung in hohen Dosen fehlen belastbare Sicherheitsdaten.",
+   "figs": [],
+   "s": [
+    "zamani2021"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2013,
+   "t": "Erste Metaanalyse zur Leistung",
+   "p": "Großer Effekt bis zur Erschöpfung, Zeitfahren nicht signifikant.",
+   "tag": "neu",
+   "s": "hoon2013"
+  },
+  {
+   "y": 2013,
+   "t": "Blutdrucksenkung",
+   "p": "Systolisch −4,4 mmHg.",
+   "tag": "neu",
+   "s": "siervo2013"
+  },
+  {
+   "y": 2016,
+   "t": "Bessere Gefäßfunktion",
+   "p": "SMD 0,36.",
+   "tag": "neu",
+   "s": "lara2016"
+  },
+  {
+   "y": 2016,
+   "t": "Geringerer Sauerstoffverbrauch",
+   "p": "Bessere Ökonomie bei submaximaler Belastung.",
+   "tag": "neu",
+   "s": "pawlakchaouch2016"
+  },
+  {
+   "y": 2017,
+   "t": "47 Studien zur Ausdauer",
+   "p": "Effekt bis zur Erschöpfung kleiner als zunächst berichtet.",
+   "tag": "rel",
+   "s": "mcmahon2017"
+  },
+  {
+   "y": 2017,
+   "t": "Blutdruck nur in der Praxis gesenkt",
+   "p": "24-Stunden-Messung ohne Effekt.",
+   "tag": "contra",
+   "s": "ashor2017"
+  },
+  {
+   "y": 2018,
+   "t": "Nur Nichtsportler profitieren",
+   "p": "Sportler ohne Leistungsvorteil.",
+   "tag": "neu",
+   "s": "campos2018"
+  },
+  {
+   "y": 2020,
+   "t": "80 Studien, kleiner Gesamteffekt",
+   "p": "Kein Effekt bei Hochtrainierten.",
+   "tag": "conf",
+   "s": "senefeld2020"
+  },
+  {
+   "y": 2021,
+   "t": "Risiken wenig untersucht",
+   "p": "Hinweis auf N-Nitroso-Verbindungen.",
+   "tag": "neu",
+   "s": "zamani2021"
+  },
+  {
+   "y": 2021,
+   "t": "Ausdauer: 73 Studien",
+   "p": "Erschöpfungszeit verlängert, VO₂max unverändert.",
+   "tag": "conf",
+   "s": "gao2021"
+  },
+  {
+   "y": 2021,
+   "t": "Muskelleistung +5 %",
+   "p": "Individuelle Daten aus 19 Studien.",
+   "tag": "neu",
+   "s": "coggan2021"
+  },
+  {
+   "y": 2022,
+   "t": "Kraft kaum, Kraftausdauer leicht verbessert",
+   "p": "34 Studien.",
+   "tag": "neu",
+   "s": "alvares2022"
+  },
+  {
+   "y": 2022,
+   "t": "Moderatoren",
+   "p": "Rote-Bete-Saft besser als Salze; Mundspülung schwächt.",
+   "tag": "neu",
+   "s": "silva2022"
+  },
+  {
+   "y": 2022,
+   "t": "Zeitfahren 5–30 min",
+   "p": "Nur trivialer Effekt.",
+   "tag": "conf",
+   "s": "wong2022"
+  },
+  {
+   "y": 2023,
+   "t": "Krafttraining",
+   "p": "Mehr Wiederholungen bis zum Versagen.",
+   "tag": "neu",
+   "s": "tan2023"
+  },
+  {
+   "y": 2023,
+   "t": "Kurze Intensivbelastungen",
+   "p": "Kleine Vorteile bei Power und Yo-Yo-Test.",
+   "tag": "neu",
+   "s": "alsharif2023"
+  },
+  {
+   "y": 2023,
+   "t": "Kein Zusatznutzen für Trainingsanpassung",
+   "p": "VO₂peak nach Training unverändert.",
+   "tag": "neu",
+   "s": "hogwood2023"
+  },
+  {
+   "y": 2024,
+   "t": "Blutdruck bei Belastung",
+   "p": "Geringerer Anstieg während des Trainings.",
+   "tag": "conf",
+   "s": "benjamim2024"
+  },
+  {
+   "y": 2025,
+   "t": "Umbrella Review: 20 Metaanalysen",
+   "p": "Gemischte Effekte, niedrige Review-Qualität.",
+   "tag": "rel",
+   "s": "poon2025"
+  },
+  {
+   "y": 2025,
+   "t": "Umbrella Review zu Rote-Bete-Saft",
+   "p": "Effekte meist klein; Dosis 515–1017 mg.",
+   "tag": "conf",
+   "s": "tian2025"
+  },
+  {
+   "y": 2025,
+   "t": "Dosis-Wirkung beim Blutdruck",
+   "p": "Pro mmol Nitrat etwas niedriger.",
+   "tag": "conf",
+   "s": "norouzzadeh2025"
+  },
+  {
+   "y": 2025,
+   "t": "Frauen: Power, nicht Kraft",
+   "p": "Erste Analyse nur mit Frauen.",
+   "tag": "neu",
+   "s": "meng2025"
+  },
+  {
+   "y": 2026,
+   "t": "Kein Effekt bei Athleten",
+   "p": "45 Studien ohne signifikanten Vorteil.",
+   "tag": "conf",
+   "s": "xie2026"
+  },
+  {
+   "y": 2026,
+   "t": "Kleiner VO₂max-Effekt",
+   "p": "Nach Bias-Korrektur kleiner, bei Hochtrainierten null.",
+   "tag": "rel",
+   "s": "qin2026"
+  },
+  {
+   "y": 2026,
+   "t": "Kein Sprintvorteil",
+   "p": "Niedrige Evidenzqualität.",
+   "tag": "contra",
+   "s": "eroglu2026"
+  },
+  {
+   "y": 2026,
+   "t": "Natriumnitrat bei Älteren",
+   "p": "Keine signifikante Blutdrucksenkung.",
+   "tag": "contra",
+   "s": "forster2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "17.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 226 Einträgen, 290 Übersichtsarbeiten nach Titel geprüft (davon 83 über eine ergänzende Suche nach Übersichtsarbeiten), 26 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Zeit bis zur Erschöpfung (Zunahme)",
+     "g": "A",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 22,
+     "p": null,
+     "s": [
+      "poon2025",
+      "mcmahon2017",
+      "hoon2013",
+      "gao2021"
+     ],
+     "t": "SMD 0,33 im Umbrella Review; ES 0,33 bei 22 Versuchen (McMahon et al., 2017); im Mittel +25,3 s (Gao et al., 2021).",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Zeitfahrleistung",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 24,
+     "p": null,
+     "s": [
+      "wong2022",
+      "hoon2013",
+      "gao2021"
+     ],
+     "t": "g = 0,15 (24 Studien, grenzwertig nicht signifikant); bei mehrtägiger Einnahme g = 0,30, ebenfalls grenzwertig.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Sauerstoffverbrauch bei submaximaler Belastung",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 26,
+     "p": null,
+     "s": [
+      "pawlakchaouch2016",
+      "gao2021"
+     ],
+     "t": "SMD −0,26 (26 Studien); bessere Bewegungsökonomie bei moderater und schwerer Intensität.",
+     "v": "vo2"
+    },
+    {
+     "n": "VO₂max",
+     "g": "C",
+     "d": "auf",
+     "m": null,
+     "b": "nutzen",
+     "k": 38,
+     "p": 703,
+     "s": [
+      "qin2026",
+      "gao2021",
+      "tian2025"
+     ],
+     "t": "SMD 0,24, nach Bias-Korrektur 0,19 (38 Studien); in einer anderen Analyse ohne Effekt, bei Hochtrainierten 0,07.",
+     "v": "vo2"
+    },
+    {
+     "n": "Trainingsanpassung (VO₂peak)",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": 228,
+     "s": [
+      "hogwood2023"
+     ],
+     "t": "Nitrat plus Training gegenüber Training allein: SMD 0,18, nicht signifikant.",
+     "v": "vo2"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Trainingszustand",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Leistung bei Freizeitsportlern",
+     "g": "A",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 53,
+     "p": null,
+     "s": [
+      "campos2018",
+      "senefeld2020",
+      "tian2025"
+     ],
+     "t": "ES 0,25 bei Nichtsportlern, in langen Erschöpfungstests 0,47; insgesamt d = 0,174 (80 Studien).",
+     "v": "trainiert"
+    },
+    {
+     "n": "Leistung bei gut trainierten Athleten",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 45,
+     "p": 659,
+     "s": [
+      "xie2026",
+      "senefeld2020",
+      "campos2018"
+     ],
+     "t": "Kein signifikanter Effekt in drei Analysen (ES 0,04; d = 0,021; 45 Studien mit Athleten).",
+     "v": "trainiert"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und Schnellkraft",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Maximale Muskelleistung (Power)",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 19,
+     "p": 268,
+     "s": [
+      "coggan2021",
+      "poon2025",
+      "meng2025"
+     ],
+     "t": "g = 0,45 (etwa +5 %); im Umbrella Review Spitzenleistung SMD 0,25.",
+     "v": "kraft"
+    },
+    {
+     "n": "Maximalkraft",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 26,
+     "p": null,
+     "s": [
+      "alvares2022",
+      "meng2025",
+      "tian2025"
+     ],
+     "t": "SMD 0,08, trivial; bei Frauen nicht signifikant (SMD 0,10).",
+     "v": "kraft"
+    },
+    {
+     "n": "Kraftausdauer",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 20,
+     "p": null,
+     "s": [
+      "alvares2022",
+      "poon2025",
+      "tan2023"
+     ],
+     "t": "SMD 0,31 bzw. 0,48; mehr Wiederholungen bis zum Versagen (SMD 0,43).",
+     "v": "kraft"
+    },
+    {
+     "n": "Sprintleistung (10–20 m, wiederholte Sprints)",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 21,
+     "p": 401,
+     "s": [
+      "eroglu2026",
+      "alsharif2023"
+     ],
+     "t": "Kein Effekt auf Sprintzeiten oder Spitzenleistung; nur die Zeit bis zur Spitzenleistung verbesserte sich.",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz-Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Systolischer Blutdruck",
+     "g": "A",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 75,
+     "p": 1823,
+     "s": [
+      "siervo2013",
+      "ashor2017",
+      "norouzzadeh2025",
+      "forster2026"
+     ],
+     "t": "Etwa −4 mmHg in Kurzzeitstudien, dosisabhängig; bei 24-Stunden-Messung und mit Natriumnitrat bei Älteren nicht signifikant.",
+     "v": "blutdruck"
+    },
+    {
+     "n": "Gefäßfunktion",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 12,
+     "p": 246,
+     "s": [
+      "lara2016",
+      "norouzzadeh2025"
+     ],
+     "t": "SMD 0,36; flussvermittelte Dilatation pro mmol Nitrat +0,30 %.",
+     "v": "blutdruck"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Bildung von N-Nitroso-Verbindungen",
+     "g": "D",
+     "d": "auf",
+     "m": -1,
+     "b": "schaden",
+     "k": null,
+     "p": null,
+     "s": [
+      "zamani2021"
+     ],
+     "t": "Hohe Nitratzufuhr kann die körpereigene Bildung fördern; Daten zu tatsächlichen Schäden fehlen weitgehend.",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "hoon2013": {
+   "short": "Hoon et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23580439",
+   "apa": "Hoon, M. W., Johnson, N. A., Chapman, P. G. &amp; Burke, L. M. (2013). The effect of nitrate supplementation on exercise performance in healthy individuals: A systematic review and meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 23</em>(5), 522–532.",
+   "doi": "10.1123/ijsnem.23.5.522"
+  },
+  "siervo2013": {
+   "short": "Siervo et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23596162",
+   "apa": "Siervo, M., Lara, J., Ogbonmwan, I. &amp; Mathers, J. C. (2013). Inorganic nitrate and beetroot juice supplementation reduces blood pressure in adults: A systematic review and meta-analysis. <em>The Journal of Nutrition, 143</em>(6), 818–826.",
+   "doi": "10.3945/jn.112.170233"
+  },
+  "lara2016": {
+   "short": "Lara et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25764393",
+   "apa": "Lara, J., Ashor, A. W., Oggioni, C., Ahluwalia, A., Mathers, J. C. &amp; Siervo, M. (2016). Effects of inorganic nitrate and beetroot supplementation on endothelial function: A systematic review and meta-analysis. <em>European Journal of Nutrition, 55</em>(2), 451–459.",
+   "doi": "10.1007/s00394-015-0872-7"
+  },
+  "pawlakchaouch2016": {
+   "short": "Pawlak-Chaouch et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26772523",
+   "apa": "Pawlak-Chaouch, M., Boissière, J., Gamelin, F. X., Cuvelier, G., Berthoin, S. &amp; Aucouturier, J. (2016). Effect of dietary nitrate supplementation on metabolic rate during rest and exercise in human: A systematic review and a meta-analysis. <em>Nitric Oxide, 53</em>, 65–76.",
+   "doi": "10.1016/j.niox.2016.01.001"
+  },
+  "mcmahon2017": {
+   "short": "McMahon et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27600147",
+   "apa": "McMahon, N. F., Leveritt, M. D. &amp; Pavey, T. G. (2017). The effect of dietary nitrate supplementation on endurance exercise performance in healthy adults: A systematic review and meta-analysis. <em>Sports Medicine, 47</em>(4), 735–756.",
+   "doi": "10.1007/s40279-016-0617-7"
+  },
+  "ashor2017": {
+   "short": "Ashor et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28319596",
+   "apa": "Ashor, A. W., Lara, J. &amp; Siervo, M. (2017). Medium-term effects of dietary nitrate supplementation on systolic and diastolic blood pressure in adults: A systematic review and meta-analysis. <em>Journal of Hypertension, 35</em>(7), 1353–1359.",
+   "doi": "10.1097/HJH.0000000000001305"
+  },
+  "campos2018": {
+   "short": "Campos et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29553034",
+   "apa": "Campos, H. O., Drummond, L. R., Rodrigues, Q. T., Machado, F. S. M., Pires, W., Wanner, S. P. &amp; Coimbra, C. C. (2018). Nitrate supplementation improves physical performance specifically in non-athletes during prolonged open-ended tests: A systematic review and meta-analysis. <em>British Journal of Nutrition, 119</em>(6), 636–657.",
+   "doi": "10.1017/S0007114518000132"
+  },
+  "senefeld2020": {
+   "short": "Senefeld et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32936597",
+   "apa": "Senefeld, J. W., Wiggins, C. C., Regimbal, R. J., Dominelli, P. B., Baker, S. E. &amp; Joyner, M. J. (2020). Ergogenic effect of nitrate supplementation: A systematic review and meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 52</em>(10), 2250–2261.",
+   "doi": "10.1249/MSS.0000000000002363"
+  },
+  "zamani2021": {
+   "short": "Zamani et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "32292042",
+   "apa": "Zamani, H., de Joode, M. E. J. R., Hossein, I. J., Henckens, N. F. T., Guggeis, M. A., Berends, J. E., de Kok, T. M. C. M. &amp; van Breda, S. G. J. (2021). The benefits and risks of beetroot juice consumption: A systematic review. <em>Critical Reviews in Food Science and Nutrition, 61</em>(5), 788–804.",
+   "doi": "10.1080/10408398.2020.1746629"
+  },
+  "gao2021": {
+   "short": "Gao et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34243756",
+   "apa": "Gao, C., Gupta, S., Adli, T., Hou, W., Coolsaet, R., Hayes, A., Kim, K., Pandey, A., Gordon, J., Chahil, G., Belley-Cote, E. P. &amp; Whitlock, R. P. (2021). The effects of dietary nitrate supplementation on endurance exercise performance and cardiorespiratory measures in healthy adults: A systematic review and meta-analysis. <em>Journal of the International Society of Sports Nutrition, 18</em>(1), Artikel 55.",
+   "doi": "10.1186/s12970-021-00450-4"
+  },
+  "coggan2021": {
+   "short": "Coggan et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse individueller Teilnehmerdaten",
+   "basis": "Abstract",
+   "pmid": "34625064",
+   "apa": "Coggan, A. R., Baranauskas, M. N., Hinrichs, R. J., Liu, Z. &amp; Carter, S. J. (2021). Effect of dietary nitrate on human muscle power: A systematic review and individual participant data meta-analysis. <em>Journal of the International Society of Sports Nutrition, 18</em>(1), Artikel 66.",
+   "doi": "10.1186/s12970-021-00463-z"
+  },
+  "alvares2022": {
+   "short": "Alvares et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33554654",
+   "apa": "Alvares, T. S., Oliveira, G. V., Volino-Souza, M., Conte-Junior, C. A. &amp; Murias, J. M. (2022). Effect of dietary nitrate ingestion on muscular performance: A systematic review and meta-analysis of randomized controlled trials. <em>Critical Reviews in Food Science and Nutrition, 62</em>(19), 5284–5306.",
+   "doi": "10.1080/10408398.2021.1884040"
+  },
+  "silva2022": {
+   "short": "Silva et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "35580578",
+   "apa": "Silva, K. V. C., Costa, B. D., Gomes, A. C., Saunders, B. &amp; Mota, J. F. (2022). Factors that moderate the effect of nitrate ingestion on exercise performance in adults: A systematic review with meta-analyses and meta-regressions. <em>Advances in Nutrition, 13</em>(5), 1866–1881.",
+   "doi": "10.1093/advances/nmac054"
+  },
+  "wong2022": {
+   "short": "Wong et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35892115",
+   "apa": "Wong, T. H., Sim, A. &amp; Burns, S. F. (2022). The effects of nitrate ingestion on high-intensity endurance time-trial performance: A systematic review and meta-analysis. <em>Journal of Exercise Science and Fitness, 20</em>(4), 305–316.",
+   "doi": "10.1016/j.jesf.2022.06.004"
+  },
+  "tan2023": {
+   "short": "Tan et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37299456",
+   "apa": "Tan, R., Pennell, A., Karl, S. T., Cass, J. K., Go, K., Clifford, T., Bailey, S. J. &amp; Perkins Storm, C. (2023). Effects of dietary nitrate supplementation on back squat and bench press performance: A systematic review and meta-analysis. <em>Nutrients, 15</em>(11), Artikel 2493.",
+   "doi": "10.3390/nu15112493"
+  },
+  "alsharif2023": {
+   "short": "Alsharif et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37371924",
+   "apa": "Alsharif, N. S., Clifford, T., Alhebshi, A., Rowland, S. N. &amp; Bailey, S. J. (2023). Effects of dietary nitrate supplementation on performance during single and repeated bouts of short-duration high-intensity exercise: A systematic review and meta-analysis of randomised controlled trials. <em>Antioxidants, 12</em>(6), Artikel 1194.",
+   "doi": "10.3390/antiox12061194"
+  },
+  "hogwood2023": {
+   "short": "Hogwood et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37697072",
+   "apa": "Hogwood, A. C., Anderson, K. C., Ortiz de Zevallos, J., Paterson, C., Weltman, A. &amp; Allen, J. D. (2023). Limited effects of inorganic nitrate supplementation on exercise training responses: A systematic review and meta-analysis. <em>Sports Medicine – Open, 9</em>(1), Artikel 84.",
+   "doi": "10.1186/s40798-023-00632-1"
+  },
+  "benjamim2024": {
+   "short": "Benjamim et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38403254",
+   "apa": "Benjamim, C. J. R., Lopes da Silva, L. S., Valenti, V. E., Gonçalves, L. S., Porto, A. A., Tasinafo Júnior, M. F., Walhin, J. P., Garner, D. M., Gualano, B. &amp; Bueno Júnior, C. R. (2024). Effects of dietary inorganic nitrate on blood pressure during and post-exercise recovery: A systematic review and meta-analysis of randomized placebo-controlled trials. <em>Free Radical Biology and Medicine, 215</em>, 25–36.",
+   "doi": "10.1016/j.freeradbiomed.2024.02.011",
+   "flag": "Im Abstract ist das KI für den systolischen Blutdruck nach Belastung mit −5,65 bis 1,41 angegeben, obwohl p = 0,001; vermutlich Tippfehler (−1,41). Wert hier nicht verwendet."
+  },
+  "poon2025": {
+   "short": "Poon et al., 2025",
+   "year": 2025,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "40085422",
+   "apa": "Poon, E. T., Iu, J. C., Sum, W. M., Wong, P. S., Lo, K. K., Ali, A., Burns, S. F. &amp; Trexler, E. T. (2025). Dietary nitrate supplementation and exercise performance: An umbrella review of 20 published systematic reviews with meta-analyses. <em>Sports Medicine, 55</em>(5), 1213–1231.",
+   "doi": "10.1007/s40279-025-02194-6"
+  },
+  "tian2025": {
+   "short": "Tian et al., 2025",
+   "year": 2025,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "40573069",
+   "apa": "Tian, C., Jiang, Q., Han, M., Guo, L., Huang, R., Zhao, L. &amp; Mao, S. (2025). Effects of beetroot juice on physical performance in professional athletes and healthy individuals: An umbrella review. <em>Nutrients, 17</em>(12), Artikel 1958.",
+   "doi": "10.3390/nu17121958"
+  },
+  "norouzzadeh2025": {
+   "short": "Norouzzadeh et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse (Dosis-Wirkung)",
+   "basis": "Abstract",
+   "pmid": "40128734",
+   "apa": "Norouzzadeh, M., Hasan Rashedi, M., Ghaemi, S., Saber, N., Mirdar Harijani, A., Habibi, H., Mostafavi, S., Sarv, F., Farhadnejad, H., Teymoori, F., Khaleghian, M. &amp; Mirmiran, P. (2025). Plasma nitrate, dietary nitrate, blood pressure, and vascular health biomarkers: A GRADE-assessed systematic review and dose-response meta-analysis of randomized controlled trials. <em>Nutrition Journal, 24</em>(1), Artikel 47.",
+   "doi": "10.1186/s12937-025-01114-8"
+  },
+  "meng2025": {
+   "short": "Meng et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41010367",
+   "apa": "Meng, F., Liu, Y., Qiu, B. &amp; Li, J. (2025). Does nitrate supplementation improve muscle strength, power, and sprint performance in females? A systematic review and meta-analysis. <em>Life, 15</em>(9), Artikel 1425.",
+   "doi": "10.3390/life15091425"
+  },
+  "forster2026": {
+   "short": "Forster et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41619653",
+   "apa": "Forster, D., Waclawovsky, G. &amp; Stefani, G. P. (2026). Effects of chronic nitrate supplementation on blood pressure in adults: A systematic review and meta-analysis of randomized clinical trials. <em>Nutrition Research, 146</em>, 111–120.",
+   "doi": "10.1016/j.nutres.2025.08.002"
+  },
+  "qin2026": {
+   "short": "Qin & Kim, 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42523624",
+   "apa": "Qin, G. &amp; Kim, S. (2026). Effects of beetroot juice supplementation on maximal oxygen uptake during aerobic exercise: A systematic review and meta-analysis. <em>Frontiers in Nutrition, 13</em>, Artikel 1858216.",
+   "doi": "10.3389/fnut.2026.1858216"
+  },
+  "eroglu2026": {
+   "short": "Eroglu et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42588136",
+   "apa": "Eroglu, M. N., Pancar, S., López-Torres, O. &amp; Fernández-Elías, V. E. (2026). The effects of beetroot juice supplementation on performance and fatigue during single and repeated sprints: A systematic review and meta-analysis. <em>Nutrients, 18</em>(15), Artikel 2513.",
+   "doi": "10.3390/nu18152513"
+  },
+  "xie2026": {
+   "short": "Xie et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42931603",
+   "apa": "Xie, Y., Han, Y., Du, Q. &amp; Xu, K. (2026). Dietary nitrate supplementation and exercise performance in athletes: A systematic review and meta-analysis of randomised controlled trials. <em>Sports, 14</em>(10), Artikel 466.",
+   "doi": "10.3390/sports14100466"
+  }
+ }
+}

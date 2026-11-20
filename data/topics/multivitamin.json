@@ -1,0 +1,1086 @@
+{
+ "id": "multivitamin",
+ "title": "Multivitamin-Präparate",
+ "stand": "2026-11-17",
+ "lead": "Verlängern Multivitamin-Präparate das Leben, schützen sie vor Herz-Kreislauf-Erkrankungen, Krebs, geistigem Abbau oder Infekten, und verbessern sie die sportliche Leistung? Zusammengefasst aus Metaanalysen und systematischen Reviews.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, normal ernährte Erwachsene. Multivitamine sind sicher, wenn sie im Bereich der Zufuhrempfehlungen dosiert sind, bringen aber für die meisten Endpunkte keinen nachweisbaren Nutzen. Für sportliche Leistung gibt es keine Metaanalyse.",
+ "rx": [
+  {
+   "label": "Gesunde mit ausgewogener Ernährung",
+   "value": "kein Grund zur Einnahme",
+   "text": "Weder Gesamtsterblichkeit noch Herz-Kreislauf-Ereignisse sanken; der Krebs-Effekt ist klein (OR 0,93).",
+   "cite": "Macpherson et al. 2013; Kim et al. 2018; O’Connor et al. 2022"
+  },
+  {
+   "label": "Sportler",
+   "value": "nur bei Lücken in der Ernährung",
+   "text": "Belege für eine Leistungssteigerung fehlen. Sinnvoll ist ein Präparat bei eingeschränkter Ernährung, etwa bei Energiedefizit oder einseitiger Kost, nach Abklärung eines Mangels.",
+   "cite": "Ghazzawi et al. 2023"
+  },
+  {
+   "label": "Dosierung",
+   "value": "bis 100 % der Zufuhrempfehlung",
+   "text": "In diesem Bereich traten nur leichte Nebenwirkungen auf, auch über mehr als 10 Jahre; Megadosen sind nicht gedeckt.",
+   "cite": "Biesalski &amp; Tinz 2017"
+  },
+  {
+   "label": "Raucher",
+   "value": "keine Präparate mit hoch dosiertem Beta-Carotin",
+   "text": "Beta-Carotin (20–30 mg/Tag) erhöhte bei Rauchern das Lungenkrebsrisiko (OR 1,24).",
+   "cite": "Tanvetyanon &amp; Bepler 2008; O’Connor et al. 2022"
+  },
+  {
+   "label": "Ältere Erwachsene",
+   "value": "mögliche kleine Vorteile",
+   "text": "Bei über 60-Jährigen kleine Vorteile für Gedächtnis und globale Kognition; die Größe entspricht etwa 2 Jahren weniger kognitiver Alterung.",
+   "cite": "Vyas et al. 2024; Grima et al. 2012"
+  }
+ ],
+ "note": "<b>Hinweis:</b> „Multivitamin“ ist kein einheitliches Produkt. Zusammensetzung und Dosis unterscheiden sich stark zwischen Studien und Präparaten; das schränkt die Übertragbarkeit aller Ergebnisse ein (Wang et al., 2026).",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Kein Einfluss auf die Sterblichkeit",
+   "ev": "hoch",
+   "p": "21 Studien mit über 91 000 Personen: Gesamtsterblichkeit unverändert (RR 0,98). Auch eine Kohorte mit 390 124 Personen fand keinen Überlebensvorteil.",
+   "s": [
+    "macpherson2013",
+    "loftfield2024",
+    "wang2026"
+   ]
+  },
+  {
+   "t": "Kein Schutz für Herz und Kreislauf",
+   "ev": "hoch",
+   "p": "Kardiovaskuläre Sterblichkeit und Schlaganfälle unverändert; der Blutdruck sank nur um gut 1 mmHg.",
+   "s": [
+    "kim2018",
+    "oconnor2022",
+    "jenkins2018",
+    "li2018"
+   ]
+  },
+  {
+   "t": "Kleiner Schutz vor Krebs, Risiko durch Beta-Carotin",
+   "ev": "moderat",
+   "p": "Etwas weniger Krebserkrankungen (OR 0,93), vor allem bei Männern; hoch dosiertes Beta-Carotin erhöhte bei Rauchern das Lungenkrebsrisiko.",
+   "s": [
+    "oconnor2022",
+    "fortmann2013",
+    "tanvetyanon2008"
+   ]
+  },
+  {
+   "t": "Kleine Vorteile für das Gedächtnis im Alter",
+   "ev": "moderat",
+   "p": "Unmittelbarer Abruf (SMD 0,32) und globale Kognition bei über 60-Jährigen verbessert; andere kognitive Bereiche nicht.",
+   "s": [
+    "grima2012",
+    "vyas2024",
+    "rutjes2018"
+   ]
+  },
+  {
+   "t": "Kein belegter Nutzen für Infekte und Leistung",
+   "ev": "niedrig",
+   "p": "Die Infektvorbeugung ist widersprüchlich und schwach belegt; zur sportlichen Leistung fehlen Metaanalysen.",
+   "s": [
+    "elkadiki2005",
+    "stephen2006",
+    "vliegboerstra2022",
+    "ghazzawi2023"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "sterblichkeit",
+   "name": "Gesamtsterblichkeit",
+   "q": "Leben Menschen mit Multivitaminen länger?",
+   "ev": "hoch",
+   "key": [
+    "21 Studien mit 91 074 Personen und 8 794 Todesfällen, im Mittel 43 Monate Einnahme: kein Effekt auf die Gesamtsterblichkeit (RR 0,98 [0,94; 1,02]); in Primärpräventionsstudien ein Trend (RR 0,94 [0,89; 1,00]). Keine Heterogenität, kein Hinweis auf Publikationsbias (Macpherson et al., 2013).",
+    "12 Kohortenstudien und 3 RCTs: die meisten relativen Risiken lagen nahe bei 1 oder knapp darunter; kein erhöhtes Risiko (Alexander et al., 2013).",
+    "3 US-Kohorten mit 390 124 Personen und 164 762 Todesfällen: keine niedrigere Sterblichkeit; in der ersten Hälfte der Nachbeobachtung sogar leicht höheres Risiko (HR 1,04 [1,02; 1,07]) (Loftfield et al., 2024).",
+    "Rapid Review von 19 Metaanalysen: kein Nutzen für die Gesamtsterblichkeit, weder in RCTs noch in Beobachtungsstudien (Wang et al., 2026)."
+   ],
+   "critic": "RCTs und große Kohorten stimmen überein: kein Überlebensvorteil. Ältere Beobachtungsdaten mit leicht günstigen Risiken sind durch den „Healthy-User“-Effekt verzerrt: Nutzer waren häufiger gebildet und rauchten seltener (Loftfield et al., 2024). Die RCT-Metaanalyse ist hier verlässlicher.",
+   "figs": [
+    {
+     "id": "mv-mort",
+     "title": "Multivitamine und Sterblichkeit",
+     "cap": "Relatives Risiko bzw. Hazard Ratio mit 95-%-KI. Werte unter 1 = geringeres Risiko.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Gesamtsterblichkeit (RCTs)",
+       "sub": "Macpherson et al., 2013",
+       "es": 0.98,
+       "lo": 0.94,
+       "hi": 1.02
+      },
+      {
+       "l": "Primärprävention (RCTs)",
+       "sub": "Macpherson et al., 2013",
+       "es": 0.94,
+       "lo": 0.89,
+       "hi": 1.0
+      },
+      {
+       "l": "Gefäßbedingte Sterblichkeit",
+       "sub": "Macpherson et al., 2013",
+       "es": 1.01,
+       "lo": 0.93,
+       "hi": 1.09
+      },
+      {
+       "l": "Krebssterblichkeit",
+       "sub": "Macpherson et al., 2013",
+       "es": 0.96,
+       "lo": 0.88,
+       "hi": 1.04
+      },
+      {
+       "l": "Gesamtsterblichkeit (Kohorten, 1. Hälfte)",
+       "sub": "Loftfield et al., 2024",
+       "es": 1.04,
+       "lo": 1.02,
+       "hi": 1.07
+      }
+     ],
+     "opts": {
+      "min": 0.8,
+      "max": 1.15,
+      "ticks": [
+       0.85,
+       0.9,
+       0.95,
+       1,
+       1.05,
+       1.1
+      ],
+      "unit": "RR/HR",
+      "ref": 1,
+      "leftLab": "weniger Todesfälle",
+      "rightLab": "mehr Todesfälle"
+     }
+    }
+   ],
+   "s": [
+    "macpherson2013",
+    "alexander2013",
+    "loftfield2024",
+    "wang2026"
+   ]
+  },
+  {
+   "id": "herz",
+   "name": "Herz-Kreislauf und Blutdruck",
+   "q": "Schützen Multivitamine Herz und Gefäße?",
+   "ev": "hoch",
+   "key": [
+    "18 Studien mit 2 019 862 Personen: kein Zusammenhang mit kardiovaskulärer Sterblichkeit (RR 1,00 [0,97; 1,04]), KHK-Sterblichkeit (RR 1,02 [0,92; 1,13]) oder Schlaganfällen (RR 0,98 [0,91; 1,05]). Weniger KHK-Neuerkrankungen (RR 0,88 [0,79; 0,97]), aber nicht in den RCTs (RR 0,97 [0,80; 1,19]) (Kim et al., 2018).",
+    "USPSTF 2013 und 2022: kein Effekt von Multivitaminen auf Herz-Kreislauf-Erkrankungen (Fortmann et al., 2013; O’Connor et al., 2022).",
+    "Systematische Reviews und Metaanalysen zu Supplementen: kein Effekt von Multivitaminen auf Herz-Kreislauf-Erkrankungen (Jenkins et al., 2018).",
+    "8 RCTs mit 2 011 Personen: systolischer Blutdruck −1,31 mmHg [−2,48; −0,14], diastolisch −0,71 mmHg [−1,43; 0,00]; signifikant nur bei Personen mit chronischer Erkrankung. 4 RCTs mit 21 196 Personen: kein Effekt auf das Hypertonierisiko (Li et al., 2018).",
+    "NIH-Review 2006: Multivitamine hatten keinen signifikanten Effekt auf Herz-Kreislauf-Erkrankungen (Huang et al., 2006)."
+   ],
+   "critic": "Die einzige günstige Assoziation (KHK-Neuerkrankungen) stammt aus Kohortenstudien und verschwindet in RCTs. Das spricht für Verzerrung durch gesündere Lebensweise der Nutzer. Die Blutdrucksenkung ist zu klein, um Bluthochdruck vorzubeugen, wie die Autoren selbst schreiben.",
+   "figs": [
+    {
+     "id": "mv-herz",
+     "title": "Multivitamine und Herz-Kreislauf",
+     "cap": "Relatives Risiko mit 95-%-KI (Kim et al., 2018). RCTs und Kohortenstudien; Werte unter 1 = geringeres Risiko.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kardiovaskuläre Sterblichkeit",
+       "sub": "Kim et al., 2018",
+       "es": 1.0,
+       "lo": 0.97,
+       "hi": 1.04
+      },
+      {
+       "l": "KHK-Sterblichkeit",
+       "sub": "Kim et al., 2018",
+       "es": 1.02,
+       "lo": 0.92,
+       "hi": 1.13
+      },
+      {
+       "l": "Schlaganfall-Inzidenz",
+       "sub": "Kim et al., 2018",
+       "es": 0.98,
+       "lo": 0.91,
+       "hi": 1.05
+      },
+      {
+       "l": "KHK-Inzidenz (alle Studien)",
+       "sub": "Kim et al., 2018",
+       "es": 0.88,
+       "lo": 0.79,
+       "hi": 0.97
+      },
+      {
+       "l": "KHK-Inzidenz (nur RCTs)",
+       "sub": "Kim et al., 2018",
+       "es": 0.97,
+       "lo": 0.8,
+       "hi": 1.19
+      }
+     ],
+     "opts": {
+      "min": 0.7,
+      "max": 1.25,
+      "ticks": [
+       0.7,
+       0.8,
+       0.9,
+       1,
+       1.1,
+       1.2
+      ],
+      "unit": "RR",
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "kim2018",
+    "fortmann2013",
+    "oconnor2022",
+    "jenkins2018",
+    "li2018",
+    "huang2006"
+   ]
+  },
+  {
+   "id": "krebs",
+   "name": "Krebs",
+   "q": "Beugen Multivitamine Krebs vor?",
+   "ev": "moderat",
+   "key": [
+    "USPSTF 2022, 84 Studien mit 739 803 Personen: Multivitamine gingen mit etwas weniger Krebserkrankungen einher (OR 0,93 [0,87; 0,99]; 4 RCTs, n = 48 859; absolute Risikodifferenz −0,2 % bis −1,2 %) und weniger Lungenkrebs (OR 0,75 [0,58; 0,95]; 2 RCTs). Die Autoren nennen wichtige Einschränkungen (O’Connor et al., 2022).",
+    "USPSTF 2013: zwei große Studien (n = 27 658) mit weniger Krebs bei Männern nach mehr als 10 Jahren Einnahme (RR 0,93 [0,87; 0,99]); bei Frauen kein Effekt (Fortmann et al., 2013).",
+    "Brustkrebs: 8 Studien mit 355 080 Personen, kein signifikanter Zusammenhang (Chan et al., 2011). Prostatakrebs: kein Effekt auf Auftreten, fortgeschrittene Erkrankung oder Sterblichkeit, bei hoher Heterogenität (Stratton &amp; Godwin, 2011).",
+    "Beta-Carotin: 4 Studien mit 109 394 Personen, 20–30 mg/Tag; bei Rauchern höheres Lungenkrebsrisiko (OR 1,24 [1,10; 1,39]), bei ehemaligen Rauchern nicht (OR 1,10 [0,84; 1,45]). 70 % von 47 Multivitaminen enthielten Beta-Carotin, meist in niedriger Dosis (Median 0,3 mg) (Tanvetyanon &amp; Bepler, 2008). Bestätigt durch USPSTF 2022: OR 1,20 [1,01; 1,42] (O’Connor et al., 2022)."
+   ],
+   "critic": "Der Krebs-Effekt beruht auf wenigen Studien und ist absolut klein; er zeigte sich bei Männern, nicht bei Frauen. Die frühe Studie mit großem Effekt (Linxian, China) betraf eine schlecht ernährte Bevölkerung (Huang et al., 2006) und ist nicht übertragbar. Das Lungenkrebsrisiko gilt für hohe Beta-Carotin-Dosen, nicht für übliche niedrige Mengen in Standardpräparaten.",
+   "figs": [
+    {
+     "id": "mv-krebs",
+     "title": "Multivitamine, Beta-Carotin und Krebs",
+     "cap": "Odds Ratio bzw. relatives Risiko mit 95-%-KI. Werte unter 1 = geringeres Risiko.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Krebs insgesamt, Multivitamin",
+       "sub": "O’Connor et al., 2022",
+       "es": 0.93,
+       "lo": 0.87,
+       "hi": 0.99
+      },
+      {
+       "l": "Lungenkrebs, Multivitamin",
+       "sub": "O’Connor et al., 2022",
+       "es": 0.75,
+       "lo": 0.58,
+       "hi": 0.95
+      },
+      {
+       "l": "Lungenkrebs, Beta-Carotin",
+       "sub": "O’Connor et al., 2022",
+       "es": 1.2,
+       "lo": 1.01,
+       "hi": 1.42
+      },
+      {
+       "l": "Lungenkrebs, Beta-Carotin, Raucher",
+       "sub": "Tanvetyanon &amp; Bepler, 2008",
+       "es": 1.24,
+       "lo": 1.1,
+       "hi": 1.39
+      },
+      {
+       "l": "Lungenkrebs, Beta-Carotin, Ex-Raucher",
+       "sub": "Tanvetyanon &amp; Bepler, 2008",
+       "es": 1.1,
+       "lo": 0.84,
+       "hi": 1.45
+      }
+     ],
+     "opts": {
+      "min": 0.5,
+      "max": 1.5,
+      "ticks": [
+       0.5,
+       0.75,
+       1,
+       1.25,
+       1.5
+      ],
+      "unit": "OR",
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "oconnor2022",
+    "fortmann2013",
+    "chan2011",
+    "stratton2011",
+    "tanvetyanon2008",
+    "huang2006"
+   ]
+  },
+  {
+   "id": "kognition",
+   "name": "Kognition und Gedächtnis",
+   "q": "Verbessern Multivitamine die geistige Leistung?",
+   "ev": "moderat",
+   "key": [
+    "10 RCTs mit 3 200 Personen: verbessert war nur der unmittelbare freie Abruf (SMD 0,32 [0,09; 0,56]), nicht der verzögerte Abruf (SMD −0,14 [−0,43; 0,14]) oder die Wortflüssigkeit (SMD 0,06 [−0,05; 0,18]); kein Publikationsbias, keine Heterogenität (Grima et al., 2012).",
+    "COSMOS, über 60-Jährige: Metaanalyse von 3 Teilstudien (n = 573, 2 158 und 2 472) mit Vorteilen für globale Kognition (0,07 SD [0,03; 0,11]) und episodisches Gedächtnis (0,06 SD [0,03; 0,10]); entspricht etwa 2 Jahren weniger kognitiver Alterung (Vyas et al., 2024).",
+    "Cochrane-Review, 28 Studien mit über 83 000 Personen ab 40 Jahren: kein Beleg für einen bedeutsamen Effekt einer Vitamin- oder Mineralstoffstrategie auf kognitiven Abbau oder Demenz; Evidenz meist moderat bis niedrig (Rutjes et al., 2018)."
+   ],
+   "critic": "Die Befunde widersprechen sich nur scheinbar: Die Effekte sind klein und auf Gedächtnis begrenzt. Der Cochrane-Review betrachtet vor allem einzelne Vitamine und kurze Kognitionstests; COSMOS ist eine große, eigens auf Kognition ausgelegte Studie, aber nur ein Studienprogramm mit einem Präparat. Wahrscheinlichste Lesart: kleiner Nutzen für das Gedächtnis bei Älteren, für Jüngere unbelegt.",
+   "figs": [
+    {
+     "id": "mv-kog",
+     "title": "Multivitamine und Kognition",
+     "cap": "Standardisierte Mittelwertdifferenz bzw. Differenz in SD-Einheiten mit 95-%-KI. Werte rechts von 0 begünstigen Multivitamine.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Unmittelbarer Abruf",
+       "sub": "Grima et al., 2012",
+       "es": 0.32,
+       "lo": 0.09,
+       "hi": 0.56
+      },
+      {
+       "l": "Verzögerter Abruf",
+       "sub": "Grima et al., 2012",
+       "es": -0.14,
+       "lo": -0.43,
+       "hi": 0.14
+      },
+      {
+       "l": "Wortflüssigkeit",
+       "sub": "Grima et al., 2012",
+       "es": 0.06,
+       "lo": -0.05,
+       "hi": 0.18
+      },
+      {
+       "l": "Globale Kognition, über 60 J.",
+       "sub": "Vyas et al., 2024",
+       "es": 0.07,
+       "lo": 0.03,
+       "hi": 0.11
+      },
+      {
+       "l": "Episodisches Gedächtnis, über 60 J.",
+       "sub": "Vyas et al., 2024",
+       "es": 0.06,
+       "lo": 0.03,
+       "hi": 0.1
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 0.6,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "leftLab": "Placebo besser",
+      "rightLab": "Multivitamin besser"
+     }
+    }
+   ],
+   "s": [
+    "grima2012",
+    "vyas2024",
+    "rutjes2018"
+   ]
+  },
+  {
+   "id": "infekte",
+   "name": "Infekte",
+   "q": "Schützen Multivitamine vor Infekten?",
+   "ev": "niedrig",
+   "key": [
+    "8 RCTs bei Älteren: im Mittel 17,5 Infekttage weniger pro Jahr [11; 24] (3 Studien), aber kein Unterschied in der Wahrscheinlichkeit eines Infekts (OR 1,10 [0,81; 1,50]) oder der Infektrate (0,89 [0,78; 1,03]); Nebenwirkungen schlecht berichtet (El-Kadiki &amp; Sutton, 2005).",
+    "20 Studien: bei Älteren kein Unterschied in der Zahl der Infektepisoden (WMD 0,06 [−0,04; 0,16]); bei anderen Erwachsenen weniger Episoden (WMD −1,20 [−2,08; −0,32]), bei kleinen Fallzahlen (Stephen &amp; Avenell, 2006).",
+    "115 Studien mit 199 055 Personen, davon 7 419 Erwachsene: Nährstoffsupplemente haben in der gesunden Bevölkerung keinen oder höchstens einen sehr begrenzten Effekt auf Atemwegsinfekte (Vlieg-Boerstra et al., 2022)."
+   ],
+   "critic": "Die Studienlage ist klein und heterogen; Stephen und Avenell berichten ihre Ergebnisse ohne die Studien der Chandra-Arbeitsgruppe. Die unterschiedlichen Endpunkte erklären die Widersprüche. Ein Schutz ist bei gut ernährten Erwachsenen nicht belegt.",
+   "figs": [],
+   "s": [
+    "elkadiki2005",
+    "stephen2006",
+    "vliegboerstra2022"
+   ]
+  },
+  {
+   "id": "leistung",
+   "name": "Sportliche Leistung",
+   "q": "Verbessern Multivitamine die Leistung?",
+   "ev": "niedrig",
+   "key": [
+    "Systematischer Review zu Mikronährstoffen und Leistung: kein einzelner Mikronährstoff ist wichtiger als andere; eine ausgewogene Ernährung reicht meist aus. Multivitamine können bei Malabsorption oder nachgewiesenem Mangel helfen (Ghazzawi et al., 2023).",
+    "Eine Metaanalyse zu Multivitaminen und sportlicher Leistung bei Gesunden wurde in PubMed nicht gefunden."
+   ],
+   "critic": "Der Review fasst die Literatur ohne Effektschätzung zusammen. Ein Leistungsvorteil bei ausreichender Versorgung ist weder belegt noch physiologisch zu erwarten.",
+   "figs": [],
+   "s": [
+    "ghazzawi2023"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit und weitere Endpunkte",
+   "q": "Sind Multivitamine sicher?",
+   "ev": "moderat",
+   "key": [
+    "Präparate mit mindestens 9 Vitaminen und 3 Mineralstoffen bis 100 % der Zufuhrempfehlung: in 15 Studien nur leichte Nebenwirkungen (z. B. Magen-Darm-Beschwerden), ohne Unterschied zu Placebo; keine Überdosierung auch mit angereicherten Lebensmitteln; als sicher für mehr als 10 Jahre eingestuft (Biesalski &amp; Tinz, 2017).",
+    "NIH-Review 2006: keine durchgängigen Nebenwirkungen von Multivitaminen (Huang et al., 2006).",
+    "Rapid Review: höheres Risiko für das Fortschreiten einer altersbedingten Makuladegeneration berichtet; günstige Assoziationen für Katarakt und Hüftfrakturen nur in Beobachtungsstudien (Wang et al., 2026).",
+    "Hüftfrakturen: 8 Studien mit 80 148 Personen (mittleres Alter 69 Jahre), seltener bei Multivitamin-Nutzung (OR 0,49 [0,32; 0,77]) (Beeram et al., 2021)."
+   ],
+   "critic": "Die Sicherheit gilt für Dosen im Bereich der Zufuhrempfehlungen; Risiken entstehen bei hohen Einzeldosen wie Beta-Carotin (siehe Krebs). Der große Effekt auf Hüftfrakturen stammt aus Beobachtungsstudien und ist durch Lebensstil-Unterschiede wahrscheinlich überschätzt; die Autoren fordern selbst RCTs.",
+   "figs": [],
+   "s": [
+    "biesalski2017",
+    "huang2006",
+    "wang2026",
+    "beeram2021"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2005,
+   "t": "Infekte bei Älteren",
+   "p": "Weniger Infekttage, aber keine selteneren Infekte.",
+   "tag": "neu",
+   "s": "elkadiki2005"
+  },
+  {
+   "y": 2006,
+   "t": "NIH: Evidenz unzureichend",
+   "p": "Weder Nutzen noch Schaden für chronische Krankheiten belegt.",
+   "tag": "neu",
+   "s": "huang2006"
+  },
+  {
+   "y": 2006,
+   "t": "Infekte: widersprüchlich",
+   "p": "Kein Effekt bei Älteren, kleiner bei anderen Erwachsenen.",
+   "tag": "conf",
+   "s": "stephen2006"
+  },
+  {
+   "y": 2008,
+   "t": "Beta-Carotin bei Rauchern",
+   "p": "Höheres Lungenkrebsrisiko.",
+   "tag": "neu",
+   "s": "tanvetyanon2008"
+  },
+  {
+   "y": 2011,
+   "t": "Brustkrebs: kein Zusammenhang",
+   "p": "8 Studien, 355 080 Personen.",
+   "tag": "neu",
+   "s": "chan2011"
+  },
+  {
+   "y": 2011,
+   "t": "Prostatakrebs: kein Effekt",
+   "p": "Weder auf Auftreten noch Sterblichkeit.",
+   "tag": "conf",
+   "s": "stratton2011"
+  },
+  {
+   "y": 2012,
+   "t": "Kognition: nur unmittelbarer Abruf",
+   "p": "Andere Bereiche unverändert.",
+   "tag": "neu",
+   "s": "grima2012"
+  },
+  {
+   "y": 2013,
+   "t": "Sterblichkeit unverändert",
+   "p": "21 RCTs, RR 0,98.",
+   "tag": "neu",
+   "s": "macpherson2013"
+  },
+  {
+   "y": 2013,
+   "t": "Beobachtungsdaten: kein Schaden",
+   "p": "Risiken nahe 1 oder knapp darunter.",
+   "tag": "conf",
+   "s": "alexander2013"
+  },
+  {
+   "y": 2013,
+   "t": "USPSTF: kleiner Krebs-Effekt bei Männern",
+   "p": "Kein Effekt auf Herz-Kreislauf.",
+   "tag": "neu",
+   "s": "fortmann2013"
+  },
+  {
+   "y": 2017,
+   "t": "Sicherheit bestätigt",
+   "p": "Nur leichte Nebenwirkungen bis 100 % der Zufuhrempfehlung.",
+   "tag": "neu",
+   "s": "biesalski2017"
+  },
+  {
+   "y": 2018,
+   "t": "Kein Herz-Kreislauf-Schutz",
+   "p": "18 Studien, über 2 Mio. Personen.",
+   "tag": "conf",
+   "s": "kim2018"
+  },
+  {
+   "y": 2018,
+   "t": "Supplemente und Herz",
+   "p": "Multivitamine ohne Effekt.",
+   "tag": "conf",
+   "s": "jenkins2018"
+  },
+  {
+   "y": 2018,
+   "t": "Blutdruck: minimal gesenkt",
+   "p": "−1,31 mmHg systolisch.",
+   "tag": "neu",
+   "s": "li2018"
+  },
+  {
+   "y": 2018,
+   "t": "Cochrane: kein bedeutsamer Effekt auf Kognition",
+   "p": "28 Studien, über 83 000 Personen.",
+   "tag": "contra",
+   "s": "rutjes2018"
+  },
+  {
+   "y": 2021,
+   "t": "Hüftfrakturen seltener",
+   "p": "Nur Beobachtungsstudien.",
+   "tag": "neu",
+   "s": "beeram2021"
+  },
+  {
+   "y": 2022,
+   "t": "Infektvorbeugung kaum wirksam",
+   "p": "Höchstens sehr begrenzter Effekt bei Gesunden.",
+   "tag": "conf",
+   "s": "vliegboerstra2022"
+  },
+  {
+   "y": 2022,
+   "t": "USPSTF-Update",
+   "p": "Kleiner Krebs-Effekt, sonst kaum Nutzen.",
+   "tag": "conf",
+   "s": "oconnor2022"
+  },
+  {
+   "y": 2023,
+   "t": "Mikronährstoffe und Sport",
+   "p": "Supplemente nur bei Mangel.",
+   "tag": "neu",
+   "s": "ghazzawi2023"
+  },
+  {
+   "y": 2024,
+   "t": "COSMOS: Gedächtnis im Alter",
+   "p": "Kleiner Vorteil für globale Kognition.",
+   "tag": "rel",
+   "s": "vyas2024"
+  },
+  {
+   "y": 2024,
+   "t": "Kein Überlebensvorteil in 390 124 Personen",
+   "p": "Healthy-User-Effekt sichtbar.",
+   "tag": "conf",
+   "s": "loftfield2024"
+  },
+  {
+   "y": 2026,
+   "t": "Übersicht über 19 Metaanalysen",
+   "p": "Nutzen nur in Teilbereichen, Produkte uneinheitlich.",
+   "tag": "conf",
+   "s": "wang2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "17.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 2 126 Einträgen, 514 Übersichtsarbeiten nach Titel geprüft, 22 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sterblichkeit und Herz-Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Gesamtsterblichkeit",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 21,
+     "p": 91074,
+     "s": [
+      "macpherson2013",
+      "loftfield2024",
+      "alexander2013",
+      "wang2026"
+     ],
+     "t": "RR 0,98 [0,94; 1,02] in 21 Studien. Große Kohorte (n = 390 124) ohne Überlebensvorteil.",
+     "v": "sterblichkeit"
+    },
+    {
+     "n": "Kardiovaskuläre Sterblichkeit",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 18,
+     "p": 2019862,
+     "s": [
+      "kim2018",
+      "macpherson2013",
+      "jenkins2018"
+     ],
+     "t": "RR 1,00 [0,97; 1,04]; gefäßbedingte Sterblichkeit in RCTs RR 1,01.",
+     "v": "herz"
+    },
+    {
+     "n": "Koronare Herzkrankheit (Neuerkrankungen)",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 18,
+     "p": 2019862,
+     "s": [
+      "kim2018"
+     ],
+     "t": "RR 0,88 [0,79; 0,97] über alle Studien, in RCTs nicht signifikant (RR 0,97). Wahrscheinlich Verzerrung durch Lebensstil.",
+     "v": "herz"
+    },
+    {
+     "n": "Schlaganfall",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 18,
+     "p": 2019862,
+     "s": [
+      "kim2018"
+     ],
+     "t": "Inzidenz RR 0,98 [0,91; 1,05]; Sterblichkeit RR 0,95 [0,82; 1,09].",
+     "v": "herz"
+    },
+    {
+     "n": "Systolischer Blutdruck",
+     "g": "B",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 8,
+     "p": 2011,
+     "s": [
+      "li2018"
+     ],
+     "t": "−1,31 mmHg; zu klein, um Bluthochdruck vorzubeugen (4 RCTs, n = 21 196, ohne Effekt auf das Hypertonierisiko).",
+     "v": "herz"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Krebs",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Krebserkrankungen insgesamt",
+     "g": "B",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 4,
+     "p": 48859,
+     "s": [
+      "oconnor2022",
+      "fortmann2013"
+     ],
+     "t": "OR 0,93 [0,87; 0,99]; absolut −0,2 % bis −1,2 %. Effekt nur bei Männern gezeigt.",
+     "v": "krebs"
+    },
+    {
+     "n": "Brust- und Prostatakrebs",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 8,
+     "p": 355080,
+     "s": [
+      "chan2011",
+      "stratton2011"
+     ],
+     "t": "Kein signifikanter Zusammenhang mit Brustkrebs; kein Effekt auf Prostatakrebs.",
+     "v": "krebs"
+    },
+    {
+     "n": "Lungenkrebs durch hoch dosiertes Beta-Carotin (Raucher)",
+     "g": "A",
+     "d": "auf",
+     "m": 2,
+     "b": "schaden",
+     "k": 4,
+     "p": 109394,
+     "s": [
+      "tanvetyanon2008",
+      "oconnor2022"
+     ],
+     "t": "OR 1,24 [1,10; 1,39] bei Rauchern mit 20–30 mg/Tag; USPSTF: OR 1,20 [1,01; 1,42].",
+     "v": "krebs"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Gehirn",
+   "kat": "gehirn",
+   "items": [
+    {
+     "n": "Unmittelbarer Abruf (Gedächtnis)",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 10,
+     "p": 3200,
+     "s": [
+      "grima2012"
+     ],
+     "t": "SMD 0,32 [0,09; 0,56]; verzögerter Abruf und Wortflüssigkeit unverändert.",
+     "v": "kognition"
+    },
+    {
+     "n": "Globale Kognition bei über 60-Jährigen",
+     "g": "C",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 3,
+     "p": 5203,
+     "s": [
+      "vyas2024",
+      "rutjes2018"
+     ],
+     "t": "+0,07 SD [0,03; 0,11] in 3 COSMOS-Teilstudien; der Cochrane-Review fand keinen bedeutsamen Effekt von Vitaminen auf kognitiven Abbau.",
+     "v": "kognition"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Infekte",
+   "kat": "infekte",
+   "items": [
+    {
+     "n": "Infekthäufigkeit",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 20,
+     "p": null,
+     "s": [
+      "stephen2006",
+      "elkadiki2005",
+      "vliegboerstra2022"
+     ],
+     "t": "Bei Älteren kein Unterschied (WMD 0,06; OR 1,10); 17,5 Infekttage weniger pro Jahr nur in 3 Studien.",
+     "v": "infekte"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Sportler",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Sportliche Leistung",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "ghazzawi2023"
+     ],
+     "t": "Keine Metaanalyse vorhanden; ein systematischer Review ohne Effektschätzung sieht Nutzen nur bei Mangel oder Malabsorption.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit und Knochen",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Nebenwirkungen bei üblicher Dosierung",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 15,
+     "p": null,
+     "s": [
+      "biesalski2017",
+      "huang2006"
+     ],
+     "t": "Nur leichte Magen-Darm-Beschwerden, ohne Unterschied zu Placebo; bis 100 % der Zufuhrempfehlung auch über 10 Jahre sicher.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Hüftfrakturen",
+     "g": "C",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": 8,
+     "p": 80148,
+     "s": [
+      "beeram2021",
+      "wang2026"
+     ],
+     "t": "OR 0,49 [0,32; 0,77], nur aus Beobachtungsstudien und daher wahrscheinlich überschätzt.",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "huang2006": {
+   "short": "Huang et al., 2006",
+   "year": 2006,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "16880453",
+   "apa": "Huang, H. Y., Caballero, B., Chang, S., Alberg, A. J., Semba, R. D., Schneyer, C. R., Wilson, R. F., Cheng, T. Y., Vassy, J., Prokopowicz, G., Barnes, G. J. &amp; Bass, E. B. (2006). The efficacy and safety of multivitamin and mineral supplement use to prevent cancer and chronic disease in adults: A systematic review for a National Institutes of Health state-of-the-science conference. <em>Annals of Internal Medicine, 145</em>(5), 372–385.",
+   "doi": "10.7326/0003-4819-145-5-200609050-00135"
+  },
+  "elkadiki2005": {
+   "short": "El-Kadiki & Sutton, 2005",
+   "year": 2005,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "15805125",
+   "apa": "El-Kadiki, A. &amp; Sutton, A. J. (2005). Role of multivitamins and mineral supplements in preventing infections in elderly people: Systematic review and meta-analysis of randomised controlled trials. <em>BMJ, 330</em>(7496), Artikel 871.",
+   "doi": "10.1136/bmj.38399.495648.8F"
+  },
+  "stephen2006": {
+   "short": "Stephen & Avenell, 2006",
+   "year": 2006,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "16756533",
+   "apa": "Stephen, A. I. &amp; Avenell, A. (2006). A systematic review of multivitamin and multimineral supplementation for infection. <em>Journal of Human Nutrition and Dietetics, 19</em>(3), 179–190.",
+   "doi": "10.1111/j.1365-277X.2006.00694.x"
+  },
+  "tanvetyanon2008": {
+   "short": "Tanvetyanon & Bepler, 2008",
+   "year": 2008,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "18429004",
+   "apa": "Tanvetyanon, T. &amp; Bepler, G. (2008). Beta-carotene in multivitamins and the possible risk of lung cancer among smokers versus former smokers: A meta-analysis and evaluation of national brands. <em>Cancer, 113</em>(1), 150–157.",
+   "doi": "10.1002/cncr.23527"
+  },
+  "chan2011": {
+   "short": "Chan et al., 2011",
+   "year": 2011,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "21487086",
+   "apa": "Chan, A. L., Leung, H. W. &amp; Wang, S. F. (2011). Multivitamin supplement use and risk of breast cancer: A meta-analysis. <em>The Annals of Pharmacotherapy, 45</em>(4), 476–484.",
+   "doi": "10.1345/aph.1P445"
+  },
+  "stratton2011": {
+   "short": "Stratton & Godwin, 2011",
+   "year": 2011,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "21273283",
+   "apa": "Stratton, J. &amp; Godwin, M. (2011). The effect of supplemental vitamins and minerals on the development of prostate cancer: A systematic review and meta-analysis. <em>Family Practice, 28</em>(3), 243–252.",
+   "doi": "10.1093/fampra/cmq115"
+  },
+  "grima2012": {
+   "short": "Grima et al., 2012",
+   "year": 2012,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22330823",
+   "apa": "Grima, N. A., Pase, M. P., Macpherson, H. &amp; Pipingas, A. (2012). The effects of multivitamins on cognitive performance: A systematic review and meta-analysis. <em>Journal of Alzheimer’s Disease, 29</em>(3), 561–569.",
+   "doi": "10.3233/JAD-2011-111751"
+  },
+  "macpherson2013": {
+   "short": "Macpherson et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23255568",
+   "apa": "Macpherson, H., Pipingas, A. &amp; Pase, M. P. (2013). Multivitamin-multimineral supplementation and mortality: A meta-analysis of randomized controlled trials. <em>The American Journal of Clinical Nutrition, 97</em>(2), 437–444.",
+   "doi": "10.3945/ajcn.112.049304"
+  },
+  "alexander2013": {
+   "short": "Alexander et al., 2013",
+   "year": 2013,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "24219377",
+   "apa": "Alexander, D. D., Weed, D. L., Chang, E. T., Miller, P. E., Mohamed, M. A. &amp; Elkayam, L. (2013). A systematic review of multivitamin-multimineral use and cardiovascular disease and cancer incidence and total mortality. <em>Journal of the American College of Nutrition, 32</em>(5), 339–354.",
+   "doi": "10.1080/07315724.2013.839909"
+  },
+  "fortmann2013": {
+   "short": "Fortmann et al., 2013",
+   "year": 2013,
+   "type": "Systematischer Review (USPSTF)",
+   "basis": "Abstract",
+   "pmid": "24217421",
+   "apa": "Fortmann, S. P., Burda, B. U., Senger, C. A., Lin, J. S. &amp; Whitlock, E. P. (2013). Vitamin and mineral supplements in the primary prevention of cardiovascular disease and cancer: An updated systematic evidence review for the U.S. Preventive Services Task Force. <em>Annals of Internal Medicine, 159</em>(12), 824–834.",
+   "doi": "10.7326/0003-4819-159-12-201312170-00729"
+  },
+  "biesalski2017": {
+   "short": "Biesalski & Tinz, 2017",
+   "year": 2017,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "27553772",
+   "apa": "Biesalski, H. K. &amp; Tinz, J. (2017). Multivitamin/mineral supplements: Rationale and safety - A systematic review. <em>Nutrition, 33</em>, 76–82.",
+   "doi": "10.1016/j.nut.2016.02.013"
+  },
+  "kim2018": {
+   "short": "Kim et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29991644",
+   "apa": "Kim, J., Choi, J., Kwon, S. Y., McEvoy, J. W., Blaha, M. J., Blumenthal, R. S., Guallar, E., Zhao, D. &amp; Michos, E. D. (2018). Association of multivitamin and mineral supplementation and risk of cardiovascular disease: A systematic review and meta-analysis. <em>Circulation: Cardiovascular Quality and Outcomes, 11</em>(7), Artikel e004224.",
+   "doi": "10.1161/CIRCOUTCOMES.117.004224"
+  },
+  "jenkins2018": {
+   "short": "Jenkins et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review mit Metaanalysen",
+   "basis": "Abstract",
+   "pmid": "29852980",
+   "apa": "Jenkins, D. J. A., Spence, J. D., Giovannucci, E. L., Kim, Y. I., Josse, R., Vieth, R., Blanco Mejia, S., Viguiliouk, E., Nishi, S., Sahye-Pudaruth, S., Paquette, M., Patel, D., Mitchell, S., Kavanagh, M., Tsirakis, T., Bachiri, L., Maran, A., Umatheva, N., McKay, T., … Sievenpiper, J. L. (2018). Supplemental vitamins and minerals for CVD prevention and treatment. <em>Journal of the American College of Cardiology, 71</em>(22), 2570–2584.",
+   "doi": "10.1016/j.jacc.2018.04.020"
+  },
+  "li2018": {
+   "short": "Li et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30081527",
+   "apa": "Li, K., Liu, C., Kuang, X., Deng, Q., Zhao, F. &amp; Li, D. (2018). Effects of multivitamin and multimineral supplementation on blood pressure: A meta-analysis of 12 randomized controlled trials. <em>Nutrients, 10</em>(8), Artikel 1018.",
+   "doi": "10.3390/nu10081018"
+  },
+  "rutjes2018": {
+   "short": "Rutjes et al., 2018",
+   "year": 2018,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "30556597",
+   "apa": "Rutjes, A. W., Denton, D. A., Di Nisio, M., Chong, L. Y., Abraham, R. P., Al-Assaf, A. S., Anderson, J. L., Malik, M. A., Vernooij, R. W., Martínez, G., Tabet, N. &amp; McCleery, J. (2018). Vitamin and mineral supplementation for maintaining cognitive function in cognitively healthy people in mid and late life. <em>Cochrane Database of Systematic Reviews, 12</em>(12), CD011906.",
+   "doi": "10.1002/14651858.CD011906.pub2"
+  },
+  "beeram2021": {
+   "short": "Beeram et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse (Beobachtungsstudien)",
+   "basis": "Abstract",
+   "pmid": "33575883",
+   "apa": "Beeram, I., Mortensen, S. J., Yeritsyan, D., Momenzadeh, K., von Keudell, A. &amp; Nazarian, A. (2021). Multivitamins and risk of fragility hip fracture: A systematic review and meta-analysis. <em>Archives of Osteoporosis, 16</em>(1), 29.",
+   "doi": "10.1007/s11657-021-00893-x"
+  },
+  "vliegboerstra2022": {
+   "short": "Vlieg-Boerstra et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34626488",
+   "apa": "Vlieg-Boerstra, B., de Jong, N., Meyer, R., Agostoni, C., De Cosmi, V., Grimshaw, K., Milani, G. P., Muraro, A., Oude Elberink, H., Pali-Schöll, I., Roduit, C., Sasaki, M., Skypala, I., Sokolowska, M., van Splunter, M., Untersmayr, E., Venter, C., O'Mahony, L. &amp; Nwaru, B. I. (2022). Nutrient supplementation for prevention of viral respiratory tract infections in healthy subjects: A systematic review and meta-analysis. <em>Allergy, 77</em>(5), 1373–1388.",
+   "doi": "10.1111/all.15136"
+  },
+  "oconnor2022": {
+   "short": "O'Connor et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review mit Metaanalyse (USPSTF)",
+   "basis": "Abstract",
+   "pmid": "35727272",
+   "apa": "O'Connor, E. A., Evans, C. V., Ivlev, I., Rushkin, M. C., Thomas, R. G., Martin, A. &amp; Lin, J. S. (2022). Vitamin and mineral supplements for the primary prevention of cardiovascular disease and cancer: Updated evidence report and systematic review for the US Preventive Services Task Force. <em>JAMA, 327</em>(23), 2334–2347.",
+   "doi": "10.1001/jama.2021.15650"
+  },
+  "ghazzawi2023": {
+   "short": "Ghazzawi et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37368559",
+   "apa": "Ghazzawi, H. A., Hussain, M. A., Raziq, K. M., Alsendi, K. K., Alaamer, R. O., Jaradat, M., Alobaidi, S., Al Aqili, R., Trabelsi, K. &amp; Jahrami, H. (2023). Exploring the relationship between micronutrients and athletic performance: A comprehensive scientific systematic review of the literature in sports medicine. <em>Sports, 11</em>(6), Artikel 109.",
+   "doi": "10.3390/sports11060109"
+  },
+  "vyas2024": {
+   "short": "Vyas et al., 2024",
+   "year": 2024,
+   "type": "RCT mit Metaanalyse der COSMOS-Teilstudien",
+   "basis": "Abstract",
+   "pmid": "38244989",
+   "apa": "Vyas, C. M., Manson, J. E., Sesso, H. D., Cook, N. R., Rist, P. M., Weinberg, A., Moorthy, M. V., Baker, L. D., Espeland, M. A., Yeung, L. K., Brickman, A. M. &amp; Okereke, O. I. (2024). Effect of multivitamin-mineral supplementation versus placebo on cognitive function: Results from the clinic subcohort of the COcoa Supplement and Multivitamin Outcomes Study (COSMOS) randomized clinical trial and meta-analysis of 3 cognitive studies within COSMOS. <em>The American Journal of Clinical Nutrition, 119</em>(3), 692–701.",
+   "doi": "10.1016/j.ajcnut.2023.12.011"
+  },
+  "loftfield2024": {
+   "short": "Loftfield et al., 2024",
+   "year": 2024,
+   "type": "Gepoolte Kohortenanalyse",
+   "basis": "Abstract",
+   "pmid": "38922615",
+   "apa": "Loftfield, E., O'Connell, C. P., Abnet, C. C., Graubard, B. I., Liao, L. M., Beane Freeman, L. E., Hofmann, J. N., Freedman, N. D. &amp; Sinha, R. (2024). Multivitamin use and mortality risk in 3 prospective US cohorts. <em>JAMA Network Open, 7</em>(6), Artikel e2418729.",
+   "doi": "10.1001/jamanetworkopen.2024.18729"
+  },
+  "wang2026": {
+   "short": "Wang et al., 2026",
+   "year": 2026,
+   "type": "Rapid Review von Metaanalysen",
+   "basis": "Abstract",
+   "pmid": "41308839",
+   "apa": "Wang, W., Wazny, V. K., Mahadzir, M. D. A. &amp; Maier, A. B. (2026). Multivitamin and mineral use: A rapid review of meta-analyses on health outcomes. <em>Ageing Research Reviews, 114</em>, Artikel 102965.",
+   "doi": "10.1016/j.arr.2025.102965"
+  }
+ }
+}

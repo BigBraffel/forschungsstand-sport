@@ -1,0 +1,1017 @@
+{
+ "id": "aminosaeuren",
+ "title": "BCAA und essenzielle Aminosäuren (EAA)",
+ "stand": "2026-11-17",
+ "lead": "Bringen BCAA, Leucin oder essenzielle Aminosäuren mehr Muskeln, Kraft oder Ausdauer, lindern sie Muskelkater, und sind sie besser als vollständiges Protein? Zusammengefasst aus Metaanalysen, systematischen Reviews und Positionspapieren.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierende Erwachsene und für Ältere. Entscheidend für den Muskelaufbau ist die gesamte Proteinzufuhr; isolierte BCAA sind dafür kein Ersatz.",
+ "rx": [
+  {
+   "label": "Muskelaufbau",
+   "value": "vollständiges Protein statt BCAA",
+   "text": "1,4–2,0 g Protein pro kg und Tag, je Mahlzeit 20–40 g mit 700–3000 mg Leucin. BCAA allein regen die Muskelproteinsynthese schwächer an als vollständiges Protein.",
+   "cite": "Jäger et al. 2017; Kaspy et al. 2024"
+  },
+  {
+   "label": "Muskelkater",
+   "value": "BCAA optional, vor der Belastung beginnen",
+   "text": "BCAA verringerten Muskelkater nach ungewohnter Belastung. Wirksamer waren eine Einnahme über mehrere Tage vor der Belastung und höhere Tagesdosen; die Leistung erholte sich dadurch aber nicht schneller.",
+   "cite": "Fouré &amp; Bendahan 2017; Salem et al. 2024b; Doma et al. 2021"
+  },
+  {
+   "label": "Ausdauer",
+   "value": "kein Nutzen",
+   "text": "BCAA oder Leucin verbesserten Ausdauerleistung, Ermüdung und Erholung bei Ausdauersportlern nicht.",
+   "cite": "Del Guerra et al. 2026"
+  },
+  {
+   "label": "Ältere",
+   "value": "leucinreiche Kombination plus Krafttraining",
+   "text": "Isoliertes Leucin wirkte nicht auf Muskelmasse und Kraft; Kombinationen mit Protein bzw. Vitamin D verbesserten Kraft und Gehtempo leicht.",
+   "cite": "Guo et al. 2022; Bai et al. 2022"
+  },
+  {
+   "label": "EAA-Dosis",
+   "value": "1,5–3 g regen an, Plateau bei 15–18 g",
+   "text": "Laut ISSN reichen in Ruhe kleine Mengen essenzieller Aminosäuren für eine Anregung der Muskelproteinsynthese. Wer genug Protein isst, braucht keine EAA-Supplemente.",
+   "cite": "Ferrando et al. 2023"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Das ISSN-Positionspapier zu EAA wurde von Autoren mit Patenten auf EAA-Zusammensetzungen und Verbindungen zu Supplementherstellern verfasst. Seine Aussagen zur Muskelproteinsynthese beruhen auf Kurzzeitmessungen und lassen sich nicht direkt auf mehr Muskelmasse übertragen.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Etwas weniger Muskelkater",
+   "ev": "moderat",
+   "p": "Mehrere Metaanalysen fanden nach muskelschädigender Belastung weniger Muskelkater und niedrigere Kreatinkinase-Werte; die Effekte schwanken stark zwischen den Studien.",
+   "s": [
+    "doma2021",
+    "salem2024b",
+    "fedewa2019",
+    "salem2024a",
+    "talebi2024"
+   ]
+  },
+  {
+   "t": "Keine schnellere Leistungserholung",
+   "ev": "moderat",
+   "p": "Die Muskelleistung 24 und 48 Stunden nach der Belastung unterschied sich nicht von Placebo.",
+   "s": [
+    "doma2021",
+    "salem2024a"
+   ]
+  },
+  {
+   "t": "Kein belegter Nutzen für Kraft, Muskelmasse oder Ausdauer bei Gesunden",
+   "ev": "niedrig",
+   "p": "Systematische Reviews fanden bei Sportlern vernachlässigbare oder uneinheitliche Effekte; Metaanalysen dazu fehlen.",
+   "s": [
+    "martinho2022",
+    "julea2025",
+    "delguerra2026"
+   ]
+  },
+  {
+   "t": "BCAA sind schwächer als vollständiges Protein",
+   "ev": "niedrig",
+   "p": "BCAA regen die Muskelproteinsynthese nur vorübergehend und weniger stark an als ein Protein mit allen essenziellen Aminosäuren.",
+   "s": [
+    "kaspy2024",
+    "ferrando2023"
+   ]
+  },
+  {
+   "t": "Im Alter: Kombinationen statt isoliertem Leucin",
+   "ev": "moderat",
+   "p": "BCAA-reiche Supplemente verbesserten Kraft und Muskelmasse leicht; Leucin allein zeigte keinen Effekt.",
+   "s": [
+    "bai2022",
+    "guo2022",
+    "huang2025"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "muskelkater",
+   "name": "Muskelkater und Muskelschaden",
+   "q": "Lindern BCAA Muskelkater und beschleunigen sie die Erholung?",
+   "ev": "moderat",
+   "key": [
+    "25 Studien mit 479 Personen: Muskelschadensmarker 48 Stunden nach der Belastung niedriger (SMD −0,41), Muskelkater nach 24 h (SMD −0,28 bis −0,61) und 48 h (SMD −0,41 bis −0,92) geringer; die Muskelleistung erholte sich nicht schneller (SMD 0,08 bis 0,21; nicht signifikant) (Doma et al., 2021).",
+    "18 Studien: weniger Muskelkater nach 24 h (g = −1,34), 48 h (g = −1,75), 72 h (g = −1,82) und 96 h (g = −0,82); Kreatinkinase sofort (g = −0,44) und nach 72 h (g = −0,99) niedriger, LDH unverändert. Höhere Dosen und längere Einnahme hingen mit größeren Effekten zusammen (Salem et al., 2024b).",
+    "8 Studien mit 61 Personen: deutlich weniger Muskelkater (ES 0,73 [0,50; 0,96]) (Fedewa et al., 2019).",
+    "Erste Metaanalyse mit 8 Studien: Kreatinkinase nach 24 h um 145,04 U/l niedriger [−253,66; −36,43], kein signifikanter Effekt auf Muskelkater oder LDH (Rahimi et al., 2017).",
+    "Wirksam vor allem bei leichtem bis mittlerem Muskelschaden, mit mehr als 200 mg/kg pro Tag über mehr als 10 Tage und bei Einnahme vor der Belastung (Fouré &amp; Bendahan, 2017); Dosen bis 255 mg/kg pro Tag bei Trainierten, nicht nur nach der Belastung (Weber et al., 2021).",
+    "Übersicht über 11 systematische Reviews: Kreatinkinase mittel, Muskelkater klein bis groß verringert; kein Effekt auf LDH, Myoglobin und Leistungserholung (Salem et al., 2024a). Umbrella Review: Effekt auf Muskelkater mit moderater Evidenzsicherheit (Talebi et al., 2024)."
+   ],
+   "critic": "Die Richtung ist über fünf Metaanalysen hinweg einheitlich: weniger Muskelkater und niedrigere Kreatinkinase. Die erste Metaanalyse (Rahimi et al., 2017) fand für Muskelkater noch keinen signifikanten Effekt; die späteren, größeren Analysen sprechen für einen echten Effekt. Die Effektgrößen schwanken aber stark (g = −0,28 bis −1,82), die Studien sind klein, Dosen und Belastungen sehr verschieden, und die Übersicht von Salem et al. (2024a) bemängelt fehlende Angaben zu Finanzierung und Interessenkonflikten. Wichtig: Muskelkater und Kreatinkinase sind Ersatzgrößen. Die eigentliche Leistungserholung wurde nicht beschleunigt. Viele Studien kontrollierten die Gesamtproteinzufuhr nicht.",
+   "figs": [
+    {
+     "id": "aa-doms",
+     "title": "BCAA und Muskelkater",
+     "cap": "Standardisierte Effektgrößen (Hedges g bzw. ES). Negative Werte bedeuten weniger Muskelkater als mit Placebo; der positive ES-Wert von Fedewa et al. (2019) wurde dafür im Vorzeichen umgekehrt. Salem et al. (2024b) nennen im Abstract keine Intervalle.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "24 h nach Belastung",
+       "sub": "Salem et al., 2024b",
+       "es": -1.34
+      },
+      {
+       "l": "48 h nach Belastung",
+       "sub": "Salem et al., 2024b",
+       "es": -1.75
+      },
+      {
+       "l": "72 h nach Belastung",
+       "sub": "Salem et al., 2024b",
+       "es": -1.82
+      },
+      {
+       "l": "96 h nach Belastung",
+       "sub": "Salem et al., 2024b",
+       "es": -0.82
+      },
+      {
+       "l": "Gesamt (8 Studien)",
+       "sub": "Fedewa et al., 2019",
+       "es": -0.73,
+       "lo": -0.96,
+       "hi": -0.5
+      }
+     ],
+     "opts": {
+      "min": -2.5,
+      "max": 0.5,
+      "ticks": [
+       -2,
+       -1.5,
+       -1,
+       -0.5,
+       0
+      ],
+      "unit": "SMD",
+      "leftLab": "weniger Muskelkater",
+      "rightLab": "mehr Muskelkater"
+     }
+    }
+   ],
+   "s": [
+    "rahimi2017",
+    "foure2017",
+    "fedewa2019",
+    "doma2021",
+    "weber2021",
+    "salem2024a",
+    "salem2024b",
+    "talebi2024"
+   ]
+  },
+  {
+   "id": "leistung",
+   "name": "Kraft, Muskelmasse und Leistung bei Gesunden",
+   "q": "Machen BCAA stärker oder muskulöser?",
+   "ev": "niedrig",
+   "key": [
+    "24 Studien bei Sportlern: BCAA aktivierten anabole Signalwege, die Vorteile für Leistung und Körperzusammensetzung waren vernachlässigbar; die meisten Studien erfassten die tägliche Gesamtproteinzufuhr nicht (Martinho et al., 2022).",
+    "22 Studien mit 511 Personen, Dosen von 1,5 bis 82 g pro Tag: nur eine Studie fand eine veränderte Körperzusammensetzung; für Kraft und Ausdauer uneinheitlich. Wegen hohen Verzerrungsrisikos wurde keine Metaanalyse gerechnet (Julea &amp; Saleh, 2025).",
+    "Schon 2008 hielt ein Review fest, dass BCAA die sportliche Leistung nicht steigern, und verlagerte den Fokus auf Muskelschaden und Immunsystem (Negro et al., 2008)."
+   ],
+   "critic": "Eine Metaanalyse zu BCAA und Kraft oder Muskelmasse bei gesunden Trainierenden fehlt; die beiden systematischen Reviews kommen aber unabhängig zum gleichen Ergebnis. Da BCAA nur drei der neun essenziellen Aminosäuren liefern, ist ein Zusatznutzen bei ausreichender Proteinzufuhr auch physiologisch nicht zu erwarten.",
+   "figs": [],
+   "s": [
+    "negro2008",
+    "martinho2022",
+    "julea2025"
+   ]
+  },
+  {
+   "id": "mps",
+   "name": "Muskelproteinsynthese, Leucin und vollständiges Protein",
+   "q": "Wie stark regen BCAA, Leucin und EAA den Muskelaufbau an, verglichen mit vollständigem Protein?",
+   "ev": "niedrig",
+   "key": [
+    "BCAA aktivieren den mTOR-Signalweg, verringern den Proteinabbau und steigern die Muskelproteinsynthese vorübergehend, aber weniger als ein vollständiges Protein mit allen essenziellen Aminosäuren (Kaspy et al., 2024).",
+    "ISSN: Freie EAA regen die Muskelproteinsynthese in Ruhe schon ab 1,5–3,0 g an, mit Plateau bei etwa 15–18 g, und stärker als dieselbe Menge intaktes Protein; nicht-essenzielle Aminosäuren sind dafür nicht nötig (Ferrando et al., 2023).",
+    "ISSN zu Protein: je Mahlzeit 20–40 g bzw. 0,25 g/kg hochwertiges Protein mit 700–3000 mg Leucin (Jäger et al., 2017).",
+    "Leucin-Trigger-Hypothese: 16 von 29 Studien stützten sie, davon 13 bei Älteren und 14 mit isolierten Proteinen; bei proteinreichen Lebensmitteln ist sie weniger aussagekräftig (Zaromskyte et al., 2021).",
+    "Die Leucindosis sagte die Muskelproteinsynthese nach dem Training bei Älteren voraus (0–2 h: r² = 0,64), nicht bei Jüngeren; einen Schwellenwert gab es nicht (Wilkinson et al., 2023).",
+    "Ältere: Leucin steigerte die Syntheserate (standardisierte Differenz 1,08 [0,50; 1,67]), nicht aber die fettfreie Masse (0,18 [−0,18; 0,54]) (Xu et al., 2015)."
+   ],
+   "critic": "Die Befunde beruhen auf Messungen über wenige Stunden. Dass sich eine stärkere akute Proteinsynthese nicht automatisch in mehr Muskelmasse übersetzt, zeigt die Metaanalyse von Xu et al. (2015). Der Vorteil freier EAA gegenüber intaktem Protein stammt aus einem Positionspapier, dessen Autoren teils Patente auf EAA-Mischungen halten; direkte Langzeitvergleiche fehlen. Für junge Trainierende mit ausreichender Proteinzufuhr ist Leucin kein eigener Hebel; bei Älteren mit anaboler Resistenz ist der Leucingehalt bedeutsamer.",
+   "figs": [],
+   "s": [
+    "xu2015",
+    "jaeger2017",
+    "zaromskyte2021",
+    "ferrando2023",
+    "wilkinson2023",
+    "kaspy2024"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Ermüdung und Ausdauer",
+   "q": "Verzögern BCAA die Ermüdung oder verbessern sie die Ausdauer?",
+   "ev": "niedrig",
+   "key": [
+    "15 Studien bei Ausdauersportlern: keine konsistente Verbesserung von Leistung, Ermüdung oder Erholung; biochemische Veränderungen (Valin +140 %, Proteinsynthese +25 % [20; 30]) übersetzten sich nicht in funktionelle Vorteile. Die mentale Leistung war nach 12- und 30-km-Läufen besser (Del Guerra et al., 2026).",
+    "7 Studien mit 146 Personen (Cortisol) und 15 Studien mit 279 Personen (Laktat): niedrigeres Cortisol ab 120 Minuten nach der Belastung und weniger Laktat bei aerober Belastung (Pourgharib Shahi et al., 2024)."
+   ],
+   "critic": "Die Theorie der zentralen Ermüdung (BCAA verdrängen Tryptophan im Gehirn) ist seit Jahrzehnten bekannt, wurde aber in Leistungstests nicht bestätigt. Die Senkung von Cortisol und Laktat ist eine Veränderung von Blutwerten, keine Leistungssteigerung; Effektgrößen nennt das Abstract nicht. Der neuere systematische Review mit GRADE-Bewertung (Del Guerra et al., 2026) spricht klar gegen einen praktischen Nutzen.",
+   "figs": [],
+   "s": [
+    "pourgharib2024",
+    "delguerra2026"
+   ]
+  },
+  {
+   "id": "aeltere",
+   "name": "Leucin und BCAA im Alter",
+   "q": "Helfen Leucin oder BCAA-reiche Supplemente älteren Menschen?",
+   "ev": "moderat",
+   "key": [
+    "35 Studien: BCAA-reiche Supplemente (einschließlich Molkenprotein und EAA) verbesserten Kraft (SMD 0,35 [0,15; 0,55]), Muskelmasse (SMD 0,25 [0,10; 0,40]) und körperliche Leistung (SMD 0,29 [0,00; 0,57]); EAA steigerten die Handkraft stärker als Molkenprotein; hohe Heterogenität (Bai et al., 2022).",
+    "17 Studien mit 1418 Personen: isoliertes Leucin ohne Effekt auf fettfreie Masse (+0,03 kg [−0,51; 0,57]), Handkraft (+1,23 kg [−0,58; 3,03]) und Beinpresse; Leucin mit Vitamin D verbesserte Handkraft (+2,17 kg [0,24; 4,10]) und Gehtempo (+0,03 m/s) (Guo et al., 2022).",
+    "Ältere mit Sarkopenie, 11 Studien: Leucin verbesserte Handkraft, Muskelmasse und Gehtempo bei geringer Evidenzqualität; allein ohne weitere Therapie ist der Nutzen begrenzt (Huang &amp; Hsieh, 2025).",
+    "16 Studien mit 999 Personen: leucinreiche Supplemente erhöhten fettfreie Masse (+0,99 kg [0,43; 1,55]), nicht die Kraft (Komar et al., 2015).",
+    "BCAA-reiche Supplemente mit Krafttraining bei Sarkopenie, 12 Studien mit 459 Personen: nur der Skelettmuskelindex stieg (SMD 0,34 [0,04; 0,64]); Kraft, Gehtempo und fettfreie Masse blieben unverändert (Li et al., 2026)."
+   ],
+   "critic": "Die Ergebnisse widersprechen sich teilweise. Die beste Erklärung: Kombinationen mit Protein, EAA oder Vitamin D wirken, isoliertes Leucin nicht (Guo et al., 2022, größte Analyse zu isoliertem Leucin). Wenn bereits Krafttraining erfolgt, ist der Zusatznutzen gering (Li et al., 2026). Die Studien stammen meist aus Populationen mit Sarkopenie und sind auf gesunde, trainierte Erwachsene nur eingeschränkt übertragbar.",
+   "figs": [
+    {
+     "id": "aa-aeltere",
+     "title": "BCAA-reiche Supplemente und Leucin im Alter",
+     "cap": "Standardisierte Mittelwertdifferenzen mit 95-%-KI gegenüber Kontrolle.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kraft, BCAA-reiche Supplemente",
+       "sub": "Bai et al., 2022",
+       "es": 0.35,
+       "lo": 0.15,
+       "hi": 0.55
+      },
+      {
+       "l": "Muskelmasse, BCAA-reiche Supplemente",
+       "sub": "Bai et al., 2022",
+       "es": 0.25,
+       "lo": 0.1,
+       "hi": 0.4
+      },
+      {
+       "l": "Körperliche Leistung",
+       "sub": "Bai et al., 2022",
+       "es": 0.29,
+       "lo": 0.0,
+       "hi": 0.57
+      },
+      {
+       "l": "Skelettmuskelindex, mit Krafttraining",
+       "sub": "Li et al., 2026",
+       "es": 0.337,
+       "lo": 0.035,
+       "hi": 0.639
+      },
+      {
+       "l": "Fettfreie Masse, Leucin",
+       "sub": "Xu et al., 2015",
+       "es": 0.18,
+       "lo": -0.18,
+       "hi": 0.54
+      },
+      {
+       "l": "Muskelproteinsynthese, Leucin",
+       "sub": "Xu et al., 2015",
+       "es": 1.08,
+       "lo": 0.5,
+       "hi": 1.67
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 2,
+      "ticks": [
+       -0.5,
+       0,
+       0.5,
+       1,
+       1.5,
+       2
+      ],
+      "unit": "SMD",
+      "leftLab": "Kontrolle besser",
+      "rightLab": "Supplement besser"
+     }
+    },
+    {
+     "id": "aa-leucin-kg",
+     "title": "Isoliertes Leucin oder Leucin mit Vitamin D",
+     "cap": "Gewichtete Mittelwertdifferenzen in kg mit 95-%-KI (17 Studien, n = 1418).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Fettfreie Masse, Leucin allein",
+       "sub": "Guo et al., 2022",
+       "es": 0.03,
+       "lo": -0.51,
+       "hi": 0.57
+      },
+      {
+       "l": "Handkraft, Leucin allein",
+       "sub": "Guo et al., 2022",
+       "es": 1.23,
+       "lo": -0.58,
+       "hi": 3.03
+      },
+      {
+       "l": "Handkraft, Leucin mit Vitamin D",
+       "sub": "Guo et al., 2022",
+       "es": 2.17,
+       "lo": 0.24,
+       "hi": 4.1
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 5,
+      "ticks": [
+       -1,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5
+      ],
+      "unit": "kg"
+     }
+    }
+   ],
+   "s": [
+    "komar2015",
+    "xu2015",
+    "bai2022",
+    "guo2022",
+    "huang2025",
+    "li2026"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2008,
+   "t": "Kein Leistungsgewinn durch BCAA",
+   "p": "Review verlagert den Fokus auf Muskelschaden und Immunsystem.",
+   "tag": "neu",
+   "s": "negro2008"
+  },
+  {
+   "y": 2015,
+   "t": "Leucin bei Älteren",
+   "p": "Mehr Proteinsynthese, aber keine zusätzliche fettfreie Masse.",
+   "tag": "neu",
+   "s": "xu2015"
+  },
+  {
+   "y": 2015,
+   "t": "Leucinreiche Supplemente im Alter",
+   "p": "Etwa 1 kg mehr fettfreie Masse, keine Kraftzunahme.",
+   "tag": "contra",
+   "s": "komar2015"
+  },
+  {
+   "y": 2017,
+   "t": "ISSN zu Protein",
+   "p": "700–3000 mg Leucin je Proteinportion.",
+   "tag": "neu",
+   "s": "jaeger2017"
+  },
+  {
+   "y": 2017,
+   "t": "Erste Metaanalyse zum Muskelschaden",
+   "p": "Kreatinkinase gesenkt, Muskelkater nicht signifikant.",
+   "tag": "neu",
+   "s": "rahimi2017"
+  },
+  {
+   "y": 2017,
+   "t": "Dosis und Zeitpunkt",
+   "p": "Wirksam bei hoher Dosis, längerer Einnahme und Beginn vor der Belastung.",
+   "tag": "rel",
+   "s": "foure2017"
+  },
+  {
+   "y": 2019,
+   "t": "Weniger Muskelkater",
+   "p": "Großer Effekt in 8 Studien.",
+   "tag": "contra",
+   "s": "fedewa2019"
+  },
+  {
+   "y": 2021,
+   "t": "Muskelkater ja, Leistung nein",
+   "p": "25 Studien: weniger Muskelkater, keine schnellere Leistungserholung.",
+   "tag": "conf",
+   "s": "doma2021"
+  },
+  {
+   "y": 2021,
+   "t": "Wirksames Einnahmeschema",
+   "p": "Bei Trainierten, leichtem Schaden und nicht nur nach der Belastung.",
+   "tag": "rel",
+   "s": "weber2021"
+  },
+  {
+   "y": 2021,
+   "t": "Leucin-Trigger-Hypothese",
+   "p": "Vor allem bei Älteren und isolierten Proteinen gültig.",
+   "tag": "neu",
+   "s": "zaromskyte2021"
+  },
+  {
+   "y": 2022,
+   "t": "BCAA bei Sportlern",
+   "p": "Vernachlässigbare Effekte auf Leistung und Körperbau.",
+   "tag": "conf",
+   "s": "martinho2022"
+  },
+  {
+   "y": 2022,
+   "t": "BCAA-reiche Supplemente im Alter",
+   "p": "Kleine Zuwächse bei Kraft und Muskelmasse.",
+   "tag": "neu",
+   "s": "bai2022"
+  },
+  {
+   "y": 2022,
+   "t": "Isoliertes Leucin wirkt nicht",
+   "p": "Nur in Kombination mit Vitamin D mehr Handkraft.",
+   "tag": "rel",
+   "s": "guo2022"
+  },
+  {
+   "y": 2023,
+   "t": "ISSN zu essenziellen Aminosäuren",
+   "p": "Kleine EAA-Dosen regen die Proteinsynthese an.",
+   "tag": "neu",
+   "s": "ferrando2023"
+  },
+  {
+   "y": 2023,
+   "t": "Leucindosis und Proteinsynthese",
+   "p": "Zusammenhang nur bei Älteren.",
+   "tag": "rel",
+   "s": "wilkinson2023"
+  },
+  {
+   "y": 2024,
+   "t": "BCAA schwächer als vollständiges Protein",
+   "p": "Nur vorübergehende Anregung der Proteinsynthese.",
+   "tag": "neu",
+   "s": "kaspy2024"
+  },
+  {
+   "y": 2024,
+   "t": "Übersicht der Reviews",
+   "p": "Weniger Kreatinkinase und Muskelkater, keine Leistungserholung.",
+   "tag": "conf",
+   "s": "salem2024a"
+  },
+  {
+   "y": 2024,
+   "t": "Dosis-Wirkung beim Muskelkater",
+   "p": "Höhere Dosen und längere Einnahme wirken stärker.",
+   "tag": "conf",
+   "s": "salem2024b"
+  },
+  {
+   "y": 2024,
+   "t": "Umbrella Review zum Muskelschaden",
+   "p": "BCAA gegen Muskelkater mit moderater Evidenzsicherheit.",
+   "tag": "conf",
+   "s": "talebi2024"
+  },
+  {
+   "y": 2024,
+   "t": "Cortisol und Laktat",
+   "p": "Nach Belastung niedriger, ohne Leistungsbezug.",
+   "tag": "neu",
+   "s": "pourgharib2024"
+  },
+  {
+   "y": 2025,
+   "t": "Leucin bei Sarkopenie",
+   "p": "Leichte Verbesserungen, geringe Evidenzqualität.",
+   "tag": "conf",
+   "s": "huang2025"
+  },
+  {
+   "y": 2025,
+   "t": "Reine BCAA-Supplemente",
+   "p": "Muskelkater eher geringer, Kraft und Ausdauer uneinheitlich.",
+   "tag": "conf",
+   "s": "julea2025"
+  },
+  {
+   "y": 2026,
+   "t": "Kein Nutzen für die Ausdauer",
+   "p": "Biochemische Effekte ohne Leistungsgewinn.",
+   "tag": "conf",
+   "s": "delguerra2026"
+  },
+  {
+   "y": 2026,
+   "t": "BCAA plus Krafttraining im Alter",
+   "p": "Nur der Skelettmuskelindex stieg.",
+   "tag": "rel",
+   "s": "li2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "17.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 505 Einträgen, 470 Übersichtsarbeiten nach Titel geprüft (davon 186 zunächst per Titelregel einer anderen Kategorie zugeordnet), dazu 4 Übersichtsarbeiten aus einer ergänzenden Suche; 24 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung nach muskelschädigender Belastung",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Muskelkater (Abnahme)",
+     "g": "A",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": 25,
+     "p": 479,
+     "s": [
+      "doma2021",
+      "salem2024b",
+      "fedewa2019",
+      "weber2021",
+      "salem2024a",
+      "talebi2024",
+      "rahimi2017"
+     ],
+     "t": "Muskelkater geringer: SMD −0,28 bis −0,92 (25 Studien) bzw. g = −0,82 bis −1,82 (18 Studien). Die erste Metaanalyse 2017 fand noch keinen signifikanten Effekt.",
+     "v": "muskelkater"
+    },
+    {
+     "n": "Kreatinkinase (Muskelschadensmarker)",
+     "g": "A",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 25,
+     "p": 479,
+     "s": [
+      "doma2021",
+      "salem2024b",
+      "rahimi2017",
+      "salem2024a"
+     ],
+     "t": "Schadensmarker nach 48 h niedriger (SMD −0,41); Kreatinkinase nach 24 h um 145 U/l niedriger (8 Studien).",
+     "v": "muskelkater"
+    },
+    {
+     "n": "Lactatdehydrogenase (LDH)",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 18,
+     "p": null,
+     "s": [
+      "salem2024b",
+      "rahimi2017",
+      "salem2024a"
+     ],
+     "t": "Zu keinem Zeitpunkt signifikant verändert (18 Studien).",
+     "v": "muskelkater"
+    },
+    {
+     "n": "Erholung der Muskelleistung",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 25,
+     "p": 479,
+     "s": [
+      "doma2021",
+      "salem2024a"
+     ],
+     "t": "Kraft und Leistung 24 und 48 h nach der Belastung wie mit Placebo (SMD 0,08 bis 0,21, nicht signifikant).",
+     "v": "muskelkater"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Gesunde Trainierende",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Kraft und sportliche Leistung",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 24,
+     "p": null,
+     "s": [
+      "martinho2022",
+      "julea2025"
+     ],
+     "t": "Zwei systematische Reviews (24 bzw. 22 Studien): vernachlässigbare oder uneinheitliche Effekte; keine Metaanalyse.",
+     "v": "leistung"
+    },
+    {
+     "n": "Körperzusammensetzung",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 22,
+     "p": 511,
+     "s": [
+      "julea2025",
+      "martinho2022"
+     ],
+     "t": "Nur 1 von 22 Studien fand eine Veränderung der Körperzusammensetzung.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauersport",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Ausdauerleistung und Ermüdung",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 15,
+     "p": null,
+     "s": [
+      "delguerra2026"
+     ],
+     "t": "15 Studien: keine konsistente Verbesserung von Leistung, Ermüdung oder Erholung trotz biochemischer Veränderungen.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Cortisol nach Belastung",
+     "g": "C",
+     "d": "ab",
+     "m": -1,
+     "b": "neutral",
+     "k": 7,
+     "p": 146,
+     "s": [
+      "pourgharib2024"
+     ],
+     "t": "Cortisol ab 120 Minuten nach Belastung niedriger; Effektgröße im Abstract nicht berichtet, Bedeutung für die Leistung unklar.",
+     "v": "ausdauer"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Muskelproteinsynthese",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Muskelproteinsynthese mit BCAA statt vollständigem Protein",
+     "g": "C",
+     "d": "ab",
+     "m": -1,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "kaspy2024",
+      "ferrando2023"
+     ],
+     "t": "BCAA steigern die Proteinsynthese nur vorübergehend und schwächer als ein vollständiges Protein; Zahlen nennt das Abstract nicht.",
+     "v": "mps"
+    },
+    {
+     "n": "Muskelproteinsynthese mit Leucin bei Älteren",
+     "g": "C",
+     "d": "auf",
+     "m": 4,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "xu2015",
+      "wilkinson2023"
+     ],
+     "t": "Syntheserate erhöht (standardisierte Differenz 1,08), ohne Zunahme der fettfreien Masse (0,18, nicht signifikant).",
+     "v": "mps"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Ältere Erwachsene",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Kraft mit BCAA-reichen Supplementen",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 35,
+     "p": null,
+     "s": [
+      "bai2022",
+      "huang2025"
+     ],
+     "t": "SMD 0,35 [0,15; 0,55] in 35 Studien; hohe Heterogenität.",
+     "v": "aeltere"
+    },
+    {
+     "n": "Muskelmasse mit BCAA-reichen Supplementen",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 35,
+     "p": null,
+     "s": [
+      "bai2022",
+      "komar2015",
+      "li2026"
+     ],
+     "t": "SMD 0,25 [0,10; 0,40]; mit Krafttraining nur der Skelettmuskelindex erhöht (SMD 0,34).",
+     "v": "aeltere"
+    },
+    {
+     "n": "Muskelmasse und Kraft mit isoliertem Leucin",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 17,
+     "p": 1418,
+     "s": [
+      "guo2022",
+      "xu2015"
+     ],
+     "t": "Fettfreie Masse +0,03 kg und Handkraft +1,23 kg, beides nicht signifikant; mit Vitamin D Handkraft +2,17 kg.",
+     "v": "aeltere"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Verträglichkeit von EAA-Supplementen",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "ferrando2023"
+     ],
+     "t": "Laut ISSN liegt die sichere Obergrenze der EAA-Zufuhr ohne angeborene Stoffwechselerkrankung weit über üblichen Supplementmengen; eigene Sicherheitsmetaanalysen fehlen.",
+     "v": "mps"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "negro2008": {
+   "short": "Negro et al., 2008",
+   "year": 2008,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "18974721",
+   "apa": "Negro, M., Giardina, S., Marzani, B. &amp; Marzatico, F. (2008). Branched-chain amino acid supplementation does not enhance athletic performance but affects muscle recovery and the immune system. <em>The Journal of Sports Medicine and Physical Fitness, 48</em>(3), 347–351."
+  },
+  "xu2015": {
+   "short": "Xu et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25234223",
+   "apa": "Xu, Z. R., Tan, Z. J., Zhang, Q., Gui, Q. F. &amp; Yang, Y. M. (2015). The effectiveness of leucine on muscle protein synthesis, lean body mass and leg lean mass accretion in older people: A systematic review and meta-analysis. <em>The British Journal of Nutrition, 113</em>(1), 25–34.",
+   "doi": "10.1017/S0007114514002475"
+  },
+  "komar2015": {
+   "short": "Komar et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25809808",
+   "apa": "Komar, B., Schwingshackl, L. &amp; Hoffmann, G. (2015). Effects of leucine-rich protein supplements on anthropometric parameter and muscle strength in the elderly: A systematic review and meta-analysis. <em>The Journal of Nutrition, Health &amp; Aging, 19</em>(4), 437–446.",
+   "doi": "10.1007/s12603-014-0559-4"
+  },
+  "jaeger2017": {
+   "short": "Jäger et al., 2017",
+   "year": 2017,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "28642676",
+   "apa": "Jäger, R., Kerksick, C. M., Campbell, B. I., Cribb, P. J., Wells, S. D., Skwiat, T. M., Purpura, M., Ziegenfuss, T. N., Ferrando, A. A., Arent, S. M., Smith-Ryan, A. E., Stout, J. R., Arciero, P. J., Ormsbee, M. J., Taylor, L. W., Wilborn, C. D., Kalman, D. S., Kreider, R. B., Willoughby, D. S., … Antonio, J. (2017). International society of sports nutrition position stand: Protein and exercise. <em>Journal of the International Society of Sports Nutrition, 14</em>, 20.",
+   "doi": "10.1186/s12970-017-0177-8"
+  },
+  "rahimi2017": {
+   "short": "Rahimi et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28870476",
+   "apa": "Rahimi, M. H., Shab-Bidar, S., Mollahosseini, M. &amp; Djafarian, K. (2017). Branched-chain amino acid supplementation and exercise-induced muscle damage in exercise recovery: A meta-analysis of randomized clinical trials. <em>Nutrition, 42</em>, 30–36.",
+   "doi": "10.1016/j.nut.2017.05.005",
+   "flag": "Zu diesem Artikel ist ein Korrigendum erschienen (PMID 29277517). Die Schlussfolgerung nennt weniger Muskelkater, obwohl die Ergebnisse dafür keinen signifikanten Effekt berichten."
+  },
+  "foure2017": {
+   "short": "Fouré & Bendahan, 2017",
+   "year": 2017,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "28934166",
+   "apa": "Fouré, A. &amp; Bendahan, D. (2017). Is branched-chain amino acids supplementation an efficient nutritional strategy to alleviate skeletal muscle damage? A systematic review. <em>Nutrients, 9</em>(10), Artikel 1047.",
+   "doi": "10.3390/nu9101047"
+  },
+  "fedewa2019": {
+   "short": "Fedewa et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30938579",
+   "apa": "Fedewa, M. V., Spencer, S. O., Williams, T. D., Becker, Z. E. &amp; Fuqua, C. A. (2019). Effect of branched-chain amino acid supplementation on muscle soreness following exercise: A meta-analysis. <em>International Journal for Vitamin and Nutrition Research, 89</em>(5-6), 348–356.",
+   "doi": "10.1024/0300-9831/a000543"
+  },
+  "doma2021": {
+   "short": "Doma et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34612716",
+   "apa": "Doma, K., Singh, U., Boullosa, D. &amp; Connor, J. D. (2021). The effect of branched-chain amino acid on muscle damage markers and performance following strenuous exercise: A systematic review and meta-analysis. <em>Applied Physiology, Nutrition, and Metabolism, 46</em>(11), 1303–1313.",
+   "doi": "10.1139/apnm-2021-0110"
+  },
+  "weber2021": {
+   "short": "Weber et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34669012",
+   "apa": "Weber, M. G., Dias, S. S., de Angelis, T. R., Fernandes, E. V., Bernardes, A. G., Milanez, V. F., Jussiani, E. I. &amp; de Paula Ramos, S. (2021). The use of BCAA to decrease delayed-onset muscle soreness after a single bout of exercise: A systematic review and meta-analysis. <em>Amino Acids, 53</em>(11), 1663–1678.",
+   "doi": "10.1007/s00726-021-03089-2"
+  },
+  "zaromskyte2021": {
+   "short": "Zaromskyte et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34307436",
+   "apa": "Zaromskyte, G., Prokopidis, K., Ioannidis, T., Tipton, K. D. &amp; Witard, O. C. (2021). Evaluating the leucine trigger hypothesis to explain the post-prandial regulation of muscle protein synthesis in young and older adults: A systematic review. <em>Frontiers in Nutrition, 8</em>, Artikel 685165.",
+   "doi": "10.3389/fnut.2021.685165"
+  },
+  "martinho2022": {
+   "short": "Martinho et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "36235655",
+   "apa": "Martinho, D. V., Nobari, H., Faria, A., Field, A., Duarte, D. &amp; Sarmento, H. (2022). Oral branched-chain amino acids supplementation in athletes: A systematic review. <em>Nutrients, 14</em>(19), Artikel 4002.",
+   "doi": "10.3390/nu14194002"
+  },
+  "bai2022": {
+   "short": "Bai et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34705076",
+   "apa": "Bai, G. H., Tsai, M. C., Tsai, H. W., Chang, C. C. &amp; Hou, W. H. (2022). Effects of branched-chain amino acid-rich supplementation on EWGSOP2 criteria for sarcopenia in older adults: A systematic review and meta-analysis. <em>European Journal of Nutrition, 61</em>(2), 637–651.",
+   "doi": "10.1007/s00394-021-02710-0"
+  },
+  "guo2022": {
+   "short": "Guo et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35845777",
+   "apa": "Guo, Y., Fu, X., Hu, Q., Chen, L. &amp; Zuo, H. (2022). The effect of leucine supplementation on sarcopenia-related measures in older adults: A systematic review and meta-analysis of 17 randomized controlled trials. <em>Frontiers in Nutrition, 9</em>, Artikel 929891.",
+   "doi": "10.3389/fnut.2022.929891"
+  },
+  "ferrando2023": {
+   "short": "Ferrando et al., 2023",
+   "year": 2023,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "37800468",
+   "apa": "Ferrando, A. A., Wolfe, R. R., Hirsch, K. R., Church, D. D., Kviatkovsky, S. A., Roberts, M. D., Stout, J. R., Gonzalez, D. E., Sowinski, R. J., Kreider, R. B., Kerksick, C. M., Burd, N. A., Pasiakos, S. M., Ormsbee, M. J., Arent, S. M., Arciero, P. J., Campbell, B. I., VanDusseldorp, T. A., Jager, R., … Antonio, J. (2023). International society of sports nutrition position stand: Effects of essential amino acid supplementation on exercise and performance. <em>Journal of the International Society of Sports Nutrition, 20</em>(1), Artikel 2263409.",
+   "doi": "10.1080/15502783.2023.2263409",
+   "flag": "Mehrere Autoren geben Patente auf EAA-Zusammensetzungen, Firmenbeteiligungen oder Beratung für Supplementhersteller an; die ISSN erhält gelegentlich Förderung von Herstellern aminosäurehaltiger Supplemente."
+  },
+  "wilkinson2023": {
+   "short": "Wilkinson et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37537134",
+   "apa": "Wilkinson, K., Koscien, C. P., Monteyne, A. J., Wall, B. T. &amp; Stephens, F. B. (2023). Association of postprandial postexercise muscle protein synthesis rates with dietary leucine: A systematic review. <em>Physiological Reports, 11</em>(15), Artikel e15775.",
+   "doi": "10.14814/phy2.15775"
+  },
+  "kaspy2024": {
+   "short": "Kaspy et al., 2024",
+   "year": 2024,
+   "type": "Narrativer Review (evidenzbasiert)",
+   "basis": "Abstract",
+   "pmid": "37681443",
+   "apa": "Kaspy, M. S., Hannaian, S. J., Bell, Z. W. &amp; Churchward-Venne, T. A. (2024). The effects of branched-chain amino acids on muscle protein synthesis, muscle protein breakdown and associated molecular signalling responses in humans: An update. <em>Nutrition Research Reviews, 37</em>(2), 273–286.",
+   "doi": "10.1017/S0954422423000197"
+  },
+  "salem2024a": {
+   "short": "Salem et al., 2024a",
+   "year": 2024,
+   "type": "Übersicht systematischer Reviews",
+   "basis": "Abstract",
+   "pmid": "38241335",
+   "apa": "Salem, A., Trabelsi, K., Jahrami, H., AlRasheed, M. M., Boukhris, O., Puce, L., Bragazzi, N. L., Ammar, A., Glenn, J. M. &amp; Chtourou, H. (2024). Branched-chain amino acids supplementation and post-exercise recovery: An overview of systematic reviews. <em>Journal of the American Nutrition Association, 43</em>(4), 384–396.",
+   "doi": "10.1080/27697061.2023.2297899"
+  },
+  "salem2024b": {
+   "short": "Salem et al., 2024b",
+   "year": 2024,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "38625669",
+   "apa": "Salem, A., Ben Maaoui, K., Jahrami, H., AlMarzooqi, M. A., Boukhris, O., Messai, B., Clark, C. C. T., Glenn, J. M., Ghazzaoui, H. A., Bragazzi, N. L., Ammar, A., Trabelsi, K. &amp; Chtourou, H. (2024). Attenuating muscle damage biomarkers and muscle soreness after an exercise-induced muscle damage with branched-chain amino acid (BCAA) supplementation: A systematic review and meta-analysis with meta-regression. <em>Sports Medicine – Open, 10</em>(1), 42.",
+   "doi": "10.1186/s40798-024-00686-9"
+  },
+  "talebi2024": {
+   "short": "Talebi et al., 2024",
+   "year": 2024,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "37460208",
+   "apa": "Talebi, S., Mohammadi, H., Zeraattalab-Motlagh, S., Arab, A., Keshavarz Mohammadian, M., Ghoreishy, S. M., Abbaspour Tehrani Fard, M., Amiri Khosroshahi, R. &amp; Djafarian, K. (2024). Nutritional interventions for exercise-induced muscle damage: An umbrella review of systematic reviews and meta-analyses of randomized trials. <em>Nutrition Reviews, 82</em>(5), 639–653.",
+   "doi": "10.1093/nutrit/nuad078"
+  },
+  "pourgharib2024": {
+   "short": "Pourgharib Shahi et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36177954",
+   "apa": "Pourgharib Shahi, M. H., Sobhrakhshan Khah, A., Sadat Sefidari, A. &amp; Mirzaei, K. (2024). Peripheral fatigue and hormone responses to branched-chain amino acids ingestion and exercise in recovery: A systematic review and meta-analysis. <em>Minerva Endocrinology, 49</em>(4), 436–447.",
+   "doi": "10.23736/S2724-6507.22.03782-4"
+  },
+  "huang2025": {
+   "short": "Huang & Hsieh, 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40805998",
+   "apa": "Huang, C. &amp; Hsieh, M. H. (2025). Effects of leucine supplementation in older adults with sarcopenia: A meta-analysis. <em>Nutrients, 17</em>(15), Artikel 2413.",
+   "doi": "10.3390/nu17152413"
+  },
+  "julea2025": {
+   "short": "Julea & Saleh, 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "41346907",
+   "apa": "Julea, M. &amp; Saleh, S. N. (2025). The effect of oral pure branched-chain amino acid supplementation on exercise performance and body composition: A systematic review. <em>Cureus, 17</em>(11), Artikel e96017.",
+   "doi": "10.7759/cureus.96017"
+  },
+  "delguerra2026": {
+   "short": "Del Guerra et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "41655197",
+   "apa": "Del Guerra, G. C., Ohannesian, V. A., Semerdjian, R., Silva, R. A. S., Chagas, E. G., Alves, M. M. L., de Oliveira Melo, G. J., Do Nascimento, L. C. D., Ishizuka, B. M., da Silva, A. B. N., de Oliveira, G. M. &amp; Rizzuti, A. (2026). Branched-chain amino acid supplementation and endurance performance: Reporting guidelines and systematic review of biochemical vs clinical evidence. <em>The Physician and Sportsmedicine, 54</em>(3), 180–191.",
+   "doi": "10.1080/00913847.2026.2627863"
+  },
+  "li2026": {
+   "short": "Li et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41202431",
+   "apa": "Li, H., Zhang, R., Ma, Y., He, J., Li, G., Sun, J. &amp; DuanyingLi (2026). Effects of branched-chain amino acid-rich nutritional supplements combined with resistance training on body composition and body function in older patients with sarcopenia. <em>Archives of Gerontology and Geriatrics, 141</em>, Artikel 106063.",
+   "doi": "10.1016/j.archger.2025.106063"
+  }
+ }
+}

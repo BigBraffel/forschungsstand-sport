@@ -1,0 +1,1208 @@
+{
+ "id": "calcium",
+ "title": "Calcium",
+ "stand": "2026-11-17",
+ "lead": "Stärkt zusätzliches Calcium die Knochen, schützt es vor Brüchen und Stressfrakturen, und wie steht es um Herz, Blutdruck und Nierensteine? Zusammengefasst aus Metaanalysen, Cochrane-Reviews und einem Umbrella Review.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Calcium aus der Nahrung wirkte auf die Knochendichte ebenso wie Supplemente. Supplemente sind vor allem dann sinnvoll, wenn die Zufuhr über die Ernährung niedrig ist.",
+ "rx": [
+  {
+   "label": "Grundsatz",
+   "value": "Bedarf zuerst über Lebensmittel",
+   "text": "Mehr Calcium aus Lebensmitteln erhöhte die Knochendichte ähnlich wie Supplemente (+0,6 % bis +1,8 %). Ohne Ernährungslücke bringen Tabletten wenig zusätzlich.",
+   "cite": "Tai et al. 2015"
+  },
+  {
+   "label": "Junge Sportler",
+   "value": "ausreichende Zufuhr sichern",
+   "text": "Unter 35 Jahren stieg die Knochendichte am Schenkelhals mit Calcium (SMD 0,63). Bei Rekrutinnen und Läuferinnen ging eine Zufuhr über 1 500 mg/Tag mit den wenigsten Stressfrakturen einher; die Datenlage dazu ist schwach.",
+   "cite": "Liu et al. 2022; Tenforde et al. 2010"
+  },
+  {
+   "label": "Ab 50 Jahren",
+   "value": "wenn, dann mit Vitamin D",
+   "text": "Calcium mit Vitamin D senkte das Frakturrisiko nur wenig (RR 0,91); Calcium allein verfehlte knapp die Signifikanz. In älteren Analysen wirkten mindestens 1 200 mg Calcium und 800 IE Vitamin D besser.",
+   "cite": "Massé et al. 2026; Tang et al. 2007"
+  },
+  {
+   "label": "Training",
+   "value": "Belastung wirkt zusätzlich",
+   "text": "Training plus Calcium und Vitamin D erhöhte die Knochendichte stärker als die Supplemente allein (Schenkelhals SMD 0,47).",
+   "cite": "Bai et al. 2025"
+  },
+  {
+   "label": "Vorsicht",
+   "value": "keine hohen Dosen auf Verdacht",
+   "text": "Hochdosiertes Calcium als Tablette ist mit einem möglichen Herzinfarktsignal verbunden; Calcium mit Vitamin D erhöhte das Nierensteinrisiko leicht (+0,33 Prozentpunkte).",
+   "cite": "Bolland et al. 2011; Kahwati et al. 2018"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Die meisten Studien stammen aus Menschen über 50 Jahren, vor allem Frauen nach der Menopause. Für junge Sportler gibt es kaum direkte Studien; Aussagen zu Stressfrakturen beruhen auf wenigen Arbeiten.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Kleiner, nicht fortschreitender Knochendichtegewinn",
+   "ev": "hoch",
+   "p": "Calcium erhöhte die Knochendichte um etwa 1 bis 2 %, aber nicht weiter mit längerer Einnahme. Bei Jüngeren war der Effekt am Schenkelhals etwas größer.",
+   "s": [
+    "tai2015",
+    "shea2002",
+    "liu2022",
+    "silk2015"
+   ]
+  },
+  {
+   "t": "Kaum Schutz vor Knochenbrüchen",
+   "ev": "hoch",
+   "p": "In der größten Analyse mit 153 902 Personen hatten Calcium, Vitamin D oder beides zusammen wenig bis keinen Effekt auf Brüche. Mit Vitamin D war der Effekt etwas günstiger als ohne.",
+   "s": [
+    "masse2026",
+    "bolland2015",
+    "zhao2017",
+    "yao2019"
+   ]
+  },
+  {
+   "t": "Stressfrakturen: plausibel, aber schwach belegt",
+   "ev": "niedrig",
+   "p": "Einzelne Studien bei Rekrutinnen und Läuferinnen deuten auf weniger Stressfrakturen hin; Metaanalysen fehlen.",
+   "s": [
+    "arslan2021",
+    "tenforde2010"
+   ]
+  },
+  {
+   "t": "Herz-Kreislauf: widersprüchliche Signale",
+   "ev": "niedrig",
+   "p": "Mehrere Analysen fanden ein um 15–30 % erhöhtes Herzinfarktrisiko unter Calcium-Supplementen, andere keinen Zusammenhang.",
+   "s": [
+    "bolland2010",
+    "bolland2011",
+    "myung2021",
+    "huo2023",
+    "chung2016"
+   ]
+  },
+  {
+   "t": "Blutdruck leicht gesenkt",
+   "ev": "hoch",
+   "p": "Calcium senkte den Blutdruck bei Normotonen um etwa 1–2 mmHg, bei Jüngeren etwas stärker.",
+   "s": [
+    "cormick2022",
+    "vanmierlo2006"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "knochendichte",
+   "name": "Knochendichte",
+   "q": "Erhöht Calcium die Knochendichte?",
+   "ev": "hoch",
+   "key": [
+    "Frauen nach der Menopause, 15 Studien (n = 1 806): nach mindestens 2 Jahren +2,05 % Knochendichte am Gesamtkörper, +1,66 % an der Lendenwirbelsäule und +1,64 % an der Hüfte (Shea et al., 2002).",
+    "Über 50 Jahre, 51 Studien mit Supplementen (n = 12 257): +0,7 % bis +1,8 % an allen fünf Messorten; der Zuwachs nach 2,5 Jahren entsprach dem nach 1 Jahr. Ernährung und Supplemente, Dosen unter und über 1 000 mg sowie mit oder ohne Vitamin D wirkten ähnlich (Tai et al., 2015).",
+    "Unter 35 Jahren, 43 Studien (n = 7 382): Schenkelhals SMD 0,627 [0,338; 0,915], Gesamtkörper SMD 0,330 [0,163; 0,496]; keine Wirkung auf Hüfte gesamt und Lendenwirbelsäule. Bei 20- bis 35-Jährigen stärker als unter 20 Jahren (Liu et al., 2022).",
+    "Gesunde Männer, 6 Studien (n = 867): Gesamtkörper ES 0,644, Hüfte 0,483, Schenkelhals 0,402, Lendenwirbelsäule 0,306; Daten vor allem von älteren Männern, keine Studien mit Sportlern (Silk et al., 2015).",
+    "Gesunde Frauen vor der Menopause, 7 RCTs (n = 941): keine klinisch relevante Wirkung, Hüfte MD −0,04 g/cm² [−0,11; 0,03] (Méndez-Sánchez et al., 2023).",
+    "Frauen nach der Menopause, 13 RCTs: Training plus Calcium und Vitamin D steigerte die Knochendichte stärker als die Supplemente allein (Lendenwirbelsäule SMD 0,31 [0,06; 0,55]; Schenkelhals SMD 0,47 [0,09; 0,84]) (Bai et al., 2025)."
+   ],
+   "critic": "Die Richtung ist einheitlich positiv, die Größe aber klein: 1 bis 2 % entsprechen nach Tai et al. (2015) keinem klinisch bedeutsamen Frakturschutz. Die standardisierten Effekte bei Jüngeren und Männern wirken größer, beruhen aber auf weniger Studien. Der Cochrane-Review bei jungen Frauen fand keinen Nutzen; die Studien waren klein und hatten Verzerrungsrisiken. Wahrscheinlichste Lesart: Calcium gleicht eine zu geringe Zufuhr aus, baut darüber hinaus aber kaum Knochen auf. Training ist ein eigenständiger Reiz.",
+   "figs": [
+    {
+     "id": "ca-bmd",
+     "title": "Calcium und Knochendichte bei Jüngeren und Männern",
+     "cap": "Standardisierte Effektgröße gegenüber Kontrolle mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Schenkelhals, unter 35 Jahren",
+       "sub": "Liu et al., 2022",
+       "es": 0.627,
+       "lo": 0.338,
+       "hi": 0.915
+      },
+      {
+       "l": "Gesamtkörper, unter 35 Jahren",
+       "sub": "Liu et al., 2022",
+       "es": 0.33,
+       "lo": 0.163,
+       "hi": 0.496
+      },
+      {
+       "l": "Gesamtkörper, Männer",
+       "sub": "Silk et al., 2015",
+       "es": 0.644,
+       "lo": 0.406,
+       "hi": 0.883
+      },
+      {
+       "l": "Hüfte, Männer",
+       "sub": "Silk et al., 2015",
+       "es": 0.483,
+       "lo": 0.255,
+       "hi": 0.711
+      },
+      {
+       "l": "Lendenwirbelsäule, Männer",
+       "sub": "Silk et al., 2015",
+       "es": 0.306,
+       "lo": 0.173,
+       "hi": 0.44
+      }
+     ],
+     "opts": {
+      "min": -0.1,
+      "max": 1.0,
+      "ticks": [
+       0,
+       0.25,
+       0.5,
+       0.75,
+       1
+      ],
+      "leftLab": "weniger",
+      "rightLab": "mehr"
+     }
+    }
+   ],
+   "s": [
+    "shea2002",
+    "tai2015",
+    "liu2022",
+    "silk2015",
+    "mendez2023",
+    "bai2025"
+   ]
+  },
+  {
+   "id": "frakturen",
+   "name": "Knochenbrüche",
+   "q": "Verhindert Calcium Knochenbrüche?",
+   "ev": "hoch",
+   "key": [
+    "Ab 50 Jahren, 17 Studien (n = 52 625): 12 % weniger Brüche (RR 0,88 [0,83; 0,95]); bei guter Einnahmetreue 24 %. Mit mindestens 1 200 mg Calcium (RR 0,80 statt 0,94) und mindestens 800 IE Vitamin D wirksamer (Tang et al., 2007).",
+    "Hüftbrüche: In Kohorten kein Zusammenhang mit der Calciumzufuhr; in 4 RCTs mit Calcium allein mehr Hüftbrüche (RR 1,64 [1,02; 2,64]) (Bischoff-Ferrari et al., 2007).",
+    "26 RCTs: Calcium-Supplemente senkten Brüche insgesamt (RR 0,89 [0,81; 0,96]; 20 Studien, n = 58 573), nicht aber Hüftbrüche (RR 0,95 [0,76; 1,18]). Hinweise auf Publikationsbias; in den 4 Studien mit geringstem Verzerrungsrisiko (n = 44 505) kein Effekt. Calcium aus der Nahrung war in Kohorten nicht mit dem Frakturrisiko verbunden (Bolland et al., 2015).",
+    "Calcium plus Vitamin D, 8 Studien (n = 30 970): Brüche −15 % (RR 0,85 [0,73; 0,98]), Hüftbrüche −30 % (RR 0,70 [0,56; 0,87]) (Weaver et al., 2016).",
+    "Ältere Menschen zu Hause, 33 RCTs (n = 51 145): kein signifikanter Zusammenhang mit Hüftbrüchen, weder für Calcium (RR 1,53 [0,97; 2,42]) noch für Calcium plus Vitamin D (RR 1,09 [0,85; 1,39]) (Zhao et al., 2017).",
+    "Calcium plus Vitamin D täglich, 6 RCTs (n = 49 282): Brüche −6 % (RR 0,94 [0,89; 0,99]), Hüftbrüche −16 % (RR 0,84 [0,72; 0,97]); Vitamin D allein ohne Effekt (Yao et al., 2019).",
+    "69 Studien (n = 153 902): Calcium RR 0,91 [0,81; 1,01] (11 Studien, n = 9 067), Vitamin D RR 1,00 [0,95; 1,06], beides RR 0,91 [0,84; 0,99] (15 Studien, n = 51 126). Gemessen an klinisch bedeutsamen Schwellen wenig bis kein Nutzen (Massé et al., 2026)."
+   ],
+   "critic": "Die Ergebnisse haben sich über die Zeit verschoben: Ältere Analysen fanden 12–15 % weniger Brüche, neuere mit strengeren Kriterien kaum noch Effekte. Gründe sind Publikationsbias, Studien mit hohem Verzerrungsrisiko und Pflegeheimstudien mit Mangel. Die Analyse von Weaver et al. (2016) wurde von der National Osteoporosis Foundation getragen und nutzt eine Subgruppe der WHI-Studie. Die aktuelle und größte Analyse (Massé et al., 2026) mit hoher Evidenzsicherheit ist am gewichtigsten: Ein kleiner relativer Nutzen von Calcium mit Vitamin D ist möglich, für selbstständig lebende Erwachsene aber praktisch gering. Für Calcium allein besteht bei Hüftbrüchen sogar ein Verdacht auf Schaden.",
+   "figs": [
+    {
+     "id": "ca-fx",
+     "title": "Calcium und Knochenbrüche insgesamt",
+     "cap": "Relatives Risiko gegenüber Placebo/Kontrolle mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Calcium ± Vitamin D, ab 50 Jahren",
+       "sub": "Tang et al., 2007",
+       "es": 0.88,
+       "lo": 0.83,
+       "hi": 0.95
+      },
+      {
+       "l": "Calcium-Supplemente",
+       "sub": "Bolland et al., 2015",
+       "es": 0.89,
+       "lo": 0.81,
+       "hi": 0.96
+      },
+      {
+       "l": "Calcium plus Vitamin D",
+       "sub": "Weaver et al., 2016",
+       "es": 0.85,
+       "lo": 0.73,
+       "hi": 0.98
+      },
+      {
+       "l": "Calcium plus Vitamin D täglich",
+       "sub": "Yao et al., 2019",
+       "es": 0.94,
+       "lo": 0.89,
+       "hi": 0.99
+      },
+      {
+       "l": "Calcium allein",
+       "sub": "Massé et al., 2026",
+       "es": 0.91,
+       "lo": 0.81,
+       "hi": 1.01
+      },
+      {
+       "l": "Calcium plus Vitamin D",
+       "sub": "Massé et al., 2026",
+       "es": 0.91,
+       "lo": 0.84,
+       "hi": 0.99
+      }
+     ],
+     "opts": {
+      "min": 0.6,
+      "max": 1.2,
+      "ticks": [
+       0.7,
+       0.8,
+       0.9,
+       1,
+       1.1
+      ],
+      "ref": 1,
+      "leftLab": "weniger Brüche",
+      "rightLab": "mehr Brüche"
+     }
+    },
+    {
+     "id": "ca-hip",
+     "title": "Calcium und Hüftbrüche",
+     "cap": "Relatives Risiko gegenüber Placebo/Kontrolle mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Calcium allein",
+       "sub": "Bischoff-Ferrari et al., 2007",
+       "es": 1.64,
+       "lo": 1.02,
+       "hi": 2.64
+      },
+      {
+       "l": "Calcium allein",
+       "sub": "Zhao et al., 2017",
+       "es": 1.53,
+       "lo": 0.97,
+       "hi": 2.42
+      },
+      {
+       "l": "Calcium-Supplemente",
+       "sub": "Bolland et al., 2015",
+       "es": 0.95,
+       "lo": 0.76,
+       "hi": 1.18
+      },
+      {
+       "l": "Calcium plus Vitamin D",
+       "sub": "Zhao et al., 2017",
+       "es": 1.09,
+       "lo": 0.85,
+       "hi": 1.39
+      },
+      {
+       "l": "Calcium plus Vitamin D",
+       "sub": "Weaver et al., 2016",
+       "es": 0.7,
+       "lo": 0.56,
+       "hi": 0.87
+      },
+      {
+       "l": "Calcium plus Vitamin D täglich",
+       "sub": "Yao et al., 2019",
+       "es": 0.84,
+       "lo": 0.72,
+       "hi": 0.97
+      }
+     ],
+     "opts": {
+      "min": 0.4,
+      "max": 2.8,
+      "ticks": [
+       0.5,
+       1,
+       1.5,
+       2,
+       2.5
+      ],
+      "ref": 1,
+      "leftLab": "weniger",
+      "rightLab": "mehr"
+     }
+    }
+   ],
+   "s": [
+    "tang2007",
+    "bischoff2007",
+    "bolland2015",
+    "weaver2016",
+    "zhao2017",
+    "yao2019",
+    "masse2026"
+   ]
+  },
+  {
+   "id": "stressfraktur",
+   "name": "Stressfrakturen bei Sportlern und Rekruten",
+   "q": "Schützt Calcium vor Stressfrakturen?",
+   "ev": "niedrig",
+   "key": [
+    "Literaturübersicht zu jungen Sportlern (18–35 Jahre): Ein RCT bei Rekrutinnen zeigte weniger Stressfrakturen mit Calcium und Vitamin D; bei Läuferinnen ging höhere Calciumzufuhr mit weniger Stressfrakturen und höherer Knochendichte einher. Am stärksten war der Effekt bei mehr als 1 500 mg Calcium pro Tag. Zu männlichen und jugendlichen Sportlern gab es keine prospektiven Studien (Tenforde et al., 2010).",
+    "Streitkräfte, 27 Arbeiten (n = 25 593): einige Hinweise auf einen vorbeugenden Effekt von Calcium allein oder mit Vitamin D auf Verletzungen des Bewegungsapparats; Studien meist mit hohem oder unklarem Verzerrungsrisiko, für Calcium keine Metaanalyse (Arslan et al., 2021)."
+   ],
+   "critic": "Zu Stressfrakturen fehlen Metaanalysen. Die Evidenz beruht auf einem großen RCT bei Rekrutinnen und Beobachtungsdaten bei Läuferinnen. Die Übertragbarkeit auf Männer und auf Sportler mit guter Calciumzufuhr ist offen. Ein Energiemangel (geringe Energieverfügbarkeit) ist ein wichtiger Störfaktor, der in diesen Abstracts nicht getrennt bewertet wird.",
+   "figs": [],
+   "s": [
+    "tenforde2010",
+    "arslan2021"
+   ]
+  },
+  {
+   "id": "herz",
+   "name": "Herz-Kreislauf-Risiko und Sterblichkeit",
+   "q": "Schaden Calcium-Supplemente dem Herzen?",
+   "ev": "niedrig",
+   "key": [
+    "15 Studien, Calcium ohne Vitamin D: mehr Herzinfarkte (Patientendaten HR 1,31 [1,02; 1,67]; Studiendaten RR 1,27 [1,01; 1,59]); Schlaganfall (1,20) und Tod (1,09) nicht signifikant erhöht (Bolland et al., 2010).",
+    "Reanalyse der WHI-Studie: bei Frauen ohne eigene Calcium-Supplemente Herzinfarkt RR 1,24 [1,07; 1,45] mit Calcium mit oder ohne Vitamin D (9 Studien, n = 28 072) (Bolland et al., 2011).",
+    "4 RCTs und 27 Beobachtungsstudien: Zufuhr bis 2 000–2 500 mg/Tag nicht mit Herz-Kreislauf-Risiko verbunden (Chung et al., 2016).",
+    "Umbrella Review (277 Studien, n = 992 129): Calcium plus Vitamin D erhöhte das Schlaganfallrisiko (RR 1,17 [1,05; 1,30]; moderate Sicherheit) (Khan et al., 2019).",
+    "13 doppelblinde RCTs: Herz-Kreislauf-Erkrankungen RR 1,15 [1,06; 1,25], koronare Herzkrankheit RR 1,16 [1,05; 1,28], vor allem bei gesunden Frauen nach der Menopause (Myung et al., 2021).",
+    "11 Studien: Calcium allein ohne signifikant erhöhtes Herzinfarktrisiko (RR 1,15 [0,88; 1,51]), ebenso Calcium plus Vitamin D (RR 1,09 [0,95; 1,25]); kein Zusammenhang mit Schlaganfall oder Gesamtsterblichkeit (Huo et al., 2023)."
+   ],
+   "critic": "Die Befunde widersprechen sich. Die Analysen der Gruppe um Bolland und von Myung et al. sehen ein Risiko von etwa 15–30 %. Huo et al. (2023) und Chung et al. (2016) fanden keinen Zusammenhang; die Arbeit von Chung et al. wurde von der National Osteoporosis Foundation finanziert. In allen Studien waren Herzereignisse nur Nebenendpunkte. Wahrscheinlichste Lesart: Ein kleines Risiko durch hochdosierte Calcium-Tabletten ist nicht ausgeschlossen. Calcium aus Lebensmitteln zeigte dieses Signal nicht. Wer Supplemente nutzt, sollte daher nur die Lücke zur empfohlenen Zufuhr schließen.",
+   "figs": [
+    {
+     "id": "ca-mi",
+     "title": "Calcium-Supplemente und Herz-Kreislauf-Ereignisse",
+     "cap": "Relatives Risiko bzw. Hazard Ratio gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Herzinfarkt, Calcium allein",
+       "sub": "Bolland et al., 2010",
+       "es": 1.27,
+       "lo": 1.01,
+       "hi": 1.59
+      },
+      {
+       "l": "Herzinfarkt, Calcium ± Vitamin D",
+       "sub": "Bolland et al., 2011",
+       "es": 1.24,
+       "lo": 1.07,
+       "hi": 1.45
+      },
+      {
+       "l": "Herz-Kreislauf-Erkrankungen",
+       "sub": "Myung et al., 2021",
+       "es": 1.15,
+       "lo": 1.06,
+       "hi": 1.25
+      },
+      {
+       "l": "Schlaganfall, Calcium plus Vitamin D",
+       "sub": "Khan et al., 2019",
+       "es": 1.17,
+       "lo": 1.05,
+       "hi": 1.3
+      },
+      {
+       "l": "Herzinfarkt, Calcium allein",
+       "sub": "Huo et al., 2023",
+       "es": 1.15,
+       "lo": 0.88,
+       "hi": 1.51
+      },
+      {
+       "l": "Herzinfarkt, Calcium plus Vitamin D",
+       "sub": "Huo et al., 2023",
+       "es": 1.09,
+       "lo": 0.95,
+       "hi": 1.25
+      }
+     ],
+     "opts": {
+      "min": 0.8,
+      "max": 1.7,
+      "ticks": [
+       0.8,
+       1,
+       1.2,
+       1.4,
+       1.6
+      ],
+      "ref": 1,
+      "leftLab": "seltener",
+      "rightLab": "häufiger"
+     }
+    }
+   ],
+   "s": [
+    "bolland2010",
+    "bolland2011",
+    "chung2016",
+    "khan2019",
+    "myung2021",
+    "huo2023"
+   ]
+  },
+  {
+   "id": "blutdruck",
+   "name": "Blutdruck",
+   "q": "Senkt Calcium den Blutdruck?",
+   "ev": "hoch",
+   "key": [
+    "40 Studien (n = 2 492), im Mittel 1 200 mg/Tag: systolisch −1,86 mmHg [−2,91; −0,81], diastolisch −0,99 mmHg [−1,61; −0,37]; bei niedriger Zufuhr (≤ 800 mg/Tag) −2,63 mmHg systolisch (van Mierlo et al., 2006).",
+    "Normotone Menschen, 18 Studien (n = 3 140): systolisch −1,37 mmHg [−2,08; −0,66], diastolisch −1,45 mmHg [−2,23; −0,67], hohe Evidenzsicherheit. Unter 35 Jahren systolisch −1,86 mmHg, ab 35 Jahren −0,97 mmHg. Mit 1 000–1 500 mg/Tag −1,05 mmHg; unter 1 000 mg kein Effekt (Cormick et al., 2022)."
+   ],
+   "critic": "Beide Analysen stimmen überein, die Heterogenität war gering. Der Effekt ist für Einzelne klein. Laut Cochrane-Review entsprechen 2 mmHg weniger systolisch auf Bevölkerungsebene etwa 10 % weniger Schlaganfalltodesfällen. Ob das Herzinfarktsignal hoher Supplementdosen diesen Nutzen aufwiegt, ist offen.",
+   "figs": [
+    {
+     "id": "ca-bp",
+     "title": "Calcium und systolischer Blutdruck",
+     "cap": "Mittlere Differenz in mmHg gegenüber Kontrolle mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle",
+       "sub": "van Mierlo et al., 2006",
+       "es": -1.86,
+       "lo": -2.91,
+       "hi": -0.81
+      },
+      {
+       "l": "Niedrige Calciumzufuhr",
+       "sub": "van Mierlo et al., 2006",
+       "es": -2.63,
+       "lo": -4.03,
+       "hi": -1.24
+      },
+      {
+       "l": "Normotone, alle",
+       "sub": "Cormick et al., 2022",
+       "es": -1.37,
+       "lo": -2.08,
+       "hi": -0.66
+      },
+      {
+       "l": "Normotone unter 35 Jahren",
+       "sub": "Cormick et al., 2022",
+       "es": -1.86,
+       "lo": -3.45,
+       "hi": -0.27
+      },
+      {
+       "l": "Normotone ab 35 Jahren",
+       "sub": "Cormick et al., 2022",
+       "es": -0.97,
+       "lo": -1.83,
+       "hi": -0.1
+      }
+     ],
+     "opts": {
+      "min": -4.5,
+      "max": 0.5,
+      "ticks": [
+       -4,
+       -3,
+       -2,
+       -1,
+       0
+      ],
+      "unit": "mmHg",
+      "leftLab": "niedriger",
+      "rightLab": "höher"
+     }
+    }
+   ],
+   "s": [
+    "vanmierlo2006",
+    "cormick2022"
+   ]
+  },
+  {
+   "id": "nieren",
+   "name": "Nierensteine und Körpergewicht",
+   "q": "Fördert Calcium Nierensteine, und hilft es beim Abnehmen?",
+   "ev": "moderat",
+   "key": [
+    "Calcium plus Vitamin D erhöhte die Häufigkeit von Nierensteinen (3 RCTs, n = 39 213; absolute Risikodifferenz +0,33 Prozentpunkte [0,06; 0,60]); Calcium allein nicht (3 RCTs, n = 1 259; ±0,00 [−0,87; 0,87]). Brüche wurden mit Calcium plus Vitamin D nicht seltener (Kahwati et al., 2018).",
+    "33 Studien (n = 4 733): kein Unterschied im Gewicht (−0,01 kg [−0,02; 0,00]); kleine Abnahmen nur in Untergruppen wie Normalgewichtigen (−0,53 kg) (Li et al., 2016).",
+    "41 Studien: rund 900 mg/Tag zusätzlich als Supplement änderten weder Gewicht (−0,17 kg [−0,70; 0,37]) noch Körperfett (−0,19 kg [−0,51; 0,13]) (Booth et al., 2015)."
+   ],
+   "critic": "Das Nierensteinrisiko stammt vor allem aus der großen WHI-Studie mit Calcium und Vitamin D; absolut ist es gering, aber bei Menschen mit früheren Nierensteinen relevant. Für Calcium allein reichen die Daten nicht für eine sichere Aussage. Zur Gewichtsabnahme stimmen beide Analysen überein: kein relevanter Effekt; die Untergruppenbefunde bei Li et al. (2016) sind klein und explorativ.",
+   "figs": [],
+   "s": [
+    "kahwati2018",
+    "li2016",
+    "booth2015"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2002,
+   "t": "Kleiner Knochendichtegewinn",
+   "p": "Calcium bremste den Knochenabbau nach der Menopause.",
+   "tag": "neu",
+   "s": "shea2002"
+  },
+  {
+   "y": 2006,
+   "t": "Blutdruck leicht gesenkt",
+   "p": "Etwa −2 mmHg systolisch.",
+   "tag": "neu",
+   "s": "vanmierlo2006"
+  },
+  {
+   "y": 2007,
+   "t": "12 % weniger Brüche",
+   "p": "Ab 50 Jahren, mit Calcium oder Calcium plus Vitamin D.",
+   "tag": "neu",
+   "s": "tang2007"
+  },
+  {
+   "y": 2007,
+   "t": "Hüftbrüche nicht verhindert",
+   "p": "In RCTs mit Calcium allein eher mehr Hüftbrüche.",
+   "tag": "contra",
+   "s": "bischoff2007"
+  },
+  {
+   "y": 2010,
+   "t": "Herzinfarktsignal",
+   "p": "Calcium allein erhöhte Herzinfarkte um etwa 30 %.",
+   "tag": "neu",
+   "s": "bolland2010"
+  },
+  {
+   "y": 2010,
+   "t": "Stressfrakturen bei jungen Sportlern",
+   "p": "Hinweise auf Schutz bei hoher Calciumzufuhr.",
+   "tag": "neu",
+   "s": "tenforde2010"
+  },
+  {
+   "y": 2011,
+   "t": "Herzinfarkt auch mit Vitamin D",
+   "p": "Reanalyse der WHI-Studie bestätigt das Signal.",
+   "tag": "conf",
+   "s": "bolland2011"
+  },
+  {
+   "y": 2015,
+   "t": "Knochendichte: klein und nicht fortschreitend",
+   "p": "+0,7 bis 1,8 % ohne klinisch relevanten Frakturschutz.",
+   "tag": "rel",
+   "s": "tai2015"
+  },
+  {
+   "y": 2015,
+   "t": "Frakturschutz schwach und uneinheitlich",
+   "p": "Kein Effekt in Studien mit geringstem Verzerrungsrisiko.",
+   "tag": "rel",
+   "s": "bolland2015"
+  },
+  {
+   "y": 2015,
+   "t": "Gesunde Männer",
+   "p": "Knochendichte an allen Messorten erhöht.",
+   "tag": "conf",
+   "s": "silk2015"
+  },
+  {
+   "y": 2015,
+   "t": "Kein Gewichtsverlust",
+   "p": "Calcium-Supplemente ohne Effekt auf Gewicht und Fett.",
+   "tag": "neu",
+   "s": "booth2015"
+  },
+  {
+   "y": 2016,
+   "t": "Calcium plus Vitamin D gegen Brüche",
+   "p": "Hüftbrüche −30 % (Analyse der National Osteoporosis Foundation).",
+   "tag": "contra",
+   "s": "weaver2016"
+  },
+  {
+   "y": 2016,
+   "t": "Kein Herz-Kreislauf-Risiko",
+   "p": "Bis 2 000–2 500 mg/Tag kein Zusammenhang.",
+   "tag": "contra",
+   "s": "chung2016"
+  },
+  {
+   "y": 2016,
+   "t": "Gewicht unverändert",
+   "p": "Nur kleine Effekte in Untergruppen.",
+   "tag": "conf",
+   "s": "li2016"
+  },
+  {
+   "y": 2017,
+   "t": "Kein Frakturschutz zu Hause",
+   "p": "Weder Calcium noch Vitamin D noch beides.",
+   "tag": "contra",
+   "s": "zhao2017"
+  },
+  {
+   "y": 2018,
+   "t": "Nierensteine",
+   "p": "Calcium plus Vitamin D erhöhte das Risiko leicht.",
+   "tag": "neu",
+   "s": "kahwati2018"
+  },
+  {
+   "y": 2019,
+   "t": "Tägliche Kombination wirksamer",
+   "p": "Calcium plus Vitamin D: 16 % weniger Hüftbrüche.",
+   "tag": "rel",
+   "s": "yao2019"
+  },
+  {
+   "y": 2019,
+   "t": "Schlaganfallsignal",
+   "p": "Calcium plus Vitamin D: RR 1,17.",
+   "tag": "neu",
+   "s": "khan2019"
+  },
+  {
+   "y": 2021,
+   "t": "Stressfrakturen bei Soldaten",
+   "p": "Schwache Hinweise auf Schutz.",
+   "tag": "conf",
+   "s": "arslan2021"
+  },
+  {
+   "y": 2021,
+   "t": "15 % mehr Herz-Kreislauf-Erkrankungen",
+   "p": "In doppelblinden RCTs.",
+   "tag": "conf",
+   "s": "myung2021"
+  },
+  {
+   "y": 2022,
+   "t": "Cochrane: Blutdruck",
+   "p": "Kleine Senkung, bei Jüngeren stärker.",
+   "tag": "conf",
+   "s": "cormick2022"
+  },
+  {
+   "y": 2022,
+   "t": "Knochenaufbau unter 35",
+   "p": "Schenkelhals profitiert am meisten.",
+   "tag": "neu",
+   "s": "liu2022"
+  },
+  {
+   "y": 2023,
+   "t": "Cochrane: junge Frauen",
+   "p": "Kein klinisch relevanter Knochendichtegewinn.",
+   "tag": "contra",
+   "s": "mendez2023"
+  },
+  {
+   "y": 2023,
+   "t": "Herzrisiko nicht bestätigt",
+   "p": "Keine signifikante Erhöhung von Herzinfarkt oder Schlaganfall.",
+   "tag": "contra",
+   "s": "huo2023"
+  },
+  {
+   "y": 2025,
+   "t": "Training plus Supplemente",
+   "p": "Mehr Knochendichte als Supplemente allein.",
+   "tag": "neu",
+   "s": "bai2025"
+  },
+  {
+   "y": 2026,
+   "t": "Größte Analyse zu Brüchen",
+   "p": "153 902 Personen: wenig bis kein Nutzen.",
+   "tag": "rel",
+   "s": "masse2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "17.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 4 012 Einträgen, 814 Übersichtsarbeiten nach Titel geprüft (369 aus der Themensuche, 445 aus ergänzenden Suchen zu Brüchen, Stressfrakturen, Herz-Kreislauf, Nierensteinen und Blutdruck), 26 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Knochen",
+   "kat": "knochen",
+   "items": [
+    {
+     "n": "Knochendichte ab 50 Jahren",
+     "g": "A",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 51,
+     "p": 12257,
+     "s": [
+      "tai2015",
+      "shea2002",
+      "tang2007"
+     ],
+     "t": "+0,7 % bis +1,8 % an allen Messorten (51 Studien, n = 12 257); nach 1 Jahr kein weiterer Zuwachs. Als sehr kleiner Effekt eingestuft, da ohne klinisch relevanten Frakturschutz.",
+     "v": "knochendichte"
+    },
+    {
+     "n": "Knochendichte unter 35 Jahren",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 43,
+     "p": 7382,
+     "s": [
+      "liu2022",
+      "silk2015",
+      "mendez2023"
+     ],
+     "t": "Schenkelhals SMD 0,63, Gesamtkörper SMD 0,33; Hüfte gesamt und Lendenwirbelsäule unverändert. Bei jungen Frauen fand der Cochrane-Review keinen Effekt.",
+     "v": "knochendichte"
+    },
+    {
+     "n": "Knochendichte durch Training zusätzlich zu Calcium und Vitamin D",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 13,
+     "p": null,
+     "s": [
+      "bai2025"
+     ],
+     "t": "Lendenwirbelsäule SMD 0,31, Schenkelhals SMD 0,47 gegenüber Supplementen allein (13 RCTs, Frauen nach der Menopause).",
+     "v": "knochendichte"
+    },
+    {
+     "n": "Knochenbrüche gesamt: Calcium allein",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 20,
+     "p": 58573,
+     "s": [
+      "masse2026",
+      "bolland2015",
+      "zhao2017"
+     ],
+     "t": "RR 0,91 nicht signifikant (11 Studien); ältere Analyse RR 0,89, aber in Studien mit geringstem Verzerrungsrisiko kein Effekt.",
+     "v": "frakturen"
+    },
+    {
+     "n": "Knochenbrüche gesamt: Calcium plus Vitamin D",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 15,
+     "p": 51126,
+     "s": [
+      "masse2026",
+      "yao2019",
+      "weaver2016",
+      "tang2007"
+     ],
+     "t": "RR 0,91 (15 Studien, n = 51 126) bzw. 0,94; gemessen an klinischen Schwellen wenig bis kein Nutzen.",
+     "v": "frakturen"
+    },
+    {
+     "n": "Hüftbrüche: Calcium allein",
+     "g": "C",
+     "d": "auf",
+     "m": null,
+     "b": "schaden",
+     "k": 13,
+     "p": 56648,
+     "s": [
+      "bischoff2007",
+      "zhao2017",
+      "bolland2015"
+     ],
+     "t": "RR 1,64 in 4 RCTs, 1,53 (nicht signifikant) in einer weiteren Analyse, 0,95 in der größten Analyse.",
+     "v": "frakturen"
+    },
+    {
+     "n": "Hüftbrüche: Calcium plus Vitamin D",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "nutzen",
+     "k": 6,
+     "p": 49282,
+     "s": [
+      "yao2019",
+      "weaver2016",
+      "zhao2017",
+      "masse2026"
+     ],
+     "t": "RR 0,70 bzw. 0,84 in zwei Analysen, RR 1,09 ohne Effekt in einer dritten; aktuell wenig bis kein Nutzen.",
+     "v": "frakturen"
+    },
+    {
+     "n": "Stressfrakturen bei Rekruten und Sportlerinnen",
+     "g": "D",
+     "d": "ab",
+     "m": -1,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "tenforde2010",
+      "arslan2021"
+     ],
+     "t": "Ein RCT bei Rekrutinnen und Beobachtungsdaten bei Läuferinnen; am stärksten über 1 500 mg/Tag. Keine Metaanalyse.",
+     "v": "stressfraktur"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz und Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Herzinfarkt",
+     "g": "C",
+     "d": "auf",
+     "m": null,
+     "b": "schaden",
+     "k": 9,
+     "p": 28072,
+     "s": [
+      "bolland2010",
+      "bolland2011",
+      "myung2021",
+      "huo2023",
+      "chung2016"
+     ],
+     "t": "RR 1,24 bis 1,31 in den Analysen von Bolland et al.; Huo et al. (2023) und Chung et al. (2016) ohne signifikante Erhöhung.",
+     "v": "herz"
+    },
+    {
+     "n": "Schlaganfall (Calcium plus Vitamin D)",
+     "g": "C",
+     "d": "auf",
+     "m": null,
+     "b": "schaden",
+     "k": null,
+     "p": 992129,
+     "s": [
+      "khan2019",
+      "huo2023"
+     ],
+     "t": "Umbrella Review RR 1,17 (moderate Sicherheit); neuere Analyse RR 1,02 nicht signifikant.",
+     "v": "herz"
+    },
+    {
+     "n": "Gesamtsterblichkeit",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": null,
+     "s": [
+      "huo2023",
+      "bolland2010"
+     ],
+     "t": "Kein Zusammenhang mit Calcium allein oder mit Vitamin D; Todesfälle RR 1,09 nicht signifikant.",
+     "v": "herz"
+    },
+    {
+     "n": "Blutdruck",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 18,
+     "p": 3140,
+     "s": [
+      "cormick2022",
+      "vanmierlo2006"
+     ],
+     "t": "Systolisch −1,37 mmHg (18 Studien, hohe Sicherheit), unter 35 Jahren −1,86 mmHg; klein für Einzelne.",
+     "v": "blutdruck"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Nierensteine",
+     "g": "B",
+     "d": "auf",
+     "m": -1,
+     "b": "schaden",
+     "k": 3,
+     "p": 39213,
+     "s": [
+      "kahwati2018"
+     ],
+     "t": "Calcium plus Vitamin D: +0,33 Prozentpunkte absolut (3 RCTs, n = 39 213); Calcium allein ohne Unterschied (n = 1 259). Relatives Risiko im Abstract nicht angegeben.",
+     "v": "nieren"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Körperzusammensetzung",
+   "kat": "koerper",
+   "items": [
+    {
+     "n": "Körpergewicht und Körperfett",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 33,
+     "p": 4733,
+     "s": [
+      "li2016",
+      "booth2015"
+     ],
+     "t": "Gewicht −0,01 kg (33 Studien) bzw. −0,17 kg, Körperfett −0,19 kg; jeweils nicht signifikant.",
+     "v": "nieren"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "shea2002": {
+   "short": "Shea et al., 2002",
+   "year": 2002,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "12202470",
+   "apa": "Shea, B., Wells, G., Cranney, A., Zytaruk, N., Robinson, V., Griffith, L., Ortiz, Z., Peterson, J., Adachi, J., Tugwell, P., Guyatt, G. &amp; Osteoporosis Methodology Group and The Osteoporosis Research Advisory Group (2002). Meta-analyses of therapies for postmenopausal osteoporosis. VII. Meta-analysis of calcium supplementation for the prevention of postmenopausal osteoporosis. <em>Endocrine Reviews, 23</em>(4), 552–559.",
+   "doi": "10.1210/er.2001-7002"
+  },
+  "vanmierlo2006": {
+   "short": "van Mierlo et al., 2006",
+   "year": 2006,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "16673011",
+   "apa": "van Mierlo, L. A., Arends, L. R., Streppel, M. T., Zeegers, M. P., Kok, F. J., Grobbee, D. E. &amp; Geleijnse, J. M. (2006). Blood pressure response to calcium supplementation: A meta-analysis of randomized controlled trials. <em>Journal of Human Hypertension, 20</em>(8), 571–580.",
+   "doi": "10.1038/sj.jhh.1002038"
+  },
+  "tang2007": {
+   "short": "Tang et al., 2007",
+   "year": 2007,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "17720017",
+   "apa": "Tang, B. M., Eslick, G. D., Nowson, C., Smith, C. &amp; Bensoussan, A. (2007). Use of calcium or calcium in combination with vitamin D supplementation to prevent fractures and bone loss in people aged 50 years and older: A meta-analysis. <em>The Lancet, 370</em>(9588), 657–666.",
+   "doi": "10.1016/S0140-6736(07)61342-7"
+  },
+  "bischoff2007": {
+   "short": "Bischoff-Ferrari et al., 2007",
+   "year": 2007,
+   "type": "Metaanalyse (Kohorten und RCTs)",
+   "basis": "Abstract",
+   "pmid": "18065599",
+   "apa": "Bischoff-Ferrari, H. A., Dawson-Hughes, B., Baron, J. A., Burckhardt, P., Li, R., Spiegelman, D., Specker, B., Orav, J. E., Wong, J. B., Staehelin, H. B., O'Reilly, E., Kiel, D. P. &amp; Willett, W. C. (2007). Calcium intake and hip fracture risk in men and women: A meta-analysis of prospective cohort studies and randomized controlled trials. <em>The American Journal of Clinical Nutrition, 86</em>(6), 1780–1790.",
+   "doi": "10.1093/ajcn/86.5.1780"
+  },
+  "bolland2010": {
+   "short": "Bolland et al., 2010",
+   "year": 2010,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "20671013",
+   "apa": "Bolland, M. J., Avenell, A., Baron, J. A., Grey, A., MacLennan, G. S., Gamble, G. D. &amp; Reid, I. R. (2010). Effect of calcium supplements on risk of myocardial infarction and cardiovascular events: Meta-analysis. <em>BMJ, 341</em>, Artikel c3691.",
+   "doi": "10.1136/bmj.c3691"
+  },
+  "tenforde2010": {
+   "short": "Tenforde et al., 2010",
+   "year": 2010,
+   "type": "Literaturübersicht",
+   "basis": "Abstract",
+   "pmid": "20970764",
+   "apa": "Tenforde, A. S., Sayres, L. C., Sainani, K. L. &amp; Fredericson, M. (2010). Evaluating the relationship of calcium and vitamin D in the prevention of stress fracture injuries in the young athlete: A review of the literature. <em>PM&amp;R, 2</em>(10), 945–949.",
+   "doi": "10.1016/j.pmrj.2010.05.006"
+  },
+  "bolland2011": {
+   "short": "Bolland et al., 2011",
+   "year": 2011,
+   "type": "Reanalyse und Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "21505219",
+   "apa": "Bolland, M. J., Grey, A., Avenell, A., Gamble, G. D. &amp; Reid, I. R. (2011). Calcium supplements with or without vitamin D and risk of cardiovascular events: Reanalysis of the Women's Health Initiative limited access dataset and meta-analysis. <em>BMJ, 342</em>, Artikel d2040.",
+   "doi": "10.1136/bmj.d2040"
+  },
+  "tai2015": {
+   "short": "Tai et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26420598",
+   "apa": "Tai, V., Leung, W., Grey, A., Reid, I. R. &amp; Bolland, M. J. (2015). Calcium intake and bone mineral density: Systematic review and meta-analysis. <em>BMJ, 351</em>, Artikel h4183.",
+   "doi": "10.1136/bmj.h4183"
+  },
+  "bolland2015": {
+   "short": "Bolland et al., 2015",
+   "year": 2015,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26420387",
+   "apa": "Bolland, M. J., Leung, W., Tai, V., Bastin, S., Gamble, G. D., Grey, A. &amp; Reid, I. R. (2015). Calcium intake and risk of fracture: Systematic review. <em>BMJ, 351</em>, Artikel h4580.",
+   "doi": "10.1136/bmj.h4580"
+  },
+  "silk2015": {
+   "short": "Silk et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25675442",
+   "apa": "Silk, L. N., Greene, D. A. &amp; Baker, M. K. (2015). The effect of calcium or calcium and vitamin D supplementation on bone mineral density in healthy males: A systematic review and meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 25</em>(5), 510–524.",
+   "doi": "10.1123/ijsnem.2014-0202"
+  },
+  "booth2015": {
+   "short": "Booth et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26234296",
+   "apa": "Booth, A. O., Huggins, C. E., Wattanapenpaiboon, N. &amp; Nowson, C. A. (2015). Effect of increasing dietary calcium through supplements and dairy food on body weight and body composition: A meta-analysis of randomised controlled trials. <em>British Journal of Nutrition, 114</em>(7), 1013–1025.",
+   "doi": "10.1017/S0007114515001518"
+  },
+  "weaver2016": {
+   "short": "Weaver et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26510847",
+   "apa": "Weaver, C. M., Alexander, D. D., Boushey, C. J., Dawson-Hughes, B., Lappe, J. M., LeBoff, M. S., Liu, S., Looker, A. C., Wallace, T. C. &amp; Wang, D. D. (2016). Calcium plus vitamin D supplementation and risk of fractures: An updated meta-analysis from the National Osteoporosis Foundation. <em>Osteoporosis International, 27</em>(1), 367–376.",
+   "doi": "10.1007/s00198-015-3386-5",
+   "flag": "Im Auftrag der National Osteoporosis Foundation; nutzt Subgruppendaten der WHI-Studie."
+  },
+  "chung2016": {
+   "short": "Chung et al., 2016",
+   "year": 2016,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27776363",
+   "apa": "Chung, M., Tang, A. M., Fu, Z., Wang, D. D. &amp; Newberry, S. J. (2016). Calcium intake and cardiovascular disease risk: An updated systematic review and meta-analysis. <em>Annals of Internal Medicine, 165</em>(12), 856–866.",
+   "doi": "10.7326/M16-1165",
+   "flag": "Finanziert von der National Osteoporosis Foundation."
+  },
+  "li2016": {
+   "short": "Li et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27733391",
+   "apa": "Li, P., Fan, C., Lu, Y. &amp; Qi, K. (2016). Effects of calcium supplementation on body weight: A meta-analysis. <em>The American Journal of Clinical Nutrition, 104</em>(5), 1263–1273.",
+   "doi": "10.3945/ajcn.116.136242"
+  },
+  "zhao2017": {
+   "short": "Zhao et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29279934",
+   "apa": "Zhao, J. G., Zeng, X. T., Wang, J. &amp; Liu, L. (2017). Association between calcium or vitamin D supplementation and fracture incidence in community-dwelling older adults: A systematic review and meta-analysis. <em>JAMA, 318</em>(24), 2466–2482.",
+   "doi": "10.1001/jama.2017.19344"
+  },
+  "kahwati2018": {
+   "short": "Kahwati et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review (USPSTF)",
+   "basis": "Abstract",
+   "pmid": "29677308",
+   "apa": "Kahwati, L. C., Weber, R. P., Pan, H., Gourlay, M., LeBlanc, E., Coker-Schwimmer, M. &amp; Viswanathan, M. (2018). Vitamin D, calcium, or combined supplementation for the primary prevention of fractures in community-dwelling adults: Evidence report and systematic review for the US Preventive Services Task Force. <em>JAMA, 319</em>(15), 1600–1612.",
+   "doi": "10.1001/jama.2017.21640"
+  },
+  "yao2019": {
+   "short": "Yao et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31860103",
+   "apa": "Yao, P., Bennett, D., Mafham, M., Lin, X., Chen, Z., Armitage, J. &amp; Clarke, R. (2019). Vitamin D and calcium for the prevention of fracture: A systematic review and meta-analysis. <em>JAMA Network Open, 2</em>(12), Artikel e1917789.",
+   "doi": "10.1001/jamanetworkopen.2019.17789"
+  },
+  "khan2019": {
+   "short": "Khan et al., 2019",
+   "year": 2019,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "31284304",
+   "apa": "Khan, S. U., Khan, M. U., Riaz, H., Valavoor, S., Zhao, D., Vaughan, L., Okunrintemi, V., Riaz, I. B., Khan, M. S., Kaluski, E., Murad, M. H., Blaha, M. J., Guallar, E. &amp; Michos, E. D. (2019). Effects of nutritional supplements and dietary interventions on cardiovascular outcomes: An umbrella review and evidence map. <em>Annals of Internal Medicine, 171</em>(3), 190–198.",
+   "doi": "10.7326/M19-0341"
+  },
+  "arslan2021": {
+   "short": "Arslan et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33243660",
+   "apa": "Arslan, I. G., Dijksma, I., van Etten-Jamaludin, F. S., Lucas, C. &amp; Stuiver, M. M. (2021). Nonexercise interventions for prevention of musculoskeletal injuries in armed forces: A systematic review and meta-analysis. <em>American Journal of Preventive Medicine, 60</em>(2), e73–e84.",
+   "doi": "10.1016/j.amepre.2020.08.007"
+  },
+  "myung2021": {
+   "short": "Myung et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33530332",
+   "apa": "Myung, S. K., Kim, H. B., Lee, Y. J., Choi, Y. J. &amp; Oh, S. W. (2021). Calcium supplements and risk of cardiovascular disease: A meta-analysis of clinical trials. <em>Nutrients, 13</em>(2), Artikel 368.",
+   "doi": "10.3390/nu13020368"
+  },
+  "cormick2022": {
+   "short": "Cormick et al., 2022",
+   "year": 2022,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "35014026",
+   "apa": "Cormick, G., Ciapponi, A., Cafferata, M. L., Cormick, M. S. &amp; Belizán, J. M. (2022). Calcium supplementation for prevention of primary hypertension. <em>Cochrane Database of Systematic Reviews</em>(1), Artikel CD010037.",
+   "doi": "10.1002/14651858.CD010037.pub4"
+  },
+  "liu2022": {
+   "short": "Liu et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36164828",
+   "apa": "Liu, Y., Le, S., Liu, Y., Jiang, H., Ruan, B., Huang, Y., Ao, X., Shi, X., Fu, X. &amp; Wang, S. (2022). The effect of calcium supplementation in people under 35 years old: A systematic review and meta-analysis of randomized controlled trials. <em>eLife, 11</em>, Artikel e79002.",
+   "doi": "10.7554/eLife.79002"
+  },
+  "mendez2023": {
+   "short": "Méndez-Sánchez et al., 2023",
+   "year": 2023,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "36705288",
+   "apa": "Méndez-Sánchez, L., Clark, P., Winzenberg, T. M., Tugwell, P., Correa-Burrows, P. &amp; Costello, R. (2023). Calcium and vitamin D for increasing bone mineral density in premenopausal women. <em>Cochrane Database of Systematic Reviews</em>(1), Artikel CD012664.",
+   "doi": "10.1002/14651858.CD012664.pub2"
+  },
+  "huo2023": {
+   "short": "Huo et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37181938",
+   "apa": "Huo, X., Clarke, R., Halsey, J., Jackson, R., Lehman, A., Prince, R., Lewis, J., Baron, J. A., Kroger, H., Sund, R., Armitage, J. &amp; Calcium Supplements Treatment Trialists’ Collaboration (2023). Calcium supplements and risk of CVD: A meta-analysis of randomized trials. <em>Current Developments in Nutrition, 7</em>(3), Artikel 100046.",
+   "doi": "10.1016/j.cdnut.2023.100046"
+  },
+  "bai2025": {
+   "short": "Bai et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41470812",
+   "apa": "Bai, J., Huang, W., Yan, R. &amp; Du, X. (2025). Effects of combined exercise and Calcium/Vitamin D supplementation on bone mineral density in postmenopausal women: A systematic review and meta-analysis. <em>Nutrients, 17</em>(24), Artikel 3866.",
+   "doi": "10.3390/nu17243866"
+  },
+  "masse2026": {
+   "short": "Massé et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42161415",
+   "apa": "Massé, O., Mercurio, C. M., Dupuis, S., Al Sahwi, M., Arruda, A., Dallaire, G., Desforges, K., Dugré, N. &amp; Williamson, D. (2026). Calcium, vitamin D, or combined supplementation to prevent fractures and falls: Systematic review and meta-analysis. <em>BMJ, 393</em>, Artikel e088050.",
+   "doi": "10.1136/bmj-2025-088050"
+  }
+ }
+}

@@ -1,0 +1,886 @@
+{
+ "id": "beta-alanin",
+ "title": "Beta-Alanin",
+ "stand": "2026-11-17",
+ "lead": "Für welche Belastungen lohnt sich Beta-Alanin, wie muss man es dosieren, und ist das Kribbeln bedenklich? Zusammengefasst aus Metaanalysen, systematischen Reviews und dem ISSN-Positionspapier.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Beta-Alanin wirkt nicht akut, sondern über den Aufbau von Muskelcarnosin in mehreren Wochen.",
+ "rx": [
+  {
+   "label": "Dosis",
+   "value": "4–6 g pro Tag, aufgeteilt",
+   "text": "Täglich 4–6 g über mindestens 2–4 Wochen erhöhen das Muskelcarnosin und verbessern die Leistung. Bei Kraftsportlern wirkten auf mehrere kleine Portionen (z. B. 0,8 g) verteilte Dosen besser als eine große Einzeldosis.",
+   "cite": "Trexler et al. 2015; Ong et al. 2025"
+  },
+  {
+   "label": "Geeignete Belastungen",
+   "value": "etwa 30 Sekunden bis 10 Minuten",
+   "text": "Am deutlichsten profitieren Belastungen bis zur Erschöpfung im Bereich von 0,5 bis 10 Minuten, etwa Mittelstrecke, Rudern oder hochintensive Intervalle.",
+   "cite": "Saunders et al. 2017; Georgiou et al. 2024"
+  },
+  {
+   "label": "Kaum Nutzen",
+   "value": "kurze Sprints, Maximalkraft, Körperbau",
+   "text": "Kein belegter Vorteil bei Belastungen unter 60 Sekunden, bei wiederholten Sprints und für die Körperzusammensetzung.",
+   "cite": "Hobson et al. 2012; Liang et al. 2026; Ashtary-Larky et al. 2022"
+  },
+  {
+   "label": "Kribbeln",
+   "value": "harmlos, durch kleine Portionen vermeidbar",
+   "text": "Parästhesien sind die einzige berichtete Nebenwirkung; geteilte Einzeldosen von höchstens 1,6 g oder Retardpräparate mildern sie.",
+   "cite": "Dolan et al. 2019; Trexler et al. 2015"
+  },
+  {
+   "label": "Kombination",
+   "value": "mit Natriumbicarbonat",
+   "text": "Zusammen mit Natriumbicarbonat war der Effekt größer als mit Beta-Alanin allein.",
+   "cite": "Saunders et al. 2017; Curran-Bowen et al. 2024"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Ein großer Teil der Metaanalysen stammt aus einem Forschungsverbund um dieselben Autorinnen und Autoren. Die Befunde sind dadurch methodisch einheitlich, aber nicht unabhängig voneinander bestätigt.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Wirkt bei Belastungen von 0,5 bis 10 Minuten",
+   "ev": "hoch",
+   "p": "Gesamteffekt klein (ES 0,18; 40 Studien), bei Belastungen bis zur Erschöpfung in diesem Zeitfenster etwa 0,5.",
+   "s": [
+    "saunders2017",
+    "hobson2012",
+    "georgiou2024"
+   ]
+  },
+  {
+   "t": "Kein Vorteil bei kurzen und wiederholten Sprints",
+   "ev": "moderat",
+   "p": "Unter 60 Sekunden und bei wiederholten Sprints fanden Metaanalysen keinen Effekt.",
+   "s": [
+    "hobson2012",
+    "liang2026"
+   ]
+  },
+  {
+   "t": "Muskelcarnosin steigt bei nahezu allen",
+   "ev": "moderat",
+   "p": "99,3 % reagierten mit einem Anstieg; übliche Dosierungen schöpfen die Speicherkapazität nicht aus.",
+   "s": [
+    "rezende2020",
+    "esteves2021",
+    "trexler2015"
+   ]
+  },
+  {
+   "t": "Kribbeln ist die einzige Nebenwirkung",
+   "ev": "moderat",
+   "p": "Parästhesien waren deutlich häufiger als mit Placebo; andere Schäden fanden sich in 101 Humanstudien nicht.",
+   "s": [
+    "dolan2019"
+   ]
+  },
+  {
+   "t": "Kein Einfluss auf den Körperbau",
+   "ev": "moderat",
+   "p": "Weder fettfreie Masse noch Körperfett veränderten sich (20 Studien).",
+   "s": [
+    "ashtarylarky2022"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "carnosin",
+   "name": "Muskelcarnosin und Dosierung",
+   "q": "Wie viel Beta-Alanin braucht es, damit das Muskelcarnosin steigt?",
+   "ev": "moderat",
+   "key": [
+    "ISSN: 4–6 g täglich über 4 Wochen erhöhen das Muskelcarnosin deutlich; es wirkt als Puffer gegen Übersäuerung im Muskel (Trexler et al., 2015).",
+    "Dosis-Wirkungs-Modell: Der Muskel kann sehr viel Carnosin einlagern; übliche Protokolle schöpfen diese Kapazität vermutlich nicht aus. Ausgangswert und Geschlecht beeinflussten den Anstieg nicht; 99,3 % [96,2; 100] der Teilnehmenden reagierten (Rezende et al., 2020).",
+    "Individuelle Daten aus 4 Studien: Muskelcarnosin +18,1 mmol/kg Trockenmasse [14,5; 21,9], Zeit bis zur Erschöpfung im Radtest +7,7 s [1,3; 14,3]. Die Streuung der Leistungsänderung war mit Placebo gleich groß, also nicht durch das Supplement bedingt (Esteves et al., 2021).",
+    "Bei Kraftsportlern wirkten 4–6,4 g täglich über 5–8 Wochen am ehesten, besonders in mehreren kleinen Portionen; Retardformen und Einzeldosen zeigten oft keinen Effekt (Ong et al., 2025)."
+   ],
+   "critic": "Dass Beta-Alanin das Muskelcarnosin erhöht, ist einheitlich belegt. Die Höhe des Anstiegs schwankt zwischen Personen stark, die Leistungsänderung aber nicht stärker als mit Placebo. Echte Nicht-Responder sind daher unwahrscheinlich. Die Empfehlungen zur Portionierung bei Kraftsportlern beruhen auf einem systematischen Review ohne Metaanalyse mit 9 Studien.",
+   "figs": [],
+   "s": [
+    "trexler2015",
+    "rezende2020",
+    "esteves2021",
+    "ong2025"
+   ]
+  },
+  {
+   "id": "leistung",
+   "name": "Belastungen von 30 Sekunden bis 10 Minuten",
+   "q": "Bei welcher Belastungsdauer hilft Beta-Alanin?",
+   "ev": "hoch",
+   "key": [
+    "Erste Metaanalyse (15 Arbeiten, 360 Personen): mittlere Verbesserung 2,85 %; Belastungen von 60–240 s und über 240 s verbessert, unter 60 s nicht (Hobson et al., 2012).",
+    "Systematischer Review (19 Studien): Hinweise auf mehr Leistung und weniger Ermüdung; Nebenwirkungen wurden kaum berichtet, daher Vorsicht empfohlen (Quesnele et al., 2014).",
+    "23 Studien: Ermüdungsmarker und Anstrengungsempfinden verbessert, aber kein signifikanter Unterschied bei Gesamtarbeit, Leistungszeit oder Zeit bis zur Erschöpfung (Berti Zanella et al., 2017).",
+    "40 Studien, 1 461 Personen: Gesamteffekt ES 0,18 [0,08; 0,28]; bei 0,5–10 min größer für Kapazitätstests bis zur Erschöpfung (0,50 [0,25; 0,75]) als für Zeitfahrtests (0,11 [−0,20; 0,42]). Trainingsstatus und Gesamtmenge spielten keine Rolle (Saunders et al., 2017).",
+    "Trainierte junge Männer (18 Studien, 331 Personen): ES 0,39 [0,09; 0,69]; bei 4–10 min 0,55 [0,07; 1,04]; schon nach 4 Wochen wirksam (Georgiou et al., 2024).",
+    "Frauen (11 Studien, 312 Personen): Zeit bis zur Erschöpfung verbessert (SMD 0,49 [0,20; 0,79]; 8 Studien), andere Endpunkte unsicher; Evidenzqualität sehr niedrig (Gu et al., 2026)."
+   ],
+   "critic": "Die frühen Reviews waren widersprüchlich: Berti Zanella et al. (2017) fanden keinen klaren Leistungseffekt. Die größere Metaanalyse mit 40 Studien erklärt den Widerspruch: Der Effekt zeigt sich vor allem in Tests bis zur Erschöpfung, kaum in Zeitfahrtests, die wettkampfnäher sind. Für die Praxis ist der Nutzen daher kleiner, als Kapazitätstests vermuten lassen. Die Daten bei Frauen sind spärlich, weisen aber in dieselbe Richtung.",
+   "figs": [
+    {
+     "id": "ba-dauer",
+     "title": "Beta-Alanin nach Belastung und Gruppe",
+     "cap": "Effektgröße gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Belastungen",
+       "sub": "Saunders et al., 2017",
+       "es": 0.18,
+       "lo": 0.08,
+       "hi": 0.28
+      },
+      {
+       "l": "0,5–10 min, bis zur Erschöpfung",
+       "sub": "Saunders et al., 2017",
+       "es": 0.4998,
+       "lo": 0.246,
+       "hi": 0.753
+      },
+      {
+       "l": "0,5–10 min, Zeitfahren",
+       "sub": "Saunders et al., 2017",
+       "es": 0.1078,
+       "lo": -0.201,
+       "hi": 0.416
+      },
+      {
+       "l": "Trainierte Männer, 0,5–10 min",
+       "sub": "Georgiou et al., 2024",
+       "es": 0.39,
+       "lo": 0.09,
+       "hi": 0.69
+      },
+      {
+       "l": "Trainierte Männer, 4–10 min",
+       "sub": "Georgiou et al., 2024",
+       "es": 0.55,
+       "lo": 0.07,
+       "hi": 1.04
+      },
+      {
+       "l": "Frauen, bis zur Erschöpfung",
+       "sub": "Gu et al., 2026",
+       "es": 0.49,
+       "lo": 0.2,
+       "hi": 0.79
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 1.2,
+      "ticks": [
+       -0.4,
+       0,
+       0.4,
+       0.8,
+       1.2
+      ],
+      "unit": "ES",
+      "leftLab": "Placebo besser",
+      "rightLab": "Beta-Alanin besser"
+     }
+    }
+   ],
+   "s": [
+    "hobson2012",
+    "quesnele2014",
+    "bertizanella2017",
+    "saunders2017",
+    "georgiou2024",
+    "gu2026"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Längere Ausdauer und Intervallsport",
+   "q": "Hilft Beta-Alanin auch bei längeren oder wechselnden Belastungen?",
+   "ev": "niedrig",
+   "key": [
+    "Aerob-anaerober Übergangsbereich (19 Studien): kleiner, nicht signifikanter Effekt im Zeitfahren (SMD −0,36 [−0,87; 0,16]) und bei Zeitlimit-Tests (SMD 0,25 [−0,01; 0,51]); bei Distanzlimit-Tests SMD 4,27 [−0,25; 8,79] mit sehr hoher Heterogenität (I² = 94 %) (Huerta Ojeda et al., 2020).",
+    "Yo-Yo-Test bei Sportlern (10 Studiengruppen): insgesamt kein signifikanter Effekt (SMD 0,68 [−0,30; 1,67]); signifikant bei 6–12 Wochen Einnahme (SMD 1,02 [0,01; 2,05]) und im Level-2-Test (SMD 1,41 [0,35; 2,48]) (Grgic, 2021).",
+    "ISSN: Für Ausdauerbelastungen über 25 Minuten fehlen ausreichende Daten (Trexler et al., 2015)."
+   ],
+   "critic": "Für längere Ausdauer und intermittierende Sportarten ist die Datenlage schwach. Die großen Effektgrößen beruhen auf wenigen, heterogenen Studien mit breiten Konfidenzintervallen; der Distanztest-Effekt von 4,27 ist unplausibel groß und sollte nicht gewertet werden. Die signifikanten Untergruppen im Yo-Yo-Test sind explorativ. Wahrscheinlich ist ein Nutzen dort, wo wiederholt hochintensive Phasen von 0,5–10 Minuten auftreten.",
+   "figs": [
+    {
+     "id": "ba-yoyo",
+     "title": "Beta-Alanin im Yo-Yo-Test",
+     "cap": "Standardisierte Mittelwertdifferenz gegenüber Placebo mit 95-%-KI (Grgic, 2021).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Studien",
+       "sub": "Grgic, 2021",
+       "es": 0.68,
+       "lo": -0.3,
+       "hi": 1.67
+      },
+      {
+       "l": "6–12 Wochen Einnahme",
+       "sub": "Grgic, 2021",
+       "es": 1.02,
+       "lo": 0.01,
+       "hi": 2.05
+      },
+      {
+       "l": "Level-2-Test",
+       "sub": "Grgic, 2021",
+       "es": 1.41,
+       "lo": 0.35,
+       "hi": 2.48
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 2.5,
+      "ticks": [
+       -0.5,
+       0,
+       0.5,
+       1,
+       1.5,
+       2,
+       2.5
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Beta-Alanin besser"
+     }
+    }
+   ],
+   "s": [
+    "huertaojeda2020",
+    "grgic2021",
+    "trexler2015"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Kraft, Sprints und Körperzusammensetzung",
+   "q": "Bringt Beta-Alanin etwas für Kraft, Sprints oder Muskelaufbau?",
+   "ev": "moderat",
+   "key": [
+    "Wiederholte Sprints (17 Studien): kein Effekt auf mittlere Leistung (SMD −0,018 [−0,207; 0,170]), Spitzenleistung (SMD 0,205 [−0,073; 0,483]) oder Leistungsabfall (SMD −0,020 [−0,516; 0,476]); unabhängig von Dosis, Dauer und Trainingsstatus (Liang et al., 2026).",
+    "Kraft und Schnellkraft (9 Studien, 197 Trainierte): uneinheitlich; Verbesserungen eher bei 4–6,4 g täglich in kleinen Portionen und bei Training mit hoher metabolischer Belastung (Ong et al., 2025).",
+    "Ältere Erwachsene (5 Studien, 163 Personen): Belastbarkeit möglicherweise verbessert, Kraft und Funktionsleistung nicht (de Camargo &amp; Brigatto, 2025).",
+    "Körperzusammensetzung (20 Studien, 492 Personen): kein Effekt auf Körpergewicht (−0,15 kg [−0,78; 0,47]), Fettmasse (−0,24 kg [−1,16; 0,68]) oder fettfreie Masse (+0,05 kg [−0,71; 0,82]) (Ashtary-Larky et al., 2022)."
+   ],
+   "critic": "Die Nullbefunde zu Sprints passen zum Wirkmechanismus: Sehr kurze Belastungen werden kaum durch Übersäuerung begrenzt. Für Maximalkraft gibt es keine Metaanalyse; die Hinweise auf Effekte bei bestimmter Dosierung stammen aus wenigen, kleinen Studien. Beim Körperbau sind die Befunde homogen (I² = 0 %) und damit recht verlässlich null.",
+   "figs": [
+    {
+     "id": "ba-sprint",
+     "title": "Beta-Alanin bei wiederholten Sprints",
+     "cap": "Standardisierte Mittelwertdifferenz gegenüber Placebo mit 95-%-KI (Liang et al., 2026).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Mittlere Sprintleistung",
+       "sub": "Liang et al., 2026",
+       "es": -0.018,
+       "lo": -0.207,
+       "hi": 0.17
+      },
+      {
+       "l": "Spitzenleistung",
+       "sub": "Liang et al., 2026",
+       "es": 0.205,
+       "lo": -0.073,
+       "hi": 0.483
+      },
+      {
+       "l": "Leistungsabfall",
+       "sub": "Liang et al., 2026",
+       "es": -0.02,
+       "lo": -0.516,
+       "hi": 0.476
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.6,
+      "ticks": [
+       -0.6,
+       -0.3,
+       0,
+       0.3,
+       0.6
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Beta-Alanin besser"
+     }
+    }
+   ],
+   "s": [
+    "liang2026",
+    "ong2025",
+    "decamargo2025",
+    "ashtarylarky2022"
+   ]
+  },
+  {
+   "id": "kombi",
+   "name": "Kombination mit Natriumbicarbonat",
+   "q": "Wirkt Beta-Alanin zusammen mit Natriumbicarbonat besser?",
+   "ev": "niedrig",
+   "key": [
+    "Die Kombination mit Natriumbicarbonat ergab den größten Effekt gegenüber Placebo (ES 0,43 [0,22; 0,64]) (Saunders et al., 2017).",
+    "10 Studien, 243 Personen: Beta-Alanin allein (SMD 0,18 [−0,06; 0,43]) und Bicarbonat allein (SMD 0,17 [−0,08; 0,41]) nicht signifikant, die Kombination schon (SMD 0,32 [0,07; 0,57]) (Curran-Bowen et al., 2024)."
+   ],
+   "critic": "Beide Analysen zeigen einen Vorteil der Kombination; der Unterschied zu den Einzelsubstanzen war aber in der Metaregression nicht signifikant. Dass Beta-Alanin allein hier nicht wirkte, widerspricht der größeren Analyse mit 40 Studien und liegt vermutlich an der geringen Studienzahl. Wahrscheinlich addieren sich die beiden Puffer leicht.",
+   "figs": [],
+   "s": [
+    "saunders2017",
+    "curranbowen2024"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Parästhesien und Sicherheit",
+   "q": "Ist Beta-Alanin sicher, und was hat es mit dem Kribbeln auf sich?",
+   "ev": "moderat",
+   "key": [
+    "101 Humanstudien: Parästhesien (Kribbeln) als einzige berichtete Nebenwirkung, OR 8,9 [95-%-KrI 2,2; 32,6]; Abbruchraten wie mit Placebo (Dolan et al., 2019).",
+    "Leberwert ALT leicht erhöht (ES 0,274 [0,04; 0,527]), aber im Referenzbereich; kein Effekt auf Taurin (ES 0,156) oder Histidin im Muskel (ES −0,15) (Dolan et al., 2019).",
+    "ISSN: Bei empfohlenen Dosen sicher; das Kribbeln lässt sich mit geteilten Dosen von 1,6 g oder Retardformen mindern (Trexler et al., 2015).",
+    "Frühere Kritik: Nebenwirkungen wurden in Sportstudien kaum erfasst (Quesnele et al., 2014)."
+   ],
+   "critic": "Die Sicherheitsbewertung hat sich seit 2014 verbessert: Die Risikoanalyse mit 101 Studien fand außer Parästhesien keine Schäden. Langzeitdaten über viele Monate sind aber begrenzt. Das Kribbeln ist unangenehm, gilt jedoch als harmlos.",
+   "figs": [],
+   "s": [
+    "dolan2019",
+    "trexler2015",
+    "quesnele2014"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2012,
+   "t": "Erste Metaanalyse",
+   "p": "Vorteil bei 60–240 s, nicht unter 60 s.",
+   "tag": "neu",
+   "s": "hobson2012"
+  },
+  {
+   "y": 2014,
+   "t": "Systematischer Review",
+   "p": "Leistungsvorteil möglich, Sicherheit unzureichend untersucht.",
+   "tag": "conf",
+   "s": "quesnele2014"
+  },
+  {
+   "y": 2015,
+   "t": "ISSN-Positionspapier",
+   "p": "4–6 g/Tag über 2–4 Wochen; Wirkung vor allem bei 1–4 min.",
+   "tag": "neu",
+   "s": "trexler2015"
+  },
+  {
+   "y": 2017,
+   "t": "Kein klarer Leistungseffekt",
+   "p": "Review von 23 Studien: vor allem Ermüdungsmarker verbessert.",
+   "tag": "contra",
+   "s": "bertizanella2017"
+  },
+  {
+   "y": 2017,
+   "t": "Große Metaanalyse",
+   "p": "40 Studien: Effekt vor allem bei 0,5–10 min bis zur Erschöpfung.",
+   "tag": "rel",
+   "s": "saunders2017"
+  },
+  {
+   "y": 2019,
+   "t": "Risikobewertung",
+   "p": "Nur Parästhesien als Nebenwirkung.",
+   "tag": "neu",
+   "s": "dolan2019"
+  },
+  {
+   "y": 2020,
+   "t": "Carnosin-Dosis-Wirkung",
+   "p": "Fast alle reagieren; Speicher nicht ausgeschöpft.",
+   "tag": "neu",
+   "s": "rezende2020"
+  },
+  {
+   "y": 2020,
+   "t": "Übergangsbereich aerob/anaerob",
+   "p": "Nur kleine, unsichere Effekte.",
+   "tag": "rel",
+   "s": "huertaojeda2020"
+  },
+  {
+   "y": 2021,
+   "t": "Keine echten Nicht-Responder",
+   "p": "Individuelle Daten: Streuung wie mit Placebo.",
+   "tag": "neu",
+   "s": "esteves2021"
+  },
+  {
+   "y": 2021,
+   "t": "Yo-Yo-Test",
+   "p": "Nur bei 6–12 Wochen Einnahme signifikant.",
+   "tag": "neu",
+   "s": "grgic2021"
+  },
+  {
+   "y": 2022,
+   "t": "Kein Effekt auf den Körperbau",
+   "p": "20 Studien ohne Veränderung.",
+   "tag": "neu",
+   "s": "ashtarylarky2022"
+  },
+  {
+   "y": 2024,
+   "t": "Bestätigung bei Trainierten",
+   "p": "Größter Effekt bei 4–10 min.",
+   "tag": "conf",
+   "s": "georgiou2024"
+  },
+  {
+   "y": 2024,
+   "t": "Kombination mit Bicarbonat",
+   "p": "Kombination wirksam, Einzelsubstanzen hier nicht.",
+   "tag": "rel",
+   "s": "curranbowen2024"
+  },
+  {
+   "y": 2025,
+   "t": "Ältere Erwachsene",
+   "p": "Belastbarkeit eventuell besser, Kraft nicht.",
+   "tag": "neu",
+   "s": "decamargo2025"
+  },
+  {
+   "y": 2025,
+   "t": "Dosierung im Kraftsport",
+   "p": "Kleine, geteilte Portionen wirksamer.",
+   "tag": "neu",
+   "s": "ong2025"
+  },
+  {
+   "y": 2026,
+   "t": "Kein Effekt bei wiederholten Sprints",
+   "p": "17 Studien ohne Vorteil.",
+   "tag": "conf",
+   "s": "liang2026"
+  },
+  {
+   "y": 2026,
+   "t": "Daten bei Frauen",
+   "p": "Zeit bis zur Erschöpfung verbessert, sehr niedrige Evidenzqualität.",
+   "tag": "conf",
+   "s": "gu2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "17.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 413 Einträgen, 170 Übersichtsarbeiten nach Titel geprüft (davon 58 über eine ergänzende Suche nach Übersichtsarbeiten), 17 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Belastungen von 0,5 bis 10 Minuten",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Zeit bis zur Erschöpfung bei 0,5–10 min (Zunahme)",
+     "g": "A",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 40,
+     "p": 1461,
+     "s": [
+      "saunders2017",
+      "georgiou2024",
+      "hobson2012"
+     ],
+     "t": "ES 0,50 für Kapazitätstests bei 0,5–10 min (40 Studien); bei trainierten Männern ES 0,39, bei 4–10 min 0,55.",
+     "v": "leistung"
+    },
+    {
+     "n": "Zeitfahrleistung bei 0,5–10 min",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 40,
+     "p": 1461,
+     "s": [
+      "saunders2017"
+     ],
+     "t": "ES 0,11 [−0,20; 0,42], nicht signifikant; wettkampfnahe Tests profitieren kaum.",
+     "v": "leistung"
+    },
+    {
+     "n": "Zeit bis zur Erschöpfung bei Frauen",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 8,
+     "p": 187,
+     "s": [
+      "gu2026"
+     ],
+     "t": "SMD 0,49 (8 Studien), Evidenzqualität sehr niedrig.",
+     "v": "leistung"
+    },
+    {
+     "n": "Belastungen unter 60 Sekunden",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 15,
+     "p": 360,
+     "s": [
+      "hobson2012"
+     ],
+     "t": "Kein signifikanter Vorteil (P = 0,312) in der ersten Metaanalyse.",
+     "v": "leistung"
+    },
+    {
+     "n": "Längere Ausdauer (aerob-anaerober Übergang)",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 19,
+     "p": null,
+     "s": [
+      "huertaojeda2020",
+      "trexler2015"
+     ],
+     "t": "Zeitfahren SMD −0,36 und Zeitlimit-Tests SMD 0,25, jeweils mit KI über null; über 25 min kaum untersucht.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Yo-Yo-Test (Intervallsport)",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 10,
+     "p": null,
+     "s": [
+      "grgic2021"
+     ],
+     "t": "Insgesamt SMD 0,68, nicht signifikant; bei 6–12 Wochen Einnahme SMD 1,02 signifikant.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Kombination mit Natriumbicarbonat",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 10,
+     "p": 243,
+     "s": [
+      "curranbowen2024",
+      "saunders2017"
+     ],
+     "t": "SMD 0,32 bzw. ES 0,43 gegenüber Placebo; Unterschied zu den Einzelsubstanzen nicht signifikant.",
+     "v": "kombi"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft, Sprints und Körperbau",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Wiederholte Sprints",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 17,
+     "p": null,
+     "s": [
+      "liang2026"
+     ],
+     "t": "Mittlere Leistung SMD −0,018, Spitzenleistung SMD 0,205, beide nicht signifikant (17 Studien).",
+     "v": "kraft"
+    },
+    {
+     "n": "Maximalkraft und Schnellkraft",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 9,
+     "p": 197,
+     "s": [
+      "ong2025",
+      "decamargo2025"
+     ],
+     "t": "Uneinheitlich, keine Metaanalyse; bei Älteren keine Kraftzunahme.",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Körperzusammensetzung",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Fettfreie Masse und Körperfett",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 20,
+     "p": 492,
+     "s": [
+      "ashtarylarky2022"
+     ],
+     "t": "Fettfreie Masse +0,05 kg, Fettmasse −0,24 kg, beide nicht signifikant (I² = 0 %).",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Muskelcarnosin",
+   "kat": "status",
+   "items": [
+    {
+     "n": "Muskelcarnosin",
+     "g": "B",
+     "d": "auf",
+     "m": 4,
+     "b": "nutzen",
+     "k": null,
+     "p": 99,
+     "s": [
+      "rezende2020",
+      "esteves2021",
+      "trexler2015"
+     ],
+     "t": "+18,1 mmol/kg Trockenmasse in individuellen Daten; 99,3 % der Teilnehmenden reagierten mit einem Anstieg.",
+     "v": "carnosin"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Parästhesien (Kribbeln)",
+     "g": "A",
+     "d": "auf",
+     "m": 4,
+     "b": "schaden",
+     "k": 101,
+     "p": null,
+     "s": [
+      "dolan2019",
+      "trexler2015"
+     ],
+     "t": "OR 8,9 gegenüber Placebo (101 Humanstudien); harmlos und durch kleine Einzeldosen zu mindern.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Leberwert ALT",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "dolan2019"
+     ],
+     "t": "ES 0,274, Mittelwerte im Referenzbereich.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Taurin und Histidin im Muskel",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "dolan2019"
+     ],
+     "t": "Keine Veränderung (Taurin ES 0,156; Histidin ES −0,15).",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "hobson2012": {
+   "short": "Hobson et al., 2012",
+   "year": 2012,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22270875",
+   "apa": "Hobson, R. M., Saunders, B., Ball, G., Harris, R. C. &amp; Sale, C. (2012). Effects of β-alanine supplementation on exercise performance: A meta-analysis. <em>Amino Acids, 43</em>(1), 25–37.",
+   "doi": "10.1007/s00726-011-1200-z"
+  },
+  "quesnele2014": {
+   "short": "Quesnele et al., 2014",
+   "year": 2014,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "23918656",
+   "apa": "Quesnele, J. J., Laframboise, M. A., Wong, J. J., Kim, P. &amp; Wells, G. D. (2014). The effects of beta-alanine supplementation on performance: A systematic review of the literature. <em>International Journal of Sport Nutrition and Exercise Metabolism, 24</em>(1), 14–27.",
+   "doi": "10.1123/ijsnem.2013-0007"
+  },
+  "trexler2015": {
+   "short": "Trexler et al., 2015",
+   "year": 2015,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "26175657",
+   "apa": "Trexler, E. T., Smith-Ryan, A. E., Stout, J. R., Hoffman, J. R., Wilborn, C. D., Sale, C., Kreider, R. B., Jäger, R., Earnest, C. P., Bannock, L., Campbell, B., Kalman, D., Ziegenfuss, T. N. &amp; Antonio, J. (2015). International society of sports nutrition position stand: Beta-alanine. <em>Journal of the International Society of Sports Nutrition, 12</em>, Artikel 30.",
+   "doi": "10.1186/s12970-015-0090-y"
+  },
+  "saunders2017": {
+   "short": "Saunders et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27797728",
+   "apa": "Saunders, B., Elliott-Sale, K., Artioli, G. G., Swinton, P. A., Dolan, E., Roschel, H., Sale, C. &amp; Gualano, B. (2017). β-alanine supplementation to improve exercise capacity and performance: A systematic review and meta-analysis. <em>British Journal of Sports Medicine, 51</em>(8), 658–669.",
+   "doi": "10.1136/bjsports-2016-096396"
+  },
+  "bertizanella2017": {
+   "short": "Berti Zanella et al., 2017",
+   "year": 2017,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "27377257",
+   "apa": "Berti Zanella, P., Donner Alves, F. &amp; Guerini de Souza, C. (2017). Effects of beta-alanine supplementation on performance and muscle fatigue in athletes and non-athletes of different sports: A systematic review. <em>The Journal of Sports Medicine and Physical Fitness, 57</em>(9), 1132–1141.",
+   "doi": "10.23736/S0022-4707.16.06582-8"
+  },
+  "dolan2019": {
+   "short": "Dolan et al., 2019",
+   "year": 2019,
+   "type": "Systematische Risikobewertung mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30980076",
+   "apa": "Dolan, E., Swinton, P. A., Painelli, V. S., Stephens Hemingway, B., Mazzolani, B., Infante Smaira, F., Saunders, B., Artioli, G. G. &amp; Gualano, B. (2019). A systematic risk assessment and meta-analysis on the use of oral β-alanine supplementation. <em>Advances in Nutrition, 10</em>(3), 452–463.",
+   "doi": "10.1093/advances/nmy115"
+  },
+  "rezende2020": {
+   "short": "Rezende et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse (Dosis-Wirkung, individuelle Daten)",
+   "basis": "Abstract",
+   "pmid": "32922303",
+   "apa": "Rezende, N. S., Swinton, P., de Oliveira, L. F., da Silva, R. P., da Eira Silva, V., Nemezio, K., Yamaguchi, G., Artioli, G. G., Gualano, B., Saunders, B. &amp; Dolan, E. (2020). The muscle carnosine response to beta-alanine supplementation: A systematic review with Bayesian individual and aggregate data E-Max model and meta-analysis. <em>Frontiers in Physiology, 11</em>, Artikel 913.",
+   "doi": "10.3389/fphys.2020.00913"
+  },
+  "huertaojeda2020": {
+   "short": "Huerta Ojeda et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32824885",
+   "apa": "Huerta Ojeda, Á., Tapia Cerda, C., Poblete Salvatierra, M. F., Barahona-Fuentes, G. &amp; Jorquera Aguilera, C. (2020). Effects of beta-alanine supplementation on physical performance in aerobic-anaerobic transition zones: A systematic review and meta-analysis. <em>Nutrients, 12</em>(9), Artikel 2490.",
+   "doi": "10.3390/nu12092490"
+  },
+  "esteves2021": {
+   "short": "Esteves et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse individueller Teilnehmerdaten",
+   "basis": "Abstract",
+   "pmid": "34098531",
+   "apa": "Esteves, G. P., Swinton, P., Sale, C., James, R. M., Artioli, G. G., Roschel, H., Gualano, B., Saunders, B. &amp; Dolan, E. (2021). Individual participant data meta-analysis provides no evidence of intervention response variation in individuals supplementing with beta-alanine. <em>International Journal of Sport Nutrition and Exercise Metabolism, 31</em>(4), 305–313.",
+   "doi": "10.1123/ijsnem.2021-0038"
+  },
+  "grgic2021": {
+   "short": "Grgic, 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34024507",
+   "apa": "Grgic, J. (2021). Effects of beta-alanine supplementation on Yo-Yo test performance: A meta-analysis. <em>Clinical Nutrition ESPEN, 43</em>, 158–162.",
+   "doi": "10.1016/j.clnesp.2021.03.027"
+  },
+  "ashtarylarky2022": {
+   "short": "Ashtary-Larky et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35813845",
+   "apa": "Ashtary-Larky, D., Bagheri, R., Ghanavati, M., Asbaghi, O., Wong, A., Stout, J. R. &amp; Suzuki, K. (2022). Effects of beta-alanine supplementation on body composition: A GRADE-assessed systematic review and meta-analysis. <em>Journal of the International Society of Sports Nutrition, 19</em>(1), 196–218.",
+   "doi": "10.1080/15502783.2022.2079384"
+  },
+  "georgiou2024": {
+   "short": "Georgiou et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39032921",
+   "apa": "Georgiou, G. D., Antoniou, K., Antoniou, S., Michelekaki, E. A., Zare, R., Ali Redha, A., Prokopidis, K., Christodoulides, E. &amp; Clifford, T. (2024). Effect of beta-alanine supplementation on maximal intensity exercise in trained young male individuals: A systematic review and meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 34</em>(6), 397–412.",
+   "doi": "10.1123/ijsnem.2024-0027"
+  },
+  "curranbowen2024": {
+   "short": "Curran-Bowen et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38952910",
+   "apa": "Curran-Bowen, T., Guedes da Silva, A., Barreto, G., Buckley, J. &amp; Saunders, B. (2024). Sodium bicarbonate and beta-alanine supplementation: Is combining both better than either alone? A systematic review and meta-analysis. <em>Biology of Sport, 41</em>(3), 79–87.",
+   "doi": "10.5114/biolsport.2024.132997"
+  },
+  "decamargo2025": {
+   "short": "de Camargo & Brigatto, 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "39724872",
+   "apa": "de Camargo, J. B. B. &amp; Brigatto, F. A. (2025). Beta-alanine for improving exercise capacity, muscle strength, and functional performance of older adults: A systematic review. <em>Journal of Aging and Physical Activity, 33</em>(4), 399–407.",
+   "doi": "10.1123/japa.2024-0118"
+  },
+  "ong2025": {
+   "short": "Ong et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "40995761",
+   "apa": "Ong, S. W., Chen, W. L., Chien, K. Y. &amp; Hsu, C. W. (2025). Dosing strategies for β-alanine supplementation in strength and power performance: A systematic review. <em>Journal of the International Society of Sports Nutrition, 22</em>(1), Artikel 2566368.",
+   "doi": "10.1080/15502783.2025.2566368"
+  },
+  "liang2026": {
+   "short": "Liang et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41971372",
+   "apa": "Liang, W., Kong, D., Wang, Y., Yu, T., Chen, M. &amp; Huang, W. (2026). No ergogenic effect of β-alanine on repeated sprint ability: A systematic review and multilevel meta-analysis of randomized controlled trials. <em>Frontiers in Nutrition, 13</em>, Artikel 1818755.",
+   "doi": "10.3389/fnut.2026.1818755"
+  },
+  "gu2026": {
+   "short": "Gu et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42370349",
+   "apa": "Gu, J., Wei, Y., Huang, J., Bu, Y. &amp; Xie, S. (2026). Effects of beta-alanine supplementation on exercise performance and related physiological outcomes in women: A systematic review and meta-analysis. <em>Frontiers in Nutrition, 13</em>, Artikel 1857513.",
+   "doi": "10.3389/fnut.2026.1857513"
+  }
+ }
+}

@@ -1,0 +1,1344 @@
+{
+ "id": "koffein",
+ "title": "Koffein",
+ "stand": "2026-11-17",
+ "lead": "Wie stark verbessert Koffein Ausdauer, Kraft und Sprintleistung, welche Dosis ist sinnvoll, und welchen Preis zahlt man bei Schlaf, Nebenwirkungen und Blutdruck? Zusammengefasst aus Umbrella Reviews, Metaanalysen und ISSN-Positionspapieren.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene vor Training oder Wettkampf. Die Wirkung ist akut; ein Dauergebrauch ist für den Leistungseffekt nicht nötig.",
+ "rx": [
+  {
+   "label": "Dosis",
+   "value": "etwa 3 mg/kg, Spanne 2–6 mg/kg",
+   "text": "3–6 mg/kg verbessern die Leistung zuverlässig; im Zeitfahren war eine niedrige Dosis von etwa 3 mg/kg mindestens so wirksam wie eine moderate. Für Krafttraining wirkten schon 0,9–2 mg/kg. Dosen ab 9 mg/kg bringen keinen Zusatznutzen, aber mehr Nebenwirkungen.",
+   "cite": "Guest et al. 2021; Xue et al. 2025; Grgic 2022"
+  },
+  {
+   "label": "Zeitpunkt",
+   "value": "etwa 60 Minuten vorher",
+   "text": "Kapseln und Getränke werden meist 60 Minuten vor der Belastung eingenommen; Koffein-Kaugummi braucht eine kürzere Vorlaufzeit.",
+   "cite": "Guest et al. 2021"
+  },
+  {
+   "label": "Gewohnheitskonsum",
+   "value": "kein Entzug nötig",
+   "text": "Regelmäßige Kaffeetrinker profitierten genauso wie Wenig-Konsumenten; ein Absetzen vor dem Wettkampf brachte keinen Vorteil.",
+   "cite": "Carvalho et al. 2022"
+  },
+  {
+   "label": "Schlaf",
+   "value": "bei Abendtraining sparsam",
+   "text": "Koffein verkürzte den Nachtschlaf im Mittel um 45 Minuten. Eine Tasse Kaffee sollte mindestens 8,8 Stunden, eine Portion Pre-Workout mindestens 13,2 Stunden vor dem Schlafen liegen.",
+   "cite": "Gardiner et al. 2023"
+  },
+  {
+   "label": "Für wen nicht",
+   "value": "Empfindliche, hoher Blutdruck",
+   "text": "Herzrasen, Unruhe, Magen-Darm-Beschwerden und Schlafstörungen nehmen mit der Dosis zu. Regelmäßige Koffeinzufuhr erhöht den Blutdruck leicht; bei Bluthochdruck vorsichtig dosieren.",
+   "cite": "Negaresh et al. 2026; Noordzij et al. 2005"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Die meisten Studien untersuchten junge, trainierte Männer. Für Frauen und Ältere ist die Datenlage dünner (Grgic et al., 2020).",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Ausdauer profitiert am deutlichsten",
+   "ev": "hoch",
+   "p": "Zeitfahren und Zeit bis zur Erschöpfung verbesserten sich in mehreren großen Metaanalysen (bis 48 Studien); die Effekte sind klein bis mittel, aber im Wettkampf relevant.",
+   "s": [
+    "grgic2020",
+    "southward2018",
+    "martins2026",
+    "xue2025"
+   ]
+  },
+  {
+   "t": "Kleiner Vorteil für Kraft und Schnellkraft",
+   "ev": "hoch",
+   "p": "Maximalkraft (SMD 0,18) und Kraftausdauer (SMD 0,30) stiegen leicht; die Kraftanstiegsrate etwas stärker.",
+   "s": [
+    "bilondi2024",
+    "warren2010",
+    "grgic2018",
+    "grgicmikulic2022"
+   ]
+  },
+  {
+   "t": "Niedrige bis moderate Dosen genügen",
+   "ev": "moderat",
+   "p": "3 mg/kg oder weniger wirkten ähnlich gut wie höhere Dosen; Gewohnheitskonsum schwächte die Wirkung nicht ab.",
+   "s": [
+    "carvalho2022",
+    "xue2025",
+    "grgic2022",
+    "guest2021"
+   ]
+  },
+  {
+   "t": "Schlaf und Nebenwirkungen sind der Preis",
+   "ev": "moderat",
+   "p": "Koffein verkürzte den Schlaf um 45 Minuten und erhöhte dosisabhängig Herzrasen, Unruhe und Magenbeschwerden.",
+   "s": [
+    "gardiner2023",
+    "negaresh2026",
+    "desouza2022"
+   ]
+  },
+  {
+   "t": "Genetik (CYP1A2) noch unsicher",
+   "ev": "niedrig",
+   "p": "Träger des CC-Genotyps profitierten in einer Analyse nicht; der Befund verschwand ohne Studien mit Interessenkonflikten.",
+   "s": [
+    "barreto2024",
+    "wang2024"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "ausdauer",
+   "name": "Ausdauerleistung",
+   "q": "Wie stark verbessert Koffein Zeitfahren und Ausdauer?",
+   "ev": "hoch",
+   "key": [
+    "Frühe Metaanalyse (40 Studien): Koffein verbesserte Testergebnisse um 12,3 % [9,1; 15,4] (ES 0,41 [0,31; 0,51]), am stärksten in Tests bis zur Erschöpfung (Doherty &amp; Smith, 2004).",
+    "46 Studien zum Zeitfahren: mittlere Leistung +3,03 % (ES 0,23), Zeitfahrdauer um 2,22 % verbessert (ES 0,41); in einzelnen Studien waren Teilnehmende mit Koffein langsamer (Southward et al., 2018).",
+    "Laufen (21 Studien, 254 Personen): Zeit bis zur Erschöpfung verlängert (g = 0,392 [0,214; 0,571]), Zeitfahrdauer leicht verkürzt (g = −0,101 [−0,190; −0,012]); Effekt bei Freizeit- und trainierten Läufern (Wang et al., 2022).",
+    "Netzwerk-Metaanalyse (48 Studien, 612 Personen): Niedrig dosierte Kapseln (≤ 3 mg/kg) verkürzten die Zeitfahrdauer am stärksten (SMD −0,34 [−0,62; −0,06]), gefolgt von moderat dosierten Kapseln (−0,31) und Kaugummi (−0,30) (Xue et al., 2025).",
+    "Dosis-Wirkungs-Analyse (48 Studien, 689 Personen): niedrige Dosen SMD −0,27 [−0,44; −0,11], moderate Dosen (4–6 mg/kg) SMD −0,52 [−0,77; −0,28]; ähnliche Wirkung bei Trainierten und Hochtrainierten (Martins et al., 2026).",
+    "Umbrella Review (21 Metaanalysen): Der Effekt ist bei aeroben Belastungen im Allgemeinen größer als bei anaeroben; Evidenzqualität überwiegend moderat (Grgic et al., 2020)."
+   ],
+   "critic": "Der Ausdauereffekt ist der am besten gesicherte Koffeinbefund: Analysen aus drei Jahrzehnten kommen zum selben Ergebnis. Ob niedrige oder moderate Dosen besser wirken, beantworten die beiden neuesten Analysen unterschiedlich (Xue et al., 2025: niedrige Kapseldosis an erster Stelle; Martins et al., 2026: moderate Dosis konsistenter). Beide nutzen weitgehend dieselben 48 Studien; die Konfidenzintervalle überlappen stark. Wahrscheinlich ist der Unterschied zwischen 3 und 6 mg/kg klein. Die Studien sind meist klein, überwiegend mit Männern und im Labor; einzelne Personen reagieren gar nicht oder negativ.",
+   "figs": [
+    {
+     "id": "kof-zeitfahren",
+     "title": "Koffein und Zeitfahrdauer",
+     "cap": "Standardisierte Mittelwertdifferenz gegenüber Placebo mit 95-%-KI. Negative Werte bedeuten eine kürzere Zeit, also bessere Leistung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Niedrige Dosis (≤ 3 mg/kg)",
+       "sub": "Martins et al., 2026",
+       "es": -0.27,
+       "lo": -0.44,
+       "hi": -0.11
+      },
+      {
+       "l": "Moderate Dosis (4–6 mg/kg)",
+       "sub": "Martins et al., 2026",
+       "es": -0.52,
+       "lo": -0.77,
+       "hi": -0.28
+      },
+      {
+       "l": "Kapseln, niedrige Dosis",
+       "sub": "Xue et al., 2025",
+       "es": -0.34,
+       "lo": -0.62,
+       "hi": -0.06
+      },
+      {
+       "l": "Kapseln, moderate Dosis",
+       "sub": "Xue et al., 2025",
+       "es": -0.31,
+       "lo": -0.45,
+       "hi": -0.17
+      },
+      {
+       "l": "Kaugummi, moderate Dosis",
+       "sub": "Xue et al., 2025",
+       "es": -0.3,
+       "lo": -0.57,
+       "hi": -0.02
+      },
+      {
+       "l": "Laufen, Zeitfahren",
+       "sub": "Wang et al., 2022",
+       "es": -0.101,
+       "lo": -0.19,
+       "hi": -0.012
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 0.2,
+      "ticks": [
+       -1,
+       -0.75,
+       -0.5,
+       -0.25,
+       0
+      ],
+      "unit": "SMD",
+      "leftLab": "schneller mit Koffein",
+      "rightLab": "langsamer"
+     }
+    }
+   ],
+   "s": [
+    "doherty2004",
+    "southward2018",
+    "wang2022",
+    "xue2025",
+    "martins2026",
+    "grgic2020"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Kraft und Schnellkraft",
+   "q": "Steigert Koffein Maximalkraft, Kraftausdauer und Explosivkraft?",
+   "ev": "hoch",
+   "key": [
+    "Erste große Analyse (34 Studien): kleiner Effekt auf die Maximalkraft (ES 0,19), vor allem bei den Kniestreckern (etwa 7 %, ES 0,37), und auf die Kraftausdauer (ES 0,28), nur bei Tests bis zur Erschöpfung (Warren et al., 2010).",
+    "Maximalkraft SMD 0,20 [0,03; 0,36], Leistung (Power) SMD 0,17 [0,00; 0,34]; signifikant für den Oberkörper, nicht für den Unterkörper (Grgic et al., 2018).",
+    "Schon 0,9–2 mg/kg (12 Studien) steigerten Kraft (d = 0,17 [0,03; 0,31]), Kraftausdauer (d = 0,21 [0,07; 0,35]) und Bewegungsgeschwindigkeit (d = 0,56 [0,12; 1,01]) (Grgic, 2022).",
+    "Kraftanstiegsrate (11 Studien): g = 0,37 [0,21; 0,52]; bei 6–10 mg/kg größer als bei 3–5 mg/kg; im Sprungtest nicht signifikant (Grgic &amp; Mikulic, 2022).",
+    "Metaanalyse von 9 Metaanalysen: Maximalkraft SMD 0,18 [0,14; 0,21], Kraftausdauer SMD 0,30 [0,21; 0,38] (Bilondi et al., 2024)."
+   ],
+   "critic": "2010 hielt die ISSN die Datenlage zur Kraft noch für uneinheitlich (Goldstein et al., 2010); seit 2018 zeigen mehrere Metaanalysen übereinstimmend einen kleinen, aber verlässlichen Effekt, den das Positionspapier von 2021 übernommen hat. Der Effekt ist kleiner als bei Ausdauer. Ob er für den Unterkörper gilt, ist uneinheitlich (Warren et al., 2010: vor allem Kniestrecker; Grgic et al., 2018: nur Oberkörper signifikant). Die Autoren haben auf eine unzureichende Kontrolle der Verblindung hingewiesen. Viele Analysen stammen aus derselben Arbeitsgruppe.",
+   "figs": [
+    {
+     "id": "kof-kraft",
+     "title": "Koffein und Kraftleistung",
+     "cap": "Standardisierte Effektgröße gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Maximalkraft",
+       "sub": "Bilondi et al., 2024",
+       "es": 0.18,
+       "lo": 0.14,
+       "hi": 0.21
+      },
+      {
+       "l": "Kraftausdauer",
+       "sub": "Bilondi et al., 2024",
+       "es": 0.3,
+       "lo": 0.21,
+       "hi": 0.38
+      },
+      {
+       "l": "Maximalkraft",
+       "sub": "Grgic et al., 2018",
+       "es": 0.2,
+       "lo": 0.03,
+       "hi": 0.36
+      },
+      {
+       "l": "Power",
+       "sub": "Grgic et al., 2018",
+       "es": 0.17,
+       "lo": 0.0,
+       "hi": 0.34
+      },
+      {
+       "l": "Kraft, 0,9–2 mg/kg",
+       "sub": "Grgic, 2022",
+       "es": 0.17,
+       "lo": 0.03,
+       "hi": 0.31
+      },
+      {
+       "l": "Kraftanstiegsrate",
+       "sub": "Grgic &amp; Mikulic, 2022",
+       "es": 0.37,
+       "lo": 0.21,
+       "hi": 0.52
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 0.8,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Koffein besser"
+     }
+    }
+   ],
+   "s": [
+    "warren2010",
+    "grgic2018",
+    "grgic2022",
+    "grgicmikulic2022",
+    "bilondi2024",
+    "goldstein2010"
+   ]
+  },
+  {
+   "id": "sprint",
+   "name": "Sprints und anaerobe Leistung",
+   "q": "Hilft Koffein bei kurzen Sprints und wiederholten Sprints?",
+   "ev": "moderat",
+   "key": [
+    "Wingate-Test (16 Studien, 246 Personen): mittlere Leistung SMD 0,18 [0,05; 0,31] (+3 %), Spitzenleistung SMD 0,27 [0,08; 0,47] (+4 %) (Grgic, 2018).",
+    "Wiederholte Sprints (7 Koffeinstudien): kein Effekt auf Gesamtarbeit (g = −0,01 [−0,32; 0,31]) oder besten Sprint (g = −0,02 [−0,32; 0,27]) (Lopes-Silva et al., 2019).",
+    "Neuere Analyse (13 Studien): Spitzenleistung bei wiederholten Sprints gesteigert (WMD 5,28 [2,49; 8,07]), vor allem ab 6 mg/kg; unter 6 mg/kg nicht signifikant (Wang et al., 2025)."
+   ],
+   "critic": "Für einzelne kurze Maximalbelastungen ist der Effekt klein, aber belegt. Bei wiederholten Sprints widersprechen sich die Analysen: Die ältere fand keinen Effekt, die neuere mit fast doppelt so vielen Studien einen Effekt bei hohen Dosen. Die neuere Analyse ist aktueller und größer, betrachtet aber nur die Spitzenleistung und nennt im Abstract keine Einheit. Wahrscheinlich ist ein kleiner Nutzen bei höheren Dosen, der mit mehr Nebenwirkungen erkauft wird.",
+   "figs": [
+    {
+     "id": "kof-sprint",
+     "title": "Koffein bei Sprints",
+     "cap": "Standardisierte Effektgröße gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Wingate: Spitzenleistung",
+       "sub": "Grgic, 2018",
+       "es": 0.27,
+       "lo": 0.08,
+       "hi": 0.47
+      },
+      {
+       "l": "Wingate: mittlere Leistung",
+       "sub": "Grgic, 2018",
+       "es": 0.18,
+       "lo": 0.05,
+       "hi": 0.31
+      },
+      {
+       "l": "Wiederholte Sprints: Gesamtarbeit",
+       "sub": "Lopes-Silva et al., 2019",
+       "es": -0.01,
+       "lo": -0.32,
+       "hi": 0.31
+      },
+      {
+       "l": "Wiederholte Sprints: bester Sprint",
+       "sub": "Lopes-Silva et al., 2019",
+       "es": -0.02,
+       "lo": -0.32,
+       "hi": 0.27
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 0.6,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Koffein besser"
+     }
+    }
+   ],
+   "s": [
+    "grgic2018w",
+    "lopessilva2019",
+    "wang2025"
+   ]
+  },
+  {
+   "id": "dosis",
+   "name": "Dosis, Zeitpunkt, Gewöhnung und Erwartung",
+   "q": "Wie viel Koffein, wann, und schwächt Gewohnheitskonsum die Wirkung ab?",
+   "ev": "moderat",
+   "key": [
+    "ISSN 2010: wirksam bei etwa 3–6 mg/kg, keine weitere Verbesserung ab 9 mg/kg; reines Koffein wirke stärker als Kaffee (Goldstein et al., 2010).",
+    "ISSN 2021: 3–6 mg/kg wirken zuverlässig, die minimal wirksame Dosis liegt möglicherweise bei 2 mg/kg; üblich ist die Einnahme 60 Minuten vorher; wirksam bei Trainierten und Untrainierten (Guest et al., 2021).",
+    "ISSN 2023 zu Kaffee: Zwei bis vier Tassen (Koffeinäquivalent 3–6 mg/kg) 60 Minuten vor dem Training gelten als sinnvoll; Gewöhnung spielt nur eine geringe Rolle (Lowery et al., 2023).",
+    "60 Studien: Gesamteffekt SMD 0,25 [0,20; 0,30], unabhängig vom Gewohnheitskonsum; wirksam unter 3 mg/kg (SMD 0,26) und bei 3–6 mg/kg (SMD 0,26), nicht signifikant über 6 mg/kg (SMD 0,11 [−0,07; 0,30]); auch der Koffeinverzicht vor dem Test änderte nichts (Carvalho et al., 2022).",
+    "Ein als Koffein ausgegebenes Placebo verbesserte die Leistung (d = 0,49 [0,28; 0,69]; 17 Studien), bei niedriger Evidenzqualität (Hurst et al., 2026)."
+   ],
+   "critic": "Die Dosisempfehlung hat sich über die Positionspapiere nach unten verschoben: von 3–6 mg/kg zu möglicherweise 2 mg/kg und darunter. Die frühere Aussage, Kaffee wirke schwächer als reines Koffein, wird 2023 relativiert, beruht aber auf wenigen kaffeespezifischen Studien. Dass Gewohnheitskonsum die Wirkung nicht abschwächt, stützt sich auf 60 Studien und ist damit gut belegt; die Angaben zur Gewohnheitszufuhr beruhen jedoch auf Selbstauskunft. Der deutliche Placeboeffekt zeigt, dass Erwartung einen Teil der Wirkung ausmacht; in placebokontrollierten Studien ist er aber bereits herausgerechnet. Mehrere Positionspapier-Autoren haben selbst die zugrunde liegenden Metaanalysen verfasst.",
+   "figs": [
+    {
+     "id": "kof-dosis",
+     "title": "Wirkung nach Dosis",
+     "cap": "Gesamtleistung, standardisierte Mittelwertdifferenz gegenüber Placebo mit 95-%-KI (Carvalho et al., 2022).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "unter 3 mg/kg",
+       "sub": "Carvalho et al., 2022",
+       "es": 0.26,
+       "lo": 0.12,
+       "hi": 0.4
+      },
+      {
+       "l": "3–6 mg/kg",
+       "sub": "Carvalho et al., 2022",
+       "es": 0.26,
+       "lo": 0.21,
+       "hi": 0.32
+      },
+      {
+       "l": "über 6 mg/kg",
+       "sub": "Carvalho et al., 2022",
+       "es": 0.11,
+       "lo": -0.07,
+       "hi": 0.3
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 0.6,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Koffein besser"
+     }
+    }
+   ],
+   "s": [
+    "goldstein2010",
+    "guest2021",
+    "lowery2023",
+    "carvalho2022",
+    "hurst2026"
+   ]
+  },
+  {
+   "id": "genetik",
+   "name": "Genetik (CYP1A2)",
+   "q": "Hängt die Wirkung vom Koffein-Abbaugen CYP1A2 ab?",
+   "ev": "niedrig",
+   "key": [
+    "13 Studien, 440 Personen: Leistungsplus bei Genotyp AA (SMD 0,30 [0,21; 0,39]) und AC (SMD 0,16 [0,06; 0,25]), Verschlechterung bei CC (SMD −0,22 [−0,44; −0,01]); ohne Studien mit gemeldeten Interessenkonflikten kein Einfluss des Genotyps mehr (Barreto et al., 2024).",
+    "12 Studien, 666 Personen: Zeitfahren nur bei A-Allel-Trägern verbessert (WMD −0,90 [−1,48; −0,33]), nicht bei C-Allel-Trägern; Wingate und Sprungtest unabhängig vom Genotyp ohne Effekt (Wang et al., 2024)."
+   ],
+   "critic": "Beide Analysen deuten in dieselbe Richtung: Langsame Abbauer (C-Allel) profitieren weniger. Die CC-Gruppe umfasste aber nur 34 Personen, und der Effekt hing von Studien mit Interessenkonflikten ab. Ein Gentest vor der Koffeineinnahme lässt sich daraus nicht ableiten; ein persönlicher Probelauf im Training ist aussagekräftiger.",
+   "figs": [
+    {
+     "id": "kof-cyp1a2",
+     "title": "Wirkung nach CYP1A2-Genotyp",
+     "cap": "Standardisierte Mittelwertdifferenz gegenüber Placebo mit 95-%-KI (Barreto et al., 2024).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "AA (schnelle Abbauer), n = 233",
+       "sub": "Barreto et al., 2024",
+       "es": 0.3,
+       "lo": 0.21,
+       "hi": 0.39
+      },
+      {
+       "l": "AC, n = 175",
+       "sub": "Barreto et al., 2024",
+       "es": 0.16,
+       "lo": 0.06,
+       "hi": 0.25
+      },
+      {
+       "l": "CC (langsame Abbauer), n = 34",
+       "sub": "Barreto et al., 2024",
+       "es": -0.22,
+       "lo": -0.44,
+       "hi": -0.01
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.6,
+      "ticks": [
+       -0.6,
+       -0.3,
+       0,
+       0.3,
+       0.6
+      ],
+      "unit": "SMD",
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "barreto2024",
+    "wang2024"
+   ]
+  },
+  {
+   "id": "nebenwirkungen",
+   "name": "Schlaf und Nebenwirkungen",
+   "q": "Was kostet Koffein an Schlaf und Wohlbefinden?",
+   "ev": "moderat",
+   "key": [
+    "24 Studien: Koffein verkürzte die Gesamtschlafzeit um 45 Minuten, senkte die Schlafeffizienz um 7 %, verlängerte die Einschlafzeit um 9 Minuten und verringerte den Tiefschlaf um 11,4 Minuten (Gardiner et al., 2023).",
+    "Sportler mit Koffein vor Training am späten Nachmittag oder Abend (10 Studien, 128 Personen): Schlafeffizienz −4,87 % [−7,45; −2,29], Gesamtschlafzeit −32,47 Minuten (nicht signifikant); subjektiv deutlich schlechterer Schlaf (Kocak et al., 2025).",
+    "25 Studien: Nebenwirkungen bei niedrigen Dosen in 6–34 %, bei hohen Dosen in 8–83 % der Fälle; Herzklopfen und Einschlafprobleme am häufigsten (de Souza et al., 2022).",
+    "38 Studien, Sportler: mehr Kopfschmerz, Magenbeschwerden, Herzrasen (mehr als vierfache Chance), Schlaflosigkeit, Harndrang, Angst und Nervosität; Herzrasen, Kopfschmerz, Magenbeschwerden und Angst nahmen mit der Dosis zu (Negaresh et al., 2026)."
+   ],
+   "critic": "Schlafstörung und Unruhe sind die verlässlichsten Nachteile und dosisabhängig. Bei Sportlern war der objektive Schlafverlust in der kleinen Analyse nicht robust, die subjektive Beeinträchtigung aber deutlich. Die allgemeine Schlafanalyse ist größer und spricht für einen echten Effekt. Nebenwirkungen werden in Leistungsstudien meist nur nebenbei erfasst und sind daher eher unterschätzt.",
+   "figs": [
+    {
+     "id": "kof-schlaf",
+     "title": "Koffein und Nachtschlaf",
+     "cap": "Mittlere Veränderung in Minuten gegenüber ohne Koffein, ohne KI im Abstract (Gardiner et al., 2023).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Gesamtschlafzeit (kürzer)",
+       "es": 45
+      },
+      {
+       "l": "Wachzeit nach dem Einschlafen (länger)",
+       "es": 12
+      },
+      {
+       "l": "Tiefschlaf (kürzer)",
+       "es": 11.4
+      },
+      {
+       "l": "Einschlafdauer (länger)",
+       "es": 9
+      }
+     ],
+     "opts": {
+      "max": 50,
+      "ticks": [
+       0,
+       10,
+       20,
+       30,
+       40,
+       50
+      ],
+      "unit": "min",
+      "xlab": "Veränderung in Minuten",
+      "src": "Gardiner et al., 2023"
+     }
+    }
+   ],
+   "s": [
+    "gardiner2023",
+    "kocak2025",
+    "desouza2022",
+    "negaresh2026"
+   ]
+  },
+  {
+   "id": "herz",
+   "name": "Blutdruck und Herz-Kreislauf",
+   "q": "Schadet regelmäßiges Koffein dem Herz-Kreislauf-System?",
+   "ev": "moderat",
+   "key": [
+    "16 Studien, 1 010 Personen, mindestens 7 Tage: systolisch +2,04 mmHg [1,10; 2,99], diastolisch +0,73 mmHg [0,14; 1,31]; mit reinem Koffein (Median 410 mg/Tag) stärker (+4,16 / +2,41 mmHg) als mit Kaffee (+1,22 / +0,49 mmHg) (Noordzij et al., 2005).",
+    "8 Studien: Koffeinsupplemente erhöhten den systolischen (+1,94 mmHg [0,52; 3,35]) und diastolischen Blutdruck (+1,66 mmHg [0,75; 2,57]); über 400 mg/Tag und über 9 Wochen deutlicher (Abbas-Hashemi et al., 2023).",
+    "Umbrella Review zu Kaffee: 3–4 Tassen täglich gingen mit geringerer Gesamtsterblichkeit (RR 0,83 [0,79; 0,88]) und weniger Herz-Kreislauf-Erkrankungen (RR 0,85 [0,80; 0,90]) einher; Ausnahme Schwangerschaft (Poole et al., 2017)."
+   ],
+   "critic": "Der Blutdruckanstieg durch Koffein ist in kontrollierten Studien konsistent belegt, aber klein und bei Kaffee schwächer. Die günstigen Zusammenhänge von Kaffee mit Herzgesundheit stammen aus Beobachtungsstudien; sie zeigen keine Ursache und lassen sich nicht auf Koffeinkapseln übertragen. Für gesunde Sportler mit moderatem Konsum ergibt sich kein Hinweis auf ein relevantes Herzrisiko.",
+   "figs": [
+    {
+     "id": "kof-blutdruck",
+     "title": "Blutdruckanstieg durch regelmäßiges Koffein",
+     "cap": "Mittlere Veränderung in mmHg mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Koffein, systolisch",
+       "sub": "Noordzij et al., 2005",
+       "es": 4.16,
+       "lo": 2.13,
+       "hi": 6.2
+      },
+      {
+       "l": "Koffein, diastolisch",
+       "sub": "Noordzij et al., 2005",
+       "es": 2.41,
+       "lo": 0.98,
+       "hi": 3.84
+      },
+      {
+       "l": "Kaffee, systolisch",
+       "sub": "Noordzij et al., 2005",
+       "es": 1.22,
+       "lo": 0.52,
+       "hi": 1.92
+      },
+      {
+       "l": "Kaffee, diastolisch",
+       "sub": "Noordzij et al., 2005",
+       "es": 0.49,
+       "lo": -0.06,
+       "hi": 1.04
+      },
+      {
+       "l": "Supplemente, systolisch",
+       "sub": "Abbas-Hashemi et al., 2023",
+       "es": 1.94,
+       "lo": 0.52,
+       "hi": 3.35
+      },
+      {
+       "l": "Supplemente, diastolisch",
+       "sub": "Abbas-Hashemi et al., 2023",
+       "es": 1.66,
+       "lo": 0.75,
+       "hi": 2.57
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 7,
+      "ticks": [
+       -1,
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7
+      ],
+      "unit": "mmHg",
+      "leftLab": "niedriger",
+      "rightLab": "höher"
+     }
+    }
+   ],
+   "s": [
+    "noordzij2005",
+    "abbashashemi2023",
+    "poole2017"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2004,
+   "t": "Erste große Metaanalyse",
+   "p": "Testleistung +12,3 %, am stärksten bei Ausdauer.",
+   "tag": "neu",
+   "s": "doherty2004"
+  },
+  {
+   "y": 2005,
+   "t": "Regelmäßiges Koffein erhöht den Blutdruck",
+   "p": "Mit Kaffee nur wenig.",
+   "tag": "neu",
+   "s": "noordzij2005"
+  },
+  {
+   "y": 2010,
+   "t": "Erstes ISSN-Positionspapier",
+   "p": "3–6 mg/kg wirksam; Kraft noch uneinheitlich.",
+   "tag": "neu",
+   "s": "goldstein2010"
+  },
+  {
+   "y": 2010,
+   "t": "Kleiner Effekt auf Kraft und Kraftausdauer",
+   "p": "34 Studien; vor allem Kniestrecker.",
+   "tag": "neu",
+   "s": "warren2010"
+  },
+  {
+   "y": 2017,
+   "t": "Kaffee und Gesundheit",
+   "p": "Umbrella Review: eher Nutzen als Schaden.",
+   "tag": "neu",
+   "s": "poole2017"
+  },
+  {
+   "y": 2018,
+   "t": "Ausdauer: 46 Studien",
+   "p": "Kleiner, klarer Effekt im Zeitfahren.",
+   "tag": "conf",
+   "s": "southward2018"
+  },
+  {
+   "y": 2018,
+   "t": "Kraft und Power bestätigt",
+   "p": "Signifikant für den Oberkörper.",
+   "tag": "conf",
+   "s": "grgic2018"
+  },
+  {
+   "y": 2018,
+   "t": "Wingate-Leistung verbessert",
+   "p": "Spitzenleistung +4 %.",
+   "tag": "neu",
+   "s": "grgic2018w"
+  },
+  {
+   "y": 2019,
+   "t": "Kein Effekt bei wiederholten Sprints",
+   "p": "7 Studien ohne Vorteil.",
+   "tag": "contra",
+   "s": "lopessilva2019"
+  },
+  {
+   "y": 2020,
+   "t": "Umbrella Review: 21 Metaanalysen",
+   "p": "Breiter Nutzen, Ausdauer am stärksten.",
+   "tag": "conf",
+   "s": "grgic2020"
+  },
+  {
+   "y": 2021,
+   "t": "Neues ISSN-Positionspapier",
+   "p": "Kraft, Sprint und Sprung jetzt eingeschlossen; Mindestdosis möglicherweise 2 mg/kg.",
+   "tag": "rel",
+   "s": "guest2021"
+  },
+  {
+   "y": 2022,
+   "t": "Gewöhnung schwächt nicht ab",
+   "p": "60 Studien ohne Einfluss des Gewohnheitskonsums.",
+   "tag": "neu",
+   "s": "carvalho2022"
+  },
+  {
+   "y": 2022,
+   "t": "Schon 1–2 mg/kg wirken",
+   "p": "Bei Krafttraining.",
+   "tag": "rel",
+   "s": "grgic2022"
+  },
+  {
+   "y": 2022,
+   "t": "Kraftanstiegsrate verbessert",
+   "p": "Stärker bei höheren Dosen.",
+   "tag": "neu",
+   "s": "grgicmikulic2022"
+  },
+  {
+   "y": 2022,
+   "t": "Laufleistung verbessert",
+   "p": "21 Studien, auch bei Trainierten.",
+   "tag": "conf",
+   "s": "wang2022"
+  },
+  {
+   "y": 2022,
+   "t": "Nebenwirkungen erfasst",
+   "p": "Mit der Dosis häufiger.",
+   "tag": "neu",
+   "s": "desouza2022"
+  },
+  {
+   "y": 2023,
+   "t": "Schlafverlust quantifiziert",
+   "p": "−45 Minuten Schlaf; Abstand zum Schlafen empfohlen.",
+   "tag": "neu",
+   "s": "gardiner2023"
+  },
+  {
+   "y": 2023,
+   "t": "ISSN zu Kaffee",
+   "p": "Kaffee als Koffeinquelle geeignet.",
+   "tag": "rel",
+   "s": "lowery2023"
+  },
+  {
+   "y": 2023,
+   "t": "Blutdruck: Dosis-Wirkung",
+   "p": "Anstieg vor allem über 400 mg/Tag.",
+   "tag": "conf",
+   "s": "abbashashemi2023"
+  },
+  {
+   "y": 2024,
+   "t": "CYP1A2: CC-Genotyp ohne Nutzen",
+   "p": "Abhängig von Studien mit Interessenkonflikten.",
+   "tag": "neu",
+   "s": "barreto2024"
+  },
+  {
+   "y": 2024,
+   "t": "CYP1A2 und Zeitfahren",
+   "p": "Nur A-Allel-Träger profitierten.",
+   "tag": "conf",
+   "s": "wang2024"
+  },
+  {
+   "y": 2024,
+   "t": "Metaanalyse von Metaanalysen",
+   "p": "Kraft SMD 0,18, Kraftausdauer SMD 0,30.",
+   "tag": "conf",
+   "s": "bilondi2024"
+  },
+  {
+   "y": 2025,
+   "t": "Wiederholte Sprints doch verbessert",
+   "p": "13 Studien, vor allem ab 6 mg/kg.",
+   "tag": "contra",
+   "s": "wang2025"
+  },
+  {
+   "y": 2025,
+   "t": "Niedrige Dosis am wirksamsten",
+   "p": "Netzwerk-Metaanalyse zum Zeitfahren.",
+   "tag": "rel",
+   "s": "xue2025"
+  },
+  {
+   "y": 2025,
+   "t": "Abendliches Koffein bei Sportlern",
+   "p": "Schlafeffizienz leicht gesenkt.",
+   "tag": "conf",
+   "s": "kocak2025"
+  },
+  {
+   "y": 2026,
+   "t": "Nebenwirkungen dosisabhängig",
+   "p": "38 Studien mit Sportlern.",
+   "tag": "conf",
+   "s": "negaresh2026"
+  },
+  {
+   "y": 2026,
+   "t": "Dosis-Wirkung im Zeitfahren",
+   "p": "Moderate Dosis konsistenter.",
+   "tag": "rel",
+   "s": "martins2026"
+  },
+  {
+   "y": 2026,
+   "t": "Placeboeffekt von Koffein",
+   "p": "Erwartung allein verbesserte die Leistung.",
+   "tag": "neu",
+   "s": "hurst2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "17.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3 346 Einträgen, 737 Übersichtsarbeiten nach Titel geprüft (davon 207 über eine ergänzende Suche nach Übersichtsarbeiten), 28 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Zeitfahrdauer (Abnahme = schneller)",
+     "g": "A",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 48,
+     "p": 689,
+     "s": [
+      "martins2026",
+      "xue2025",
+      "southward2018",
+      "grgic2020"
+     ],
+     "t": "SMD −0,27 bei niedriger und −0,52 bei moderater Dosis (48 Studien); Zeitfahrdauer im Mittel um 2,22 % verbessert (Southward et al., 2018).",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Zeit bis zur Erschöpfung (Zunahme)",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 21,
+     "p": 254,
+     "s": [
+      "wang2022",
+      "doherty2004"
+     ],
+     "t": "Beim Laufen g = 0,392 (21 Studien); Tests bis zur Erschöpfung zeigten schon 2004 die größten Effekte.",
+     "v": "ausdauer"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und Schnellkraft",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Maximalkraft",
+     "g": "A",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 27,
+     "p": null,
+     "s": [
+      "bilondi2024",
+      "warren2010",
+      "grgic2018",
+      "grgic2022"
+     ],
+     "t": "SMD 0,18 über 9 Metaanalysen; Einzelanalysen ES 0,19–0,20. Schon 0,9–2 mg/kg wirksam.",
+     "v": "kraft"
+    },
+    {
+     "n": "Kraftausdauer",
+     "g": "A",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 23,
+     "p": null,
+     "s": [
+      "bilondi2024",
+      "warren2010"
+     ],
+     "t": "SMD 0,30 über 9 Metaanalysen; ES 0,28 in 23 Studien, nur bei Tests bis zur Erschöpfung.",
+     "v": "kraft"
+    },
+    {
+     "n": "Kraftanstiegsrate",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 11,
+     "p": null,
+     "s": [
+      "grgicmikulic2022"
+     ],
+     "t": "g = 0,37 (11 Studien); bei 6–10 mg/kg größer, im Sprungtest nicht signifikant.",
+     "v": "kraft"
+    },
+    {
+     "n": "Wingate-Spitzenleistung",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 16,
+     "p": 246,
+     "s": [
+      "grgic2018w"
+     ],
+     "t": "SMD 0,27 (+4 %); mittlere Leistung SMD 0,18 (+3 %).",
+     "v": "sprint"
+    },
+    {
+     "n": "Wiederholte Sprints",
+     "g": "C",
+     "d": "auf",
+     "m": null,
+     "b": "nutzen",
+     "k": 13,
+     "p": null,
+     "s": [
+      "wang2025",
+      "lopessilva2019"
+     ],
+     "t": "Neuere Analyse: Spitzenleistung gesteigert, vor allem ab 6 mg/kg; ältere Analyse (7 Studien): kein Effekt.",
+     "v": "sprint"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Einflussfaktoren",
+   "kat": "stoffwechsel",
+   "items": [
+    {
+     "n": "Abschwächung durch Gewohnheitskonsum",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 60,
+     "p": null,
+     "s": [
+      "carvalho2022"
+     ],
+     "t": "Gesamteffekt SMD 0,25 unabhängig vom Gewohnheitskonsum (60 Studien); Koffeinverzicht vorher ohne Vorteil.",
+     "v": "dosis"
+    },
+    {
+     "n": "Leistung bei CYP1A2-Genotyp CC",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 13,
+     "p": 440,
+     "s": [
+      "barreto2024",
+      "wang2024"
+     ],
+     "t": "SMD −0,22 bei CC gegenüber +0,30 bei AA; ohne Studien mit Interessenkonflikten kein Genotypeinfluss mehr.",
+     "v": "genetik"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Schlaf",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Gesamtschlafzeit",
+     "g": "B",
+     "d": "ab",
+     "m": 3,
+     "b": "schaden",
+     "k": 24,
+     "p": null,
+     "s": [
+      "gardiner2023",
+      "kocak2025"
+     ],
+     "t": "−45 Minuten Schlaf (24 Studien), Tiefschlaf −11,4 Minuten; bei Sportlern nach Abendtraining −32,47 Minuten, nicht signifikant.",
+     "v": "nebenwirkungen"
+    },
+    {
+     "n": "Schlafeffizienz nach Abendtraining",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 10,
+     "p": 128,
+     "s": [
+      "kocak2025"
+     ],
+     "t": "−4,87 % bei Sportlern (10 Studien), in Sensitivitätsanalysen nicht robust; subjektiv deutlich schlechterer Schlaf.",
+     "v": "nebenwirkungen"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Herzrasen (Tachykardie)",
+     "g": "B",
+     "d": "auf",
+     "m": 4,
+     "b": "schaden",
+     "k": 38,
+     "p": null,
+     "s": [
+      "negaresh2026",
+      "desouza2022"
+     ],
+     "t": "Mehr als vierfache Chance gegenüber Placebo (Log-OR 1,47; 38 Studien), mit der Dosis steigend.",
+     "v": "nebenwirkungen"
+    },
+    {
+     "n": "Angst, Nervosität und Magenbeschwerden",
+     "g": "B",
+     "d": "auf",
+     "m": 4,
+     "b": "schaden",
+     "k": 38,
+     "p": null,
+     "s": [
+      "negaresh2026",
+      "desouza2022"
+     ],
+     "t": "Log-OR 1,29 (Angst), 0,82 (Nervosität), 1,12 (Magenbeschwerden); bei hohen Dosen bis 83 % Betroffene.",
+     "v": "nebenwirkungen"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz-Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Blutdruck bei regelmäßiger Einnahme",
+     "g": "A",
+     "d": "auf",
+     "m": 1,
+     "b": "schaden",
+     "k": 16,
+     "p": 1010,
+     "s": [
+      "noordzij2005",
+      "abbashashemi2023"
+     ],
+     "t": "Systolisch +2,04 mmHg (16 Studien) bzw. +1,94 mmHg (8 Studien); mit reinem Koffein +4,16 mmHg, mit Kaffee +1,22 mmHg. Klein, aber konsistent.",
+     "v": "herz"
+    },
+    {
+     "n": "Herz-Kreislauf-Erkrankungen (Kaffee, Beobachtung)",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "poole2017"
+     ],
+     "t": "3–4 Tassen Kaffee täglich: RR 0,85 für Herz-Kreislauf-Erkrankungen; nur Beobachtungsdaten, nicht auf Koffeinkapseln übertragbar.",
+     "v": "herz"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "goldstein2010": {
+   "short": "Goldstein et al., 2010",
+   "year": 2010,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "20205813",
+   "apa": "Goldstein, E. R., Ziegenfuss, T., Kalman, D., Kreider, R., Campbell, B., Wilborn, C., Taylor, L., Willoughby, D., Stout, J., Graves, B. S., Wildman, R., Ivy, J. L., Spano, M., Smith, A. E. &amp; Antonio, J. (2010). International society of sports nutrition position stand: Caffeine and performance. <em>Journal of the International Society of Sports Nutrition, 7</em>(1), Artikel 5.",
+   "doi": "10.1186/1550-2783-7-5"
+  },
+  "guest2021": {
+   "short": "Guest et al., 2021",
+   "year": 2021,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "33388079",
+   "apa": "Guest, N. S., VanDusseldorp, T. A., Nelson, M. T., Grgic, J., Schoenfeld, B. J., Jenkins, N. D. M., Arent, S. M., Antonio, J., Stout, J. R., Trexler, E. T., Smith-Ryan, A. E., Goldstein, E. R., Kalman, D. S. &amp; Campbell, B. I. (2021). International society of sports nutrition position stand: Caffeine and exercise performance. <em>Journal of the International Society of Sports Nutrition, 18</em>(1), Artikel 1.",
+   "doi": "10.1186/s12970-020-00383-4"
+  },
+  "lowery2023": {
+   "short": "Lowery et al., 2023",
+   "year": 2023,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "37498180",
+   "apa": "Lowery, L. M., Anderson, D. E., Scanlon, K. F., Stack, A., Escalante, G., Campbell, S. C., Kerksick, C. M., Nelson, M. T., Ziegenfuss, T. N., VanDusseldorp, T. A., Kalman, D. S., Campbell, B. I., Kreider, R. B. &amp; Antonio, J. (2023). International society of sports nutrition position stand: Coffee and sports performance. <em>Journal of the International Society of Sports Nutrition, 20</em>(1), Artikel 2237952.",
+   "doi": "10.1080/15502783.2023.2237952"
+  },
+  "grgic2020": {
+   "short": "Grgic et al., 2020",
+   "year": 2020,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "30926628",
+   "apa": "Grgic, J., Grgic, I., Pickering, C., Schoenfeld, B. J., Bishop, D. J. &amp; Pedisic, Z. (2020). Wake up and smell the coffee: Caffeine supplementation and exercise performance-an umbrella review of 21 published meta-analyses. <em>British Journal of Sports Medicine, 54</em>(11), 681–688.",
+   "doi": "10.1136/bjsports-2018-100278"
+  },
+  "bilondi2024": {
+   "short": "Bilondi et al., 2024",
+   "year": 2024,
+   "type": "Umbrella Review (Metaanalyse von Metaanalysen)",
+   "basis": "Abstract",
+   "pmid": "39170391",
+   "apa": "Bilondi, H. T., Valipour, H., Khoshro, S., Jamilian, P., Ostadrahimi, A. &amp; Zarezadeh, M. (2024). The effect of caffeine supplementation on muscular strength and endurance: A meta-analysis of meta-analyses. <em>Heliyon, 10</em>(15), Artikel e35025.",
+   "doi": "10.1016/j.heliyon.2024.e35025"
+  },
+  "doherty2004": {
+   "short": "Doherty & Smith, 2004",
+   "year": 2004,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "15657469",
+   "apa": "Doherty, M. &amp; Smith, P. M. (2004). Effects of caffeine ingestion on exercise testing: A meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 14</em>(6), 626–646.",
+   "doi": "10.1123/ijsnem.14.6.626"
+  },
+  "southward2018": {
+   "short": "Southward et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29876876",
+   "apa": "Southward, K., Rutherfurd-Markwick, K. J. &amp; Ali, A. (2018). The effect of acute caffeine ingestion on endurance performance: A systematic review and meta-analysis. <em>Sports Medicine, 48</em>(8), 1913–1928.",
+   "doi": "10.1007/s40279-018-0939-8"
+  },
+  "wang2022": {
+   "short": "Wang et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36615805",
+   "apa": "Wang, Z., Qiu, B., Gao, J. &amp; Del Coso, J. (2022). Effects of caffeine intake on endurance running performance and time to exhaustion: A systematic review and meta-analysis. <em>Nutrients, 15</em>(1), Artikel 148.",
+   "doi": "10.3390/nu15010148"
+  },
+  "xue2025": {
+   "short": "Xue et al., 2025",
+   "year": 2025,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41374083",
+   "apa": "Xue, R., Huang, J., Chen, B., Ding, L., Guo, L., Cao, Y. &amp; Girard, O. (2025). Effects of caffeine dose and administration method on time-trial performance: A systematic review and network meta-analysis. <em>Nutrients, 17</em>(23), Artikel 3792.",
+   "doi": "10.3390/nu17233792"
+  },
+  "martins2026": {
+   "short": "Martins et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42356375",
+   "apa": "Martins, G. L., Aparecido, J. M., Marquezi, M. L., Frientes, C. S., Miedes, L. R., Fornel, M. S., Fernandes, T. &amp; Lancha, A. H. (2026). Dose-response effect of oral caffeine use on aerobic exercise performance: A systematic review and meta-analysis. <em>Nutrients, 18</em>(12), Artikel 1989.",
+   "doi": "10.3390/nu18121989"
+  },
+  "warren2010": {
+   "short": "Warren et al., 2010",
+   "year": 2010,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "20019636",
+   "apa": "Warren, G. L., Park, N. D., Maresca, R. D., McKibans, K. I. &amp; Millard-Stafford, M. L. (2010). Effect of caffeine ingestion on muscular strength and endurance: A meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 42</em>(7), 1375–1387.",
+   "doi": "10.1249/MSS.0b013e3181cabbd8"
+  },
+  "grgic2018": {
+   "short": "Grgic et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29527137",
+   "apa": "Grgic, J., Trexler, E. T., Lazinica, B. &amp; Pedisic, Z. (2018). Effects of caffeine intake on muscle strength and power: A systematic review and meta-analysis. <em>Journal of the International Society of Sports Nutrition, 15</em>, Artikel 11.",
+   "doi": "10.1186/s12970-018-0216-0"
+  },
+  "grgic2022": {
+   "short": "Grgic, 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35203046",
+   "apa": "Grgic, J. (2022). Exploring the minimum ergogenic dose of caffeine on resistance exercise performance: A meta-analytic approach. <em>Nutrition, 97</em>, Artikel 111604.",
+   "doi": "10.1016/j.nut.2022.111604"
+  },
+  "grgicmikulic2022": {
+   "short": "Grgic & Mikulic, 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34861076",
+   "apa": "Grgic, J. &amp; Mikulic, P. (2022). Effects of caffeine on rate of force development: A meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 32</em>(4), 644–653.",
+   "doi": "10.1111/sms.14109"
+  },
+  "grgic2018w": {
+   "short": "Grgic, 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29087785",
+   "apa": "Grgic, J. (2018). Caffeine ingestion enhances Wingate performance: A meta-analysis. <em>European Journal of Sport Science, 18</em>(2), 219–225.",
+   "doi": "10.1080/17461391.2017.1394371"
+  },
+  "lopessilva2019": {
+   "short": "Lopes-Silva et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31036532",
+   "apa": "Lopes-Silva, J. P., Choo, H. C., Franchini, E. &amp; Abbiss, C. R. (2019). Isolated ingestion of caffeine and sodium bicarbonate on repeated sprint performance: A systematic review and meta-analysis. <em>Journal of Science and Medicine in Sport, 22</em>(8), 962–972.",
+   "doi": "10.1016/j.jsams.2019.03.007"
+  },
+  "wang2025": {
+   "short": "Wang et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41228548",
+   "apa": "Wang, Y., Su, W., Zhang, S., Zhao, L., Lv, Y., Gu, B. &amp; Yu, L. (2025). Effects of acute caffeine ingestion on repeated sprint ability: A systematic review and meta-analysis. <em>Nutrients, 17</em>(21), Artikel 3475.",
+   "doi": "10.3390/nu17213475"
+  },
+  "carvalho2022": {
+   "short": "Carvalho et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35536449",
+   "apa": "Carvalho, A., Marticorena, F. M., Grecco, B. H., Barreto, G. &amp; Saunders, B. (2022). Can I have my coffee and drink it? A systematic review and meta-analysis to determine whether habitual caffeine consumption affects the ergogenic effect of caffeine. <em>Sports Medicine, 52</em>(9), 2209–2220.",
+   "doi": "10.1007/s40279-022-01685-0"
+  },
+  "hurst2026": {
+   "short": "Hurst et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42897966",
+   "apa": "Hurst, P., Hanssen, J., Marticorena, F., Schiphof-Godart, L., Souza, H. L. R., Marocolo, M. &amp; Saunders, B. (2026). Placebo effects of caffeine on sport performance: A systematic review and meta-analysis. <em>Journal of the International Society of Sports Nutrition, 23</em>(1), Artikel 2747142.",
+   "doi": "10.1080/15502783.2026.2747142"
+  },
+  "barreto2024": {
+   "short": "Barreto et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37844569",
+   "apa": "Barreto, G., Esteves, G. P., Marticorena, F., Oliveira, T. N., Grgic, J. &amp; Saunders, B. (2024). Caffeine, CYP1A2 genotype, and exercise performance: A systematic review and meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 56</em>(2), 328–339.",
+   "doi": "10.1249/MSS.0000000000003313"
+  },
+  "wang2024": {
+   "short": "Wang et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38158179",
+   "apa": "Wang, J., Dewi, L., Peng, Y., Hou, C. W., Song, Y. &amp; Condello, G. (2024). Does ergogenic effect of caffeine supplementation depend on CYP1A2 genotypes? A systematic review with meta-analysis. <em>Journal of Sport and Health Science, 13</em>(4), 499–508.",
+   "doi": "10.1016/j.jshs.2023.12.005"
+  },
+  "gardiner2023": {
+   "short": "Gardiner et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36870101",
+   "apa": "Gardiner, C., Weakley, J., Burke, L. M., Roach, G. D., Sargent, C., Maniar, N., Townshend, A. &amp; Halson, S. L. (2023). The effect of caffeine on subsequent sleep: A systematic review and meta-analysis. <em>Sleep Medicine Reviews, 69</em>, Artikel 101764.",
+   "doi": "10.1016/j.smrv.2023.101764"
+  },
+  "kocak2025": {
+   "short": "Kocak et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41003623",
+   "apa": "Kocak, A., Georgousopoulou, E., Knight-Agarwal, C. R., Matthews, R. &amp; Minehan, M. (2025). The effect of consuming caffeine before late afternoon/evening training or competition on sleep: A systematic review with meta-analysis. <em>Sports, 13</em>(9), Artikel 317.",
+   "doi": "10.3390/sports13090317"
+  },
+  "desouza2022": {
+   "short": "de Souza et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35380245",
+   "apa": "de Souza, J. G., Del Coso, J., Fonseca, F. S., Silva, B. V. C., de Souza, D. B., da Silva Gianoni, R. L., Filip-Stachnik, A., Serrão, J. C. &amp; Claudino, J. G. (2022). Risk or benefit? Side effects of caffeine supplementation in sport: A systematic review. <em>European Journal of Nutrition, 61</em>(8), 3823–3834.",
+   "doi": "10.1007/s00394-022-02874-3"
+  },
+  "negaresh2026": {
+   "short": "Negaresh et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42033594",
+   "apa": "Negaresh, R., Al-Riyami, S. A. A., Ghahfarrokhi, M. M., Del Coso, J., Karimi, Z., Yaghoobi, M. &amp; Bagheri, R. (2026). Caffeine use in sport: A systematic review and meta-analysis of acute side effects and implications for athlete health and safety. <em>Sports Medicine, 56</em>(9), 2209–2229.",
+   "doi": "10.1007/s40279-026-02441-4"
+  },
+  "noordzij2005": {
+   "short": "Noordzij et al., 2005",
+   "year": 2005,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "15834273",
+   "apa": "Noordzij, M., Uiterwaal, C. S., Arends, L. R., Kok, F. J., Grobbee, D. E. &amp; Geleijnse, J. M. (2005). Blood pressure response to chronic intake of coffee and caffeine: A meta-analysis of randomized controlled trials. <em>Journal of Hypertension, 23</em>(5), 921–928.",
+   "doi": "10.1097/01.hjh.0000166828.94699.1d"
+  },
+  "abbashashemi2023": {
+   "short": "Abbas-Hashemi et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse (Dosis-Wirkung)",
+   "basis": "Abstract",
+   "pmid": "38057002",
+   "apa": "Abbas-Hashemi, S. A., Hosseininasab, D., Rastgoo, S., Shiraseb, F. &amp; Asbaghi, O. (2023). The effects of caffeine supplementation on blood pressure in adults: A systematic review and dose-response meta-analysis. <em>Clinical Nutrition ESPEN, 58</em>, 165–177.",
+   "doi": "10.1016/j.clnesp.2023.09.923"
+  },
+  "poole2017": {
+   "short": "Poole et al., 2017",
+   "year": 2017,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "29167102",
+   "apa": "Poole, R., Kennedy, O. J., Roderick, P., Fallowfield, J. A., Hayes, P. C. &amp; Parkes, J. (2017). Coffee consumption and health: Umbrella review of meta-analyses of multiple health outcomes. <em>BMJ, 359</em>, Artikel j5024.",
+   "doi": "10.1136/bmj.j5024"
+  }
+ }
+}

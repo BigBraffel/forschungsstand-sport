@@ -1,0 +1,949 @@
+{
+ "id": "kollagen",
+ "title": "Kollagen",
+ "stand": "2026-11-17",
+ "lead": "Hilft Kollagen gegen Gelenkschmerzen, stärkt es Sehnen, Knochen und Haut, und bringt es zusammen mit Training mehr Muskeln oder Kraft? Zusammengefasst aus Metaanalysen, systematischen Reviews und einem Umbrella Review.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierende Erwachsene. Die Evidenz ist überwiegend von niedriger bis moderater Sicherheit; viele Studien sind klein und teils herstellerfinanziert.",
+ "rx": [
+  {
+   "label": "Sehnen",
+   "value": "15–30 g mit ≥ 50 mg Vitamin C, plus schweres Krafttraining",
+   "text": "Größere und steifere Sehnen zeigten sich vor allem mit höheren Dosen und Krafttraining ab 70 % des 1RM; mit etwa 5 g nur Veränderungen innerhalb der Gruppe.",
+   "cite": "Buchalski et al. 2026; Bischof et al. 2024"
+  },
+  {
+   "label": "Muskelaufbau",
+   "value": "kein Ersatz für hochwertiges Protein",
+   "text": "Kollagen erhöhte die Kollagensynthese, aber nicht die Muskelproteinsynthese im Vergleich zu gleich viel hochwertigerem Protein. Der kleine Zusatzeffekt auf die fettfreie Masse kommt nur zusammen mit Training.",
+   "cite": "Khatri et al. 2021; Bischof et al. 2024"
+  },
+  {
+   "label": "Gelenkbeschwerden",
+   "value": "Versuch über 3–6 Monate möglich",
+   "text": "Bei Kniearthrose linderte Kollagen Schmerzen; die Studien liefen meist 3 bis 6 Monate. Für gesunde Sportler ohne Arthrose fehlen Metaanalysen.",
+   "cite": "Simental-Mendía et al. 2025; Kumar et al. 2023"
+  },
+  {
+   "label": "Haut",
+   "value": "Nutzen unsicher",
+   "text": "Untersucht wurden meist 1–10 g pro Tag (Median 3,5 g). In unabhängig finanzierten und methodisch guten Studien zeigte sich kein Effekt.",
+   "cite": "Danessa et al. 2025; Myung &amp; Park 2025"
+  },
+  {
+   "label": "Knochen",
+   "value": "am ehesten mit Kalzium und Vitamin D",
+   "text": "Effekte auf die Knochendichte zeigten sich vor allem bei Frauen nach der Menopause und in Kombination mit Kalzium und Vitamin D; die Ergebnisse sind uneinheitlich.",
+   "cite": "Sun et al. 2025; Kuhlman et al. 2026"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Bei der Haut fanden nur herstellerfinanzierte und methodisch schwächere Studien einen Effekt (Myung &amp; Park, 2025). Dieses Muster sollte auch bei den übrigen Kollagenbefunden bedacht werden, die überwiegend aus kleinen Studien stammen.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Weniger Gelenkschmerzen bei Arthrose",
+   "ev": "moderat",
+   "p": "Mehrere Metaanalysen fanden weniger Schmerzen und bessere Funktion bei Kniearthrose; die Heterogenität ist hoch.",
+   "s": [
+    "simental2025",
+    "lin2023",
+    "garciacoronado2019"
+   ]
+  },
+  {
+   "t": "Kleiner Zusatzeffekt mit Training",
+   "ev": "moderat",
+   "p": "Mit Training nahm die fettfreie Masse etwas stärker zu; der Effekt auf die Maximalkraft war sehr klein bzw. nicht vorhanden.",
+   "s": [
+    "bischof2024",
+    "buchalski2026"
+   ]
+  },
+  {
+   "t": "Sehnen passen sich möglicherweise stärker an",
+   "ev": "niedrig",
+   "p": "Mit 15–30 g und schwerem Krafttraining nahmen Sehnenquerschnitt und -steifigkeit stärker zu; die Studien sind klein.",
+   "s": [
+    "buchalski2026",
+    "bischof2024"
+   ]
+  },
+  {
+   "t": "Hautwirkung von der Finanzierung abhängig",
+   "ev": "niedrig",
+   "p": "Gepoolte Analysen zeigen bessere Hautfeuchtigkeit und Elastizität, unabhängige und hochwertige Studien aber keinen Effekt.",
+   "s": [
+    "myung2025",
+    "pu2023",
+    "danessa2025"
+   ]
+  },
+  {
+   "t": "Knochen: vielversprechend, aber uneinheitlich",
+   "ev": "niedrig",
+   "p": "Höhere Knochendichte vor allem nach der Menopause, bei starker Heterogenität.",
+   "s": [
+    "sun2025",
+    "kuhlman2026"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "gelenke",
+   "name": "Gelenkschmerz und Arthrose",
+   "q": "Lindert Kollagen Gelenkschmerzen?",
+   "ev": "moderat",
+   "key": [
+    "Kniearthrose, 11 Studien mit 870 Personen: Schmerz −13,63 Punkte [−20,67; −6,58] und Funktion −6,46 Punkte [−9,52; −3,40]; hohe Heterogenität (I² = 88 % bzw. 75 %) (Simental-Mendía et al., 2025).",
+    "Kollagenpeptide bei Kniearthrose, 4 Studien mit 507 Personen: Schmerz SMD −0,58 [−0,98; −0,18]; alle Studien mit hohem Verzerrungsrisiko (Lin et al., 2023).",
+    "Ältere Metaanalyse: WOMAC-Gesamtwert −8,00 [−13,04; −2,95] und VAS-Schmerz −16,57 [−26,24; −6,89]; die WOMAC-Schmerz-Unterskala unterschied sich jedoch nicht (−0,22 [−1,58; 1,13]) (García-Coronado et al., 2019).",
+    "Undenaturiertes Typ-II-Kollagen (UC-II), 8 Studien mit 243 Behandelten, Nachbeobachtung 3 bis 6 Monate: bessere WOMAC- und VAS-Werte als Placebo (Kumar et al., 2023).",
+    "Bei Sportlern und Freizeitsportlern war der Nutzen für Gelenkfunktion und Gelenkschmerz am deutlichsten (15 Studien, davon 12 mit Freizeitsportlern) (Khatri et al., 2021); auch Typ-I-Kollagenhydrolysat zeigte Schmerzlinderung und bessere Beweglichkeit (Brueckheimer et al., 2025)."
+   ],
+   "critic": "Die Richtung ist über mehrere Metaanalysen einheitlich, doch die Heterogenität ist sehr hoch, die Verzerrungsrisiken sind hoch, und die meisten Daten stammen von Menschen mit Kniearthrose. Für gesunde Sportler gibt es nur systematische Reviews ohne Metaanalyse. Das Fehlen eines Effekts in der WOMAC-Schmerzskala bei García-Coronado et al. (2019) zeigt, dass der Befund vom Messinstrument abhängt.",
+   "figs": [
+    {
+     "id": "kol-gelenk",
+     "title": "Kollagen bei Kniearthrose",
+     "cap": "Mittlere Differenzen gegenüber Placebo in Punkten mit 95-%-KI. Die Skalen unterscheiden sich zwischen den Analysen; negative Werte bedeuten weniger Beschwerden.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Schmerz",
+       "sub": "Simental-Mendía et al., 2025",
+       "es": -13.63,
+       "lo": -20.67,
+       "hi": -6.58
+      },
+      {
+       "l": "Funktion",
+       "sub": "Simental-Mendía et al., 2025",
+       "es": -6.46,
+       "lo": -9.52,
+       "hi": -3.4
+      },
+      {
+       "l": "VAS-Schmerz",
+       "sub": "García-Coronado et al., 2019",
+       "es": -16.57,
+       "lo": -26.24,
+       "hi": -6.89
+      },
+      {
+       "l": "WOMAC gesamt",
+       "sub": "García-Coronado et al., 2019",
+       "es": -8.0,
+       "lo": -13.04,
+       "hi": -2.95
+      },
+      {
+       "l": "WOMAC Schmerz",
+       "sub": "García-Coronado et al., 2019",
+       "es": -0.22,
+       "lo": -1.58,
+       "hi": 1.13
+      }
+     ],
+     "opts": {
+      "min": -30,
+      "max": 5,
+      "ticks": [
+       -30,
+       -20,
+       -10,
+       0
+      ],
+      "unit": "Punkte",
+      "leftLab": "weniger Beschwerden",
+      "rightLab": "mehr Beschwerden"
+     }
+    }
+   ],
+   "s": [
+    "garciacoronado2019",
+    "khatri2021",
+    "lin2023",
+    "kumar2023",
+    "simental2025",
+    "brueckheimer2025"
+   ]
+  },
+  {
+   "id": "sehnen",
+   "name": "Sehnen und Bindegewebe",
+   "q": "Stärkt Kollagen Sehnen bei Training?",
+   "ev": "niedrig",
+   "key": [
+    "8 Studien mit 257 Personen (fast nur Männer), alle mit Kraft- oder Sprungtraining über 3 bis 15 Wochen: 3 von 4 Studien fanden einen stärker wachsenden Sehnenquerschnitt; eine größere Steifigkeit nur mit 15–30 g pro Tag, nicht mit etwa 5 g. Laut Autoren starke Evidenz (GRADE A) für Querschnitt und Steifigkeit (Buchalski et al., 2026).",
+    "Metaanalyse (19 Studien, 768 Personen): Sehnenmorphologie SMD 0,67, bei sehr niedriger Evidenzsicherheit (Bischof et al., 2024)."
+   ],
+   "critic": "Die Einstufung „GRADE A“ durch Buchalski et al. (2026) passt schlecht zu 8 kleinen Studien ohne Metaanalyse; Bischof et al. (2024) bewerten dieselbe Frage mit sehr niedriger Sicherheit. Wahrscheinlich gibt es einen Effekt bei hohen Dosen und schwerem Training, seine Größe und Bedeutung für Verletzungen sind aber offen. Daten zu Frauen fehlen fast vollständig.",
+   "figs": [],
+   "s": [
+    "bischof2024",
+    "buchalski2026"
+   ]
+  },
+  {
+   "id": "muskel",
+   "name": "Körperzusammensetzung und Kraft mit Training",
+   "q": "Bringt Kollagen zusätzlich zum Training mehr Muskeln oder Kraft?",
+   "ev": "moderat",
+   "key": [
+    "19 Studien mit 768 gesunden Erwachsenen, mindestens 8 Wochen: fettfreie Masse SMD 0,48 (moderate Evidenzsicherheit), Muskelarchitektur SMD 0,39, Maximalkraft SMD 0,19 und reaktive Kraft 48 h nach Muskelschaden SMD 0,43 (niedrige Sicherheit) (Bischof et al., 2024).",
+    "In allen 8 Sehnenstudien stieg die Kraft durch das Training, Kollagen brachte keinen Zusatzeffekt; Sprunghöhe unverändert (Buchalski et al., 2026).",
+    "Kollagen erhöhte mit 15 g pro Tag die Kollagensynthese, nicht aber die Muskelproteinsynthese im Vergleich zu gleich viel hochwertigerem Protein (Khatri et al., 2021).",
+    "12 Studien: Fettmasse −1,21 kg [−2,13; −0,29], fettfreie Masse +1,49 % [0,57; 2,42] (Jalili et al., 2023). Muskelleistung SMD 0,60 [0,05; 1,15] (Sun et al., 2025)."
+   ],
+   "critic": "Der Effekt auf die fettfreie Masse ist am besten gesichert, kann aber auch Bindegewebe und Wasser enthalten. Für die Maximalkraft ist der gepoolte Effekt sehr klein (SMD 0,19), und der Review von Buchalski et al. (2026) fand keinen Zusatznutzen; wahrscheinlich ist er praktisch vernachlässigbar. In vielen Studien erhielt die Placebogruppe kein Protein, sodass unklar bleibt, ob Kollagen mehr bringt als die gleiche Menge eines anderen Proteins.",
+   "figs": [
+    {
+     "id": "kol-training",
+     "title": "Kollagen zusätzlich zum Training",
+     "cap": "Standardisierte Mittelwertdifferenzen gegenüber Placebo. Bischof et al. (2024) nennen im Abstract keine Intervalle.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Fettfreie Masse",
+       "sub": "Bischof et al., 2024",
+       "es": 0.48
+      },
+      {
+       "l": "Sehnenmorphologie",
+       "sub": "Bischof et al., 2024",
+       "es": 0.67
+      },
+      {
+       "l": "Muskelarchitektur",
+       "sub": "Bischof et al., 2024",
+       "es": 0.39
+      },
+      {
+       "l": "Maximalkraft",
+       "sub": "Bischof et al., 2024",
+       "es": 0.19
+      },
+      {
+       "l": "Reaktive Kraft 48 h nach Muskelschaden",
+       "sub": "Bischof et al., 2024",
+       "es": 0.43
+      },
+      {
+       "l": "Muskelleistung",
+       "sub": "Sun et al., 2025",
+       "es": 0.6,
+       "lo": 0.05,
+       "hi": 1.15
+      }
+     ],
+     "opts": {
+      "min": -0.25,
+      "max": 1.25,
+      "ticks": [
+       0,
+       0.25,
+       0.5,
+       0.75,
+       1
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Kollagen besser"
+     }
+    }
+   ],
+   "s": [
+    "khatri2021",
+    "jalili2023",
+    "bischof2024",
+    "sun2025",
+    "buchalski2026"
+   ]
+  },
+  {
+   "id": "haut",
+   "name": "Haut",
+   "q": "Verbessert Kollagen Hautfeuchtigkeit, Elastizität und Falten?",
+   "ev": "niedrig",
+   "key": [
+    "23 Studien mit 1474 Personen: insgesamt bessere Hautfeuchtigkeit, Elastizität und Falten; in Studien ohne Herstellerfinanzierung und in hochwertigen Studien jedoch kein Effekt. Fazit der Autoren: kein klinischer Beleg (Myung &amp; Park, 2025).",
+    "26 Studien mit 1721 Personen: Feuchtigkeit und Elastizität verbessert; mehrere Verzerrungen festgestellt (Pu et al., 2023). 19 Studien mit 1125 Personen, 95 % Frauen: bessere Feuchtigkeit, Elastizität und Falten (de Miranda et al., 2021).",
+    "10 Studien mit 646 Personen: Feuchtigkeit SMD 1,25 [0,77; 1,74], Elastizität SMD 0,61 [0,21; 1,02]; übliche Dosis 4 g, Median 3,5 g pro Tag; Publikationsbias nicht prüfbar (Danessa et al., 2025).",
+    "25 Studien: Verbesserungen bei Feuchtigkeit (10 von 15), Elastizität (10 von 13) und Falten (9 von 10); die Mehrheit mit hohem Verzerrungsrisiko (Bassila et al., 2026). Frühere Übersicht: vielversprechend, keine Nebenwirkungen berichtet (Choi et al., 2019)."
+   ],
+   "critic": "Die gepoolten Effekte sind groß, aber die Metaanalyse von Myung und Park (2025) zeigt, dass sie aus herstellerfinanzierten und methodisch schwächeren Studien stammen. Das spricht für Verzerrung durch Finanzierung und Studienqualität. Die neuere Analyse mit Untergruppen nach Finanzierung ist hier aussagekräftiger als die rein gepoolten Ergebnisse; ein Nutzen ist daher nicht belegt.",
+   "figs": [
+    {
+     "id": "kol-haut",
+     "title": "Kollagen und Haut (gepoolt)",
+     "cap": "Standardisierte Mittelwertdifferenzen mit 95-%-KI aus 10 Studien. Unabhängig finanzierte Studien zeigten in einer anderen Analyse keinen Effekt.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Hautfeuchtigkeit",
+       "sub": "Danessa et al., 2025",
+       "es": 1.25,
+       "lo": 0.77,
+       "hi": 1.74
+      },
+      {
+       "l": "Hautelastizität",
+       "sub": "Danessa et al., 2025",
+       "es": 0.61,
+       "lo": 0.21,
+       "hi": 1.02
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 2,
+      "ticks": [
+       -0.5,
+       0,
+       0.5,
+       1,
+       1.5,
+       2
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo besser",
+      "rightLab": "Kollagen besser"
+     }
+    }
+   ],
+   "s": [
+    "choi2019",
+    "demiranda2021",
+    "pu2023",
+    "myung2025",
+    "danessa2025",
+    "bassila2026"
+   ]
+  },
+  {
+   "id": "knochen",
+   "name": "Knochendichte und Knochenstoffwechsel",
+   "q": "Stärkt Kollagen die Knochen?",
+   "ev": "niedrig",
+   "key": [
+    "Höhere Knochendichte an Schenkelhals und Wirbelsäule bei hoher Heterogenität (I² = 80,1 %); Knochenumbaumarker SMD 0,40 bis 0,58; zusammen mit Kalzium und Vitamin D SMD 0,40 bis 0,56 (Sun et al., 2025).",
+    "15 Studien: Verbesserungen von Knochenumbaumarkern und Knochendichte vor allem bei Frauen nach der Menopause, aber auch neutrale Befunde (Kuhlman et al., 2026). Studien zur Knochengesundheit ließen keine sicheren Schlüsse zu (Brueckheimer et al., 2025)."
+   ],
+   "critic": "Die Metaanalyse findet Effekte, die beiden Reviews beschreiben die Lage als uneinheitlich. Bei I² = 80,1 % und Fokus auf Frauen nach der Menopause ist eine Übertragung auf junge Sportler nicht möglich. Die Kombination mit Kalzium und Vitamin D erschwert die Zuordnung zum Kollagen.",
+   "figs": [],
+   "s": [
+    "sun2025",
+    "brueckheimer2025",
+    "kuhlman2026"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Herz-Kreislauf-Marker und Sicherheit",
+   "q": "Ist Kollagen sicher, und wirkt es auf andere Gesundheitsmarker?",
+   "ev": "niedrig",
+   "key": [
+    "12 Studien: LDL −4,09 mg/dl [−8,13; −0,04] und systolischer Blutdruck −5,04 mmHg [−9,22; −0,85], jeweils mit sehr hoher Heterogenität (I² = 93,4 % bzw. 98,9 %); keine Wirkung auf Blutzuckermarker (Jalili et al., 2023).",
+    "Umbrella Review (16 systematische Reviews, 113 Studien, 7983 Personen): günstige Befunde für Haut, Bewegungsapparat und Arthrose, gemischte Ergebnisse für Mundgesundheit und kardiometabolische Werte (Ravindran et al., 2026).",
+    "Unerwünschte Ereignisse nicht signifikant häufiger als mit Placebo (OR 1,66 [0,99; 2,78]; sehr niedrige Evidenzsicherheit) (Lin et al., 2023); insgesamt gut verträglich (Bassila et al., 2026)."
+   ],
+   "critic": "Die Blutdruck- und LDL-Effekte sind wegen extremer Heterogenität kaum interpretierbar. Das Umbrella Review fasst günstige Befunde zusammen, berücksichtigt aber im Abstract nicht die Finanzierungsfrage. Die Sicherheitsdaten sind beruhigend, jedoch mit breitem Intervall, das eine leichte Zunahme von Nebenwirkungen nicht ausschließt.",
+   "figs": [],
+   "s": [
+    "jalili2023",
+    "lin2023",
+    "ravindran2026",
+    "bassila2026"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2019,
+   "t": "Kollagen bei Arthrose",
+   "p": "Weniger Beschwerden im WOMAC-Gesamtwert und VAS, nicht in der WOMAC-Schmerzskala.",
+   "tag": "neu",
+   "s": "garciacoronado2019"
+  },
+  {
+   "y": 2019,
+   "t": "Kollagen in der Dermatologie",
+   "p": "Vielversprechende erste Befunde, keine Nebenwirkungen berichtet.",
+   "tag": "neu",
+   "s": "choi2019"
+  },
+  {
+   "y": 2021,
+   "t": "Haut: Metaanalyse mit 19 Studien",
+   "p": "Bessere Feuchtigkeit, Elastizität und Falten.",
+   "tag": "conf",
+   "s": "demiranda2021"
+  },
+  {
+   "y": 2021,
+   "t": "Kollagen und Training",
+   "p": "Am deutlichsten für Gelenke; keine stärkere Muskelproteinsynthese als hochwertiges Protein.",
+   "tag": "neu",
+   "s": "khatri2021"
+  },
+  {
+   "y": 2023,
+   "t": "Herz-Kreislauf-Marker",
+   "p": "Kleine Senkungen von LDL und Blutdruck bei hoher Heterogenität.",
+   "tag": "neu",
+   "s": "jalili2023"
+  },
+  {
+   "y": 2023,
+   "t": "Schmerzlinderung bei Kniearthrose",
+   "p": "SMD −0,58 in 4 Studien.",
+   "tag": "conf",
+   "s": "lin2023"
+  },
+  {
+   "y": 2023,
+   "t": "Haut: 26 Studien",
+   "p": "Positive Effekte, aber mehrere Verzerrungen.",
+   "tag": "conf",
+   "s": "pu2023"
+  },
+  {
+   "y": 2023,
+   "t": "Undenaturiertes Typ-II-Kollagen",
+   "p": "Bessere Schmerz- und Funktionswerte bei früher Arthrose.",
+   "tag": "conf",
+   "s": "kumar2023"
+  },
+  {
+   "y": 2024,
+   "t": "Kollagen plus Training",
+   "p": "Mehr fettfreie Masse, sehr kleiner Krafteffekt.",
+   "tag": "neu",
+   "s": "bischof2024"
+  },
+  {
+   "y": 2025,
+   "t": "Aktualisierte Arthrose-Metaanalyse",
+   "p": "Schmerz und Funktion verbessert, hohe Heterogenität.",
+   "tag": "conf",
+   "s": "simental2025"
+  },
+  {
+   "y": 2025,
+   "t": "Haut: Effekt hängt an der Finanzierung",
+   "p": "Unabhängige und hochwertige Studien ohne Effekt.",
+   "tag": "contra",
+   "s": "myung2025"
+  },
+  {
+   "y": 2025,
+   "t": "Haut: Dosis 1–10 g",
+   "p": "Große gepoolte Effekte, Publikationsbias nicht prüfbar.",
+   "tag": "rel",
+   "s": "danessa2025"
+  },
+  {
+   "y": 2025,
+   "t": "Typ-I-Kollagen und Bewegungsapparat",
+   "p": "Gelenke günstig, Knochen und Muskeln uneinheitlich.",
+   "tag": "rel",
+   "s": "brueckheimer2025"
+  },
+  {
+   "y": 2025,
+   "t": "Knochen und Muskeln",
+   "p": "Höhere Knochendichte, besonders mit Kalzium und Vitamin D.",
+   "tag": "neu",
+   "s": "sun2025"
+  },
+  {
+   "y": 2026,
+   "t": "Sehnen und Krafttraining",
+   "p": "Größere, steifere Sehnen mit 15–30 g; kein Krafteffekt.",
+   "tag": "neu",
+   "s": "buchalski2026"
+  },
+  {
+   "y": 2026,
+   "t": "Umbrella Review",
+   "p": "Günstige Befunde für Haut und Bewegungsapparat.",
+   "tag": "conf",
+   "s": "ravindran2026"
+  },
+  {
+   "y": 2026,
+   "t": "Haut: systematischer Review",
+   "p": "Meist positive Studien mit hohem Verzerrungsrisiko.",
+   "tag": "rel",
+   "s": "bassila2026"
+  },
+  {
+   "y": 2026,
+   "t": "Knochen: Scoping Review",
+   "p": "Vielversprechend nach der Menopause, aber uneinheitlich.",
+   "tag": "rel",
+   "s": "kuhlman2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "17.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 911 Einträgen, 105 Übersichtsarbeiten nach Titel geprüft (davon 44 zunächst per Titelregel einer anderen Kategorie zugeordnet), dazu 5 Übersichtsarbeiten aus einer ergänzenden Suche; 18 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Zusammen mit Training",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Fettfreie Masse",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 19,
+     "p": 768,
+     "s": [
+      "bischof2024",
+      "jalili2023"
+     ],
+     "t": "SMD 0,48 bei moderater Evidenzsicherheit (19 Studien); +1,49 % fettfreie Masse in einer weiteren Analyse.",
+     "v": "muskel"
+    },
+    {
+     "n": "Muskelproteinsynthese im Vergleich zu hochwertigem Protein",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 15,
+     "p": null,
+     "s": [
+      "khatri2021"
+     ],
+     "t": "Kollagen steigerte die Kollagensynthese, aber nicht die Muskelproteinsynthese im Vergleich zu gleich viel hochwertigerem Protein.",
+     "v": "muskel"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Maximalkraft",
+     "g": "C",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 19,
+     "p": 768,
+     "s": [
+      "bischof2024",
+      "buchalski2026"
+     ],
+     "t": "SMD 0,19 (19 Studien, niedrige Sicherheit); in 8 Sehnenstudien kein Zusatzeffekt auf die Kraft.",
+     "v": "muskel"
+    },
+    {
+     "n": "Muskelleistung",
+     "g": "C",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "sun2025"
+     ],
+     "t": "SMD 0,60 [0,05; 1,15] in einer Metaanalyse mit Fokus auf Knochen und Muskeln.",
+     "v": "muskel"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Sehnen und Bindegewebe",
+   "kat": "haut",
+   "items": [
+    {
+     "n": "Sehnenquerschnitt und -steifigkeit",
+     "g": "C",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": 19,
+     "p": 768,
+     "s": [
+      "bischof2024",
+      "buchalski2026"
+     ],
+     "t": "Sehnenmorphologie SMD 0,67 bei sehr niedriger Sicherheit; Steifigkeit nur mit 15–30 g pro Tag erhöht.",
+     "v": "sehnen"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Reaktive Kraft 48 h nach Muskelschaden",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 19,
+     "p": 768,
+     "s": [
+      "bischof2024"
+     ],
+     "t": "SMD 0,43 bei niedriger Evidenzsicherheit.",
+     "v": "muskel"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Gelenke (überwiegend Kniearthrose)",
+   "kat": "haut",
+   "items": [
+    {
+     "n": "Gelenkschmerz (Abnahme)",
+     "g": "B",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": 11,
+     "p": 870,
+     "s": [
+      "simental2025",
+      "lin2023",
+      "garciacoronado2019",
+      "kumar2023"
+     ],
+     "t": "Schmerz −13,63 Punkte (11 Studien) bzw. SMD −0,58; hohe Heterogenität (I² = 88 %), in einer älteren Analyse WOMAC-Schmerz nicht signifikant.",
+     "v": "gelenke"
+    },
+    {
+     "n": "Gelenkfunktion (Abnahme der Einschränkung)",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 11,
+     "p": 870,
+     "s": [
+      "simental2025",
+      "garciacoronado2019"
+     ],
+     "t": "Funktionswert −6,46 Punkte [−9,52; −3,40]; als klein eingestuft, da Skala und Bezugsgröße im Abstract nicht genannt sind.",
+     "v": "gelenke"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Haut",
+   "kat": "haut",
+   "items": [
+    {
+     "n": "Hautfeuchtigkeit",
+     "g": "C",
+     "d": "auf",
+     "m": null,
+     "b": "nutzen",
+     "k": 26,
+     "p": 1721,
+     "s": [
+      "pu2023",
+      "danessa2025",
+      "myung2025",
+      "demiranda2021"
+     ],
+     "t": "Gepoolt verbessert (SMD 1,25 in 10 Studien), in unabhängig finanzierten und hochwertigen Studien kein Effekt.",
+     "v": "haut"
+    },
+    {
+     "n": "Hautelastizität und Falten",
+     "g": "C",
+     "d": "auf",
+     "m": null,
+     "b": "nutzen",
+     "k": 26,
+     "p": 1721,
+     "s": [
+      "pu2023",
+      "danessa2025",
+      "myung2025",
+      "bassila2026"
+     ],
+     "t": "Elastizität gepoolt SMD 0,61; ohne Herstellerfinanzierung kein Effekt auf Elastizität und Falten.",
+     "v": "haut"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Knochen",
+   "kat": "knochen",
+   "items": [
+    {
+     "n": "Knochendichte",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "sun2025",
+      "kuhlman2026",
+      "brueckheimer2025"
+     ],
+     "t": "Höhere Knochendichte an Schenkelhals und Wirbelsäule, sehr heterogen (I² = 80,1 %); vor allem nach der Menopause.",
+     "v": "knochen"
+    },
+    {
+     "n": "Knochenumbaumarker",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "sun2025",
+      "kuhlman2026"
+     ],
+     "t": "SMD 0,40 bis 0,58 bei geringer Heterogenität.",
+     "v": "knochen"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Stoffwechsel und Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Systolischer Blutdruck",
+     "g": "C",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 12,
+     "p": null,
+     "s": [
+      "jalili2023"
+     ],
+     "t": "−5,04 mmHg [−9,22; −0,85], aber extrem heterogen (I² = 98,9 %).",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Fettmasse",
+     "g": "C",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 12,
+     "p": null,
+     "s": [
+      "jalili2023"
+     ],
+     "t": "−1,21 kg [−2,13; −0,29]; als sehr klein eingestuft.",
+     "v": "sicherheit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Unerwünschte Ereignisse",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 4,
+     "p": 507,
+     "s": [
+      "lin2023",
+      "bassila2026"
+     ],
+     "t": "OR 1,66 [0,99; 2,78], nicht signifikant, sehr niedrige Sicherheit; in Hautstudien gut verträglich.",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "garciacoronado2019": {
+   "short": "García-Coronado et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30368550",
+   "apa": "García-Coronado, J. M., Martínez-Olvera, L., Elizondo-Omaña, R. E., Acosta-Olivo, C. A., Vilchez-Cavazos, F., Simental-Mendía, L. E. &amp; Simental-Mendía, M. (2019). Effect of collagen supplementation on osteoarthritis symptoms: A meta-analysis of randomized placebo-controlled trials. <em>International Orthopaedics, 43</em>(3), 531–538.",
+   "doi": "10.1007/s00264-018-4211-5"
+  },
+  "choi2019": {
+   "short": "Choi et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "30681787",
+   "apa": "Choi, F. D., Sung, C. T., Juhasz, M. L. &amp; Mesinkovsk, N. A. (2019). Oral collagen supplementation: A systematic review of dermatological applications. <em>Journal of Drugs in Dermatology, 18</em>(1), 9–16."
+  },
+  "demiranda2021": {
+   "short": "de Miranda et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33742704",
+   "apa": "de Miranda, R. B., Weimer, P. &amp; Rossi, R. C. (2021). Effects of hydrolyzed collagen supplementation on skin aging: A systematic review and meta-analysis. <em>International Journal of Dermatology, 60</em>(12), 1449–1461.",
+   "doi": "10.1111/ijd.15518"
+  },
+  "khatri2021": {
+   "short": "Khatri et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34491424",
+   "apa": "Khatri, M., Naughton, R. J., Clifford, T., Harper, L. D. &amp; Corr, L. (2021). The effects of collagen peptide supplementation on body composition, collagen synthesis, and recovery from joint injury and exercise: A systematic review. <em>Amino Acids, 53</em>(10), 1493–1506.",
+   "doi": "10.1007/s00726-021-03072-x"
+  },
+  "jalili2023": {
+   "short": "Jalili et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35658958",
+   "apa": "Jalili, Z., Jalili, F., Moradi, S., Bagheri, R., Moosavian, S. P., Naeini, F., Mohammadi, H., Mojtaba Ghoreishy, S., Wong, A., Travica, N., Hojjati Kermani, M. A. &amp; Jalili, C. (2023). Effects of collagen peptide supplementation on cardiovascular markers: A systematic review and meta-analysis of randomised, placebo-controlled trials. <em>The British Journal of Nutrition, 129</em>(5), 779–794.",
+   "doi": "10.1017/S0007114522001301"
+  },
+  "lin2023": {
+   "short": "Lin et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37717022",
+   "apa": "Lin, C. R., Tsai, S. H. L., Huang, K. Y., Tsai, P. A., Chou, H. &amp; Chang, S. H. (2023). Analgesic efficacy of collagen peptide in knee osteoarthritis: A meta-analysis of randomized controlled trials. <em>Journal of Orthopaedic Surgery and Research, 18</em>(1), Artikel 694.",
+   "doi": "10.1186/s13018-023-04182-w"
+  },
+  "pu2023": {
+   "short": "Pu et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37432180",
+   "apa": "Pu, S. Y., Huang, Y. L., Pu, C. M., Kang, Y. N., Hoang, K. D., Chen, K. H. &amp; Chen, C. (2023). Effects of oral collagen for skin anti-aging: A systematic review and meta-analysis. <em>Nutrients, 15</em>(9), Artikel 2080.",
+   "doi": "10.3390/nu15092080"
+  },
+  "kumar2023": {
+   "short": "Kumar et al., 2023",
+   "year": 2023,
+   "type": "Review mit begrenzter Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37854210",
+   "apa": "Kumar, P., Bansal, P., Rajnish, R. K., Sharma, S., Dhillon, M. S., Patel, S. &amp; Kumar, V. (2023). Efficacy of undenatured collagen in knee osteoarthritis: Review of the literature with limited meta-analysis. <em>American Journal of Translational Research, 15</em>(9), 5545–5555."
+  },
+  "bischof2024": {
+   "short": "Bischof et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39060741",
+   "apa": "Bischof, K., Moitzi, A. M., Stafilidis, S. &amp; König, D. (2024). Impact of collagen peptide supplementation in combination with long-term physical training on strength, musculotendinous remodeling, functional recovery, and body composition in healthy adults: A systematic review with meta-analysis. <em>Sports Medicine, 54</em>(11), 2865–2888.",
+   "doi": "10.1007/s40279-024-02079-0"
+  },
+  "simental2025": {
+   "short": "Simental-Mendía et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39212129",
+   "apa": "Simental-Mendía, M., Ortega-Mata, D., Acosta-Olivo, C. A., Simental-Mendía, L. E., Peña-Martínez, V. M. &amp; Vilchez-Cavazos, F. (2025). Effect of collagen supplementation on knee osteoarthritis: An updated systematic review and meta-analysis of randomised controlled trials. <em>Clinical and Experimental Rheumatology, 43</em>(1), 126–134.",
+   "doi": "10.55563/clinexprheumatol/kflfr5"
+  },
+  "myung2025": {
+   "short": "Myung & Park, 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40324552",
+   "apa": "Myung, S. K. &amp; Park, Y. (2025). Effects of collagen supplements on skin aging: A systematic review and meta-analysis of randomized controlled trials. <em>The American Journal of Medicine, 138</em>(9), 1264–1277.",
+   "doi": "10.1016/j.amjmed.2025.04.034"
+  },
+  "danessa2025": {
+   "short": "Danessa et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40826844",
+   "apa": "Danessa, G., Notario, D. &amp; Regina, R. (2025). Effects of collagen-based supplements on skin's hydration and elasticity: A systematic review and meta-analysis. <em>Indian Journal of Dermatology, Venereology and Leprology, 91</em>(6), 730–740.",
+   "doi": "10.25259/IJDVL_1165_2023"
+  },
+  "brueckheimer2025": {
+   "short": "Brueckheimer et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "39980497",
+   "apa": "Brueckheimer, P. J., Costa Silva, T., Rodrigues, L., Zague, V. &amp; Isaia Filho, C. (2025). The effects of Type I collagen hydrolysate supplementation on bones, muscles, and joints: A systematic review. <em>Orthopedic Reviews, 17</em>, Artikel 129086.",
+   "doi": "10.52965/001c.129086"
+  },
+  "sun2025": {
+   "short": "Sun et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41049371",
+   "apa": "Sun, C., Yang, A., Teng, F. &amp; Xia, Y. (2025). Efficacy of collagen peptide supplementation on bone and muscle health: A meta-analysis. <em>Frontiers in Nutrition, 12</em>, Artikel 1646090.",
+   "doi": "10.3389/fnut.2025.1646090"
+  },
+  "buchalski2026": {
+   "short": "Buchalski et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "41900537",
+   "apa": "Buchalski, A., Jeanfavre, M., Altorelli, C. &amp; Leff, G. (2026). Collagen supplementation on tendon-related structural and performance outcomes: A systematic review. <em>Journal of Functional Morphology and Kinesiology, 11</em>(1), Artikel 130.",
+   "doi": "10.3390/jfmk11010130"
+  },
+  "ravindran2026": {
+   "short": "Ravindran et al., 2026",
+   "year": 2026,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "41809116",
+   "apa": "Ravindran, R., Pizzol, D., López-Gil, J. F., Rahmati, M., Boyer, L., Fond, G., Butler, L., Stellato, A., Gawronska, J., Barnett, Y., Keyes, H., Soysal, P., Eren, R., Onal, B., Yon, D. K. &amp; Smith, L. (2026). Collagen supplementation for skin and musculoskeletal health: An umbrella review of meta-analyses on elasticity, hydration, and structural outcomes. <em>Aesthetic Surgery Journal Open Forum, 8</em>, ojag018.",
+   "doi": "10.1093/asjof/ojag018"
+  },
+  "bassila2026": {
+   "short": "Bassila et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "42342959",
+   "apa": "Bassila, C., Bassila, J. C. &amp; Slim, M. (2026). Efficacy and safety of hydrolyzed collagen supplementation on skin health outcomes: A systematic literature review of randomized controlled trials. <em>European Journal of Clinical Nutrition, 80</em>(9), 867–885.",
+   "doi": "10.1038/s41430-026-01778-3"
+  },
+  "kuhlman2026": {
+   "short": "Kuhlman et al., 2026",
+   "year": 2026,
+   "type": "Scoping Review",
+   "basis": "Abstract",
+   "pmid": "41917715",
+   "apa": "Kuhlman, N. M., Jagim, A. R., Blesso, C., Jones, M. T., Chun, O., Puglisi, M. &amp; Fields, J. B. (2026). The role of collagen supplementation in bone metabolism and structure: A scoping review. <em>Clinical Journal of Sport Medicine, 36</em>(6), 664–674.",
+   "doi": "10.1097/JSM.0000000000001442"
+  }
+ }
+}

@@ -1,0 +1,1128 @@
+{
+ "id": "vitamin-c",
+ "title": "Vitamin C",
+ "stand": "2026-11-17",
+ "lead": "Schützt Vitamin C vor Erkältungen, besonders bei hoher Trainingsbelastung, hilft es gegen Muskelkater, und bremsen hohe Dosen die Trainingsanpassung? Zusammengefasst aus Metaanalysen und Cochrane-Reviews.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Vitamin C ist kein Leistungsmittel. Ein gezielter Nutzen ist am besten für Erkältungen in Phasen sehr hoher körperlicher Belastung belegt.",
+ "rx": [
+  {
+   "label": "Phasen sehr hoher Belastung",
+   "value": "regelmäßige Einnahme erwägen",
+   "text": "Bei Marathonläufern, Skifahrern und Soldaten bei subarktischen Übungen halbierte regelmäßiges Vitamin C das Erkältungsrisiko (RR 0,48); in der Allgemeinbevölkerung schützte es nicht.",
+   "cite": "Hemilä &amp; Chalker 2013; 2025"
+  },
+  {
+   "label": "Bei beginnender Erkältung",
+   "value": "individueller Versuch möglich",
+   "text": "Erst nach Symptombeginn eingenommen, waren die Ergebnisse uneinheitlich; in 2 Studien wirkten 6–8 g/Tag doppelt so gut wie 3–4 g/Tag.",
+   "cite": "Hemilä &amp; Chalker 2025; Ran et al. 2018"
+  },
+  {
+   "label": "Training",
+   "value": "keine dauerhafte Hochdosis",
+   "text": "Ein Schaden für die Anpassung ist in der Metaanalyse nicht belegt, ein Nutzen aber auch nicht. Rund 0,2 g/Tag aus fünf Portionen Obst und Gemüse könnten ausreichen.",
+   "cite": "Clifford et al. 2020; Braakhuis 2012; Rogers et al. 2023"
+  },
+  {
+   "label": "Muskelkater",
+   "value": "kein sinnvoller Einsatz",
+   "text": "Hoch dosierte Antioxidantien senkten Muskelkater nicht in klinisch relevantem Ausmaß.",
+   "cite": "Ranchordas et al. 2020; Righi et al. 2020"
+  },
+  {
+   "label": "Neigung zu Nierensteinen",
+   "value": "keine Hochdosis",
+   "text": "Vitamin C erhöhte die Oxalatausscheidung im Urin; bei Männern war die Einnahme mit mehr Nierensteinen verbunden.",
+   "cite": "Farkouh et al. 2026; Jiang et al. 2019"
+  }
+ ],
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Kein Erkältungsschutz für die Allgemeinbevölkerung",
+   "ev": "hoch",
+   "p": "Regelmäßiges Vitamin C senkte das Erkältungsrisiko in der Allgemeinbevölkerung nicht (RR 0,97), bei sehr hoher körperlicher Belastung aber um etwa die Hälfte (RR 0,48).",
+   "s": [
+    "hemila2013",
+    "douglas2000",
+    "keya2022",
+    "hemila2025"
+   ]
+  },
+  {
+   "t": "Etwas kürzere Erkältungen",
+   "ev": "hoch",
+   "p": "Bei regelmäßiger Einnahme verkürzten sich Erkältungen bei Erwachsenen um 8 %, bei Kindern um 14 %. Erst bei Symptombeginn begonnen, ist der Effekt unsicher.",
+   "s": [
+    "hemila2013",
+    "abioye2021",
+    "keya2022",
+    "ran2018"
+   ]
+  },
+  {
+   "t": "Kein relevanter Effekt auf Muskelkater",
+   "ev": "hoch",
+   "p": "Oxidative Stressmarker sanken kurz nach Belastung, Muskelkater, Kraft und Kreatinkinase änderten sich durch Vitamin C aber nicht relevant.",
+   "s": [
+    "ranchordas2020",
+    "righi2020",
+    "candeloro2026"
+   ]
+  },
+  {
+   "t": "Trainingsanpassung: kein Nutzen, Schaden nicht belegt",
+   "ev": "moderat",
+   "p": "Vitamin C und/oder E veränderten den Zuwachs an VO₂max, Ausdauer, Kraft und Muskelmasse nicht. Ältere Übersichten warnten vor Einbußen bei über 1 g/Tag.",
+   "s": [
+    "clifford2020",
+    "dutra2020",
+    "braakhuis2012",
+    "rogers2023"
+   ]
+  },
+  {
+   "t": "Leicht niedrigerer Blutdruck",
+   "ev": "moderat",
+   "p": "Systolisch etwa 3–4 mmHg niedriger in kurzen Studien; ein Schutz vor Herz-Kreislauf-Ereignissen oder Tod ist nicht belegt.",
+   "s": [
+    "juraschek2012",
+    "lbban2023",
+    "kosari2026",
+    "alkhudairy2017",
+    "bjelakovic2012"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "erkaeltung",
+   "name": "Erkältung und Atemwegsinfekte",
+   "q": "Schützt Vitamin C vor Erkältungen oder verkürzt es sie?",
+   "ev": "hoch",
+   "key": [
+    "Cochrane 2000, 30 Studien: bis 1 g/Tag über mehrere Wintermonate ohne durchgängigen Schutz; Symptomtage um 8–9 % verkürzt, knapp ein halber Tag pro Erkältung (Douglas et al., 2000).",
+    "Cochrane 2013, 29 Vergleiche mit 11 306 Personen: Erkältungsrisiko in der Allgemeinbevölkerung RR 0,97 [0,94; 1,00]. Bei 598 Marathonläufern, Skifahrern und Soldaten bei subarktischen Übungen RR 0,48 [0,35; 0,64] (Hemilä &amp; Chalker, 2013).",
+    "Regelmäßige Einnahme verkürzte Erkältungen bei Erwachsenen um 8 % [3; 12], bei Kindern um 14 % [7; 21]; 7 therapeutische Vergleiche (Beginn nach Symptombeginn) ohne durchgängigen Effekt (Hemilä &amp; Chalker, 2013).",
+    "Zusätzliche Dosis bei Erkältungsbeginn trotz täglicher Einnahme: Dauer −0,56 Tage [−1,03; −0,10] (Ran et al., 2018).",
+    "Atemwegsinfekte: Risiko RR 0,96 [0,93; 0,99], Dauer −9 % [−16; −2] (Abioye et al., 2021); in einer kleineren Analyse mit 10 Studien Risiko RR 0,94 [0,87; 1,01], nicht signifikant, Dauer SMD −0,36 [−0,62; −0,09] (Keya et al., 2022).",
+    "Übersicht 2025: In 15 Studien (n = 6 244) senkten 1 g/Tag oder mehr die Schwere von Erkältungen um 15 %; in 2 therapeutischen Studien waren 6–8 g/Tag doppelt so wirksam wie 3–4 g/Tag (Hemilä &amp; Chalker, 2025)."
+   ],
+   "critic": "Über 25 Jahre Cochrane-Reviews ist das Bild stabil: kein Schutz für die Allgemeinbevölkerung, kleine Verkürzung der Dauer. Der starke Schutz bei hoher körperlicher Belastung beruht auf nur 5 Studien mit 598 Personen, ist aber konsistent und plausibel. Therapeutische Studien sind wenige und widersprüchlich; die Hochdosis-Empfehlung von 6–8 g/Tag stützt sich auf 2 Studien.",
+   "figs": [
+    {
+     "id": "vc-cold",
+     "title": "Vitamin C und Erkältungsrisiko",
+     "cap": "Relatives Risiko mit 95-%-KI bei regelmäßiger Einnahme. Werte unter 1 = weniger Erkältungen bzw. Atemwegsinfekte.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Allgemeinbevölkerung",
+       "sub": "Hemilä &amp; Chalker, 2013",
+       "es": 0.97,
+       "lo": 0.94,
+       "hi": 1.0
+      },
+      {
+       "l": "Hohe körperliche Belastung",
+       "sub": "Hemilä &amp; Chalker, 2013",
+       "es": 0.48,
+       "lo": 0.35,
+       "hi": 0.64
+      },
+      {
+       "l": "Atemwegsinfekte, Erwachsene",
+       "sub": "Abioye et al., 2021",
+       "es": 0.96,
+       "lo": 0.93,
+       "hi": 0.99
+      },
+      {
+       "l": "Atemwegsinfekte, 10 Studien",
+       "sub": "Keya et al., 2022",
+       "es": 0.94,
+       "lo": 0.87,
+       "hi": 1.01
+      }
+     ],
+     "opts": {
+      "min": 0.3,
+      "max": 1.1,
+      "ticks": [
+       0.3,
+       0.5,
+       0.7,
+       0.9,
+       1.1
+      ],
+      "unit": "RR",
+      "ref": 1,
+      "leftLab": "weniger Infekte",
+      "rightLab": "mehr Infekte"
+     }
+    },
+    {
+     "id": "vc-dauer",
+     "title": "Verkürzung der Erkältungsdauer",
+     "cap": "Prozentuale Verkürzung mit 95-%-KI bei regelmäßiger Einnahme.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Erwachsene",
+       "es": 8,
+       "lo": 3,
+       "hi": 12
+      },
+      {
+       "l": "Kinder",
+       "es": 14,
+       "lo": 7,
+       "hi": 21
+      },
+      {
+       "l": "Atemwegsinfekte, Erwachsene",
+       "es": 9,
+       "lo": 2,
+       "hi": 16
+      }
+     ],
+     "opts": {
+      "max": 25,
+      "ticks": [
+       0,
+       5,
+       10,
+       15,
+       20,
+       25
+      ],
+      "unit": "%",
+      "xlab": "Gruppe",
+      "src": "Hemilä &amp; Chalker, 2013; Abioye et al., 2021"
+     }
+    }
+   ],
+   "s": [
+    "douglas2000",
+    "hemila2013",
+    "ran2018",
+    "abioye2021",
+    "keya2022",
+    "hemila2025"
+   ]
+  },
+  {
+   "id": "regeneration",
+   "name": "Muskelkater und oxidativer Stress",
+   "q": "Hilft Vitamin C bei der Erholung nach Belastung?",
+   "ev": "hoch",
+   "key": [
+    "Cochrane-Review zu Antioxidantien, 50 Studien mit 1 089 Personen, stets über der empfohlenen Tagesdosis: Muskelkater auf einer 10-cm-Skala nach 6 h −0,52 cm, nach 48 h −0,41 cm, nach 24, 72 und 96 h nicht signifikant; alle Intervalle weit unter der minimal relevanten Differenz von 1,4 cm. 47 Studien mit hohem Verzerrungsrisiko (Ranchordas et al., 2020).",
+    "Vitamin C allein, 18 RCTs mit 313 Personen: Lipidperoxidation direkt nach Belastung niedriger (SMD −0,49 [−0,89; −0,09]), IL-6 nach 2 h niedriger (SMD −0,76 [−1,28; −0,25]); kein Effekt auf Kreatinkinase, CRP, Cortisol, Muskelkater und Kraft (Righi et al., 2020).",
+    "Vitamin C plus E, 18 RCTs mit 322 Personen: Lipidperoxidation (SMD −0,70), IL-6 (SMD −0,58), Cortisol (SMD −0,92) und Kreatinkinase nach 48 h (SMD −0,99) gesenkt; Muskelkater und Kraft unverändert (Santos de Lima et al., 2023).",
+    "Nur doppelblinde Studien: kein Effekt auf IL-6 (2 Studien, n = 31) und MDA (3 Studien, n = 41), CRP gesenkt (2 Studien, n = 52); Vertrauenswürdigkeit niedrig bis sehr niedrig (Candeloro et al., 2026)."
+   ],
+   "critic": "Die Analysen stimmen überein: Vitamin C dämpft Blutmarker für oxidativen Stress und Entzündung, aber nicht das, was Sportler spüren (Muskelkater) oder brauchen (Kraft). Die Studien sind klein und häufig verzerrt. Die IL-6-Senkung bestätigte sich in der strengsten Analyse (nur doppelblind) nicht. Eine Dämpfung dieser Signale ist zudem nicht automatisch erwünscht, weil sie an der Trainingsanpassung beteiligt sind.",
+   "figs": [
+    {
+     "id": "vc-doms",
+     "title": "Antioxidantien und Muskelkater",
+     "cap": "Mittlere Differenz auf einer 0–10-cm-Skala mit 95-%-KI (Ranchordas et al., 2020). Die minimal relevante Differenz liegt bei 1,4 cm; alle Werte liegen deutlich darunter.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "bis 6 h",
+       "sub": "Ranchordas et al., 2020",
+       "es": -0.52,
+       "lo": -0.95,
+       "hi": -0.08
+      },
+      {
+       "l": "24 h",
+       "sub": "Ranchordas et al., 2020",
+       "es": -0.17,
+       "lo": -0.42,
+       "hi": 0.07
+      },
+      {
+       "l": "48 h",
+       "sub": "Ranchordas et al., 2020",
+       "es": -0.41,
+       "lo": -0.69,
+       "hi": -0.12
+      },
+      {
+       "l": "72 h",
+       "sub": "Ranchordas et al., 2020",
+       "es": -0.29,
+       "lo": -0.59,
+       "hi": 0.02
+      },
+      {
+       "l": "96 h",
+       "sub": "Ranchordas et al., 2020",
+       "es": -0.03,
+       "lo": -0.43,
+       "hi": 0.37
+      }
+     ],
+     "opts": {
+      "min": -1.5,
+      "max": 0.5,
+      "ticks": [
+       -1.5,
+       -1,
+       -0.5,
+       0,
+       0.5
+      ],
+      "unit": "cm",
+      "leftLab": "weniger Muskelkater",
+      "rightLab": "mehr Muskelkater"
+     }
+    }
+   ],
+   "s": [
+    "ranchordas2020",
+    "righi2020",
+    "santosdelima2023",
+    "candeloro2026"
+   ]
+  },
+  {
+   "id": "anpassung",
+   "name": "Trainingsanpassung und Leistung",
+   "q": "Bremsen hohe Vitamin-C-Dosen die Trainingsanpassung?",
+   "ev": "moderat",
+   "key": [
+    "Übersicht 2012, 12 Studien: Über 1 g/Tag verschlechterte die Leistung in 4 von 4 Studien deutlich, in 4 weiteren nicht signifikant; etwa 0,2 g/Tag aus fünf Portionen Obst und Gemüse könnten reichen, ohne die Anpassung zu stören (Braakhuis, 2012).",
+    "Metaanalyse, je 9 Studien zu Ausdauer- und Krafttraining über mindestens 4 Wochen: Vitamin C und/oder E veränderten weder den Zuwachs der VO₂max (SMD −0,14 [−0,43; 0,15]) noch der Ausdauerleistung (SMD −0,01 [−0,38; 0,36]) noch der fettfreien Masse (SMD −0,07 [−0,36; 0,23]) oder der Kraft (Clifford et al., 2020).",
+    "Krafttraining mit Vitamin C und E, 7 Studien: kein Effekt auf die Kraft (Metaanalyse mit 3 Studien); die meisten Daten sprechen gegen mehr Muskelwachstum, eine Abschwächung der Hypertrophie über längere Zeit ist möglich (Dutra et al., 2020).",
+    "Übersicht über 14 RCTs: 3 positive Befunde für Muskelschadensmarker, 11 neutrale oder negative für Muskelschaden, Leistung, Muskelkater oder Anpassung; langfristige Hochdosis wird nicht empfohlen (Rogers et al., 2023).",
+    "Belastungsinduzierte Bronchokonstriktion: 3 kleine Studien mit 40 Personen deuten auf eine bessere Lungenfunktion hin, bei niedriger Evidenzqualität (Milan et al., 2013)."
+   ],
+   "critic": "Ältere Übersichten zählten Einzelstudien und warnten vor Einbußen. Die neuere Metaanalyse fand keine messbare Abschwächung. Sie ist wahrscheinlicher zutreffend, weil sie Effektgrößen poolt, hat aber kleine Studien mit geringer Teststärke, was die Autoren selbst betonen. Da ein Nutzen ebenfalls fehlt, bleibt die Empfehlung: Vitamin C aus der Ernährung, keine dauerhafte Hochdosis im Training.",
+   "figs": [
+    {
+     "id": "vc-adapt",
+     "title": "Vitamin C/E und Trainingsanpassung",
+     "cap": "SMD mit 95-%-KI (Clifford et al., 2020). Werte unter 0 bedeuten geringere Anpassung mit Supplement. Kraft nicht dargestellt, weil Punktschätzer und Intervall im Abstract widersprüchlich sind.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "VO₂max",
+       "sub": "Clifford et al., 2020",
+       "es": -0.14,
+       "lo": -0.43,
+       "hi": 0.15
+      },
+      {
+       "l": "Ausdauerleistung",
+       "sub": "Clifford et al., 2020",
+       "es": -0.01,
+       "lo": -0.38,
+       "hi": 0.36
+      },
+      {
+       "l": "Fettfreie Masse",
+       "sub": "Clifford et al., 2020",
+       "es": -0.07,
+       "lo": -0.36,
+       "hi": 0.23
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.6,
+      "ticks": [
+       -0.6,
+       -0.3,
+       0,
+       0.3,
+       0.6
+      ],
+      "leftLab": "Anpassung gebremst",
+      "rightLab": "Anpassung verstärkt"
+     }
+    }
+   ],
+   "s": [
+    "braakhuis2012",
+    "clifford2020",
+    "dutra2020",
+    "rogers2023",
+    "milan2013"
+   ]
+  },
+  {
+   "id": "blutdruck",
+   "name": "Blutdruck und Gefäßfunktion",
+   "q": "Senkt Vitamin C den Blutdruck?",
+   "ev": "moderat",
+   "key": [
+    "29 Studien, im Median 500 mg/Tag über 8 Wochen: systolisch −3,84 mmHg [−5,29; −2,38], diastolisch −1,48 mmHg [−2,86; −0,10] (Juraschek et al., 2012).",
+    "20 Studien mit 890 Personen, im Median 757,5 mg/Tag über 6 Wochen: systolisch −3,0 mmHg [−4,7; −1,3]; stärker bei Bluthochdruck (−3,2 mmHg) und Diabetes (−4,6 mmHg) (Lbban et al., 2023).",
+    "Umbrella Review von 6 Metaanalysen mit 17 RCTs: systolisch etwa −3,7 mmHg; diastolisch insgesamt keine Senkung; geringe Vertrauenswürdigkeit (Kosari et al., 2026).",
+    "44 Studien: verbesserte Endothelfunktion (SMD 0,50 [0,34; 0,66]), stärker bei höherem Herz-Kreislauf-Risiko (Ashor et al., 2014)."
+   ],
+   "critic": "Die Blutdrucksenkung ist über mehrere Analysen konsistent, beruht aber auf kurzen, kleinen Studien. Ob daraus weniger Herz-Kreislauf-Ereignisse folgen, ist offen; die einzige große Studie fand keinen Effekt (siehe nächster Abschnitt).",
+   "figs": [
+    {
+     "id": "vc-bp",
+     "title": "Vitamin C und Blutdruck",
+     "cap": "Mittlere Änderung in mmHg mit 95-%-KI. Werte links von 0 = Senkung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Systolisch, 29 Studien",
+       "sub": "Juraschek et al., 2012",
+       "es": -3.84,
+       "lo": -5.29,
+       "hi": -2.38
+      },
+      {
+       "l": "Diastolisch, 29 Studien",
+       "sub": "Juraschek et al., 2012",
+       "es": -1.48,
+       "lo": -2.86,
+       "hi": -0.1
+      },
+      {
+       "l": "Systolisch, 20 Studien",
+       "sub": "Lbban et al., 2023",
+       "es": -3.0,
+       "lo": -4.7,
+       "hi": -1.3
+      },
+      {
+       "l": "Systolisch, Bluthochdruck",
+       "sub": "Lbban et al., 2023",
+       "es": -3.2,
+       "lo": -5.2,
+       "hi": -1.2
+      }
+     ],
+     "opts": {
+      "min": -6,
+      "max": 1,
+      "ticks": [
+       -6,
+       -4,
+       -2,
+       0
+      ],
+      "unit": "mmHg",
+      "leftLab": "niedriger",
+      "rightLab": "höher"
+     }
+    }
+   ],
+   "s": [
+    "juraschek2012",
+    "lbban2023",
+    "kosari2026",
+    "ashor2014"
+   ]
+  },
+  {
+   "id": "sterblichkeit",
+   "name": "Herz-Kreislauf und Sterblichkeit",
+   "q": "Schützt Vitamin C vor Herz-Kreislauf-Erkrankungen oder verlängert es das Leben?",
+   "ev": "moderat",
+   "key": [
+    "Cochrane 2012, Antioxidantien, 78 Studien mit 296 707 Personen: Vitamin C ohne Einfluss auf die Sterblichkeit (29 Studien, RR 1,02 [0,98; 1,07]); Beta-Carotin und Vitamin E erhöhten sie (Bjelakovic et al., 2012).",
+    "Cochrane 2017, 8 Studien mit 15 445 Personen: keine Wirkung auf schwere Herz-Kreislauf-Ereignisse (HR 0,99 [0,89; 1,10]) oder Gesamtsterblichkeit (HR 1,07 [0,97; 1,18]); Daten fast nur aus einer Studie mit männlichen US-Ärzten (Al-Khudairy et al., 2017).",
+    "Umbrella Review mit 76 Metaanalysen: höhere Vitamin-C-Zufuhr (je 50–100 mg/Tag) ging mit geringerer Sterblichkeit und weniger Herz-Kreislauf-Erkrankungen einher; für Supplemente fanden sich ungünstige Assoziationen mit Brustkrebs und Nierensteinen (Xu et al., 2022)."
+   ],
+   "critic": "Günstige Zusammenhänge stammen vor allem aus Beobachtungsstudien zur Zufuhr über die Nahrung, die gesündere Ernährung insgesamt abbilden. Randomisierte Studien mit Supplementen zeigen keinen Nutzen. Die RCT-Daten sind hier verlässlicher.",
+   "figs": [],
+   "s": [
+    "bjelakovic2012",
+    "alkhudairy2017",
+    "xu2022"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit",
+   "q": "Sind hohe Dosen Vitamin C unbedenklich?",
+   "ev": "niedrig",
+   "key": [
+    "9 Studien: Vitamin C erhöhte die Oxalatausscheidung im Urin gegenüber Placebo um 6,45 mg/24 h, bei Menschen mit und ohne Nierensteine; Citrat und Calcium unverändert (Farkouh et al., 2026).",
+    "4 Studien: bei Männern mehr Nierensteine mit Vitamin-C-Supplementen (250–499 mg/Tag: OR 1,14 [1,00; 1,28]; 1000–1499 mg/Tag: OR 1,12 [1,11; 1,13]); bei Frauen kein Zusammenhang (Jiang et al., 2019).",
+    "Cochrane: niedrige Kosten und gute Verträglichkeit; im Cochrane-Review zu Asthma wurden keine Nebenwirkungen berichtet (Hemilä &amp; Chalker, 2013; Milan et al., 2013)."
+   ],
+   "critic": "Die Nierenstein-Daten stammen aus Beobachtungsstudien; die Dosis-Wirkungs-Beziehung ist nicht einheitlich (mittlere Dosisgruppen nicht signifikant). Der Anstieg des Urin-Oxalats ist aber in kontrollierten Studien belegt und erklärt das Risiko plausibel.",
+   "figs": [],
+   "s": [
+    "farkouh2026",
+    "jiang2019",
+    "hemila2013",
+    "milan2013"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2000,
+   "t": "Cochrane: kein Erkältungsschutz",
+   "p": "Knapp ein halber Tag kürzere Erkältung.",
+   "tag": "neu",
+   "s": "douglas2000"
+  },
+  {
+   "y": 2012,
+   "t": "Blutdruck gesenkt",
+   "p": "−3,84 mmHg systolisch in 29 Studien.",
+   "tag": "neu",
+   "s": "juraschek2012"
+  },
+  {
+   "y": 2012,
+   "t": "Antioxidantien und Sterblichkeit",
+   "p": "Vitamin C neutral, Beta-Carotin und Vitamin E ungünstig.",
+   "tag": "neu",
+   "s": "bjelakovic2012"
+  },
+  {
+   "y": 2012,
+   "t": "Warnung vor Hochdosis im Training",
+   "p": "Über 1 g/Tag mit Leistungseinbußen.",
+   "tag": "neu",
+   "s": "braakhuis2012"
+  },
+  {
+   "y": 2013,
+   "t": "Cochrane-Update: Schutz bei Belastung",
+   "p": "Erkältungsrisiko bei hoher Belastung halbiert.",
+   "tag": "rel",
+   "s": "hemila2013"
+  },
+  {
+   "y": 2013,
+   "t": "Belastungsasthma",
+   "p": "Hinweise aus sehr kleinen Studien.",
+   "tag": "neu",
+   "s": "milan2013"
+  },
+  {
+   "y": 2014,
+   "t": "Bessere Endothelfunktion",
+   "p": "44 Studien, SMD 0,50.",
+   "tag": "neu",
+   "s": "ashor2014"
+  },
+  {
+   "y": 2017,
+   "t": "Kein Herz-Kreislauf-Schutz",
+   "p": "Daten fast nur aus einer großen Studie.",
+   "tag": "neu",
+   "s": "alkhudairy2017"
+  },
+  {
+   "y": 2018,
+   "t": "Zusatzdosis bei Erkältung",
+   "p": "Gut einen halben Tag kürzer.",
+   "tag": "conf",
+   "s": "ran2018"
+  },
+  {
+   "y": 2019,
+   "t": "Nierensteine bei Männern",
+   "p": "Höheres Risiko mit Supplementen.",
+   "tag": "neu",
+   "s": "jiang2019"
+  },
+  {
+   "y": 2020,
+   "t": "Muskelkater nicht relevant gesenkt",
+   "p": "50 Studien, alle Effekte unter der Relevanzschwelle.",
+   "tag": "neu",
+   "s": "ranchordas2020"
+  },
+  {
+   "y": 2020,
+   "t": "Oxidativer Stress gedämpft",
+   "p": "Lipidperoxidation und IL-6 niedriger, Muskelkater unverändert.",
+   "tag": "neu",
+   "s": "righi2020"
+  },
+  {
+   "y": 2020,
+   "t": "Keine gebremste Anpassung",
+   "p": "VO₂max, Ausdauer, Kraft und Masse unverändert.",
+   "tag": "contra",
+   "s": "clifford2020"
+  },
+  {
+   "y": 2020,
+   "t": "Krafttraining mit Vitamin C und E",
+   "p": "Kein Kraftgewinn, Hypertrophie möglicherweise gebremst.",
+   "tag": "rel",
+   "s": "dutra2020"
+  },
+  {
+   "y": 2021,
+   "t": "Atemwegsinfekte leicht reduziert",
+   "p": "RR 0,96, Dauer −9 %.",
+   "tag": "conf",
+   "s": "abioye2021"
+  },
+  {
+   "y": 2022,
+   "t": "Infektrisiko nicht signifikant gesenkt",
+   "p": "Dauer kürzer.",
+   "tag": "conf",
+   "s": "keya2022"
+  },
+  {
+   "y": 2022,
+   "t": "Umbrella Review",
+   "p": "Zufuhr günstig, Supplemente mit Nierenstein-Signal.",
+   "tag": "neu",
+   "s": "xu2022"
+  },
+  {
+   "y": 2023,
+   "t": "Vitamin C plus E nach Belastung",
+   "p": "Marker gesenkt, Muskelkater nicht.",
+   "tag": "conf",
+   "s": "santosdelima2023"
+  },
+  {
+   "y": 2023,
+   "t": "Blutdruck: Bestätigung",
+   "p": "−3,0 mmHg systolisch.",
+   "tag": "conf",
+   "s": "lbban2023"
+  },
+  {
+   "y": 2023,
+   "t": "Keine Hochdosis für Sportler",
+   "p": "11 von 14 Studien neutral oder negativ.",
+   "tag": "conf",
+   "s": "rogers2023"
+  },
+  {
+   "y": 2025,
+   "t": "Dosis bei Erkältung",
+   "p": "6–8 g/Tag wirksamer als 3–4 g/Tag in 2 Studien.",
+   "tag": "neu",
+   "s": "hemila2025"
+  },
+  {
+   "y": 2026,
+   "t": "Strenge Analyse zur Erholung",
+   "p": "Kaum Effekte auf Entzündungsmarker.",
+   "tag": "rel",
+   "s": "candeloro2026"
+  },
+  {
+   "y": 2026,
+   "t": "Umbrella Review Blutdruck",
+   "p": "Etwa −3,7 mmHg systolisch, geringe Vertrauenswürdigkeit.",
+   "tag": "conf",
+   "s": "kosari2026"
+  },
+  {
+   "y": 2026,
+   "t": "Mehr Oxalat im Urin",
+   "p": "+6,45 mg/24 h gegenüber Placebo.",
+   "tag": "neu",
+   "s": "farkouh2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "17.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 961 Einträgen, 637 Übersichtsarbeiten nach Titel geprüft, 24 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Erkältung und Atemwegsinfekte",
+   "kat": "infekte",
+   "items": [
+    {
+     "n": "Erkältungsrisiko (Allgemeinbevölkerung)",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 29,
+     "p": 11306,
+     "s": [
+      "hemila2013",
+      "douglas2000",
+      "keya2022"
+     ],
+     "t": "RR 0,97 [0,94; 1,00] bei regelmäßiger Einnahme; bereits 2000 kein durchgängiger Schutz.",
+     "v": "erkaeltung"
+    },
+    {
+     "n": "Erkältungsrisiko bei sehr hoher körperlicher Belastung",
+     "g": "C",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": 5,
+     "p": 598,
+     "s": [
+      "hemila2013",
+      "hemila2025"
+     ],
+     "t": "RR 0,48 [0,35; 0,64] bei Marathonläufern, Skifahrern und Soldaten; nur 5 Studien.",
+     "v": "erkaeltung"
+    },
+    {
+     "n": "Abnahme der Erkältungsdauer (regelmäßige Einnahme)",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 31,
+     "p": null,
+     "s": [
+      "hemila2013",
+      "abioye2021",
+      "keya2022"
+     ],
+     "t": "Erwachsene −8 % [3; 12], Kinder −14 %; Atemwegsinfekte −9 %. Knapp ein halber Tag pro Erkältung.",
+     "v": "erkaeltung"
+    },
+    {
+     "n": "Erkältungsdauer bei Einnahme ab Symptombeginn",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 7,
+     "p": null,
+     "s": [
+      "hemila2013",
+      "ran2018",
+      "hemila2025"
+     ],
+     "t": "Cochrane: kein durchgängiger Effekt in 7 Vergleichen; Zusatzdosis trotz täglicher Einnahme −0,56 Tage.",
+     "v": "erkaeltung"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung nach Belastung",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Muskelkater",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "neutral",
+     "k": 50,
+     "p": 1089,
+     "s": [
+      "ranchordas2020",
+      "righi2020",
+      "santosdelima2023"
+     ],
+     "t": "Antioxidantien: höchstens −0,52 cm auf 10-cm-Skala, weit unter der Relevanzschwelle von 1,4 cm. Vitamin C allein ohne Effekt.",
+     "v": "regeneration"
+    },
+    {
+     "n": "Oxidativer Stress (Lipidperoxidation)",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "neutral",
+     "k": 18,
+     "p": 313,
+     "s": [
+      "righi2020",
+      "santosdelima2023",
+      "candeloro2026"
+     ],
+     "t": "SMD −0,49 direkt nach Belastung; in der strengsten Analyse (MDA) nicht signifikant. Nutzen für die Erholung unklar.",
+     "v": "regeneration"
+    },
+    {
+     "n": "Muskelschaden (Kreatinkinase)",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 18,
+     "p": 313,
+     "s": [
+      "righi2020",
+      "santosdelima2023"
+     ],
+     "t": "Vitamin C allein ohne Effekt; nur in Kombination mit Vitamin E nach 48 h gesenkt (SMD −0,99).",
+     "v": "regeneration"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Trainingsanpassung",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Ausdaueranpassung (VO₂max, Leistung) unter Hochdosis",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 9,
+     "p": null,
+     "s": [
+      "clifford2020",
+      "braakhuis2012",
+      "rogers2023"
+     ],
+     "t": "VO₂max SMD −0,14, Ausdauerleistung SMD −0,01, beide nicht signifikant. Ältere Übersichten berichteten Einbußen über 1 g/Tag.",
+     "v": "anpassung"
+    },
+    {
+     "n": "Kraft- und Muskelzuwachs unter Hochdosis",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 9,
+     "p": null,
+     "s": [
+      "clifford2020",
+      "dutra2020"
+     ],
+     "t": "Fettfreie Masse SMD −0,07, Kraft unverändert; ein systematischer Review hält eine gebremste Hypertrophie über längere Zeit für möglich.",
+     "v": "anpassung"
+    },
+    {
+     "n": "Lungenfunktion bei Belastungsasthma",
+     "g": "D",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 3,
+     "p": 40,
+     "s": [
+      "milan2013"
+     ],
+     "t": "Hinweise auf bessere Lungenfunktion aus 3 sehr kleinen Studien; Evidenz niedrig.",
+     "v": "anpassung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz-Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Systolischer Blutdruck",
+     "g": "A",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 29,
+     "p": null,
+     "s": [
+      "juraschek2012",
+      "lbban2023",
+      "kosari2026"
+     ],
+     "t": "−3,84 mmHg (29 Studien), −3,0 mmHg (20 Studien), etwa −3,7 mmHg im Umbrella Review; nur kurze Studien.",
+     "v": "blutdruck"
+    },
+    {
+     "n": "Endothelfunktion",
+     "g": "B",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": 44,
+     "p": null,
+     "s": [
+      "ashor2014"
+     ],
+     "t": "SMD 0,50 [0,34; 0,66]; stärker bei hohem Herz-Kreislauf-Risiko.",
+     "v": "blutdruck"
+    },
+    {
+     "n": "Herz-Kreislauf-Ereignisse",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 8,
+     "p": 15445,
+     "s": [
+      "alkhudairy2017"
+     ],
+     "t": "HR 0,99 [0,89; 1,10]; Daten fast ausschließlich aus einer Studie mit 14 641 männlichen Ärzten.",
+     "v": "sterblichkeit"
+    },
+    {
+     "n": "Gesamtsterblichkeit",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 29,
+     "p": null,
+     "s": [
+      "bjelakovic2012",
+      "alkhudairy2017"
+     ],
+     "t": "RR 1,02 [0,98; 1,07] in 29 Studien zu Vitamin C.",
+     "v": "sterblichkeit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Nierensteinrisiko",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "schaden",
+     "k": 9,
+     "p": null,
+     "s": [
+      "farkouh2026",
+      "jiang2019",
+      "xu2022"
+     ],
+     "t": "Urin-Oxalat +6,45 mg/24 h gegenüber Placebo (9 Studien); bei Männern OR 1,12 bis 1,14 je nach Dosisgruppe, bei Frauen kein Zusammenhang.",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "douglas2000": {
+   "short": "Douglas et al., 2000",
+   "year": 2000,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "10796569",
+   "apa": "Douglas, R. M., Chalker, E. B. &amp; Treacy, B. (2000). Vitamin C for preventing and treating the common cold. <em>Cochrane Database of Systematic Reviews</em>(2), CD000980.",
+   "doi": "10.1002/14651858.CD000980"
+  },
+  "juraschek2012": {
+   "short": "Juraschek et al., 2012",
+   "year": 2012,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22492364",
+   "apa": "Juraschek, S. P., Guallar, E., Appel, L. J. &amp; Miller, E. R. (2012). Effects of vitamin C supplementation on blood pressure: A meta-analysis of randomized controlled trials. <em>The American Journal of Clinical Nutrition, 95</em>(5), 1079–1088.",
+   "doi": "10.3945/ajcn.111.027995"
+  },
+  "bjelakovic2012": {
+   "short": "Bjelakovic et al., 2012",
+   "year": 2012,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "22419320",
+   "apa": "Bjelakovic, G., Nikolova, D., Gluud, L. L., Simonetti, R. G. &amp; Gluud, C. (2012). Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases. <em>Cochrane Database of Systematic Reviews, 2012</em>(3), CD007176.",
+   "doi": "10.1002/14651858.CD007176.pub2"
+  },
+  "braakhuis2012": {
+   "short": "Braakhuis, 2012",
+   "year": 2012,
+   "type": "Übersichtsarbeit",
+   "basis": "Abstract",
+   "pmid": "22777327",
+   "apa": "Braakhuis, A. J. (2012). Effect of vitamin C supplements on physical performance. <em>Current Sports Medicine Reports, 11</em>(4), 180–184.",
+   "doi": "10.1249/JSR.0b013e31825e19cd"
+  },
+  "hemila2013": {
+   "short": "Hemilä & Chalker, 2013",
+   "year": 2013,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "23440782",
+   "apa": "Hemilä, H. &amp; Chalker, E. (2013). Vitamin C for preventing and treating the common cold. <em>Cochrane Database of Systematic Reviews, 2013</em>(1), CD000980.",
+   "doi": "10.1002/14651858.CD000980.pub4"
+  },
+  "milan2013": {
+   "short": "Milan et al., 2013",
+   "year": 2013,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "24154977",
+   "apa": "Milan, S. J., Hart, A. &amp; Wilkinson, M. (2013). Vitamin C for asthma and exercise-induced bronchoconstriction. <em>Cochrane Database of Systematic Reviews, 2013</em>(10), CD010391.",
+   "doi": "10.1002/14651858.CD010391.pub2"
+  },
+  "ashor2014": {
+   "short": "Ashor et al., 2014",
+   "year": 2014,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24792921",
+   "apa": "Ashor, A. W., Lara, J., Mathers, J. C. &amp; Siervo, M. (2014). Effect of vitamin C on endothelial function in health and disease: A systematic review and meta-analysis of randomised controlled trials. <em>Atherosclerosis, 235</em>(1), 9–20.",
+   "doi": "10.1016/j.atherosclerosis.2014.04.004"
+  },
+  "alkhudairy2017": {
+   "short": "Al-Khudairy et al., 2017",
+   "year": 2017,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "28301692",
+   "apa": "Al-Khudairy, L., Flowers, N., Wheelhouse, R., Ghannam, O., Hartley, L., Stranges, S. &amp; Rees, K. (2017). Vitamin C supplementation for the primary prevention of cardiovascular disease. <em>Cochrane Database of Systematic Reviews, 3</em>(3), CD011114.",
+   "doi": "10.1002/14651858.CD011114.pub2"
+  },
+  "ran2018": {
+   "short": "Ran et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30069463",
+   "apa": "Ran, L., Zhao, W., Wang, J., Wang, H., Zhao, Y., Tseng, Y. &amp; Bu, H. (2018). Extra dose of vitamin C based on a daily supplementation shortens the common cold: A meta-analysis of 9 randomized controlled trials. <em>BioMed Research International, 2018</em>, Artikel 1837634.",
+   "doi": "10.1155/2018/1837634"
+  },
+  "jiang2019": {
+   "short": "Jiang et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30178451",
+   "apa": "Jiang, K., Tang, K., Liu, H., Xu, H., Ye, Z. &amp; Chen, Z. (2019). Ascorbic acid supplements and kidney stones incidence among men and women: A systematic review and meta-analysis. <em>Urology Journal, 16</em>(2), 115–120.",
+   "doi": "10.22037/uj.v0i0.4275"
+  },
+  "ranchordas2020": {
+   "short": "Ranchordas et al., 2020",
+   "year": 2020,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "30054340",
+   "apa": "Ranchordas, M. K., Rogerson, D., Soltani, H. &amp; Costello, J. T. (2020). Antioxidants for preventing and reducing muscle soreness after exercise: A Cochrane systematic review. <em>British Journal of Sports Medicine, 54</em>(2), 74–78.",
+   "doi": "10.1136/bjsports-2018-099599"
+  },
+  "righi2020": {
+   "short": "Righi et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32162041",
+   "apa": "Righi, N. C., Schuch, F. B., De Nardi, A. T., Pippi, C. M., de Almeida Righi, G., Puntel, G. O., da Silva, A. M. V. &amp; Signori, L. U. (2020). Effects of vitamin C on oxidative stress, inflammation, muscle soreness, and strength following acute exercise: Meta-analyses of randomized clinical trials. <em>European Journal of Nutrition, 59</em>(7), 2827–2839.",
+   "doi": "10.1007/s00394-020-02215-2"
+  },
+  "clifford2020": {
+   "short": "Clifford et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31851538",
+   "apa": "Clifford, T., Jeffries, O., Stevenson, E. J. &amp; Davies, K. A. B. (2020). The effects of vitamin C and E on exercise-induced physiological adaptations: A systematic review and meta-analysis of randomized controlled trials. <em>Critical Reviews in Food Science and Nutrition, 60</em>(21), 3669–3679.",
+   "doi": "10.1080/10408398.2019.1703642",
+   "flag": "Kraft: Im Abstract steht SMD −0,15 mit 95-%-KI −0,16 bis 0,46; Punktschätzer und Intervall passen nicht zusammen. Hier nur als „kein Effekt“ verwendet."
+  },
+  "dutra2020": {
+   "short": "Dutra et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31970196",
+   "apa": "Dutra, M. T., Martins, W. R., Ribeiro, A. L. A. &amp; Bottaro, M. (2020). The effects of strength training combined with vitamin C and E supplementation on skeletal muscle mass and strength: A systematic review and meta-analysis. <em>Journal of Sports Medicine, 2020</em>, Artikel 3505209.",
+   "doi": "10.1155/2020/3505209"
+  },
+  "abioye2021": {
+   "short": "Abioye et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33472840",
+   "apa": "Abioye, A. I., Bromage, S. &amp; Fawzi, W. (2021). Effect of micronutrient supplements on influenza and other respiratory tract infections among adults: A systematic review and meta-analysis. <em>BMJ Global Health, 6</em>(1), Artikel e003176.",
+   "doi": "10.1136/bmjgh-2020-003176"
+  },
+  "keya2022": {
+   "short": "Keya et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34967304",
+   "apa": "Keya, T. A., Leela, A., Fernandez, K., Habib, N. &amp; Rashid, M. (2022). Effect of vitamin C supplements on respiratory tract infections: A systematic review and meta-analysis. <em>Current Reviews in Clinical and Experimental Pharmacology, 17</em>(3), 205–215.",
+   "doi": "10.2174/2772432817666211230100723"
+  },
+  "xu2022": {
+   "short": "Xu et al., 2022",
+   "year": 2022,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "35291895",
+   "apa": "Xu, K., Peng, R., Zou, Y., Jiang, X., Sun, Q. &amp; Song, C. (2022). Vitamin C intake and multiple health outcomes: An umbrella review of systematic reviews and meta-analyses. <em>International Journal of Food Sciences and Nutrition, 73</em>(5), 588–599.",
+   "doi": "10.1080/09637486.2022.2048359"
+  },
+  "santosdelima2023": {
+   "short": "Santos de Lima et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35261309",
+   "apa": "Santos de Lima, K., Schuch, F. B., Camponogara Righi, N., Chagas, P., Hemann Lamberti, M., Puntel, G. O., Vargas da Silva, A. M. &amp; Ulisses Signori, L. (2023). Effects of the combination of vitamins C and E supplementation on oxidative stress, inflammation, muscle soreness, and muscle strength following acute physical exercise: Meta-analyses of randomized controlled trials. <em>Critical Reviews in Food Science and Nutrition, 63</em>(25), 7584–7597.",
+   "doi": "10.1080/10408398.2022.2048290"
+  },
+  "lbban2023": {
+   "short": "Lbban et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37791386",
+   "apa": "Lbban, E., Kwon, K., Ashor, A., Stephan, B., Idris, I., Tsintzas, K. &amp; Siervo, M. (2023). Vitamin C supplementation showed greater effects on systolic blood pressure in hypertensive and diabetic patients: An updated systematic review and meta-analysis of randomised clinical trials. <em>International Journal of Food Sciences and Nutrition, 74</em>(8), 814–825.",
+   "doi": "10.1080/09637486.2023.2264549"
+  },
+  "rogers2023": {
+   "short": "Rogers et al., 2023",
+   "year": 2023,
+   "type": "Übersichtsarbeit (14 RCTs)",
+   "basis": "Abstract",
+   "pmid": "37417662",
+   "apa": "Rogers, D. R., Lawlor, D. J. &amp; Moeller, J. L. (2023). Vitamin C supplementation and athletic performance: A review. <em>Current Sports Medicine Reports, 22</em>(7), 255–259.",
+   "doi": "10.1249/JSR.0000000000001083"
+  },
+  "hemila2025": {
+   "short": "Hemilä & Chalker, 2025",
+   "year": 2025,
+   "type": "Übersichtsarbeit",
+   "basis": "Abstract",
+   "pmid": "39803741",
+   "apa": "Hemilä, H. &amp; Chalker, E. (2025). Vitamin C for the common cold and pneumonia. <em>Polish Archives of Internal Medicine, 135</em>(1), Artikel 16926.",
+   "doi": "10.20452/pamw.16926"
+  },
+  "candeloro2026": {
+   "short": "Candeloro et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41687812",
+   "apa": "Candeloro, B. M., Miranda, E. S. F., Hizuka, L. A., Assumpção, M. C. B., Gianini, S., Porto, A. A., Barbosa, M. P. C. R., Barbalho, S. M., Garner, D. M., Raimundo, R. D., de Abreu, L. C. &amp; Valenti, V. E. (2026). Effect of vitamin C supplementation on post-exercise recovery: A systematic review and meta-analysis of randomized double-blind placebo trials. <em>Clinical Nutrition ESPEN, 72</em>, Artikel 102962.",
+   "doi": "10.1016/j.clnesp.2026.102962"
+  },
+  "kosari2026": {
+   "short": "Kosari et al., 2026",
+   "year": 2026,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "41784995",
+   "apa": "Kosari, A., Shahinfar, H., Rostampour, K., Ghazal Mirhosseini, S. &amp; Soltani, S. (2026). The effect of vitamin C supplementation on blood pressure in adults: An umbrella review of meta-analyses of randomized clinical trials. <em>Food &amp; Function, 17</em>(6), 2643–2654.",
+   "doi": "10.1039/d5fo03679h"
+  },
+  "farkouh2026": {
+   "short": "Farkouh et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42535313",
+   "apa": "Farkouh, A., Seibly, E., Buell, M. I., Jhang, D., Amasyali, A. S., Okhunov, Z. &amp; Baldwin, D. D. (2026). The effect of vitamin C supplements on urinary stone risk: A systematic review and meta-analysis. <em>Journal of Endourology, 40</em>(11), 1242–1253.",
+   "doi": "10.1177/08927790261471733"
+  }
+ }
+}
