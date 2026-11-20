@@ -1,7 +1,7 @@
 {
  "id": "magnesium",
  "title": "Magnesium",
- "stand": "2026-11-17",
+ "stand": "2026-11-20",
  "lead": "Verbessert Magnesium Kraft und Leistung, hilft es gegen Muskelkrämpfe oder beim Schlaf, und welche Gesundheitseffekte sind belegt? Zusammengefasst aus Metaanalysen und einem Cochrane-Review.",
  "rxtitle": "Ableitungen für Ernährung und Training",
  "rxlead": "Für gesunde Erwachsene. Bei guter Versorgung bringt Magnesium keinen Leistungsvorteil; die belegten Effekte betreffen vor allem Blutdruck und Stoffwechsel.",
@@ -214,6 +214,20 @@
     "behers2024",
     "amiri2026"
    ]
+  },
+  {
+   "id": "erholung",
+   "name": "Erholung nach Belastung",
+   "q": "Beschleunigt Magnesium die Erholung?",
+   "ev": "niedrig",
+   "key": [
+    "Narrativer Review zu Erholungssupplementen (Literatur bis August 2025): Magnesium zeigte vielversprechende Ergebnisse bei subjektiven oder objektiven Erholungsmaßen wie Entzündungsmarkern, Muskelkater und Ermüdung, gehört aber nicht zu den am besten belegten Substanzen; Zahlen werden im Abstract nicht berichtet (Conti et al., 2026)."
+   ],
+   "critic": "Einzige Quelle ist ein narrativer Review ohne gepoolte Effekte; eine Metaanalyse zur Erholung bei Sportlern liegt nicht vor. Der Befund ist daher nur ein Hinweis und keine Grundlage für eine Empfehlung. Er wird deshalb nicht in der Wirkungsübersicht eingestuft.",
+   "figs": [],
+   "s": [
+    "conti2026"
+   ]
   }
  ],
  "timeline": [
@@ -279,9 +293,20 @@
    "p": "Kein Gesamteffekt auf die Endothelfunktion, kleine Abnahme der Intima-Media-Dicke.",
    "tag": "neu",
    "s": "amiri2026"
+  },
+  {
+   "y": 2026,
+   "t": "Erste Hinweise zur Erholung",
+   "p": "Narrativer Review nennt Magnesium als vielversprechend für Erholungsmaße, ohne gepoolte Daten.",
+   "tag": "neu",
+   "s": "conti2026"
   }
  ],
  "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "PubMed: 2 neue Einträge gesichtet (1 regelbasiert, 1 manuell), 1 aufgenommen, 0 Vormerkungen ausgewertet. Neuer Abschnitt „Erholung nach Belastung“ auf Grundlage eines narrativen Reviews (Conti et al., 2026); Evidenz niedrig, keine Einstufung in der Wirkungsübersicht."
+  },
   {
    "d": "17.11.2026",
    "t": "Wirkungsübersicht ergänzt: 8 Wirkungen nach Verlässlichkeit (Grad A–D), Effekt und Datenbasis eingestuft; neue Übersichtsseite für alle Supplemente."
@@ -376,6 +401,15 @@
    "pmid": "42946992",
    "apa": "Amiri, A., Gholami-Chahkand, M. S., Javazm, A. K., Jannat, B., Seighali, F. &amp; Seighali, N. (2026). The effects of oral magnesium supplements on vascular and endothelial function: An updated systematic review and meta-analysis of randomized controlled trials. <em>BMC Cardiovascular Disorders, 26</em>(1), Artikel 985.",
    "doi": "10.1186/s12872-026-06476-3"
+  },
+  "conti2026": {
+   "short": "Conti et al., 2026",
+   "year": 2026,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "43056250",
+   "apa": "Conti, F., Garner, D. &amp; Galpin, A. J. (2026). Train hard, recover smart: The supplement framework to enhance exercise recovery in recreational and elite-level athletes. <em>Journal of the International Society of Sports Nutrition, 23</em>(1), Artikel 2763838.",
+   "doi": "10.1080/15502783.2026.2763838"
   }
  },
  "matrix": [

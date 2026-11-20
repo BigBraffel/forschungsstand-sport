@@ -1,7 +1,7 @@
 {
  "id": "ausdauer",
  "title": "Ausdauertraining",
- "stand": "2026-11-16",
+ "stand": "2026-11-20",
  "intro": "<h3>Das 5-Zonen-Modell auf dieser Seite</h3>\n<p>Die Zonen sind an den beiden individuellen Schwellen verankert, weil sie physiologische Bereiche abgrenzen: die erste Laktat- bzw. Ventilationsschwelle (LT1/VT1) trennt den moderaten vom schweren Bereich, die zweite Schwelle bzw. die kritische Leistung (LT2/CP) den schweren vom sehr schweren Bereich. Für die erste Grenze gibt es gute Belege; die zweite lässt sich am verlässlichsten über die kritische Leistung bzw. Geschwindigkeit bestimmen (Jamnick et al., 2020). Feste Prozentwerte der maximalen Herzfrequenz geben die Schwellen nur ungenau wieder; die Zonen sollten daher per Test bestimmt werden.</p>\n<div class=\"zone-scale\">\n<div><b>Zone 1</b>Regeneration<span class=\"cite\">deutlich unter LT1</span></div>\n<div><b>Zone 2</b>Grundlage<span class=\"cite\">bis LT1/VT1</span></div>\n<div><b>Zone 3</b>Tempo<span class=\"cite\">zwischen LT1 und LT2</span></div>\n<div><b>Zone 4</b>Schwelle<span class=\"cite\">um LT2 / kritische Leistung</span></div>\n<div><b>Zone 5</b>VO₂max<span class=\"cite\">über LT2 bis maximal</span></div></div>\n<p class=\"cite\">In Studien zur Intensitätsverteilung werden Zone 1–2 meist als „niedrig“, Zone 3 als „Schwelle/mittel“ und Zone 4–5 als „hoch“ zusammengefasst. Polarisiert = viel niedrig, wenig mittel, etwas hoch; pyramidal = viel niedrig, weniger mittel, noch weniger hoch.</p>",
  "lead": "Was bewirkt Training in den einzelnen Intensitätszonen, und wie sollte die Intensität über die Woche verteilt werden? Zusammengefasst aus Metaanalysen, Netzwerk-Metaanalysen und einem Umbrella Review. Zielgrößen sind vor allem die maximale Sauerstoffaufnahme (VO₂max), die Schwellen und Zeitfahrleistungen.",
  "rxlead": "Für gesunde Erwachsene und Ausdauersportler. Die Belege sprechen für ein Grundgerüst aus viel lockerem Training plus regelmäßigen intensiven Einheiten; die genaue Verteilung ist weniger entscheidend als lange Konsequenz.",
@@ -219,7 +219,7 @@
    "q": "Was bringt Training zwischen den Schwellen?",
    "ev": "niedrig",
    "key": [
-    "In Netzwerk-Metaanalysen zur Intensitätsverteilung unterschieden sich Modelle mit viel (Schwellentraining) und wenig Zone-3-Anteil (polarisiert) nicht gesichert (alle Intervalle schlossen 0 ein). Schwellenbetontes Training hatte die höchste Wahrscheinlichkeit, für die VO₂max am besten zu sein („Effects of Different Training-Intensity Distribution Models …“, 2026).",
+    "In Netzwerk-Metaanalysen zur Intensitätsverteilung unterschieden sich Modelle mit viel (Schwellentraining) und wenig Zone-3-Anteil (polarisiert) nicht gesichert (alle Intervalle schlossen 0 ein). Schwellenbetontes Training hatte die höchste Wahrscheinlichkeit, für die VO₂max am besten zu sein (Li et al., 2026).",
     "Zwischen polarisiertem und pyramidalem Training (mit mehr Zone-3-Anteil) fand sich kein Unterschied in VO₂max (SMD −0,06) oder Zeitfahrleistung (SMD −0,05) (Rosenblat et al., 2025)."
    ],
    "critic": "Die verbreitete Empfehlung, Zone 3 zu meiden („graue Zone“), lässt sich aus den Metaanalysen nicht ableiten: Modelle mit mehr Zone-3-Training schneiden nicht schlechter ab. Die Datenbasis ist aber klein (13 bis 17 Studien), daher niedrig.",
@@ -400,7 +400,7 @@
    "key": [
     "17 Studien: polarisiertes Training verbesserte die VO₂peak etwas stärker als andere Verteilungen (SMD 0,24 [0,01; 0,48]), nur in Phasen unter 12 Wochen (0,40) und bei Hochtrainierten (0,46); Zeitfahrleistung gleich (−0,01) (Oliveira et al., 2024).",
     "Netzwerk-Metaanalyse, 13 Studien: kein Unterschied zwischen polarisiert und pyramidal in VO₂max und Zeitfahren (Rosenblat et al., 2025).",
-    "Netzwerk-Metaanalyse 2026: keine gesicherten Unterschiede zwischen Verteilungsmodellen; die Rangfolge sah Schwellentraining für die VO₂max und HIIT für das Zeitfahren vorn („Effects of Different Training-Intensity Distribution Models …“, 2026).",
+    "Netzwerk-Metaanalyse 2026: keine gesicherten Unterschiede zwischen Verteilungsmodellen; die Rangfolge sah Schwellentraining für die VO₂max und HIIT für das Zeitfahren vorn (Li et al., 2026).",
     "41 Studien mit Radsportlern: polarisiertes und nicht polarisiertes Training gleichwertig; längere Interventionen brachten mehr, das Wochen- oder Gesamtvolumen zeigte keinen Zusammenhang (Cove et al., 2025)."
    ],
    "critic": "Vier Analysen, ein Bild: Die Verteilung ist weniger wichtig als oft behauptet. Der einzige Vorteil des polarisierten Modells ist klein, auf kurze Phasen und Hochtrainierte beschränkt und zeigt sich nicht in der Wettkampfleistung. Wahrscheinlich gilt: Mit viel lockerem Training und regelmäßigen intensiven Reizen ist die genaue Aufteilung zweitrangig.",
@@ -764,6 +764,10 @@
  ],
  "changelog": [
   {
+   "d": "20.11.2026",
+   "t": "PubMed: 1 neuer Eintrag gesichtet (regelbasiert), 0 aufgenommen. Markierte Quelle aktualisiert: Autoren der Netzwerk-Metaanalyse zur Intensitätsverteilung nun in PubMed erfasst (Li et al., 2026), Zitat vervollständigt."
+  },
+  {
    "d": "16.11.2026",
    "t": "Vormerkungen ausgewertet: 14 geprüft, 12 aufgenommen, 2 ausgeschlossen (Methodik, reiner Molekularmarker). Zone 5 kritisch überarbeitet: Vorteil von Intervallen gegenüber Dauertraining relativiert (Sprintintervalle nicht überlegen, bei Frauen gleichwertig), Kernsatz und Evidenzgrad auf moderat angepasst. Neue Abschnitte: Kraft und Ausdauer kombiniert, Training in Hypoxie, HRV-Steuerung; Zone 2 um Mitochondrienbefund ergänzt."
   },
@@ -783,13 +787,13 @@
    "doi": "10.1007/s40279-020-01322-8"
   },
   "tid2026": {
-   "short": "„Effects of Different Training-Intensity Distribution Models …“, 2026",
+   "short": "Li et al., 2026",
    "year": 2026,
    "type": "Netzwerk-Metaanalyse (bayesianisch)",
    "basis": "Abstract",
    "pmid": "42171506",
-   "apa": "Effects of different training-intensity distribution models on maximal oxygen uptake and time-trial performance in endurance athletes: A Bayesian network meta-analysis. (2026). <em>Journal of Strength and Conditioning Research, 40</em>(7), e755–e764.",
-   "flag": "Autoren in PubMed noch nicht erfasst"
+   "apa": "Li, H., Yang, Q. &amp; Wang, B. (2026). Effects of different training-intensity distribution models on maximal oxygen uptake and time-trial performance in endurance athletes: A Bayesian network meta-analysis. <em>Journal of Strength and Conditioning Research, 40</em>(7), e755–e764.",
+   "doi": "10.1519/JSC.0000000000005415"
   },
   "rosenblat2025": {
    "short": "Rosenblat et al., 2025",

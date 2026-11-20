@@ -1,7 +1,7 @@
 {
  "id": "kreatin",
  "title": "Kreatin",
- "stand": "2026-11-17",
+ "stand": "2026-11-20",
  "lead": "Was bewirkt Kreatin bei Kraft, Muskelmasse, Ausdauer und Gehirnleistung, welche Dosis und Form sind sinnvoll, und ist es sicher? Zusammengefasst aus Metaanalysen und dem ISSN-Positionspapier.",
  "rxtitle": "Ableitungen für Ernährung und Training",
  "rxlead": "Für gesunde Erwachsene, die Krafttraining betreiben. Kreatin ist eines der am besten untersuchten Supplemente; die Wirkung entsteht vor allem in Kombination mit Training.",
@@ -381,13 +381,15 @@
    "ev": "moderat",
    "key": [
     "8 placebokontrollierte Doppelblindstudien: kein Effekt auf CRP akut (SMD 0,32 [−0,29; 0,94]) oder chronisch (SMD −0,11 [−0,69; 0,48]) und auf Interleukin-6 (SMD −0,06 [−0,64; 0,53]); Vertrauenswürdigkeit nach GRADE moderat (de Camargo et al., 2026).",
-    "Einzelne Studien in Ausdauer- und Mischsportarten berichteten niedrigere CRP- und TNF-α-Werte, Marker für Muskelschäden reagierten uneinheitlich (Wesołowski et al., 2026)."
+    "Einzelne Studien in Ausdauer- und Mischsportarten berichteten niedrigere CRP- und TNF-α-Werte, Marker für Muskelschäden reagierten uneinheitlich (Wesołowski et al., 2026).",
+    "Narrativer Review zu Erholungssupplementen (Literatur bis August 2025): Kreatinmonohydrat zählt neben Omega-3 zu den Substanzen von größtem Interesse für die Erholung von Sportlern; Zahlen werden im Abstract nicht berichtet (Conti et al., 2026)."
    ],
-   "critic": "Die einzige Metaanalyse findet keinen Effekt; sie umfasst aber nur 8 kleine Studien mit gemischten Populationen (Gesunde, Sportler, Patienten). Einzelne positive Befunde unter intensiver Ausdauerbelastung sind nicht repliziert. Kreatin sollte nicht als Mittel zur Entzündungshemmung oder schnelleren Erholung eingesetzt werden.",
+   "critic": "Die einzige Metaanalyse findet keinen Effekt; sie umfasst aber nur 8 kleine Studien mit gemischten Populationen (Gesunde, Sportler, Patienten). Einzelne positive Befunde unter intensiver Ausdauerbelastung sind nicht repliziert. Kreatin sollte nicht als Mittel zur Entzündungshemmung oder schnelleren Erholung eingesetzt werden. Ein neuer narrativer Review hebt Kreatin für die Erholung hervor. Als nicht systematische Übersicht ohne gepoolte Effekte steht er in der Evidenzhierarchie unter der Metaanalyse; für Entzündungsmarker bleibt deren Nullbefund daher maßgeblich. Mögliche Vorteile bei anderen Erholungsmaßen (z. B. Kraftwiederherstellung) sind damit nicht quantitativ belegt.",
    "figs": [],
    "s": [
     "decamargo2026",
-    "wesolowski2026"
+    "wesolowski2026",
+    "conti2026"
    ]
   },
   {
@@ -617,9 +619,20 @@
    "p": "Gepoolte Studien zeigen keine Senkung von CRP oder IL-6.",
    "tag": "neu",
    "s": "decamargo2026"
+  },
+  {
+   "y": 2026,
+   "t": "Review: Kreatin als Erholungssupplement",
+   "p": "Narrativer Review zählt Kreatin zu den interessantesten Erholungssupplementen; die Metaanalyse zu Entzündungsmarkern bleibt ohne Effekt.",
+   "tag": "contra",
+   "s": "conti2026"
   }
  ],
  "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "PubMed: 1 neuer Eintrag gesichtet, 1 aufgenommen, 0 Vormerkungen ausgewertet. Narrativer Review zu Erholungssupplementen (Conti et al., 2026) im Abschnitt „Entzündung und Erholung“ ergänzt; Einstufungen unverändert, da keine gepoolten Daten."
+  },
   {
    "d": "17.11.2026",
    "t": "Wirkungsübersicht ergänzt: 18 Wirkungen nach Verlässlichkeit (Grad A–D), Effekt und Datenbasis eingestuft; neue Übersichtsseite für alle Supplemente."
@@ -849,6 +862,15 @@
    "pmid": "34199420",
    "apa": "Forbes, S. C., Candow, D. G., Ostojic, S. M., Roberts, M. D. &amp; Chilibeck, P. D. (2021). Meta-Analysis examining the importance of creatine ingestion strategies on lean tissue mass and strength in older adults. <em>Nutrients, 13</em>(6), Artikel 1912.",
    "doi": "10.3390/nu13061912"
+  },
+  "conti2026": {
+   "short": "Conti et al., 2026",
+   "year": 2026,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "43056250",
+   "apa": "Conti, F., Garner, D. &amp; Galpin, A. J. (2026). Train hard, recover smart: The supplement framework to enhance exercise recovery in recreational and elite-level athletes. <em>Journal of the International Society of Sports Nutrition, 23</em>(1), Artikel 2763838.",
+   "doi": "10.1080/15502783.2026.2763838"
   }
  },
  "matrix": [

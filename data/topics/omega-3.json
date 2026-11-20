@@ -1,7 +1,7 @@
 {
  "id": "omega-3",
  "title": "Omega-3-Fettsäuren",
- "stand": "2026-11-17",
+ "stand": "2026-11-20",
  "lead": "Was bewirken die langkettigen Omega-3-Fettsäuren EPA und DHA bei Muskelkraft, Muskelmasse, Erholung und Herz-Kreislauf-Gesundheit? Zusammengefasst aus Metaanalysen und dem ISSN-Positionspapier 2025.",
  "rxtitle": "Ableitungen für Ernährung und Training",
  "rxlead": "Für gesunde Erwachsene. Omega-3 ist kein Muskelaufbaumittel, kann aber Entzündung und Muskelkater nach intensiver Belastung senken und hat gut belegte Herz-Kreislauf-Effekte.",
@@ -87,14 +87,16 @@
    "key": [
     "Studien von 2011 bis 2025: Omega-3 senkte Interleukin-6, TNF-α, Kreatinkinase und Muskelkater mit mittleren Effekten (SMD −0,4 bis −0,7); am stärksten bei ≥ 2 g/Tag EPA + DHA über mindestens 6 Wochen, eher bei Freizeit- als bei Spitzensportlern (Li &amp; Zhang, 2026).",
     "Positionspapier: Omega-3 kann subjektiven Muskelkater nach intensiver Belastung verringern, Immunreaktionen positiv beeinflussen und ist mit besserer Schlafqualität verbunden (Jäger et al., 2025).",
-    "Netzwerk-Metaanalyse bei Trainierten (35 Studien, 1 211 Personen): Omega-3 war unter Protein, Kreatin und Omega-3 das wirksamste Supplement für Erholungsmaße (SMD 0,40 [0,18; 0,62]); für Kraft lag Kreatin vorn (Wang et al., 2026)."
+    "Netzwerk-Metaanalyse bei Trainierten (35 Studien, 1 211 Personen): Omega-3 war unter Protein, Kreatin und Omega-3 das wirksamste Supplement für Erholungsmaße (SMD 0,40 [0,18; 0,62]); für Kraft lag Kreatin vorn (Wang et al., 2026).",
+    "Narrativer Review zu Erholungssupplementen (Literatur bis August 2025): Omega-3-Fettsäuren gehören neben Kreatin zu den Substanzen von größtem Interesse für die Erholung, bei insgesamt stark schwankender Evidenzqualität (Conti et al., 2026)."
    ],
    "critic": "Die Effekte betreffen vor allem Marker und Empfinden; ob sie zu besserer Leistungserholung oder langfristig mehr Trainingsfortschritt führen, ist nicht gezeigt. Die Studien sind meist klein und unterschiedlich dosiert. Die Netzwerk-Metaanalyse bei Trainierten bestätigt einen mittleren Erholungseffekt, stützt sich aber teilweise auf indirekte Vergleiche und fasst verschiedene Erholungsmaße zusammen.",
    "figs": [],
    "s": [
     "li2026",
     "jager2025",
-    "wang2026"
+    "wang2026",
+    "conti2026"
    ]
   },
   {
@@ -513,9 +515,20 @@
    "p": "Bei trainierten Sportlern bestes der drei Supplemente für Erholungsmaße.",
    "tag": "conf",
    "s": "wang2026"
+  },
+  {
+   "y": 2026,
+   "t": "Review bestätigt Omega-3 für Erholung",
+   "p": "Narrativer Review stuft Omega-3 als eines der interessantesten Erholungssupplemente ein.",
+   "tag": "conf",
+   "s": "conti2026"
   }
  ],
  "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "PubMed: 1 neuer Eintrag gesichtet, 1 aufgenommen, 0 Vormerkungen ausgewertet. Narrativer Review (Conti et al., 2026) stützt den Erholungseffekt von Omega-3; Wirkungsübersicht um die Quelle ergänzt, Grad B unverändert."
+  },
   {
    "d": "17.11.2026",
    "t": "Wirkungsübersicht ergänzt: 10 Wirkungen nach Verlässlichkeit (Grad A–D), Effekt und Datenbasis eingestuft; neue Übersichtsseite für alle Supplemente."
@@ -682,6 +695,15 @@
    "pmid": "38869144",
    "apa": "Dinu, M., Sofi, F., Lotti, S., Colombini, B., Mattioli, A. V., Catapano, A. L., Casula, M., Baragetti, A., Wong, N. D., Steg, P. G. &amp; Ambrosio, G. (2024). Effects of omega-3 fatty acids on coronary revascularization and cardiovascular events: A meta-analysis. <em>European Journal of Preventive Cardiology, 31</em>(15), 1863–1875.",
    "doi": "10.1093/eurjpc/zwae184"
+  },
+  "conti2026": {
+   "short": "Conti et al., 2026",
+   "year": 2026,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "43056250",
+   "apa": "Conti, F., Garner, D. &amp; Galpin, A. J. (2026). Train hard, recover smart: The supplement framework to enhance exercise recovery in recreational and elite-level athletes. <em>Journal of the International Society of Sports Nutrition, 23</em>(1), Artikel 2763838.",
+   "doi": "10.1080/15502783.2026.2763838"
   }
  },
  "matrix": [
@@ -701,7 +723,8 @@
      "s": [
       "wang2026",
       "li2026",
-      "jager2025"
+      "jager2025",
+      "conti2026"
      ],
      "t": "Bei Trainierten der stärkste Effekt auf Erholungsparameter unter den verglichenen Supplementen (SMD 0,40; 35 Studien, n = 1211); Muskelkater sank (SMD −0,4 bis −0,7).",
      "v": "erholung"
