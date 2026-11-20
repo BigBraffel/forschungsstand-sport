@@ -35,7 +35,9 @@ Diese Regeln gelten für jeden Aktualisierungslauf, ob automatisch oder von Hand
   - t: Befund mit den Zahlen aus den Abstracts
   - v: zugehöriger Abschnitt in `vars`
 
-**Grad (Verlässlichkeit, nicht Stärke).** Auf der Seite erscheint er als Beleglage mit vier Punkten: A = Stark (4), B = Gut (3), C = Begrenzt (2), D = Schwach (1), "0" = Keine Daten (leer). Es gibt bewusst keine Ampelfarben; farbig (Bernstein, „Nachteil“) sind nur Wirkungen mit b = schaden.
+**Darstellung auf der Seite.** Der Buchstabe wird automatisch aus den Quellen der Wirkung (`s`) und deren Typ berechnet: A = mindestens zwei Metaanalysen oder ein Umbrella Review, B = eine Metaanalyse, C = nur systematische Reviews oder Positionspapiere, D = nur Einzelstudien oder narrative Übersichten, – = keine Daten. Die Farbe kommt aus Effekt (`m`) und Bewertung (`b`): dunkelgrün = Nutzen mit m ≥ 3, hellgrün = Nutzen mit m 1–2 oder −1, grau = kein Effekt (m 0) oder neutral, sandfarben = uneinheitlich (m null), hellrot/rot = Nachteil mit m 1–2 bzw. ≥ 3. Deshalb müssen `s`, `m` und `b` sorgfältig gesetzt und der Quellentyp korrekt benannt sein (z. B. „Metaanalyse“, „Systematischer Review“, „Umbrella Review“). Das Feld `g` wird intern weitergeführt (Verlässlichkeit nach den folgenden Kriterien).
+
+**Grad `g` (intern, Verlässlichkeit):**
 - A: mehrere übereinstimmende Metaanalysen oder eine große (mind. 20 Studien bzw. 1000 Teilnehmende) mit eindeutigem Ergebnis.
 - B: mindestens eine Metaanalyse mit 8 oder mehr Studien, überwiegend übereinstimmend.
 - C: wenige Studien, widersprüchliche Metaanalysen, hohe Heterogenität oder eingeschränkt übertragbare Population.
