@@ -1,0 +1,1419 @@
+{
+ "id": "kohlenhydrate",
+ "title": "Kohlenhydrate",
+ "stand": "2026-11-20",
+ "lead": "Wie viel Kohlenhydrate brauchen Sportler vor, während und nach der Belastung, nützen sie auch im Krafttraining, und was taugen Low-Carb, ketogene Diät und „Train low“? Dazu: Ballaststoffe, Zucker und glykämischer Index als Gesundheitsfaktoren. Zusammengefasst aus Metaanalysen, Umbrella Reviews und Positionspapieren.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierende Erwachsene. Die Zufuhr richtet sich nach Dauer und Intensität der Belastung: Je länger und intensiver, desto wichtiger sind Kohlenhydrate. Für Krafttraining und Alltag zählen eher Menge und Qualität über den Tag.",
+ "rx": [
+  {
+   "label": "Während der Belastung",
+   "value": "30–60 g/h, ab 2,5 h bis 90 g/h",
+   "text": "Bei Einheiten über etwa 1 Stunde verbessern 30–80 g/h die Leistung. Für Belastungen über 2,5 Stunden empfiehlt der Konsens bis 90 g/h, dann als Mischung aus Glukose und Fruktose. Bei rund 1 Stunde genügen kleine Mengen oder eine Mundspülung.",
+   "cite": "Burke et al. 2011; Temesi et al. 2011; Stellingwerff &amp; Cox 2014"
+  },
+  {
+   "label": "Vor dem Wettkampf",
+   "value": "> 8 g/kg/Tag für 36–48 h",
+   "text": "Carb-Loading füllt die Glykogenspeicher und lohnt sich vor allem bei Wettkämpfen über 90 Minuten. Ob die Mahlzeit vorher einen niedrigen oder hohen glykämischen Index hat, spielt für die Ausdauerleistung keine erkennbare Rolle.",
+   "cite": "Jones et al. 2026; Hawley et al. 1997; Burdon et al. 2017"
+  },
+  {
+   "label": "Erholung bei kurzer Pause",
+   "value": "ca. 1,2 g/kg/h, mit Flüssigkeit",
+   "text": "Liegen weniger als 4 Stunden zwischen zwei Einheiten, Kohlenhydrate und Flüssigkeit priorisieren. Protein hilft der Glykogen-Resynthese nur, wenn es zusätzlich und nicht anstelle von Kohlenhydraten gegessen wird.",
+   "cite": "Kerksick et al. 2017; McCartney et al. 2018; Margolis et al. 2021"
+  },
+  {
+   "label": "Krafttraining und Low-Carb",
+   "value": "Gesamtzufuhr zweitrangig",
+   "text": "Bis etwa 10 Sätze pro Muskelgruppe in gesättigtem Zustand bringt mehr Kohlenhydrat keine messbar bessere Kraftleistung, auch nicht mehr Muskelwachstum. Eine ketogene Diät oder „Train low“ verbessert die Leistung nicht; wer damit abnimmt, verliert eher auch fettfreie Masse.",
+   "cite": "Henselmans et al. 2022; Henselmans et al. 2026; Gejl &amp; Nybo 2021; Leaf et al. 2024"
+  },
+  {
+   "label": "Alltag und Gesundheit",
+   "value": "mind. 25–29 g Ballaststoffe, wenig freier Zucker",
+   "text": "Hohe Ballaststoff- und Vollkornzufuhr geht mit niedrigerer Sterblichkeit einher; freier Zucker erhöht bei freier Ernährung das Körpergewicht. Ein mittlerer Kohlenhydratanteil aus pflanzlichen Quellen war in Kohorten am günstigsten.",
+   "cite": "Reynolds et al. 2019; Te Morenga et al. 2012; Seidelmann et al. 2018"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Hohe Zufuhren während der Belastung (über 60 g/h) sollten im Training geübt werden, weil Magen-Darm-Beschwerden individuell sehr verschieden sind. Die Gesundheitsdaten stammen überwiegend aus Beobachtungsstudien und zeigen Zusammenhänge, keine sicheren Ursachen.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Kohlenhydrate während langer Ausdauer wirken",
+   "ev": "hoch",
+   "p": "Über 1 Stunde verbessert Kohlenhydratzufuhr Zeitfahren und Zeit bis zur Erschöpfung klein bis moderat, über viele Metaanalysen hinweg.",
+   "s": [
+    "temesi2011",
+    "bourdas2021",
+    "vandenbogaerde2011",
+    "tarrit2026"
+   ]
+  },
+  {
+   "t": "Mundspülung: kleiner, aber stabiler Effekt",
+   "ev": "moderat",
+   "p": "Spülen ohne Schlucken verbessert Ausdauerleistung um etwa g = 0,18, auch nach einer Mahlzeit; bei hochintensiven Intervallen kein gesicherter Effekt.",
+   "s": [
+    "peart2017",
+    "deng2025",
+    "zalagkitis2026",
+    "suen2026"
+   ]
+  },
+  {
+   "t": "Für Kraft und Muskelwachstum zweitrangig",
+   "ev": "niedrig",
+   "p": "Mehr Kohlenhydrate verbesserten weder die Kraftleistung bei üblichem Volumen noch das Muskelwachstum; die Studienlage ist klein.",
+   "s": [
+    "henselmans2022",
+    "henselmans2026"
+   ]
+  },
+  {
+   "t": "Ketogen und „Train low“ ohne Leistungsvorteil",
+   "ev": "moderat",
+   "p": "Ketogene Diäten steigern die Fettverbrennung, verbessern aber nicht die Leistung; bei Fettverlust geht auch fettfreie Masse verloren. Periodisierte Restriktion brachte keinen Leistungsgewinn.",
+   "s": [
+    "koerich2023",
+    "gejl2021",
+    "leaf2024",
+    "ashtary2022"
+   ]
+  },
+  {
+   "t": "Qualität zählt für die Gesundheit",
+   "ev": "moderat",
+   "p": "Viele Ballaststoffe gehen mit 15–30 % geringerer Sterblichkeit und Krankheitslast einher; freier Zucker erhöht Gewicht, Blutfette und Blutdruck.",
+   "s": [
+    "reynolds2019",
+    "ramezani2024",
+    "temorenga2012",
+    "temorenga2014"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "waehrend",
+   "name": "Kohlenhydrate während der Ausdauerbelastung",
+   "q": "Wie viel Kohlenhydrat pro Stunde, und welche Art?",
+   "ev": "hoch",
+   "key": [
+    "50 Studien: Kohlenhydrate (30–80 g/h, höchstens 8 %) verbesserten das Zeitfahren (ES 0,30 [0,07; 0,53]; im Mittel +2,0 %) und die Zeit bis zur Erschöpfung (ES 0,47 [0,32; 0,62]; +15,1 %) (Temesi et al., 2011).",
+    "96 Studien, Lösungen bis 20 %: SMD 0,43 [0,35; 0,51]. Der Effekt war bei höherer kardiorespiratorischer Fitness kleiner; Zufuhr während der Belastung war besser als nur davor (Bourdas et al., 2021).",
+    "73 Studien nach Ausschluss unpräziser Studien: Effekte von etwa +6 % bis −2 %. Am besten schnitt ein Getränk mit etwa 0,7 g/kg/h Glukosepolymeren, 0,2 g/kg/h Fruktose und 0,2 g/kg/h Protein ab; mehr als 0,25 g/kg/h Fruktose schmälerte den Nutzen (Vandenbogaerde &amp; Hopkins, 2011).",
+    "Wettkampfnahe Studien mit trainierten Radfahrern: Zeitfahren 0,9 min schneller [−1,7; −0,2], mittlere Leistung +20,2 W [9,0; 31,5] nach Vorbelastung, vor allem mit 6–8 % Lösungen und über 90 Minuten (Pöchmüller et al., 2016).",
+    "61 Studien (n = 679): 82 % zeigten einen Leistungsvorteil; der Nutzen wuchs mit der Belastungsdauer. Bei etwa 1 Stunde wirkt vor allem der Mundkontakt, über 2 Stunden eine hohe Zufuhr (> 90 g/h) mit Glukose und Fruktose (Stellingwerff &amp; Cox, 2014).",
+    "Konsens: 30–60 g/h für längere Belastungen, über 2,5 Stunden bis 90 g/h; Mischungen verschiedener Kohlenhydrate maximieren die Aufnahme (Burke et al., 2011). ISSN: ab 60 Minuten intensiver Belastung 30–60 g/h als 6–8 % Lösung (Kerksick et al., 2017).",
+    "Glukose plus Fruktose gegenüber Glukose, 14 RCTs (n = 125): exogene Kohlenhydratoxidation +0,27 g/min, Fettoxidation −0,06 g/min (Dezfuli et al., 2025). Umbrella Review mit 15 Reviews und 262 RCTs: Mischungen aus Fruktose und Glukose verbesserten die Leistung stärker als einfache Kohlenhydrate, vor allem bei 1–4 Stunden (Tarrit et al., 2026).",
+    "Positionspapier von ACSM, Academy of Nutrition and Dietetics und Dietitians of Canada: Leistung und Erholung lassen sich durch gezielte Strategien zu Art, Menge und Zeitpunkt von Essen und Trinken verbessern; empfohlen wird ein individueller Plan durch Sporternährungsfachkräfte (Thomas et al., 2016).",
+    "31 Studien: Kohlenhydrate sparten etwas Muskelglykogen (SMD −0,16 [−0,30; −0,02]), etwa 24 mmol/kg Trockenmasse in rund 100 Minuten (Rothschild et al., 2026)."
+   ],
+   "critic": "Die Leistungsverbesserung ist über alle Analysen konsistent, die Effekte sind klein bis moderat. Viele Studien prüften nüchterne Teilnehmende gegen Placebo; nach einer Mahlzeit fiel der Effekt kleiner aus, und wettkampfnahe Analysen zeigen nur bei Belastungen über etwa 70–90 Minuten einen klaren Vorteil. Die meisten Daten stammen von trainierten Männern auf dem Rad. Die Empfehlung von bis zu 90 g/h beruht auf Oxidationsstudien und Konsens; ein Dosis-Wirkungs-Effekt wurde in der großen Metaanalyse von Bourdas et al. (2021) nicht gefunden. Das Umbrella Review stützt sich überwiegend auf Reviews niedriger Qualität und hat Autoren mit Firmenbezug.",
+   "figs": [
+    {
+     "id": "kh-ausdauer",
+     "title": "Kohlenhydrate während der Belastung und Ausdauerleistung",
+     "cap": "Standardisierte Effektgröße gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Vorbelastung + Zeitfahren",
+       "sub": "Temesi et al., 2011",
+       "es": 0.53,
+       "lo": 0.37,
+       "hi": 0.69
+      },
+      {
+       "l": "Zeitfahren",
+       "sub": "Temesi et al., 2011",
+       "es": 0.3,
+       "lo": 0.07,
+       "hi": 0.53
+      },
+      {
+       "l": "Zeit bis zur Erschöpfung",
+       "sub": "Temesi et al., 2011",
+       "es": 0.47,
+       "lo": 0.32,
+       "hi": 0.62
+      },
+      {
+       "l": "Vorbelastung + Zeit bis zur Erschöpfung",
+       "sub": "Temesi et al., 2011",
+       "es": 0.44,
+       "lo": 0.08,
+       "hi": 0.8
+      },
+      {
+       "l": "Alle Ausdauertests, 96 Studien",
+       "sub": "Bourdas et al., 2021",
+       "es": 0.43,
+       "lo": 0.35,
+       "hi": 0.51
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1,
+      "ticks": [
+       0,
+       0.25,
+       0.5,
+       0.75,
+       1
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "temesi2011",
+    "bourdas2021",
+    "vandenbogaerde2011",
+    "pochmuller2016",
+    "stellingwerff2014",
+    "burke2011",
+    "kerksick2017",
+    "thomas2016",
+    "dezfuli2025",
+    "tarrit2026",
+    "rothschild2026"
+   ]
+  },
+  {
+   "id": "vorher",
+   "name": "Vor der Belastung: Carb-Loading und glykämischer Index",
+   "q": "Lohnt Carb-Loading, und welche Mahlzeit vorher?",
+   "ev": "moderat",
+   "key": [
+    "Erhöhte Ausgangsglykogenwerte bringen bei Belastungen unter 5 Minuten und bei 60–90 Minuten moderater Belastung keinen Vorteil, verzögern aber bei über 90 Minuten die Erschöpfung um etwa 20 %; im Zeitfahren wurden 2–3 % berichtet (Hawley et al., 1997).",
+    "63 Studien (n = 641), davon 18 in der Metaanalyse: Mehr als 6,5 g/kg/Tag erhöhten das Muskelglykogen gegenüber geringerer Zufuhr um 191,9 mmol/kg Trockenmasse [142,8; 241,1], bei sehr hoher Heterogenität (I² 94 %). Empfehlung der Autoren: über 8 g/kg/Tag für 36–48 Stunden; mit vorheriger entleerender Belastung und Kohlenhydraten mit hohem glykämischem Index reichen 24–36 Stunden (Jones et al., 2026).",
+    "ISSN: Glykogenspeicher werden mit 8–12 g/kg/Tag maximal gefüllt (Kerksick et al., 2017).",
+    "15 Studien, alle von niedriger Qualität: Ausdauerleistung nach einer Mahlzeit mit niedrigem glykämischem Index besser als nach hohem Index (d = 0,42; Modell fester Effekte) (Heung-Sang Wong et al., 2017).",
+    "19 Studien (188 Personen): Eine Mahlzeit mit niedrigem glykämischem Index vor der Belastung brachte gegenüber hohem Index keinen signifikanten Vorteil (ES −0,17 bis −0,36), mit Kohlenhydraten während der Belastung widersprüchliche Ergebnisse (Burdon et al., 2017)."
+   ],
+   "critic": "Dass Loading die Speicher füllt, ist klar belegt; wie stark, schwankt erheblich zwischen Personen und Studien. Der Leistungsnutzen bei über 90 Minuten beruht auf älteren Einzelstudien, zusammengefasst in einer Übersicht ohne Metaanalyse (Hawley et al., 1997). Zum glykämischen Index vor dem Training widersprechen sich zwei Metaanalysen desselben Jahres: Heung-Sang Wong et al. (2017) fanden einen Vorteil für niedrigen Index, allerdings mit Modell fester Effekte und nur Studien niedriger Qualität; die methodisch strengere Analyse von Burdon et al. (2017) fand keinen Effekt. Wahrscheinlich ist der Unterschied, wenn überhaupt, klein und verschwindet, sobald während der Belastung Kohlenhydrate zugeführt werden.",
+   "figs": [],
+   "s": [
+    "hawley1997",
+    "jones2026",
+    "kerksick2017",
+    "wong2017",
+    "burdon2017"
+   ]
+  },
+  {
+   "id": "mundspuelung",
+   "name": "Kohlenhydrat-Mundspülung",
+   "q": "Hilft es, Kohlenhydrate nur im Mund zu spülen?",
+   "ev": "moderat",
+   "key": [
+    "25 Studien: kleiner Gesamteffekt (ES 0,18 [0,10; 0,27]); bei Belastungen ab 25 Minuten 0,25 [0,14; 0,36], bei höchstens 180 Sekunden 0,06 [−0,03; 0,15] und im Krafttraining −0,09 [−0,20; 0,03]. Im Zeitfahren von etwa 1 Stunde +2,48 % (Peart, 2017).",
+    "90 Studien: mehr zurückgelegte Strecke (g = 0,17 [0,03; 0,30]), kürzere Zeit (g = −0,15 [−0,25; −0,05]), höhere Arbeitsleistung (g = 0,25 [0,08; 0,41]) und Maximalkraft (g = 0,18 [0,02; 0,34]); kein Effekt auf Kraftausdauer, maximale Leistung oder VO₂max (Zalagkitis et al., 2026).",
+    "Nach einer Mahlzeit, 33 Studien: g = 0,18 [0,09; 0,28]; wirksamer bei aerober Belastung, mit Maltodextrin, Spülzeit bis 10 Sekunden und nach kohlenhydratreicher Mahlzeit; Evidenzsicherheit niedrig (Deng et al., 2025).",
+    "Hochintensive Intervalle, 20 Studien: kein signifikanter Effekt (SMD 0,18 [−0,10; 0,46]) (Suen et al., 2026)."
+   ],
+   "critic": "Drei Metaanalysen stimmen in einem kleinen Effekt bei Ausdauerbelastungen von etwa 30–60 Minuten überein; die früher vermutete Abhängigkeit von nüchternem Zustand bestätigte sich nicht. Bei kurzen, hochintensiven oder Kraftbelastungen fehlt ein Nutzen. Die Daten stammen überwiegend von Männern. Bei längeren Belastungen ist das Schlucken der Kohlenhydrate sinnvoller.",
+   "figs": [
+    {
+     "id": "kh-mund",
+     "title": "Kohlenhydrat-Mundspülung nach Belastungsart",
+     "cap": "Standardisierte Effektgröße gegenüber Placebo mit 95-%-KI. Bei Zeitangaben Vorzeichen so gedreht, dass positive Werte bessere Leistung bedeuten.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Alle Studien",
+       "sub": "Peart, 2017",
+       "es": 0.18,
+       "lo": 0.1,
+       "hi": 0.27
+      },
+      {
+       "l": "Belastung ab 25 Minuten",
+       "sub": "Peart, 2017",
+       "es": 0.25,
+       "lo": 0.14,
+       "hi": 0.36
+      },
+      {
+       "l": "Belastung bis 180 Sekunden",
+       "sub": "Peart, 2017",
+       "es": 0.06,
+       "lo": -0.03,
+       "hi": 0.15
+      },
+      {
+       "l": "Krafttraining",
+       "sub": "Peart, 2017",
+       "es": -0.09,
+       "lo": -0.2,
+       "hi": 0.03
+      },
+      {
+       "l": "Leistungszeit",
+       "sub": "Zalagkitis et al., 2026",
+       "es": 0.15,
+       "lo": 0.05,
+       "hi": 0.25
+      },
+      {
+       "l": "Nach einer Mahlzeit",
+       "sub": "Deng et al., 2025",
+       "es": 0.18,
+       "lo": 0.09,
+       "hi": 0.28
+      },
+      {
+       "l": "Hochintensive Intervalle",
+       "sub": "Suen et al., 2026",
+       "es": 0.18,
+       "lo": -0.1,
+       "hi": 0.46
+      }
+     ],
+     "opts": {
+      "min": -0.3,
+      "max": 0.5,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "peart2017",
+    "zalagkitis2026",
+    "deng2025",
+    "suen2026"
+   ]
+  },
+  {
+   "id": "erholung",
+   "name": "Erholung und Glykogen-Resynthese",
+   "q": "Was beschleunigt die Erholung zwischen zwei Einheiten?",
+   "ev": "moderat",
+   "key": [
+    "45 Studien (n = 486): Kohlenhydrate mit Wasser (im Mittel 102 g; 0,8 g/kg/h) verbesserten die Leistung in der nächsten Einheit gegenüber Wasser um 4,0 % [3,2; 4,7] mittlere Leistung; geringer, wenn vorher gegessen wurde. Zusätzliches Protein bei gleicher Kohlenhydrat- oder Energiemenge: +0,5 % [−0,5; 1,6], 13 Studien (McCartney et al., 2018).",
+    "20 Studien: Protein plus Kohlenhydrate steigerte die Glykogensynthese insgesamt nicht (g = 0,13 [−0,04; 0,29]); nur wenn das Protein zusätzliche Energie lieferte (g = 0,26 [0,04; 0,49]), bei gleicher Energie nicht (g = −0,05 [−0,23; 0,13]) (Margolis et al., 2021).",
+    "ISSN: Für schnelle Wiederauffüllung (unter 4 Stunden) 1,2 g/kg/h Kohlenhydrate mit hohem glykämischem Index, alternativ 0,8 g/kg/h Kohlenhydrate plus 0,2–0,4 g/kg/h Protein, eventuell mit Koffein (3–8 mg/kg) (Kerksick et al., 2017)."
+   ],
+   "critic": "Die Analysen sind konsistent: Entscheidend ist die Kohlenhydrat- und Energiemenge, nicht ein Zusatzeffekt von Protein. Der Nutzen betrifft vor allem kurze Pausen von bis zu 4 Stunden; bei einem Tag Pause füllt normales Essen die Speicher. Die Qualität der Studien war mittelmäßig (Rosendal-Score 63 %).",
+   "figs": [
+    {
+     "id": "kh-erholung",
+     "title": "Leistung nach kurzer Erholung",
+     "cap": "Veränderung der mittleren Leistung in der Folgeeinheit in Prozent mit 95-%-KI (McCartney et al., 2018).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kohlenhydrate + Wasser vs. Wasser",
+       "sub": "45 Studien",
+       "es": 4.0,
+       "lo": 3.2,
+       "hi": 4.7
+      },
+      {
+       "l": "Zusätzlich Protein vs. Kohlenhydrate + Wasser",
+       "sub": "13 Studien",
+       "es": 0.5,
+       "lo": -0.5,
+       "hi": 1.6
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 6,
+      "ticks": [
+       0,
+       2,
+       4,
+       6
+      ],
+      "unit": "%",
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "mccartney2018",
+    "margolis2021",
+    "kerksick2017"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Kohlenhydrate und Krafttraining",
+   "q": "Brauchen Kraftsportler viele Kohlenhydrate?",
+   "ev": "niedrig",
+   "key": [
+    "49 Studien: Akut verbesserten mehr Kohlenhydrate die Kraftleistung in 13 Studien nicht und in 6 Studien schon, vor allem gegenüber nüchternen Kontrollgruppen und bei über 10 Sätzen pro Muskelgruppe; kein Dosis-Wirkungs-Zusammenhang. Langfristig beeinflusste die Zufuhr die Leistung in 15 von 17 Studien nicht (Henselmans et al., 2022).",
+    "11 RCTs: kein signifikanter Effekt höherer Kohlenhydratzufuhr auf das Muskelwachstum (SMD 0,15), auch nicht in Studien mit gleicher Energiezufuhr; kein Hinweis auf Publikationsbias, Evidenzsicherheit niedrig (Henselmans et al., 2026).",
+    "ISSN: Kohlenhydrate während des Krafttrainings halten den Blutzucker stabil und erhöhen die Glykogenspeicher (Kerksick et al., 2017).",
+    "Ketogene gegenüber kohlenhydratreicher Ernährung bei Trainierten: 1RM −5,7 % [−14,9; 2,6], nicht sicher verschieden (Koerich et al., 2023)."
+   ],
+   "critic": "Die Befunde sind einheitlich, aber die Studienzahl ist klein und die Energiezufuhr oft nicht kontrolliert. Die ISSN-Aussage zu Kohlenhydraten während des Krafttrainings beruht auf Stoffwechselmarkern, nicht auf Kraftzuwachs. Bei sehr hohem Trainingsvolumen oder zwei Einheiten am Tag kann mehr Kohlenhydrat sinnvoll sein; dafür fehlen gute Studien.",
+   "figs": [],
+   "s": [
+    "henselmans2022",
+    "henselmans2026",
+    "kerksick2017",
+    "koerich2023"
+   ]
+  },
+  {
+   "id": "lowcarb",
+   "name": "Low-Carb, ketogene Diät und „Train low“",
+   "q": "Bringt weniger Kohlenhydrat Vorteile für Leistung oder Körperzusammensetzung?",
+   "ev": "moderat",
+   "key": [
+    "20 Studien (2005): Mit kohlenhydratreicher Kost hielten Teilnehmende länger durch (ES −0,60 zugunsten Kohlenhydrate); bei Trainierten war der Unterschied klein (−0,05), bei Untrainierten groß (−2,84); hohe Heterogenität (Erlenbusch et al., 2005).",
+    "18 Studien mit Trainierten: Tendenz zugunsten kohlenhydratreicher Kost beim Zeitfahren (−3,3 % [−8,5; 1,7]) und 1RM (−5,7 % [−14,9; 2,6]); unter ketogener Diät mehr Gewichts- (−2,4 kg [−6,2; 1,8]) und Fettverlust (−2,4 kg [−5,4; 0,2]), aber etwas weniger fettfreie Masse (−0,8 kg [−3,4; 1,9]) (Koerich et al., 2023).",
+    "Mit Krafttraining, 13 RCTs (n = 244): ketogene Diät senkte Körpergewicht (−3,67 kg [−4,44; −2,90]), Fettmasse (−2,21 kg [−3,09; −1,34]) und Körperfettanteil (−2,27 % [−3,63; −0,90]), aber auch die fettfreie Masse (−1,26 kg [−1,82; −0,70]) (Ashtary-Larky et al., 2022).",
+    "Periodisierte Kohlenhydratrestriktion („Train low“) bei gut trainierten Ausdauersportlern, 9 Studien: kein Leistungsvorteil (SMD 0,17 [−0,15; 0,49]) (Gejl &amp; Nybo, 2021).",
+    "ISSN: Ketose ab etwa unter 50 g Kohlenhydraten pro Tag; Fettoxidation steigt auf etwa 1,5 g/min, die Leistung bleibt gleich oder sinkt. Alle Studien mit Elitesportlern (bis 6 Wochen) zeigten Leistungseinbußen (Leaf et al., 2024).",
+    "Debatte Burke vs. Noakes: Einigkeit, dass der Muskel die Oxidation beider Brennstoffe trainieren kann und Kohlenhydrate während langer Belastung eine Unterzuckerung verhindern; uneinig, ob sehr hohe Kohlenhydratoxidation darüber hinaus Vorteile bringt (Burke &amp; Noakes, 2026)."
+   ],
+   "critic": "Die Befunde zur Leistung sind über zwei Jahrzehnte konsistent: kein Vorteil, eher Nachteile bei hoher Intensität. Positive Einzelergebnisse betreffen meist längere Anpassungszeiten oder moderate Intensität. Der stärkere Fettverlust ist zum Teil durch Wasser- und Glykogenverluste sowie unterschiedliche Energie- und Proteinzufuhr erklärbar (so auch die ISSN). Der Verlust an fettfreier Masse ist in der Analyse mit Krafttraining signifikant; die Bayes’sche Analyse zeigt dieselbe Richtung mit großer Unsicherheit.",
+   "figs": [
+    {
+     "id": "kh-keto",
+     "title": "Ketogene Diät und Körperzusammensetzung",
+     "cap": "Mittlere Differenz in kg gegenüber nicht ketogener Kost (95-%-KI bzw. Bayes’sches Kredibilitätsintervall).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Körpergewicht, mit Krafttraining",
+       "sub": "Ashtary-Larky et al., 2022",
+       "es": -3.67,
+       "lo": -4.44,
+       "hi": -2.9
+      },
+      {
+       "l": "Fettmasse, mit Krafttraining",
+       "sub": "Ashtary-Larky et al., 2022",
+       "es": -2.21,
+       "lo": -3.09,
+       "hi": -1.34
+      },
+      {
+       "l": "Fettfreie Masse, mit Krafttraining",
+       "sub": "Ashtary-Larky et al., 2022",
+       "es": -1.26,
+       "lo": -1.82,
+       "hi": -0.7
+      },
+      {
+       "l": "Fettmasse, Trainierte",
+       "sub": "Koerich et al., 2023",
+       "es": -2.4,
+       "lo": -5.4,
+       "hi": 0.2
+      },
+      {
+       "l": "Fettfreie Masse, Trainierte",
+       "sub": "Koerich et al., 2023",
+       "es": -0.8,
+       "lo": -3.4,
+       "hi": 1.9
+      }
+     ],
+     "opts": {
+      "min": -6,
+      "max": 2,
+      "ticks": [
+       -6,
+       -4,
+       -2,
+       0,
+       2
+      ],
+      "unit": "kg",
+      "leftLab": "weniger",
+      "rightLab": "mehr"
+     }
+    }
+   ],
+   "s": [
+    "erlenbusch2005",
+    "koerich2023",
+    "ashtary2022",
+    "gejl2021",
+    "leaf2024",
+    "burke2026"
+   ]
+  },
+  {
+   "id": "gesundheit",
+   "name": "Gesundheit: Ballaststoffe, Zucker, glykämischer Index",
+   "q": "Welche Kohlenhydrate sind langfristig günstig?",
+   "ev": "moderat",
+   "key": [
+    "185 Kohortenstudien und 58 Studien: Bei höchster gegenüber niedrigster Ballaststoffzufuhr 15–30 % weniger Gesamt- und Herz-Kreislauf-Sterblichkeit, koronare Herzkrankheit, Schlaganfall, Typ-2-Diabetes und Darmkrebs; größte Risikominderung bei 25–29 g/Tag, höhere Zufuhren möglicherweise noch günstiger. Für glykämischen Index und Last nur kleine oder keine Risikounterschiede (Evidenzsicherheit niedrig bis sehr niedrig) (Reynolds et al., 2019).",
+    "64 Kohortenstudien (über 3,5 Millionen Personen): hohe Ballaststoffzufuhr, Gesamtsterblichkeit HR 0,77 [0,73; 0,82], Herz-Kreislauf-Sterblichkeit HR 0,74 [0,71; 0,77] (Ramezani et al., 2024).",
+    "15 Kohorten (527 650 Personen): hoher glykämischer Index, Gesamtsterblichkeit RR 1,10 [1,00; 1,20]; hohe glykämische Last, Herz-Kreislauf-Sterblichkeit RR 1,18 [1,09; 1,27] (Kim &amp; Je, 2023).",
+    "Bei freier Ernährung: Gewichtsabnahme um 0,80 kg [0,39; 1,21] mit weniger Zucker, Gewichtszunahme um 0,75 kg [0,30; 1,19] mit mehr Zucker; bei gleicher Energiemenge kein Unterschied (Te Morenga et al., 2012). Mehr Zucker erhöhte Triglyzeride (+0,11 mmol/l), LDL (+0,12 mmol/l) und in Studien ab 8 Wochen den Blutdruck (+6,9/+5,6 mmHg) (Te Morenga et al., 2014).",
+    "Kohorten (432 179 Personen): U-förmiger Zusammenhang; unter 40 % Energie aus Kohlenhydraten HR 1,20 [1,09; 1,32], über 70 % HR 1,23 [1,11; 1,36]; am niedrigsten bei 50–55 %. Ersatz durch tierische Fette und Proteine HR 1,18, durch pflanzliche HR 0,82 (Seidelmann et al., 2018). Pflanzenbasierte Low-Carb-Scores: Gesamtsterblichkeit HR 0,87 [0,78; 0,97], tierbasierte HR 1,08 [0,97; 1,21] (Ghorbani et al., 2023)."
+   ],
+   "critic": "Die Daten zu Ballaststoffen sind umfangreich und durch kontrollierte Studien zu Risikofaktoren gestützt; die Evidenzsicherheit wird als moderat eingestuft. Zum glykämischen Index widersprechen sich die Analysen teilweise: Kim &amp; Je (2023) fanden ein leicht höheres Risiko, Reynolds et al. (2019) kaum Unterschiede. Die Sterblichkeitsdaten zu Low-Carb beruhen auf Ernährungsfragebögen mit Störfaktoren; die Quelle der Ersatznährstoffe scheint wichtiger als der Kohlenhydratanteil selbst. Für Sportler mit hohem Energieverbrauch sind diese Bevölkerungsdaten nur eingeschränkt übertragbar.",
+   "figs": [
+    {
+     "id": "kh-sterblichkeit",
+     "title": "Kohlenhydratqualität und Sterblichkeit",
+     "cap": "Relatives Risiko bzw. Hazard Ratio mit 95-%-KI, höchste gegenüber niedrigster Kategorie (Beobachtungsstudien).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Ballaststoffe, Gesamtsterblichkeit",
+       "sub": "Ramezani et al., 2024",
+       "es": 0.77,
+       "lo": 0.73,
+       "hi": 0.82
+      },
+      {
+       "l": "Ballaststoffe, Herz-Kreislauf-Sterblichkeit",
+       "sub": "Ramezani et al., 2024",
+       "es": 0.74,
+       "lo": 0.71,
+       "hi": 0.77
+      },
+      {
+       "l": "Glykämischer Index, Gesamtsterblichkeit",
+       "sub": "Kim &amp; Je, 2023",
+       "es": 1.1,
+       "lo": 1.0,
+       "hi": 1.2
+      },
+      {
+       "l": "Glykämische Last, Herz-Kreislauf-Sterblichkeit",
+       "sub": "Kim &amp; Je, 2023",
+       "es": 1.18,
+       "lo": 1.09,
+       "hi": 1.27
+      },
+      {
+       "l": "Kohlenhydratanteil unter 40 %",
+       "sub": "Seidelmann et al., 2018",
+       "es": 1.2,
+       "lo": 1.09,
+       "hi": 1.32
+      },
+      {
+       "l": "Kohlenhydratanteil über 70 %",
+       "sub": "Seidelmann et al., 2018",
+       "es": 1.23,
+       "lo": 1.11,
+       "hi": 1.36
+      },
+      {
+       "l": "Low-Carb pflanzenbasiert",
+       "sub": "Ghorbani et al., 2023",
+       "es": 0.87,
+       "lo": 0.78,
+       "hi": 0.97
+      },
+      {
+       "l": "Low-Carb tierbasiert",
+       "sub": "Ghorbani et al., 2023",
+       "es": 1.08,
+       "lo": 0.97,
+       "hi": 1.21
+      }
+     ],
+     "opts": {
+      "min": 0.6,
+      "max": 1.4,
+      "ticks": [
+       0.6,
+       0.8,
+       1,
+       1.2,
+       1.4
+      ],
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "reynolds2019",
+    "ramezani2024",
+    "kim2023",
+    "temorenga2012",
+    "temorenga2014",
+    "seidelmann2018",
+    "ghorbani2023"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 1997,
+   "t": "Carb-Loading eingeordnet",
+   "p": "Vorteil erst bei Belastungen über 90 Minuten.",
+   "tag": "neu",
+   "s": "hawley1997"
+  },
+  {
+   "y": 2005,
+   "t": "Fettreich gegen kohlenhydratreich",
+   "p": "Kohlenhydratreiche Kost hielt länger durch, bei Trainierten kaum Unterschied.",
+   "tag": "neu",
+   "s": "erlenbusch2005"
+  },
+  {
+   "y": 2011,
+   "t": "Kohlenhydrate während der Belastung wirken",
+   "p": "50 Studien: Zeitfahren und Ausdauer verbessert.",
+   "tag": "neu",
+   "s": "temesi2011"
+  },
+  {
+   "y": 2011,
+   "t": "Zusammensetzung entscheidet",
+   "p": "Bis +6 %; zu viel Fruktose schmälert den Nutzen.",
+   "tag": "conf",
+   "s": "vandenbogaerde2011"
+  },
+  {
+   "y": 2011,
+   "t": "Konsens: bis 90 g/h",
+   "p": "Zufuhr nach Dauer der Belastung staffeln.",
+   "tag": "neu",
+   "s": "burke2011"
+  },
+  {
+   "y": 2012,
+   "t": "Zucker und Körpergewicht",
+   "p": "Mehr freier Zucker, mehr Gewicht.",
+   "tag": "neu",
+   "s": "temorenga2012"
+  },
+  {
+   "y": 2014,
+   "t": "Mechanismus hängt von der Dauer ab",
+   "p": "Kurz: Mundkontakt; lang: hohe Zufuhr mit Glukose und Fruktose.",
+   "tag": "conf",
+   "s": "stellingwerff2014"
+  },
+  {
+   "y": 2014,
+   "t": "Zucker, Blutfette und Blutdruck",
+   "p": "Wirkung unabhängig vom Körpergewicht.",
+   "tag": "conf",
+   "s": "temorenga2014"
+  },
+  {
+   "y": 2016,
+   "t": "Positionspapier ACSM",
+   "p": "Gezielte Ernährung verbessert Leistung und Erholung.",
+   "tag": "conf",
+   "s": "thomas2016"
+  },
+  {
+   "y": 2016,
+   "t": "Wettkampfnahe Studien",
+   "p": "Vorteil vor allem bei über 90 Minuten.",
+   "tag": "rel",
+   "s": "pochmuller2016"
+  },
+  {
+   "y": 2017,
+   "t": "Niedriger glykämischer Index vorher besser?",
+   "p": "Vorteil in Studien niedriger Qualität.",
+   "tag": "neu",
+   "s": "wong2017"
+  },
+  {
+   "y": 2017,
+   "t": "Glykämischer Index vorher ohne Bedeutung",
+   "p": "Kein klarer Vorteil für niedrigen Index.",
+   "tag": "contra",
+   "s": "burdon2017"
+  },
+  {
+   "y": 2017,
+   "t": "Mundspülung quantifiziert",
+   "p": "Kleiner Effekt bei Belastungen ab 25 Minuten.",
+   "tag": "neu",
+   "s": "peart2017"
+  },
+  {
+   "y": 2017,
+   "t": "ISSN: Nutrient Timing",
+   "p": "8–12 g/kg/Tag für volle Speicher, 30–60 g/h während Belastung.",
+   "tag": "conf",
+   "s": "kerksick2017"
+  },
+  {
+   "y": 2018,
+   "t": "Erholung zwischen zwei Einheiten",
+   "p": "Kohlenhydrate mit Wasser +4 % Leistung.",
+   "tag": "neu",
+   "s": "mccartney2018"
+  },
+  {
+   "y": 2018,
+   "t": "U-förmige Sterblichkeitskurve",
+   "p": "Mittlerer Kohlenhydratanteil am günstigsten.",
+   "tag": "neu",
+   "s": "seidelmann2018"
+  },
+  {
+   "y": 2019,
+   "t": "Ballaststoffe in der Lancet-Serie",
+   "p": "15–30 % weniger Sterblichkeit und Krankheiten.",
+   "tag": "neu",
+   "s": "reynolds2019"
+  },
+  {
+   "y": 2021,
+   "t": "Protein und Glykogen",
+   "p": "Nur als zusätzliche Energie hilfreich.",
+   "tag": "rel",
+   "s": "margolis2021"
+  },
+  {
+   "y": 2021,
+   "t": "96 Studien zur Zufuhr während der Belastung",
+   "p": "SMD 0,43; geringer bei hoher Fitness.",
+   "tag": "conf",
+   "s": "bourdas2021"
+  },
+  {
+   "y": 2021,
+   "t": "„Train low“ ohne Leistungsplus",
+   "p": "Periodisierte Restriktion bei Trainierten wirkungslos.",
+   "tag": "contra",
+   "s": "gejl2021"
+  },
+  {
+   "y": 2022,
+   "t": "Ketogen mit Krafttraining",
+   "p": "Mehr Fettverlust, aber auch weniger fettfreie Masse.",
+   "tag": "neu",
+   "s": "ashtary2022"
+  },
+  {
+   "y": 2022,
+   "t": "Kohlenhydrate und Kraftleistung",
+   "p": "Bis 10 Sätze pro Muskelgruppe kein Vorteil.",
+   "tag": "neu",
+   "s": "henselmans2022"
+  },
+  {
+   "y": 2023,
+   "t": "Ketogen bei Trainierten",
+   "p": "Kein Leistungsvorteil, mehr Fettverlust.",
+   "tag": "conf",
+   "s": "koerich2023"
+  },
+  {
+   "y": 2023,
+   "t": "Glykämischer Index und Sterblichkeit",
+   "p": "Leicht höheres Risiko bei hohem Index.",
+   "tag": "rel",
+   "s": "kim2023"
+  },
+  {
+   "y": 2023,
+   "t": "Pflanzliche vs. tierische Low-Carb-Kost",
+   "p": "Nur pflanzenbasierte Variante günstig.",
+   "tag": "conf",
+   "s": "ghorbani2023"
+  },
+  {
+   "y": 2024,
+   "t": "Ballaststoffe: 64 Kohorten",
+   "p": "23 % weniger Gesamtsterblichkeit.",
+   "tag": "conf",
+   "s": "ramezani2024"
+  },
+  {
+   "y": 2024,
+   "t": "ISSN zu ketogenen Diäten",
+   "p": "Leistung neutral oder schlechter.",
+   "tag": "conf",
+   "s": "leaf2024"
+  },
+  {
+   "y": 2025,
+   "t": "Glukose plus Fruktose",
+   "p": "Mehr exogene Kohlenhydratoxidation.",
+   "tag": "conf",
+   "s": "dezfuli2025"
+  },
+  {
+   "y": 2025,
+   "t": "Mundspülung auch nach dem Essen",
+   "p": "Kleiner Effekt bleibt bestehen.",
+   "tag": "rel",
+   "s": "deng2025"
+  },
+  {
+   "y": 2026,
+   "t": "Umbrella Review zur Zufuhr während der Belastung",
+   "p": "Vorteil bei 1–4 Stunden und mit Fruktose-Glukose-Mischungen.",
+   "tag": "conf",
+   "s": "tarrit2026"
+  },
+  {
+   "y": 2026,
+   "t": "Glykogen wird geschont",
+   "p": "Kleiner Spareffekt durch Kohlenhydratzufuhr.",
+   "tag": "neu",
+   "s": "rothschild2026"
+  },
+  {
+   "y": 2026,
+   "t": "Carb-Loading quantifiziert",
+   "p": "Über 8 g/kg/Tag für 36–48 Stunden.",
+   "tag": "rel",
+   "s": "jones2026"
+  },
+  {
+   "y": 2026,
+   "t": "Mundspülung: 90 Studien",
+   "p": "Kleine Effekte auf Strecke, Zeit und Arbeitsleistung.",
+   "tag": "conf",
+   "s": "zalagkitis2026"
+  },
+  {
+   "y": 2026,
+   "t": "Mundspülung bei Intervallen",
+   "p": "Kein gesicherter Effekt.",
+   "tag": "contra",
+   "s": "suen2026"
+  },
+  {
+   "y": 2026,
+   "t": "Kohlenhydrate und Muskelwachstum",
+   "p": "Kein unabhängiger Effekt.",
+   "tag": "conf",
+   "s": "henselmans2026"
+  },
+  {
+   "y": 2026,
+   "t": "Debatte Low-Carb vs. High-Carb",
+   "p": "Einigkeit bei Unterzuckerung, Streit über sehr hohe Zufuhren.",
+   "tag": "rel",
+   "s": "burke2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 4 697 Einträgen, 712 Übersichtsarbeiten nach Titel geprüft (685 aus der Themensuche, 27 aus ergänzenden Suchen), 36 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Ausdauerleistung: Kohlenhydrate während Belastung ab 1 Stunde",
+     "g": "A",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 96,
+     "p": null,
+     "s": [
+      "bourdas2021",
+      "temesi2011",
+      "vandenbogaerde2011",
+      "tarrit2026",
+      "pochmuller2016"
+     ],
+     "t": "SMD 0,43 (96 Studien); Zeitfahren ES 0,30, Zeit bis zur Erschöpfung ES 0,47 (50 Studien). Geringer nach einer Mahlzeit und bei hoher Fitness.",
+     "v": "waehrend"
+    },
+    {
+     "n": "Exogene Kohlenhydratoxidation: Glukose plus Fruktose statt Glukose",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 14,
+     "p": 125,
+     "s": [
+      "dezfuli2025",
+      "stellingwerff2014",
+      "tarrit2026"
+     ],
+     "t": "+0,27 g/min exogene Oxidation (14 RCTs, n = 125); bei rund 1 g/min Zufuhr ein praktisch relevanter, kleiner bis mittlerer Zugewinn. Leistungsvorteil im Umbrella Review berichtet.",
+     "v": "waehrend"
+    },
+    {
+     "n": "Muskelglykogen durch Carb-Loading (über 6,5 g/kg/Tag)",
+     "g": "C",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": 18,
+     "p": null,
+     "s": [
+      "jones2026",
+      "hawley1997",
+      "kerksick2017"
+     ],
+     "t": "+191,9 mmol/kg Trockenmasse (18 Studien), sehr heterogen (I² 94 %); als deutliche Speicherfüllung eingestuft. Leistungsvorteil vor allem bei Belastungen über 90 Minuten.",
+     "v": "vorher"
+    },
+    {
+     "n": "Ausdauerleistung: Kohlenhydrat-Mundspülung",
+     "g": "A",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 90,
+     "p": null,
+     "s": [
+      "zalagkitis2026",
+      "deng2025",
+      "peart2017",
+      "suen2026"
+     ],
+     "t": "g = 0,17–0,25 je nach Messgröße (90 Studien), auch nach einer Mahlzeit g = 0,18. Bei hochintensiven Intervallen (SMD 0,18) und Kurzbelastungen kein signifikanter Effekt.",
+     "v": "mundspuelung"
+    },
+    {
+     "n": "Ausdauerleistung: „Train low“ (periodisierte Restriktion)",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 9,
+     "p": null,
+     "s": [
+      "gejl2021",
+      "burke2011"
+     ],
+     "t": "SMD 0,17, nicht signifikant (9 Studien mit gut trainierten Ausdauersportlern).",
+     "v": "lowcarb"
+    },
+    {
+     "n": "Leistung: ketogene statt kohlenhydratreiche Ernährung",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 20,
+     "p": null,
+     "s": [
+      "koerich2023",
+      "erlenbusch2005",
+      "leaf2024"
+     ],
+     "t": "Kein Vorteil; Tendenz zugunsten Kohlenhydraten (Zeitfahren −3,3 %, 1RM −5,7 %, Intervalle schließen null ein). Ältere Analyse ES −0,60 bei großer Heterogenität; ISSN: neutral oder nachteilig.",
+     "v": "lowcarb"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und Muskelmasse",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Muskelwachstum: höhere Kohlenhydratzufuhr",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": null,
+     "s": [
+      "henselmans2026",
+      "henselmans2022"
+     ],
+     "t": "SMD 0,15, nicht signifikant (11 RCTs); Evidenzsicherheit niedrig. Auch die Kraftleistung war in 15 von 17 Langzeitstudien unverändert.",
+     "v": "kraft"
+    },
+    {
+     "n": "Fettfreie Masse unter ketogener Diät",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 13,
+     "p": 244,
+     "s": [
+      "ashtary2022",
+      "koerich2023",
+      "leaf2024"
+     ],
+     "t": "−1,26 kg trotz Krafttraining (13 RCTs, n = 244); teils Wasser und Glykogen. Bei Trainierten −0,8 kg mit großer Unsicherheit.",
+     "v": "lowcarb"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung zwischen Einheiten",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Leistung nach kurzer Erholung: Kohlenhydrate mit Wasser",
+     "g": "B",
+     "d": "auf",
+     "m": 4,
+     "b": "nutzen",
+     "k": 45,
+     "p": 486,
+     "s": [
+      "mccartney2018",
+      "kerksick2017",
+      "vandenbogaerde2011"
+     ],
+     "t": "+4,0 % mittlere Leistung gegenüber Wasser (45 Studien, n = 486); nach den Schwellen von Vandenbogaerde &amp; Hopkins (ab 2,7 % groß) ein großer Effekt.",
+     "v": "erholung"
+    },
+    {
+     "n": "Glykogensynthese: Protein zusätzlich zu Kohlenhydraten",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 20,
+     "p": null,
+     "s": [
+      "margolis2021",
+      "mccartney2018"
+     ],
+     "t": "Insgesamt g = 0,13, nicht signifikant (20 Studien); nur mit zusätzlicher Energie g = 0,26.",
+     "v": "erholung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Körpergewicht und Körperfett",
+   "kat": "koerper",
+   "items": [
+    {
+     "n": "Fettmasse unter ketogener Diät mit Krafttraining",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 13,
+     "p": 244,
+     "s": [
+      "ashtary2022",
+      "koerich2023"
+     ],
+     "t": "−2,21 kg Fettmasse, −2,27 Prozentpunkte Körperfett (13 RCTs); vermutlich teils durch geringere Energiezufuhr.",
+     "v": "lowcarb"
+    },
+    {
+     "n": "Körpergewicht bei mehr freiem Zucker",
+     "g": "A",
+     "d": "auf",
+     "m": 1,
+     "b": "schaden",
+     "k": 30,
+     "p": null,
+     "s": [
+      "temorenga2012",
+      "temorenga2014"
+     ],
+     "t": "+0,75 kg bei mehr, −0,80 kg bei weniger Zucker (30 Studien); bei gleicher Energiemenge kein Unterschied. Als kleiner Effekt eingestuft.",
+     "v": "gesundheit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sterblichkeit und Herz-Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Gesamtsterblichkeit bei hoher Ballaststoffzufuhr",
+     "g": "A",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 64,
+     "p": 3512828,
+     "s": [
+      "ramezani2024",
+      "reynolds2019"
+     ],
+     "t": "HR 0,77 (64 Kohorten, über 3,5 Millionen Personen); 15–30 % weniger Sterblichkeit und Krankheiten in der Lancet-Serie.",
+     "v": "gesundheit"
+    },
+    {
+     "n": "Sterblichkeit bei hohem glykämischem Index",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "schaden",
+     "k": 15,
+     "p": 527650,
+     "s": [
+      "kim2023",
+      "reynolds2019"
+     ],
+     "t": "RR 1,10 für Gesamtsterblichkeit (15 Kohorten), Intervall berührt 1; in der Lancet-Serie kaum Unterschiede bei niedriger Evidenzsicherheit.",
+     "v": "gesundheit"
+    },
+    {
+     "n": "Sterblichkeit bei sehr niedrigem oder sehr hohem Kohlenhydratanteil",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "schaden",
+     "k": null,
+     "p": 432179,
+     "s": [
+      "seidelmann2018",
+      "ghorbani2023"
+     ],
+     "t": "U-förmig: unter 40 % HR 1,20, über 70 % HR 1,23; günstigster Bereich 50–55 %. Pflanzlicher Ersatz HR 0,82, tierischer HR 1,18.",
+     "v": "gesundheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "hawley1997": {
+   "short": "Hawley et al., 1997",
+   "year": 1997,
+   "type": "Übersichtsarbeit",
+   "basis": "Abstract",
+   "pmid": "9291549",
+   "apa": "Hawley, J. A., Schabort, E. J., Noakes, T. D. &amp; Dennis, S. C. (1997). Carbohydrate-loading and exercise performance. An update. <em>Sports Medicine, 24</em>(2), 73–81.",
+   "doi": "10.2165/00007256-199724020-00001"
+  },
+  "erlenbusch2005": {
+   "short": "Erlenbusch et al., 2005",
+   "year": 2005,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "15902985",
+   "apa": "Erlenbusch, M., Haub, M., Munoz, K., MacConnie, S. &amp; Stillwell, B. (2005). Effect of high-fat or high-carbohydrate diets on endurance exercise: A meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 15</em>(1), 1–14.",
+   "doi": "10.1123/ijsnem.15.1.1"
+  },
+  "temesi2011": {
+   "short": "Temesi et al., 2011",
+   "year": 2011,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "21411610",
+   "apa": "Temesi, J., Johnson, N. A., Raymond, J., Burdon, C. A. &amp; O'Connor, H. T. (2011). Carbohydrate ingestion during endurance exercise improves performance in adults. <em>The Journal of Nutrition, 141</em>(5), 890–897.",
+   "doi": "10.3945/jn.110.137075"
+  },
+  "vandenbogaerde2011": {
+   "short": "Vandenbogaerde & Hopkins, 2011",
+   "year": 2011,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "21846165",
+   "apa": "Vandenbogaerde, T. J. &amp; Hopkins, W. G. (2011). Effects of acute carbohydrate supplementation on endurance performance: A meta-analysis. <em>Sports Medicine, 41</em>(9), 773–792.",
+   "doi": "10.2165/11590520-000000000-00000"
+  },
+  "burke2011": {
+   "short": "Burke et al., 2011",
+   "year": 2011,
+   "type": "Konsensus-Übersicht",
+   "basis": "Abstract",
+   "pmid": "21660838",
+   "apa": "Burke, L. M., Hawley, J. A., Wong, S. H. &amp; Jeukendrup, A. E. (2011). Carbohydrates for training and competition. <em>Journal of Sports Sciences, 29</em>(Suppl. 1), S17–S27.",
+   "doi": "10.1080/02640414.2011.585473",
+   "flag": "Entstand im Rahmen der IOC-Konsensuskonferenz zur Sporternährung (Supplement des Journal of Sports Sciences); im Abstract selbst nicht genannt."
+  },
+  "temorenga2012": {
+   "short": "Te Morenga et al., 2012",
+   "year": 2012,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23321486",
+   "apa": "Te Morenga, L., Mallard, S. &amp; Mann, J. (2012). Dietary sugars and body weight: Systematic review and meta-analyses of randomised controlled trials and cohort studies. <em>BMJ, 346</em>, Artikel e7492.",
+   "doi": "10.1136/bmj.e7492"
+  },
+  "stellingwerff2014": {
+   "short": "Stellingwerff & Cox, 2014",
+   "year": 2014,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "24951297",
+   "apa": "Stellingwerff, T. &amp; Cox, G. R. (2014). Systematic review: Carbohydrate supplementation on exercise performance or capacity of varying durations. <em>Applied Physiology, Nutrition, and Metabolism, 39</em>(9), 998–1011.",
+   "doi": "10.1139/apnm-2014-0027"
+  },
+  "temorenga2014": {
+   "short": "Te Morenga et al., 2014",
+   "year": 2014,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24808490",
+   "apa": "Te Morenga, L. A., Howatson, A. J., Jones, R. M. &amp; Mann, J. (2014). Dietary sugars and cardiometabolic risk: Systematic review and meta-analyses of randomized controlled trials of the effects on blood pressure and lipids. <em>The American Journal of Clinical Nutrition, 100</em>(1), 65–79.",
+   "doi": "10.3945/ajcn.113.081521"
+  },
+  "thomas2016": {
+   "short": "Thomas et al., 2016",
+   "year": 2016,
+   "type": "Positionspapier (ACSM, Academy of Nutrition and Dietetics, Dietitians of Canada)",
+   "basis": "Abstract",
+   "pmid": "26891166",
+   "apa": "Thomas, D. T., Erdman, K. A. &amp; Burke, L. M. (2016). American College of Sports Medicine joint position statement. Nutrition and athletic performance. <em>Medicine &amp; Science in Sports &amp; Exercise, 48</em>(3), 543–568.",
+   "doi": "10.1249/MSS.0000000000000852"
+  },
+  "pochmuller2016": {
+   "short": "Pöchmüller et al., 2016",
+   "year": 2016,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27408608",
+   "apa": "Pöchmüller, M., Schwingshackl, L., Colombani, P. C. &amp; Hoffmann, G. (2016). A systematic review and meta-analysis of carbohydrate benefits associated with randomized controlled competition-based performance trials. <em>Journal of the International Society of Sports Nutrition, 13</em>, Artikel 27.",
+   "doi": "10.1186/s12970-016-0139-6"
+  },
+  "wong2017": {
+   "short": "Heung-Sang Wong et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28383695",
+   "apa": "Heung-Sang Wong, S., Sun, F. H., Chen, Y. J., Li, C., Zhang, Y. J. &amp; Ya-Jun Huang, W. (2017). Effect of pre-exercise carbohydrate diets with high vs low glycemic index on exercise performance: A meta-analysis. <em>Nutrition Reviews, 75</em>(5), 327–338.",
+   "doi": "10.1093/nutrit/nux003"
+  },
+  "burdon2017": {
+   "short": "Burdon et al., 2017",
+   "year": 2017,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27677914",
+   "apa": "Burdon, C. A., Spronk, I., Cheng, H. L. &amp; O'Connor, H. T. (2017). Effect of glycemic index of a pre-exercise meal on endurance exercise performance: A systematic review and meta-analysis. <em>Sports Medicine, 47</em>(6), 1087–1101.",
+   "doi": "10.1007/s40279-016-0632-8"
+  },
+  "kerksick2017": {
+   "short": "Kerksick et al., 2017",
+   "year": 2017,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "28919842",
+   "apa": "Kerksick, C. M., Arent, S., Schoenfeld, B. J., Stout, J. R., Campbell, B., Wilborn, C. D., Taylor, L., Kalman, D., Smith-Ryan, A. E., Kreider, R. B., Willoughby, D., Arciero, P. J., VanDusseldorp, T. A., Ormsbee, M. J., Wildman, R., Greenwood, M., Ziegenfuss, T. N., Aragon, A. A. &amp; Antonio, J. (2017). International Society of Sports Nutrition position stand: Nutrient timing. <em>Journal of the International Society of Sports Nutrition, 14</em>, Artikel 33.",
+   "doi": "10.1186/s12970-017-0189-4"
+  },
+  "peart2017": {
+   "short": "Peart, 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28538327",
+   "apa": "Peart, D. J. (2017). Quantifying the effect of carbohydrate mouth rinsing on exercise performance. <em>Journal of Strength and Conditioning Research, 31</em>(6), 1737–1743.",
+   "doi": "10.1519/JSC.0000000000001741"
+  },
+  "mccartney2018": {
+   "short": "McCartney et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29098657",
+   "apa": "McCartney, D., Desbrow, B. &amp; Irwin, C. (2018). Post-exercise ingestion of carbohydrate, protein and water: A systematic review and meta-analysis for effects on subsequent athletic performance. <em>Sports Medicine, 48</em>(2), 379–408.",
+   "doi": "10.1007/s40279-017-0800-5"
+  },
+  "seidelmann2018": {
+   "short": "Seidelmann et al., 2018",
+   "year": 2018,
+   "type": "Kohortenstudie mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30122560",
+   "apa": "Seidelmann, S. B., Claggett, B., Cheng, S., Henglin, M., Shah, A., Steffen, L. M., Folsom, A. R., Rimm, E. B., Willett, W. C. &amp; Solomon, S. D. (2018). Dietary carbohydrate intake and mortality: A prospective cohort study and meta-analysis. <em>The Lancet Public Health, 3</em>(9), e419–e428.",
+   "doi": "10.1016/S2468-2667(18)30135-X"
+  },
+  "reynolds2019": {
+   "short": "Reynolds et al., 2019",
+   "year": 2019,
+   "type": "Serie systematischer Reviews mit Metaanalysen",
+   "basis": "Abstract",
+   "pmid": "30638909",
+   "apa": "Reynolds, A., Mann, J., Cummings, J., Winter, N., Mete, E. &amp; Te Morenga, L. (2019). Carbohydrate quality and human health: A series of systematic reviews and meta-analyses. <em>The Lancet, 393</em>(10170), 434–445.",
+   "doi": "10.1016/S0140-6736(18)31809-9"
+  },
+  "margolis2021": {
+   "short": "Margolis et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32826640",
+   "apa": "Margolis, L. M., Allen, J. T., Hatch-McChesney, A. &amp; Pasiakos, S. M. (2021). Coingestion of carbohydrate and protein on muscle glycogen synthesis after exercise: A meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 53</em>(2), 384–393.",
+   "doi": "10.1249/MSS.0000000000002476"
+  },
+  "bourdas2021": {
+   "short": "Bourdas et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34959776",
+   "apa": "Bourdas, D. I., Souglis, A., Zacharakis, E. D., Geladas, N. D. &amp; Travlos, A. K. (2021). Meta-Analysis of carbohydrate solution intake during prolonged exercise in adults: From the last 45+ years' perspective. <em>Nutrients, 13</em>(12), Artikel 4223.",
+   "doi": "10.3390/nu13124223"
+  },
+  "gejl2021": {
+   "short": "Gejl & Nybo, 2021",
+   "year": 2021,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34001184",
+   "apa": "Gejl, K. D. &amp; Nybo, L. (2021). Performance effects of periodized carbohydrate restriction in endurance trained athletes – A systematic review and meta-analysis. <em>Journal of the International Society of Sports Nutrition, 18</em>(1), Artikel 37.",
+   "doi": "10.1186/s12970-021-00435-3"
+  },
+  "ashtary2022": {
+   "short": "Ashtary-Larky et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33624538",
+   "apa": "Ashtary-Larky, D., Bagheri, R., Asbaghi, O., Tinsley, G. M., Kooti, W., Abbasnezhad, A., Afrisham, R. &amp; Wong, A. (2022). Effects of resistance training combined with a ketogenic diet on body composition: A systematic review and meta-analysis. <em>Critical Reviews in Food Science and Nutrition, 62</em>(21), 5717–5732.",
+   "doi": "10.1080/10408398.2021.1890689"
+  },
+  "henselmans2022": {
+   "short": "Henselmans et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35215506",
+   "apa": "Henselmans, M., Bjørnsen, T., Hedderman, R. &amp; Vårvik, F. T. (2022). The effect of carbohydrate intake on strength and resistance training performance: A systematic review. <em>Nutrients, 14</em>(4), Artikel 856.",
+   "doi": "10.3390/nu14040856"
+  },
+  "koerich2023": {
+   "short": "Koerich et al., 2023",
+   "year": 2023,
+   "type": "Bayes’sche Metaanalyse und Metaregression",
+   "basis": "Abstract",
+   "pmid": "35757868",
+   "apa": "Koerich, A. C. C., Borszcz, F. K., Thives Mello, A., de Lucas, R. D. &amp; Hansen, F. (2023). Effects of the ketogenic diet on performance and body composition in athletes and trained adults: A systematic review and Bayesian multivariate multilevel meta-analysis and meta-regression. <em>Critical Reviews in Food Science and Nutrition, 63</em>(32), 11399–11424.",
+   "doi": "10.1080/10408398.2022.2090894"
+  },
+  "kim2023": {
+   "short": "Kim & Je, 2023",
+   "year": 2023,
+   "type": "Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "37625313",
+   "apa": "Kim, Y. &amp; Je, Y. (2023). Dietary glycemic index, glycemic load and all-cause and cause-specific mortality: A meta-analysis of prospective cohort studies. <em>Clinical Nutrition, 42</em>(10), 1827–1838.",
+   "doi": "10.1016/j.clnu.2023.08.014"
+  },
+  "ghorbani2023": {
+   "short": "Ghorbani et al., 2023",
+   "year": 2023,
+   "type": "Dosis-Wirkungs-Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "37419282",
+   "apa": "Ghorbani, Z., Kazemi, A., Shoaibinobarian, N., Taylor, K. &amp; Noormohammadi, M. (2023). Overall, plant-based, or animal-based low carbohydrate diets and all-cause and cause-specific mortality: A systematic review and dose-response meta-analysis of prospective cohort studies. <em>Ageing Research Reviews, 90</em>, Artikel 101997.",
+   "doi": "10.1016/j.arr.2023.101997"
+  },
+  "ramezani2024": {
+   "short": "Ramezani et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "38011755",
+   "apa": "Ramezani, F., Pourghazi, F., Eslami, M., Gholami, M., Mohammadian Khonsari, N., Ejtahed, H. S., Larijani, B. &amp; Qorbani, M. (2024). Dietary fiber intake and all-cause and cause-specific mortality: An updated systematic review and meta-analysis of prospective cohort studies. <em>Clinical Nutrition, 43</em>(1), 65–83.",
+   "doi": "10.1016/j.clnu.2023.11.005"
+  },
+  "leaf2024": {
+   "short": "Leaf et al., 2024",
+   "year": 2024,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "38934469",
+   "apa": "Leaf, A., Rothschild, J. A., Sharpe, T. M., Sims, S. T., Macias, C. J., Futch, G. G., Roberts, M. D., Stout, J. R., Ormsbee, M. J., Aragon, A. A., Campbell, B. I., Arent, S. M., D'Agostino, D. P., Barrack, M. T., Kerksick, C. M., Kreider, R. B., Kalman, D. S. &amp; Antonio, J. (2024). International Society of Sports Nutrition position stand: Ketogenic diets. <em>Journal of the International Society of Sports Nutrition, 21</em>(1), Artikel 2368167.",
+   "doi": "10.1080/15502783.2024.2368167"
+  },
+  "dezfuli2025": {
+   "short": "Dezfuli et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40321909",
+   "apa": "Dezfuli, Z. G., Rashedi, M. H., Naeini, F., Shab-Bidar, S., Pourgharib-Shahi, M., Zhang, X., Dehghani, E. &amp; Djafarian, K. (2025). Comparing the effects of glucose-fructose versus glucose on the oxidation rate: A systematic review and meta-analysis. <em>Iranian Journal of Public Health, 54</em>(4), 723–738.",
+   "doi": "10.18502/ijph.v54i4.18411"
+  },
+  "deng2025": {
+   "short": "Deng et al., 2025",
+   "year": 2025,
+   "type": "Dreistufige Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41199504",
+   "apa": "Deng, H., Fan, X., Liu, P., Song, T., Ahmad Fuaad, A. A., Bin Mohd Nasiruddin, N. J. &amp; Bin Naharudin, M. N. (2025). Fed, not fasted: Is carbohydrate mouth rinsing still ergogenic? A three-level meta-analysis. <em>Journal of the International Society of Sports Nutrition, 22</em>(1), Artikel 2579027.",
+   "doi": "10.1080/15502783.2025.2579027"
+  },
+  "tarrit2026": {
+   "short": "Tarrit et al., 2026",
+   "year": 2026,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "41885724",
+   "apa": "Tarrit, B., Moretton, C., Duclos, M., Metz, L., Chanseaume-Bussiere, E., Ennequin, G., Thivel, D. &amp; Rannou, F. (2026). Interest of carbohydrate consumption during endurance exercise: A systematic review of systematic and meta-analyses of RCTs. <em>The Journal of Sports Medicine and Physical Fitness, 66</em>(4), 502–512.",
+   "doi": "10.23736/S0022-4707.25.17488-4",
+   "flag": "Erst- und Zweitautor sind laut Affiliation bei einem Unternehmen (NIGAY SAS) tätig; 73 % der eingeschlossenen Reviews mit niedriger oder kritisch niedriger Qualität."
+  },
+  "rothschild2026": {
+   "short": "Rothschild et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41363659",
+   "apa": "Rothschild, J. A., Dudley-Rode, H., Carpenter, H., Smith, A. S. M., Plews, D. J. &amp; Maunder, E. (2026). Carbohydrate ingestion during prolonged exercise and net skeletal muscle glycogen utilization: A meta-analysis. <em>Journal of Applied Physiology, 140</em>(1), 76–87.",
+   "doi": "10.1152/japplphysiol.00861.2025"
+  },
+  "jones2026": {
+   "short": "Jones et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42828472",
+   "apa": "Jones, R. O., Areta, J. L., Fortis, H. O., Pugh, J. &amp; Louis, J. B. (2026). Dietary carbohydrate intake and skeletal muscle glycogen: A systematic review and meta-analysis to determine optimal carbohydrate loading strategies. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 36</em>(10), Artikel e70379.",
+   "doi": "10.1111/sms.70379"
+  },
+  "zalagkitis2026": {
+   "short": "Zalagkitis et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42797082",
+   "apa": "Zalagkitis, C., Kraniotaki, A., Simitzis, N., Dallas, K., Moustogiannis, A., Chatzinikita, E., Paradisis, G., Tenta, R., Maridaki, M., Veskoukis, A., Metsios, G., Philippou, A., Chryssanthopoulos, C. &amp; Dinas, P. C. (2026). Effects of carbohydrate mouth rinse on human capacity and performance – A systematic review and meta-analysis of 90 controlled trials. <em>Nutrients, 18</em>(18), Artikel 3099.",
+   "doi": "10.3390/nu18183099"
+  },
+  "suen2026": {
+   "short": "Suen et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41791366",
+   "apa": "Suen, M. W., Tsang, J. H., Wong, P. S., O'Reilly, J. &amp; Poon, E. T. (2026). High-Intensity intermittent exercise and mouth rinsing: A systematic review and meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 36</em>(4), 443–458.",
+   "doi": "10.1123/ijsnem.2025-0135"
+  },
+  "henselmans2026": {
+   "short": "Henselmans et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41712097",
+   "apa": "Henselmans, M., Vårvik, F. T. &amp; Izquierdo, M. (2026). The effect of carbohydrate intake on muscle hypertrophy: A systematic review and meta-analysis. <em>Sports Medicine, 56</em>(3), 691–702.",
+   "doi": "10.1007/s40279-025-02341-z"
+  },
+  "burke2026": {
+   "short": "Burke & Noakes, 2026",
+   "year": 2026,
+   "type": "Debatte mit Konsens",
+   "basis": "Abstract",
+   "pmid": "42070893",
+   "apa": "Burke, L. M. &amp; Noakes, T. D. (2026). Does a low-carbohydrate diet impede endurance sports performance? Debate consensus. <em>The American Journal of Clinical Nutrition, 123</em>(5), Artikel 101271.",
+   "doi": "10.1016/j.ajcnut.2026.101271"
+  }
+ }
+}

@@ -1,0 +1,1400 @@
+{
+ "id": "probiotika",
+ "title": "Probiotika",
+ "stand": "2026-11-20",
+ "lead": "Was leisten Probiotika wirklich: Schützen sie vor Atemwegsinfekten und Antibiotika-Durchfall, helfen sie bei Magen-Darm-Beschwerden im Ausdauersport, und verbessern sie Leistung, Körperzusammensetzung oder Entzündungswerte? Zusammengefasst aus Cochrane-Reviews, Metaanalysen und Positionspapieren.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierende Erwachsene. Probiotika wirken stamm- und dosisabhängig; die Befunde gelten für die geprüften Präparate, nicht für jedes Produkt.",
+ "rx": [
+  {
+   "label": "Begleitend zu Antibiotika",
+   "value": "früh beginnen, eher hoch dosiert",
+   "text": "Der belastbarste Nutzen: Probiotika senkten das Risiko für Antibiotika-assoziierten Durchfall bei Erwachsenen um etwa 37 bis 38 %. Am besten früh während der Antibiotikatherapie beginnen; höhere Dosen desselben Präparats wirkten besser, wirksam waren vor allem Laktobazillen und Bifidobakterien.",
+   "cite": "Goodman et al. 2021; Liao et al. 2021"
+  },
+  {
+   "label": "Infektsaison",
+   "value": "10⁹–10¹¹ KBE/Tag über Monate",
+   "text": "In den Studien zu Atemwegsinfekten wurden meist ein oder zwei Stämme mit 10⁹ oder 10¹¹ koloniebildenden Einheiten (KBE) täglich über mehr als drei Monate gegeben. Der Effekt ist klein: etwas weniger Infekte und rund einen Tag kürzere Episoden.",
+   "cite": "Zhao et al. 2022; Coleman et al. 2022"
+  },
+  {
+   "label": "Leistung",
+   "value": "kein verlässliches Ergogenikum",
+   "text": "Kleine Effekte auf aerobe Tests stammen aus wenigen, kleinen Studien mit hohem Verzerrungsrisiko. Für Kraft ist kein Nutzen belegt. Probiotika sind daher kein Ersatz für Training, Kohlenhydrate oder Schlaf.",
+   "cite": "Zhang et al. 2026; de Paiva et al. 2023"
+  },
+  {
+   "label": "Magen-Darm im Wettkampf",
+   "value": "nicht als erste Wahl",
+   "text": "Bei belastungsbedingten Magen-Darm-Beschwerden sind Kohlenhydrat- und Flüssigkeitsstrategien, Darmtraining und FODMAP-Anpassung besser belegt. Für Probiotika sind die Ergebnisse uneinheitlich, teils negativ; neue Präparate nicht erstmals im Wettkampf testen.",
+   "cite": "Costa et al. 2025; Łagowska et al. 2022"
+  },
+  {
+   "label": "Für wen nicht",
+   "value": "Immungeschwächte, schwer Kranke",
+   "text": "Für gesunde Menschen ergaben große Analysen keine Zunahme von Nebenwirkungen. Schwere Komplikationen wie Sepsis und Pilzinfektionen betrafen vor allem Intensivpatienten, Frühgeborene und Immungeschwächte; dort nur nach ärztlicher Rücksprache.",
+   "cite": "Didari et al. 2014; Esmaeilinezhad et al. 2025"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Probiotika sind ein Sammelbegriff. Ergebnisse eines Stamms lassen sich nicht auf andere Stämme oder Produkte übertragen; viele Studien wurden von Herstellern unterstützt.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Weniger Durchfall unter Antibiotika",
+   "ev": "hoch",
+   "p": "Über mehr als 20 Jahre und viele Metaanalysen konsistent: etwa ein Drittel weniger Antibiotika-assoziierter Durchfall, bei Älteren über 65 Jahren unsicher.",
+   "s": [
+    "hempel2012",
+    "goodman2021",
+    "liao2021",
+    "esmaeilinezhad2025",
+    "jafarnejad2016"
+   ]
+  },
+  {
+   "t": "Etwas weniger und kürzere Atemwegsinfekte",
+   "ev": "moderat",
+   "p": "Probiotika senkten das Infektrisiko um etwa 9 bis 24 % und verkürzten Episoden um rund einen Tag; die Vertrauenswürdigkeit der Evidenz ist meist niedrig.",
+   "s": [
+    "zhao2022",
+    "coleman2022",
+    "hao2015"
+   ]
+  },
+  {
+   "t": "Bei Sportlern nur mildere Symptome belegt",
+   "ev": "niedrig",
+   "p": "Bei Sportlern sanken weder Häufigkeit noch Dauer der Infekte, nur die Symptomschwere; in körperlich aktiven Gruppen zeigte sich insgesamt kein Schutz.",
+   "s": [
+    "lagowska2021",
+    "coleman2022"
+   ]
+  },
+  {
+   "t": "Leistung, Körperbau und Entzündung: kleine, unsichere Effekte",
+   "ev": "niedrig",
+   "p": "Kleine Vorteile bei aeroben Tests, etwa 0,5 bis 0,9 kg weniger Körpergewicht und uneinheitliche Wirkungen auf Entzündungsmarker.",
+   "s": [
+    "zhang2026",
+    "santibanez2022",
+    "saadati2024",
+    "chen2026",
+    "aparicio2025"
+   ]
+  },
+  {
+   "t": "Für Gesunde gut verträglich, Daten aber lückenhaft",
+   "ev": "moderat",
+   "p": "Nebenwirkungen waren nicht häufiger als mit Placebo; viele Studien berichten Schäden jedoch unvollständig.",
+   "s": [
+    "zhao2022",
+    "esmaeilinezhad2025",
+    "kumar2026",
+    "bafeta2018"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "atemwege",
+   "name": "Atemwegsinfekte",
+   "q": "Schützen Probiotika vor Erkältungen und anderen Atemwegsinfekten, auch bei Sportlern?",
+   "ev": "moderat",
+   "key": [
+    "Cochrane-Review, 23 Studien (n = 6 950; Kinder, Erwachsene, Ältere): weniger Personen mit mindestens einem Infekt (RR 0,76 [0,67; 0,87]; 16 Studien, n = 4 798; niedrige Vertrauenswürdigkeit), niedrigere Infektrate (Rate Ratio 0,82 [0,73; 0,92]), kürzere Episoden (−1,22 Tage [−2,12; −0,33]) und seltener Antibiotika (RR 0,58 [0,42; 0,81]; moderate Vertrauenswürdigkeit). Meist 10⁹ oder 10¹¹ KBE pro Tag über mehr als drei Monate (Zhao et al., 2022).",
+    "Vorgängerversion, 12 Studien (n = 3 720): weniger Personen mit mindestens einem Infekt (OR 0,53 [0,37; 0,76]) und kürzere Episoden (−1,89 Tage [−2,03; −1,75]); die Infektrate unterschied sich nicht signifikant (Rate Ratio 0,83 [0,66; 1,05]); Evidenz niedrig bis sehr niedrig (Hao et al., 2015).",
+    "Erwachsene von 18 bis 65 Jahren, 42 Publikationen (n = 9 179): Risiko für mindestens einen Infekt RR 0,91 [0,84; 0,98], weniger Krankheitstage (Rate Ratio 0,77 [0,71; 0,83]), kürzere Dauer (g = −0,23 [−0,39; −0,08]) und geringere Schwere (g = −0,16 [−0,29; −0,03]). In körperlich aktiven Gruppen zeigte sich kein Nutzen (Coleman et al., 2022).",
+    "Sportler, 14 Studien: kein Effekt auf Krankheitstage, Zahl oder Dauer der Infekte, aber geringere Gesamtsymptomschwere (−0,65 [−1,05; −0,25]) (Łagowska &amp; Bajerska, 2021).",
+    "Frühe Übersicht, 14 RCTs: in 10 Studien keine geringere Infekthäufigkeit; die Symptomschwere sank in 5 von 6 Studien mit entsprechenden Daten (Vouloumanou et al., 2009)."
+   ],
+   "critic": "Die Richtung ist über die Zeit stabiler geworden: 2009 fand sich keine geringere Häufigkeit, die Cochrane-Reviews von 2015 und 2022 zeigen eine. Die Effektgröße hängt aber von der Population ab. Mit Kindern und Älteren (Zhao et al., 2022) sinkt das Risiko um 24 %, bei Erwachsenen von 18 bis 65 Jahren nur um 9 % (Coleman et al., 2022). Für trainierende Erwachsene ist die kleinere Schätzung wahrscheinlicher. Bei Sportlern fehlt ein Schutz vor Infekten; belegt ist nur eine geringere Symptomschwere aus wenigen Studien. Die Vertrauenswürdigkeit ist in beiden Cochrane-Reviews überwiegend niedrig, die Heterogenität teils hoch.",
+   "figs": [
+    {
+     "id": "pro-atemwege",
+     "title": "Probiotika und Atemwegsinfekte",
+     "cap": "Risk Ratio, Odds Ratio bzw. Rate Ratio gegenüber Placebo mit 95-%-KI; Werte unter 1 bedeuten weniger Infekte.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Mindestens ein Infekt (OR)",
+       "sub": "Hao et al., 2015",
+       "es": 0.53,
+       "lo": 0.37,
+       "hi": 0.76
+      },
+      {
+       "l": "Mindestens ein Infekt",
+       "sub": "Zhao et al., 2022",
+       "es": 0.76,
+       "lo": 0.67,
+       "hi": 0.87
+      },
+      {
+       "l": "Infektrate",
+       "sub": "Zhao et al., 2022",
+       "es": 0.82,
+       "lo": 0.73,
+       "hi": 0.92
+      },
+      {
+       "l": "Antibiotika wegen Infekt",
+       "sub": "Zhao et al., 2022",
+       "es": 0.58,
+       "lo": 0.42,
+       "hi": 0.81
+      },
+      {
+       "l": "Mindestens ein Infekt, Erwachsene 18–65",
+       "sub": "Coleman et al., 2022",
+       "es": 0.91,
+       "lo": 0.84,
+       "hi": 0.98
+      },
+      {
+       "l": "Krankheitstage, Erwachsene 18–65",
+       "sub": "Coleman et al., 2022",
+       "es": 0.77,
+       "lo": 0.71,
+       "hi": 0.83
+      }
+     ],
+     "opts": {
+      "min": 0.3,
+      "max": 1.2,
+      "ticks": [
+       0.4,
+       0.6,
+       0.8,
+       1.0,
+       1.2
+      ],
+      "ref": 1,
+      "leftLab": "seltener",
+      "rightLab": "häufiger"
+     }
+    }
+   ],
+   "s": [
+    "zhao2022",
+    "hao2015",
+    "coleman2022",
+    "lagowska2021",
+    "vouloumanou2009",
+    "jaeger2019"
+   ]
+  },
+  {
+   "id": "magendarm",
+   "name": "Magen-Darm-Beschwerden im Ausdauersport",
+   "q": "Lindern Probiotika belastungsbedingte Magen-Darm-Beschwerden?",
+   "ev": "niedrig",
+   "key": [
+    "10 RCTs mit 822 Sportlern: nur geringe Hinweise auf weniger Magen-Darm-Beschwerden bei Training und Wettkampf; ein bestes Präparat ließ sich nicht bestimmen (Łagowska et al., 2022).",
+    "26 Studien zu Nahrungsergänzungen bei belastungsbedingter Darmschädigung: über alle Supplemente kein Effekt auf Beschwerden (g = 0,42 [−0,17; 1,02]); für Probiotika ein moderater Effekt (g = −0,62; p = 0,05), den die Autoren wegen widersprüchlicher Einzelstudien als unsicher einstufen. Leistung unverändert; Heterogenität I² ≥ 58,6 % (Aitkenhead et al., 2025).",
+    "Positionspapier von Sports Dietitians Australia: Probiotika gehören zu den Maßnahmen mit berichteten negativen Ergebnissen; gut belegt sind Kohlenhydrat- und Proteinzufuhr, ausreichende Flüssigkeit, FODMAP-Anpassung und Darmtraining (Costa et al., 2025).",
+    "ISSN: Bestimmte Stämme können die Darmbarriere bei Sportlern verbessern; intensive, lange Belastung in Hitze erhöht die Darmdurchlässigkeit (Jäger et al., 2019)."
+   ],
+   "critic": "Die Befunde widersprechen sich. Die Metaanalyse von Aitkenhead et al. (2025) fand einen grenzwertigen Effekt mit einem im Abstract unstimmigen Konfidenzintervall; der systematische Review sah nur geringe Hinweise, das jüngere Positionspapier rät eher ab. Da die Studien klein, die Präparate verschieden und Störgrößen wie Ernährung und Hitze kaum kontrolliert sind, ist ein verlässlicher Nutzen nicht belegt. Das ISSN-Papier von 2019 stützt sich vor allem auf Mechanismen.",
+   "figs": [],
+   "s": [
+    "lagowska2022",
+    "aitkenhead2025",
+    "costa2025",
+    "jaeger2019"
+   ]
+  },
+  {
+   "id": "leistung",
+   "name": "Ausdauer, Kraft und Regeneration",
+   "q": "Verbessern Probiotika die sportliche Leistung?",
+   "ev": "niedrig",
+   "key": [
+    "2007 gab es noch keine Studie, die eine Leistungssteigerung direkt prüfte (Nichols, 2007).",
+    "Trainierte, 12 Studien (n = 232): kleiner Vorteil in aeroben Tests über 5 Minuten (SMD 0,29 [0,08; 0,50]); größer bei mindestens 30 × 10⁹ KBE (SMD 0,47 [0,05; 0,89]). In der Metaregression sagten Dosis und Dauer den Effekt nicht vorher (Santibañez-Gutierrez et al., 2022).",
+    "Systematischer Review: die meisten Studien (11) fanden keinen Effekt auf aerobe Leistung (9) oder Kraft (2); positive Studien mit L. plantarum hatten ein hohes Verzerrungsrisiko (de Paiva et al., 2023).",
+    "Aktive Personen: VO₂max +1,55 ml/(kg·min) [0,61; 2,49], Kreatinkinase −45,57 U/l [−65,12; −26,02]; Laktatdehydrogenase und Myoglobin unverändert; Vertrauenswürdigkeit moderat bis niedrig (Shirkoohi et al., 2025).",
+    "Gesunde Erwachsene, 21 Studien (n = 685): Gesamtleistung SMD 0,38 [0,17; 0,60] (95-%-KrI), aerobe Ausdauer 0,74 [0,39; 1,10]; signifikant nur die mittlere Dosis von 10⁹ bis 10¹¹ KBE pro Tag (0,38 [0,14; 0,62]); L. plantarum 0,82 [0,12; 1,50] (Zhang et al., 2026)."
+   ],
+   "critic": "Die Metaanalysen finden kleine bis moderate Vorteile in Ausdauertests, der systematische Review von de Paiva et al. (2023) dagegen überwiegend Nullbefunde. Die Analysen beruhen auf wenigen kleinen Studien (232 bzw. 685 Teilnehmende) mit vielen verschiedenen Stämmen und häufig hohem Verzerrungsrisiko. Ein Leistungseffekt ist möglich, aber nicht gesichert. Die Kreatinkinase ist ein indirekter Marker für Muskelschäden, keine Leistungsgröße.",
+   "figs": [
+    {
+     "id": "pro-leistung",
+     "title": "Probiotika und Ausdauerleistung",
+     "cap": "Standardisierte Mittelwertdifferenz gegenüber Placebo mit 95-%-KI (Zhang et al., 2026: 95-%-Kredibilitätsintervall).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Aerobe Tests, Trainierte",
+       "sub": "Santibañez-Gutierrez et al., 2022",
+       "es": 0.29,
+       "lo": 0.08,
+       "hi": 0.5
+      },
+      {
+       "l": "Aerobe Tests, ≥ 30 × 10⁹ KBE",
+       "sub": "Santibañez-Gutierrez et al., 2022",
+       "es": 0.47,
+       "lo": 0.05,
+       "hi": 0.89
+      },
+      {
+       "l": "Gesamtleistung, gesunde Erwachsene",
+       "sub": "Zhang et al., 2026",
+       "es": 0.38,
+       "lo": 0.17,
+       "hi": 0.6
+      },
+      {
+       "l": "Aerobe Ausdauer",
+       "sub": "Zhang et al., 2026",
+       "es": 0.74,
+       "lo": 0.39,
+       "hi": 1.1
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.2,
+      "ticks": [
+       0,
+       0.4,
+       0.8,
+       1.2
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "nichols2007",
+    "santibanez2022",
+    "depaiva2023",
+    "shirkoohi2025",
+    "zhang2026",
+    "jaeger2019"
+   ]
+  },
+  {
+   "id": "entzuendung",
+   "name": "Entzündungs- und Immunmarker",
+   "q": "Senken Probiotika Entzündungswerte und stärken sie die Abwehr?",
+   "ev": "niedrig",
+   "key": [
+    "20 Studien: CRP −1,35 mg/l [−2,15; −0,55]; IL-10 und TNF-α unverändert (Mazidi et al., 2017).",
+    "Umbrella Review, 39 Metaanalysen, überwiegend Personen mit entzündlichen Erkrankungen: CRP (ES −1,02 [−1,23; −0,80]; I² 94,1 %), TNF-α (−0,35 [−0,50; −0,20]) und IL-6 (−0,36 [−0,59; −0,13]) sanken (Faghfouri et al., 2023).",
+    "Gesunde Erwachsene, 18 Studien (n = 819): nur 8 Studien fanden Veränderungen; insgesamt begrenzte Wirkung, eine Metaanalyse war wegen Heterogenität nicht möglich (Mohr et al., 2020).",
+    "Sportler, 5 Metaanalysen mit 69 RCTs: TNF-α sank (ES −0,59 [−0,94; −0,24]), sekretorisches IgA stieg (0,30 [0,03; 0,57]); IL-6 (−0,09 [−0,26; 0,08]) und IL-10 (0,15 [−0,21; 0,52]) unverändert (Chen et al., 2026).",
+    "Ausdauersportler, 19 Studien (n = 526): IL-10 nach Belastung höher (SMD 0,43 [0,25; 0,61]; I² 0 %); IL-1β, IL-6, IL-8, TNF-α und IFN-γ unverändert (Aparicio-Pascual et al., 2025).",
+    "Sportler: IL-6 −2,52 pg/ml [−4,39; −0,66] und TNF-α −2,31 pg/ml [−4,12; −0,51] (Łagowska &amp; Bajerska, 2021)."
+   ],
+   "critic": "Bei Sportlern widersprechen sich die Analysen: Chen et al. (2026) fanden weniger TNF-α, aber keinen Effekt auf IL-10; Aparicio-Pascual et al. (2025) fanden genau umgekehrt mehr IL-10 und keinen Effekt auf TNF-α. Beide beruhen auf überlappenden kleinen Studien. Ein verlässliches Muster ist nicht erkennbar. Die deutliche CRP-Senkung stammt vor allem aus Patientengruppen mit erhöhter Entzündung und sehr hoher Heterogenität; bei Gesunden ist die Wirkung begrenzt (Mohr et al., 2020). Alle Marker sind Surrogate; ob sie Infekte oder Regeneration verändern, ist offen.",
+   "figs": [
+    {
+     "id": "pro-marker",
+     "title": "Immun- und Entzündungsmarker bei Sportlern",
+     "cap": "Standardisierte Effektgröße gegenüber Placebo mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "TNF-α",
+       "sub": "Chen et al., 2026",
+       "es": -0.59,
+       "lo": -0.94,
+       "hi": -0.24
+      },
+      {
+       "l": "IL-6",
+       "sub": "Chen et al., 2026",
+       "es": -0.09,
+       "lo": -0.26,
+       "hi": 0.08
+      },
+      {
+       "l": "IL-10",
+       "sub": "Chen et al., 2026",
+       "es": 0.15,
+       "lo": -0.21,
+       "hi": 0.52
+      },
+      {
+       "l": "IL-10 nach Belastung",
+       "sub": "Aparicio-Pascual et al., 2025",
+       "es": 0.43,
+       "lo": 0.25,
+       "hi": 0.61
+      },
+      {
+       "l": "Sekretorisches IgA",
+       "sub": "Chen et al., 2026",
+       "es": 0.3,
+       "lo": 0.03,
+       "hi": 0.57
+      }
+     ],
+     "opts": {
+      "min": -1.0,
+      "max": 0.8,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5
+      ],
+      "leftLab": "niedriger",
+      "rightLab": "höher"
+     }
+    }
+   ],
+   "s": [
+    "mazidi2017",
+    "faghfouri2023",
+    "mohr2020",
+    "chen2026",
+    "aparicio2025",
+    "lagowska2021"
+   ]
+  },
+  {
+   "id": "koerper",
+   "name": "Körpergewicht und Körperzusammensetzung",
+   "q": "Helfen Probiotika beim Abnehmen oder beim Muskelaufbau?",
+   "ev": "moderat",
+   "key": [
+    "Körpergewicht sank um 0,59 kg [0,30; 0,87], der BMI um 0,49 kg/m² [0,24; 0,74]; stärker bei mehreren Stämmen, mindestens 8 Wochen und BMI ab 25 (Zhang et al., 2015).",
+    "200 Studien (n = 12 603), Probiotika oder Synbiotika: Körpergewicht −0,91 kg [−1,08; −0,75], Fettmasse −0,92 kg [−1,05; −0,79], Körperfettanteil −0,68 Prozentpunkte [−0,94; −0,42]; fettfreie und magere Masse unverändert (Saadati et al., 2024).",
+    "Sportlich Aktive: Körpergewicht −0,55 kg [−0,98; −0,13], Körperfettanteil −0,46 Prozentpunkte [−0,83; −0,09]; BMI und magere Masse unverändert (Shirkoohi et al., 2025)."
+   ],
+   "critic": "Die Analysen stimmen in der Richtung überein, der Effekt ist aber klein: weniger als 1 kg Körpergewicht, praktisch kaum spürbar. Die größte Analyse mischt Probiotika und Synbiotika und schließt viele übergewichtige Personen ein; bei Aktiven ist der Effekt noch kleiner. Eine Wirkung auf die Muskelmasse fand keine der Analysen.",
+   "figs": [
+    {
+     "id": "pro-gewicht",
+     "title": "Probiotika und Körpergewicht",
+     "cap": "Mittlere Differenz des Körpergewichts gegenüber Kontrolle in kg mit 95-%-KI. Zhang et al. (2015) berichten die Abnahme als positiven Wert; hier mit negativem Vorzeichen dargestellt.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Erwachsene, Probiotika",
+       "sub": "Zhang et al., 2015",
+       "es": -0.59,
+       "lo": -0.87,
+       "hi": -0.3
+      },
+      {
+       "l": "Erwachsene, Pro- oder Synbiotika",
+       "sub": "Saadati et al., 2024",
+       "es": -0.91,
+       "lo": -1.08,
+       "hi": -0.75
+      },
+      {
+       "l": "Sportlich Aktive",
+       "sub": "Shirkoohi et al., 2025",
+       "es": -0.55,
+       "lo": -0.98,
+       "hi": -0.13
+      }
+     ],
+     "opts": {
+      "min": -1.5,
+      "max": 0.5,
+      "ticks": [
+       -1.5,
+       -1,
+       -0.5,
+       0,
+       0.5
+      ],
+      "unit": "kg",
+      "leftLab": "Abnahme",
+      "rightLab": "Zunahme"
+     }
+    }
+   ],
+   "s": [
+    "zhang2015",
+    "saadati2024",
+    "shirkoohi2025"
+   ]
+  },
+  {
+   "id": "antibiotika",
+   "name": "Antibiotika-assoziierter Durchfall",
+   "q": "Verhindern Probiotika Durchfall während einer Antibiotikatherapie?",
+   "ev": "hoch",
+   "key": [
+    "9 RCTs: OR 0,37 [0,26; 0,53]; Hefe (Saccharomyces boulardii) OR 0,39, Laktobazillen OR 0,34 (D'Souza et al., 2002).",
+    "63 RCTs (n = 11 811): RR 0,58 [0,50; 0,68]; Number needed to treat 13; I² 54 % (Hempel et al., 2012).",
+    "Erwachsene von 18 bis 64 Jahren RR 0,47 [0,40; 0,56], Ältere über 65 Jahre RR 0,94 [0,76; 1,15] (Jafarnejad et al., 2016).",
+    "Erwachsene, 42 Studien (n = 11 305): RR 0,63 [0,54; 0,73], moderate Evidenzqualität; höhere Dosis besser als niedrige (RR 0,54 [0,38; 0,76]); bei niedrigem Ausgangsrisiko kein Unterschied (Goodman et al., 2021).",
+    "Erwachsene, 36 Studien (n = 9 312): RR 0,62 [0,51; 0,74], Nebenwirkungen unverändert (RR 1,00 [0,87; 1,14]); möglichst früh beginnen (Liao et al., 2021).",
+    "C.-difficile-Durchfall: 1,5 % gegenüber 4,0 % (RR 0,40 [0,30; 0,52]; 31 Studien, n = 8 672); bei Ausgangsrisiko über 5 % RR 0,30, darunter kein Unterschied (Goldenberg et al., 2017).",
+    "Aktualisierung, 38 Studien (n = 13 179): C.-difficile-Durchfall 1,6 % gegenüber 3,2 % (RR 0,50 [0,38; 0,64]; Number needed to treat 65); Antibiotika-Durchfall 23 % gegenüber 27,4 % (RR 0,67 [0,57; 0,78]; 40 Studien); niedrige Vertrauenswürdigkeit wegen Publikationsbias; in 28 Studien Verbindungen zu Herstellern (Esmaeilinezhad et al., 2025)."
+   ],
+   "critic": "Dies ist der am besten belegte Nutzen von Probiotika: Seit 2002 zeigen alle Metaanalysen in dieselbe Richtung. Die Schätzungen sind aber mit größeren und neueren Datensätzen kleiner geworden (OR 0,37 im Jahr 2002, RR 0,67 im Jahr 2025), typisch für frühe Überschätzung und Publikationsbias. Viele Studien haben Herstellerbeteiligung. Der absolute Nutzen hängt vom Ausgangsrisiko ab; bei niedrigem Risiko und bei Älteren über 65 Jahren fand sich kein klarer Effekt. Insgesamt ist der Schutz bei Erwachsenen unter 65 Jahren wahrscheinlich.",
+   "figs": [
+    {
+     "id": "pro-aad",
+     "title": "Probiotika und Antibiotika-assoziierter Durchfall",
+     "cap": "Risk Ratio bzw. Odds Ratio gegenüber Kontrolle mit 95-%-KI, chronologisch.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kinder und Erwachsene (OR)",
+       "sub": "D'Souza et al., 2002",
+       "es": 0.37,
+       "lo": 0.26,
+       "hi": 0.53
+      },
+      {
+       "l": "Gemischte Populationen",
+       "sub": "Hempel et al., 2012",
+       "es": 0.58,
+       "lo": 0.5,
+       "hi": 0.68
+      },
+      {
+       "l": "Erwachsene 18–64",
+       "sub": "Jafarnejad et al., 2016",
+       "es": 0.47,
+       "lo": 0.4,
+       "hi": 0.56
+      },
+      {
+       "l": "Ältere über 65",
+       "sub": "Jafarnejad et al., 2016",
+       "es": 0.94,
+       "lo": 0.76,
+       "hi": 1.15
+      },
+      {
+       "l": "Erwachsene",
+       "sub": "Goodman et al., 2021",
+       "es": 0.63,
+       "lo": 0.54,
+       "hi": 0.73
+      },
+      {
+       "l": "Erwachsene",
+       "sub": "Liao et al., 2021",
+       "es": 0.62,
+       "lo": 0.51,
+       "hi": 0.74
+      },
+      {
+       "l": "Kinder und Erwachsene",
+       "sub": "Esmaeilinezhad et al., 2025",
+       "es": 0.67,
+       "lo": 0.57,
+       "hi": 0.78
+      }
+     ],
+     "opts": {
+      "min": 0.2,
+      "max": 1.2,
+      "ticks": [
+       0.2,
+       0.4,
+       0.6,
+       0.8,
+       1.0,
+       1.2
+      ],
+      "ref": 1,
+      "leftLab": "seltener",
+      "rightLab": "häufiger"
+     }
+    }
+   ],
+   "s": [
+    "dsouza2002",
+    "hempel2012",
+    "jafarnejad2016",
+    "goodman2021",
+    "liao2021",
+    "goldenberg2017",
+    "esmaeilinezhad2025"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit und Nebenwirkungen",
+   "q": "Wie sicher sind Probiotika?",
+   "ev": "moderat",
+   "key": [
+    "Atemwegsinfekte: Nebenwirkungen nicht häufiger (RR 1,02 [0,90; 1,15]; 8 Studien, n = 2 456); meist leichte Magen-Darm-Beschwerden wie Blähungen oder Durchfall (Zhao et al., 2022).",
+    "Unter Antibiotika: Nebenwirkungen 10,9 % gegenüber 12,2 % (RR 0,86 [0,72; 1,01]; 37 Studien, n = 11 911); kurzfristige Einnahme ohne erkennbare Schäden bei Menschen ohne Immunschwäche (Esmaeilinezhad et al., 2025).",
+    "Bifidobacterium animalis subsp. lactis BB-12, 35 RCTs: Nebenwirkungen 15,2 % gegenüber 14 % (OR 1,10 [0,88; 1,36]); die Hälfte der Studien berichtete keine Nebenwirkungsdaten (Kumar et al., 2026).",
+    "Seltene schwere Komplikationen (Sepsis, Pilzinfektion im Blut, Darmischämie) traten vor allem bei Intensivpatienten, schwer kranken Säuglingen, nach Operationen und bei Immunschwäche auf (Didari et al., 2014).",
+    "384 Studien zu Pro-, Prä- und Synbiotika: 28 % ohne Daten zu Schäden, in 80 % keine Zahl schwerer Ereignisse je Gruppe (Bafeta et al., 2018)."
+   ],
+   "critic": "Die großen Metaanalysen zeigen für gesunde Menschen keine Zunahme von Nebenwirkungen. Diese Aussage ist aber nur so gut wie die Berichterstattung, und die ist oft lückenhaft (Bafeta et al., 2018; Kumar et al., 2026). Seltene schwere Ereignisse lassen sich mit Studien dieser Größe nicht ausschließen; sie betreffen nach den vorliegenden Daten Risikogruppen, nicht gesunde Sportler.",
+   "figs": [
+    {
+     "id": "pro-nw",
+     "title": "Nebenwirkungen unter Probiotika",
+     "cap": "Risk Ratio bzw. Odds Ratio gegenüber Placebo/Kontrolle mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Atemwegsstudien",
+       "sub": "Zhao et al., 2022",
+       "es": 1.02,
+       "lo": 0.9,
+       "hi": 1.15
+      },
+      {
+       "l": "Erwachsene unter Antibiotika",
+       "sub": "Liao et al., 2021",
+       "es": 1.0,
+       "lo": 0.87,
+       "hi": 1.14
+      },
+      {
+       "l": "Kinder und Erwachsene unter Antibiotika",
+       "sub": "Esmaeilinezhad et al., 2025",
+       "es": 0.86,
+       "lo": 0.72,
+       "hi": 1.01
+      },
+      {
+       "l": "BB-12 (OR)",
+       "sub": "Kumar et al., 2026",
+       "es": 1.1,
+       "lo": 0.88,
+       "hi": 1.36
+      }
+     ],
+     "opts": {
+      "min": 0.6,
+      "max": 1.4,
+      "ticks": [
+       0.6,
+       0.8,
+       1.0,
+       1.2,
+       1.4
+      ],
+      "ref": 1,
+      "leftLab": "seltener",
+      "rightLab": "häufiger"
+     }
+    }
+   ],
+   "s": [
+    "zhao2022",
+    "esmaeilinezhad2025",
+    "liao2021",
+    "kumar2026",
+    "didari2014",
+    "bafeta2018"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2002,
+   "t": "Erste Metaanalyse zum Antibiotika-Durchfall",
+   "p": "Probiotika senkten das Risiko deutlich (OR 0,37).",
+   "tag": "neu",
+   "s": "dsouza2002"
+  },
+  {
+   "y": 2007,
+   "t": "Leistung noch nicht untersucht",
+   "p": "Keine Studie prüfte die Leistung direkt.",
+   "tag": "neu",
+   "s": "nichols2007"
+  },
+  {
+   "y": 2009,
+   "t": "Atemwegsinfekte: nicht seltener",
+   "p": "Mildere Symptome, aber keine geringere Häufigkeit.",
+   "tag": "neu",
+   "s": "vouloumanou2009"
+  },
+  {
+   "y": 2012,
+   "t": "63 Studien zum Antibiotika-Durchfall",
+   "p": "RR 0,58; der Effekt bestätigt sich in großem Umfang.",
+   "tag": "conf",
+   "s": "hempel2012"
+  },
+  {
+   "y": 2014,
+   "t": "Sicherheitsrisiken in Risikogruppen",
+   "p": "Sepsis und Pilzinfektionen vor allem bei schwer Kranken und Immungeschwächten.",
+   "tag": "neu",
+   "s": "didari2014"
+  },
+  {
+   "y": 2015,
+   "t": "Cochrane: weniger Atemwegsinfekte",
+   "p": "Weniger Betroffene und kürzere Episoden, niedrige Evidenzqualität.",
+   "tag": "contra",
+   "s": "hao2015"
+  },
+  {
+   "y": 2015,
+   "t": "Etwas weniger Körpergewicht",
+   "p": "−0,59 kg, stärker bei Übergewicht.",
+   "tag": "neu",
+   "s": "zhang2015"
+  },
+  {
+   "y": 2016,
+   "t": "Kein Schutz bei Älteren",
+   "p": "Antibiotika-Durchfall bei über 65-Jährigen nicht seltener.",
+   "tag": "rel",
+   "s": "jafarnejad2016"
+  },
+  {
+   "y": 2017,
+   "t": "CRP sinkt",
+   "p": "−1,35 mg/l in 20 Studien.",
+   "tag": "neu",
+   "s": "mazidi2017"
+  },
+  {
+   "y": 2017,
+   "t": "Cochrane: C.-difficile-Durchfall",
+   "p": "Risiko um 60 % gesenkt, vor allem bei hohem Ausgangsrisiko.",
+   "tag": "conf",
+   "s": "goldenberg2017"
+  },
+  {
+   "y": 2018,
+   "t": "Schäden schlecht berichtet",
+   "p": "In 28 % der Studien keine Daten zu Schäden.",
+   "tag": "neu",
+   "s": "bafeta2018"
+  },
+  {
+   "y": 2019,
+   "t": "ISSN-Positionspapier",
+   "p": "Wirkungen stamm- und dosisabhängig; Leistungsvorteile noch nicht bestätigt.",
+   "tag": "neu",
+   "s": "jaeger2019"
+  },
+  {
+   "y": 2020,
+   "t": "Gesunde: kaum Wirkung auf Immunmarker",
+   "p": "Begrenzte, heterogene Effekte.",
+   "tag": "contra",
+   "s": "mohr2020"
+  },
+  {
+   "y": 2021,
+   "t": "Sportler: nur mildere Infekte",
+   "p": "Häufigkeit und Dauer unverändert, Symptomschwere geringer.",
+   "tag": "rel",
+   "s": "lagowska2021"
+  },
+  {
+   "y": 2021,
+   "t": "Antibiotika-Durchfall bei Erwachsenen",
+   "p": "Risiko um 37 % gesenkt, höhere Dosis wirksamer.",
+   "tag": "conf",
+   "s": "goodman2021"
+  },
+  {
+   "y": 2021,
+   "t": "Früher Beginn, keine Mehrschäden",
+   "p": "RR 0,62; Nebenwirkungen unverändert.",
+   "tag": "conf",
+   "s": "liao2021"
+  },
+  {
+   "y": 2022,
+   "t": "Erwachsene 18–65: kleiner Schutz",
+   "p": "Risiko um 9 % geringer, bei Aktiven kein Nutzen.",
+   "tag": "rel",
+   "s": "coleman2022"
+  },
+  {
+   "y": 2022,
+   "t": "Cochrane-Update Atemwegsinfekte",
+   "p": "RR 0,76 in 16 Studien, kürzere Episoden.",
+   "tag": "conf",
+   "s": "zhao2022"
+  },
+  {
+   "y": 2022,
+   "t": "Kleiner Vorteil in Ausdauertests",
+   "p": "SMD 0,29 bei Trainierten.",
+   "tag": "neu",
+   "s": "santibanez2022"
+  },
+  {
+   "y": 2022,
+   "t": "Magen-Darm bei Sportlern",
+   "p": "Nur geringe Hinweise auf weniger Beschwerden.",
+   "tag": "neu",
+   "s": "lagowska2022"
+  },
+  {
+   "y": 2023,
+   "t": "Leistung: überwiegend Nullbefunde",
+   "p": "Kein ausreichender Beleg für Ausdauer oder Kraft.",
+   "tag": "contra",
+   "s": "depaiva2023"
+  },
+  {
+   "y": 2023,
+   "t": "Umbrella Review Entzündung",
+   "p": "CRP, TNF-α und IL-6 gesenkt, sehr heterogen.",
+   "tag": "conf",
+   "s": "faghfouri2023"
+  },
+  {
+   "y": 2024,
+   "t": "200 Studien zur Körperzusammensetzung",
+   "p": "−0,91 kg Körpergewicht, Muskelmasse unverändert.",
+   "tag": "conf",
+   "s": "saadati2024"
+  },
+  {
+   "y": 2025,
+   "t": "Magen-Darm: grenzwertiger Effekt",
+   "p": "Probiotika g = −0,62 bei unsicherer Datenlage.",
+   "tag": "rel",
+   "s": "aitkenhead2025"
+  },
+  {
+   "y": 2025,
+   "t": "Positionspapier rät eher ab",
+   "p": "Probiotika mit teils negativen Ergebnissen bei Magen-Darm-Beschwerden im Sport.",
+   "tag": "contra",
+   "s": "costa2025"
+  },
+  {
+   "y": 2025,
+   "t": "IL-10 steigt bei Ausdauersportlern",
+   "p": "Andere Zytokine unverändert.",
+   "tag": "rel",
+   "s": "aparicio2025"
+  },
+  {
+   "y": 2025,
+   "t": "Aktive: Körperfett, VO₂max",
+   "p": "Kleine Vorteile, moderate bis niedrige Vertrauenswürdigkeit.",
+   "tag": "conf",
+   "s": "shirkoohi2025"
+  },
+  {
+   "y": 2025,
+   "t": "Cochrane-Update C. difficile",
+   "p": "RR 0,50, kleiner absoluter Nutzen, Herstellerbeteiligung häufig.",
+   "tag": "conf",
+   "s": "esmaeilinezhad2025"
+  },
+  {
+   "y": 2026,
+   "t": "Bayes-Analyse zur Leistung",
+   "p": "SMD 0,38, am deutlichsten bei aerober Ausdauer.",
+   "tag": "conf",
+   "s": "zhang2026"
+  },
+  {
+   "y": 2026,
+   "t": "Umbrella Review Sportler",
+   "p": "TNF-α gesenkt, IgA erhöht, IL-10 unverändert.",
+   "tag": "contra",
+   "s": "chen2026"
+  },
+  {
+   "y": 2026,
+   "t": "BB-12 gut verträglich",
+   "p": "Nebenwirkungen wie unter Placebo.",
+   "tag": "conf",
+   "s": "kumar2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 636 Einträgen, 448 Übersichtsarbeiten nach Titel geprüft (316 aus der Themensuche, 132 aus vier ergänzenden Suchen), 31 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Atemwegsinfekte",
+   "kat": "infekte",
+   "items": [
+    {
+     "n": "Risiko für Atemwegsinfekte",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 16,
+     "p": 4798,
+     "s": [
+      "zhao2022",
+      "coleman2022",
+      "hao2015"
+     ],
+     "t": "RR 0,76 im Cochrane-Review (16 Studien, n = 4 798; niedrige Vertrauenswürdigkeit); bei Erwachsenen von 18 bis 65 Jahren nur RR 0,91 (42 Publikationen, n = 9 179).",
+     "v": "atemwege"
+    },
+    {
+     "n": "Dauer einer Infektepisode (Verkürzung)",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 6,
+     "p": 2406,
+     "s": [
+      "zhao2022",
+      "coleman2022"
+     ],
+     "t": "−1,22 Tage je Episode (6 Studien, n = 2 406); bei Erwachsenen g = −0,23.",
+     "v": "atemwege"
+    },
+    {
+     "n": "Infekte bei Sportlern: Häufigkeit und Dauer",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 14,
+     "p": null,
+     "s": [
+      "lagowska2021",
+      "coleman2022"
+     ],
+     "t": "Keine Wirkung auf Krankheitstage, Zahl und Dauer (14 Studien); nur die Symptomschwere sank (−0,65). In aktiven Gruppen kein Nutzen.",
+     "v": "atemwege"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Verdauung",
+   "kat": "darm",
+   "items": [
+    {
+     "n": "Antibiotika-assoziierter Durchfall, Erwachsene",
+     "g": "A",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": 42,
+     "p": 11305,
+     "s": [
+      "goodman2021",
+      "liao2021",
+      "hempel2012",
+      "esmaeilinezhad2025"
+     ],
+     "t": "Bei Erwachsenen RR 0,63 (42 Studien, n = 11 305) und 0,62, also etwa 37 bis 38 % weniger Fälle; über alle Gruppen RR 0,58 (63 Studien).",
+     "v": "antibiotika"
+    },
+    {
+     "n": "Antibiotika-assoziierter Durchfall, über 65 Jahre",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "jafarnejad2016"
+     ],
+     "t": "RR 0,94 [0,76; 1,15], kein signifikanter Schutz bei Älteren.",
+     "v": "antibiotika"
+    },
+    {
+     "n": "C.-difficile-Durchfall unter Antibiotika",
+     "g": "B",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": 38,
+     "p": 13179,
+     "s": [
+      "esmaeilinezhad2025",
+      "goldenberg2017"
+     ],
+     "t": "RR 0,50 (38 Studien, n = 13 179); absolut nur 1,6 % gegenüber 3,2 %, Number needed to treat 65.",
+     "v": "antibiotika"
+    },
+    {
+     "n": "Magen-Darm-Beschwerden bei Ausdauerbelastung",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 10,
+     "p": 822,
+     "s": [
+      "lagowska2022",
+      "aitkenhead2025",
+      "costa2025"
+     ],
+     "t": "Grenzwertiger Effekt in einer Metaanalyse (g = −0,62; p = 0,05), nur geringe Hinweise im Review mit 822 Sportlern; ein Positionspapier nennt negative Ergebnisse.",
+     "v": "magendarm"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Leistung in aeroben Tests",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 21,
+     "p": 685,
+     "s": [
+      "zhang2026",
+      "santibanez2022",
+      "depaiva2023"
+     ],
+     "t": "SMD 0,38 insgesamt und 0,74 für aerobe Ausdauer (21 Studien, n = 685); bei Trainierten SMD 0,29 (12 Studien). Ein Review fand überwiegend Nullbefunde.",
+     "v": "leistung"
+    },
+    {
+     "n": "VO₂max",
+     "g": "C",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "shirkoohi2025",
+      "zhang2026"
+     ],
+     "t": "+1,55 ml/(kg·min) bei Aktiven; als sehr kleiner Effekt eingestuft. Moderate bis niedrige Vertrauenswürdigkeit.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Muskelschaden",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Kreatinkinase nach Belastung",
+     "g": "D",
+     "d": "ab",
+     "m": -1,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "shirkoohi2025"
+     ],
+     "t": "−45,57 U/l gegenüber Kontrolle; Laktatdehydrogenase und Myoglobin unverändert.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Entzündung und Immunsystem",
+   "kat": "entzuendung",
+   "items": [
+    {
+     "n": "CRP",
+     "g": "C",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": 20,
+     "p": null,
+     "s": [
+      "mazidi2017",
+      "faghfouri2023",
+      "mohr2020"
+     ],
+     "t": "ES −1,02 im Umbrella Review (I² 94,1 %), −1,35 mg/l in 20 Studien; vor allem in Patientengruppen, bei Gesunden begrenzt.",
+     "v": "entzuendung"
+    },
+    {
+     "n": "TNF-α und IL-10 bei Sportlern",
+     "g": "C",
+     "d": null,
+     "m": null,
+     "b": "neutral",
+     "k": 19,
+     "p": 526,
+     "s": [
+      "chen2026",
+      "aparicio2025"
+     ],
+     "t": "Eine Analyse fand weniger TNF-α (ES −0,59) ohne IL-10-Effekt, die andere mehr IL-10 (SMD 0,43) ohne TNF-α-Effekt.",
+     "v": "entzuendung"
+    },
+    {
+     "n": "Sekretorisches IgA (Schleimhautabwehr)",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": null,
+     "p": null,
+     "s": [
+      "chen2026"
+     ],
+     "t": "ES 0,30 [0,03; 0,57] bei Sportlern.",
+     "v": "entzuendung"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Körperzusammensetzung",
+   "kat": "koerper",
+   "items": [
+    {
+     "n": "Körpergewicht und Fettmasse",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 200,
+     "p": 12603,
+     "s": [
+      "saadati2024",
+      "zhang2015",
+      "shirkoohi2025"
+     ],
+     "t": "−0,91 kg Körpergewicht und −0,92 kg Fettmasse (200 Studien, n = 12 603); bei Aktiven −0,55 kg. Praktisch sehr kleiner Effekt.",
+     "v": "koerper"
+    },
+    {
+     "n": "Fettfreie Masse",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 200,
+     "p": 12603,
+     "s": [
+      "saadati2024",
+      "shirkoohi2025"
+     ],
+     "t": "Keine Veränderung der fettfreien bzw. mageren Masse.",
+     "v": "koerper"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Nebenwirkungen bei Gesunden",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 37,
+     "p": 11911,
+     "s": [
+      "esmaeilinezhad2025",
+      "zhao2022",
+      "liao2021",
+      "kumar2026"
+     ],
+     "t": "RR 0,86 (37 Studien, n = 11 911), 1,00 und 1,02 in weiteren Analysen; meist leichte Magen-Darm-Beschwerden. Die Berichterstattung ist oft lückenhaft.",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "dsouza2002": {
+   "short": "D'Souza et al., 2002",
+   "year": 2002,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "12052801",
+   "apa": "D'Souza, A. L., Rajkumar, C., Cooke, J. &amp; Bulpitt, C. J. (2002). Probiotics in prevention of antibiotic associated diarrhoea: Meta-analysis. <em>BMJ, 324</em>(7350), Artikel 1361.",
+   "doi": "10.1136/bmj.324.7350.1361"
+  },
+  "nichols2007": {
+   "short": "Nichols, 2007",
+   "year": 2007,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "17618005",
+   "apa": "Nichols, A. W. (2007). Probiotics and athletic performance: A systematic review. <em>Current Sports Medicine Reports, 6</em>(4), 269–273."
+  },
+  "vouloumanou2009": {
+   "short": "Vouloumanou et al., 2009",
+   "year": 2009,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "19179052",
+   "apa": "Vouloumanou, E. K., Makris, G. C., Karageorgopoulos, D. E. &amp; Falagas, M. E. (2009). Probiotics for the prevention of respiratory tract infections: A systematic review. <em>International Journal of Antimicrobial Agents, 34</em>(3), 197.e1–197.e10.",
+   "doi": "10.1016/j.ijantimicag.2008.11.005"
+  },
+  "hempel2012": {
+   "short": "Hempel et al., 2012",
+   "year": 2012,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22570464",
+   "apa": "Hempel, S., Newberry, S. J., Maher, A. R., Wang, Z., Miles, J. N., Shanman, R., Johnsen, B. &amp; Shekelle, P. G. (2012). Probiotics for the prevention and treatment of antibiotic-associated diarrhea: A systematic review and meta-analysis. <em>JAMA, 307</em>(18), 1959–1969.",
+   "doi": "10.1001/jama.2012.3507"
+  },
+  "didari2014": {
+   "short": "Didari et al., 2014",
+   "year": 2014,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "24405164",
+   "apa": "Didari, T., Solki, S., Mozaffari, S., Nikfar, S. &amp; Abdollahi, M. (2014). A systematic review of the safety of probiotics. <em>Expert Opinion on Drug Safety, 13</em>(2), 227–239.",
+   "doi": "10.1517/14740338.2014.872627"
+  },
+  "hao2015": {
+   "short": "Hao et al., 2015",
+   "year": 2015,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "25927096",
+   "apa": "Hao, Q., Dong, B. R. &amp; Wu, T. (2015). Probiotics for preventing acute upper respiratory tract infections. <em>Cochrane Database of Systematic Reviews</em>(2), Artikel CD006895.",
+   "doi": "10.1002/14651858.CD006895.pub3"
+  },
+  "zhang2015": {
+   "short": "Zhang et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27149163",
+   "apa": "Zhang, Q., Wu, Y. &amp; Fei, X. (2015). Effect of probiotics on body weight and body-mass index: A systematic review and meta-analysis of randomized, controlled trials. <em>International Journal of Food Sciences and Nutrition, 67</em>(5), 571–580.",
+   "doi": "10.1080/09637486.2016.1181156"
+  },
+  "jafarnejad2016": {
+   "short": "Jafarnejad et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27130655",
+   "apa": "Jafarnejad, S., Shab-Bidar, S., Speakman, J. R., Parastui, K., Daneshi-Maskooni, M. &amp; Djafarian, K. (2016). Probiotics reduce the risk of antibiotic-associated diarrhea in adults (18-64 years) but not the elderly (>65 years): A meta-analysis. <em>Nutrition in Clinical Practice, 31</em>(4), 502–513.",
+   "doi": "10.1177/0884533616639399"
+  },
+  "mazidi2017": {
+   "short": "Mazidi et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28054937",
+   "apa": "Mazidi, M., Rezaie, P., Ferns, G. A. &amp; Vatanparast, H. (2017). Impact of probiotic administration on serum C-Reactive protein concentrations: Systematic review and meta-analysis of randomized control trials. <em>Nutrients, 9</em>(1), 20.",
+   "doi": "10.3390/nu9010020"
+  },
+  "goldenberg2017": {
+   "short": "Goldenberg et al., 2017",
+   "year": 2017,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "29257353",
+   "apa": "Goldenberg, J. Z., Yap, C., Lytvyn, L., Lo, C. K., Beardsley, J., Mertz, D. &amp; Johnston, B. C. (2017). Probiotics for the prevention of clostridium difficile-associated diarrhea in adults and children. <em>Cochrane Database of Systematic Reviews</em>(12), Artikel CD006095.",
+   "doi": "10.1002/14651858.CD006095.pub4"
+  },
+  "bafeta2018": {
+   "short": "Bafeta et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "30014150",
+   "apa": "Bafeta, A., Koh, M., Riveros, C. &amp; Ravaud, P. (2018). Harms reporting in randomized controlled trials of interventions aimed at modifying microbiota: A systematic review. <em>Annals of Internal Medicine, 169</em>(4), 240–247.",
+   "doi": "10.7326/M18-0343"
+  },
+  "jaeger2019": {
+   "short": "Jäger et al., 2019",
+   "year": 2019,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "31864419",
+   "apa": "Jäger, R., Mohr, A. E., Carpenter, K. C., Kerksick, C. M., Purpura, M., Moussa, A., Townsend, J. R., Lamprecht, M., West, N. P., Black, K., Gleeson, M., Pyne, D. B., Wells, S. D., Arent, S. M., Smith-Ryan, A. E., Kreider, R. B., Campbell, B. I., Bannock, L., Scheiman, J., … Antonio, J. (2019). International Society of Sports Nutrition position stand: Probiotics. <em>Journal of the International Society of Sports Nutrition, 16</em>(1), 62.",
+   "doi": "10.1186/s12970-019-0329-0"
+  },
+  "mohr2020": {
+   "short": "Mohr et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "31648930",
+   "apa": "Mohr, A. E., Basile, A. J., Crawford, M. S., Sweazea, K. L. &amp; Carpenter, K. C. (2020). Probiotic supplementation has a limited effect on circulating immune and inflammatory markers in healthy adults: A systematic review of randomized controlled trials. <em>Journal of the Academy of Nutrition and Dietetics, 120</em>(4), 548–564.",
+   "doi": "10.1016/j.jand.2019.08.018"
+  },
+  "lagowska2021": {
+   "short": "Łagowska & Bajerska, 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33481001",
+   "apa": "Łagowska, K. &amp; Bajerska, J. (2021). Probiotic supplementation and respiratory infection and immune function in athletes: Systematic review and meta-analysis of randomized controlled trials. <em>Journal of Athletic Training, 56</em>(11), 1213–1223.",
+   "doi": "10.4085/592-20"
+  },
+  "goodman2021": {
+   "short": "Goodman et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34385227",
+   "apa": "Goodman, C., Keating, G., Georgousopoulou, E., Hespe, C. &amp; Levett, K. (2021). Probiotics for the prevention of antibiotic-associated diarrhoea: A systematic review and meta-analysis. <em>BMJ Open, 11</em>(8), Artikel e043054.",
+   "doi": "10.1136/bmjopen-2020-043054"
+  },
+  "liao2021": {
+   "short": "Liao et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33234881",
+   "apa": "Liao, W., Chen, C., Wen, T. &amp; Zhao, Q. (2021). Probiotics for the prevention of antibiotic-associated diarrhea in adults: A meta-analysis of randomized placebo-controlled trials. <em>Journal of Clinical Gastroenterology, 55</em>(6), 469–480.",
+   "doi": "10.1097/MCG.0000000000001464"
+  },
+  "coleman2022": {
+   "short": "Coleman et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "35948276",
+   "apa": "Coleman, J. L., Hatch-McChesney, A., Small, S. D., Allen, J. T., Sullo, E., Agans, R. T., Fagnant, H. S., Bukhari, A. S. &amp; Karl, J. P. (2022). Orally ingested probiotics, prebiotics, and synbiotics as countermeasures for respiratory tract infections in nonelderly adults: A systematic review and meta-analysis. <em>Advances in Nutrition, 13</em>(6), 2277–2295.",
+   "doi": "10.1093/advances/nmac086"
+  },
+  "zhao2022": {
+   "short": "Zhao et al., 2022",
+   "year": 2022,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "36001877",
+   "apa": "Zhao, Y., Dong, B. R. &amp; Hao, Q. (2022). Probiotics for preventing acute upper respiratory tract infections. <em>Cochrane Database of Systematic Reviews</em>(8), Artikel CD006895.",
+   "doi": "10.1002/14651858.CD006895.pub4"
+  },
+  "santibanez2022": {
+   "short": "Santibañez-Gutierrez et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "35276980",
+   "apa": "Santibañez-Gutierrez, A., Fernández-Landa, J., Calleja-González, J., Delextrat, A. &amp; Mielgo-Ayuso, J. (2022). Effects of probiotic supplementation on exercise with predominance of aerobic metabolism in trained population: A systematic review, meta-analysis and meta-regression. <em>Nutrients, 14</em>(3), Artikel 622.",
+   "doi": "10.3390/nu14030622"
+  },
+  "lagowska2022": {
+   "short": "Łagowska et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35807826",
+   "apa": "Łagowska, K., Bajerska, J., Kamiński, S. &amp; Del Bo', C. (2022). Effects of probiotics supplementation on gastrointestinal symptoms in athletes: A systematic review of randomized controlled trials. <em>Nutrients, 14</em>(13), Artikel 2645.",
+   "doi": "10.3390/nu14132645"
+  },
+  "depaiva2023": {
+   "short": "de Paiva et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35950956",
+   "apa": "de Paiva, A. K. F., de Oliveira, E. P., Mancini, L., Paoli, A. &amp; Mota, J. F. (2023). Effects of probiotic supplementation on performance of resistance and aerobic exercises: A systematic review. <em>Nutrition Reviews, 81</em>(2), 153–167.",
+   "doi": "10.1093/nutrit/nuac046"
+  },
+  "faghfouri2023": {
+   "short": "Faghfouri et al., 2023",
+   "year": 2023,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "37698776",
+   "apa": "Faghfouri, A. H., Afrakoti, L. G. M. P., Kavyani, Z., Nogourani, Z. S., Musazadeh, V., Jafarlou, M. &amp; Dehghan, P. (2023). The role of probiotic supplementation in inflammatory biomarkers in adults: An umbrella meta-analysis of randomized controlled trials. <em>Inflammopharmacology, 31</em>(5), 2253–2268.",
+   "doi": "10.1007/s10787-023-01332-8"
+  },
+  "saadati2024": {
+   "short": "Saadati et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "38030409",
+   "apa": "Saadati, S., Naseri, K., Asbaghi, O., Yousefi, M., Golalipour, E. &amp; de Courten, B. (2024). Beneficial effects of the probiotics and synbiotics supplementation on anthropometric indices and body composition in adults: A systematic review and meta-analysis. <em>Obesity Reviews, 25</em>(3), Artikel e13667.",
+   "doi": "10.1111/obr.13667"
+  },
+  "aitkenhead2025": {
+   "short": "Aitkenhead et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "39940302",
+   "apa": "Aitkenhead, R., Waldron, M., Conway, G. E., Horner, K. &amp; Heffernan, S. M. (2025). The influence of dietary supplements on exercise-induced gut damage and gastrointestinal symptoms: A systematic review and meta-analysis. <em>Nutrients, 17</em>(3), Artikel 443.",
+   "doi": "10.3390/nu17030443",
+   "flag": "Probiotika und Magen-Darm-Beschwerden: g = −0,62 mit 95-%-KI [−1,01; 1,01] und p = 0,05 im Abstract; das Intervall ist mit dem p-Wert nicht vereinbar, die Studienzahl der Untergruppe fehlt."
+  },
+  "costa2025": {
+   "short": "Costa et al., 2025",
+   "year": 2025,
+   "type": "Positionspapier (Sports Dietitians Australia)",
+   "basis": "Abstract",
+   "pmid": "40195264",
+   "apa": "Costa, R. J. S., Gaskell, S. K., Henningsen, K., Jeacocke, N. A., Martinez, I. G., Mika, A., Scheer, V., Scrivin, R., Snipe, R. M. J., Wallett, A. M. &amp; Young, P. (2025). Sports dietitians australia and ultra sports science foundation joint position statement: A practitioner guide to the prevention and management of exercise-associated gastrointestinal perturbations and symptoms. <em>Sports Medicine, 55</em>(5), 1097–1134.",
+   "doi": "10.1007/s40279-025-02186-6"
+  },
+  "aparicio2025": {
+   "short": "Aparicio-Pascual et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40402402",
+   "apa": "Aparicio-Pascual, D., Clemente-Suárez, V. J., Tornero-Aguilera, J. F. &amp; Rubio-Zarapuz, A. (2025). The effect of probiotic supplementation on cytokine modulation in athletes after a bout of exercise: A systematic review and meta-analysis. <em>Sports Medicine – Open, 11</em>(1), 58.",
+   "doi": "10.1186/s40798-025-00860-7"
+  },
+  "shirkoohi2025": {
+   "short": "Shirkoohi et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40268884",
+   "apa": "Shirkoohi, N. M., Mohammadi, H., Gallaly, D. Q. &amp; Djafarian, K. (2025). The effects of probiotic supplementation on body composition, recovery following exercise-induced muscle damage, and exercise performance: A systematic review and meta-analysis of clinical trials. <em>Physiological Reports, 13</em>(8), Artikel e70288.",
+   "doi": "10.14814/phy2.70288",
+   "flag": "Studien- und Teilnehmerzahl nicht im Abstract angegeben."
+  },
+  "esmaeilinezhad2025": {
+   "short": "Esmaeilinezhad et al., 2025",
+   "year": 2025,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "40931979",
+   "apa": "Esmaeilinezhad, Z., Ghosh, N. R., Walsh, C. M., Steen, J. P., Burgman, A. M., Mertz, D. &amp; Johnston, B. C. (2025). Probiotics for the prevention of clostridioides difficile-associated diarrhea in adults and children. <em>Cochrane Database of Systematic Reviews</em>(9), Artikel CD006095.",
+   "doi": "10.1002/14651858.CD006095.pub5"
+  },
+  "zhang2026": {
+   "short": "Zhang et al., 2026",
+   "year": 2026,
+   "type": "Bayes-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41693944",
+   "apa": "Zhang, X., Chang, Z., Zhao, S., Wu, X., Wang, X., Ai, G. &amp; Ning, Z. (2026). Effect of probiotic intake on athletic ability in healthy people: A systematic review and Bayesian meta-analysis. <em>Frontiers in Nutrition, 13</em>, Artikel 1731627.",
+   "doi": "10.3389/fnut.2026.1731627"
+  },
+  "chen2026": {
+   "short": "Chen et al., 2026",
+   "year": 2026,
+   "type": "Umbrella Review mit Re-Analyse",
+   "basis": "Abstract",
+   "pmid": "41773190",
+   "apa": "Chen, L., Li, A., Chen, W., Zhou, J. &amp; Kou, Y. (2026). Effects of probiotic supplementation on immune and inflammatory markers in athletes: An umbrella review and re-analysis of published meta-analyses of randomised controlled trials. <em>PeerJ, 14</em>, Artikel e20809.",
+   "doi": "10.7717/peerj.20809",
+   "flag": "3 413 Teilnehmende aus 5 Metaanalysen; Überschneidungen der Primärstudien möglich, die Zahl ist daher keine Summe unabhängiger Personen."
+  },
+  "kumar2026": {
+   "short": "Kumar et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse (mit individuellen Teilnehmerdaten)",
+   "basis": "Abstract",
+   "pmid": "40892162",
+   "apa": "Kumar, A., Merenstein, D., Tan, T., Obeng-Nyarkoh, P. I., Hojsak, I. &amp; D'Amico, F. (2026). Safety of one of the most commonly used probiotic strains: Systematic review and meta-analysis of reported adverse events. <em>Probiotics and Antimicrobial Proteins, 18</em>(3), 4037–4048.",
+   "doi": "10.1007/s12602-025-10740-x"
+  }
+ }
+}

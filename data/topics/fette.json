@@ -1,0 +1,1299 @@
+{
+ "id": "fette",
+ "title": "Fette",
+ "stand": "2026-11-20",
+ "lead": "Verbessert eine fettreiche oder ketogene Ernährung Ausdauer oder Kraft, senkt wenig Fett das Testosteron, und wie wirken gesättigte, ungesättigte und Transfette auf das Herz-Kreislauf-Risiko? Dazu: MCT-Öle. Zusammengefasst aus Metaanalysen, Cochrane-Reviews und Positionspapieren.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierende Erwachsene. Fett ist für die Leistung vor allem als Energieträger im Gesamtplan wichtig; für die Gesundheit zählt die Art der Fettsäuren mehr als die Gesamtmenge.",
+ "rx": [
+  {
+   "label": "Ketogen für Leistung",
+   "value": "nicht empfohlen",
+   "text": "Fettreiche, ketogene Kost steigert die Fettverbrennung stark, verbessert aber weder Ausdauer noch Kraft. Bei wiederholten Sprints und in der ersten Woche der Umstellung drohen Einbußen.",
+   "cite": "Leaf et al. 2024; Gawelczyk et al. 2026a; Gawelczyk et al. 2026b"
+  },
+  {
+   "label": "Fettanteil und Testosteron",
+   "value": "sehr fettarme Kost meiden",
+   "text": "Bei Männern senkte fettarme Kost das Testosteron in kleinen Studien leicht; eine größere Analyse mit Männern und Frauen fand keinen Effekt. Ein sehr niedriger Fettanteil bringt für Sportler keinen Vorteil und ist daher nicht nötig.",
+   "cite": "Whittaker &amp; Wu 2021; Soltani et al. 2025"
+  },
+  {
+   "label": "Art der Fette",
+   "value": "gesättigte durch ungesättigte ersetzen",
+   "text": "Wer gesättigte Fette durch mehrfach ungesättigte Fette (z. B. Pflanzenöle, Nüsse) ersetzt, senkt LDL-Cholesterin und Herz-Kreislauf-Ereignisse; der Nutzen ist bei hohem Ausgangsrisiko am größten.",
+   "cite": "Hooper et al. 2020a; Steen et al. 2026; Hart et al. 2025"
+  },
+  {
+   "label": "Transfette",
+   "value": "industrielle Transfette vermeiden",
+   "text": "Industrielle Transfette gehen mit höherem Risiko für koronare Herzkrankheit und Sterblichkeit einher; Transfette aus Milch und Fleisch in üblichen Mengen nicht.",
+   "cite": "de Souza et al. 2015; Bendsen et al. 2011"
+  },
+  {
+   "label": "MCT-Öl",
+   "value": "kein Leistungsmittel",
+   "text": "MCT-Öl verbessert die Ausdauerleistung nicht; als Ersatz für andere Fette sank das Körpergewicht nur um etwa ein halbes Kilo. Etwa 30 g gelten als Höchstmenge, um Nebenwirkungen gering zu halten.",
+   "cite": "Chapman-Lopez &amp; Koh 2022; Mumme &amp; Stonehouse 2015"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Omega-3-Fettsäuren (EPA, DHA) werden im eigenen Thema <a href=\"#omega-3\">Omega-3</a> ausführlich behandelt. Die Herz-Kreislauf-Daten stammen überwiegend aus Allgemeinbevölkerung und Risikogruppen, nicht aus Sportlern.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Ketogen: mehr Fettverbrennung, keine bessere Leistung",
+   "ev": "moderat",
+   "p": "Die Fettoxidation stieg in allen Studien deutlich, Ausdauer- und Kraftleistung blieben gleich oder sanken; wiederholte Sprints litten am ehesten.",
+   "s": [
+    "gawelczyk2026a",
+    "wang2025",
+    "koerich2023",
+    "leaf2024"
+   ]
+  },
+  {
+   "t": "Fettarme Kost und Testosteron: kleiner, unsicherer Effekt",
+   "ev": "niedrig",
+   "p": "Bei Männern senkte fettarme Kost das Testosteron (SMD −0,38); in RCTs mit Männern und Frauen fand sich kein Unterschied.",
+   "s": [
+    "whittaker2021",
+    "soltani2025"
+   ]
+  },
+  {
+   "t": "Weniger gesättigte Fette senkt Herz-Kreislauf-Ereignisse",
+   "ev": "moderat",
+   "p": "Der Cochrane-Review fand 21 % weniger kardiovaskuläre Ereignisse, aber keine geringere Sterblichkeit; der Nutzen hängt vom Ersatz (mehrfach ungesättigt) und vom Ausgangsrisiko ab.",
+   "s": [
+    "hooper2020a",
+    "steen2026",
+    "mozaffarian2010"
+   ]
+  },
+  {
+   "t": "Transfette sind klar ungünstig",
+   "ev": "moderat",
+   "p": "Hohe Transfettzufuhr ging mit 34 % höherer Gesamtsterblichkeit und 21 % mehr koronarer Herzkrankheit einher, vor allem bei industriellen Transfetten.",
+   "s": [
+    "desouza2015",
+    "bendsen2011",
+    "mensink2003"
+   ]
+  },
+  {
+   "t": "Weniger Fett, etwas weniger Gewicht",
+   "ev": "hoch",
+   "p": "Ohne Abnehmabsicht senkte ein geringerer Fettanteil das Körpergewicht im Mittel um 1,4 kg.",
+   "s": [
+    "hooper2020b"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "ausdauer",
+   "name": "Fettreiche und ketogene Ernährung: Ausdauer und Fettoxidation",
+   "q": "Lohnt sich Fettadaptation für Ausdauersportler?",
+   "ev": "moderat",
+   "key": [
+    "20 Studien (2005): Mit kohlenhydratreicher Kost hielten Teilnehmende länger durch (ES −0,60 zugunsten Kohlenhydrate); bei Trainierten kaum Unterschied (−0,05), bei Untrainierten groß (−2,84); hohe Heterogenität (Erlenbusch et al., 2005).",
+    "33 Studien mit trainierten Athleten: Die Fettoxidation stieg in allen 30 Studien, die sie maßen (+28 % bis +200 %). VO₂max blieb in 50 % der Studien gleich und stieg in 11,1 %; die Bewegungsökonomie verschlechterte sich in 50 %; die Zeit bis zur Erschöpfung blieb in 69,2 % gleich. Messungen innerhalb der ersten 7 Tage zeigten Einbußen, spätere nicht (Gawelczyk et al., 2026a).",
+    "33 Studien bei Erwachsenen: ketogene Diät erhöhte die Fettoxidation (+0,13 g/min [0,08; 0,17]) und senkte den respiratorischen Quotienten (−0,07); VO₂max und Laufzeit bis zur Erschöpfung unverändert (Wang et al., 2025).",
+    "Trainierte, 18 Studien: Zeitfahren −3,3 % [−8,5; 1,7] unter ketogener Diät gegenüber kohlenhydratreicher Kost (Koerich et al., 2023). ISSN: Fettoxidation steigt auf etwa 1,5 g/min, die Leistung bleibt gleich oder sinkt; alle Studien mit Elitesportlern (bis 6 Wochen) zeigten Einbußen (Leaf et al., 2024).",
+    "Debatte Burke vs. Noakes: Einigkeit, dass der Muskel die Oxidation beider Brennstoffe trainieren kann; uneinig, ob hohe Kohlenhydratoxidation über die Vermeidung einer Unterzuckerung hinaus Vorteile bringt (Burke &amp; Noakes, 2026).",
+    "36 Studien (n = 8 990): Frauen oxidierten absolut weniger Fett (−0,06 g/min); relativ zur Körpermasse und bei der Intensität der maximalen Fettoxidation kein signifikanter Geschlechtsunterschied (Ferri-Marini et al., 2026)."
+   ],
+   "critic": "Mehr Fettoxidation ist eindeutig belegt, ein Leistungsgewinn nicht. Die Arbeit von Gawelczyk et al. (2026a) zählt Studienergebnisse aus, statt Effekte zu poolen; die These einer Anpassungsschwelle von einer Woche ist daher vorsichtig zu lesen. Gepoolte Analysen (Koerich et al., 2023; Wang et al., 2025) und die ISSN finden keinen Vorteil, bei Elitesportlern eher Nachteile. Die Studien sind klein, oft kurz und kaum verblindbar.",
+   "figs": [],
+   "s": [
+    "erlenbusch2005",
+    "gawelczyk2026a",
+    "wang2025",
+    "koerich2023",
+    "leaf2024",
+    "burke2026",
+    "ferrimarini2026"
+   ]
+  },
+  {
+   "id": "kraft",
+   "name": "Ketogene Ernährung, Kraft und Körperzusammensetzung",
+   "q": "Schadet eine ketogene Diät Kraft und Muskulatur?",
+   "ev": "moderat",
+   "key": [
+    "33 Studien: kein Unterschied bei Muskelmasse (+0,06 kg [−1,97; 2,09]), Sprungkraft (SMD −0,06) und Kraft (Kniebeuge SMD −0,19 [−0,53; 0,15]; Bankdrücken SMD −0,15 [−0,49; 0,18]); aber weniger fettfreie Masse (−0,48 kg [−0,73; −0,23]) und Fettmasse (−1,31 kg [−2,06; −0,57]) (Wang et al., 2025).",
+    "Wettkampfsportler, 13 Studien: anaerobe Leistung gleich bis leicht besser (d = +0,29 [−0,08; 0,66]), Wiederholungssprints tendenziell schlechter (d = −0,33 [−0,80; 0,14]), Laktat deutlich niedriger (d = −0,89 [−1,20; −0,58]); explorative Schätzungen bei großer Heterogenität (Gawelczyk et al., 2026b).",
+    "Trainierte: 1RM −5,7 % [−14,9; 2,6] gegenüber kohlenhydratreicher Kost; fettfreie Masse −0,8 kg [−3,4; 1,9] (Koerich et al., 2023). ISSN: ähnliche Wirkung auf Maximalkraft, möglicherweise stärkerer Verlust an fettfreier Masse, wahrscheinlich durch Energie-, Protein- und Flüssigkeitsunterschiede (Leaf et al., 2024)."
+   ],
+   "critic": "Die Analysen stimmen überein: Kraft bleibt weitgehend erhalten, Wiederholungsleistungen leiden eher. Der Verlust an fettfreier Masse ist klein und enthält Wasser und Glykogen; ob echte Muskulatur verloren geht, ist offen. Die Studien sind klein (teils 5 Personen) und sehr unterschiedlich lang (2 Tage bis 12 Wochen).",
+   "figs": [
+    {
+     "id": "fe-keto-kraft",
+     "title": "Ketogene Diät: Kraft und anaerobe Leistung",
+     "cap": "Standardisierte Effektgröße gegenüber Kontrollkost mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kniebeuge",
+       "sub": "Wang et al., 2025",
+       "es": -0.19,
+       "lo": -0.53,
+       "hi": 0.15
+      },
+      {
+       "l": "Bankdrücken",
+       "sub": "Wang et al., 2025",
+       "es": -0.15,
+       "lo": -0.49,
+       "hi": 0.18
+      },
+      {
+       "l": "Sprungkraft (Countermovement Jump)",
+       "sub": "Wang et al., 2025",
+       "es": -0.06,
+       "lo": -0.49,
+       "hi": 0.38
+      },
+      {
+       "l": "Anaerobe Leistung",
+       "sub": "Gawelczyk et al., 2026b",
+       "es": 0.29,
+       "lo": -0.08,
+       "hi": 0.66
+      },
+      {
+       "l": "Wiederholungssprints",
+       "sub": "Gawelczyk et al., 2026b",
+       "es": -0.33,
+       "lo": -0.8,
+       "hi": 0.14
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 1,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser"
+     }
+    }
+   ],
+   "s": [
+    "wang2025",
+    "gawelczyk2026b",
+    "koerich2023",
+    "leaf2024"
+   ]
+  },
+  {
+   "id": "testosteron",
+   "name": "Fettanteil und Testosteron",
+   "q": "Senkt eine fettarme Ernährung das Testosteron?",
+   "ev": "niedrig",
+   "key": [
+    "6 Studien (206 Männer): fettarme gegenüber fettreicher Kost senkte Gesamttestosteron (SMD −0,38 [−0,75; −0,01]), freies Testosteron (−0,37 [−0,63; −0,11]) und Dihydrotestosteron (−0,3 [−0,56; −0,03]); bei europäischen und nordamerikanischen Männern stärker (−0,52 [−0,75; −0,3]) (Whittaker &amp; Wu, 2021).",
+    "11 RCTs (888 Erwachsene): kein signifikanter Unterschied bei Testosteron, Östradiol, SHBG und weiteren Sexualhormonen zwischen fettarmer (höchstens 30 % Energie) und fettreicher Kost; niedrige Evidenzsicherheit (Soltani et al., 2025).",
+    "Low-Carb bei Männern, 27 Studien (309 Personen): mit moderatem Proteinanteil kein Effekt auf das Ruhetestosteron, mit sehr hohem Proteinanteil (mindestens 35 %) deutlich niedriger (SMD −1,08 [−1,67; −0,48]; etwa −5,23 nmol/l); Cortisol in den ersten 3 Wochen erhöht (Whittaker &amp; Harris, 2022)."
+   ],
+   "critic": "Die Befunde widersprechen sich. Whittaker &amp; Wu (2021) fanden einen kleinen Effekt in nur 6 Studien mit 206 Männern; Soltani et al. (2025) fanden mit 11 RCTs und 888 Personen keinen, schlossen aber Frauen ein. Für Männer ist ein kleiner Rückgang bei sehr fettarmer Kost plausibel, aber unsicher; zur Korrektur der Analyse von 2021 liegt kein Abstract vor. Ob die Hormonänderung Muskelaufbau oder Leistung beeinflusst, wurde nicht untersucht. Der stärkere Effekt sehr proteinreicher Low-Carb-Kost beruht auf wenigen Studien.",
+   "figs": [
+    {
+     "id": "fe-testosteron",
+     "title": "Fettarme Kost und Testosteron bei Männern",
+     "cap": "Standardisierte Mittelwertdifferenz (fettarm bzw. Low-Carb gegenüber Vergleichskost) mit 95-%-KI.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Gesamttestosteron",
+       "sub": "Whittaker &amp; Wu, 2021",
+       "es": -0.38,
+       "lo": -0.75,
+       "hi": -0.01
+      },
+      {
+       "l": "Freies Testosteron",
+       "sub": "Whittaker &amp; Wu, 2021",
+       "es": -0.37,
+       "lo": -0.63,
+       "hi": -0.11
+      },
+      {
+       "l": "Dihydrotestosteron",
+       "sub": "Whittaker &amp; Wu, 2021",
+       "es": -0.3,
+       "lo": -0.56,
+       "hi": -0.03
+      },
+      {
+       "l": "Gesamttestosteron, europäische und nordamerikanische Männer",
+       "sub": "Whittaker &amp; Wu, 2021",
+       "es": -0.52,
+       "lo": -0.75,
+       "hi": -0.3
+      },
+      {
+       "l": "Ruhetestosteron, Low-Carb mit sehr viel Protein",
+       "sub": "Whittaker &amp; Harris, 2022",
+       "es": -1.08,
+       "lo": -1.67,
+       "hi": -0.48
+      }
+     ],
+     "opts": {
+      "min": -2,
+      "max": 0.5,
+      "ticks": [
+       -2,
+       -1.5,
+       -1,
+       -0.5,
+       0,
+       0.5
+      ],
+      "leftLab": "niedriger",
+      "rightLab": "höher"
+     }
+    }
+   ],
+   "s": [
+    "whittaker2021",
+    "soltani2025",
+    "whittaker2022"
+   ]
+  },
+  {
+   "id": "gesaettigt",
+   "name": "Gesättigte und ungesättigte Fettsäuren: Herz und Kreislauf",
+   "q": "Sollte man gesättigte Fette ersetzen, und womit?",
+   "ev": "moderat",
+   "key": [
+    "Cochrane-Review, 15 RCTs (etwa 59 000 Personen), mindestens 24 Monate: weniger gesättigte Fette senkten kombinierte kardiovaskuläre Ereignisse um 21 % (RR 0,79 [0,66; 0,93]; 11 Studien, 53 300 Personen; moderate Evidenzqualität); kaum Effekt auf Gesamtsterblichkeit (RR 0,96 [0,90; 1,03]) und Herz-Kreislauf-Sterblichkeit (RR 0,95 [0,80; 1,12]). Je stärker die Senkung, desto größer der Nutzen; Ersatz durch mehrfach ungesättigte Fette oder Kohlenhydrate geeignet (Hooper et al., 2020a).",
+    "17 RCTs (66 337 Personen), nach Risiko geschichtet: Gesamtsterblichkeit RR 0,96 [0,88; 1,06], Herz-Kreislauf-Sterblichkeit RR 0,93 [0,77; 1,11]; bei niedrigem Ausgangsrisiko über 5 Jahre kaum Nutzen, bei hohem Risiko relevante absolute Senkungen. Ersatz durch mehrfach ungesättigte Fette: nicht tödlicher Herzinfarkt RR 0,75 [0,58; 0,99] (Steen et al., 2026).",
+    "8 RCTs (13 614 Personen): mehrfach ungesättigte statt gesättigter Fette senkten koronare Ereignisse um 19 % (RR 0,81 [0,70; 0,95]), 10 % je 5 % Energie (Mozaffarian et al., 2010). Nur in ausreichend kontrollierten Studien kein Effekt (schwere koronare Ereignisse RR 1,06 [0,86; 1,31]) (Hamley, 2017).",
+    "9 RCTs (13 532 Personen), überwiegend Sekundärprävention: kein signifikanter Unterschied bei Herz-Kreislauf-Sterblichkeit (RR 0,94 [0,75; 1,19]) oder Herzinfarkt (RR 0,85 [0,71; 1,02]) (Yamada et al., 2025).",
+    "Kohortenstudien: gesättigte Fette nicht mit koronarer Herzkrankheit (RR 1,07 [0,96; 1,19]) oder Herz-Kreislauf-Erkrankung (RR 1,00) verbunden (Siri-Tarino et al., 2010); ebenso nicht mit Gesamtsterblichkeit (RR 0,99 [0,91; 1,09]), sehr niedrige Evidenzsicherheit (de Souza et al., 2015); RR 1,02 [0,97; 1,07] für koronare Erkrankung (Chowdhury et al., 2014).",
+    "44 Kohorten (811 069 Personen): hohe Linolsäurezufuhr, Gesamtsterblichkeit RR 0,87 [0,81; 0,94], Herz-Kreislauf-Sterblichkeit RR 0,87 [0,82; 0,92] (Li et al., 2020).",
+    "Blutfette: 24 Fütterungsstudien (n = 1 011): höheres Verhältnis mehrfach ungesättigter zu gesättigten Fetten senkte LDL um 9,83 mg/dl [6,04; 13,63], bei echtem Austausch gesättigter Fette um 15,72 mg/dl (Hart et al., 2025). 60 Studien: Ersatz gesättigter durch ungesättigte Fettsäuren senkte das Verhältnis Gesamt- zu HDL-Cholesterin, Ersatz durch Kohlenhydrate nicht (Mensink et al., 2003)."
+   ],
+   "critic": "Die Befunde wirken widersprüchlich, lassen sich aber ordnen. Kohortenstudien finden für gesättigte Fette keinen Zusammenhang, weil sie nicht berücksichtigen, wodurch diese ersetzt werden, und weil die Ernährungsangaben ungenau sind (Evidenzsicherheit sehr niedrig). Randomisierte Studien sind aussagekräftiger: Die beiden größten und aktuellsten Analysen (Hooper et al., 2020a; Steen et al., 2026) zeigen weniger kardiovaskuläre Ereignisse, besonders bei Ersatz durch mehrfach ungesättigte Fette, aber keine sicher geringere Sterblichkeit. Analysen mit wenigen Studien (Hamley, 2017; Yamada et al., 2025) finden keinen Effekt; sie schließen viele Studien aus bzw. betreffen überwiegend Herzkranke. Wahrscheinlich ist der Austausch gegen mehrfach ungesättigte Fette günstig, der absolute Nutzen bei jungen, gesunden Sportlern aber klein.",
+   "figs": [
+    {
+     "id": "fe-sfa-rct",
+     "title": "Weniger gesättigte Fette: randomisierte Studien",
+     "cap": "Relatives Risiko mit 95-%-KI gegenüber unveränderter Zufuhr.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kardiovaskuläre Ereignisse",
+       "sub": "Hooper et al., 2020a",
+       "es": 0.79,
+       "lo": 0.66,
+       "hi": 0.93
+      },
+      {
+       "l": "Gesamtsterblichkeit",
+       "sub": "Hooper et al., 2020a",
+       "es": 0.96,
+       "lo": 0.9,
+       "hi": 1.03
+      },
+      {
+       "l": "Gesamtsterblichkeit",
+       "sub": "Steen et al., 2026",
+       "es": 0.96,
+       "lo": 0.88,
+       "hi": 1.06
+      },
+      {
+       "l": "Herzinfarkt, Ersatz durch mehrfach ungesättigte Fette",
+       "sub": "Steen et al., 2026",
+       "es": 0.75,
+       "lo": 0.58,
+       "hi": 0.99
+      },
+      {
+       "l": "Koronare Ereignisse, Ersatz durch mehrfach ungesättigte Fette",
+       "sub": "Mozaffarian et al., 2010",
+       "es": 0.81,
+       "lo": 0.7,
+       "hi": 0.95
+      },
+      {
+       "l": "Schwere koronare Ereignisse, nur gut kontrollierte Studien",
+       "sub": "Hamley, 2017",
+       "es": 1.06,
+       "lo": 0.86,
+       "hi": 1.31
+      },
+      {
+       "l": "Herz-Kreislauf-Sterblichkeit",
+       "sub": "Yamada et al., 2025",
+       "es": 0.94,
+       "lo": 0.75,
+       "hi": 1.19
+      }
+     ],
+     "opts": {
+      "min": 0.5,
+      "max": 1.4,
+      "ticks": [
+       0.6,
+       0.8,
+       1,
+       1.2,
+       1.4
+      ],
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    },
+    {
+     "id": "fe-kohorten",
+     "title": "Fettarten und Risiko in Kohortenstudien",
+     "cap": "Relatives Risiko mit 95-%-KI, höchste gegenüber niedrigster Zufuhr (Beobachtungsstudien).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Gesättigte Fette, Gesamtsterblichkeit",
+       "sub": "de Souza et al., 2015",
+       "es": 0.99,
+       "lo": 0.91,
+       "hi": 1.09
+      },
+      {
+       "l": "Gesättigte Fette, koronare Herzkrankheit",
+       "sub": "Siri-Tarino et al., 2010",
+       "es": 1.07,
+       "lo": 0.96,
+       "hi": 1.19
+      },
+      {
+       "l": "Gesättigte Fette, koronare Erkrankung",
+       "sub": "Chowdhury et al., 2014",
+       "es": 1.02,
+       "lo": 0.97,
+       "hi": 1.07
+      },
+      {
+       "l": "Linolsäure, Gesamtsterblichkeit",
+       "sub": "Li et al., 2020",
+       "es": 0.87,
+       "lo": 0.81,
+       "hi": 0.94
+      },
+      {
+       "l": "Transfette, Gesamtsterblichkeit",
+       "sub": "de Souza et al., 2015",
+       "es": 1.34,
+       "lo": 1.16,
+       "hi": 1.56
+      },
+      {
+       "l": "Transfette, koronare Erkrankung",
+       "sub": "Chowdhury et al., 2014",
+       "es": 1.16,
+       "lo": 1.06,
+       "hi": 1.27
+      }
+     ],
+     "opts": {
+      "min": 0.7,
+      "max": 1.6,
+      "ticks": [
+       0.8,
+       1,
+       1.2,
+       1.4,
+       1.6
+      ],
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "hooper2020a",
+    "steen2026",
+    "mozaffarian2010",
+    "hamley2017",
+    "yamada2025",
+    "siritarino2010",
+    "desouza2015",
+    "chowdhury2014",
+    "li2020",
+    "hart2025",
+    "mensink2003"
+   ]
+  },
+  {
+   "id": "trans",
+   "name": "Transfette",
+   "q": "Wie schädlich sind Transfette, und spielt die Quelle eine Rolle?",
+   "ev": "moderat",
+   "key": [
+    "Kohortenstudien: Transfette insgesamt, Gesamtsterblichkeit RR 1,34 [1,16; 1,56], Sterblichkeit an koronarer Herzkrankheit RR 1,28 [1,09; 1,50], koronare Herzkrankheit RR 1,21 [1,10; 1,33]. Industrielle Transfette: koronare Herzkrankheit RR 1,42 [1,05; 1,92]; aus Wiederkäuern RR 0,93 [0,73; 1,18]. Evidenzsicherheit moderat für koronare Endpunkte (de Souza et al., 2015).",
+    "8 Kohorten: Transfette insgesamt RR 1,22 [1,08; 1,38] für koronare Ereignisse; aus Wiederkäuern RR 0,92 [0,76; 1,11], industriell RR 1,21 [0,97; 1,50] (Bendsen et al., 2011).",
+    "Fütterungsstudien: Der Ersatz von Transfetten durch Kohlenhydrate und ungesättigte Fette verbesserte das Verhältnis Gesamt- zu HDL-Cholesterin fast doppelt so stark wie der Ersatz gesättigter Fette (Mensink et al., 2003).",
+    "Milchprodukte mit natürlichen Transfetten, 10 RCTs: keine Unterschiede bei Blutfetten außer leicht niedrigerem HDL (−0,05 mmol/l); in 12 Kohorten kein höheres Risiko (Gayet-Boyer et al., 2026)."
+   ],
+   "critic": "Für industrielle Transfette ist die Datenlage über Beobachtungs- und Fütterungsstudien hinweg konsistent; randomisierte Studien zu harten Endpunkten fehlen aus ethischen Gründen. Dass Transfette aus Milch und Fleisch unbedenklich wirken, kann an den viel geringeren üblichen Mengen liegen (Bendsen et al., 2011). Die Analyse zu Milch-Transfetten stützt sich auf wenige Studien und stammt überwiegend von Autoren aus Organisationen der Milchwirtschaft.",
+   "figs": [
+    {
+     "id": "fe-trans",
+     "title": "Transfette und koronare Herzkrankheit nach Quelle",
+     "cap": "Relatives Risiko mit 95-%-KI, höchste gegenüber niedrigster Zufuhr (Kohortenstudien).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Transfette insgesamt",
+       "sub": "de Souza et al., 2015",
+       "es": 1.21,
+       "lo": 1.1,
+       "hi": 1.33
+      },
+      {
+       "l": "Industrielle Transfette",
+       "sub": "de Souza et al., 2015",
+       "es": 1.42,
+       "lo": 1.05,
+       "hi": 1.92
+      },
+      {
+       "l": "Transfette aus Wiederkäuern",
+       "sub": "de Souza et al., 2015",
+       "es": 0.93,
+       "lo": 0.73,
+       "hi": 1.18
+      },
+      {
+       "l": "Transfette insgesamt",
+       "sub": "Bendsen et al., 2011",
+       "es": 1.22,
+       "lo": 1.08,
+       "hi": 1.38
+      },
+      {
+       "l": "Industrielle Transfette",
+       "sub": "Bendsen et al., 2011",
+       "es": 1.21,
+       "lo": 0.97,
+       "hi": 1.5
+      },
+      {
+       "l": "Transfette aus Wiederkäuern",
+       "sub": "Bendsen et al., 2011",
+       "es": 0.92,
+       "lo": 0.76,
+       "hi": 1.11
+      }
+     ],
+     "opts": {
+      "min": 0.6,
+      "max": 2,
+      "ticks": [
+       0.6,
+       1,
+       1.4,
+       1.8
+      ],
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "desouza2015",
+    "bendsen2011",
+    "mensink2003",
+    "gayetboyer2026"
+   ]
+  },
+  {
+   "id": "koerper",
+   "name": "Fettanteil, Körpergewicht und MCT",
+   "q": "Macht weniger Fett schlanker, und was bringen MCT-Öle?",
+   "ev": "moderat",
+   "key": [
+    "Cochrane-Review, 37 RCTs (57 079 Personen) ohne Abnehmabsicht: weniger Fett senkte das Gewicht um 1,4 kg [−1,7; −1,1] (26 Studien), BMI −0,5 kg/m², Körperfettanteil −0,3 Prozentpunkte; LDL −0,13 mmol/l; keine Hinweise auf Schäden; hohe Konsistenz der Evidenz (Hooper et al., 2020b).",
+    "MCT statt langkettiger Fette, 13 RCTs (n = 749): Körpergewicht −0,51 kg [−0,80; −0,23], Taillenumfang −1,46 cm, Körperfett SMD −0,39 [−0,57; −0,22]; keine Änderung der Blutfette. Kommerzielle Verzerrung festgestellt (Mumme &amp; Stonehouse, 2015).",
+    "MCT-Öl und Blutfette, 7 Studien: keine Änderung von Gesamt-, LDL- und HDL-Cholesterin, Triglyzeride +0,14 mmol/l [0,01; 0,27]; im Vergleich zu ungesättigten Ölen stiegen Gesamt- und LDL-Cholesterin (McKenzie et al., 2021).",
+    "MCT-Öl und Ausdauer: Die meisten Studien fanden keine bessere Leistung und keine veränderte Substratnutzung; Ketone stiegen, wurden aber nicht als Hauptenergiequelle genutzt; etwa 30 g gelten als verträgliche Höchstmenge (Chapman-Lopez &amp; Koh, 2022)."
+   ],
+   "critic": "Der Effekt eines geringeren Fettanteils auf das Gewicht ist klein, aber sehr konsistent; er wirkt vermutlich über eine geringere Energiezufuhr. Die MCT-Befunde zum Gewicht sind klein und durch Herstellerinteressen belastet; für die Leistung gibt es keine Metaanalyse, nur einen systematischen Review mit überwiegend negativen Studien.",
+   "figs": [],
+   "s": [
+    "hooper2020b",
+    "mumme2015",
+    "mckenzie2021",
+    "chapmanlopez2022"
+   ]
+  },
+  {
+   "id": "omega3",
+   "name": "Omega-3-Fettsäuren (Kurzüberblick)",
+   "q": "Welche Rolle spielen EPA und DHA?",
+   "ev": "moderat",
+   "key": [
+    "ISSN: Sportler haben möglicherweise ein höheres Risiko für einen niedrigen Omega-3-Status. EPA und DHA können die Ausdauerkapazität und die Herz-Kreislauf-Funktion bei aerober Belastung verbessern, mit Krafttraining abhängig von Dosis und Dauer die Kraft steigern und Muskelkater mindern; ein Hypertrophievorteil bei jungen Erwachsenen ist nicht belegt (Jäger et al., 2025).",
+    "Ausführlich mit Metaanalysen im Thema Omega-3."
+   ],
+   "critic": "Hier nur das Positionspapier als Überblick; die kritische Einordnung der Einzelbefunde steht im Thema Omega-3.",
+   "figs": [],
+   "s": [
+    "jager2025"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2003,
+   "t": "Fettsäuren und Cholesterinverhältnis",
+   "p": "Ungesättigte statt gesättigter und Transfette verbessern das Verhältnis.",
+   "tag": "neu",
+   "s": "mensink2003"
+  },
+  {
+   "y": 2005,
+   "t": "Fettreich gegen kohlenhydratreich",
+   "p": "Kohlenhydratreiche Kost hielt länger durch; bei Trainierten kaum Unterschied.",
+   "tag": "neu",
+   "s": "erlenbusch2005"
+  },
+  {
+   "y": 2010,
+   "t": "Kohorten: gesättigte Fette ohne Zusammenhang",
+   "p": "Kein erhöhtes Risiko für koronare Herzkrankheit.",
+   "tag": "contra",
+   "s": "siritarino2010"
+  },
+  {
+   "y": 2010,
+   "t": "Mehrfach ungesättigt statt gesättigt",
+   "p": "19 % weniger koronare Ereignisse in RCTs.",
+   "tag": "neu",
+   "s": "mozaffarian2010"
+  },
+  {
+   "y": 2011,
+   "t": "Transfette nach Quelle",
+   "p": "Industrielle eher schädlich, aus Wiederkäuern nicht.",
+   "tag": "neu",
+   "s": "bendsen2011"
+  },
+  {
+   "y": 2014,
+   "t": "Leitlinien hinterfragt",
+   "p": "Keine klare Stütze für viel mehrfach ungesättigte und wenig gesättigte Fette.",
+   "tag": "contra",
+   "s": "chowdhury2014"
+  },
+  {
+   "y": 2015,
+   "t": "Gesättigte vs. Transfette",
+   "p": "Transfette mit höherer Sterblichkeit verbunden, gesättigte nicht.",
+   "tag": "conf",
+   "s": "desouza2015"
+  },
+  {
+   "y": 2015,
+   "t": "MCT und Körpergewicht",
+   "p": "Leichte Abnahme bei kommerzieller Verzerrung.",
+   "tag": "neu",
+   "s": "mumme2015"
+  },
+  {
+   "y": 2017,
+   "t": "Nur gut kontrollierte Studien",
+   "p": "Kein Effekt des Austauschs gegen Omega-6-Fette.",
+   "tag": "contra",
+   "s": "hamley2017"
+  },
+  {
+   "y": 2020,
+   "t": "Cochrane: weniger gesättigte Fette",
+   "p": "21 % weniger kardiovaskuläre Ereignisse, Sterblichkeit kaum verändert.",
+   "tag": "rel",
+   "s": "hooper2020a"
+  },
+  {
+   "y": 2020,
+   "t": "Cochrane: Fettanteil und Körpergewicht",
+   "p": "Weniger Fett, 1,4 kg weniger Gewicht.",
+   "tag": "neu",
+   "s": "hooper2020b"
+  },
+  {
+   "y": 2020,
+   "t": "Linolsäure und Sterblichkeit",
+   "p": "13 % geringere Gesamtsterblichkeit.",
+   "tag": "conf",
+   "s": "li2020"
+  },
+  {
+   "y": 2021,
+   "t": "Fettarme Kost und Testosteron",
+   "p": "Kleiner Rückgang bei Männern.",
+   "tag": "neu",
+   "s": "whittaker2021"
+  },
+  {
+   "y": 2021,
+   "t": "MCT-Öl und Blutfette",
+   "p": "Cholesterin unverändert, Triglyzeride leicht erhöht.",
+   "tag": "neu",
+   "s": "mckenzie2021"
+  },
+  {
+   "y": 2022,
+   "t": "Low-Carb, Cortisol und Testosteron",
+   "p": "Sehr proteinreiche Low-Carb-Kost senkte Testosteron.",
+   "tag": "neu",
+   "s": "whittaker2022"
+  },
+  {
+   "y": 2022,
+   "t": "MCT-Öl ohne Leistungseffekt",
+   "p": "Kaum ergogene Wirkung.",
+   "tag": "neu",
+   "s": "chapmanlopez2022"
+  },
+  {
+   "y": 2023,
+   "t": "Ketogen bei Trainierten",
+   "p": "Kein Leistungsvorteil.",
+   "tag": "conf",
+   "s": "koerich2023"
+  },
+  {
+   "y": 2024,
+   "t": "ISSN zu ketogenen Diäten",
+   "p": "Leistung gleich oder schlechter.",
+   "tag": "conf",
+   "s": "leaf2024"
+  },
+  {
+   "y": 2025,
+   "t": "ISSN zu Omega-3",
+   "p": "Mögliche Vorteile für Ausdauer, Kraft und Muskelkater.",
+   "tag": "neu",
+   "s": "jager2025"
+  },
+  {
+   "y": 2025,
+   "t": "Fettarme Kost und Sexualhormone",
+   "p": "Kein Effekt in 11 RCTs.",
+   "tag": "contra",
+   "s": "soltani2025"
+  },
+  {
+   "y": 2025,
+   "t": "Ketogen, Muskulatur und Fettoxidation",
+   "p": "Kraft gleich, Fettoxidation höher.",
+   "tag": "conf",
+   "s": "wang2025"
+  },
+  {
+   "y": 2025,
+   "t": "Weniger gesättigte Fette ohne Effekt",
+   "p": "Kleine RCT-Analyse, überwiegend Sekundärprävention.",
+   "tag": "contra",
+   "s": "yamada2025"
+  },
+  {
+   "y": 2025,
+   "t": "Verhältnis ungesättigt zu gesättigt",
+   "p": "LDL sinkt vor allem bei echtem Austausch.",
+   "tag": "conf",
+   "s": "hart2025"
+  },
+  {
+   "y": 2026,
+   "t": "Risikostratifizierte RCT-Analyse",
+   "p": "Nutzen vor allem bei hohem Herz-Kreislauf-Risiko.",
+   "tag": "rel",
+   "s": "steen2026"
+  },
+  {
+   "y": 2026,
+   "t": "Low-Carb und Ausdauer bei Athleten",
+   "p": "Fettoxidation stets höher, Leistung meist erhalten.",
+   "tag": "rel",
+   "s": "gawelczyk2026a"
+  },
+  {
+   "y": 2026,
+   "t": "Low-Carb und anaerobe Leistung",
+   "p": "Wiederholungssprints eher schlechter.",
+   "tag": "neu",
+   "s": "gawelczyk2026b"
+  },
+  {
+   "y": 2026,
+   "t": "Fettoxidation bei Frauen und Männern",
+   "p": "Relativ kein sicherer Unterschied.",
+   "tag": "neu",
+   "s": "ferrimarini2026"
+  },
+  {
+   "y": 2026,
+   "t": "Debatte Low-Carb vs. High-Carb",
+   "p": "Fettoxidation trainierbar, Nutzen hoher Kohlenhydratoxidation umstritten.",
+   "tag": "rel",
+   "s": "burke2026"
+  },
+  {
+   "y": 2026,
+   "t": "Transfette aus Milchprodukten",
+   "p": "Kein ungünstiger Effekt in üblichen Mengen.",
+   "tag": "rel",
+   "s": "gayetboyer2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3 683 Einträgen, 630 Übersichtsarbeiten nach Titel geprüft (584 aus der Themensuche, 46 aus ergänzenden Suchen), 29 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer und Stoffwechsel",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Fettoxidation bei ketogener Ernährung",
+     "g": "A",
+     "d": "auf",
+     "m": 4,
+     "b": "neutral",
+     "k": 33,
+     "p": null,
+     "s": [
+      "gawelczyk2026a",
+      "wang2025",
+      "leaf2024"
+     ],
+     "t": "In allen 30 Studien höher (+28 % bis +200 %); gepoolt +0,13 g/min. Als großer Stoffwechseleffekt eingestuft, der sich nicht in bessere Leistung übersetzt.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Ausdauerleistung bei ketogener statt kohlenhydratreicher Ernährung",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 20,
+     "p": null,
+     "s": [
+      "koerich2023",
+      "erlenbusch2005",
+      "wang2025",
+      "gawelczyk2026a",
+      "leaf2024"
+     ],
+     "t": "Zeitfahren −3,3 % mit Intervall über null; VO₂max und Zeit bis zur Erschöpfung unverändert. Ältere Analyse ES −0,60 bei hoher Heterogenität; bei Elitesportlern Einbußen.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "Bewegungsökonomie bei ketogener Ernährung",
+     "g": "C",
+     "d": "ab",
+     "m": -1,
+     "b": "schaden",
+     "k": 33,
+     "p": null,
+     "s": [
+      "gawelczyk2026a"
+     ],
+     "t": "In 50 % der Studien verschlechtert, besonders in der ersten Woche; Größe nicht gepoolt berichtet.",
+     "v": "ausdauer"
+    },
+    {
+     "n": "MCT-Öl und Ausdauerleistung",
+     "g": "D",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": null,
+     "p": null,
+     "s": [
+      "chapmanlopez2022"
+     ],
+     "t": "Meist keine Verbesserung und keine veränderte Substratnutzung (systematischer Review ohne Metaanalyse).",
+     "v": "koerper"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und anaerobe Leistung",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Maximalkraft bei ketogener Ernährung",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 33,
+     "p": null,
+     "s": [
+      "wang2025",
+      "koerich2023",
+      "leaf2024"
+     ],
+     "t": "Kniebeuge SMD −0,19, Bankdrücken SMD −0,15, beide nicht signifikant; 1RM −5,7 % mit Intervall über null.",
+     "v": "kraft"
+    },
+    {
+     "n": "Wiederholte Sprints bei kohlenhydratarmer Ernährung",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 13,
+     "p": null,
+     "s": [
+      "gawelczyk2026b"
+     ],
+     "t": "d = −0,33, nicht signifikant (13 Studien), in mehreren Einzelstudien verschlechtert; explorative Schätzung.",
+     "v": "kraft"
+    },
+    {
+     "n": "Fettfreie Masse bei ketogener Ernährung",
+     "g": "B",
+     "d": "ab",
+     "m": 1,
+     "b": "schaden",
+     "k": 33,
+     "p": null,
+     "s": [
+      "wang2025",
+      "koerich2023",
+      "leaf2024"
+     ],
+     "t": "−0,48 kg (33 Studien); Muskelmasse selbst nicht signifikant verändert. Als sehr kleiner Effekt eingestuft, teils Wasser und Glykogen.",
+     "v": "kraft"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Hormone",
+   "kat": "hormone",
+   "items": [
+    {
+     "n": "Testosteron bei fettarmer Ernährung (Männer)",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "schaden",
+     "k": 11,
+     "p": 888,
+     "s": [
+      "whittaker2021",
+      "soltani2025"
+     ],
+     "t": "Bei Männern SMD −0,38 (6 Studien, 206 Personen); in 11 RCTs mit 888 Erwachsenen kein signifikanter Unterschied.",
+     "v": "testosteron"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz und Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Kardiovaskuläre Ereignisse bei weniger gesättigten Fetten",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 11,
+     "p": 53300,
+     "s": [
+      "hooper2020a",
+      "steen2026",
+      "mozaffarian2010",
+      "hamley2017",
+      "yamada2025"
+     ],
+     "t": "RR 0,79 (Cochrane, moderate Evidenzqualität); mit mehrfach ungesättigtem Ersatz Herzinfarkt RR 0,75. Kleinere Analysen ohne signifikanten Effekt.",
+     "v": "gesaettigt"
+    },
+    {
+     "n": "Gesamtsterblichkeit bei weniger gesättigten Fetten",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 17,
+     "p": 66337,
+     "s": [
+      "steen2026",
+      "hooper2020a"
+     ],
+     "t": "RR 0,96 in beiden großen RCT-Analysen, nicht signifikant (17 Studien, 66 337 Personen).",
+     "v": "gesaettigt"
+    },
+    {
+     "n": "LDL-Cholesterin: mehrfach ungesättigte statt gesättigter Fette",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 24,
+     "p": 1011,
+     "s": [
+      "hart2025",
+      "mensink2003"
+     ],
+     "t": "−9,83 mg/dl, bei echtem Austausch −15,72 mg/dl (24 Fütterungsstudien); als kleiner bis mittlerer, klinisch relevanter Effekt eingestuft.",
+     "v": "gesaettigt"
+    },
+    {
+     "n": "Sterblichkeit und koronare Herzkrankheit bei hoher Transfettzufuhr",
+     "g": "B",
+     "d": "auf",
+     "m": 3,
+     "b": "schaden",
+     "k": null,
+     "p": 230135,
+     "s": [
+      "desouza2015",
+      "bendsen2011",
+      "chowdhury2014"
+     ],
+     "t": "Gesamtsterblichkeit RR 1,34, koronare Herzkrankheit RR 1,21; industrielle Transfette RR 1,42, aus Wiederkäuern kein Zusammenhang.",
+     "v": "trans"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Körpergewicht und Blutfette",
+   "kat": "koerper",
+   "items": [
+    {
+     "n": "Körpergewicht bei geringerem Fettanteil",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 26,
+     "p": 53875,
+     "s": [
+      "hooper2020b"
+     ],
+     "t": "−1,4 kg ohne Abnehmabsicht (26 RCTs, 53 875 Personen), hohe Konsistenz; als kleiner Effekt eingestuft.",
+     "v": "koerper"
+    },
+    {
+     "n": "Körpergewicht: MCT statt langkettiger Fette",
+     "g": "B",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 13,
+     "p": 749,
+     "s": [
+      "mumme2015"
+     ],
+     "t": "−0,51 kg (13 RCTs, n = 749); Körperfett SMD −0,39; kommerzielle Verzerrung festgestellt.",
+     "v": "koerper"
+    },
+    {
+     "n": "Triglyzeride bei MCT-Öl",
+     "g": "C",
+     "d": "auf",
+     "m": 1,
+     "b": "schaden",
+     "k": 7,
+     "p": null,
+     "s": [
+      "mckenzie2021"
+     ],
+     "t": "+0,14 mmol/l (7 Studien); Gesamt-, LDL- und HDL-Cholesterin insgesamt unverändert.",
+     "v": "koerper"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "mensink2003": {
+   "short": "Mensink et al., 2003",
+   "year": 2003,
+   "type": "Metaanalyse (60 kontrollierte Fütterungsstudien)",
+   "basis": "Abstract",
+   "pmid": "12716665",
+   "apa": "Mensink, R. P., Zock, P. L., Kester, A. D. &amp; Katan, M. B. (2003). Effects of dietary fatty acids and carbohydrates on the ratio of serum total to HDL cholesterol and on serum lipids and apolipoproteins: A meta-analysis of 60 controlled trials. <em>The American Journal of Clinical Nutrition, 77</em>(5), 1146–1155.",
+   "doi": "10.1093/ajcn/77.5.1146"
+  },
+  "erlenbusch2005": {
+   "short": "Erlenbusch et al., 2005",
+   "year": 2005,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "15902985",
+   "apa": "Erlenbusch, M., Haub, M., Munoz, K., MacConnie, S. &amp; Stillwell, B. (2005). Effect of high-fat or high-carbohydrate diets on endurance exercise: A meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 15</em>(1), 1–14.",
+   "doi": "10.1123/ijsnem.15.1.1"
+  },
+  "siritarino2010": {
+   "short": "Siri-Tarino et al., 2010",
+   "year": 2010,
+   "type": "Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "20071648",
+   "apa": "Siri-Tarino, P. W., Sun, Q., Hu, F. B. &amp; Krauss, R. M. (2010). Meta-analysis of prospective cohort studies evaluating the association of saturated fat with cardiovascular disease. <em>The American Journal of Clinical Nutrition, 91</em>(3), 535–546.",
+   "doi": "10.3945/ajcn.2009.27725"
+  },
+  "mozaffarian2010": {
+   "short": "Mozaffarian et al., 2010",
+   "year": 2010,
+   "type": "Systematischer Review mit Metaanalyse (RCTs)",
+   "basis": "Abstract",
+   "pmid": "20351774",
+   "apa": "Mozaffarian, D., Micha, R. &amp; Wallace, S. (2010). Effects on coronary heart disease of increasing polyunsaturated fat in place of saturated fat: A systematic review and meta-analysis of randomized controlled trials. <em>PLOS Medicine, 7</em>(3), Artikel e1000252.",
+   "doi": "10.1371/journal.pmed.1000252"
+  },
+  "bendsen2011": {
+   "short": "Bendsen et al., 2011",
+   "year": 2011,
+   "type": "Systematischer Review mit Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "21427742",
+   "apa": "Bendsen, N. T., Christensen, R., Bartels, E. M. &amp; Astrup, A. (2011). Consumption of industrial and ruminant trans fatty acids and risk of coronary heart disease: A systematic review and meta-analysis of cohort studies. <em>European Journal of Clinical Nutrition, 65</em>(7), 773–783.",
+   "doi": "10.1038/ejcn.2011.34"
+  },
+  "chowdhury2014": {
+   "short": "Chowdhury et al., 2014",
+   "year": 2014,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24723079",
+   "apa": "Chowdhury, R., Warnakula, S., Kunutsor, S., Crowe, F., Ward, H. A., Johnson, L., Franco, O. H., Butterworth, A. S., Forouhi, N. G., Thompson, S. G., Khaw, K. T., Mozaffarian, D., Danesh, J. &amp; Di Angelantonio, E. (2014). Association of dietary, circulating, and supplement fatty acids with coronary risk: A systematic review and meta-analysis. <em>Annals of Internal Medicine, 160</em>(6), 398–406.",
+   "doi": "10.7326/M13-1788"
+  },
+  "mumme2015": {
+   "short": "Mumme & Stonehouse, 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25636220",
+   "apa": "Mumme, K. &amp; Stonehouse, W. (2015). Effects of medium-chain triglycerides on weight loss and body composition: A meta-analysis of randomized controlled trials. <em>Journal of the Academy of Nutrition and Dietetics, 115</em>(2), 249–263.",
+   "doi": "10.1016/j.jand.2014.10.022",
+   "flag": "Laut Abstract kommerzielle Verzerrung (commercial bias) in den eingeschlossenen Studien festgestellt; Modell fester Effekte."
+  },
+  "desouza2015": {
+   "short": "de Souza et al., 2015",
+   "year": 2015,
+   "type": "Systematischer Review mit Metaanalyse (Beobachtungsstudien)",
+   "basis": "Abstract",
+   "pmid": "26268692",
+   "apa": "de Souza, R. J., Mente, A., Maroleanu, A., Cozma, A. I., Ha, V., Kishibe, T., Uleryk, E., Budylowski, P., Schünemann, H., Beyene, J. &amp; Anand, S. S. (2015). Intake of saturated and trans unsaturated fatty acids and risk of all cause mortality, cardiovascular disease, and type 2 diabetes: Systematic review and meta-analysis of observational studies. <em>BMJ, 351</em>, Artikel h3978.",
+   "doi": "10.1136/bmj.h3978"
+  },
+  "hamley2017": {
+   "short": "Hamley, 2017",
+   "year": 2017,
+   "type": "Metaanalyse (RCTs)",
+   "basis": "Abstract",
+   "pmid": "28526025",
+   "apa": "Hamley, S. (2017). The effect of replacing saturated fat with mostly n-6 polyunsaturated fat on coronary heart disease: A meta-analysis of randomised controlled trials. <em>Nutrition Journal, 16</em>(1), Artikel 30.",
+   "doi": "10.1186/s12937-017-0254-5"
+  },
+  "hooper2020a": {
+   "short": "Hooper et al., 2020a",
+   "year": 2020,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "32428300",
+   "apa": "Hooper, L., Martin, N., Jimoh, O. F., Kirk, C., Foster, E. &amp; Abdelhamid, A. S. (2020a). Reduction in saturated fat intake for cardiovascular disease. <em>Cochrane Database of Systematic Reviews</em>(5), Artikel CD011737.",
+   "doi": "10.1002/14651858.CD011737.pub2"
+  },
+  "hooper2020b": {
+   "short": "Hooper et al., 2020b",
+   "year": 2020,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "32476140",
+   "apa": "Hooper, L., Abdelhamid, A. S., Jimoh, O. F., Bunn, D. &amp; Skeaff, C. M. (2020b). Effects of total fat intake on body fatness in adults. <em>Cochrane Database of Systematic Reviews</em>(6), Artikel CD013636.",
+   "doi": "10.1002/14651858.CD013636"
+  },
+  "li2020": {
+   "short": "Li et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review mit Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "32020162",
+   "apa": "Li, J., Guasch-Ferré, M., Li, Y. &amp; Hu, F. B. (2020). Dietary intake and biomarkers of linoleic acid and mortality: Systematic review and meta-analysis of prospective cohort studies. <em>The American Journal of Clinical Nutrition, 112</em>(1), 150–167.",
+   "doi": "10.1093/ajcn/nqz349"
+  },
+  "whittaker2021": {
+   "short": "Whittaker & Wu, 2021",
+   "year": 2021,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33741447",
+   "apa": "Whittaker, J. &amp; Wu, K. (2021). Low-fat diets and testosterone in men: Systematic review and meta-analysis of intervention studies. <em>The Journal of Steroid Biochemistry and Molecular Biology, 210</em>, Artikel 105878.",
+   "doi": "10.1016/j.jsbmb.2021.105878",
+   "flag": "2026 wurde eine Korrektur (Corrigendum, PMID 41139558) veröffentlicht; deren Inhalt ist im Abstract nicht beschrieben und wurde nicht geprüft."
+  },
+  "mckenzie2021": {
+   "short": "McKenzie et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34255085",
+   "apa": "McKenzie, K. M., Lee, C. M., Mijatovic, J., Haghighi, M. M. &amp; Skilton, M. R. (2021). Medium-chain triglyceride oil and blood lipids: A systematic review and meta-analysis of randomized trials. <em>The Journal of Nutrition, 151</em>(10), 2949–2956.",
+   "doi": "10.1093/jn/nxab220"
+  },
+  "whittaker2022": {
+   "short": "Whittaker & Harris, 2022",
+   "year": 2022,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35254136",
+   "apa": "Whittaker, J. &amp; Harris, M. (2022). Low-carbohydrate diets and men's cortisol and testosterone: Systematic review and meta-analysis. <em>Nutrition and Health, 28</em>(4), 543–554.",
+   "doi": "10.1177/02601060221083079"
+  },
+  "chapmanlopez2022": {
+   "short": "Chapman-Lopez & Koh, 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "36096496",
+   "apa": "Chapman-Lopez, T. J. &amp; Koh, Y. (2022). The effects of medium-chain triglyceride oil supplementation on endurance performance and substrate utilization in healthy populations: A systematic review. <em>Journal of Obesity &amp; Metabolic Syndrome, 31</em>(3), 217–229.",
+   "doi": "10.7570/jomes22028"
+  },
+  "koerich2023": {
+   "short": "Koerich et al., 2023",
+   "year": 2023,
+   "type": "Bayes’sche Metaanalyse und Metaregression",
+   "basis": "Abstract",
+   "pmid": "35757868",
+   "apa": "Koerich, A. C. C., Borszcz, F. K., Thives Mello, A., de Lucas, R. D. &amp; Hansen, F. (2023). Effects of the ketogenic diet on performance and body composition in athletes and trained adults: A systematic review and Bayesian multivariate multilevel meta-analysis and meta-regression. <em>Critical Reviews in Food Science and Nutrition, 63</em>(32), 11399–11424.",
+   "doi": "10.1080/10408398.2022.2090894"
+  },
+  "leaf2024": {
+   "short": "Leaf et al., 2024",
+   "year": 2024,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "38934469",
+   "apa": "Leaf, A., Rothschild, J. A., Sharpe, T. M., Sims, S. T., Macias, C. J., Futch, G. G., Roberts, M. D., Stout, J. R., Ormsbee, M. J., Aragon, A. A., Campbell, B. I., Arent, S. M., D'Agostino, D. P., Barrack, M. T., Kerksick, C. M., Kreider, R. B., Kalman, D. S. &amp; Antonio, J. (2024). International Society of Sports Nutrition position stand: Ketogenic diets. <em>Journal of the International Society of Sports Nutrition, 21</em>(1), Artikel 2368167.",
+   "doi": "10.1080/15502783.2024.2368167"
+  },
+  "jager2025": {
+   "short": "Jäger et al., 2025",
+   "year": 2025,
+   "type": "Positionspapier (ISSN)",
+   "basis": "Abstract",
+   "pmid": "39810703",
+   "apa": "Jäger, R., Heileson, J. L., Abou Sawan, S., Dickerson, B. L., Leonard, M., Kreider, R. B., Kerksick, C. M., Cornish, S. M., Candow, D. G., Cordingley, D. M., Forbes, S. C., Tinsley, G. M., Bongiovanni, T., Cannataro, R., Campbell, B. I., Arent, S. M., Stout, J. R., Kalman, D. S. &amp; Antonio, J. (2025). International Society of Sports Nutrition position stand: Long-chain omega-3 polyunsaturated fatty acids. <em>Journal of the International Society of Sports Nutrition, 22</em>(1), Artikel 2441775.",
+   "doi": "10.1080/15502783.2024.2441775"
+  },
+  "soltani2025": {
+   "short": "Soltani et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review mit Metaanalyse (RCTs)",
+   "basis": "Abstract",
+   "pmid": "40387562",
+   "apa": "Soltani, S., Hejazi, M., Meshkini, F., Torabinasab, K., Zeraattalab-Motlagh, S., Sangsefidi, Z. S., Sikaroudi, M. K., Razmpoosh, E., Ansari, A. &amp; Abdollahi, S. (2025). The effect of low-fat diets versus high-fat diet on sex hormones: A systematic review and meta-analysis of randomized controlled trials. <em>Journal of Food Science, 90</em>(5), Artikel e70266.",
+   "doi": "10.1111/1750-3841.70266"
+  },
+  "wang2025": {
+   "short": "Wang et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41035089",
+   "apa": "Wang, Y., Xiao, Q., Zhang, Z. &amp; Yang, Y. (2025). Effects of ketogenic diet on muscle mass, strength, aerobic metabolic capacity, and endurance in adults: A systematic review and meta-analysis. <em>Journal of Health, Population and Nutrition, 44</em>(1), Artikel 346.",
+   "doi": "10.1186/s41043-025-01090-z"
+  },
+  "yamada2025": {
+   "short": "Yamada et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review mit Metaanalyse (RCTs)",
+   "basis": "Abstract",
+   "pmid": "40416032",
+   "apa": "Yamada, S., Shirai, T., Inaba, S., Inoue, G., Torigoe, M. &amp; Fukuyama, N. (2025). Saturated fat restriction for cardiovascular disease prevention: A systematic review and meta-analysis of randomized controlled trials. <em>JMA Journal, 8</em>(2), 395–407.",
+   "doi": "10.31662/jmaj.2024-0324"
+  },
+  "hart2025": {
+   "short": "Hart et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review mit Metaanalyse (RCTs)",
+   "basis": "Abstract",
+   "pmid": "40885400",
+   "apa": "Hart, T. L., Damani, J. J., DiMattia, Z. S., Tate, K. E., Jafari, F. &amp; Petersen, K. S. (2025). Dietary polyunsaturated to saturated fatty acid ratio as an indicator for LDL cholesterol response: A systematic review and meta-analysis of randomized clinical trials. <em>Advances in Nutrition, 16</em>(10), Artikel 100502.",
+   "doi": "10.1016/j.advnut.2025.100502"
+  },
+  "steen2026": {
+   "short": "Steen et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse (RCTs, risikostratifiziert)",
+   "basis": "Abstract",
+   "pmid": "41397264",
+   "apa": "Steen, J. P., Klatt, K. C., Chang, Y., Guyatt, G. H., Zhu, H., Swierz, M. J., Storman, D., Sun, M., Zhao, Y., Ge, L., Thabane, L., Ghosh, N. R., Karam, G., Alonso-Coello, P., Bala, M. M. &amp; Johnston, B. C. (2026). Effect of interventions aimed at reducing or modifying saturated fat intake on cholesterol, mortality, and major cardiovascular events: A risk stratified systematic review of randomized trials. <em>Annals of Internal Medicine, 179</em>(2), 242–255.",
+   "doi": "10.7326/ANNALS-25-02229"
+  },
+  "gawelczyk2026a": {
+   "short": "Gawelczyk et al., 2026a",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41829910",
+   "apa": "Gawelczyk, M., Kaszuba, M., Zając, A. &amp; Maszczyk, A. (2026a). Effects of low-carbohydrate and ketogenic diets on aerobic performance in trained athletes: A systematic review and meta-analysis. <em>Nutrients, 18</em>(5), Artikel 740.",
+   "doi": "10.3390/nu18050740"
+  },
+  "gawelczyk2026b": {
+   "short": "Gawelczyk et al., 2026b",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42197050",
+   "apa": "Gawelczyk, M., Chycki, J., Maszczyk, A. &amp; Zając, A. (2026b). Effects of low-carbohydrate and ketogenic diets on anaerobic performance in competitive athletes: A systematic review and meta-analysis. <em>Nutrients, 18</em>(10), Artikel 1589.",
+   "doi": "10.3390/nu18101589"
+  },
+  "ferrimarini2026": {
+   "short": "Ferri-Marini et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41569814",
+   "apa": "Ferri-Marini, C., Garcia Murillo, O. G., Corral-Castillo, D. A., Amaro-Gahete, F. J., Peric, R. &amp; Chavez Guevara, I. A. (2026). Sex differences in fat oxidation depend on age, body mass index, and exercise modality: A systematic review and meta-analysis. <em>International Journal of Sport Nutrition and Exercise Metabolism, 36</em>(2), 119–133.",
+   "doi": "10.1123/ijsnem.2025-0108"
+  },
+  "burke2026": {
+   "short": "Burke & Noakes, 2026",
+   "year": 2026,
+   "type": "Debatte mit Konsens",
+   "basis": "Abstract",
+   "pmid": "42070893",
+   "apa": "Burke, L. M. &amp; Noakes, T. D. (2026). Does a low-carbohydrate diet impede endurance sports performance? Debate consensus. <em>The American Journal of Clinical Nutrition, 123</em>(5), Artikel 101271.",
+   "doi": "10.1016/j.ajcnut.2026.101271"
+  },
+  "gayetboyer2026": {
+   "short": "Gayet-Boyer et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42034918",
+   "apa": "Gayet-Boyer, C., Tenenhaus-Aziza, F., Torres-Gonzalez, M., Givens, D. I. &amp; Schweitzer, C. (2026). Trans fatty acids from dairy foods do not affect risk of cardiometabolic diseases: Systematic review and meta-analysis of evidence from randomized controlled trials and systematic review of prospective cohort studies. <em>Nutrition Research, 150</em>, 33–48.",
+   "doi": "10.1016/j.nutres.2026.03.009",
+   "flag": "Laut Affiliationen stammen mehrere Autorinnen und Autoren aus Organisationen der Milchwirtschaft (CNIEL, National Dairy Council)."
+  }
+ }
+}

@@ -1,0 +1,997 @@
+{
+ "id": "ashwagandha",
+ "title": "Ashwagandha",
+ "stand": "2026-11-20",
+ "lead": "Senkt Ashwagandha Stress und Cortisol, verbessert es Schlaf, Kraft und Ausdauer, und wie sicher ist die Pflanze für Leber und Schilddrüse? Zusammengefasst aus Metaanalysen, systematischen Reviews und Sicherheitsübersichten.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Die meisten Studien sind klein, kurz (meist bis 12 Wochen, höchstens 180 Tage) und nutzen unterschiedliche Extrakte; die Sicherheit bei längerer Einnahme ist offen.",
+ "rx": [
+  {
+   "label": "Dosis",
+   "value": "300–600 mg standardisierter Wurzelextrakt pro Tag",
+   "text": "Für Stress war 300–600 mg pro Tag am günstigsten, für Leistung 500–600 mg; beim Schlaf zeigten sich Effekte vor allem ab 600 mg pro Tag.",
+   "cite": "Akhgarjand et al. 2022; Li et al. 2026a; Cheah et al. 2021"
+  },
+  {
+   "label": "Dauer",
+   "value": "mindestens 8 Wochen, zeitlich begrenzt",
+   "text": "Schlafeffekte waren ab 8 Wochen deutlicher. Sicherheitsdaten aus Studien reichen nur bis 180 Tage, daher keine unbegrenzte Dauereinnahme.",
+   "cite": "Cheah et al. 2021; Coope et al. 2026"
+  },
+  {
+   "label": "Für wen",
+   "value": "bei hoher Stressbelastung oder Schlafproblemen",
+   "text": "Am konsistentesten sanken Cortisol und Stress- bzw. Angstwerte. Als Leistungsmittel ist Ashwagandha nachrangig: Effekte auf Kraft und Ausdauer sind klein und unsicher.",
+   "cite": "Fornalik et al. 2026; Lee &amp; Heo 2026"
+  },
+  {
+   "label": "Für wen nicht",
+   "value": "Leber- oder Schilddrüsenerkrankung, Schwangerschaft",
+   "text": "Bei vorbestehender Lebererkrankung traten schwere Verläufe bis zum Tod auf. Bei Juckreiz, Gelbfärbung oder dunklem Urin sofort absetzen und ärztlich abklären.",
+   "cite": "McIntyre et al. 2026; Philips et al. 2023; Li et al. 2026b"
+  },
+  {
+   "label": "Rechtlicher Status",
+   "value": "in der EU unter Prüfung",
+   "text": "EU-Behörden prüfen ein Verfahren, das zu einem Verbot von Ashwagandha in Nahrungsergänzungsmitteln führen könnte.",
+   "cite": "Brendler et al. 2026"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Studien mit gesunden Teilnehmenden fanden keine Hinweise auf Leberschäden, sind aber zu klein und zu kurz, um seltene Reaktionen zu erfassen. Fallberichte beschreiben ein wiederkehrendes Muster cholestatischer Leberschäden nach Wochen der Einnahme (McIntyre et al., 2026).",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Cortisol sinkt, Stress- und Angstwerte meist auch",
+   "ev": "moderat",
+   "p": "Mehrere Metaanalysen fanden niedrigere Cortisolwerte; subjektiver Stress und Angst sanken in den meisten, aber nicht in allen Analysen.",
+   "s": [
+    "fornalik2026",
+    "albalawi2025",
+    "akhgarjand2022",
+    "arumugam2024"
+   ]
+  },
+  {
+   "t": "Etwas besserer Schlaf",
+   "ev": "moderat",
+   "p": "Kleiner bis mittlerer Effekt auf den Schlaf, deutlicher bei Schlafstörungen, ab 600 mg pro Tag und ab 8 Wochen.",
+   "s": [
+    "cheah2021",
+    "fatima2024"
+   ]
+  },
+  {
+   "t": "Leistung: kleiner, unsicherer Vorteil",
+   "ev": "niedrig",
+   "p": "Gepoolt etwas bessere Leistung, am ehesten in der Ausdauer; Krafteffekte sind statistisch fragil und beruhen auf wenigen kleinen Studien.",
+   "s": [
+    "lix2026",
+    "lee2026",
+    "perezgomez2020"
+   ]
+  },
+  {
+   "t": "Testosteron bei Männern leicht erhöht",
+   "ev": "niedrig",
+   "p": "Anstieg bei Männern, nicht bei Frauen; die Werte blieben im physiologischen Bereich.",
+   "s": [
+    "fornalik2026",
+    "smith2021",
+    "coope2026"
+   ]
+  },
+  {
+   "t": "Seltene, aber ernste Leberschäden",
+   "ev": "niedrig",
+   "p": "In Studien gut verträglich, doch Fallserien zeigen cholestatische Leberschäden, bei Leberkranken mit Todesfällen.",
+   "s": [
+    "mcintyre2026",
+    "philips2023",
+    "coope2026"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "stress",
+   "name": "Stress, Angst und Cortisol",
+   "q": "Senkt Ashwagandha Stress und Cortisol?",
+   "ev": "moderat",
+   "key": [
+    "12 Studien mit 1002 Personen (25 bis 48 Jahre): Angst SMD −1,55 [−2,37; −0,74], I² = 93,8 %; Stress SMD −1,75 [−2,29; −1,22], I² = 83,1 %; Evidenzsicherheit niedrig. Für Stress war 300–600 mg pro Tag am günstigsten (Akhgarjand et al., 2022).",
+    "9 Studien mit 558 Personen: Stressskala (PSS) −4,72 Punkte [−8,45; −0,99], Hamilton-Angstskala −2,19 [−3,83; −0,55], Serumcortisol −2,58 [−4,99; −0,16]; in 4 Studien leichte bis mäßige Nebenwirkungen (Arumugam et al., 2024).",
+    "7 Studien zu Cortisol und 6 zu Stress (n = 488): Cortisol −1,16 µg/dl [−1,64; −0,69], aber kein Effekt auf den empfundenen Stress (SMD −0,355 [−1,188; 0,47]); kein Publikationsbias (Albalawi, 2025).",
+    "23 Studien mit 1706 Personen: Cortisol SMD −1,18 (p &lt; 0,04), Serotonin +31,75 ng/ml (Fornalik et al., 2026). Systematischer Review mit 9 Studien über 30 bis 112 Tage: Cortisol sank, ohne relevante Nebenwirkungen; Auswirkungen auf die Nebennierenfunktion wurden nicht untersucht (Della Porta et al., 2023).",
+    "22 Studien: Stress, Depression und Angst verbessert, mit Dosis-Wirkungs-Beziehung für Stress (Alsanie et al., 2026). Bei Menschen mit Angststörungen oder Schlaflosigkeit (5 Studien, n = 254): Hamilton-Angstskala −5,96 [−10,34; −1,59], I² = 98 % (Fatima et al., 2024).",
+    "Erster systematischer Review (5 Studien): alle fanden stärkere Verbesserungen als Placebo, bei möglicher Verzerrung (Pratte et al., 2014)."
+   ],
+   "critic": "Die Cortisolsenkung ist über mehrere Metaanalysen am einheitlichsten. Beim empfundenen Stress widersprechen sich die Analysen: Akhgarjand et al. (2022) fanden einen großen Effekt, Albalawi (2025) keinen. Die sehr großen Effektstärken (SMD um −1,5) bei extremer Heterogenität (I² bis 98 %) und niedriger Evidenzsicherheit sprechen dafür, dass kleine, teils verzerrte Studien den gepoolten Effekt aufblähen. Die im Abstract von Alsanie et al. (2026) genannten SMD um −6 sind unplausibel und werden hier nicht verwendet. Wahrscheinlich gibt es einen echten, aber kleineren Effekt auf Stress als gepoolt angegeben.",
+   "figs": [
+    {
+     "id": "ash-stress",
+     "title": "Ashwagandha bei Stress, Angst und Cortisol",
+     "cap": "Standardisierte Mittelwertdifferenzen gegenüber Placebo mit 95-%-KI; negative Werte bedeuten weniger Stress, Angst bzw. Cortisol. Fornalik et al. (2026) nennen im Abstract kein Intervall.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Angst",
+       "sub": "Akhgarjand et al., 2022",
+       "es": -1.55,
+       "lo": -2.37,
+       "hi": -0.74
+      },
+      {
+       "l": "Stress",
+       "sub": "Akhgarjand et al., 2022",
+       "es": -1.75,
+       "lo": -2.29,
+       "hi": -1.22
+      },
+      {
+       "l": "Empfundener Stress (PSS)",
+       "sub": "Albalawi, 2025",
+       "es": -0.355,
+       "lo": -1.188,
+       "hi": 0.47
+      },
+      {
+       "l": "Cortisol",
+       "sub": "Fornalik et al., 2026",
+       "es": -1.18
+      }
+     ],
+     "opts": {
+      "min": -2.5,
+      "max": 1,
+      "ticks": [
+       -2,
+       -1.5,
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "unit": "SMD",
+      "leftLab": "Ashwagandha besser",
+      "rightLab": "Placebo besser"
+     }
+    }
+   ],
+   "s": [
+    "pratte2014",
+    "akhgarjand2022",
+    "dellaporta2023",
+    "arumugam2024",
+    "fatima2024",
+    "albalawi2025",
+    "fornalik2026",
+    "alsanie2026"
+   ]
+  },
+  {
+   "id": "schlaf",
+   "name": "Schlaf",
+   "q": "Schläft man mit Ashwagandha besser?",
+   "ev": "moderat",
+   "key": [
+    "5 Studien mit 400 Erwachsenen: Schlaf insgesamt SMD −0,59 [−0,75; −0,42] zugunsten von Ashwagandha, I² = 62 %. Deutlicher bei diagnostizierter Schlaflosigkeit, ab 600 mg pro Tag und ab 8 Wochen; Wachheit beim Aufstehen und Angst verbessert, Lebensqualität nicht; keine schweren Nebenwirkungen (Cheah et al., 2021).",
+    "Bei Angststörungen oder Schlaflosigkeit (5 Studien, n = 254): Einschlafzeit, Gesamtschlafzeit, Schlafqualität (PSQI) und Schlafeffizienz verbessert, Wachzeit nach dem Einschlafen und Bettzeit nicht (Fatima et al., 2024)."
+   ],
+   "critic": "Beide Analysen stimmen in der Richtung überein, beruhen aber auf jeweils nur 5 Studien mit teils überlappenden Daten. Der Effekt zeigt sich vor allem bei Menschen mit Schlafstörungen; für gut schlafende Sportler ist der Nutzen unklar.",
+   "figs": [],
+   "s": [
+    "cheah2021",
+    "fatima2024"
+   ]
+  },
+  {
+   "id": "leistung",
+   "name": "Kraft, Muskelmasse und Ausdauer",
+   "q": "Verbessert Ashwagandha Kraft, Muskelaufbau oder Ausdauer?",
+   "ev": "niedrig",
+   "key": [
+    "13 Studien mit 599 Personen (79 Effektgrößen), meist junge Erwachsene oder Sportler: Leistung insgesamt g = 0,47 [0,25; 0,69], I² = 60 %, Vorhersageintervall [−0,40; 1,33]. Am konsistentesten für aerobe Ausdauer (g = 0,54 [0,22; 0,85]); Krafteffekte positiv, aber unsicher; am besten belegt sind 500–600 mg pro Tag (Li et al., 2026a).",
+    "Nur Studien mit strukturiertem Krafttraining (3 poolbare Studien, n = 161): 1RM Bankdrücken SMD 0,60 [0,20; 1,01], 1RM Unterkörper 0,52 [0,19; 0,86], Brustumfang 0,86 [0,41; 1,31], Körperfett −0,32 [−0,72; 0,08]. Nach Hartung-Knapp-Korrektur waren beide Krafteffekte nicht mehr signifikant und hingen jeweils an einer einzelnen Studie; Evidenzsicherheit niedrig bis sehr niedrig (Lee &amp; Heo, 2026).",
+    "4 Studien mit 142 Personen: VO₂max mittlere Differenz 3,00 [0,18; 5,82] bei hoher Heterogenität (Pérez-Gómez et al., 2020)."
+   ],
+   "critic": "Alle Analysen beruhen auf wenigen, kleinen Studien. Das Vorhersageintervall von Li et al. (2026a) schließt null ein, und die Krafteffekte bei Lee und Heo (2026) halten einer strengeren Korrektur nicht stand. Die Autoren fordern ausdrücklich ausreichend große, unabhängig finanzierte Studien mit direkter Messung der Muskelmasse. Wahrscheinlich ist ein kleiner Ausdauervorteil am ehesten real, ein relevanter Effekt auf Muskelaufbau ist nicht belegt.",
+   "figs": [
+    {
+     "id": "ash-leistung",
+     "title": "Ashwagandha und Leistung",
+     "cap": "Standardisierte Mittelwertdifferenzen (Hedges’ g bzw. SMD) gegenüber Placebo mit 95-%-KI. Bei Körperfett bedeuten negative Werte weniger Fett.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Leistung insgesamt",
+       "sub": "Li et al., 2026a",
+       "es": 0.47,
+       "lo": 0.25,
+       "hi": 0.69
+      },
+      {
+       "l": "Aerobe Ausdauer",
+       "sub": "Li et al., 2026a",
+       "es": 0.54,
+       "lo": 0.22,
+       "hi": 0.85
+      },
+      {
+       "l": "1RM Bankdrücken",
+       "sub": "Lee &amp; Heo, 2026",
+       "es": 0.6,
+       "lo": 0.2,
+       "hi": 1.01
+      },
+      {
+       "l": "1RM Unterkörper",
+       "sub": "Lee &amp; Heo, 2026",
+       "es": 0.52,
+       "lo": 0.19,
+       "hi": 0.86
+      },
+      {
+       "l": "Brustumfang",
+       "sub": "Lee &amp; Heo, 2026",
+       "es": 0.86,
+       "lo": 0.41,
+       "hi": 1.31
+      },
+      {
+       "l": "Körperfett",
+       "sub": "Lee &amp; Heo, 2026",
+       "es": -0.32,
+       "lo": -0.72,
+       "hi": 0.08
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 1.5,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1,
+       1.5
+      ],
+      "unit": "SMD",
+      "leftLab": "Placebo höher",
+      "rightLab": "Ashwagandha höher"
+     }
+    }
+   ],
+   "s": [
+    "perezgomez2020",
+    "lix2026",
+    "lee2026"
+   ]
+  },
+  {
+   "id": "hormone",
+   "name": "Testosteron, Schilddrüse und weitere Hormone",
+   "q": "Verändert Ashwagandha Testosteron und andere Hormone?",
+   "ev": "niedrig",
+   "key": [
+    "23 Studien mit 1706 Personen: Testosteron bei Männern +57,43 ng/dl, bei Frauen kein Effekt (+5,09 ng/dl); Östradiol unverändert; TSH und T3 unverändert, T4 leicht erhöht (+0,61 µg/dl, p = 0,02) (Fornalik et al., 2026).",
+    "32 Studien zu 13 Kräutern: Ashwagandha- und Bockshornkleeextrakte erhöhten Testosteron; insgesamt nur 9 von 32 Studien signifikant und 6 mit niedrigem Verzerrungsrisiko; 16 Studien mit Männern unter 40 Jahren (Smith et al., 2021).",
+    "52 Studien zu 27 „Testosteron-Boostern“: Ashwagandha (3 Studien) „möglicherweise wirksam“ bei gesunden Männern; die meisten Mittel erhöhten Testosteron nicht (Morgado et al., 2024).",
+    "10 Studien mit gesunden Erwachsenen: weniger oxidativer Stress und Entzündung, ausgeglichenere Hormonwerte, kein Effekt auf Blutbildwerte (Gómez Afonso et al., 2023)."
+   ],
+   "critic": "Der Testosteronanstieg bei Männern ist in mehreren Übersichten erkennbar, stammt aber aus wenigen kleinen Studien mit hohem Verzerrungsrisiko. Er bleibt laut einem Sicherheitsreview im physiologischen Bereich (Coope et al., 2026); ein Nutzen für Kraft oder Muskelaufbau folgt daraus nicht. Der T4-Anstieg ist klein, passt aber zu Berichten über Schilddrüsenüberfunktion (siehe Sicherheit).",
+   "figs": [],
+   "s": [
+    "smith2021",
+    "gomezafonso2023",
+    "morgado2024",
+    "fornalik2026"
+   ]
+  },
+  {
+   "id": "stoffwechsel",
+   "name": "Blutzucker",
+   "q": "Wirkt Ashwagandha auf den Blutzucker?",
+   "ev": "niedrig",
+   "key": [
+    "11 Studien mit 667 Personen: Nüchternblutzucker −3,09 mg/dl [−5,61; −0,58] bei starker Heterogenität; HbA1c (3 Studien) −0,05 % [−0,47; 0,36], nicht signifikant; keine Dosis-Wirkungs-Beziehung; Evidenzsicherheit sehr niedrig (Farrin et al., 2026)."
+   ],
+   "critic": "Die Senkung ist klein und unsicher. Für gesunde Sportler ohne Stoffwechselstörung hat sie keine praktische Bedeutung.",
+   "figs": [],
+   "s": [
+    "farrin2026"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit: Leber, Schilddrüse und Regulierung",
+   "q": "Wie sicher ist Ashwagandha?",
+   "ev": "niedrig",
+   "key": [
+    "Systematischer Review, 23 Studien mit 2317 gesunden Erwachsenen, 125–600 mg pro Tag über bis zu 180 Tage: Leber-, Nieren-, Blut-, Hormon- und Kreislaufwerte im Normbereich, keine schweren unerwünschten Ereignisse; leichte Beschwerden (Magen-Darm, Kopfschmerz, Müdigkeit) selten und auch unter Placebo (Coope et al., 2026).",
+    "Scoping Review, 13 Publikationen mit 25 Betroffenen: Leberschäden meist nach Wochen der Einnahme, überwiegend cholestatisch mit Gelbsucht und Juckreiz; die meisten erholten sich nach Absetzen. Ein akutes Leberversagen mit Transplantation und drei Todesfälle bei vorbestehender Zirrhose (McIntyre et al., 2026).",
+    "Fallserie aus Indien: 8 Fälle mit Einzelpräparaten; 5 hatten eine chronische Lebererkrankung, 3 entwickelten ein akut-auf-chronisches Leberversagen und starben. Keine Verunreinigung der Präparate nachweisbar (Philips et al., 2023).",
+    "Kritische Übersicht: berichtet werden Magen-Darm-Beschwerden, Überempfindlichkeit, Lebertoxizität und hormonelle Störungen, darunter Schilddrüsenüberfunktion und Nebennierensuppression (Kumar et al., 2026). Besondere Risiken für Schwangere, Menschen mit Schilddrüsenerkrankungen sowie Leber- oder Nierenfunktionsstörungen (Li et al., 2026b).",
+    "In der EU wurde ein Verfahren nach Artikel 8 der Verordnung (EG) Nr. 1925/2006 empfohlen, das zu einem Verbot in Nahrungsergänzungsmitteln führen könnte (Brendler et al., 2026)."
+   ],
+   "critic": "Studien und Fallberichte widersprechen sich nur scheinbar: Randomisierte Studien mit wenigen tausend Teilnehmenden über höchstens 180 Tage können seltene, idiosynkratische Leberschäden nicht erfassen. Der günstige Sicherheitsreview von Coope et al. (2026) stammt teils von Autoren mit Verbindungen zur Supplementbranche. Die Fallberichte zeigen ein wiederkehrendes Muster ohne Hinweis auf Verunreinigung. Wahrscheinlich ist Ashwagandha für die meisten Gesunden kurzfristig verträglich, aber nicht risikofrei; Menschen mit Lebererkrankungen sollten es meiden.",
+   "figs": [],
+   "s": [
+    "philips2023",
+    "coope2026",
+    "mcintyre2026",
+    "kumar2026",
+    "lil2026",
+    "brendler2026",
+    "fornalik2026"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2014,
+   "t": "Erster systematischer Review zu Angst",
+   "p": "5 Studien, alle mit Vorteil gegenüber Placebo; mögliche Verzerrung.",
+   "tag": "neu",
+   "s": "pratte2014"
+  },
+  {
+   "y": 2020,
+   "t": "VO₂max-Metaanalyse",
+   "p": "Höhere VO₂max in 4 kleinen Studien, hohe Heterogenität.",
+   "tag": "neu",
+   "s": "perezgomez2020"
+  },
+  {
+   "y": 2021,
+   "t": "Kräuter und Testosteron",
+   "p": "Ashwagandha unter den Kräutern mit positivem Effekt; wenige Studien mit niedrigem Verzerrungsrisiko.",
+   "tag": "neu",
+   "s": "smith2021"
+  },
+  {
+   "y": 2021,
+   "t": "Schlaf-Metaanalyse",
+   "p": "Kleiner bis mittlerer Effekt auf den Schlaf.",
+   "tag": "neu",
+   "s": "cheah2021"
+  },
+  {
+   "y": 2022,
+   "t": "Stress und Angst",
+   "p": "Große gepoolte Effekte bei sehr hoher Heterogenität.",
+   "tag": "conf",
+   "s": "akhgarjand2022"
+  },
+  {
+   "y": 2023,
+   "t": "Gesunde Erwachsene",
+   "p": "Ausgeglichenere Hormone, keine schweren Nebenwirkungen.",
+   "tag": "rel",
+   "s": "gomezafonso2023"
+  },
+  {
+   "y": 2023,
+   "t": "Cortisol bei gestressten Personen",
+   "p": "Cortisol sinkt; Langzeitwirkungen nicht untersucht.",
+   "tag": "conf",
+   "s": "dellaporta2023"
+  },
+  {
+   "y": 2023,
+   "t": "Leberschäden aus Indien",
+   "p": "Fallserie mit Todesfällen bei vorbestehender Lebererkrankung.",
+   "tag": "contra",
+   "s": "philips2023"
+  },
+  {
+   "y": 2024,
+   "t": "Testosteron-Booster",
+   "p": "Ashwagandha „möglicherweise wirksam“ bei gesunden Männern.",
+   "tag": "rel",
+   "s": "morgado2024"
+  },
+  {
+   "y": 2024,
+   "t": "Stress, Angst, Cortisol",
+   "p": "Geringere Stress- und Angstwerte sowie Cortisol.",
+   "tag": "conf",
+   "s": "arumugam2024"
+  },
+  {
+   "y": 2024,
+   "t": "Angst und Schlaflosigkeit",
+   "p": "Bessere Angst- und Schlafwerte bei Betroffenen.",
+   "tag": "conf",
+   "s": "fatima2024"
+  },
+  {
+   "y": 2025,
+   "t": "Cortisol ja, empfundener Stress nein",
+   "p": "Cortisol sinkt, der PSS-Wert nicht signifikant.",
+   "tag": "contra",
+   "s": "albalawi2025"
+  },
+  {
+   "y": 2026,
+   "t": "Hormone: 23 Studien",
+   "p": "Cortisol sinkt, Testosteron bei Männern steigt, T4 leicht erhöht.",
+   "tag": "conf",
+   "s": "fornalik2026"
+  },
+  {
+   "y": 2026,
+   "t": "Psychische Gesundheit",
+   "p": "Verbesserungen mit Dosis-Wirkungs-Beziehung; Effektgrößen unplausibel berichtet.",
+   "tag": "conf",
+   "s": "alsanie2026"
+  },
+  {
+   "y": 2026,
+   "t": "Leistung: 13 Studien",
+   "p": "Kleiner Vorteil, am ehesten in der Ausdauer.",
+   "tag": "neu",
+   "s": "lix2026"
+  },
+  {
+   "y": 2026,
+   "t": "Krafttraining",
+   "p": "Krafteffekte statistisch fragil, kein Effekt auf Körperfett.",
+   "tag": "rel",
+   "s": "lee2026"
+  },
+  {
+   "y": 2026,
+   "t": "Blutzucker",
+   "p": "Kleine Senkung, sehr niedrige Evidenzsicherheit.",
+   "tag": "neu",
+   "s": "farrin2026"
+  },
+  {
+   "y": 2026,
+   "t": "EU-Regulierung",
+   "p": "Mögliches Verbot in Nahrungsergänzungsmitteln.",
+   "tag": "neu",
+   "s": "brendler2026"
+  },
+  {
+   "y": 2026,
+   "t": "Sicherheit in Studien",
+   "p": "Keine schweren Ereignisse bei Gesunden bis 180 Tage.",
+   "tag": "rel",
+   "s": "coope2026"
+  },
+  {
+   "y": 2026,
+   "t": "Leberschäden weltweit",
+   "p": "Wiederkehrendes cholestatisches Muster in 25 Fällen.",
+   "tag": "contra",
+   "s": "mcintyre2026"
+  },
+  {
+   "y": 2026,
+   "t": "Kritische Sicherheitsübersicht",
+   "p": "Leber, Schilddrüse, Nebenniere und Wechselwirkungen.",
+   "tag": "rel",
+   "s": "kumar2026"
+  },
+  {
+   "y": 2026,
+   "t": "Sicherheit als Lebensmittelzusatz",
+   "p": "Risiken für Schwangere, Schilddrüsen- und Leberkranke.",
+   "tag": "rel",
+   "s": "lil2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 993 Einträgen, 169 Übersichtsarbeiten nach Titel geprüft (davon 39 zunächst per Titelregel einer anderen Kategorie zugeordnet), dazu 2 Übersichtsarbeiten aus einer ergänzenden Suche; 22 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und Muskelmasse mit Krafttraining",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Maximalkraft (1RM)",
+     "g": "C",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": 3,
+     "p": 161,
+     "s": [
+      "lee2026",
+      "lix2026"
+     ],
+     "t": "Bankdrücken SMD 0,60, Unterkörper 0,52; nach strengerer Korrektur nicht mehr signifikant, Evidenzsicherheit niedrig.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und Muskelmasse mit Krafttraining",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Brustumfang (indirekt für Muskelmasse)",
+     "g": "D",
+     "d": "auf",
+     "m": 4,
+     "b": "nutzen",
+     "k": 2,
+     "p": null,
+     "s": [
+      "lee2026"
+     ],
+     "t": "SMD 0,86 [0,41; 1,31] aus 2 Studien; sehr niedrige Evidenzsicherheit, keine direkte Messung der Muskelmasse.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Körperzusammensetzung",
+   "kat": "koerper",
+   "items": [
+    {
+     "n": "Körperfett",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 3,
+     "p": 161,
+     "s": [
+      "lee2026"
+     ],
+     "t": "SMD −0,32 [−0,72; 0,08], nicht signifikant.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Ausdauer und allgemeine Leistung",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Leistung insgesamt",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 13,
+     "p": 599,
+     "s": [
+      "lix2026"
+     ],
+     "t": "g = 0,47 [0,25; 0,69]; das Vorhersageintervall [−0,40; 1,33] schließt aber null ein.",
+     "v": "leistung"
+    },
+    {
+     "n": "Aerobe Ausdauerleistung",
+     "g": "C",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": 13,
+     "p": 599,
+     "s": [
+      "lix2026"
+     ],
+     "t": "g = 0,54 [0,22; 0,85]; am konsistentesten unter den Leistungsbereichen.",
+     "v": "leistung"
+    },
+    {
+     "n": "VO₂max",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 4,
+     "p": 142,
+     "s": [
+      "perezgomez2020"
+     ],
+     "t": "Mittlere Differenz 3,00 [0,18; 5,82] bei hoher Heterogenität; die Einheit ist im Abstract nicht angegeben.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Schlaf",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Schlaf insgesamt",
+     "g": "C",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": 5,
+     "p": 400,
+     "s": [
+      "cheah2021",
+      "fatima2024"
+     ],
+     "t": "SMD −0,59 [−0,75; −0,42] zugunsten von Ashwagandha (negativ = besser); deutlicher bei Schlaflosigkeit, ab 600 mg und ab 8 Wochen.",
+     "v": "schlaf"
+    },
+    {
+     "n": "Einschlafzeit (Abnahme)",
+     "g": "D",
+     "d": "ab",
+     "m": -1,
+     "b": "nutzen",
+     "k": 5,
+     "p": 254,
+     "s": [
+      "fatima2024"
+     ],
+     "t": "Bei Angststörungen oder Schlaflosigkeit verkürzt; Wachzeit nach dem Einschlafen unverändert.",
+     "v": "schlaf"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Stress und Psyche",
+   "kat": "psyche",
+   "items": [
+    {
+     "n": "Empfundener Stress (Abnahme)",
+     "g": "C",
+     "d": "ab",
+     "m": null,
+     "b": "nutzen",
+     "k": 12,
+     "p": 1002,
+     "s": [
+      "akhgarjand2022",
+      "arumugam2024",
+      "albalawi2025"
+     ],
+     "t": "SMD −1,75 bzw. PSS −4,72 Punkte in zwei Analysen, in einer dritten nicht signifikant (SMD −0,355).",
+     "v": "stress"
+    },
+    {
+     "n": "Angst (Abnahme)",
+     "g": "C",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": 12,
+     "p": 1002,
+     "s": [
+      "akhgarjand2022",
+      "arumugam2024"
+     ],
+     "t": "SMD −1,55 [−2,37; −0,74], aber extrem heterogen (I² = 93,8 %) bei niedriger Evidenzsicherheit.",
+     "v": "stress"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Hormone",
+   "kat": "hormone",
+   "items": [
+    {
+     "n": "Cortisol (Abnahme)",
+     "g": "B",
+     "d": "ab",
+     "m": 4,
+     "b": "nutzen",
+     "k": 23,
+     "p": 1706,
+     "s": [
+      "fornalik2026",
+      "albalawi2025",
+      "arumugam2024",
+      "dellaporta2023"
+     ],
+     "t": "SMD −1,18 (23 Studien); −1,16 µg/dl [−1,64; −0,69] in einer weiteren Analyse.",
+     "v": "stress"
+    },
+    {
+     "n": "Testosteron bei Männern",
+     "g": "C",
+     "d": "auf",
+     "m": 2,
+     "b": "nutzen",
+     "k": 23,
+     "p": 1706,
+     "s": [
+      "fornalik2026",
+      "smith2021",
+      "morgado2024"
+     ],
+     "t": "+57,43 ng/dl; als klein eingestuft, da die Werte laut Sicherheitsreview im physiologischen Bereich blieben. Bei Frauen kein Effekt.",
+     "v": "hormone"
+    },
+    {
+     "n": "Schilddrüsenhormon T4",
+     "g": "C",
+     "d": "auf",
+     "m": 1,
+     "b": "neutral",
+     "k": 23,
+     "p": 1706,
+     "s": [
+      "fornalik2026"
+     ],
+     "t": "+0,61 µg/dl; TSH und T3 unverändert. Als sehr klein eingestuft.",
+     "v": "hormone"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Stoffwechsel",
+   "kat": "stoffwechsel",
+   "items": [
+    {
+     "n": "Nüchternblutzucker (Abnahme)",
+     "g": "C",
+     "d": "ab",
+     "m": 1,
+     "b": "nutzen",
+     "k": 11,
+     "p": 667,
+     "s": [
+      "farrin2026"
+     ],
+     "t": "−3,09 mg/dl [−5,61; −0,58]; als sehr klein eingestuft; HbA1c unverändert; sehr niedrige Evidenzsicherheit.",
+     "v": "stoffwechsel"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sicherheit",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Unerwünschte Ereignisse in Studien",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 23,
+     "p": 2317,
+     "s": [
+      "coope2026",
+      "cheah2021",
+      "arumugam2024"
+     ],
+     "t": "Keine schweren Ereignisse bis 180 Tage; leichte Beschwerden auch unter Placebo. Teils Autoren mit Branchenverbindungen.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Leberschäden (Fallberichte)",
+     "g": "D",
+     "d": "auf",
+     "m": -1,
+     "b": "schaden",
+     "k": 13,
+     "p": 25,
+     "s": [
+      "mcintyre2026",
+      "philips2023"
+     ],
+     "t": "Meist cholestatisch und nach Absetzen rückläufig; Todesfälle bei vorbestehender Lebererkrankung. Häufigkeit unbekannt.",
+     "v": "sicherheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "pratte2014": {
+   "short": "Pratte et al., 2014",
+   "year": 2014,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "25405876",
+   "apa": "Pratte, M. A., Nanavati, K. B., Young, V. &amp; Morley, C. P. (2014). An alternative treatment for anxiety: A systematic review of human trial results reported for the ayurvedic herb ashwagandha (Withania somnifera). <em>Journal of Alternative and Complementary Medicine, 20</em>(12), 901–908.",
+   "doi": "10.1089/acm.2014.0177"
+  },
+  "perezgomez2020": {
+   "short": "Pérez-Gómez et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32316411",
+   "apa": "Pérez-Gómez, J., Villafaina, S., Adsuar, J. C., Merellano-Navarro, E. &amp; Collado-Mateo, D. (2020). Effects of ashwagandha (Withania somnifera) on VO2max: A systematic review and meta-analysis. <em>Nutrients, 12</em>(4), Artikel 1119.",
+   "doi": "10.3390/nu12041119"
+  },
+  "smith2021": {
+   "short": "Smith et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33150931",
+   "apa": "Smith, S. J., Lopresti, A. L., Teo, S. Y. M. &amp; Fairchild, T. J. (2021). Examining the effects of herbs on testosterone concentrations in men: A systematic review. <em>Advances in Nutrition, 12</em>(3), 744–765.",
+   "doi": "10.1093/advances/nmaa134"
+  },
+  "cheah2021": {
+   "short": "Cheah et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34559859",
+   "apa": "Cheah, K. L., Norhayati, M. N., Husniati Yaacob, L. &amp; Abdul Rahman, R. (2021). Effect of ashwagandha (Withania somnifera) extract on sleep: A systematic review and meta-analysis. <em>PLOS ONE, 16</em>(9), Artikel e0257843.",
+   "doi": "10.1371/journal.pone.0257843"
+  },
+  "akhgarjand2022": {
+   "short": "Akhgarjand et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse mit Dosis-Wirkungs-Analyse",
+   "basis": "Abstract",
+   "pmid": "36017529",
+   "apa": "Akhgarjand, C., Asoudeh, F., Bagheri, A., Kalantar, Z., Vahabi, Z., Shab-Bidar, S., Rezvani, H. &amp; Djafarian, K. (2022). Does ashwagandha supplementation have a beneficial effect on the management of anxiety and stress? A systematic review and meta-analysis of randomized controlled trials. <em>Phytotherapy Research, 36</em>(11), 4115–4124.",
+   "doi": "10.1002/ptr.7598"
+  },
+  "gomezafonso2023": {
+   "short": "Gómez Afonso et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37428341",
+   "apa": "Gómez Afonso, A., Fernandez-Lazaro, D., Adams, D. P., Monserdà-Vilaró, A. &amp; Fernandez-Lazaro, C. I. (2023). Effects of Withania somnifera (ashwagandha) on hematological and biochemical markers, hormonal behavior, and oxidant response in healthy adults: A systematic review. <em>Current Nutrition Reports, 12</em>(3), 465–477.",
+   "doi": "10.1007/s13668-023-00481-0"
+  },
+  "dellaporta2023": {
+   "short": "Della Porta et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "38140274",
+   "apa": "Della Porta, M., Maier, J. A. &amp; Cazzola, R. (2023). Effects of Withania somnifera on cortisol levels in stressed human subjects: A systematic review. <em>Nutrients, 15</em>(24), Artikel 5015.",
+   "doi": "10.3390/nu15245015"
+  },
+  "philips2023": {
+   "short": "Philips et al., 2023",
+   "year": 2023,
+   "type": "Fallserie mit Literaturübersicht",
+   "basis": "Abstract",
+   "pmid": "37756041",
+   "apa": "Philips, C. A., Valsan, A., Theruvath, A. H., Ravindran, R., Oommen, T. T., Rajesh, S., Bishnu, S., Augustine, P. &amp; Liver Research Club India (2023). Ashwagandha-induced liver injury – A case series from India and literature review. <em>Hepatology Communications, 7</em>(10), Artikel e0270.",
+   "doi": "10.1097/HC9.0000000000000270"
+  },
+  "morgado2024": {
+   "short": "Morgado et al., 2024",
+   "year": 2024,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37697053",
+   "apa": "Morgado, A., Tsampoukas, G., Sokolakis, I., Schoentgen, N., Urkmez, A. &amp; Sarikaya, S. (2024). Do \"testosterone boosters\" really increase serum total testosterone? A systematic review. <em>International Journal of Impotence Research, 36</em>(4), 348–364.",
+   "doi": "10.1038/s41443-023-00763-9"
+  },
+  "arumugam2024": {
+   "short": "Arumugam et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39348746",
+   "apa": "Arumugam, V., Vijayakumar, V., Balakrishnan, A., B Bhandari, R., Boopalan, D., Ponnurangam, R., Sankaralingam Thirupathy, V. &amp; Kuppusamy, M. (2024). Effects of ashwagandha (Withania somnifera) on stress and anxiety: A systematic review and meta-analysis. <em>Explore, 20</em>(6), Artikel 103062.",
+   "doi": "10.1016/j.explore.2024.103062"
+  },
+  "fatima2024": {
+   "short": "Fatima et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39083548",
+   "apa": "Fatima, K., Malik, J., Muskan, F., Raza, G., Waseem, A., Shahid, H., Jaffery, S. F., Khan, U., Zaheer, M. K., Shaikh, Y. &amp; Rashid, A. M. (2024). Safety and efficacy of Withania somnifera for anxiety and insomnia: Systematic review and meta-analysis. <em>Human Psychopharmacology, 39</em>(6), Artikel e2911.",
+   "doi": "10.1002/hup.2911"
+  },
+  "albalawi2025": {
+   "short": "Albalawi, 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40746175",
+   "apa": "Albalawi, A. A. (2025). Dual impact of ashwagandha: Significant cortisol reduction but no effects on perceived stress – A systematic review and meta-analysis. <em>Nutrition and Health, 31</em>(4), 1395–1408.",
+   "doi": "10.1177/02601060251363647"
+  },
+  "fornalik2026": {
+   "short": "Fornalik et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41740946",
+   "apa": "Fornalik, M., Malkiewicz, A., Adamczak, D., Nawrocki, F., Zielinska, A. &amp; Mondal, S. A. (2026). Hormonal modulation with Withania somnifera: Systematic review and meta-analysis of randomized-controlled trials. <em>Planta Medica, 92</em>(8), 790–805.",
+   "doi": "10.1055/a-2802-8363"
+  },
+  "alsanie2026": {
+   "short": "Alsanie et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse mit Dosis-Wirkungs-Analyse",
+   "basis": "Abstract",
+   "pmid": "41644067",
+   "apa": "Alsanie, S. A., Alhodieb, F. S. &amp; Askarpour, M. (2026). Effects of ashwagandha (Withania somnifera) on mental health in adults: A systematic review and dose-response meta-analysis of randomized controlled trials. <em>Complementary Therapies in Medicine, 97</em>, Artikel 103325.",
+   "doi": "10.1016/j.ctim.2026.103325",
+   "flag": "Im Abstract werden SMD von −5,88 (Stress), −5,68 (Depression) und −6,87 (Angst) angegeben; für standardisierte Mittelwertdifferenzen unplausibel groß, vermutlich unstandardisierte Differenzen. Werte hier nicht quantitativ verwendet."
+  },
+  "lix2026": {
+   "short": "Li et al., 2026a",
+   "year": 2026,
+   "type": "Dreiebenen-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42356302",
+   "apa": "Li, X., Li, H., Yao, S., Hou, Y. &amp; Chi, A. (2026a). Effects of Withania somnifera (ashwagandha) supplementation on exercise performance: A systematic review and three-level meta-analysis. <em>Nutrients, 18</em>(12), Artikel 1915.",
+   "doi": "10.3390/nu18121915"
+  },
+  "lee2026": {
+   "short": "Lee & Heo, 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42738987",
+   "apa": "Lee, J. C. &amp; Heo, A. S. (2026). Adjunctive ashwagandha (Withania somnifera) supplementation and resistance-training adaptations in healthy adults: A systematic review and random-effects meta-analysis of muscular strength, chest circumference, and body composition. <em>Nutrients, 18</em>(17), Artikel 2815.",
+   "doi": "10.3390/nu18172815"
+  },
+  "farrin2026": {
+   "short": "Farrin et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse mit Dosis-Wirkungs-Analyse",
+   "basis": "Abstract",
+   "pmid": "42641800",
+   "apa": "Farrin, N., Nikparast, A., Yadegari, M., Sohrabnavi, A., Pourreza, S., Sohouli, M. H., Javadi, F., Askari, G. &amp; Amini, M. R. (2026). The effects of ashwagandha (Withania somnifera) supplementation on fasting blood glucose and HbA1c: A systematic review and dose-response meta-analysis of randomized controlled trials. <em>Diabetes Research and Clinical Practice, 241</em>, Artikel 113529.",
+   "doi": "10.1016/j.diabres.2026.113529"
+  },
+  "brendler2026": {
+   "short": "Brendler et al., 2026",
+   "year": 2026,
+   "type": "Regulatorischer Review",
+   "basis": "Abstract",
+   "pmid": "41420287",
+   "apa": "Brendler, T., Al-Mondhiry, R., Lang, L., Marles, R., Tallon, M. &amp; Raghu, A. (2026). Ashwagandha: Is it safe? Part 1: A regulatory review. <em>Phytotherapy Research, 40</em>(8), 4845–4857.",
+   "doi": "10.1002/ptr.70151"
+  },
+  "coope2026": {
+   "short": "Coope et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "42198398",
+   "apa": "Coope, O. C., Willems, M. E. T., Levington, A., Tallon, M. J., Roman-Viñas, B. &amp; Spurr, T. J. (2026). Back to the roots: Safety and tolerability of standardised ashwagandha (Withania somnifera) root extract in healthy adults – a systematic review of biomarkers and adverse events. <em>Pharmaceuticals, 19</em>(5), Artikel 725.",
+   "doi": "10.3390/ph19050725",
+   "flag": "Zwei Autoren berichten Beratungs- und Vortragshonorare von Supplementherstellern, darunter Vertreiber des untersuchten Produkts; ein Autor ist bei einem Unternehmen der Branche angestellt."
+  },
+  "mcintyre2026": {
+   "short": "McIntyre et al., 2026",
+   "year": 2026,
+   "type": "Scoping Review",
+   "basis": "Abstract",
+   "pmid": "42367407",
+   "apa": "McIntyre, D., Nguyen, P., Kim, Y., Meyer, B. &amp; Salloum, M. (2026). Ashwagandha (Withania somnifera)-Associated liver injury: A scoping review of clinical characteristics and safety considerations. <em>Cureus, 18</em>(5), Artikel e109764.",
+   "doi": "10.7759/cureus.109764"
+  },
+  "kumar2026": {
+   "short": "Kumar et al., 2026",
+   "year": 2026,
+   "type": "Kritischer Review",
+   "basis": "Abstract",
+   "pmid": "41502355",
+   "apa": "Kumar, A., Sah, B. K., Ahmad, F., Jamwal, V. &amp; Sahu, S. K. (2026). Potential adverse effects of ashwagandha: A critical review of preclinical and clinical evidence. <em>Phytotherapy Research, 40</em>(8), 4913–4931.",
+   "doi": "10.1002/ptr.70158"
+  },
+  "lil2026": {
+   "short": "Li et al., 2026b",
+   "year": 2026,
+   "type": "Review",
+   "basis": "Abstract",
+   "pmid": "41454545",
+   "apa": "Li, L., Zhang, X., Hao, J., Tian, X., Zhu, Y., Yang, Y., Qiu, B. &amp; Wen, J. (2026b). Evaluating the safety of ashwagandha as a food additive: A focus on reproductive, thyroid, and immune system effects. <em>Phytotherapy Research, 40</em>(8), 4862–4879.",
+   "doi": "10.1002/ptr.70157"
+  }
+ }
+}

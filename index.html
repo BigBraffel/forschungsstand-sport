@@ -363,7 +363,9 @@ const NAV = [
       { id: "zone-5", title: "Zone 5 · VO₂max", var: "zone5" } ] },
     { id: "regeneration", title: "Regeneration nach Krafttraining" } ] },
   { group: "Ernährung", items: [
-    { title: "Makronährstoffe", children: [ { id: "protein", title: "Protein" } ] },
+    { title: "Makronährstoffe", children: [ { id: "protein", title: "Protein" },
+      { id: "kohlenhydrate", title: "Kohlenhydrate" },
+      { id: "fette", title: "Fette" } ] },
     { title: "Supplemente", children: [
       { id: "supplemente", title: "Übersicht aller Supplemente" },
       { sep: "Leistung" },
@@ -387,7 +389,7 @@ const NAV = [
       { id: "probiotika", title: "Probiotika" },
       { id: "ashwagandha", title: "Ashwagandha" } ] } ] }
 ];
-const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium"];
+const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette"];
 
 const PAGES = ["supplemente"]; /* Seiten ohne eigene Themendatei */
 const SUPPS = ["protein", "kreatin", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "vitamin-d-k2", "vitamin-c", "b-vitamine", "multivitamin", "magnesium", "zink", "eisen", "calcium", "omega-3", "kollagen", "probiotika", "ashwagandha"]; /* Supplemente mit Wirkungsübersicht */

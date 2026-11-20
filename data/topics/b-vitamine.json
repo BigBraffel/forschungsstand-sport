@@ -1,0 +1,1009 @@
+{
+ "id": "b-vitamine",
+ "title": "Vitamin B12 und B-Vitamine",
+ "stand": "2026-11-20",
+ "lead": "Wer braucht zusätzliches Vitamin B12, helfen B-Vitamine gegen Müdigkeit oder für das Gehirn, und schützt die Senkung des Homocysteins vor Herzinfarkt, Schlaganfall oder Knochenbrüchen? Zusammengefasst aus Metaanalysen, Cochrane-Reviews und systematischen Reviews.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene. Zu sportlicher Leistung und Müdigkeit gibt es keine Metaanalysen mit Ergebnis; die Evidenz betrifft vor allem Versorgungsstatus, Homocystein und große Gesundheitsendpunkte.",
+ "rx": [
+  {
+   "label": "Vegane Ernährung",
+   "value": "Vitamin B12 regelmäßig supplementieren",
+   "text": "Veganer hatten niedrigere B12- und höhere Homocysteinwerte als Mischköstler; mit B12-Supplementen waren alle Biomarker besser. Der Status sollte regelmäßig kontrolliert werden.",
+   "cite": "Niklewicz et al. 2024; Pawlak et al. 2014"
+  },
+  {
+   "label": "Leistung und Müdigkeit",
+   "value": "ohne Mangel kein belegter Nutzen",
+   "text": "Bei Menschen ohne ausgeprägten B12-Mangel verbesserte B12 weder Kognition noch Stimmung; zur Müdigkeit gab es zu wenige Studien für eine Analyse.",
+   "cite": "Markun et al. 2021"
+  },
+  {
+   "label": "Homocystein senken",
+   "value": "Folsäure plus B12",
+   "text": "Folsäure (0,5–5 mg) senkte Homocystein um etwa 25 %, B12 (0,5 mg) um weitere 7 %. B12 allein wirkte stärker ab 12 Wochen und über 500 µg pro Tag.",
+   "cite": "Homocysteine Lowering Trialists’ Collaboration 1998; Sohouli et al. 2024"
+  },
+  {
+   "label": "Herz und Schlaganfall",
+   "value": "kein Ersatz für andere Vorbeugung",
+   "text": "Kein Schutz vor Herzinfarkt oder Tod; Schlaganfälle nahmen um etwa 10 % ab, vor allem ohne Folsäureanreicherung der Lebensmittel und mit höchstens 0,8 mg Folsäure und 0,4 mg B12 pro Tag.",
+   "cite": "Martí-Carvajal et al. 2017; Zhang et al. 2024b"
+  },
+  {
+   "label": "Vitamin B6",
+   "value": "hohe Dauerzufuhr vermeiden",
+   "text": "Hohe B6-Spiegel können eine sensible Nervenschädigung auslösen. Bei Sportlern stammen hohe Mengen oft aus Supplementen, Sportgetränken oder Infusionen; eine Gesamtzufuhr über 21 mg pro Tag gilt als möglicher Risikobereich.",
+   "cite": "Muhamad et al. 2023; van Keulen et al. 2026"
+  }
+ ],
+ "note": "<b>Hinweis:</b> In Deutschland ist Mehl nicht verpflichtend mit Folsäure angereichert. Die Schlaganfallbefunde aus Regionen ohne Anreicherung sind daher eher übertragbar als die aus Ländern mit Anreicherung, stammen aber überwiegend aus Populationen mit erhöhtem Gefäßrisiko.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Veganer brauchen B12",
+   "ev": "hoch",
+   "p": "Vegane Ernährung ging mit schlechterem funktionellem B12-Status einher; Supplemente verbesserten alle Biomarker.",
+   "s": [
+    "niklewicz2024",
+    "pawlak2014",
+    "obersby2013"
+   ]
+  },
+  {
+   "t": "Homocystein sinkt zuverlässig",
+   "ev": "hoch",
+   "p": "Folsäure und B12 senkten Homocystein um etwa ein Viertel bis ein Drittel.",
+   "s": [
+    "hltc1998",
+    "clarke2010",
+    "sohouli2024",
+    "liu2025"
+   ]
+  },
+  {
+   "t": "Kein Schutz vor Herzinfarkt und Tod",
+   "ev": "hoch",
+   "p": "Große Studien und ein Cochrane-Review fanden keine Wirkung auf Herzinfarkt, Gesamtsterblichkeit und Krebs; Schlaganfälle sanken leicht.",
+   "s": [
+    "marticarvajal2017",
+    "clarke2010",
+    "ren2026",
+    "zhang2024a"
+   ]
+  },
+  {
+   "t": "Kaum Wirkung auf Kognition und Stimmung",
+   "ev": "moderat",
+   "p": "Bei Älteren höchstens ein sehr kleiner Vorteil; bei Menschen ohne Mangel kein Effekt auf Kognition oder Depression.",
+   "s": [
+    "clarke2014",
+    "berg2025",
+    "markun2021"
+   ]
+  },
+  {
+   "t": "Keine Vorbeugung von Knochenbrüchen",
+   "ev": "hoch",
+   "p": "B-Vitamine senkten das Frakturrisiko nicht; hohe B6-Dosen können Nerven schädigen.",
+   "s": [
+    "luo2024",
+    "muhamad2023"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "status",
+   "name": "B12-Status und vegane Ernährung",
+   "q": "Wer ist schlecht mit Vitamin B12 versorgt?",
+   "ev": "hoch",
+   "key": [
+    "19 Studien, davon 17 in der Metaanalyse: Veganer hatten gegenüber Mischköstlern niedrigeres Serum-B12 (−0,72 [−1,26; −0,18]) und höheres Homocystein (0,57 [0,26; 0,89]); Methylmalonsäure (0,28 [−0,01; 0,57]) und Holotranscobalamin (−0,42 [−0,91; 0,07]) knapp nicht signifikant. Gegenüber Vegetariern: Serum-B12 −0,25 [−0,40; −0,10], Homocystein 0,24 [0,09; 0,39]. Veganer mit B12-Supplementen hatten in allen Biomarkern bessere Werte (Niklewicz et al., 2024).",
+    "40 Studien: Mangel bei Erwachsenen und Älteren zwischen 0 und 86,5 %, bei Veganen höher als bei anderen Vegetariern; Veganer ohne Supplemente mit besonders hohem Risiko (Pawlak et al., 2014).",
+    "17 Studien mit 3230 Personen: nur 2 Studien fanden bei Veganern keine Unterschiede zu Mischköstlern bei Homocystein und B12; Homocystein und B12 hingen umgekehrt zusammen (Obersby et al., 2013)."
+   ],
+   "critic": "Die Befunde sind über drei Übersichten und mehrere Biomarker einheitlich. Serum-B12 allein ist ein unsicherer Marker; die neuere Analyse mit funktionellen Markern (Methylmalonsäure, Holotranscobalamin, Homocystein) bestätigt aber den schlechteren Status. Ältere Studien unterschätzen eventuell die heutige Verbreitung angereicherter Lebensmittel.",
+   "figs": [],
+   "s": [
+    "obersby2013",
+    "pawlak2014",
+    "niklewicz2024"
+   ]
+  },
+  {
+   "id": "homocystein",
+   "name": "Homocystein senken",
+   "q": "Wie stark senken B-Vitamine das Homocystein?",
+   "ev": "hoch",
+   "key": [
+    "12 Studien mit individuellen Daten von 1114 Personen: Folsäure senkte Homocystein um 25 % [23; 28 %], mit ähnlicher Wirkung zwischen 0,5 und 5 mg pro Tag; B12 (im Mittel 0,5 mg) brachte weitere 7 % [3; 10 %], B6 (16,5 mg) keinen zusätzlichen Effekt (Homocysteine Lowering Trialists’ Collaboration, 1998).",
+    "21 Studien mit 1625 Personen: B12 allein senkte Homocystein (−4,15 µmol/l [−4,86; −3,45]), stärker ab 12 Wochen, über 500 µg pro Tag und als Hydroxocobalamin (Sohouli et al., 2024).",
+    "Netzwerk-Metaanalyse mit 16 Studien an Gesunden: alle Interventionen zusammen MD −0,59 [−0,71; −0,48]; am wirksamsten 1 mg Folsäure + 7,2 mg B6 + 20 µg B12 (MD −1,03 [−1,71; −0,36]) und 800 µg Folsäure (MD −0,84 [−1,12; −0,56]) (Liu et al., 2025).",
+    "In den großen Endpunktstudien sank Homocystein um 25 % (Clarke et al., 2010) bzw. um 26–28 % (Clarke et al., 2014)."
+   ],
+   "critic": "Die Senkung des Homocysteins ist sehr gut belegt. Die Größenordnungen unterscheiden sich zwischen Analysen stark (−4,15 µmol/l gegenüber MD −0,59); das liegt vermutlich an den Ausgangswerten (Gesunde mit normalem Homocystein) und an im Abstract nicht genannten Einheiten bei Liu et al. (2025). Entscheidend ist: Ein gesenkter Laborwert allein bedeutet noch keinen klinischen Nutzen (siehe Herz-Kreislauf).",
+   "figs": [
+    {
+     "id": "bv-hcy",
+     "title": "Senkung des Homocysteins durch B-Vitamine",
+     "cap": "Prozentuale Senkung des Homocysteins im Vergleich zu Placebo. Folsäure und B12-Zusatzeffekt mit 95-%-KI aus 12 Studien (1998); große Endpunktstudien ohne Intervall.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Folsäure 0,5–5 mg (1998)",
+       "es": 25,
+       "lo": 23,
+       "hi": 28
+      },
+      {
+       "l": "Zusätzlich B12 0,5 mg (1998)",
+       "es": 7,
+       "lo": 3,
+       "hi": 10
+      },
+      {
+       "l": "Folsäure-Endpunktstudien (2010)",
+       "es": 25
+      },
+      {
+       "l": "Kognitionsstudien (2014)",
+       "es": 28
+      }
+     ],
+     "opts": {
+      "max": 30,
+      "ticks": [
+       0,
+       10,
+       20,
+       30
+      ],
+      "unit": "%",
+      "xlab": "Senkung des Homocysteins",
+      "src": "Homocysteine Lowering Trialists’ Collaboration, 1998; Clarke et al., 2010; Clarke et al., 2014"
+     }
+    }
+   ],
+   "s": [
+    "hltc1998",
+    "clarke2010",
+    "clarke2014",
+    "sohouli2024",
+    "liu2025"
+   ]
+  },
+  {
+   "id": "herz",
+   "name": "Herz-Kreislauf, Sterblichkeit und Krebs",
+   "q": "Schützen B-Vitamine vor Herzinfarkt und vorzeitigem Tod?",
+   "ev": "hoch",
+   "key": [
+    "Cochrane-Review, 15 Studien mit 71 422 Personen, Nachbeobachtung 1 bis 7,3 Jahre: kein Effekt auf Herzinfarkt (RR 1,02 [0,95; 1,10]; 12 Studien, n = 46 699), Gesamtsterblichkeit (RR 1,01 [0,96; 1,06]) und schwere unerwünschte Ereignisse (RR 1,07 [1,00; 1,14]); weniger Schlaganfälle (RR 0,90 [0,82; 0,99]; 10 Studien, n = 44 224); jeweils hohe Evidenzqualität, kein Publikationsbias (Martí-Carvajal et al., 2017).",
+    "8 große Studien mit 37 485 Personen mit erhöhtem Risiko, im Median 5 Jahre: schwere Gefäßereignisse RR 1,01 [0,97; 1,05], Schlaganfall 0,96 [0,87; 1,06], Krebs 1,05 [0,98; 1,13], Gesamtsterblichkeit 1,02 [0,97; 1,08] (Clarke et al., 2010).",
+    "19 Studien mit 47 921 Personen: Herz-Kreislauf-Erkrankungen RR 0,98 [0,94; 1,03], Schlaganfall 0,88 [0,82; 0,95], Gesamtsterblichkeit 0,99 [0,95; 1,04] (Huang et al., 2012).",
+    "13 Studien über mindestens 24 Monate mit 68 363 Personen: Schlaganfall RR 0,91 [0,81; 1,04] und schwere kardiovaskuläre Ereignisse 0,93 [0,86; 1,01] nicht signifikant; Sterblichkeit 1,01 [0,96; 1,06]; in der Primärprävention aber weniger Schlaganfälle (0,79 [0,68; 0,93]) und Ereignisse (0,80 [0,69; 0,92]) (Ren et al., 2026)."
+   ],
+   "critic": "Für Herzinfarkt, Gesamtsterblichkeit und Krebs ist der Nullbefund sehr gut abgesichert: mehrere große Analysen, hohe Evidenzqualität, Trial-Sequential-Analysen ohne Bedarf weiterer Studien. Beim Schlaganfall reicht das Ergebnis von „kein Effekt“ (Clarke et al., 2010; Ren et al., 2026 gesamt) bis zu 10–12 % weniger Schlaganfällen (Cochrane; Huang et al., 2012). Die Untergruppe der Primärprävention bei Ren et al. (2026) beruht auf wenigen Studien. Wahrscheinlich ist ein kleiner Schutz vor Schlaganfall, vor allem bei niedrigem Folatstatus.",
+   "figs": [
+    {
+     "id": "bv-herz",
+     "title": "B-Vitamine und harte Endpunkte",
+     "cap": "Relatives Risiko gegenüber Placebo mit 95-%-KI. Werte unter 1 bedeuten weniger Ereignisse.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Herzinfarkt",
+       "sub": "Martí-Carvajal et al., 2017",
+       "es": 1.02,
+       "lo": 0.95,
+       "hi": 1.1
+      },
+      {
+       "l": "Gesamtsterblichkeit",
+       "sub": "Martí-Carvajal et al., 2017",
+       "es": 1.01,
+       "lo": 0.96,
+       "hi": 1.06
+      },
+      {
+       "l": "Schlaganfall",
+       "sub": "Martí-Carvajal et al., 2017",
+       "es": 0.9,
+       "lo": 0.82,
+       "hi": 0.99
+      },
+      {
+       "l": "Schlaganfall",
+       "sub": "Ren et al., 2026",
+       "es": 0.91,
+       "lo": 0.81,
+       "hi": 1.04
+      },
+      {
+       "l": "Schlaganfall, Primärprävention",
+       "sub": "Ren et al., 2026",
+       "es": 0.79,
+       "lo": 0.68,
+       "hi": 0.93
+      },
+      {
+       "l": "Krebs",
+       "sub": "Clarke et al., 2010",
+       "es": 1.05,
+       "lo": 0.98,
+       "hi": 1.13
+      },
+      {
+       "l": "Schwere unerwünschte Ereignisse",
+       "sub": "Martí-Carvajal et al., 2017",
+       "es": 1.07,
+       "lo": 1.0,
+       "hi": 1.14
+      }
+     ],
+     "opts": {
+      "min": 0.6,
+      "max": 1.2,
+      "ticks": [
+       0.6,
+       0.7,
+       0.8,
+       0.9,
+       1,
+       1.1,
+       1.2
+      ],
+      "ref": 1,
+      "leftLab": "weniger Ereignisse",
+      "rightLab": "mehr Ereignisse"
+     }
+    }
+   ],
+   "s": [
+    "clarke2010",
+    "huang2012",
+    "marticarvajal2017",
+    "ren2026"
+   ]
+  },
+  {
+   "id": "schlaganfall",
+   "name": "Schlaganfall und Folsäureanreicherung",
+   "q": "Hängt der Schlaganfallschutz von der Folsäureversorgung ab?",
+   "ev": "moderat",
+   "key": [
+    "21 Studien mit 115 559 Personen: Folsäure senkte das Schlaganfallrisiko um 10 % (RR 0,90 [0,83; 0,98]); in Regionen ohne oder mit teilweiser Getreideanreicherung RR 0,83 [0,75; 0,93], mit Anreicherung RR 1,04. Dort am stärksten bei Personen ohne früheren Schlaganfall oder Herzinfarkt (RR 0,77 [0,68; 0,86]); kein Publikationsbias (Zhang et al., 2024a).",
+    "14 Studien mit 76 664 Personen und 2720 Schlaganfällen (Folsäure + B12 + B6): ohne Anreicherung RR 0,66 [0,50; 0,86], mit teilweiser Anreicherung 0,89 [0,79; 1,00], mit Anreicherung kein Nutzen (1,04 [0,94; 1,16]). Am günstigsten höchstens 0,8 mg Folsäure und 0,4 mg B12 pro Tag (RR 0,65 [0,48; 0,86]) (Zhang et al., 2024b)."
+   ],
+   "critic": "Beide Analysen stammen aus derselben Arbeitsgruppe und überschneiden sich in den Studien. Die Abhängigkeit von der Lebensmittelanreicherung erklärt plausibel, warum frühere Analysen widersprüchlich waren. Die Dosisempfehlung stammt aus Untergruppen und ist daher hypothesengenerierend.",
+   "figs": [
+    {
+     "id": "bv-stroke",
+     "title": "Schlaganfallrisiko nach Folsäureanreicherung",
+     "cap": "Relatives Risiko mit 95-%-KI. Für die Gruppe mit Anreicherung bei Zhang et al. (2024a) ist im Abstract kein Intervall angegeben.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Folsäure, alle Studien",
+       "sub": "Zhang et al., 2024a",
+       "es": 0.9,
+       "lo": 0.83,
+       "hi": 0.98
+      },
+      {
+       "l": "Folsäure, ohne/teilweise Anreicherung",
+       "sub": "Zhang et al., 2024a",
+       "es": 0.83,
+       "lo": 0.75,
+       "hi": 0.93
+      },
+      {
+       "l": "Folsäure, mit Anreicherung",
+       "sub": "Zhang et al., 2024a",
+       "es": 1.04
+      },
+      {
+       "l": "B-Kombination, ohne Anreicherung",
+       "sub": "Zhang et al., 2024b",
+       "es": 0.66,
+       "lo": 0.5,
+       "hi": 0.86
+      },
+      {
+       "l": "B-Kombination, teilweise Anreicherung",
+       "sub": "Zhang et al., 2024b",
+       "es": 0.89,
+       "lo": 0.79,
+       "hi": 1.0
+      },
+      {
+       "l": "B-Kombination, mit Anreicherung",
+       "sub": "Zhang et al., 2024b",
+       "es": 1.04,
+       "lo": 0.94,
+       "hi": 1.16
+      }
+     ],
+     "opts": {
+      "min": 0.4,
+      "max": 1.2,
+      "ticks": [
+       0.4,
+       0.6,
+       0.8,
+       1,
+       1.2
+      ],
+      "ref": 1,
+      "leftLab": "weniger Schlaganfälle",
+      "rightLab": "mehr Schlaganfälle"
+     }
+    }
+   ],
+   "s": [
+    "zhang2024a",
+    "zhang2024b"
+   ]
+  },
+  {
+   "id": "kognition",
+   "name": "Kognition, Stimmung und Müdigkeit",
+   "q": "Helfen B-Vitamine dem Gehirn oder gegen Müdigkeit?",
+   "ev": "moderat",
+   "key": [
+    "11 große Studien mit 22 000 Personen: trotz 26–28 % weniger Homocystein kein Effekt auf einzelne kognitive Bereiche oder die globale Kognition (z-Wert-Differenz 0,00 [−0,05; 0,06] bzw. −0,01 [−0,03; 0,02]) (Clarke et al., 2014).",
+    "16 Studien mit 6276 Personen ohne ausgeprägten B12-Mangel: kein Effekt von B12 allein oder B-Komplex auf Kognition oder Depression; zur unerklärten Müdigkeit nur eine Studie, daher keine Analyse möglich (Markun et al., 2021).",
+    "25 RCTs: MMSE-Veränderung +0,14 Punkte [0,04; 0,23], bei über 12 Monaten +0,15 [0,05; 0,26]; höhere Folatzufuhr ging mit weniger Demenz einher (HR 0,61 [0,47; 0,78]), höhere B12- oder B6-Zufuhr nicht (Wang et al., 2022).",
+    "17 Studien mit 5275 Personen ab 60 Jahren: g = 0,423 [0,188; 0,657] bei I² = 92,71 % (sehr niedrige Sicherheit); ohne Ausreißer und einfach verblindete Studien g = 0,110 [0,034; 0,186] bei I² = 15,39 % (hohe Sicherheit) (Berg et al., 2025)."
+   ],
+   "critic": "Die Analysen widersprechen sich nur scheinbar: Mit sauberer Methodik bleibt höchstens ein sehr kleiner Vorteil (g = 0,11; 0,14 MMSE-Punkte), der praktisch kaum spürbar ist. Die größte Analyse mit 22 000 Personen fand keinen Effekt. Der höhere Effekt bei Berg et al. (2025) entsteht durch Ausreißer und einfach verblindete Studien. Für Müdigkeit und Leistungsfähigkeit gesunder, gut versorgter Menschen fehlt jede belastbare Evidenz.",
+   "figs": [],
+   "s": [
+    "clarke2014",
+    "markun2021",
+    "wang2022",
+    "berg2025"
+   ]
+  },
+  {
+   "id": "knochen",
+   "name": "Knochen und Frakturen",
+   "q": "Beugen B-Vitamine Knochenbrüchen vor?",
+   "ev": "hoch",
+   "key": [
+    "14 Studien mit 34 700 Personen: kein Effekt auf Frakturen (RR 1,06 [0,95; 1,18], I² = 40 %) und Knochendichte an Lendenwirbelsäule und Schenkelhals; ein Abbaumarker stieg sogar (p = 0,009). Laut Trial-Sequential-Analyse reicht die Datenlage für den Frakturbefund aus; kein Publikationsbias (Luo et al., 2024).",
+    "4 Studien bei Gefäßkranken mit eher normalem Homocystein: keine Frakturvorbeugung, kein Effekt auf den Knochenumbau (Ruan et al., 2015)."
+   ],
+   "critic": "Der Nullbefund für Frakturen ist gut gesichert. Offen bleibt, ob Menschen mit sehr hohem Homocystein oder deutlichem B12-Mangel profitieren; dafür fehlen Studien.",
+   "figs": [],
+   "s": [
+    "ruan2015",
+    "luo2024"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit und hohe Dosen",
+   "q": "Sind B-Vitamine in hoher Dosis unbedenklich?",
+   "ev": "moderat",
+   "key": [
+    "Schwere unerwünschte Ereignisse: RR 1,07 [1,00; 1,14] (8 Studien, n = 35 788) (Martí-Carvajal et al., 2017). Krebs RR 1,05 [0,98; 1,13], Krebssterblichkeit 1,00 [0,85; 1,18] (Clarke et al., 2010).",
+    "Scoping Review: Hohe Plasma-B12-Werte hingen außer bei Leberkrebs nicht konsistent mit Krebs zusammen; kein Beleg, dass hohe B12-Zufuhr Krebs verursacht (Obeid, 2022).",
+    "20 Arbeiten: Hohe B6-Spiegel, meist durch Supplemente, können eine überwiegend sensible, axonale Neuropathie auslösen, die sich nach Absetzen bessert (Muhamad et al., 2023).",
+    "396 Spitzensportler mit 654 Messungen: 5,2 % der PLP-Werte unter 30 nmol/l, 38,7 % über 125 nmol/l. Supplemente, Sportgetränke und Infusionen sind plausible Quellen; eine dauerhafte Gesamtzufuhr über 21 mg pro Tag könnte das Risiko einer Vergiftung erhöhen (van Keulen et al., 2026)."
+   ],
+   "critic": "Für B12 und Folsäure in üblichen Dosen gibt es aus großen Studien keine Hinweise auf mehr Krebs oder Todesfälle; das Intervall für schwere unerwünschte Ereignisse berührt aber die 1. Bei B6 ist die Neurotoxizität aus Fallberichten und Beobachtungen gut beschrieben, die Schwelle ist aber unsicher. Der Sportlerbeitrag ist kein systematischer Review und stammt von Autoren mit Verbindung zu einem Biomarker-Anbieter.",
+   "figs": [],
+   "s": [
+    "marticarvajal2017",
+    "clarke2010",
+    "obeid2022",
+    "muhamad2023",
+    "vankeulen2026"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 1998,
+   "t": "Homocystein-Senkung quantifiziert",
+   "p": "Folsäure −25 %, B12 zusätzlich −7 %.",
+   "tag": "neu",
+   "s": "hltc1998"
+  },
+  {
+   "y": 2010,
+   "t": "Große Endpunktstudien",
+   "p": "Keine Wirkung auf Gefäßereignisse, Krebs und Sterblichkeit.",
+   "tag": "neu",
+   "s": "clarke2010"
+  },
+  {
+   "y": 2012,
+   "t": "19 Studien",
+   "p": "Weniger Schlaganfälle, sonst kein Herz-Kreislauf-Nutzen.",
+   "tag": "rel",
+   "s": "huang2012"
+  },
+  {
+   "y": 2013,
+   "t": "Vegetarier und Homocystein",
+   "p": "Höheres Homocystein und niedrigeres B12 bei Vegetariern.",
+   "tag": "neu",
+   "s": "obersby2013"
+  },
+  {
+   "y": 2014,
+   "t": "B12-Mangel bei Vegetariern",
+   "p": "Hohe Mangelraten, besonders bei Veganern ohne Supplemente.",
+   "tag": "conf",
+   "s": "pawlak2014"
+  },
+  {
+   "y": 2014,
+   "t": "Kognitives Altern",
+   "p": "Kein Effekt in 11 Studien mit 22 000 Personen.",
+   "tag": "neu",
+   "s": "clarke2014"
+  },
+  {
+   "y": 2015,
+   "t": "Knochenbrüche",
+   "p": "Keine Frakturvorbeugung in 4 Studien.",
+   "tag": "neu",
+   "s": "ruan2015"
+  },
+  {
+   "y": 2017,
+   "t": "Cochrane-Update",
+   "p": "Kein Effekt auf Herzinfarkt und Tod, kleiner Schlaganfallschutz.",
+   "tag": "conf",
+   "s": "marticarvajal2017"
+  },
+  {
+   "y": 2021,
+   "t": "Kognition, Depression, Müdigkeit",
+   "p": "Kein Effekt bei Menschen ohne ausgeprägten Mangel.",
+   "tag": "conf",
+   "s": "markun2021"
+  },
+  {
+   "y": 2022,
+   "t": "Kognitiver Abbau",
+   "p": "Sehr kleiner Vorteil bei langer Einnahme.",
+   "tag": "contra",
+   "s": "wang2022"
+  },
+  {
+   "y": 2022,
+   "t": "B12 und Krebs",
+   "p": "Kein Beleg für Ursächlichkeit hoher B12-Werte.",
+   "tag": "neu",
+   "s": "obeid2022"
+  },
+  {
+   "y": 2023,
+   "t": "Vitamin B6 und Neuropathie",
+   "p": "Hohe B6-Spiegel können Nerven schädigen.",
+   "tag": "neu",
+   "s": "muhamad2023"
+  },
+  {
+   "y": 2024,
+   "t": "B12 allein senkt Homocystein",
+   "p": "−4,15 µmol/l, stärker bei höherer Dosis und längerer Dauer.",
+   "tag": "conf",
+   "s": "sohouli2024"
+  },
+  {
+   "y": 2024,
+   "t": "Funktioneller B12-Status bei Veganern",
+   "p": "Schlechtere Biomarker, mit Supplementen besser.",
+   "tag": "conf",
+   "s": "niklewicz2024"
+  },
+  {
+   "y": 2024,
+   "t": "Folsäure und Schlaganfall",
+   "p": "−10 % insgesamt, stärker ohne Getreideanreicherung.",
+   "tag": "rel",
+   "s": "zhang2024a"
+  },
+  {
+   "y": 2024,
+   "t": "Dosis bei Schlaganfallvorbeugung",
+   "p": "Nutzen ohne Anreicherung, kein Nutzen mit Anreicherung.",
+   "tag": "rel",
+   "s": "zhang2024b"
+  },
+  {
+   "y": 2024,
+   "t": "Knochen mit Trial-Sequential-Analyse",
+   "p": "Kein Effekt auf Frakturen, Befund ausreichend abgesichert.",
+   "tag": "conf",
+   "s": "luo2024"
+  },
+  {
+   "y": 2025,
+   "t": "Homocystein bei Gesunden",
+   "p": "Kombination aus Folsäure, B6 und B12 am wirksamsten.",
+   "tag": "conf",
+   "s": "liu2025"
+  },
+  {
+   "y": 2025,
+   "t": "Kognition bei Älteren",
+   "p": "Nach Bereinigung nur sehr kleiner Effekt.",
+   "tag": "rel",
+   "s": "berg2025"
+  },
+  {
+   "y": 2026,
+   "t": "Drei Jahrzehnte Studien",
+   "p": "Kein konsistenter Herz-Kreislauf-Nutzen, eventuell in der Primärprävention.",
+   "tag": "conf",
+   "s": "ren2026"
+  },
+  {
+   "y": 2026,
+   "t": "B6 bei Spitzensportlern",
+   "p": "Viele erhöhte PLP-Werte, wohl durch Supplemente.",
+   "tag": "neu",
+   "s": "vankeulen2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "20.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3252 Einträgen, 613 Übersichtsarbeiten nach Titel geprüft (davon 177 zunächst per Titelregel einer anderen Kategorie zugeordnet), dazu 2 Übersichtsarbeiten aus einer ergänzenden Suche; 21 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Versorgungsstatus",
+   "kat": "status",
+   "items": [
+    {
+     "n": "B12-Status bei veganer Ernährung",
+     "g": "B",
+     "d": "ab",
+     "m": 3,
+     "b": "schaden",
+     "k": 17,
+     "p": null,
+     "s": [
+      "niklewicz2024",
+      "pawlak2014",
+      "obersby2013"
+     ],
+     "t": "Serum-B12 −0,72 [−1,26; −0,18] und Homocystein +0,57 gegenüber Mischköstlern; Effektmaß im Abstract nicht benannt, als mittel eingestuft.",
+     "v": "status"
+    },
+    {
+     "n": "B12-Status durch Supplemente bei Veganern",
+     "g": "B",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 17,
+     "p": null,
+     "s": [
+      "niklewicz2024"
+     ],
+     "t": "Supplementnutzer hatten in allen Biomarkern bessere Werte als Veganer ohne Supplemente.",
+     "v": "status"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz-Kreislauf",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Homocystein (Abnahme)",
+     "g": "A",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": 21,
+     "p": 1625,
+     "s": [
+      "hltc1998",
+      "sohouli2024",
+      "liu2025",
+      "clarke2010"
+     ],
+     "t": "Folsäure −25 % [23; 28 %], B12 zusätzlich −7 %; B12 allein −4,15 µmol/l.",
+     "v": "homocystein"
+    },
+    {
+     "n": "Herzinfarkt",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 12,
+     "p": 46699,
+     "s": [
+      "marticarvajal2017",
+      "clarke2010",
+      "huang2012",
+      "ren2026"
+     ],
+     "t": "RR 1,02 [0,95; 1,10]; hohe Evidenzqualität.",
+     "v": "herz"
+    },
+    {
+     "n": "Schlaganfall (Abnahme)",
+     "g": "A",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 21,
+     "p": 115559,
+     "s": [
+      "zhang2024a",
+      "marticarvajal2017",
+      "huang2012",
+      "ren2026"
+     ],
+     "t": "RR 0,90 [0,83; 0,98] bzw. 0,90 [0,82; 0,99] im Cochrane-Review; in zwei Analysen nicht signifikant.",
+     "v": "herz"
+    },
+    {
+     "n": "Schlaganfall ohne Folsäureanreicherung (Abnahme)",
+     "g": "B",
+     "d": "ab",
+     "m": 3,
+     "b": "nutzen",
+     "k": 14,
+     "p": 76664,
+     "s": [
+      "zhang2024b",
+      "zhang2024a"
+     ],
+     "t": "RR 0,66 [0,50; 0,86] mit Folsäure, B12 und B6; mit Anreicherung kein Nutzen (RR 1,04).",
+     "v": "schlaganfall"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Sterblichkeit und Krebs",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Gesamtsterblichkeit",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 11,
+     "p": 44817,
+     "s": [
+      "marticarvajal2017",
+      "clarke2010",
+      "huang2012",
+      "ren2026"
+     ],
+     "t": "RR 1,01 [0,96; 1,06]; in allen Analysen ohne Effekt.",
+     "v": "herz"
+    },
+    {
+     "n": "Krebs",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 8,
+     "p": 37485,
+     "s": [
+      "clarke2010",
+      "obeid2022"
+     ],
+     "t": "RR 1,05 [0,98; 1,13]; kein Beleg für Ursächlichkeit hoher B12-Werte.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Schwere unerwünschte Ereignisse",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 8,
+     "p": 35788,
+     "s": [
+      "marticarvajal2017"
+     ],
+     "t": "RR 1,07 [1,00; 1,14]; Intervall berührt die 1.",
+     "v": "sicherheit"
+    },
+    {
+     "n": "Nervenschäden bei hoher B6-Zufuhr",
+     "g": "D",
+     "d": "auf",
+     "m": -1,
+     "b": "schaden",
+     "k": 20,
+     "p": null,
+     "s": [
+      "muhamad2023",
+      "vankeulen2026"
+     ],
+     "t": "Sensible Neuropathie bei hohen B6-Spiegeln, rückläufig nach Absetzen; Schwelle unsicher.",
+     "v": "sicherheit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Gehirn und Psyche",
+   "kat": "gehirn",
+   "items": [
+    {
+     "n": "Globale Kognition",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "nutzen",
+     "k": 17,
+     "p": 5275,
+     "s": [
+      "berg2025",
+      "wang2022",
+      "clarke2014"
+     ],
+     "t": "g = 0,110 nach Bereinigung (hohe Sicherheit); MMSE +0,14 Punkte; in 11 großen Studien kein Effekt.",
+     "v": "kognition"
+    },
+    {
+     "n": "Depressive Symptome",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 16,
+     "p": 6276,
+     "s": [
+      "markun2021"
+     ],
+     "t": "Kein Effekt bei Menschen ohne ausgeprägten B12-Mangel.",
+     "v": "kognition"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Knochen",
+   "kat": "knochen",
+   "items": [
+    {
+     "n": "Knochenbrüche",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 14,
+     "p": 34700,
+     "s": [
+      "luo2024",
+      "ruan2015"
+     ],
+     "t": "RR 1,06 [0,95; 1,18]; laut Trial-Sequential-Analyse ausreichend abgesichert.",
+     "v": "knochen"
+    },
+    {
+     "n": "Knochendichte",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 14,
+     "p": 34700,
+     "s": [
+      "luo2024"
+     ],
+     "t": "Kein Effekt an Lendenwirbelsäule und Schenkelhals; Datenlage laut Autoren begrenzt.",
+     "v": "knochen"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "hltc1998": {
+   "short": "Homocysteine Lowering Trialists’ Collaboration, 1998",
+   "year": 1998,
+   "type": "Metaanalyse (individuelle Daten)",
+   "basis": "Abstract",
+   "pmid": "9569395",
+   "apa": "Homocysteine Lowering Trialists’ Collaboration. (1998). Lowering blood homocysteine with folic acid based supplements: Meta-analysis of randomised trials. <em>BMJ, 316</em>(7135), 894–898."
+  },
+  "clarke2010": {
+   "short": "Clarke et al., 2010",
+   "year": 2010,
+   "type": "Metaanalyse (individuelle Daten)",
+   "basis": "Abstract",
+   "pmid": "20937919",
+   "apa": "Clarke, R., Halsey, J., Lewington, S., Lonn, E., Armitage, J., Manson, J. E., Bønaa, K. H., Spence, J. D., Nygård, O., Jamison, R., Gaziano, J. M., Guarino, P., Bennett, D., Mir, F., Peto, R., Collins, R. &amp; B-Vitamin Treatment Trialists' Collaboration (2010). Effects of lowering homocysteine levels with B vitamins on cardiovascular disease, cancer, and cause-specific mortality: Meta-analysis of 8 randomized trials involving 37 485 individuals. <em>Archives of Internal Medicine, 170</em>(18), 1622–1631.",
+   "doi": "10.1001/archinternmed.2010.348"
+  },
+  "huang2012": {
+   "short": "Huang et al., 2012",
+   "year": 2012,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22652362",
+   "apa": "Huang, T., Chen, Y., Yang, B., Yang, J., Wahlqvist, M. L. &amp; Li, D. (2012). Meta-analysis of B vitamin supplementation on plasma homocysteine, cardiovascular and all-cause mortality. <em>Clinical Nutrition, 31</em>(4), 448–454.",
+   "doi": "10.1016/j.clnu.2011.01.003"
+  },
+  "obersby2013": {
+   "short": "Obersby et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23298782",
+   "apa": "Obersby, D., Chappell, D. C., Dunnett, A. &amp; Tsiami, A. A. (2013). Plasma total homocysteine status of vegetarians compared with omnivores: A systematic review and meta-analysis. <em>The British Journal of Nutrition, 109</em>(5), 785–794.",
+   "doi": "10.1017/S000711451200520X"
+  },
+  "pawlak2014": {
+   "short": "Pawlak et al., 2014",
+   "year": 2014,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "24667752",
+   "apa": "Pawlak, R., Lester, S. E. &amp; Babatunde, T. (2014). The prevalence of cobalamin deficiency among vegetarians assessed by serum vitamin B12: A review of literature. <em>European Journal of Clinical Nutrition, 68</em>(5), 541–548.",
+   "doi": "10.1038/ejcn.2014.46"
+  },
+  "clarke2014": {
+   "short": "Clarke et al., 2014",
+   "year": 2014,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24965307",
+   "apa": "Clarke, R., Bennett, D., Parish, S., Lewington, S., Skeaff, M., Eussen, S. J., Lewerin, C., Stott, D. J., Armitage, J., Hankey, G. J., Lonn, E., Spence, J. D., Galan, P., de Groot, L. C., Halsey, J., Dangour, A. D., Collins, R., Grodstein, F. &amp; B-Vitamin Treatment Trialists’ Collaboration (2014). Effects of homocysteine lowering with B vitamins on cognitive aging: Meta-analysis of 11 trials with cognitive data on 22,000 individuals. <em>The American Journal of Clinical Nutrition, 100</em>(2), 657–666.",
+   "doi": "10.3945/ajcn.113.076349"
+  },
+  "ruan2015": {
+   "short": "Ruan et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25805360",
+   "apa": "Ruan, J., Gong, X., Kong, J., Wang, H., Zheng, X. &amp; Chen, T. (2015). Effect of B vitamin (folate, B6, and B12) supplementation on osteoporotic fracture and bone turnover markers: A meta-analysis. <em>Medical Science Monitor, 21</em>, 875–881.",
+   "doi": "10.12659/MSM.893310"
+  },
+  "marticarvajal2017": {
+   "short": "Martí-Carvajal et al., 2017",
+   "year": 2017,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "28816346",
+   "apa": "Martí-Carvajal, A. J., Solà, I., Lathyris, D. &amp; Dayer, M. (2017). Homocysteine-lowering interventions for preventing cardiovascular events. <em>Cochrane Database of Systematic Reviews, 8</em>(8), CD006612.",
+   "doi": "10.1002/14651858.CD006612.pub5"
+  },
+  "markun2021": {
+   "short": "Markun et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse und Metaregression",
+   "basis": "Abstract",
+   "pmid": "33809274",
+   "apa": "Markun, S., Gravestock, I., Jäger, L., Rosemann, T., Pichierri, G. &amp; Burgstaller, J. M. (2021). Effects of vitamin B12 supplementation on cognitive function, depressive symptoms, and fatigue: A systematic review, meta-analysis, and meta-regression. <em>Nutrients, 13</em>(3), Artikel 923.",
+   "doi": "10.3390/nu13030923"
+  },
+  "wang2022": {
+   "short": "Wang et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34432056",
+   "apa": "Wang, Z., Zhu, W., Xing, Y., Jia, J. &amp; Tang, Y. (2022). B vitamins and prevention of cognitive decline and incident dementia: A systematic review and meta-analysis. <em>Nutrition Reviews, 80</em>(4), 931–949.",
+   "doi": "10.1093/nutrit/nuab057"
+  },
+  "obeid2022": {
+   "short": "Obeid, 2022",
+   "year": 2022,
+   "type": "Scoping Review",
+   "basis": "Abstract",
+   "pmid": "36364737",
+   "apa": "Obeid, R. (2022). High plasma vitamin B12 and cancer in human studies: A scoping review to judge causality and alternative explanations. <em>Nutrients, 14</em>(21), Artikel 4476.",
+   "doi": "10.3390/nu14214476",
+   "flag": "Die Autorin gibt ein Honorar von Wörwag Pharma an."
+  },
+  "muhamad2023": {
+   "short": "Muhamad et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37447150",
+   "apa": "Muhamad, R., Akrivaki, A., Papagiannopoulou, G., Zavridis, P. &amp; Zis, P. (2023). The role of vitamin B6 in peripheral neuropathy: A systematic review. <em>Nutrients, 15</em>(13), Artikel 2823.",
+   "doi": "10.3390/nu15132823"
+  },
+  "sohouli2024": {
+   "short": "Sohouli et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse und Metaregression",
+   "basis": "Abstract",
+   "pmid": "37495210",
+   "apa": "Sohouli, M. H., Almuqayyid, F., Alfardous Alazm, A., Ziamanesh, F., Izze da Silva Magalhães, E., Bagheri, S. E., Rodrigues de Oliveira, B., Alfardous Alazm, M., Adi, A. R., Alomar, S. &amp; Abu-Zaid, A. (2024). A comprehensive review and meta-regression analysis of randomized controlled trials examining the impact of vitamin B12 supplementation on homocysteine levels. <em>Nutrition Reviews, 82</em>(6), 726–737.",
+   "doi": "10.1093/nutrit/nuad091"
+  },
+  "niklewicz2024": {
+   "short": "Niklewicz et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39373282",
+   "apa": "Niklewicz, A., Hannibal, L., Warren, M. &amp; Ahmadi, K. R. (2024). A systematic review and meta-analysis of functional vitamin B12 status among adult vegans. <em>Nutrition Bulletin, 49</em>(4), 463–479.",
+   "doi": "10.1111/nbu.12712",
+   "flag": "Im Abstract ist das Effektmaß der Gruppenunterschiede nicht benannt (vermutlich standardisierte Mittelwertdifferenzen); Werte hier ohne Einheit wiedergegeben."
+  },
+  "zhang2024a": {
+   "short": "Zhang et al., 2024a",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38824900",
+   "apa": "Zhang, N., Zhou, Z., Chi, X., Fan, F., Li, S., Song, Y., Zhang, Y., Qin, X., Sun, N., Wang, X., Huo, Y. &amp; Li, J. (2024a). Folic acid supplementation for stroke prevention: A systematic review and meta-analysis of 21 randomized clinical trials worldwide. <em>Clinical Nutrition, 43</em>(7), 1706–1716.",
+   "doi": "10.1016/j.clnu.2024.05.034"
+  },
+  "zhang2024b": {
+   "short": "Zhang et al., 2024b",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38432716",
+   "apa": "Zhang, N., Wu, Z., Bai, X., Song, Y., Li, P., Lu, X., Huo, Y. &amp; Zhou, Z. (2024b). Dosage exploration of combined B-vitamin supplementation in stroke prevention: A meta-analysis and systematic review. <em>The American Journal of Clinical Nutrition, 119</em>(3), 821–828.",
+   "doi": "10.1016/j.ajcnut.2023.12.021"
+  },
+  "luo2024": {
+   "short": "Luo et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse mit Trial-Sequential-Analyse",
+   "basis": "Abstract",
+   "pmid": "38953947",
+   "apa": "Luo, Y., Zheng, S., Jiang, S., Yang, G., Pavel, V., Ji, H., Zhou, S., Bao, Y., Xiao, W. &amp; Li, Y. (2024). B vitamins and bone health: A meta-analysis with trial sequential analysis of randomized controlled trials. <em>Osteoporosis International, 35</em>(9), 1645–1659.",
+   "doi": "10.1007/s00198-024-07150-0"
+  },
+  "berg2025": {
+   "short": "Berg et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse und Metaregression",
+   "basis": "Abstract",
+   "pmid": "40966571",
+   "apa": "Berg, J., Grant, R., Siervo, M., Stephan, B. C. M. &amp; Tully, P. J. (2025). Efficacy of B vitamin supplementation on global cognitive function in older adults: A systematic review and meta-analysis. <em>Nutrition Reviews, 83</em>(12), 2256–2267.",
+   "doi": "10.1093/nutrit/nuaf155"
+  },
+  "liu2025": {
+   "short": "Liu et al., 2025",
+   "year": 2025,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39960689",
+   "apa": "Liu, C., Yao, H. &amp; Wang, F. (2025). Effect of nutritional supplements for reducing homocysteine levels in healthy adults: A systematic review and network meta-analysis of randomized trials. <em>Nutrition Reviews, 83</em>(7), e1533–e1543.",
+   "doi": "10.1093/nutrit/nuae191",
+   "flag": "Die Einheit der mittleren Differenzen beim Homocystein ist im Abstract nicht angegeben."
+  },
+  "ren2026": {
+   "short": "Ren et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41830012",
+   "apa": "Ren, R., Yang, A., Chow, A., Wang, K., Wang, S., Leo, C., Lu, Y. &amp; Li, M. (2026). Complex effects of B-Vitamin combinations on cardiovascular diseases: A systematic review and meta-analysis of randomized controlled trials over three decades. <em>Nutrients, 18</em>(5), Artikel 842.",
+   "doi": "10.3390/nu18050842"
+  },
+  "vankeulen2026": {
+   "short": "van Keulen et al., 2026",
+   "year": 2026,
+   "type": "Übersichtsarbeit mit Beobachtungsdaten",
+   "basis": "Abstract",
+   "pmid": "42730844",
+   "apa": "van Keulen, T. V., Lewis, N. A. &amp; Pedlar, C. R. (2026). Vitamin B6 in elite athletes: Potential implications of high intakes. <em>Sports Medicine, 56</em>(11), 2633–2639.",
+   "doi": "10.1007/s40279-026-02534-0",
+   "flag": "Kein systematischer Review; Meinungsbeitrag mit Biomarkerdaten. Die Autoren sind Berater eines Unternehmens für Biomarker-Analysen bei Sportlern."
+  }
+ }
+}
