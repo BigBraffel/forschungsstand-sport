@@ -63,6 +63,14 @@ Bei Rohwerten (kg, mmHg, Tage) wird die Größe nach praktischer Bedeutung einge
 - **Hinweis auf veraltete Studienlage:** Ist die neueste Quelle einer Wirkung oder eines Abschnitts älter als 8 Jahre, erscheint „Stand der Forschung: Jahr“. Neue Metaanalysen zu solchen Punkten haben Vorrang.
 - **Rechner:** Die Werte stehen in `index.html` (`CALC`) und müssen zu den `rx` der Themen passen. Ändert sich eine Dosisempfehlung, den Rechner mit anpassen.
 
+## Navigation (neue Themen einordnen)
+Die Seitenleiste hat drei Bereiche mit aufklappbaren Gruppen (`NAV` in `index.html`):
+- **Training:** Krafttraining · Ausdauertraining · Trainingsplanung · Regeneration und Prävention
+- **Ernährung:** Makronährstoffe · Ernährungspraxis
+- **Supplemente:** Übersicht · Leistung · Vitamine und Mineralstoffe · Weitere (innerhalb der Gruppen automatisch alphabetisch)
+
+Ein neues Thema kommt in die passende bestehende Gruppe; eine neue Gruppe nur, wenn mindestens drei Themen hineinpassen. Supplemente zusätzlich in `SUPPS` eintragen. Der Titel in `NAV` soll dem Feld `title` der Themendatei entsprechen (bestimmt die Sortierung der Supplement-Übersicht). Der Haftungsausschluss (`DISCLAIMER`) steht auf der Supplement-Übersicht, im Rechner und unter `#hinweis`.
+
 ## Ablauf je Thema
 
 1. `data/kandidaten/<id>.json` lesen. Ausgewertet werden nur `neu_manuell`, `geaendert` und `vormerkungen`; alles andere wird nicht erneut geprüft.

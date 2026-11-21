@@ -217,6 +217,8 @@ td.r, th.r { text-align: right; }
   .side { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
   .toc { flex-direction: row; flex-wrap: wrap; }
   .figs { grid-template-columns: 1fr; }
+  .side .menu-btn { display: inline-flex; }
+  .side:not(.open) > nav:not(.tools), .side:not(.open) > .side-note { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 html { scroll-behavior: smooth; }
@@ -229,9 +231,22 @@ html { scroll-behavior: smooth; }
 .pill.flag { color: var(--warn); background: var(--warn-bg); }
 @media (max-width: 500px) { .var .figrow { grid-template-columns: 1fr; } }
 @media (max-width: 760px) { .var .body { grid-template-columns: 1fr; } }
-.grp > summary { cursor: pointer; list-style: none; padding: 7px 10px; border-radius: 6px; color: var(--ink-2); font-size: .92rem; display: flex; justify-content: space-between; }
+.grp > summary { cursor: pointer; list-style: none; padding: 7px 10px; border-radius: 6px; color: var(--ink); font-size: .92rem; font-weight: 500; display: flex; align-items: center; gap: 8px; }
+.grp > summary .n { margin-left: auto; font-size: .72rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.topics li.zone a { font-size: .82rem; padding: 4px 10px 4px 22px; color: var(--ink-3); }
+.side nav + nav h4, #nav-topics h4 + ul + h4 { margin-top: 14px; }
+.tools { display: flex; flex-wrap: wrap; gap: 6px; }
+.tools a { font-size: .8rem; text-decoration: none; color: var(--ink-2); border: 1px solid var(--line); border-radius: 99px; padding: 4px 10px; }
+.tools a:hover { background: var(--surface-2); }
+.tools a.active { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+.side-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.menu-btn { display: none; align-items: center; gap: 6px; font: inherit; font-size: .85rem; color: var(--ink); background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+.side-note { margin: auto 0 0; font-size: .75rem; color: var(--ink-3); }
+.disclaimer { border-left: 4px solid var(--warn); background: var(--warn-bg); display: flex; flex-direction: column; gap: 8px; }
+.disclaimer h2, .disclaimer h3 { margin: 0; font-size: 1rem; }
+.disclaimer p { margin: 0; max-width: 95ch; font-size: .9rem; color: var(--ink); }
 .grp > summary::-webkit-details-marker { display: none; }
-.grp > summary::after { content: "▸"; color: var(--ink-3); }
+.grp > summary::after { content: "▸"; color: var(--ink-3); font-size: .8rem; }
 .grp[open] > summary::after { content: "▾"; }
 .grp > summary:hover { background: var(--surface-2); }
 .topics.sub { padding-left: 12px; border-left: 1px solid var(--line); margin-left: 12px; }
@@ -244,7 +259,6 @@ html { scroll-behavior: smooth; }
 .scr-row .fill { height: 100%; background: var(--series-1); border-radius: 3px; }
 
 .topics li a.planned { color: var(--ink-3); }
-.topics li.nav-sep { font-size: .7rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-3); padding: 10px 10px 2px; }
 .topics li a.planned em, .topics li span em { font-style: normal; font-size: .72rem; border: 1px solid var(--line); border-radius: 99px; padding: 0 7px; }
 .empty { padding: 28px; text-align: left; display: flex; flex-direction: column; gap: 10px; }
 .toc button { all: unset; cursor: pointer; display: block; padding: 7px 10px; border-radius: 6px; color: var(--ink-2); font-size: .92rem; }
@@ -378,13 +392,15 @@ ol.findings .lvl { font-size: .72rem; font-weight: 600; letter-spacing: .03em; t
 <body>
 <div class="shell">
   <aside class="side" aria-label="Navigation">
-    <div class="brand">Forschungsstand Sport<small>Training &amp; Ernährung – evidenzbasiert</small></div>
+    <div class="side-top"><div class="brand">Forschungsstand Sport<small>Training &amp; Ernährung – evidenzbasiert</small></div><button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav-topics">☰ Themen</button></div>
     <form class="side-search" role="search" id="q-form"><input type="search" id="q" placeholder="Alle Themen durchsuchen" aria-label="Alle Themen durchsuchen" autocomplete="off"></form>
+    <nav aria-label="Werkzeuge" class="tools" id="nav-tools"></nav>
     <nav aria-label="Themen" id="nav-topics"></nav>
     <nav aria-label="Auf dieser Seite">
       <h4>Auf dieser Seite</h4>
       <ul class="toc" id="toc"></ul>
     </nav>
+    <p class="side-note">Automatisch erstellt, ohne Gewähr. <a href="#hinweis">Haftungsausschluss</a></p>
   </aside>
   <main id="main"></main>
 </div>
@@ -394,69 +410,73 @@ ol.findings .lvl { font-size: .72rem; font-weight: 600; letter-spacing: .03em; t
 <script>
 /* ===== Themenverzeichnis: neue Themen hier eintragen (Datei data/topics/<id>.json, Register data/screening/<id>.json) ===== */
 const NAV = [
-  { group: "Werkzeuge", items: [
-    { id: "neu", title: "Was ist neu?" },
-    { id: "rechner", title: "Rechner" },
-    { id: "glossar", title: "Glossar" } ] },
   { group: "Training", items: [
-    { id: "maximalkraft", title: "Maximalkrafttraining" },
-    { id: "hypertrophie", title: "Hypertrophie" },
-    { id: "ausdauer", title: "Ausdauertraining", children: [
-      { id: "zone-1", title: "Zone 1 · Regeneration", var: "zone1" },
-      { id: "zone-2", title: "Zone 2 · Grundlage", var: "zone2" },
-      { id: "zone-3", title: "Zone 3 · Tempo", var: "zone3" },
-      { id: "zone-4", title: "Zone 4 · Schwelle", var: "zone4" },
-      { id: "zone-5", title: "Zone 5 · VO₂max", var: "zone5" } ] },
-    { id: "koerpergewicht", title: "Körpergewichtstraining (Calisthenics)" },
-    { id: "tapering", title: "Tapering vor Wettkämpfen" },
-    { id: "zyklus", title: "Training und Menstruationszyklus" },
+    { title: "Krafttraining", children: [
+      { id: "maximalkraft", title: "Maximalkraft" },
+      { id: "hypertrophie", title: "Hypertrophie (Muskelaufbau)" },
+      { id: "koerpergewicht", title: "Körpergewichtstraining (Calisthenics)" } ] },
+    { title: "Ausdauertraining", children: [
+      { id: "ausdauer", title: "Überblick und Zonenmodell" },
+      { id: "zone-1", title: "Zone 1 · Regeneration", topic: "ausdauer", var: "zone1" },
+      { id: "zone-2", title: "Zone 2 · Grundlage", topic: "ausdauer", var: "zone2" },
+      { id: "zone-3", title: "Zone 3 · Tempo", topic: "ausdauer", var: "zone3" },
+      { id: "zone-4", title: "Zone 4 · Schwelle", topic: "ausdauer", var: "zone4" },
+      { id: "zone-5", title: "Zone 5 · VO₂max", topic: "ausdauer", var: "zone5" } ] },
+    { title: "Trainingsplanung", children: [
+      { id: "aufwaermen", title: "Aufwärmen" },
+      { id: "tapering", title: "Tapering vor Wettkämpfen" },
+      { id: "zyklus", title: "Training und Menstruationszyklus" } ] },
     { title: "Regeneration und Prävention", children: [
       { id: "regeneration", title: "Regeneration nach Krafttraining" },
       { id: "schlaf", title: "Schlaf" },
       { id: "dehnen", title: "Dehnen und Beweglichkeit" },
-      { id: "aufwaermen", title: "Aufwärmen" },
       { id: "verletzungspraevention", title: "Verletzungsprävention" } ] } ] },
   { group: "Ernährung", items: [
-    { title: "Makronährstoffe", children: [ { id: "protein", title: "Protein" },
+    { title: "Makronährstoffe", children: [
+      { id: "protein", title: "Protein" },
       { id: "kohlenhydrate", title: "Kohlenhydrate" },
       { id: "fette", title: "Fette" } ] },
     { title: "Ernährungspraxis", children: [
       { id: "energiebilanz", title: "Energiebilanz und Abnehmen" },
       { id: "fluessigkeit", title: "Flüssigkeit und Elektrolyte" },
-      { id: "timing", title: "Nährstoff-Timing" } ] },
-    { title: "Supplemente", children: [
-      { id: "supplemente", title: "Übersicht aller Supplemente" },
-      { sep: "Leistung" },
-      { id: "kreatin", title: "Kreatin" },
-      { id: "koffein", title: "Koffein" },
-      { id: "beta-alanin", title: "Beta-Alanin" },
-      { id: "nitrat", title: "Nitrat (Rote-Bete-Saft)" },
+      { id: "timing", title: "Nährstoff-Timing" } ] } ] },
+  /* Supplemente: innerhalb jeder Gruppe automatisch alphabetisch (sort: true) */
+  { group: "Supplemente", items: [
+    { id: "supplemente", title: "Übersicht und Vergleich" },
+    { title: "Leistung", sort: true, children: [
       { id: "aminosaeuren", title: "BCAA und EAA" },
-      { id: "natriumbicarbonat", title: "Natriumbicarbonat" },
+      { id: "beta-alanin", title: "Beta-Alanin" },
       { id: "citrullin", title: "Citrullin" },
       { id: "hmb", title: "HMB" },
-      { sep: "Vitamine und Mineralstoffe" },
-      { id: "vitamin-d-k2", title: "Vitamin D3 und K2" },
-      { id: "vitamin-c", title: "Vitamin C" },
-      { id: "b-vitamine", title: "Vitamin B12 und B-Vitamine" },
-      { id: "multivitamin", title: "Multivitamin-Präparate" },
-      { id: "magnesium", title: "Magnesium" },
-      { id: "zink", title: "Zink" },
-      { id: "eisen", title: "Eisen" },
+      { id: "koffein", title: "Koffein" },
+      { id: "kreatin", title: "Kreatin" },
+      { id: "natriumbicarbonat", title: "Natriumbicarbonat" },
+      { id: "nitrat", title: "Nitrat (Rote-Bete-Saft)" } ] },
+    { title: "Vitamine und Mineralstoffe", sort: true, children: [
+      { id: "b-vitamine", title: "B-Vitamine (inkl. Vitamin B12)" },
       { id: "calcium", title: "Calcium" },
-      { sep: "Weitere" },
-      { id: "omega-3", title: "Omega-3-Fettsäuren" },
-      { id: "kollagen", title: "Kollagen" },
-      { id: "probiotika", title: "Probiotika" },
+      { id: "eisen", title: "Eisen" },
+      { id: "magnesium", title: "Magnesium" },
+      { id: "multivitamin", title: "Multivitamin-Präparate" },
+      { id: "vitamin-c", title: "Vitamin C" },
+      { id: "vitamin-d-k2", title: "Vitamin D3 und K2" },
+      { id: "zink", title: "Zink" } ] },
+    { title: "Weitere", sort: true, children: [
       { id: "ashwagandha", title: "Ashwagandha" },
+      { id: "curcumin", title: "Curcumin (Kurkuma)" },
+      { id: "kollagen", title: "Kollagen" },
       { id: "melatonin", title: "Melatonin" },
-      { id: "curcumin", title: "Curcumin (Kurkuma)" } ] } ] }
+      { id: "omega-3", title: "Omega-3-Fettsäuren" },
+      { id: "probiotika", title: "Probiotika" } ] } ] }
 ];
+/* Werkzeuge: als kompakte Leiste unter der Suche */
+const TOOLS = [{ id: "neu", title: "Neu" }, { id: "rechner", title: "Rechner" }, { id: "glossar", title: "Glossar" }];
+NAV.forEach(g => g.items.forEach(it => { if (it.sort) it.children.sort((x, y) => x.title.localeCompare(y.title, "de")); }));
 const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette", "dehnen", "aufwaermen", "verletzungspraevention", "koerpergewicht", "tapering", "zyklus", "schlaf", "energiebilanz", "fluessigkeit", "timing", "natriumbicarbonat", "citrullin", "hmb", "melatonin", "curcumin"];
 
-const PAGES = ["supplemente", "suche", "neu", "rechner", "glossar"]; /* Seiten ohne eigene Themendatei */
+const PAGES = ["supplemente", "suche", "neu", "rechner", "glossar", "hinweis"]; /* Seiten ohne eigene Themendatei */
 const SUPPS = ["protein", "kreatin", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "natriumbicarbonat", "citrullin", "hmb", "vitamin-d-k2", "vitamin-c", "b-vitamine", "multivitamin", "magnesium", "zink", "eisen", "calcium", "omega-3", "kollagen", "probiotika", "ashwagandha", "melatonin", "curcumin"]; /* Supplemente mit Wirkungsübersicht */
-const supList = () => SUPPS.filter(id => AVAILABLE.includes(id));
+const supList = () => SUPPS.filter(id => AVAILABLE.includes(id)).sort((a, b) => findTitle(a).localeCompare(findTitle(b), "de"));
 const $ = (id) => document.getElementById(id);
 const evLabel = { hoch: "Evidenz hoch", moderat: "Evidenz moderat", niedrig: "Evidenz niedrig" };
 const TAGS = { neu: ["Neuer Befund", ""], conf: ["Bestätigt", "conf"], rel: ["Relativiert", "rel"], contra: ["Widerspricht", "contra"] };
@@ -474,21 +494,21 @@ function routeOf(hash) {
   if (PAGES.includes(h)) return { topic: h };
   for (const g of NAV) for (const it of g.items) {
     if (it.id === h) return { topic: it.id };
-    for (const c of it.children || []) if (c.id === h) return c.var ? { topic: it.id, scroll: "var-" + c.var } : { topic: c.id };
+    for (const c of it.children || []) if (c.id === h) return c.var ? { topic: c.topic, scroll: "var-" + c.var } : { topic: c.id };
   }
   return { topic: "maximalkraft" };
 }
 function navItem(it, cur) {
   const ok = AVAILABLE.includes(it.id) || PAGES.includes(it.id);
+  if (it.var) return `<li class="zone"><a href="#${it.id}"${it.id === cur ? ' class="active"' : ""}>${it.title}</a></li>`;
   return `<li><a href="#${it.id}" class="${it.id === cur ? "active" : ""}${ok ? "" : " planned"}"${it.id === cur ? ' aria-current="page"' : ""}>${it.title}${ok ? "" : " <em>geplant</em>"}</a></li>`;
 }
 function renderNav(cur) {
-  $("nav-topics").innerHTML = NAV.map((g, gi) => `<h4${gi ? ' style="margin-top:14px"' : ""}>${g.group}</h4><ul class="topics">${g.items.map(it => {
+  $("nav-tools").innerHTML = TOOLS.map(t => `<a href="#${t.id}"${t.id === cur ? ' class="active" aria-current="page"' : ""}>${t.title}</a>`).join("");
+  $("nav-topics").innerHTML = NAV.map(g => `<h4>${g.group}</h4><ul class="topics">${g.items.map(it => {
     if (!it.children) return navItem(it, cur);
-    const open = it.id === cur || it.children.some(c => c.id === cur || (!c.var && cur === c.id)) || it.children.some(c => !c.var && c.id === cur);
-    const head = it.id ? `<a href="#${it.id}" class="${it.id === cur ? "active" : ""}${AVAILABLE.includes(it.id) ? "" : " planned"}" style="flex:1">${it.title}${AVAILABLE.includes(it.id) ? "" : " <em>geplant</em>"}</a>` : it.title;
-    return `<li><details class="grp"${open ? " open" : ""}><summary>${head}</summary><ul class="topics sub">${it.children.map(c => c.sep ? `<li class="nav-sep">${c.sep}</li>` : c.var
-      ? `<li><a href="#${c.id}"${AVAILABLE.includes(it.id) ? "" : ' class="planned"'}>${c.title}</a></li>` : navItem(c, cur)).join("")}</ul></details></li>`;
+    const open = it.children.some(c => c.id === cur);
+    return `<li><details class="grp"${open ? " open" : ""}><summary>${it.title}<span class="n">${it.children.length}</span></summary><ul class="topics sub">${it.children.map(c => navItem(c, cur)).join("")}</ul></details></li>`;
   }).join("")}</ul>`).join("");
 }
 function scrollToId(id) { const el = $(id); if (!el) return; if (el.tagName === "DETAILS") el.open = true; el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); }
@@ -508,6 +528,7 @@ async function load() {
   if (r.topic === "neu") return renderNews();
   if (r.topic === "rechner") return renderCalc();
   if (r.topic === "glossar") return renderGlossar();
+  if (r.topic === "hinweis") return renderHinweis();
   if (!AVAILABLE.includes(r.topic)) return renderPlanned(r.topic);
   if (!cache[r.topic]) {
     try { cache[r.topic] = await (await fetch(`data/topics/${r.topic}.json`)).json(); }
@@ -520,7 +541,9 @@ async function load() {
   const pend = pendingScroll; pendingScroll = null;
   if (r.scroll || pend) setTimeout(() => scrollToId(r.scroll || pend), 50); else window.scrollTo(0, 0);
 }
-window.addEventListener("hashchange", load);
+window.addEventListener("hashchange", () => { setMenu(false); load(); });
+function setMenu(open) { document.querySelector(".side").classList.toggle("open", open); $("menu-btn").setAttribute("aria-expanded", String(open)); }
+$("menu-btn").addEventListener("click", () => setMenu(!document.querySelector(".side").classList.contains("open")));
 function findTitle(id) { for (const g of NAV) for (const it of g.items) { if (it.id === id) return it.title; for (const c of it.children || []) if (c.id === id) return c.title; } return id; }
 function renderPlanned(id) {
   $("toc").innerHTML = "";
@@ -769,6 +792,7 @@ async function renderSupOverview() {
     <div class="status-bar"><span><b>Stand:</b> ${fmtDate(stand)}</span><span><b>Supplemente:</b> <span class="num">${tops.length}</span></span><span><b>Bewertete Wirkungen:</b> <span class="num">${nW}</span></span><span><b>Quellen:</b> <span class="num">${nS}</span></span></div>
     <h1>Supplemente im Überblick</h1>
     <p class="lead">Was wirkt wofür, und wie gut ist das belegt? Jede Wirkung ist aus Metaanalysen und systematischen Reviews abgeleitet und eingestuft: Der Buchstabe zeigt, welche Evidenz es gibt (A = mehrere Metaanalysen bis D = nur Einzelstudien), die Farbe, was es bewirkt (grün = Nutzen, grau = kein Effekt, rot = Nachteil). Ansicht wählen, filtern oder nach einem Ziel suchen.</p>
+    ${disclaimerHTML(true)}
     <div class="sup-tools">
       <div class="filters" role="group" aria-label="Ansicht" id="sup-view-btns"></div>
       <input type="search" id="sup-q" placeholder="Suchen, z. B. Kraft, Blutdruck, Erkältung" aria-label="Wirkungen durchsuchen" value="${esc(supQuery)}">
@@ -929,6 +953,22 @@ async function renderNews() {
   draw(false); window.scrollTo(0, 0);
 }
 
+/* --- Hinweise und Haftungsausschluss --- */
+const DISCLAIMER = [
+  ["Automatisch erstellt", "Literaturrecherche, Auswertung und Zusammenfassungen auf dieser Website werden mit Hilfe künstlicher Intelligenz erstellt und nicht vollständig von Menschen geprüft. Trotz mehrerer Prüfschritte können Fehler, Auslassungen oder Fehlinterpretationen enthalten sein. Es wird kein Anspruch auf Richtigkeit, Vollständigkeit oder Aktualität erhoben."],
+  ["Keine Beratung", "Die Inhalte dienen ausschließlich der allgemeinen Information und ersetzen keine ärztliche, ernährungs- oder sportwissenschaftliche Beratung. Bei Erkrankungen, Medikamenteneinnahme, Schwangerschaft oder Stillzeit sowie vor der Einnahme von Nahrungsergänzungsmitteln sollte ärztlicher Rat eingeholt werden."],
+  ["Umsetzung auf eigene Gefahr", "Angaben zu Dosierungen, Einnahme, Ernährung und Training sind aus Studien abgeleitet und können im Einzelfall abweichen. Es können Nebenwirkungen, Wechselwirkungen oder Schäden auftreten, die in den Studien nicht erfasst wurden oder noch nicht bekannt sind. Jede Umsetzung erfolgt auf eigene Verantwortung und eigenes Risiko."],
+  ["Haftungsausschluss", "Soweit gesetzlich zulässig, übernimmt der Betreiber keine Haftung für Schäden oder sonstige Folgen, die aus der Nutzung oder Umsetzung der Inhalte dieser Website entstehen. Für Inhalte verlinkter externer Seiten sind ausschließlich deren Betreiber verantwortlich."]];
+function disclaimerHTML(short) {
+  if (short) return `<div class="card disclaimer" role="note"><h3>Hinweis</h3><p>Diese Inhalte werden mit Hilfe künstlicher Intelligenz recherchiert und zusammengefasst; Fehler sind möglich, es besteht kein Anspruch auf Richtigkeit oder Vollständigkeit. Angaben zu Dosierungen und Anwendung können im Einzelfall abweichen oder unbekannte Risiken haben. Umsetzung auf eigene Gefahr, keine Haftung für Folgen. <a href="#hinweis">Vollständiger Haftungsausschluss</a></p></div>`;
+  return `<div class="card disclaimer" role="note">${DISCLAIMER.map(([h, p]) => `<h3>${h}</h3><p>${p}</p>`).join("")}</div>`;
+}
+function renderHinweis() {
+  $("toc").innerHTML = ""; document.title = "Hinweise und Haftungsausschluss – Forschungsstand Sport";
+  $("main").innerHTML = `<section><h1>Hinweise und Haftungsausschluss</h1><p class="lead">Bitte vor der Nutzung der Inhalte lesen.</p>${disclaimerHTML(false)}</section>`;
+  window.scrollTo(0, 0);
+}
+
 /* --- Rechner --- */
 const fmtK = (x, d = 0) => Number(x).toLocaleString("de-DE", { minimumFractionDigits: d, maximumFractionDigits: d });
 const CALC = [
@@ -949,6 +989,7 @@ function renderCalc() {
   $("main").innerHTML = `<section>
     <h1>Rechner</h1>
     <p class="lead">Rechnet die Empfehlungen aus den Ableitungen dieser Website auf dein Körpergewicht um. Die Werte stammen aus Studien mit gesunden Erwachsenen und sind Richtwerte, keine individuelle Beratung. Bei Erkrankungen, Medikamenten oder Schwangerschaft vorher ärztlich abklären.</p>
+    ${disclaimerHTML(true)}
     <div class="calc-in">
       <label>Körpergewicht in kg<input type="number" id="c-kg" min="30" max="250" step="1" value="${kg}" inputmode="decimal"></label>
       <label>Dauer der Belastung in Stunden<input type="number" id="c-h" min="0" max="24" step="0.25" value="${h}" inputmode="decimal"></label>
