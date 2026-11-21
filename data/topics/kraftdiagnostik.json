@@ -1,0 +1,1250 @@
+{
+ "id": "kraftdiagnostik",
+ "title": "Kraftdiagnostik",
+ "stand": "2026-11-21",
+ "lead": "Wie misst man Kraft zuverlässig, im Labor und im Studio, und welchen Messwerten kann man trauen? Zusammengefasst aus Übersichtsarbeiten zu 1RM-Test, Schätzformeln, Geschwindigkeitsmessung, isometrischen und isokinetischen Tests, Sprung- und Sprinttests sowie Handkraft als Gesundheitsmarker.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für alle, die ihre Kraft selbst testen oder Tests im Verein und Studio planen. Entscheidend ist weniger das Gerät als ein gleichbleibender Ablauf und das Wissen, wie groß der Messfehler ist.",
+ "rx": [
+  {
+   "label": "Testwahl",
+   "value": "so nah an der Trainingsübung wie möglich",
+   "text": "Isometrische und dynamische Kraft verändern sich durch Training nicht im gleichen Maß. Wer das Kniebeuge-1RM verbessern will, sollte es auch so testen; isometrische Tests ergänzen, ersetzen aber nicht.",
+   "cite": "James et al. 2024; Warneke et al. 2023"
+  },
+  {
+   "label": "1RM-Test",
+   "value": "1 Gewöhnung, dann testen",
+   "text": "Der 1RM-Test ist gut reproduzierbar (Messfehler im Median 4,2 %). Eine Gewöhnungseinheit reicht bei Ungeübten mittleren Alters; Ältere brauchen eher mehr Übung.",
+   "cite": "Grgic et al. 2020; Levinger et al. 2009; Ploutz-Snyder &amp; Giamis 2001"
+  },
+  {
+   "label": "1RM schätzen",
+   "value": "aus höchstens 10 Wiederholungen",
+   "text": "Schätzungen aus einem 5RM waren am genauesten, ab mehr als 10 Wiederholungen wird es ungenau. Geschwindigkeitsbasierte Schätzungen überschätzten das 1RM im Mittel um 3,7 %: gut für Trends, kein Ersatz für einen echten Test.",
+   "cite": "Reynolds et al. 2006; Mayhew et al. 2008; Greig et al. 2023"
+  },
+  {
+   "label": "RIR schätzen",
+   "value": "erst kurz vor dem Versagen",
+   "text": "Selbst Erfahrene unterschätzen im Mittel um etwa eine Wiederholung, wie viele noch gehen. Die Schätzung wird genauer nahe am Versagen und bei bis zu 12 Wiederholungen.",
+   "cite": "Halperin et al. 2022"
+  },
+  {
+   "label": "Veränderung",
+   "value": "erst werten, wenn größer als der Messfehler",
+   "text": "Immer mit Probedurchgang und gleichem Ablauf testen; der erste Versuch fällt oft schlechter aus. Eine Veränderung zählt erst, wenn sie den typischen Messfehler des Tests deutlich übersteigt.",
+   "cite": "Hopkins 2000; Hopkins et al. 2001; Haugen &amp; Buchheit 2016"
+  }
+ ],
+ "note": "<b>Ernährung:</b> Die ausgewerteten Arbeiten untersuchen Messverfahren, keine Ernährungsfaktoren; Ernährungsempfehlungen lassen sich daraus nicht ableiten. Wie man mit Testwerten (% 1RM, Geschwindigkeit, RIR) das Training steuert, steht unter <a href=\"#maximalkraft\">Maximalkrafttraining</a>; die Vorbereitung auf einen Test unter <a href=\"#aufwaermen\">Aufwärmen</a>.",
+ "varstitle": "Messverfahren im Detail",
+ "takeaways": [
+  {
+   "t": "Der 1RM-Test ist zuverlässig",
+   "ev": "hoch",
+   "p": "32 Studien mit 1 595 Personen: mittlere Retest-Korrelation (ICC) 0,97 und mittlerer Messfehler 4,2 %, unabhängig von Trainingserfahrung, Geschlecht, Alter und Übung.",
+   "s": [
+    "grgic2020",
+    "levinger2009"
+   ]
+  },
+  {
+   "t": "Schätzungen sind brauchbar, aber ungenauer",
+   "ev": "moderat",
+   "p": "Schätzungen aus wenigen Wiederholungen funktionieren gut bis etwa 10 Wiederholungen. Geschwindigkeitsbasierte Schätzungen überschätzen das 1RM leicht, bei einem Schätzfehler von 9,8 %.",
+   "s": [
+    "reynolds2006",
+    "mayhew2008",
+    "greig2023",
+    "lemense2024"
+   ]
+  },
+  {
+   "t": "Isometrische und dynamische Kraft sind nicht austauschbar",
+   "ev": "moderat",
+   "p": "Isometrische Tests wie der IMTP sind sehr reliabel, ihre Veränderungen spiegeln aber die Veränderungen im 1RM kaum wider. Schwere dynamische Tests hängen etwas enger mit Sprung- und Sprintleistung zusammen.",
+   "s": [
+    "grgic2022",
+    "james2024",
+    "james2026",
+    "warneke2023"
+   ]
+  },
+  {
+   "t": "Sprünge und Sprints lassen sich auch ohne Labor messen",
+   "ev": "moderat",
+   "p": "Die App My Jump stimmte in 21 Studien gut mit Referenzverfahren überein. Für kurze Sprints sind Handstoppung und einfache Lichtschranken dagegen zu ungenau.",
+   "s": [
+    "gencoglu2023",
+    "haugen2016",
+    "multhaupt2024"
+   ]
+  },
+  {
+   "t": "Handkraft ist ein Gesundheitsmarker",
+   "ev": "hoch",
+   "p": "Höhere Handkraft ging in Kohortenstudien mit fast 2 Millionen Personen mit geringerer Sterblichkeit einher (HR 0,69); es handelt sich um Zusammenhänge, nicht um Ursache und Wirkung.",
+   "s": [
+    "garciahermoso2018",
+    "soysal2021",
+    "marinjimenez2026"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "eigenschaften",
+   "name": "Was gemessen wird",
+   "q": "Maximalkraft, Explosivkraft, Reaktivkraft, Kraftausdauer: warum gibt es so viele Tests?",
+   "ev": "moderat",
+   "key": [
+    "Kraft wird isometrisch, isoinertial (gegen bewegte Last) oder isokinetisch gemessen. Alle drei Verfahren können reliabel sein, erfassen aber teils unterschiedliche neuromuskuläre Eigenschaften und reagieren unterschiedlich empfindlich auf Training (Abernethy et al., 1995).",
+    "Die Kraftanstiegsrate (RFD) beschreibt die Explosivkraft. Sie hängt in den ersten 50–75 ms vor allem von der willkürlichen Aktivierung ab, lässt sich durch Schnellkraft- und schweres Krafttraining verbessern und ist schwer valide und reliabel zu messen (Maffiuletti et al., 2016).",
+    "Reaktivkraft wird z. B. über den Reaktivkraftindex im Drop Jump erfasst; Schnellkraft über den Countermovement Jump (CMJ) (James et al., 2026).",
+    "Kraftausdauer wird meist als Wiederholungen bis zur Ermüdung bei einer Last unterhalb des 1RM gemessen; diese Werte veränderten sich durch Training individuell sehr unterschiedlich (Mayhew et al., 2008).",
+    "Eine hohe Korrelation zweier Tests (r ≥ 0,7) belegt nicht, dass sie austauschbar sind: In einem Rechenbeispiel entsprach r = 0,7 einem mittleren absoluten Fehler von 17,4 %, was als unzumutbar hoch gilt (Warneke et al., 2023)."
+   ],
+   "critic": "Die Begriffe sind gut abgegrenzt, die Evidenz dazu stammt aber überwiegend aus narrativen Übersichten. Praktisch wichtig ist der letzte Punkt: Viele Tests korrelieren hoch miteinander und werden deshalb als gleichwertig verkauft. Für einzelne Personen kann der Unterschied trotzdem groß sein.",
+   "figs": [],
+   "s": [
+    "abernethy1995",
+    "maffiuletti2016",
+    "james2026",
+    "mayhew2008",
+    "warneke2023"
+   ]
+  },
+  {
+   "id": "labor",
+   "name": "Labor: Isometrie, Isokinetik, Kraftmessplatte",
+   "q": "Wie gut sind Labortests, und sagen sie etwas über dynamische Leistung?",
+   "ev": "moderat",
+   "key": [
+    "Isometric Mid-Thigh Pull (IMTP), 16 Studien: Retest-Korrelation (ICC) 0,73–0,99 (Median 0,96), Messfehler 0,7–11,1 % (Median 4,9 %); gut bis sehr gut reproduzierbar (Grgic et al., 2022).",
+    "Isometrische Kniebeuge und IMTP sind reliabel und konstruktvalide; die Empfindlichkeit für Trainingsveränderungen ist für die isometrische Kniebeuge moderat belegt, für den IMTP unbekannt (Drake et al., 2017).",
+    "Kraftwerte aus isometrischer Kniebeuge (r² 0,085–0,746) und IMTP (r² 0,120–0,941) hingen mit dynamischen Leistungen der unteren Extremität zusammen, von schwach bis sehr stark (Lum et al., 2020).",
+    "11 Studien, 29 Vergleiche: Trainingszuwächse fielen dynamisch gemessen etwas größer aus (g 0,13), das Prognoseintervall reichte aber von −0,49 bis 0,75 und der Variationskoeffizient betrug 109 %. Isometrische und dynamische Kraft sind damit getrennte Eigenschaften (James et al., 2024).",
+    "7 Studien, 299 Personen: schwere dynamische Krafttests hingen etwas enger mit Sprung-, Sprint- und Richtungswechselleistung zusammen als isometrische (z 0,18 [0,02; 0,34]); bei Reaktivkraft und Richtungswechsel kein Unterschied (James et al., 2026).",
+    "Handdynamometer gegenüber Isokinetik, 17 Studien: Übereinstimmungsgrenzen beim Handdynamometer 33,6 % (Kniestreckung) bis 48,9 % (Plantarflexion), bei der Isokinetik für mehrere Bewegungen unter 15 % (Chamorro et al., 2017).",
+    "Isokinetische Kraft sagte Zerrungen der hinteren Oberschenkelmuskulatur kaum voraus: 12 Studien, 2 912 Sportler, nur exzentrische Kniebeugerkraft bei 60°/s mit kleinem Effekt (SMD −0,16 [−0,31; −0,01]) (Green et al., 2018).",
+    "Bei der Sprunghöhe auf der Kraftmessplatte ist die Impuls-Methode am besten geeignet; Flugzeit- und Jump-and-Reach-Methoden sind schneller, aber störanfälliger (Xu et al., 2023).",
+    "Isometrische und 1RM-Tests in Kniebeuge und Bankdrücken waren sehr reliabel (isometrisch ICC > 0,95, CV < 2,0 %; 1RM ICC > 0,91, CV < 4,3 %), die Ergebnisse unterschieden sich aber je nach Messsystem und Ablauf deutlich, isometrisch um 2–71 %, im 1RM um 1–58 % (McMaster et al., 2014).",
+    "Einzelne isokinetische Messungen reichen nicht, um Veränderungen bei einer Person zu erkennen; für das Spitzendrehmoment werden 3–4 Messtage empfohlen, für Verhältnisse wie Beuger zu Strecker noch mehr (Gleeson &amp; Mercer, 1996).",
+    "Frühe Übersicht: Weil sich isometrische und dynamische Muskelarbeit neural und mechanisch stark unterscheiden, sollte sportliche Leistung meist dynamisch getestet werden (Wilson &amp; Murphy, 1996)."
+   ],
+   "critic": "Labortests sind sehr reproduzierbar, aber das ist nicht dasselbe wie aussagekräftig. Die neueren Metaanalysen bestätigen die alte Warnung von Wilson &amp; Murphy (1996) in abgeschwächter Form: Isometrische Werte sind nützlich zur Profilbildung, bilden aber Veränderungen im dynamischen Maximum schlecht ab. Die Metaanalysen von James et al. umfassen nur 7 bzw. 11 Studien und zeigen hohe Heterogenität. Das Handdynamometer ist bequem, aber deutlich ungenauer als die Isokinetik; die eingeschlossenen Studien waren methodisch nur mäßig bis schwach.",
+   "figs": [
+    {
+     "id": "kd-isodyn",
+     "title": "Isometrische vs. dynamische Kraftmessung",
+     "cap": "Effekt mit 95-%-KI. Positive Werte = Vorteil der dynamischen Messung. Bei James et al. (2024) ist statt eines Konfidenzintervalls das Prognoseintervall angegeben (Bereich künftiger Studienergebnisse).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Trainingszuwachs (g), Prognoseintervall",
+       "sub": "James et al., 2024",
+       "es": 0.13,
+       "lo": -0.49,
+       "hi": 0.75
+      },
+      {
+       "l": "Zusammenhang mit schnellen Bewegungen (z)",
+       "sub": "James et al., 2026",
+       "es": 0.18,
+       "lo": 0.02,
+       "hi": 0.34
+      },
+      {
+       "l": "davon Schnellkraft, z. B. CMJ (z)",
+       "sub": "James et al., 2026",
+       "es": 0.25,
+       "lo": 0.03,
+       "hi": 0.47
+      }
+     ],
+     "opts": {
+      "min": -0.6,
+      "max": 0.8,
+      "ticks": [
+       -0.4,
+       0,
+       0.4,
+       0.8
+      ],
+      "leftLab": "isometrisch höher",
+      "rightLab": "dynamisch höher"
+     }
+    },
+    {
+     "id": "kd-hhd",
+     "title": "Handdynamometer: Übereinstimmungsgrenzen",
+     "cap": "Übereinstimmungsgrenzen (LOA) in % des Mittelwerts mit 95-%-KI (Chamorro et al., 2017). Kleinere Werte = genauere Messung; mit Isokinetik lagen mehrere Bewegungen unter 15 %.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kniestreckung",
+       "sub": "Chamorro et al., 2017",
+       "es": 33.59,
+       "lo": 23.91,
+       "hi": 43.26
+      },
+      {
+       "l": "Plantarflexion",
+       "sub": "Chamorro et al., 2017",
+       "es": 48.87,
+       "lo": 35.19,
+       "hi": 62.56
+      }
+     ],
+     "opts": {
+      "min": 0,
+      "max": 70,
+      "ticks": [
+       0,
+       15,
+       30,
+       45,
+       60
+      ],
+      "unit": "%"
+     }
+    }
+   ],
+   "s": [
+    "grgic2022",
+    "drake2017",
+    "lum2020",
+    "james2024",
+    "james2026",
+    "chamorro2017",
+    "green2018",
+    "xu2023",
+    "mcmaster2014",
+    "gleeson1996",
+    "wilson1996"
+   ]
+  },
+  {
+   "id": "einerwdh",
+   "name": "1RM-Test und Schätzung aus Wiederholungen",
+   "q": "Wie zuverlässig ist der 1RM-Test, und wie genau sind Schätzformeln?",
+   "ev": "hoch",
+   "key": [
+    "32 Studien, 1 595 Personen: ICC 0,64–0,99 (Median 0,97), 92 % der ICC ≥ 0,90; Messfehler 0,5–12,1 % (Median 4,2 %). Die Reliabilität war hoch mit und ohne Gewöhnung, bei Ein- und Mehrgelenksübungen, Ober- und Unterkörper, Frauen und Männern, Jüngeren und Älteren (Grgic et al., 2020).",
+    "Untrainierte mittleren Alters, sieben Übungen: ICC > 0,99, Messfehler 2,2–10,1 %. Nur die Beinpresse stieg vom ersten zum zweiten Termin leicht (1,6 %); eine Gewöhnungseinheit plus ein Testtermin reichten (Levinger et al., 2009).",
+    "Ältere Frauen steigerten ihr 1RM über die Gewöhnungstermine relativ stärker als jüngere (22 % vs. 12 %) und brauchen mehr Übung; sonst wird später ein Teil des Lerneffekts als Trainingseffekt gewertet (Ploutz-Snyder &amp; Giamis, 2001).",
+    "70 Personen von 18–69 Jahren: Das 1RM ließ sich aus Mehrfach-Wiederholungstests gut schätzen, am genauesten aus dem 5RM (R² 0,974 Beinpresse, 0,993 Bankdrücken). Für lineare Formeln sollten nicht mehr als 10 Wiederholungen verwendet werden (Reynolds et al., 2006).",
+    "103 junge Frauen: Gängige Schätzformeln für das 1RM im Bankdrücken waren vor und nach 12 Wochen Training genauer, wenn weniger als 10 Wiederholungen bis zur Ermüdung verwendet wurden (Mayhew et al., 2008).",
+    "Die Zahl möglicher Wiederholungen bei einem bestimmten % 1RM hängt kaum von Geschlecht, Alter oder Trainingsstand ab, unterscheidet sich aber zwischen Übungen; Details siehe <a href=\"#maximalkraft\">Maximalkrafttraining</a> (Nuzzo et al., 2024)."
+   ],
+   "critic": "Die Reliabilität des 1RM ist gut belegt, die Übersicht von Grgic et al. (2020) relativiert den älteren Befund, dass Gewöhnung zwingend nötig ist. Bei Älteren und Ungeübten bleibt ein Lerneffekt wahrscheinlich, deshalb ist eine Gewöhnungseinheit die sichere Wahl. Zur Sicherheit des 1RM-Tests fand sich in der Sichtung keine Übersichtsarbeit; belastbare Aussagen zur Verletzungshäufigkeit sind daher nicht möglich. Bekannte Formeln wie Epley oder Brzycki wurden in den gesichteten Abstracts nicht direkt geprüft; die Schätzbefunde stammen aus Einzelstudien mit Bankdrücken und Beinpresse.",
+   "figs": [],
+   "s": [
+    "grgic2020",
+    "levinger2009",
+    "ploutz2001",
+    "reynolds2006",
+    "mayhew2008",
+    "nuzzo2024r"
+   ]
+  },
+  {
+   "id": "vbt",
+   "name": "Geschwindigkeit, Apps und RIR",
+   "q": "Taugen Geschwindigkeitsmessung, Apps und die Einschätzung der Reserve-Wiederholungen?",
+   "ev": "moderat",
+   "key": [
+    "Individualdaten-Metaanalyse, 20 Studien, 434 Personen: Das 1RM aus Last-Geschwindigkeits-Profilen hatte einen Schätzfehler von 9,8 % [7,4; 12,2] und wurde im Mittel um 4,5 kg [1,5; 7,4] bzw. 3,7 % [0,5; 6,9] überschätzt, unabhängig vom Modell (Greig et al., 2023).",
+    "Kniebeuge mit freier Hantel: Die Methode über die Minimalgeschwindigkeit (MVT) überschätzte das 1RM (ES 0,53 [0,19; 0,87]) und wird nicht empfohlen (LeMense et al., 2024).",
+    "63 Studien zu Sensoren, 38 zu Schätzmodellen: Geschwindigkeitssensoren hatten gute bis sehr gute Validität (ICC 0,91–0,92) und Reliabilität (ICC 0,90–0,91), lineare Wegaufnehmer waren konsistenter als Inertialsensoren; die hohe Heterogenität und fehlende Analysen des absoluten Messfehlers erlauben noch kein abschließendes Urteil (Claassen et al., 2026).",
+    "Von 66 Validitätsstudien zu Geschwindigkeitsgeräten erfüllten nur 5 alle Qualitätskriterien, von 56 Reliabilitätsstudien 16 (Wannouch et al., 2025).",
+    "11 Smartphone-Apps aus 23 Studien waren für die Hantelgeschwindigkeit valide und reliabel, bei schweren Lasten aber systematisch verzerrt (Silva et al., 2021).",
+    "Wiederholungen bis zum Versagen, 12 Studien, 414 Personen: Die Teilnehmenden unterschätzten die verbleibenden Wiederholungen im Mittel um 0,95 [0,17; 1,73], bei sehr hoher Heterogenität (I² 97,9 %). Genauer wurde es nahe am Versagen, bei bis zu 12 Wiederholungen und in späteren Sätzen; der Trainingsstand spielte keine Rolle (Halperin et al., 2022).",
+    "Mit der Geschwindigkeit ließen sich die Wiederholungen bis zum Versagen in ausgeruhtem Zustand annehmbar vorhersagen (6 Studien); bei Ermüdung wurde die Vorhersage ungenau, außer bei sehr Erfahrenen (Miras-Moreno et al., 2025).",
+    "Trainierte mit mindestens einem Jahr Erfahrung unterschätzten in zwei Experimenten an der Beinstreckmaschine ihre möglichen Wiederholungen um 2,0 [0,0; 4,0] (Armes et al., 2020)."
+   ],
+   "critic": "Die Messgeräte selbst sind meist ausreichend genau; die Schwäche liegt in der Umrechnung auf das 1RM. Die Individualdaten-Metaanalyse ist hier die stärkste Quelle und zeigt eine kleine, aber systematische Überschätzung mit erheblicher Streuung. Für die Kniebeuge mit freier Hantel ist die Methode besonders unsicher. RIR-Schätzungen sind etwas ungenau, aber in eine vorhersehbare Richtung: Man hat meist eher eine Wiederholung mehr im Tank. Die Heterogenität ist groß, und viele Studien haben nur eine Übung untersucht.",
+   "figs": [
+    {
+     "id": "kd-lv",
+     "title": "1RM-Schätzung aus der Hantelgeschwindigkeit",
+     "cap": "Werte in % des gemessenen 1RM mit 95-%-KI (Greig et al., 2023). Schätzfehler = typische Abweichung der Schätzung; Überschätzung = mittlerer systematischer Fehler.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Schätzfehler (SEE %)",
+       "sub": "Greig et al., 2023",
+       "es": 9.8,
+       "lo": 7.4,
+       "hi": 12.2
+      },
+      {
+       "l": "Mittlere Überschätzung",
+       "sub": "Greig et al., 2023",
+       "es": 3.7,
+       "lo": 0.5,
+       "hi": 6.9
+      }
+     ],
+     "opts": {
+      "min": 0,
+      "max": 14,
+      "ticks": [
+       0,
+       4,
+       8,
+       12
+      ],
+      "unit": "%"
+     }
+    },
+    {
+     "id": "kd-rir",
+     "title": "Wie gut schätzt man die verbleibenden Wiederholungen?",
+     "cap": "Mittlere Unterschätzung der möglichen Wiederholungen bis zum Versagen mit 95-%-KI. Positive Werte = es wären mehr Wiederholungen möglich gewesen als geschätzt.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Metaanalyse, 12 Studien",
+       "sub": "Halperin et al., 2022",
+       "es": 0.95,
+       "lo": 0.17,
+       "hi": 1.73
+      },
+      {
+       "l": "Trainierte, Beinstrecker",
+       "sub": "Armes et al., 2020",
+       "es": 2.0,
+       "lo": 0.0,
+       "hi": 4.0
+      }
+     ],
+     "opts": {
+      "min": -0.5,
+      "max": 4.5,
+      "ticks": [
+       0,
+       1,
+       2,
+       3,
+       4
+      ],
+      "unit": " Wdh."
+     }
+    }
+   ],
+   "s": [
+    "greig2023",
+    "lemense2024",
+    "claassen2026",
+    "wannouch2025",
+    "silva2021",
+    "halperin2022",
+    "mirasmoreno2025",
+    "armes2020"
+   ]
+  },
+  {
+   "id": "feld",
+   "name": "Sprünge und Sprints ohne Labor",
+   "q": "Wie genau sind Sprung-App, Sprungmatte, Weitsprung und Sprintzeiten?",
+   "ev": "moderat",
+   "key": [
+    "My Jump, 21 Studien: keine signifikanten Unterschiede zu Referenzverfahren und nahezu perfekte Reliabilität; gilt nur für die Flugzeitmethode (Gençoğlu et al., 2023).",
+    "Erste Validierung der App: Übereinstimmung mit der Kraftmessplatte für die CMJ-Höhe ICC 0,997, mittlere Abweichung 1,1 ± 0,5 cm (Balsalobre-Fernández et al., 2015).",
+    "Lichtschranken stimmten gut mit Kraftmessplatten überein, sind für den Vertikalsprung aber nicht austauschbar; für Sprints sind Doppel-Lichtschranken valider, weil sie Fehlauslösungen durch Arme oder Beine vermeiden (Multhuaptff et al., 2024).",
+    "Sprintzeiten: Unterschiedliche Startverfahren und Auslöser können Zeitunterschiede erzeugen, die größer sind als jahrelange Trainingseffekte. Handstoppung und einfache Lichtschranken sollten über 10–20 m vermieden werden; vollautomatische Zeitmessung, Doppel-Lichtschranken, Laser und Hochgeschwindigkeitsvideo sind am genauesten; GPS ist erst ab etwa 30 m brauchbar (Haugen &amp; Buchheit, 2016).",
+    "Standweitsprung, 410 Erwachsene: valide für die Explosivkraft der Beine (R² 0,78 mit horizontaler Leistung, Kraft und Körperbau). Beim ersten Wiederholungstest war der zweite Versuch im Mittel 12 cm weiter (Messfehler 7,1 %, kleinste erkennbare Veränderung 29 cm); nach einer Lernphase sank der Messfehler auf 0,5 % (Marin-Jimenez et al., 2024).",
+    "Feldtests bei Erwachsenen, 129 Studien: für den Standweitsprung moderate Evidenz für moderate bis hohe Reliabilität (Cuenca-Garcia et al., 2022)."
+   ],
+   "critic": "Die Sprung-App ist gut belegt, misst aber wie die Sprungmatte über die Flugzeit. Diese Methode ist störanfälliger als die Impuls-Methode auf der Kraftmessplatte (siehe Labor). Werte verschiedener Systeme sollte man daher nicht mischen. Beim Standweitsprung ist der Lerneffekt groß; ohne Übungsdurchgang wird ein Teil der Verbesserung fälschlich dem Training zugeschrieben. Für Handstoppung und Smartphone-Sprintzeiten fanden sich keine eigenen Übersichtsarbeiten; die Warnung beruht auf einer methodischen Übersicht.",
+   "figs": [],
+   "s": [
+    "gencoglu2023",
+    "balsalobre2015",
+    "multhaupt2024",
+    "haugen2016",
+    "marinjimenez2024",
+    "cuenca2022"
+   ]
+  },
+  {
+   "id": "gesundheit",
+   "name": "Handkraft und Körpergewichtstests",
+   "q": "Was sagen Handkraft, Liegestütz und Klimmzüge über Gesundheit und Kraftausdauer?",
+   "ev": "hoch",
+   "key": [
+    "Umbrella Review, 8 systematische Reviews: Höhere Handkraft ging mit geringerer Sterblichkeit einher (34 Studien, 1 855 817 Personen; RR 0,72 [0,67; 0,78]), ebenso mit weniger Herz-Kreislauf-Todesfällen und Behinderung; die Evidenz war „hoch suggestiv“, für keinen Endpunkt „überzeugend“ (Soysal et al., 2021).",
+    "38 Studien, 1 907 580 Personen: Höhere Handkraft war mit geringerer Gesamtsterblichkeit verbunden (HR 0,69 [0,64; 0,74]), bei Frauen etwas deutlicher (HR 0,60) als bei Männern (HR 0,69); höhere Kniestreckkraft mit 14 % geringerem Risiko (HR 0,86 [0,80; 0,93]) (García-Hermoso et al., 2018).",
+    "155 Studien: Hohe Handkraft ging mit geringerem Risiko für Herz-Kreislauf-Erkrankungen (OR 0,73 [0,67; 0,80]), Typ-2-Diabetes, Behinderung, Depression und Demenz einher; die Evidenzqualität war sehr niedrig bis moderat (Marín-Jiménez et al., 2026).",
+    "Schwächstes gegenüber stärkstem Viertel der Handkraft, 14 Studien, 53 476 Personen: HR 1,67 [1,45; 1,93] für Sterblichkeit, bei hoher Heterogenität (I² 84 %); der Zusammenhang zeigte sich auch in jüngeren Gruppen (Cooper et al., 2010).",
+    "Die Handkraftmessung ist reliabel (ICC 0,92 bei Gesunden); als klinisch bedeutsame Veränderung bei Gesunden wurden 2,44–2,69 kg angegeben (Bobos et al., 2020).",
+    "48 Studien mit über 3 Millionen Teilnehmenden zur Sterblichkeit nutzten sehr unterschiedliche und unvollständige Messprotokolle; die Werte waren höher, je weniger Protokolldetails kontrolliert wurden (Núñez-Cortés et al., 2022).",
+    "Feldtests bei Erwachsenen, 129 Studien: starke Evidenz für hohe Reliabilität der Handkraft; moderate Evidenz für moderate bis hohe Reliabilität von Klimmzug, Hängen im Beugehang und Sit-up (Cuenca-Garcia et al., 2022).",
+    "Feuerwehrmänner, 10 Jahre Beobachtung: Wer mehr als 40 Liegestütze schaffte, hatte ein deutlich geringeres Risiko für Herz-Kreislauf-Ereignisse als Männer mit weniger als 10 (IRR 0,04 [0,01; 0,36]); insgesamt nur 37 Ereignisse (Yang et al., 2019)."
+   ],
+   "critic": "Der Zusammenhang zwischen Kraft und Sterblichkeit ist sehr konsistent und stammt aus großen Kohorten; es bleiben aber Beobachtungsdaten. Kraft ist dabei wohl auch ein Marker für allgemeine Gesundheit, nicht nur ihre Ursache. Für Liegestütze gibt es nur eine kleine Kohorte aktiver Männer mit wenigen Ereignissen und sehr breitem Intervall; das reicht nicht für allgemeine Grenzwerte. Zur Reliabilität des Liegestütztests fand sich keine Übersichtsarbeit. Körpergewichtstests messen Kraftausdauer relativ zum eigenen Gewicht; Training dafür siehe <a href=\"#koerpergewicht\">Körpergewichtstraining</a>.",
+   "figs": [
+    {
+     "id": "kd-grip",
+     "title": "Höhere Muskelkraft und Gesundheitsrisiko",
+     "cap": "Relatives Risiko (HR, RR bzw. OR) mit 95-%-KI für Personen mit höherer gegenüber niedrigerer Kraft. Werte unter 1 = geringeres Risiko. Kohortendaten, keine Ursache-Wirkungs-Belege.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Sterblichkeit, Handkraft (RR)",
+       "sub": "Soysal et al., 2021",
+       "es": 0.72,
+       "lo": 0.67,
+       "hi": 0.78
+      },
+      {
+       "l": "Sterblichkeit, Handkraft (HR)",
+       "sub": "García-Hermoso et al., 2018",
+       "es": 0.69,
+       "lo": 0.64,
+       "hi": 0.74
+      },
+      {
+       "l": "Sterblichkeit, Kniestreckkraft (HR)",
+       "sub": "García-Hermoso et al., 2018",
+       "es": 0.86,
+       "lo": 0.8,
+       "hi": 0.93
+      },
+      {
+       "l": "Herz-Kreislauf-Erkrankungen, Handkraft (OR)",
+       "sub": "Marín-Jiménez et al., 2026",
+       "es": 0.73,
+       "lo": 0.67,
+       "hi": 0.8
+      }
+     ],
+     "opts": {
+      "min": 0.5,
+      "max": 1.1,
+      "ticks": [
+       0.6,
+       0.8,
+       1.0
+      ],
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "soysal2021",
+    "garciahermoso2018",
+    "marinjimenez2026",
+    "cooper2010",
+    "bobos2020",
+    "nunezcortes2022",
+    "cuenca2022",
+    "yang2019"
+   ]
+  },
+  {
+   "id": "praxis",
+   "name": "Messfehler und kleinste relevante Veränderung",
+   "q": "Ab wann ist eine Verbesserung echt, und wie oft sollte man testen?",
+   "ev": "moderat",
+   "key": [
+    "Metaanalytische Übersicht über 101 Studien: typischer Messfehler bei Sprinttests im Feld etwa 0,9 %, bei Sprunghöhe oder -weite etwa 2,0 %, bei der mittleren Leistung an isokinetischen Geräten über 4 %. Zwischen den ersten beiden Durchgängen war der Fehler 1,3-mal größer und die Leistung stieg um 1,2 %, danach nur noch um 0,2 % (Hopkins et al., 2001).",
+    "Die Hauptmaße der Reliabilität sind die zufällige Schwankung innerhalb einer Person (typischer Messfehler, oft als Prozent des Mittelwerts), systematische Veränderungen zwischen Durchgängen (Lernen, Motivation, Ermüdung) und die Retest-Korrelation, die stark von der Streuung der Stichprobe abhängt. Für verlässliche Schätzungen braucht es etwa 50 Personen und mindestens 3 Durchgänge (Hopkins, 2000).",
+    "Zur Beurteilung von Veränderungen einzelner Sportler sollten die kleinste bedeutsame Veränderung und der typische Messfehler zusammen betrachtet werden; der Messfehler sinkt, wenn mehrere Versuche gemittelt werden (Haugen &amp; Buchheit, 2016).",
+    "Handkraft bei Gesunden, 48 Studien: Die kleinste echte Veränderung lag bei jungen Erwachsenen im Mittel bei 4,0 kg (11,6 %), bei Älteren bei 4,7 kg (16,7 %); Alter, Abstand zwischen den Tests und Gerät änderten daran nichts Wesentliches (Abe et al., 2025).",
+    "Empfohlen wird, mehrere Reliabilitätsmaße zu berichten, Übereinstimmungsgrenzen zu nutzen und die Ergebnisse auf praktisch relevante Zielgrößen zu beziehen (Atkinson &amp; Nevill, 1998)."
+   ],
+   "critic": "Die Grundlagen stammen aus methodischen Arbeiten um das Jahr 2000 und sind bis heute Standard. Praktisch heißt das: Eine Veränderung in der Größenordnung des typischen Messfehlers (Sprung etwa 2 %, Handkraft bei jungen Erwachsenen etwa 4 kg) kann reiner Zufall sein. Konkrete Empfehlungen zur Testhäufigkeit fanden sich in den Abstracts nicht; sinnvoll ist, so selten zu testen, dass die erwartete Veränderung den Messfehler übersteigt und den Ablauf (Aufwärmen, Gerät, Versuchszahl, Pausen) gleich zu halten, da diese Faktoren die Werte beeinflussen (McMaster et al., 2014).",
+   "figs": [
+    {
+     "id": "kd-cv",
+     "title": "Typischer Messfehler verschiedener Tests",
+     "cap": "Typischer Messfehler als Variationskoeffizient (CV) in %. Für 1RM und IMTP der Median über die Studien; für Sprint, Sprung und Isokinetik Näherungswerte aus Hopkins et al. (2001), Isokinetik „über 4 %“.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Sprint im Feld",
+       "es": 0.9
+      },
+      {
+       "l": "Sprunghöhe oder -weite",
+       "es": 2.0
+      },
+      {
+       "l": "1RM-Test",
+       "es": 4.2
+      },
+      {
+       "l": "Isokinetik, mittlere Leistung",
+       "es": 4.0
+      },
+      {
+       "l": "IMTP, Spitzenkraft",
+       "es": 4.9
+      }
+     ],
+     "opts": {
+      "max": 6,
+      "ticks": [
+       0,
+       2,
+       4,
+       6
+      ],
+      "unit": "%",
+      "xlab": "Typischer Messfehler (CV, %)",
+      "src": "Hopkins et al., 2001; Grgic et al., 2020; Grgic et al., 2022"
+     }
+    }
+   ],
+   "s": [
+    "hopkins2001",
+    "hopkins2000",
+    "haugen2016",
+    "abe2025",
+    "atkinson1998",
+    "mcmaster2014"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 1995,
+   "t": "Rahmen für Kraft- und Leistungsdiagnostik",
+   "p": "Isometrische, isoinertiale und isokinetische Messung erfassen teils unterschiedliche Eigenschaften.",
+   "tag": "neu",
+   "s": "abernethy1995"
+  },
+  {
+   "y": 1996,
+   "t": "Isokinetik braucht mehrere Messtage",
+   "p": "Einzelmessungen reichen nicht, um individuelle Veränderungen zu erkennen.",
+   "tag": "neu",
+   "s": "gleeson1996"
+  },
+  {
+   "y": 1996,
+   "t": "Warnung vor isometrischen Tests",
+   "p": "Sportliche Leistung sollte meist dynamisch getestet werden.",
+   "tag": "neu",
+   "s": "wilson1996"
+  },
+  {
+   "y": 1998,
+   "t": "Statistik des Messfehlers",
+   "p": "Übereinstimmungsgrenzen und mehrere Reliabilitätsmaße empfohlen.",
+   "tag": "neu",
+   "s": "atkinson1998"
+  },
+  {
+   "y": 2000,
+   "t": "Typischer Messfehler als Standard",
+   "p": "Hopkins schlägt den typischen Messfehler als Hauptmaß der Reliabilität vor.",
+   "tag": "neu",
+   "s": "hopkins2000"
+  },
+  {
+   "y": 2001,
+   "t": "Messfehler vieler Leistungstests",
+   "p": "Sprint etwa 0,9 %, Sprung etwa 2 %; Probedurchgang wichtig.",
+   "tag": "neu",
+   "s": "hopkins2001"
+  },
+  {
+   "y": 2001,
+   "t": "Ältere brauchen mehr Gewöhnung",
+   "p": "Größerer Lerneffekt im 1RM bei älteren Frauen.",
+   "tag": "neu",
+   "s": "ploutz2001"
+  },
+  {
+   "y": 2006,
+   "t": "1RM aus dem 5RM schätzen",
+   "p": "Höchstens 10 Wiederholungen für lineare Formeln verwenden.",
+   "tag": "neu",
+   "s": "reynolds2006"
+  },
+  {
+   "y": 2008,
+   "t": "Schätzformeln auch nach Training brauchbar",
+   "p": "Genauer mit weniger als 10 Wiederholungen.",
+   "tag": "conf",
+   "s": "mayhew2008"
+  },
+  {
+   "y": 2009,
+   "t": "1RM bei Untrainierten reliabel",
+   "p": "Eine Gewöhnungseinheit und ein Test reichen.",
+   "tag": "conf",
+   "s": "levinger2009"
+  },
+  {
+   "y": 2010,
+   "t": "Handkraft sagt Sterblichkeit voraus",
+   "p": "Schwächstes gegenüber stärkstem Viertel: HR 1,67 für Sterblichkeit.",
+   "tag": "neu",
+   "s": "cooper2010"
+  },
+  {
+   "y": 2014,
+   "t": "Reliabilität von Kraft- und Sprungtests",
+   "p": "Hohe Reliabilität, aber große Unterschiede zwischen Messsystemen.",
+   "tag": "neu",
+   "s": "mcmaster2014"
+  },
+  {
+   "y": 2015,
+   "t": "Sprung-App validiert",
+   "p": "My Jump stimmt nahezu perfekt mit der Kraftmessplatte überein.",
+   "tag": "neu",
+   "s": "balsalobre2015"
+  },
+  {
+   "y": 2016,
+   "t": "Kraftanstiegsrate schwer zu messen",
+   "p": "Methodische Empfehlungen zur RFD.",
+   "tag": "neu",
+   "s": "maffiuletti2016"
+  },
+  {
+   "y": 2016,
+   "t": "Sprintzeiten richtig messen",
+   "p": "Keine Handstoppung und keine einfachen Lichtschranken über kurze Distanzen.",
+   "tag": "neu",
+   "s": "haugen2016"
+  },
+  {
+   "y": 2017,
+   "t": "IMTP und isometrische Kniebeuge valide",
+   "p": "Reliabel und konstruktvalide, Empfindlichkeit für Training kaum geprüft.",
+   "tag": "neu",
+   "s": "drake2017"
+  },
+  {
+   "y": 2017,
+   "t": "Handdynamometer ungenauer als Isokinetik",
+   "p": "Übereinstimmungsgrenzen beim Handdynamometer 34–49 %.",
+   "tag": "neu",
+   "s": "chamorro2017"
+  },
+  {
+   "y": 2018,
+   "t": "Isokinetik sagt Zerrungen kaum voraus",
+   "p": "Nur ein kleiner Effekt der exzentrischen Kniebeugerkraft.",
+   "tag": "neu",
+   "s": "green2018"
+  },
+  {
+   "y": 2018,
+   "t": "Kraft und Sterblichkeit bei Gesunden",
+   "p": "Höhere Handkraft mit geringerer Sterblichkeit verbunden (HR 0,69).",
+   "tag": "conf",
+   "s": "garciahermoso2018"
+  },
+  {
+   "y": 2019,
+   "t": "Liegestütze und Herz-Kreislauf-Risiko",
+   "p": "Kleine Kohorte: mehr Liegestütze, weniger Ereignisse.",
+   "tag": "neu",
+   "s": "yang2019"
+  },
+  {
+   "y": 2020,
+   "t": "1RM-Test zuverlässig, auch ohne Gewöhnung",
+   "p": "Median-ICC 0,97 über 32 Studien.",
+   "tag": "rel",
+   "s": "grgic2020"
+  },
+  {
+   "y": 2020,
+   "t": "Isometrische Kraft und dynamische Leistung",
+   "p": "Schwache bis sehr starke Zusammenhänge.",
+   "tag": "neu",
+   "s": "lum2020"
+  },
+  {
+   "y": 2020,
+   "t": "Reserve-Wiederholungen unterschätzt",
+   "p": "Trainierte unterschätzten um etwa 2 Wiederholungen.",
+   "tag": "neu",
+   "s": "armes2020"
+  },
+  {
+   "y": 2020,
+   "t": "Handkraftmessung reliabel",
+   "p": "ICC 0,92 bei Gesunden.",
+   "tag": "neu",
+   "s": "bobos2020"
+  },
+  {
+   "y": 2021,
+   "t": "Smartphone-Apps für Hantelgeschwindigkeit",
+   "p": "Valide, aber Verzerrung bei schweren Lasten.",
+   "tag": "neu",
+   "s": "silva2021"
+  },
+  {
+   "y": 2021,
+   "t": "Umbrella Review zur Handkraft",
+   "p": "Hoch suggestive Evidenz für geringere Sterblichkeit.",
+   "tag": "conf",
+   "s": "soysal2021"
+  },
+  {
+   "y": 2022,
+   "t": "IMTP sehr reliabel",
+   "p": "Median-ICC 0,96 über 16 Studien.",
+   "tag": "conf",
+   "s": "grgic2022"
+  },
+  {
+   "y": 2022,
+   "t": "RIR-Schätzung: knapp eine Wiederholung daneben",
+   "p": "Metaanalyse: Unterschätzung um 0,95 Wiederholungen.",
+   "tag": "conf",
+   "s": "halperin2022"
+  },
+  {
+   "y": 2022,
+   "t": "Feldtests bei Erwachsenen",
+   "p": "Handkraft hoch, Klimmzug und Standweitsprung moderat bis hoch reliabel.",
+   "tag": "neu",
+   "s": "cuenca2022"
+  },
+  {
+   "y": 2022,
+   "t": "Handkraftprotokolle uneinheitlich",
+   "p": "Messprotokolle in Sterblichkeitsstudien sehr verschieden.",
+   "tag": "neu",
+   "s": "nunezcortes2022"
+  },
+  {
+   "y": 2023,
+   "t": "Korrelation heißt nicht Austauschbarkeit",
+   "p": "Auch hohe Korrelationen erlauben große Messabweichungen.",
+   "tag": "neu",
+   "s": "warneke2023"
+  },
+  {
+   "y": 2023,
+   "t": "Last-Geschwindigkeits-Profile überschätzen das 1RM",
+   "p": "Im Mittel 3,7 %, Schätzfehler 9,8 %.",
+   "tag": "neu",
+   "s": "greig2023"
+  },
+  {
+   "y": 2023,
+   "t": "My Jump in 21 Studien bestätigt",
+   "p": "Valide und reliabel, nur für die Flugzeitmethode.",
+   "tag": "conf",
+   "s": "gencoglu2023"
+  },
+  {
+   "y": 2023,
+   "t": "Berechnung der Sprunghöhe",
+   "p": "Impuls-Methode auf der Kraftmessplatte am besten.",
+   "tag": "neu",
+   "s": "xu2023"
+  },
+  {
+   "y": 2024,
+   "t": "Wiederholungen bei % 1RM",
+   "p": "Kaum Unterschiede nach Geschlecht, Alter, Trainingsstand; aber je Übung.",
+   "tag": "neu",
+   "s": "nuzzo2024r"
+  },
+  {
+   "y": 2024,
+   "t": "Isometrische und dynamische Kraft getrennt",
+   "p": "Trainingsveränderungen kaum proportional.",
+   "tag": "contra",
+   "s": "james2024"
+  },
+  {
+   "y": 2024,
+   "t": "MVT-Methode in der Kniebeuge ungeeignet",
+   "p": "1RM deutlich überschätzt.",
+   "tag": "conf",
+   "s": "lemense2024"
+  },
+  {
+   "y": 2024,
+   "t": "Lichtschranken im Sport",
+   "p": "Doppel-Lichtschranken valider als einfache.",
+   "tag": "conf",
+   "s": "multhaupt2024"
+  },
+  {
+   "y": 2024,
+   "t": "Standweitsprung bei Erwachsenen",
+   "p": "Valide, aber großer Lerneffekt.",
+   "tag": "neu",
+   "s": "marinjimenez2024"
+  },
+  {
+   "y": 2025,
+   "t": "Qualität von Geschwindigkeitsgeräte-Studien",
+   "p": "Nur wenige Validitätsstudien erfüllen alle Kriterien.",
+   "tag": "rel",
+   "s": "wannouch2025"
+  },
+  {
+   "y": 2025,
+   "t": "Wiederholungen aus der Geschwindigkeit",
+   "p": "In ausgeruhtem Zustand brauchbar, bei Ermüdung ungenau.",
+   "tag": "neu",
+   "s": "mirasmoreno2025"
+  },
+  {
+   "y": 2025,
+   "t": "Messfehler der Handkraft",
+   "p": "Kleinste echte Veränderung bei jungen Erwachsenen etwa 4 kg.",
+   "tag": "neu",
+   "s": "abe2025"
+  },
+  {
+   "y": 2026,
+   "t": "Geschwindigkeitssensoren überwiegend valide",
+   "p": "Lineare Wegaufnehmer konsistenter als Inertialsensoren; Vorsicht bei der 1RM-Schätzung.",
+   "tag": "conf",
+   "s": "claassen2026"
+  },
+  {
+   "y": 2026,
+   "t": "Dynamische Tests erklären schnelle Bewegungen etwas besser",
+   "p": "Kleiner Vorteil schwerer dynamischer Tests gegenüber isometrischen.",
+   "tag": "conf",
+   "s": "james2026"
+  },
+  {
+   "y": 2026,
+   "t": "Handkraft und Langzeiterkrankungen",
+   "p": "Hohe Handkraft mit geringerem Risiko vieler Erkrankungen verbunden.",
+   "tag": "conf",
+   "s": "marinjimenez2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "21.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3 160 Einträgen, 1 020 Übersichtsarbeiten nach Titel geprüft, dazu die regelbasiert als Messmethodik kodierten Einträge und eine ergänzende gezielte Suche nach Grundlagenarbeiten; 45 Quellen aufgenommen."
+  }
+ ],
+ "def": {
+  "t": "Kraftdiagnostik erfasst die Kräfte oder Drehmomente, die die Muskulatur bei sportlichen Bewegungen erzeugt. Sie dient der Kraftdiagnose, der Talentsichtung und der Überprüfung von Trainingseffekten. Gemessen wird isometrisch (ohne Bewegung), isoinertial (gegen eine bewegte Last, z. B. 1RM) oder isokinetisch (bei konstanter Geschwindigkeit); die Verfahren erfassen teils unterschiedliche neuromuskuläre Eigenschaften.",
+  "s": [
+   "abernethy1995"
+  ]
+ },
+ "sources": {
+  "abernethy1995": {
+   "short": "Abernethy et al., 1995",
+   "year": 1995,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "7676101",
+   "apa": "Abernethy, P., Wilson, G. &amp; Logan, P. (1995). Strength and power assessment. Issues, controversies and challenges. <em>Sports Medicine, 19</em>(6), 401–417.",
+   "doi": "10.2165/00007256-199519060-00004"
+  },
+  "atkinson1998": {
+   "short": "Atkinson & Nevill, 1998",
+   "year": 1998,
+   "type": "Methodischer Review",
+   "basis": "Abstract",
+   "pmid": "9820922",
+   "apa": "Atkinson, G. &amp; Nevill, A. M. (1998). Statistical methods for assessing measurement error (reliability) in variables relevant to sports medicine. <em>Sports Medicine, 26</em>(4), 217–238.",
+   "doi": "10.2165/00007256-199826040-00002"
+  },
+  "hopkins2000": {
+   "short": "Hopkins, 2000",
+   "year": 2000,
+   "type": "Methodischer Review",
+   "basis": "Abstract",
+   "pmid": "10907753",
+   "apa": "Hopkins, W. G. (2000). Measures of reliability in sports medicine and science. <em>Sports Medicine, 30</em>(1), 1–15.",
+   "doi": "10.2165/00007256-200030010-00001"
+  },
+  "hopkins2001": {
+   "short": "Hopkins et al., 2001",
+   "year": 2001,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "11286357",
+   "apa": "Hopkins, W. G., Schabort, E. J. &amp; Hawley, J. A. (2001). Reliability of power in physical performance tests. <em>Sports Medicine, 31</em>(3), 211–234.",
+   "doi": "10.2165/00007256-200131030-00005"
+  },
+  "wilson1996": {
+   "short": "Wilson & Murphy, 1996",
+   "year": 1996,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "8819238",
+   "apa": "Wilson, G. J. &amp; Murphy, A. J. (1996). The use of isometric tests of muscular function in athletic assessment. <em>Sports Medicine, 22</em>(1), 19–37.",
+   "doi": "10.2165/00007256-199622010-00003"
+  },
+  "gleeson1996": {
+   "short": "Gleeson & Mercer, 1996",
+   "year": 1996,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "8771283",
+   "apa": "Gleeson, N. P. &amp; Mercer, T. H. (1996). The utility of isokinetic dynamometry in the assessment of human muscle function. <em>Sports Medicine, 21</em>(1), 18–34.",
+   "doi": "10.2165/00007256-199621010-00003"
+  },
+  "mcmaster2014": {
+   "short": "McMaster et al., 2014",
+   "year": 2014,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "24497158",
+   "apa": "McMaster, D. T., Gill, N., Cronin, J. &amp; McGuigan, M. (2014). A brief review of strength and ballistic assessment methodologies in sport. <em>Sports Medicine, 44</em>(5), 603–623.",
+   "doi": "10.1007/s40279-014-0145-2"
+  },
+  "maffiuletti2016": {
+   "short": "Maffiuletti et al., 2016",
+   "year": 2016,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "26941023",
+   "apa": "Maffiuletti, N. A., Aagaard, P., Blazevich, A. J., Folland, J., Tillin, N. &amp; Duchateau, J. (2016). Rate of force development: Physiological and methodological considerations. <em>European Journal of Applied Physiology, 116</em>(6), 1091–1116.",
+   "doi": "10.1007/s00421-016-3346-6"
+  },
+  "haugen2016": {
+   "short": "Haugen & Buchheit, 2016",
+   "year": 2016,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "26660758",
+   "apa": "Haugen, T. &amp; Buchheit, M. (2016). Sprint running performance monitoring: Methodological and practical considerations. <em>Sports Medicine, 46</em>(5), 641–656.",
+   "doi": "10.1007/s40279-015-0446-0"
+  },
+  "warneke2023": {
+   "short": "Warneke et al., 2023",
+   "year": 2023,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "36873661",
+   "apa": "Warneke, K., Wagner, C. M., Keiner, M., Hillebrecht, M., Schiemann, S., Behm, D. G., Wallot, S. &amp; Wirth, K. (2023). Maximal strength measurement: A critical evaluation of common methods – A narrative review. <em>Frontiers in Sports and Active Living, 5</em>, Artikel 1105201.",
+   "doi": "10.3389/fspor.2023.1105201"
+  },
+  "grgic2020": {
+   "short": "Grgic et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "32681399",
+   "apa": "Grgic, J., Lazinica, B., Schoenfeld, B. J. &amp; Pedisic, Z. (2020). Test-retest reliability of the one-repetition maximum (1RM) strength assessment: A systematic review. <em>Sports Medicine – Open, 6</em>(1), 31.",
+   "doi": "10.1186/s40798-020-00260-z"
+  },
+  "levinger2009": {
+   "short": "Levinger et al., 2009",
+   "year": 2009,
+   "type": "Reliabilitätsstudie",
+   "basis": "Abstract",
+   "pmid": "18078784",
+   "apa": "Levinger, I., Goodman, C., Hare, D. L., Jerums, G., Toia, D. &amp; Selig, S. (2009). The reliability of the 1RM strength test for untrained middle-aged individuals. <em>Journal of Science and Medicine in Sport, 12</em>(2), 310–316.",
+   "doi": "10.1016/j.jsams.2007.10.007"
+  },
+  "ploutz2001": {
+   "short": "Ploutz-Snyder & Giamis, 2001",
+   "year": 2001,
+   "type": "Experimentelle Studie",
+   "basis": "Abstract",
+   "pmid": "11726267",
+   "apa": "Ploutz-Snyder, L. L. &amp; Giamis, E. L. (2001). Orientation and familiarization to 1RM strength testing in old and young women. <em>Journal of Strength and Conditioning Research, 15</em>(4), 519–523."
+  },
+  "reynolds2006": {
+   "short": "Reynolds et al., 2006",
+   "year": 2006,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "16937972",
+   "apa": "Reynolds, J. M., Gordon, T. J. &amp; Robergs, R. A. (2006). Prediction of one repetition maximum strength from multiple repetition maximum testing and anthropometry. <em>Journal of Strength and Conditioning Research, 20</em>(3), 584–592.",
+   "doi": "10.1519/R-15304.1"
+  },
+  "mayhew2008": {
+   "short": "Mayhew et al., 2008",
+   "year": 2008,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "18714230",
+   "apa": "Mayhew, J. L., Johnson, B. D., Lamonte, M. J., Lauber, D. &amp; Kemmler, W. (2008). Accuracy of prediction equations for determining one repetition maximum bench press in women before and after resistance training. <em>Journal of Strength and Conditioning Research, 22</em>(5), 1570–1577.",
+   "doi": "10.1519/JSC.0b013e31817b02ad"
+  },
+  "greig2023": {
+   "short": "Greig et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse (Individualdaten)",
+   "basis": "Abstract",
+   "pmid": "37493929",
+   "apa": "Greig, L., Aspe, R. R., Hall, A., Comfort, P., Cooper, K. &amp; Swinton, P. A. (2023). The predictive validity of individualised load-velocity relationships for predicting 1RM: A systematic review and individual participant data meta-analysis. <em>Sports Medicine, 53</em>(9), 1693–1708.",
+   "doi": "10.1007/s40279-023-01854-9"
+  },
+  "lemense2024": {
+   "short": "LeMense et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38416447",
+   "apa": "LeMense, A. T., Malone, G. T., Kinderman, M. A., Fedewa, M. V. &amp; Winchester, L. J. (2024). Validity of using the load-velocity relationship to estimate 1 repetition maximum in the back squat exercise: A systematic review and meta-analysis. <em>Journal of Strength and Conditioning Research, 38</em>(3), 612–619.",
+   "doi": "10.1519/JSC.0000000000004709"
+  },
+  "claassen2026": {
+   "short": "Claassen et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42690493",
+   "apa": "Claassen, N., Siegel, S. D., Sproll, M., Lebelt, N., Bargende, A. V., Fasold, A. M. &amp; Warneke, K. (2026). Reliability, device agreement and validity of load-velocity profiles: A systematic review with meta-analysis. <em>Sports Medicine – Open, 12</em>(1), Artikel 131.",
+   "doi": "10.1186/s40798-026-01102-0"
+  },
+  "silva2021": {
+   "short": "Silva et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33918020",
+   "apa": "Silva, R., Rico-González, M., Lima, R., Akyildiz, Z., Pino-Ortega, J. &amp; Clemente, F. M. (2021). Validity and reliability of mobile applications for assessing strength, power, velocity, and change-of-direction: A systematic review. <em>Sensors, 21</em>(8), Artikel 2623.",
+   "doi": "10.3390/s21082623"
+  },
+  "wannouch2025": {
+   "short": "Wannouch et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "40920738",
+   "apa": "Wannouch, Y. J., Leahey, S. R., Ramírez-Campillo, R., Banyard, H. G., Dorrell, H. S., Stern, S., Ross, G. J., Laffer, J. C., Chua, K. Y. H. &amp; Comfort, P. (2025). A systematic review using a multi-layered criteria framework for assessing the validity and reliability of velocity monitoring devices in resistance training. <em>PLOS ONE, 20</em>(9), Artikel e0324606.",
+   "doi": "10.1371/journal.pone.0324606"
+  },
+  "halperin2022": {
+   "short": "Halperin et al., 2022",
+   "year": 2022,
+   "type": "Scoping Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34542869",
+   "apa": "Halperin, I., Malleron, T., Har-Nir, I., Androulakis-Korakakis, P., Wolf, M., Fisher, J. &amp; Steele, J. (2022). Accuracy in predicting repetitions to task failure in resistance exercise: A scoping review and exploratory meta-analysis. <em>Sports Medicine, 52</em>(2), 377–390.",
+   "doi": "10.1007/s40279-021-01559-x"
+  },
+  "armes2020": {
+   "short": "Armes et al., 2020",
+   "year": 2020,
+   "type": "Experimentelle Studie",
+   "basis": "Abstract",
+   "pmid": "33424678",
+   "apa": "Armes, C., Standish-Hunt, H., Androulakis-Korakakis, P., Michalopoulos, N., Georgieva, T., Hammond, A., Fisher, J. P., Gentil, P., Giessing, J. &amp; Steele, J. (2020). „Just one more rep!“ – Ability to predict proximity to task failure in resistance trained persons. <em>Frontiers in Psychology, 11</em>, Artikel 565416.",
+   "doi": "10.3389/fpsyg.2020.565416"
+  },
+  "mirasmoreno2025": {
+   "short": "Miras-Moreno et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "39837320",
+   "apa": "Miras-Moreno, S., Pérez-Castilla, A., Weakley, J., Rojas-Ruiz, F. J. &amp; García-Ramos, A. (2025). Improving the use of lifting velocity to predict repetitions to failure: A systematic review. <em>International Journal of Sports Physiology and Performance, 20</em>(3), 335–344.",
+   "doi": "10.1123/ijspp.2024-0337"
+  },
+  "drake2017": {
+   "short": "Drake et al., 2017",
+   "year": 2017,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "28631257",
+   "apa": "Drake, D., Kennedy, R. &amp; Wallace, E. (2017). The validity and responsiveness of isometric lower body multi-joint tests of muscular strength: A systematic review. <em>Sports Medicine – Open, 3</em>(1), 23.",
+   "doi": "10.1186/s40798-017-0091-2"
+  },
+  "grgic2022": {
+   "short": "Grgic et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35309521",
+   "apa": "Grgic, J., Scapec, B., Mikulic, P. &amp; Pedisic, Z. (2022). Test-retest reliability of isometric mid-thigh pull maximum strength assessment: A systematic review. <em>Biology of Sport, 39</em>(2), 407–414.",
+   "doi": "10.5114/biolsport.2022.106149"
+  },
+  "lum2020": {
+   "short": "Lum et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "32429176",
+   "apa": "Lum, D., Haff, G. G. &amp; Barbosa, T. M. (2020). The relationship between isometric force-time characteristics and dynamic performance: A systematic review. <em>Sports, 8</em>(5), 63.",
+   "doi": "10.3390/sports8050063"
+  },
+  "james2024": {
+   "short": "James et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37741636",
+   "apa": "James, L. P., Weakley, J., Comfort, P. &amp; Huynh, M. (2024). The relationship between isometric and dynamic strength following resistance training: A systematic review, meta-analysis, and level of agreement. <em>International Journal of Sports Physiology and Performance, 19</em>(1), 2–12.",
+   "doi": "10.1123/ijspp.2023-0066"
+  },
+  "james2026": {
+   "short": "James et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42562362",
+   "apa": "James, L. P., Stutter, L. R., Lum, D., Huynh, M. &amp; Talpey, S. W. (2026). Explaining high-velocity movement: Do isometric or heavy strength measures show stronger associations? A systematic review and meta-analysis. <em>International Journal of Sports Physiology and Performance, 21</em>(11), 1222–1232.",
+   "doi": "10.1123/ijspp.2025-0623"
+  },
+  "chamorro2017": {
+   "short": "Chamorro et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29071305",
+   "apa": "Chamorro, C., Armijo-Olivo, S., De la Fuente, C., Fuentes, J. &amp; Javier Chirosa, L. (2017). Absolute reliability and concurrent validity of hand held dynamometry and isokinetic dynamometry in the hip, knee and ankle joint: Systematic review and meta-analysis. <em>Open Medicine, 12</em>, 359–375.",
+   "doi": "10.1515/med-2017-0052"
+  },
+  "green2018": {
+   "short": "Green et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29187349",
+   "apa": "Green, B., Bourne, M. N. &amp; Pizzari, T. (2018). Isokinetic strength assessment offers limited predictive validity for detecting risk of future hamstring strain in sport: A systematic review and meta-analysis. <em>British Journal of Sports Medicine, 52</em>(5), 329–336.",
+   "doi": "10.1136/bjsports-2017-098101"
+  },
+  "balsalobre2015": {
+   "short": "Balsalobre-Fernández et al., 2015",
+   "year": 2015,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "25555023",
+   "apa": "Balsalobre-Fernández, C., Glaister, M. &amp; Lockey, R. A. (2015). The validity and reliability of an iPhone app for measuring vertical jump performance. <em>Journal of Sports Sciences, 33</em>(15), 1574–1579.",
+   "doi": "10.1080/02640414.2014.996184"
+  },
+  "gencoglu2023": {
+   "short": "Gençoğlu et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37978338",
+   "apa": "Gençoğlu, C., Ulupınar, S., Özbay, S., Turan, M., Savaş, B. Ç., Asan, S. &amp; İnce, İ. (2023). Validity and reliability of „My Jump app“ to assess vertical jump performance: A meta-analytic review. <em>Scientific Reports, 13</em>(1), Artikel 20137.",
+   "doi": "10.1038/s41598-023-46935-x"
+  },
+  "xu2023": {
+   "short": "Xu et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "36940054",
+   "apa": "Xu, J., Turner, A., Comfort, P., Harry, J. R., McMahon, J. J., Chavda, S. &amp; Bishop, C. (2023). A systematic review of the different calculation methods for measuring jump height during the countermovement and drop jump tests. <em>Sports Medicine, 53</em>(5), 1055–1072.",
+   "doi": "10.1007/s40279-023-01828-x"
+  },
+  "multhaupt2024": {
+   "short": "Multhuaptff et al., 2024",
+   "year": 2024,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "38736609",
+   "apa": "Multhuaptff, W., Fernández-Peña, E., Moreno-Villanueva, A., Soler-López, A., Rico-González, M., Manuel Clemente, F., Bravo-Cucci, S. &amp; Pino-Ortega, J. (2024). Concurrent-validity and reliability of photocells in sport: A systematic review. <em>Journal of Human Kinetics, 92</em>, 53–71.",
+   "doi": "10.5114/jhk/174285",
+   "flag": "Erstautorname so in PubMed geschrieben („Multhuaptff“); möglicherweise Schreibfehler der Datenbank."
+  },
+  "marinjimenez2024": {
+   "short": "Marin-Jimenez et al., 2024",
+   "year": 2024,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "39167610",
+   "apa": "Marin-Jimenez, N., Perez-Bey, A., Cruz-Leon, C., Conde-Caveda, J., Segura-Jimenez, V., Castro-Piñero, J. &amp; Cuenca-Garcia, M. (2024). Criterion-related validity and reliability of the standing long jump test in adults: The adult-fit project. <em>European Journal of Sport Science, 24</em>(9), 1379–1392.",
+   "doi": "10.1002/ejsc.12182"
+  },
+  "cuenca2022": {
+   "short": "Cuenca-Garcia et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35064915",
+   "apa": "Cuenca-Garcia, M., Marin-Jimenez, N., Perez-Bey, A., Sánchez-Oliva, D., Camiletti-Moiron, D., Alvarez-Gallardo, I. C., Ortega, F. B. &amp; Castro-Piñero, J. (2022). Reliability of field-based fitness tests in adults: A systematic review. <em>Sports Medicine, 52</em>(8), 1961–1979.",
+   "doi": "10.1007/s40279-021-01635-2"
+  },
+  "yang2019": {
+   "short": "Yang et al., 2019",
+   "year": 2019,
+   "type": "Kohortenstudie",
+   "basis": "Abstract",
+   "pmid": "30768197",
+   "apa": "Yang, J., Christophi, C. A., Farioli, A., Baur, D. M., Moffatt, S., Zollinger, T. W. &amp; Kales, S. N. (2019). Association between push-up exercise capacity and future cardiovascular events among active adult men. <em>JAMA Network Open, 2</em>(2), Artikel e188341.",
+   "doi": "10.1001/jamanetworkopen.2018.8341"
+  },
+  "cooper2010": {
+   "short": "Cooper et al., 2010",
+   "year": 2010,
+   "type": "Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "20829298",
+   "apa": "Cooper, R., Kuh, D., Hardy, R., Mortality Review Group &amp; FALCon and HALCyon Study Teams (2010). Objectively measured physical capability levels and mortality: Systematic review and meta-analysis. <em>BMJ, 341</em>, c4467.",
+   "doi": "10.1136/bmj.c4467"
+  },
+  "garciahermoso2018": {
+   "short": "García-Hermoso et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "29425700",
+   "apa": "García-Hermoso, A., Cavero-Redondo, I., Ramírez-Vélez, R., Ruiz, J. R., Ortega, F. B., Lee, D. C. &amp; Martínez-Vizcaíno, V. (2018). Muscular strength as a predictor of all-cause mortality in an apparently healthy population: A systematic review and meta-analysis of data from approximately 2 million men and women. <em>Archives of Physical Medicine and Rehabilitation, 99</em>(10), 2100–2113.e5.",
+   "doi": "10.1016/j.apmr.2018.01.008"
+  },
+  "soysal2021": {
+   "short": "Soysal et al., 2021",
+   "year": 2021,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "32565244",
+   "apa": "Soysal, P., Hurst, C., Demurtas, J., Firth, J., Howden, R., Yang, L., Tully, M. A., Koyanagi, A., Ilie, P. C., López-Sánchez, G. F., Schwingshackl, L., Veronese, N. &amp; Smith, L. (2021). Handgrip strength and health outcomes: Umbrella review of systematic reviews with meta-analyses of observational studies. <em>Journal of Sport and Health Science, 10</em>(3), 290–295.",
+   "doi": "10.1016/j.jshs.2020.06.009"
+  },
+  "marinjimenez2026": {
+   "short": "Marín-Jiménez et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse (Kohortenstudien)",
+   "basis": "Abstract",
+   "pmid": "41667153",
+   "apa": "Marín-Jiménez, N., Bizzozero-Peroni, B., Molina-Garcia, P., Ortega, F. B., Chaput, J. P., Zhang, K., Lang, J. J., McGrath, R., Tomkinson, G. R., Martínez-Vizcaíno, V., Cuenca-García, M. &amp; Castro-Piñero, J. (2026). Clinical importance of simple muscular fitness tests to predict long-term health conditions: A systematic review and meta-analysis of 94 cohort studies. <em>British Journal of Sports Medicine, 60</em>(6), 465–483.",
+   "doi": "10.1136/bjsports-2024-109173"
+  },
+  "bobos2020": {
+   "short": "Bobos et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31730754",
+   "apa": "Bobos, P., Nazari, G., Lu, Z. &amp; MacDermid, J. C. (2020). Measurement properties of the hand grip strength assessment: A systematic review with meta-analysis. <em>Archives of Physical Medicine and Rehabilitation, 101</em>(3), 553–565.",
+   "doi": "10.1016/j.apmr.2019.10.183"
+  },
+  "abe2025": {
+   "short": "Abe et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40933322",
+   "apa": "Abe, T., Song, J. S., Dankel, S. J., Viana, R. B., Abe, A. &amp; Loenneke, J. P. (2025). Impact of potential moderating factors on absolute test-retest reliability of grip strength measurements in healthy populations: A systematic review with meta-analysis. <em>Journal of Sports Science &amp; Medicine, 24</em>(3), 543–554.",
+   "doi": "10.52082/jssm.2025.543"
+  },
+  "nunezcortes2022": {
+   "short": "Núñez-Cortés et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "36215867",
+   "apa": "Núñez-Cortés, R., Cruz, B. D. P., Gallardo-Gómez, D., Calatayud, J., Cruz-Montecinos, C., López-Gil, J. F. &amp; López-Bueno, R. (2022). Handgrip strength measurement protocols for all-cause and cause-specific mortality outcomes in more than 3 million participants: A systematic review and meta-regression analysis. <em>Clinical Nutrition, 41</em>(11), 2473–2489.",
+   "doi": "10.1016/j.clnu.2022.09.006"
+  },
+  "nuzzo2024r": {
+   "short": "Nuzzo et al., 2024",
+   "year": 2024,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "pmid": "37792272",
+   "apa": "Nuzzo, J. L., Pinto, M. D., Nosaka, K. &amp; Steele, J. (2024). Maximal number of repetitions at percentages of the one repetition maximum: A meta-regression and moderator analysis of sex, age, training status, and exercise. <em>Sports Medicine, 54</em>(2), 303–321.",
+   "doi": "10.1007/s40279-023-01937-7"
+  }
+ }
+}

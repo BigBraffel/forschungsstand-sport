@@ -67,6 +67,7 @@ def rule(x):
     for code, rx in RULES:
         if PROFIL == 'ernaehrung' and (code == 'E' or rx is RULES[0][1]): continue
         if PROFIL == 'ausdauer' and code == 'C': continue
+        if PROFIL == 'diagnostik' and code in ('M', 'C', 'K'): continue  # Messmethodik ist hier das Thema
         if PROFIL == 'regeneration' and code in ('K', 'E'): continue
         if PROFIL == 'regeneration' and rx is RULES[1][1]: rx = rx.replace('|injur', '').replace('|pain', '').replace('|rehabilit', '')
         if re.search(rx, x['t'], re.I): return code

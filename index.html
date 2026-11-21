@@ -415,7 +415,7 @@ ol.findings .lvl { font-size: .72rem; font-weight: 600; letter-spacing: .03em; t
 .news .contra { font-size: .7rem; font-weight: 700; color: var(--warn); background: var(--warn-bg); border-radius: 99px; padding: 1px 8px; margin-left: 8px; }
 .calc-in { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 18px; }
 .calc-in label { display: flex; flex-direction: column; gap: 6px; font-size: .85rem; color: var(--ink-2); }
-.calc-in input { font: inherit; font-size: 1.1rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+.calc-in input, .calc-in select { font: inherit; font-size: 1.1rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
 .calc { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
 .calc .card { display: flex; flex-direction: column; gap: 6px; border-top: 3px solid var(--accent); }
 .calc .val { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; }
@@ -464,15 +464,17 @@ const NAV = [
     { title: "Krafttraining", children: [
       { id: "maximalkraft", title: "Maximalkraft" },
       { id: "hypertrophie", title: "Hypertrophie (Muskelaufbau)" },
-      { id: "koerpergewicht", title: "Körpergewichtstraining (Calisthenics)" } ] },
+      { id: "koerpergewicht", title: "Körpergewichtstraining (Calisthenics)" },
+      { id: "kraftdiagnostik", title: "Kraftdiagnostik und Tests" } ] },
     { title: "Ausdauertraining", children: [
       { id: "ausdauer", title: "Überblick und Zonenmodell" },
-      { id: "hiit", title: "HIIT und Sprintintervalle" },
       { id: "zone-1", title: "Zone 1 · Regeneration", topic: "ausdauer", var: "zone1" },
       { id: "zone-2", title: "Zone 2 · Grundlage", topic: "ausdauer", var: "zone2" },
       { id: "zone-3", title: "Zone 3 · Tempo", topic: "ausdauer", var: "zone3" },
       { id: "zone-4", title: "Zone 4 · Schwelle", topic: "ausdauer", var: "zone4" },
-      { id: "zone-5", title: "Zone 5 · VO₂max", topic: "ausdauer", var: "zone5" } ] },
+      { id: "zone-5", title: "Zone 5 · VO₂max", topic: "ausdauer", var: "zone5" },
+      { id: "hiit", title: "HIIT und Sprintintervalle" },
+      { id: "ausdauerdiagnostik", title: "Ausdauerdiagnostik und Tests" } ] },
     { title: "Trainingsplanung", sort: true, children: [
       { id: "aufwaermen", title: "Aufwärmen" },
       { id: "interferenz", title: "Kraft und Ausdauer kombiniert" },
@@ -530,7 +532,7 @@ const NAV = [
 /* Werkzeuge: als kompakte Leiste unter der Suche */
 const TOOLS = [{ id: "start", title: "Start" }, { id: "ziel", title: "Mein Ziel" }, { id: "mythen", title: "Mythen-Check" }, { id: "neu", title: "Neu" }, { id: "rechner", title: "Rechner" }, { id: "glossar", title: "Glossar" }];
 NAV.forEach(g => g.items.forEach(it => { if (it.sort) it.children.sort((x, y) => x.title.localeCompare(y.title, "de")); }));
-const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette", "dehnen", "aufwaermen", "verletzungspraevention", "koerpergewicht", "tapering", "zyklus", "schlaf", "energiebilanz", "fluessigkeit", "timing", "natriumbicarbonat", "citrullin", "hmb", "melatonin", "curcumin", "interferenz", "periodisierung", "hiit", "alter", "vegan", "alkohol"];
+const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette", "dehnen", "aufwaermen", "verletzungspraevention", "koerpergewicht", "tapering", "zyklus", "schlaf", "energiebilanz", "fluessigkeit", "timing", "natriumbicarbonat", "citrullin", "hmb", "melatonin", "curcumin", "interferenz", "periodisierung", "hiit", "alter", "vegan", "alkohol", "kraftdiagnostik", "ausdauerdiagnostik"];
 
 const PAGES = ["start", "ziel", "mythen", "vergleich", "sicherheit", "supplemente", "suche", "neu", "rechner", "glossar", "hinweis"]; /* Seiten ohne eigene Themendatei */
 const SUPPS = ["protein", "kreatin", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "natriumbicarbonat", "citrullin", "hmb", "vitamin-d-k2", "vitamin-c", "b-vitamine", "multivitamin", "magnesium", "zink", "eisen", "calcium", "omega-3", "kollagen", "probiotika", "ashwagandha", "melatonin", "curcumin"]; /* Supplemente mit Wirkungsübersicht */
@@ -1036,8 +1038,8 @@ const naviOf = (id) => { for (const g of NAV) for (const it of g.items) for (con
 /* Ziele: Themen sind redaktionell zugeordnet, Supplement-Wirkungen werden über die Kategorie (kat) der Wirkungsübersicht gefunden */
 const GOALS = [
   { id: "muskel", title: "Muskelaufbau", kat: ["masse"], topics: ["hypertrophie", "protein", "periodisierung", "interferenz", "energiebilanz", "schlaf", "timing"] },
-  { id: "kraft", title: "Kraft", kat: ["kraft"], topics: ["maximalkraft", "periodisierung", "koerpergewicht", "aufwaermen", "interferenz", "tapering"] },
-  { id: "ausdauer", title: "Ausdauer", kat: ["ausdauer"], topics: ["ausdauer", "hiit", "kohlenhydrate", "fluessigkeit", "tapering", "interferenz"] },
+  { id: "kraft", title: "Kraft", kat: ["kraft"], topics: ["maximalkraft", "periodisierung", "koerpergewicht", "kraftdiagnostik", "aufwaermen", "interferenz", "tapering"] },
+  { id: "ausdauer", title: "Ausdauer", kat: ["ausdauer"], topics: ["ausdauer", "hiit", "ausdauerdiagnostik", "kohlenhydrate", "fluessigkeit", "tapering", "interferenz"] },
   { id: "abnehmen", title: "Abnehmen und Körperfett", kat: ["koerper", "stoffwechsel"], topics: ["energiebilanz", "protein", "hiit", "timing", "fette", "kohlenhydrate", "alkohol"] },
   { id: "regeneration", title: "Regeneration und Verletzungsschutz", kat: ["regeneration", "entzuendung"], topics: ["regeneration", "schlaf", "verletzungspraevention", "dehnen", "aufwaermen", "alkohol"] },
   { id: "gesundheit", title: "Gesundheit und Älterwerden", kat: ["herz", "knochen", "gehirn", "infekte", "psyche", "status"], topics: ["alter", "koerpergewicht", "schlaf", "fette", "vegan", "alkohol", "ausdauer"] }];
@@ -1236,7 +1238,50 @@ function renderCalc() {
     $("c-out").innerHTML = avail.map(c => `<div class="card"><span class="lbl">${c.lbl}</span><span class="val">${c.f(k, hh)}</span><p>${c.p}</p><span class="cite">[${escH(c.cite)}] · <a href="#${c.topic}" data-goto="${c.go}">Zum Thema →</a></span></div>`).join("");
   };
   $("c-kg").addEventListener("input", draw); $("c-h").addEventListener("input", draw);
-  draw(); window.scrollTo(0, 0);
+  draw(); renderTests(); window.scrollTo(0, 0);
+}
+
+/* Testauswertung: nur Formeln, die wörtlich im Abstract der zitierten Quelle stehen */
+function renderTests() {
+  if (!AVAILABLE.includes("kraftdiagnostik") && !AVAILABLE.includes("ausdauerdiagnostik")) return;
+  const box = document.createElement("section");
+  box.innerHTML = `<h2>Leistungstests auswerten</h2>
+    <p class="lead">Schätzformeln aus Validierungsstudien. Sie gelten nur für das jeweilige Testprotokoll und die untersuchte Gruppe; der Schätzfehler steht dabei.</p>
+    <div class="calc">
+      <div class="card"><span class="lbl">1RM aus 5 Wiederholungen</span>
+        <div class="calc-in"><label>Übung<select id="t-ex"><option value="cp">Bankdrücken (Langhantel)</option><option value="lp">Beinpresse</option></select></label>
+        <label>Last bei 5 Wdh. bis zum Versagen (kg)<input type="number" id="t-5rm" min="5" max="500" value="80" inputmode="decimal"></label></div>
+        <span class="val" id="t-1rm"></span><p id="t-1rm-p"></p>
+        <span class="cite">[Reynolds et al., 2006] · <a href="#kraftdiagnostik">Kraftdiagnostik</a></span></div>
+      <div class="card"><span class="lbl">VO₂max aus dem 20-m-Shuttle-Run (Beep-Test)</span>
+        <div class="calc-in"><label>Erreichte Stufe<input type="number" id="t-st" min="1" max="21" step="0.5" value="9" inputmode="decimal"></label></div>
+        <span class="val" id="t-sr"></span><p>Für Erwachsene (18–50 Jahre) mit dem Alter fest auf 18 in der Formel; Protokoll mit Start bei 8,5 km/h und +0,5 km/h pro Stufe (1 Minute). Übereinstimmung mit der gemessenen VO₂max r = 0,90.</p>
+        <span class="cite">[Léger et al., 1988] · <a href="#ausdauerdiagnostik">Ausdauerdiagnostik</a></span></div>
+      <div class="card"><span class="lbl">VO₂max aus dem 1-Meilen-Jog (1,609 km, gleichmäßig, nicht maximal)</span>
+        <div class="calc-in"><label>Geschlecht<select id="t-sex"><option value="1">männlich</option><option value="0">weiblich</option></select></label>
+        <label>Zeit (Minuten)<input type="number" id="t-min" min="5" max="20" step="0.1" value="9" inputmode="decimal"></label>
+        <label>Herzfrequenz am Ende (Schläge/min)<input type="number" id="t-hr" min="80" max="220" value="160" inputmode="numeric"></label></div>
+        <span class="val" id="t-mile"></span><p id="t-mile-p"></p>
+        <span class="cite">[George et al., 1993] · <a href="#ausdauerdiagnostik">Ausdauerdiagnostik</a></span></div>
+    </div>`;
+  $("main").appendChild(box);
+  const num = (id) => +$(id).value || 0, small = (t) => ` <small style="font-size:.9rem;font-weight:500">${t}</small>`;
+  const draw = () => {
+    const lp = $("t-ex").value === "lp", r5 = num("t-5rm");
+    $("t-1rm").innerHTML = `ca. ${fmtK(lp ? 1.0970 * r5 + 14.2546 : 1.1307 * r5 + 0.6999)} kg` + small(`± ${lp ? "16,2" : "3,0"} kg Schätzfehler`);
+    $("t-1rm-p").textContent = `Formel aus einer Validierungsstudie mit 70 Erwachsenen (18–69 Jahre). ${lp ? "Bei der Beinpresse ist die Schätzung deutlich ungenauer." : "Beim Bankdrücken sehr genau (R² = 0,99)."} Für lineare Schätzformeln höchstens 10 Wiederholungen verwenden.`;
+    const X = 8 + 0.5 * num("t-st"), A = 18;
+    $("t-sr").innerHTML = `ca. ${fmtK(31.025 + 3.238 * X - 3.248 * A + 0.1536 * A * X)} ml/kg/min` + small(`(Endgeschwindigkeit ${String(X).replace(".", ",")} km/h)`);
+    const kg = Math.min(250, Math.max(30, +$("c-kg").value || 75)), m = num("t-min"), hr = num("t-hr"), sex = +$("t-sex").value;
+    $("t-mile").innerHTML = `ca. ${fmtK(100.5 + 8.344 * sex - 0.1636 * kg - 1.438 * m - 0.1928 * hr)} ml/kg/min` + small("± 3 ml/kg/min Schätzfehler");
+    const warn = [];
+    if (m < (sex ? 8 : 9)) warn.push(`Zeit unter ${sex ? 8 : 9} Minuten: Die Formel gilt nur für ein lockeres Tempo.`);
+    if (hr > 180) warn.push("Herzfrequenz über 180: außerhalb des Gültigkeitsbereichs.");
+    $("t-mile-p").textContent = `Körpergewicht aus dem Feld oben (${fmtK(kg)} kg). Entwickelt an fitten Studierenden (18–29 Jahre). ` + (warn.length ? "Achtung: " + warn.join(" ") : "");
+  };
+  box.querySelectorAll("input, select").forEach(el => el.addEventListener("input", draw));
+  $("c-kg").addEventListener("input", draw);
+  draw();
 }
 
 /* --- Glossar --- */

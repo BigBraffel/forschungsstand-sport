@@ -73,6 +73,9 @@ Zusätzlich: Startseite (`#start`) und „Mein Ziel“ (`#ziel`). Neue Themen in
 
 Ein neues Thema kommt in die passende bestehende Gruppe; eine neue Gruppe nur, wenn mindestens drei Themen hineinpassen. Supplemente zusätzlich in `SUPPS` eintragen. Der Titel in `NAV` soll dem Feld `title` der Themendatei entsprechen (bestimmt die Sortierung der Supplement-Übersicht). Der Haftungsausschluss (`DISCLAIMER`) steht auf der Supplement-Übersicht, im Rechner und unter `#hinweis`.
 
+## Profil „diagnostik“ im Register
+Für Diagnostik-Themen (Kraft-, Ausdauerdiagnostik) steht im Register `meta.profil = "diagnostik"`. Dann überspringt die Titelregel die Codes M (Messmethodik), C und K, weil gerade Reliabilitäts- und Validitätsstudien hier die Kernliteratur sind. Formeln im Rechner (Abschnitt „Leistungstests auswerten“) nur, wenn sie wörtlich im Abstract der zitierten Quelle stehen; Gültigkeitsbereich und Schätzfehler dazuschreiben.
+
 ## Fehlermeldungen über GitHub
 Nutzer melden Fehler als GitHub-Issue (Vorlage „Fehler: <Thema>“, meist mit Label `fehler`). Bei jeder Aktualisierung alle offenen Issues lesen (`https://api.github.com/repos/BigBraffel/forschungsstand-sport/issues?state=open`). Meldungen werden **kritisch geprüft, bevor etwas geändert wird** – auch Meldende können sich irren:
 1. Die betroffene Aussage im Thema suchen und gegen das Abstract der zitierten Quelle(n) prüfen (efetch). Eine gemeldete „richtige Angabe“ ohne wissenschaftliche Quelle ist kein Beleg.

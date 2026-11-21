@@ -1,0 +1,1311 @@
+{
+ "id": "ausdauerdiagnostik",
+ "title": "Ausdauerdiagnostik",
+ "stand": "2026-11-21",
+ "lead": "Wie lassen sich aerobe und anaerobe Leistungsfähigkeit verlässlich messen, im Labor und mit einfachen Feldtests, und wie gut stimmen die Verfahren überein? Zusammengefasst aus Metaanalysen, systematischen Reviews, methodischen Übersichten und den Grundlagenarbeiten zu den bekanntesten Tests. Bewertet werden vor allem Validität (Übereinstimmung mit dem Labor) und Reliabilität (Wiederholbarkeit).",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für Freizeit- und Leistungssportler, die ihre Ausdauer testen und ihr Training danach steuern wollen. Ein Feldtest ersetzt das Labor nicht, reicht für die Verlaufskontrolle aber oft aus, wenn er immer gleich durchgeführt wird.",
+ "rx": [
+  {
+   "label": "Feldtest Ausdauer",
+   "value": "1,5-Meilen-Lauf, 12-min-Lauf oder 20-m-Shuttle-Run",
+   "text": "Diese Tests schätzen die VO₂max am besten unter den Lauftests (r etwa 0,78–0,79; beim 20-m-Shuttle-Run nach Léger bei Erwachsenen 0,94). Sie bleiben aber Schätzungen, keine Messungen.",
+   "cite": "Mayorga-Vega et al. 2015; Mayorga-Vega et al. 2016"
+  },
+  {
+   "label": "Teamsport",
+   "value": "Yo-Yo-Test oder 30-15 IFT",
+   "text": "Beide sind gut wiederholbar. Der 30-15 IFT liefert zusätzlich eine Referenzgeschwindigkeit, mit der sich Intervalle für Spieler mit unterschiedlichem Profil angleichen lassen.",
+   "cite": "Grgic et al. 2019; Grgic et al. 2021; Buchheit 2008"
+  },
+  {
+   "label": "Zonen festlegen",
+   "value": "Schwellen oder Critical Speed/Power statt fester Prozentwerte",
+   "text": "Feste Anteile von VO₂max oder HFmax treffen die Intensitätsbereiche individuell schlecht. Für die obere Grenze sind Critical Power und Critical Speed am besten belegt; das Zonenmodell steht unter <a href=\"#ausdauer\">Ausdauertraining</a>, Intervalle unter <a href=\"#hiit\">HIIT</a>.",
+   "cite": "Jamnick et al. 2020; Mann et al. 2013"
+  },
+  {
+   "label": "Standardisierung",
+   "value": "gleiche Tageszeit, gleiches Protokoll, Probedurchgang",
+   "text": "Anaerobe Tests fallen abends je nach Test um bis zu 13 % besser aus als morgens. Stufendauer und Auswertungsmethode verschieben Schwellen und Spitzenleistung. Beim 3-min-All-out-Test sind Probedurchgang und Anfeuerung Pflicht.",
+   "cite": "Ravindrakumar et al. 2022; Bentley et al. 2007; Quittmann &amp; Piehl 2026"
+  },
+  {
+   "label": "Smartwatch",
+   "value": "nur für Trends",
+   "text": "Uhren mit Schätzung aus Belastungsdaten treffen die VO₂max im Mittel gut, der Einzelwert kann aber um rund 10 ml/kg/min danebenliegen. Schätzungen aus Ruhedaten überschätzen deutlich.",
+   "cite": "Molina-Garcia et al. 2022; Doherty et al. 2024"
+  }
+ ],
+ "note": "<b>Ernährung:</b> Zu Ernährung vor Leistungstests liefern die aufgenommenen Arbeiten keine Daten. Sinnvoll ist, vor jedem Test gleich zu essen und zu trinken, damit Wiederholungen vergleichbar bleiben. Wie Koffein oder Kohlenhydrate die Leistung beeinflussen, steht unter <a href=\"#koffein\">Koffein</a> und <a href=\"#kohlenhydrate\">Kohlenhydrate</a>.",
+ "varstitle": "Testverfahren im Detail",
+ "takeaways": [
+  {
+   "t": "Aerob und anaerob brauchen verschiedene Tests",
+   "ev": "moderat",
+   "p": "Die aerobe Leistungsfähigkeit lässt sich über VO₂max, Schwellen und Critical Power gut erfassen; die anaerobe Kapazität dagegen nicht direkt, und ihre Verfahren sind nicht austauschbar.",
+   "s": [
+    "faude2009",
+    "noordhof2013",
+    "vandewalle1987"
+   ]
+  },
+  {
+   "t": "Schwellenkonzepte sind nicht austauschbar",
+   "ev": "moderat",
+   "p": "Laktat- und ventilatorische Schwellen korrelieren mit Critical Power und MLSS, weichen aber im Mittel um 6–30 % von der Critical Power ab; die individuellen Abweichungen sind groß.",
+   "s": [
+    "galan2020",
+    "borszcz2024",
+    "micheli2025",
+    "jamnick2020"
+   ]
+  },
+  {
+   "t": "Einfache Lauftests schätzen die VO₂max brauchbar",
+   "ev": "hoch",
+   "p": "1,5-Meilen-Lauf, 12-min-Lauf und 20-m-Shuttle-Run zeigen in Metaanalysen mit 57 und 123 Studien mittlere bis hohe Übereinstimmung mit dem Labor.",
+   "s": [
+    "mayorga2015",
+    "mayorga2016"
+   ]
+  },
+  {
+   "t": "Feldtests für Teamsport sind gut wiederholbar",
+   "ev": "moderat",
+   "p": "Yo-Yo-Tests und 30-15 IFT erreichen meist ICC über 0,90; ihre Korrelation mit der VO₂max ist nur mittel bis groß.",
+   "s": [
+    "grgic2019",
+    "grgic2021",
+    "tan2025"
+   ]
+  },
+  {
+   "t": "Wearables: im Mittel gut, im Einzelfall ungenau",
+   "ev": "moderat",
+   "p": "Schätzungen aus Belastungsdaten zeigen kaum systematischen Fehler, aber breite Streuung; Schätzungen aus Ruhedaten überschätzen die VO₂max.",
+   "s": [
+    "molina2022",
+    "doherty2024",
+    "zeleznik2025"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "grundlagen",
+   "name": "Aerob und anaerob: was gemessen wird",
+   "q": "Welche Kenngrößen gibt es, und warum braucht man verschiedene Tests?",
+   "ev": "moderat",
+   "key": [
+    "Im Stufentest werden die maximale Belastung, die VO₂max und submaximale Übergänge wie Laktatschwelle, OBLA und ventilatorische Schwelle bestimmt; sie korrelieren mit der Ausdauerleistung und dienen zur Trainingssteuerung (Bentley et al., 2007).",
+    "25 Laktatschwellen-Konzepte in drei Gruppen: feste Laktatwerte, erster Anstieg über den Ruhewert und Konzepte, die das maximale Laktat-Steady-State (MLSS) treffen sollen. Modell des aerob-anaeroben Übergangs mit zwei Knickpunkten (Faude et al., 2009).",
+    "Kritischer Review: Für die Grenze zwischen moderatem und schwerem Bereich sind LT1, Gasaustauschschwelle und VT einigermaßen belegt, für die Grenze zum sehr schweren Bereich fast nur Critical Power und Critical Speed (Jamnick et al., 2020).",
+    "Anaerobe Tests gliedern sich in Tests der anaeroben Leistung (Kraft-Geschwindigkeits-Tests, Sprungtests, Treppen- und Fahrradtests) und der anaeroben Kapazität (All-out- und Dauerlasttests, Sauerstoffdefizit, Laktat nach Belastung) (Vandewalle et al., 1987).",
+    "Anders als die aerobe Kapazität lässt sich die anaerobe Kapazität nicht einfach messen. MAOD, Critical-Power-Konzept und Gross-Efficiency-Methode liefern ähnliche, aber nicht austauschbare Werte (Noordhof et al., 2013).",
+    "Historisch: Hollmann beschrieb 1959 den parallelen Anstieg von Atemminutenvolumen und Laktat im Stufentest und daraus den „PoW“ (Punkt des optimalen Wirkungsgrades) als Vorläufer der Schwellenkonzepte (Hollmann, 2001)."
+   ],
+   "critic": "Die Grundlagen beruhen fast nur auf narrativen und kritischen Reviews, nicht auf Metaanalysen. Das ist bei Definitionsfragen üblich. Der Streit um Begriffe wie „anaerobe Schwelle“ hält seit Jahrzehnten an (Faude et al., 2009). Die jüngere Literatur ordnet die Schwellen deshalb Intensitätsbereichen zu (moderat, schwer, sehr schwer) statt einer Grenze zwischen „aerob“ und „anaerob“ (Jamnick et al., 2020). Diese Sicht ist wahrscheinlich tragfähiger, weil sie sich an messbaren Reaktionen des Stoffwechsels orientiert.",
+   "figs": [],
+   "s": [
+    "bentley2007",
+    "faude2009",
+    "jamnick2020",
+    "vandewalle1987",
+    "noordhof2013",
+    "hollmann2001"
+   ]
+  },
+  {
+   "id": "vo2max",
+   "name": "Labor aerob: Spiroergometrie und VO₂max",
+   "q": "Wann ist eine gemessene VO₂max wirklich maximal, und wie wichtig ist das Protokoll?",
+   "ev": "moderat",
+   "key": [
+    "80 Studien, 1 680 Gesunde: Die höchste VO₂ im Stufentest und in einer nachgeschalteten Verifikationsphase unterschied sich kaum (mittlere Differenz 0,03 L/min [−0,01; 0,06]); kein Einfluss von Intensität, Erholung, Tag oder Protokoll; kein Hinweis auf Publikationsbias (Costa et al., 2021).",
+    "19 Studien, 43 Gleichungen: Submaximale Tests mit Atemgasmessung schätzten die VO₂max mäßig bis gut (r 0,57 bis 0,92); Herzfrequenz- und Anstrengungsverfahren (RPE) waren ähnlich genau (Evans et al., 2015).",
+    "Klassische Kriterien (VO₂-Plateau, hohes Laktat nach Belastung, hoher respiratorischer Quotient, Prozent der altersgeschätzten HFmax) stammen überwiegend aus diskontinuierlichen Protokollen über mehrere Tage; ihre Übertragbarkeit auf moderne Rampentests ist fraglich (Howley et al., 1995).",
+    "Die Verifikationsphase ist eine kurze Belastung oberhalb der Maximalleistung nach dem Stufentest. Sechs Studien fanden im Mittel keine Unterschiede, prüften aber kaum, ob einzelne Personen ihre VO₂max verfehlt hatten (Midgley &amp; Carroll, 2009).",
+    "Längere Stufen senken die Spitzenleistung; bei kürzeren Stufen liegen VT und LT bei höherer absoluter Leistung. Testergebnisse sind daher nur mit demselben Protokoll vergleichbar (Bentley et al., 2007)."
+   ],
+   "critic": "Die Metaanalyse von Costa et al. (2021) ist die stärkste Quelle und stellt die Notwendigkeit der Verifikationsphase für Gruppenmittelwerte infrage. Für Einzelpersonen bleibt die Frage offen, die schon Midgley &amp; Carroll (2009) aufwarfen: Gruppenmittel können verdecken, dass einzelne Personen nicht ausbelastet waren. Für die individuelle Trainingssteuerung ist eine Verifikation deshalb weiterhin vertretbar, für Gruppenvergleiche verzichtbar. Die alten Plateau-Kriterien werden seit 1995 kritisiert; einen einheitlichen Ersatz gibt es nicht.",
+   "figs": [
+    {
+     "id": "ad-verif",
+     "title": "Stufentest gegen Verifikationsphase",
+     "cap": "Mittlere Differenz der höchsten VO₂ in L/min mit 95-%-KI; 54 Studien in der Metaanalyse (Costa et al., 2021). Werte um 0 = kein Unterschied.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Verifikation minus Stufentest",
+       "sub": "Costa et al., 2021",
+       "es": 0.03,
+       "lo": -0.01,
+       "hi": 0.06
+      }
+     ],
+     "opts": {
+      "min": -0.1,
+      "max": 0.1,
+      "ticks": [
+       -0.1,
+       -0.05,
+       0,
+       0.05,
+       0.1
+      ],
+      "unit": " L/min"
+     }
+    }
+   ],
+   "s": [
+    "costa2021",
+    "evans2015",
+    "howley1995",
+    "midgley2009",
+    "bentley2007"
+   ]
+  },
+  {
+   "id": "schwellen",
+   "name": "Labor aerob: Laktat- und ventilatorische Schwellen, MLSS und Critical Power",
+   "q": "Messen die Schwellenkonzepte dasselbe, und wie gut lassen sie sich wiederholen?",
+   "ev": "moderat",
+   "key": [
+    "36 Studien: MLSS und Critical Power (aus 2- bis 15-min-Belastungen) entsprechen nicht derselben Intensität; der Abstand hängt von Testdesign, Sportart und Modell ab (Borszcz et al., 2024).",
+    "10 Studien: Die Leistung bei Critical Power lag im Mittel 12,42 W über der MLSS (95-%-Übereinstimmungsgrenzen −19,23 bis 44,08 W); bei VO₂, Herzfrequenz und Laktat kein Unterschied. Die große individuelle Streuung spricht gegen Austauschbarkeit (Micheli et al., 2025).",
+    "9 Studien, 104 Teilnehmende: Critical Power korrelierte mit RCP (r 0,80), MLSS (r 0,77) und VT1 (r 0,76), nicht mit VT2 (r 0,39). VT1 und MLSS unterschätzten Critical Power um 30 bzw. 11 %, RCP und VT2 überschätzten sie um 6 bzw. 21 % (Galán-Rioja et al., 2020).",
+    "Kritischer Review: Außer Critical Power und Critical Speed grenzt kaum ein gängiges Verfahren den schweren vom sehr schweren Bereich verlässlich ab (Jamnick et al., 2020).",
+    "Laktatschwellen korrelieren in 32 Studien stark mit der Ausdauerleistung, besonders im Laufen; wie stark einzelne Schwellen individuell von der MLSS abweichen, wird selten berichtet (Faude et al., 2009).",
+    "14 trainierte Radfahrer: Laktatschwelle und LT+2,0 mmol/l entsprachen VT1 und VT2; LT+0,5 mmol/l entsprach der MLSS. Laktatschwellen waren gut wiederholbar (CV 3,4–3,7 %), außer Dmax (CV 10,3 %); ventilatorische Schwellen ebenfalls (CV 1,6–3,5 %), außer RER = 1 und V-Slope (CV 5,0–6,4 %) (Pallarés et al., 2016).",
+    "Nichtinvasive Schätzverfahren (HRV-DFA α1, NIRS, CP/CS) hängen eng mit Laborkriterien zusammen; eine Korrelation belegt aber keine individuelle Übereinstimmung. Der Herzfrequenz-Knickpunkt ist nicht zuverlässig erkennbar (Maffulli et al., 2026)."
+   ],
+   "critic": "Die Befunde sind über alle Quellen hinweg einheitlich: Die Konzepte hängen eng zusammen, sind aber nicht austauschbar. Die Metaanalysen sind klein (9 und 10 Studien mit kleinen Stichproben). Zu Galán-Rioja et al. (2020) erschienen mehrere kritische Leserbriefe. Zudem reichen die dort berichteten Konfidenzintervalle der Korrelationen über 1, was für Korrelationen nicht möglich ist. Die prozentualen Abweichungen sind daher belastbarer als die Korrelationen. Praktisch heißt das: Eine Schwelle sollte immer mit derselben Methode bestimmt und verglichen werden. Die Zuverlässigkeitsdaten stammen aus einer Einzelstudie mit 14 Männern.",
+   "figs": [
+    {
+     "id": "ad-cp",
+     "title": "Wie weit liegen Schwellen neben der Critical Power?",
+     "cap": "Mittlere prozentuale Abweichung der Schwelle von der Critical Power; negative Werte = Schwelle liegt darunter (Galán-Rioja et al., 2020). Keine Intervalle im Abstract.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "VT1",
+       "sub": "Galán-Rioja et al., 2020",
+       "es": -30
+      },
+      {
+       "l": "MLSS",
+       "sub": "Galán-Rioja et al., 2020",
+       "es": -11
+      },
+      {
+       "l": "RCP",
+       "sub": "Galán-Rioja et al., 2020",
+       "es": 6
+      },
+      {
+       "l": "VT2",
+       "sub": "Galán-Rioja et al., 2020",
+       "es": 21
+      }
+     ],
+     "opts": {
+      "min": -35,
+      "max": 25,
+      "ticks": [
+       -30,
+       -20,
+       -10,
+       0,
+       10,
+       20
+      ],
+      "unit": "%",
+      "leftLab": "unter CP",
+      "rightLab": "über CP"
+     }
+    },
+    {
+     "id": "ad-rel",
+     "title": "Wiederholbarkeit von Schwellen und Feldtests",
+     "cap": "Variationskoeffizient (CV) zwischen zwei Testungen in %; Balken zeigen den berichteten Bereich. Schwellen: 14 Radfahrer (Pallarés et al., 2016); Feldtests: systematische Reviews (Grgic et al., 2019; Grgic et al., 2021). Niedriger = besser wiederholbar.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Ventilatorische Schwellen",
+       "es": 3.5,
+       "lo": 1.6,
+       "hi": 3.5
+      },
+      {
+       "l": "Laktatschwellen",
+       "es": 3.7,
+       "lo": 3.4,
+       "hi": 3.7
+      },
+      {
+       "l": "RER = 1 und V-Slope",
+       "es": 6.4,
+       "lo": 5.0,
+       "hi": 6.4
+      },
+      {
+       "l": "Dmax",
+       "es": 10.3
+      },
+      {
+       "l": "30-15 IFT, Endgeschwindigkeit",
+       "es": 6.0,
+       "lo": 1.5,
+       "hi": 6.0
+      },
+      {
+       "l": "Yo-Yo-Tests",
+       "es": 19.0,
+       "lo": 3.7,
+       "hi": 19.0
+      }
+     ],
+     "opts": {
+      "max": 20,
+      "ticks": [
+       0,
+       5,
+       10,
+       15,
+       20
+      ],
+      "unit": "%",
+      "xlab": "Variationskoeffizient (Höchstwert, Bereich als Intervall)",
+      "src": "Pallarés et al., 2016; Grgic et al., 2019; Grgic et al., 2021"
+     }
+    }
+   ],
+   "s": [
+    "borszcz2024",
+    "micheli2025",
+    "galan2020",
+    "jamnick2020",
+    "faude2009",
+    "pallares2016",
+    "maffulli2026"
+   ]
+  },
+  {
+   "id": "anaerob",
+   "name": "Anaerobe Tests: Labor und Feld",
+   "q": "Wie gut messen Wingate-Test, MAOD, RAST und Wiederholungssprints die anaerobe Leistungsfähigkeit?",
+   "ev": "niedrig",
+   "key": [
+    "55 Studien mit Männern: Anaerobe Leistung war meist abends höher als morgens, beim Wingate-Test um 1,8–11,7 %, bei Wiederholungssprints um 3,4–10,2 %, bei Sprints um 2,7–11,3 %; nur der RAST zeigte keinen Tageszeiteffekt (Ravindrakumar et al., 2022).",
+    "108 Studien, 47 Protokolle für Wiederholungssprints mit 20–40 m, 3–15 Sprints und 10–60 s Pause. Empfohlen: linear 6 × 30 m mit 15 s aktiver Pause, mit Richtungswechsel 6 × 30 m (15 + 15 m) (Kyles et al., 2023).",
+    "Die Werte maximaler anaerober Leistung aus verschiedenen Protokollen unterscheiden sich, korrelieren aber meist gut. Der Ermüdungsindex der All-out-Tests ist nicht reliabel; die Arbeit im Wingate-Test hängt auch von der aeroben Leistung ab (Vandewalle et al., 1987).",
+    "Die Validität des Wingate-Tests ist fraglich, er ist aber der am häufigsten genutzte All-out-Test auf dem Fahrrad; Ergometer, Kurbellänge, Protokoll, Temperatur und Tageszeit beeinflussen die Maximalleistung (Driss &amp; Vandewalle, 2013).",
+    "MAOD: Die Bestimmung variiert stark zwischen Studien; Zahl und Dauer der submaximalen Belastungen verändern das Ergebnis. Die Methode ist als Maß der anaeroben Kapazität nur eingeschränkt valide und reliabel (Noordhof et al., 2010).",
+    "RAST: gut wiederholbar (ICC etwa 0,88), Korrelation mit dem Wingate-Test r 0,46 (Spitzenleistung), 0,53 (mittlere Leistung) und 0,63 (Ermüdungsindex) sowie mit Laufleistungen über 35 bis 400 m (Zagatto et al., 2009).",
+    "39 jugendliche Fußballer: RAST-Werte hingen nicht mit dem MAOD zusammen, wohl aber mit einem 30-s-All-out-Lauf auf dem Laufband (r 0,73 und 0,50). Der RAST misst daher eher anaerobe Leistung als anaerobe Kapazität (Andrade et al., 2015)."
+   ],
+   "critic": "Zu anaeroben Tests gibt es keine Metaanalyse zu Validität oder Reliabilität, nur Übersichten und Einzelstudien. Für die anaerobe Kapazität fehlt ein echter Goldstandard (Noordhof et al., 2013); deshalb bleibt jede Validierung indirekt. Zum RAST widersprechen sich die Einzelstudien scheinbar. Zagatto et al. (2009) prüften gegen Wingate und Laufzeiten, Andrade et al. (2015) gegen den MAOD. Zusammen ergibt sich: Der RAST misst die anaerobe Leistung, nicht die Kapazität. Für den 300-m-Shuttle-Run wurde keine Übersichtsarbeit gefunden. Die Daten zur Tageszeit stammen nur von Männern.",
+   "figs": [
+    {
+     "id": "ad-tageszeit",
+     "title": "Tageszeit: wie viel besser anaerobe Tests abends ausfallen",
+     "cap": "Spannweite der Vorteile am Abend gegenüber dem Morgen in % über die eingeschlossenen Studien (Ravindrakumar et al., 2022). Balken = Höchstwert, Intervall = berichtete Spanne.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Sprungtests",
+       "es": 12.3,
+       "lo": 2.7,
+       "hi": 12.3
+      },
+      {
+       "l": "Sprinttests",
+       "es": 11.3,
+       "lo": 2.7,
+       "hi": 11.3
+      },
+      {
+       "l": "Wingate-Test",
+       "es": 11.7,
+       "lo": 1.8,
+       "hi": 11.7
+      },
+      {
+       "l": "Wiederholungssprints",
+       "es": 10.2,
+       "lo": 3.4,
+       "hi": 10.2
+      },
+      {
+       "l": "5-m-Shuttle-Mehrfachsprints",
+       "es": 13.1,
+       "lo": 3.7,
+       "hi": 13.1
+      }
+     ],
+     "opts": {
+      "max": 14,
+      "ticks": [
+       0,
+       4,
+       8,
+       12
+      ],
+      "unit": "%",
+      "xlab": "Vorteil am Abend",
+      "src": "Ravindrakumar et al., 2022"
+     }
+    }
+   ],
+   "s": [
+    "ravindrakumar2022",
+    "kyles2023",
+    "vandewalle1987",
+    "driss2013",
+    "noordhof2010",
+    "zagatto2009",
+    "andrade2015"
+   ]
+  },
+  {
+   "id": "feld",
+   "name": "Feldtests aerob: Lauf-, Shuttle- und Intervalltests, Critical Speed",
+   "q": "Wie gut schätzen selbst durchführbare Tests die Labor-VO₂max, und wie verlässlich sind sie?",
+   "ev": "hoch",
+   "key": [
+    "123 Studien, 200 Korrelationen: Lauf-/Gehtests schätzten die VO₂max mit niedriger bis mittlerer Validität (r 0,42 bis 0,79); am besten der 1,5-Meilen-Lauf (r 0,79 [0,73; 0,85]) und der 12-min-Lauf (Cooper-Test; r 0,78 [0,72; 0,83]). Geschlecht, Alter und Fitness änderten das nicht (Mayorga-Vega et al., 2016).",
+    "57 Studien: 20-m-Shuttle-Run mit mittlerer bis hoher Validität (r 0,66 bis 0,84), mit Zusatzangaben wie Alter, Geschlecht und Körpermasse 0,78 bis 0,95. Mit dem Protokoll nach Léger bei Erwachsenen r 0,94 [0,87; 1,00], bei Kindern 0,78 [0,72; 0,85] (Mayorga-Vega et al., 2015).",
+    "33 Studien, 1 362 Teilnehmende: Yo-Yo-Tests korrelierten groß mit der VO₂max (Intermittent Endurance Level 1 und 2: r 0,67; Intermittent Recovery Level 1: r 0,65; Level 2: r 0,55) (Tan et al., 2025).",
+    "20 Studien, 284 Teilnehmende: Der 3-min-All-out-Test auf dem Fahrrad war gut wiederholbar (ICC 0,89 bis 0,99 für die Endleistung), überschätzte aber die Critical Power (g 0,408 [0,024; 0,792]); W′ wurde nicht genau getroffen (Quittmann &amp; Piehl, 2026).",
+    "129 Studien zur Reliabilität von Feldtests bei Erwachsenen: starke Evidenz für hohe Wiederholbarkeit des 20-m-Shuttle-Runs, des 6-min-Stufentests und des 6-min-Gehtests (Cuenca-Garcia et al., 2022).",
+    "19 Studien zu Yo-Yo-Tests: ICC 0,78 bis 0,98, 62 % über 0,90; CV 3,7 bis 19,0 % (Grgic et al., 2019). 7 Studien zum 30-15 IFT: ICC 0,80 bis 0,99 für die Endgeschwindigkeit, CV 1,5 bis 6,0 %; für die Spitzenherzfrequenz ICC 0,90 bis 0,97 (Grgic et al., 2021).",
+    "19 Studien zur Critical Speed bei Läufern im Feld: Zeitfahrtests und 3-min-All-out-Test sind am häufigsten und gut wiederholbar, wenn die empfohlenen Testbedingungen eingehalten werden (Lipková et al., 2025).",
+    "Critical Power wird klassisch aus mehreren Belastungen bis zur Erschöpfung bestimmt; Dauer, Zahl, Erholung und Modell verändern CP und W′. Zeitfahren im Feld sind praktisch, ihre Validität aber umstritten; der 3-min-Test braucht einen vorherigen Stufentest und kann CP überschätzen (Muniz-Pumares et al., 2019).",
+    "15 Studien zum 20-min-FTP-Test im Radsport: reliabel, aber mit großen Übereinstimmungsgrenzen zu anderen Schwellen, also nicht austauschbar; fast nur trainierte Männer (Mackey &amp; Horner, 2021).",
+    "Yo-Yo-Intermittent-Recovery-Tests reagierten empfindlicher auf Leistungsveränderungen als die VO₂max und trennen Leistungsniveaus im Spielsport (Bangsbo et al., 2008). Der 30-15 IFT ergab bei 59 jungen Spielsportlern eine Referenzgeschwindigkeit, mit der die Herzfrequenz im Intervalltraining weniger zwischen Spielern streute als mit kontinuierlichen Tests (Buchheit, 2008).",
+    "Grundlagen: Der 20-m-Shuttle-Run sagte bei 91 Erwachsenen die VO₂max mit r 0,84 voraus (Standardschätzfehler 5,4 ml/kg/min); Test-Retest r 0,975 (Léger &amp; Lambert, 1982). Die Endfassung zeigte bei Erwachsenen r 0,90 und eine Test-Retest-Reliabilität von 0,95 (Léger et al., 1988).",
+    "1,5-Meilen-Lauf bei 149 fitten Studierenden: Vorhersage der VO₂max mit r 0,90 (Standardschätzfehler 2,8 ml/kg/min), in der Kreuzvalidierung r 0,82 (3,9 ml/kg/min) (George et al., 1993)."
+   ],
+   "critic": "Die Metaanalysen von Mayorga-Vega et al. sind groß (57 und 123 Studien) und konsistent. Sie berichten aber Korrelationen, keine individuellen Fehler: Auch bei r 0,79 kann die Einzelschätzung deutlich danebenliegen. Dass der Shuttle-Run bei Erwachsenen besser abschneidet als die Lauftests, könnte am vorgegebenen Tempo liegen; geprüft wurde das nicht. Yo-Yo- und 30-15-Daten stammen vor allem aus dem Fußball. Bei Critical Speed und Critical Power ist der 3-min-Test reliabel, aber nicht unbedingt valide: Die neueste Metaanalyse mit kleinen Studien findet eine systematische Überschätzung. Zeitfahren über zwei oder mehr Distanzen sind deshalb vermutlich die robustere Feldvariante. Eine Übersichtsarbeit nur zum Cooper-Test bei Erwachsenen wurde nicht gefunden; die Originalarbeit von 1968 hat keinen Abstract.",
+   "figs": [
+    {
+     "id": "ad-feld",
+     "title": "Feldtests: Übereinstimmung mit der Labor-VO₂max",
+     "cap": "Korrelation mit der im Labor gemessenen VO₂max; 95-%-KI wo im Abstract angegeben. Mayorga-Vega et al. (2015, 2016): psychometrische Metaanalysen; Tan et al. (2025): gepoolte Korrelationen.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "20-m-Shuttle-Run (Léger), Erwachsene",
+       "es": 0.94,
+       "lo": 0.87,
+       "hi": 1.0
+      },
+      {
+       "l": "1,5-Meilen-Lauf",
+       "es": 0.79,
+       "lo": 0.73,
+       "hi": 0.85
+      },
+      {
+       "l": "12-min-Lauf (Cooper)",
+       "es": 0.78,
+       "lo": 0.72,
+       "hi": 0.83
+      },
+      {
+       "l": "Yo-Yo Intermittent Endurance 1",
+       "es": 0.67
+      },
+      {
+       "l": "Yo-Yo Intermittent Recovery 1",
+       "es": 0.65
+      },
+      {
+       "l": "Yo-Yo Intermittent Recovery 2",
+       "es": 0.55
+      }
+     ],
+     "opts": {
+      "max": 1,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8,
+       1
+      ],
+      "xlab": "Korrelation r mit Labor-VO₂max",
+      "src": "Mayorga-Vega et al., 2015; Mayorga-Vega et al., 2016; Tan et al., 2025"
+     }
+    },
+    {
+     "id": "ad-3mt",
+     "title": "3-min-All-out-Test gegen klassische Bestimmung",
+     "cap": "Hedges g mit 95-%-KI (Quittmann &amp; Piehl, 2026). Positive Werte = der 3-min-Test liefert höhere Werte als die klassische Bestimmung aus mehreren Belastungen.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Endleistung gegen Critical Power",
+       "sub": "Quittmann &amp; Piehl, 2026",
+       "es": 0.408,
+       "lo": 0.024,
+       "hi": 0.792
+      },
+      {
+       "l": "Arbeit über Endleistung gegen W′",
+       "sub": "Quittmann &amp; Piehl, 2026",
+       "es": -0.389,
+       "lo": -0.954,
+       "hi": 0.176
+      }
+     ],
+     "opts": {
+      "min": -1.1,
+      "max": 1.0,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "leftLab": "unterschätzt",
+      "rightLab": "überschätzt"
+     }
+    }
+   ],
+   "s": [
+    "mayorga2016",
+    "mayorga2015",
+    "tan2025",
+    "quittmann2026",
+    "cuenca2022",
+    "grgic2019",
+    "grgic2021",
+    "lipkova2025",
+    "muniz2019",
+    "mackey2021",
+    "bangsbo2008",
+    "buchheit2008",
+    "leger1982",
+    "leger1988",
+    "george1993"
+   ]
+  },
+  {
+   "id": "schaetzung",
+   "name": "Schätzverfahren: Talk-Test, Herzfrequenz und Wearables",
+   "q": "Wie genau sind Schätzungen ohne Labor und ohne Ausbelastung?",
+   "ev": "moderat",
+   "key": [
+    "Umbrella Review, 24 systematische Reviews mit 249 Validierungsstudien: Wearables überschätzten die VO₂max um ± 15,24 % bei Schätzung aus Ruhedaten und um ± 9,83 % bei Schätzung aus Belastungsdaten; nur etwa 11 % der Geräte sind überhaupt für einen Messwert validiert (Doherty et al., 2024).",
+    "14 Validierungsstudien: Wearables mit Ruhe-Algorithmus überschätzten die VO₂max (mittlerer Fehler 2,17 ml/kg/min; Übereinstimmungsgrenzen −13,07 bis 17,41), mit Belastungs-Algorithmus kaum systematischer Fehler (−0,09 ml/kg/min; −9,92 bis 9,74) (Molina-Garcia et al., 2022).",
+    "13 Studien, meist Garmin-Uhren mit Brustgurt: In 7 Studien war die VO₂max-Schätzung valide oder akzeptabel, in 3 Studien die Laktatschwellen-Schätzung; der Nutzen im Spitzenausdauersport ist fraglich (Železnik Mežan, 2025).",
+    "Talk-Test und Anstrengungsskala (RPE) bilden ventilatorische Schwelle und respiratorischen Kompensationspunkt ab: unsicheres Sprechen und RPE 10–11 entsprechen etwa der VT, nicht mehr mögliches Sprechen und RPE 13–15 dem RCP (Bok et al., 2022).",
+    "Bequemes Sprechen ist meist unterhalb der ventilatorischen bzw. Laktatschwelle möglich, darüber nicht. Der Talk-Test war über Gehen, Laufen, Radfahren, Crosstrainer und Stepper hinweg konsistent, ist für HIIT aber wenig geeignet (Reed &amp; Pipe, 2014).",
+    "Herzfrequenz-Verhältnis: Bei 46 trainierten Männern ergab sich zwischen HFmax/HFRuhe und VO₂max (ml/kg/min) ein Faktor von 15,3; Standardschätzfehler 2,7 ml/kg/min (etwa 4,5 %), mit altersgeschätzter HFmax 4,7 ml/kg/min (etwa 7,8 %) (Uth et al., 2004).",
+    "Submaximaler 1-Meilen-Jog bei fitten 18- bis 29-Jährigen: VO₂max-Vorhersage aus Geschlecht, Körpermasse, Laufzeit und Herzfrequenz mit r 0,87 (Standardschätzfehler 3,0 ml/kg/min), Kreuzvalidierung r 0,84 (3,1 ml/kg/min) (George et al., 1993)."
+   ],
+   "critic": "Die Wearable-Befunde sind konsistent: Im Gruppenmittel treffen Belastungsalgorithmen die VO₂max gut, beim Einzelnen ist der Fehler mit Grenzen von rund ± 10 ml/kg/min aber zu groß für eine individuelle Diagnostik. Das Umbrella Review betont die große Heterogenität der Validierungsstudien. Herstelleralgorithmen ändern sich laufend, Ergebnisse älterer Modelle sind daher nur begrenzt übertragbar. Die Herzfrequenz-Verhältnis-Methode wurde nur an trainierten Männern entwickelt; die Autoren fordern selbst eine Prüfung an anderen Gruppen. Talk-Test und RPE sind gut für die Steuerung, ersetzen aber keine Messung der VO₂max.",
+   "figs": [
+    {
+     "id": "ad-wear",
+     "title": "Wearables: Fehler der VO₂max-Schätzung",
+     "cap": "Mittlerer systematischer Fehler in ml/kg/min; Linien = 95-%-Übereinstimmungsgrenzen, also der Bereich, in dem die meisten Einzelschätzungen liegen, kein Konfidenzintervall (Molina-Garcia et al., 2022).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Algorithmus mit Ruhedaten",
+       "sub": "Molina-Garcia et al., 2022",
+       "es": 2.17,
+       "lo": -13.07,
+       "hi": 17.41
+      },
+      {
+       "l": "Algorithmus mit Belastungsdaten",
+       "sub": "Molina-Garcia et al., 2022",
+       "es": -0.09,
+       "lo": -9.92,
+       "hi": 9.74
+      }
+     ],
+     "opts": {
+      "min": -15,
+      "max": 20,
+      "ticks": [
+       -15,
+       -10,
+       -5,
+       0,
+       5,
+       10,
+       15,
+       20
+      ],
+      "unit": " ml/kg/min",
+      "leftLab": "unterschätzt",
+      "rightLab": "überschätzt"
+     }
+    }
+   ],
+   "s": [
+    "doherty2024",
+    "molina2022",
+    "zeleznik2025",
+    "bok2022",
+    "reed2014",
+    "uth2004",
+    "george1993"
+   ]
+  },
+  {
+   "id": "praxis",
+   "name": "Praxis: Testauswahl, Standardisierung und Zonen",
+   "q": "Welcher Test für wen, und wie werden aus Testwerten Trainingsbereiche?",
+   "ev": "niedrig",
+   "key": [
+    "Feste Anteile von VO₂max oder HFmax lösen individuell sehr unterschiedliche Stoffwechselreaktionen aus. Schwellen, CP und CS grenzen Intensitätsbereiche besser ab; ob das zu besseren Trainingsanpassungen führt, ist nicht durch Trainingsstudien belegt (Jamnick et al., 2020).",
+    "Bei gleichem Prozentwert der VO₂max oder HFmax liegen manche Personen über, andere unter ihrer Schwelle. Schwellen aus einem einzelnen Stufentest sind ohne Verifikation nicht bei allen genau und schwanken von Tag zu Tag stärker als VO₂max oder HFmax (Mann et al., 2013).",
+    "Stufendauer, Steigerung, Blutentnahmeort und Auswertungsmodell verändern Schwellen und Spitzenleistung. Vergleiche sind nur bei gleichem Protokoll sinnvoll (Bentley et al., 2007).",
+    "Leistung in anaeroben Tests und Wiederholungssprints ist abends meist höher; Kontrollmessungen sollten daher zur gleichen Tageszeit stattfinden (Ravindrakumar et al., 2022).",
+    "Beim 3-min-All-out-Test sind ein Probedurchgang und konsequente Anfeuerung nötig; Wiederholungen sind innerhalb von drei Wochen gut vergleichbar (Quittmann &amp; Piehl, 2026).",
+    "Im Spitzenfußball der Männer fanden sich in 124 Studien 35 verschiedene aerobe Tests, davon 74 % Feldtests; am häufigsten der Laufband-Stufentest bis zur Erschöpfung (45 % der Studien) und der Yo-Yo IR1 (18 %). Für Wiederholungssprints gab es 18 verschiedene Tests in 27 Studien (Asimakidis et al., 2025)."
+   ],
+   "critic": "Zur Frage, wie oft getestet werden sollte, liefern die aufgenommenen Übersichtsarbeiten keine Daten. Aus der Reliabilität lässt sich ableiten: Eine Veränderung ist erst dann glaubwürdig, wenn sie größer ist als die übliche Schwankung des Tests (z. B. CV 3–4 % bei Laktatschwellen, bis 19 % bei einzelnen Yo-Yo-Varianten). Ob schwellenbasierte Zonen in Trainingsstudien zu mehr Anpassung führen als prozentbasierte Zonen, ist offen (Jamnick et al., 2020). Das Zonenmodell selbst ist unter <a href=\"#ausdauer\">Ausdauertraining</a> beschrieben, Intervallformen unter <a href=\"#hiit\">HIIT</a>.",
+   "figs": [],
+   "s": [
+    "jamnick2020",
+    "mann2013",
+    "bentley2007",
+    "ravindrakumar2022",
+    "quittmann2026",
+    "asimakidis2025"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 1982,
+   "t": "20-m-Shuttle-Run eingeführt",
+   "p": "Vorhersage der VO₂max bei Erwachsenen mit r 0,84, sehr gute Wiederholbarkeit.",
+   "tag": "neu",
+   "s": "leger1982"
+  },
+  {
+   "y": 1987,
+   "t": "Standard-Anaerobtests geordnet",
+   "p": "Trennung von anaerober Leistung und Kapazität; Ermüdungsindex nicht reliabel.",
+   "tag": "neu",
+   "s": "vandewalle1987"
+  },
+  {
+   "y": 1988,
+   "t": "Shuttle-Run in Endfassung",
+   "p": "Gleichung für Kinder und Erwachsene, Test-Retest 0,95 bei Erwachsenen.",
+   "tag": "conf",
+   "s": "leger1988"
+  },
+  {
+   "y": 1993,
+   "t": "1,5-Meilen-Lauf und 1-Meilen-Jog",
+   "p": "VO₂max-Vorhersage mit Standardschätzfehlern um 3 ml/kg/min.",
+   "tag": "neu",
+   "s": "george1993"
+  },
+  {
+   "y": 1995,
+   "t": "VO₂max-Kriterien hinterfragt",
+   "p": "Plateau und andere Kriterien passen schlecht zu modernen Rampentests.",
+   "tag": "neu",
+   "s": "howley1995"
+  },
+  {
+   "y": 2001,
+   "t": "Rückblick auf die Schwellenkonzepte",
+   "p": "Ventilations- und Laktatknick seit 1959 beschrieben.",
+   "tag": "neu",
+   "s": "hollmann2001"
+  },
+  {
+   "y": 2004,
+   "t": "Herzfrequenz-Verhältnis-Methode",
+   "p": "VO₂max aus HFmax/HFRuhe bei trainierten Männern.",
+   "tag": "neu",
+   "s": "uth2004"
+  },
+  {
+   "y": 2007,
+   "t": "Protokoll beeinflusst Ergebnis",
+   "p": "Stufendauer verschiebt Schwellen und Spitzenleistung.",
+   "tag": "neu",
+   "s": "bentley2007"
+  },
+  {
+   "y": 2008,
+   "t": "Yo-Yo-Intermittent-Recovery-Test",
+   "p": "Empfindlicher für Leistungsveränderungen als die VO₂max.",
+   "tag": "neu",
+   "s": "bangsbo2008"
+  },
+  {
+   "y": 2008,
+   "t": "30-15 IFT für Intervallsteuerung",
+   "p": "Referenzgeschwindigkeit gleicht die Belastung zwischen Spielern an.",
+   "tag": "neu",
+   "s": "buchheit2008"
+  },
+  {
+   "y": 2009,
+   "t": "Verifikationsphase vorgeschlagen",
+   "p": "Ersatz für die alten Plateau-Kriterien.",
+   "tag": "neu",
+   "s": "midgley2009"
+  },
+  {
+   "y": 2009,
+   "t": "25 Laktatschwellen-Konzepte geordnet",
+   "p": "Starke Korrelation mit Ausdauerleistung, individuelle Abweichung zur MLSS kaum untersucht.",
+   "tag": "neu",
+   "s": "faude2009"
+  },
+  {
+   "y": 2009,
+   "t": "RAST validiert",
+   "p": "Reliabel, mittlere Korrelation mit dem Wingate-Test.",
+   "tag": "neu",
+   "s": "zagatto2009"
+  },
+  {
+   "y": 2010,
+   "t": "MAOD eingeschränkt valide",
+   "p": "Ergebnis hängt stark vom Protokoll ab.",
+   "tag": "neu",
+   "s": "noordhof2010"
+  },
+  {
+   "y": 2013,
+   "t": "Prozentvorgaben gegen Schwellen",
+   "p": "Gleicher Prozentwert der VO₂max bedeutet nicht gleiche Belastung.",
+   "tag": "neu",
+   "s": "mann2013"
+  },
+  {
+   "y": 2013,
+   "t": "Wingate-Test kritisch bewertet",
+   "p": "Validität fraglich, dennoch häufigster All-out-Test.",
+   "tag": "conf",
+   "s": "driss2013"
+  },
+  {
+   "y": 2013,
+   "t": "Anaerobe Kapazität: Methoden nicht austauschbar",
+   "p": "MAOD, CP-Konzept und Gross Efficiency liefern ähnliche, aber verschiedene Werte.",
+   "tag": "conf",
+   "s": "noordhof2013"
+  },
+  {
+   "y": 2014,
+   "t": "Talk-Test valide und reliabel",
+   "p": "Sprechen möglich unterhalb der Schwelle.",
+   "tag": "neu",
+   "s": "reed2014"
+  },
+  {
+   "y": 2015,
+   "t": "Submaximale VO₂max-Vorhersage",
+   "p": "43 Gleichungen, r 0,57 bis 0,92.",
+   "tag": "neu",
+   "s": "evans2015"
+  },
+  {
+   "y": 2015,
+   "t": "Metaanalyse 20-m-Shuttle-Run",
+   "p": "Bei Erwachsenen r 0,94 mit dem Léger-Protokoll.",
+   "tag": "conf",
+   "s": "mayorga2015"
+  },
+  {
+   "y": 2015,
+   "t": "RAST misst nicht die anaerobe Kapazität",
+   "p": "Kein Zusammenhang mit dem MAOD bei jugendlichen Fußballern.",
+   "tag": "rel",
+   "s": "andrade2015"
+  },
+  {
+   "y": 2016,
+   "t": "Metaanalyse Lauf-/Gehtests",
+   "p": "1,5-Meilen- und 12-min-Lauf am validesten (r 0,79 und 0,78).",
+   "tag": "neu",
+   "s": "mayorga2016"
+  },
+  {
+   "y": 2016,
+   "t": "Laktat- und Atemschwellen reliabel",
+   "p": "Außer Dmax, RER = 1 und V-Slope.",
+   "tag": "neu",
+   "s": "pallares2016"
+  },
+  {
+   "y": 2019,
+   "t": "Methoden zur Critical Power",
+   "p": "Kein Standardprotokoll; 3-min-Test einfach, aber mit Überschätzungsrisiko.",
+   "tag": "neu",
+   "s": "muniz2019"
+  },
+  {
+   "y": 2019,
+   "t": "Yo-Yo-Test gut wiederholbar",
+   "p": "ICC 0,78 bis 0,98 in 19 Studien.",
+   "tag": "neu",
+   "s": "grgic2019"
+  },
+  {
+   "y": 2020,
+   "t": "Critical Power und Schwellen nicht gleich",
+   "p": "Abweichungen von 6 bis 30 %.",
+   "tag": "neu",
+   "s": "galan2020"
+  },
+  {
+   "y": 2020,
+   "t": "Kritik der Intensitätsbestimmung",
+   "p": "Nur CP und CS grenzen den sehr schweren Bereich verlässlich ab.",
+   "tag": "neu",
+   "s": "jamnick2020"
+  },
+  {
+   "y": 2021,
+   "t": "Verifikationsphase im Gruppenmittel verzichtbar",
+   "p": "80 Studien: kaum Unterschied zum Stufentest.",
+   "tag": "rel",
+   "s": "costa2021"
+  },
+  {
+   "y": 2021,
+   "t": "30-15 IFT sehr gut wiederholbar",
+   "p": "ICC 0,80 bis 0,99.",
+   "tag": "conf",
+   "s": "grgic2021"
+  },
+  {
+   "y": 2021,
+   "t": "FTP20 nicht austauschbar mit Schwellen",
+   "p": "Reliabel, aber große Übereinstimmungsgrenzen.",
+   "tag": "neu",
+   "s": "mackey2021"
+  },
+  {
+   "y": 2022,
+   "t": "Talk-Test und RPE bilden Schwellen ab",
+   "p": "RPE 10–11 entspricht etwa der VT, 13–15 dem RCP.",
+   "tag": "conf",
+   "s": "bok2022"
+  },
+  {
+   "y": 2022,
+   "t": "Wearables und VO₂max",
+   "p": "Belastungsalgorithmen ohne systematischen Fehler, aber breite Streuung.",
+   "tag": "neu",
+   "s": "molina2022"
+  },
+  {
+   "y": 2022,
+   "t": "Reliabilität von Feldtests bei Erwachsenen",
+   "p": "20-m-Shuttle-Run mit starker Evidenz hoher Reliabilität.",
+   "tag": "conf",
+   "s": "cuenca2022"
+  },
+  {
+   "y": 2022,
+   "t": "Tageszeit beeinflusst anaerobe Tests",
+   "p": "Abends je nach Test bis zu 13 % besser.",
+   "tag": "neu",
+   "s": "ravindrakumar2022"
+  },
+  {
+   "y": 2023,
+   "t": "Standardprotokolle für Wiederholungssprints",
+   "p": "Empfehlung 6 × 30 m mit 15 s Pause.",
+   "tag": "neu",
+   "s": "kyles2023"
+  },
+  {
+   "y": 2024,
+   "t": "MLSS und Critical Power nicht gleich",
+   "p": "Abstand hängt vom Testdesign ab.",
+   "tag": "conf",
+   "s": "borszcz2024"
+  },
+  {
+   "y": 2024,
+   "t": "Umbrella Review Wearables",
+   "p": "VO₂max überschätzt, nur etwa 11 % der Geräte validiert.",
+   "tag": "conf",
+   "s": "doherty2024"
+  },
+  {
+   "y": 2025,
+   "t": "Yo-Yo-Tests und VO₂max",
+   "p": "Große, aber nicht sehr hohe Korrelationen (r 0,55 bis 0,67).",
+   "tag": "conf",
+   "s": "tan2025"
+  },
+  {
+   "y": 2025,
+   "t": "Testvielfalt im Spitzenfußball",
+   "p": "35 aerobe und 18 Sprinttests, kaum Standardisierung.",
+   "tag": "neu",
+   "s": "asimakidis2025"
+  },
+  {
+   "y": 2025,
+   "t": "Critical Speed im Feld",
+   "p": "Zeitfahren und 3-min-Test reliabel bei standardisierten Bedingungen.",
+   "tag": "neu",
+   "s": "lipkova2025"
+  },
+  {
+   "y": 2025,
+   "t": "Wearables und Laktatschwelle",
+   "p": "VO₂max-Schätzung in 7 von 13 Studien valide.",
+   "tag": "conf",
+   "s": "zeleznik2025"
+  },
+  {
+   "y": 2025,
+   "t": "CP über MLSS bei der Leistung",
+   "p": "Im Mittel 12 W höher, große individuelle Streuung.",
+   "tag": "conf",
+   "s": "micheli2025"
+  },
+  {
+   "y": 2026,
+   "t": "3-min-All-out-Test überschätzt CP",
+   "p": "Reliabel, aber nicht ohne Weiteres valide.",
+   "tag": "contra",
+   "s": "quittmann2026"
+  },
+  {
+   "y": 2026,
+   "t": "Nichtinvasive Schwellenbestimmung",
+   "p": "DFA α1, NIRS und CP/CS vielversprechend, aber nicht austauschbar.",
+   "tag": "neu",
+   "s": "maffulli2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "21.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 2 775 Einträgen, 147 Übersichtsarbeiten nach Titel geprüft (78 Kandidaten der Suchanfrage und 69 per Titelregel ausgeschlossene Übersichtsarbeiten nachgesichtet), ergänzt durch gezielte Suchen nach Grundlagen- und Validierungsarbeiten (0 zusätzliche Quellen); 44 Quellen aufgenommen."
+  }
+ ],
+ "def": {
+  "t": "Ausdauerdiagnostik umfasst Tests der aeroben Leistungsfähigkeit, vor allem maximale Sauerstoffaufnahme (VO₂max), Schwellen des aerob-anaeroben Übergangs wie Laktat- und ventilatorische Schwellen, maximales Laktat-Steady-State und Critical Power, sowie Tests der anaeroben Leistungsfähigkeit. Diese wird in anaerobe Leistung (maximale Leistung über Sekunden) und anaerobe Kapazität (gesamte anaerob bereitgestellte Energie) unterteilt.",
+  "s": [
+   "faude2009",
+   "vandewalle1987",
+   "jamnick2020"
+  ]
+ },
+ "sources": {
+  "vandewalle1987": {
+   "short": "Vandewalle et al., 1987",
+   "year": 1987,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "3306867",
+   "apa": "Vandewalle, H., Pérès, G. &amp; Monod, H. (1987). Standard anaerobic exercise tests. <em>Sports Medicine, 4</em>(4), 268–289.",
+   "doi": "10.2165/00007256-198704040-00004"
+  },
+  "leger1982": {
+   "short": "Léger & Lambert, 1982",
+   "year": 1982,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "7201922",
+   "apa": "Léger, L. A. &amp; Lambert, J. (1982). A maximal multistage 20-m shuttle run test to predict VO2 max. <em>European Journal of Applied Physiology and Occupational Physiology, 49</em>(1), 1–12.",
+   "doi": "10.1007/BF00428958"
+  },
+  "leger1988": {
+   "short": "Léger et al., 1988",
+   "year": 1988,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "3184250",
+   "apa": "Léger, L. A., Mercier, D., Gadoury, C. &amp; Lambert, J. (1988). The multistage 20 metre shuttle run test for aerobic fitness. <em>Journal of Sports Sciences, 6</em>(2), 93–101.",
+   "doi": "10.1080/02640418808729800",
+   "flag": "Abstract nach 250 Wörtern abgeschnitten."
+  },
+  "george1993": {
+   "short": "George et al., 1993",
+   "year": 1993,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "8455458",
+   "apa": "George, J. D., Vehrs, P. R., Allsen, P. E., Fellingham, G. W. &amp; Fisher, A. G. (1993). VO2max estimation from a submaximal 1-mile track jog for fit college-age individuals. <em>Medicine &amp; Science in Sports &amp; Exercise, 25</em>(3), 401–406.",
+   "flag": "Abstract nach 250 Wörtern abgeschnitten; Gleichung für den 1,5-Meilen-Lauf nicht vollständig im Abstract."
+  },
+  "howley1995": {
+   "short": "Howley et al., 1995",
+   "year": 1995,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "8531628",
+   "apa": "Howley, E. T., Bassett, D. R. &amp; Welch, H. G. (1995). Criteria for maximal oxygen uptake: Review and commentary. <em>Medicine &amp; Science in Sports &amp; Exercise, 27</em>(9), 1292–1301."
+  },
+  "hollmann2001": {
+   "short": "Hollmann, 2001",
+   "year": 2001,
+   "type": "Historischer Review",
+   "basis": "Abstract",
+   "pmid": "11347682",
+   "apa": "Hollmann, W. (2001). 42 years ago—Development of the concepts of ventilatory and lactate threshold. <em>Sports Medicine, 31</em>(5), 315–320.",
+   "doi": "10.2165/00007256-200131050-00002"
+  },
+  "uth2004": {
+   "short": "Uth et al., 2004",
+   "year": 2004,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "14624296",
+   "apa": "Uth, N., Sørensen, H., Overgaard, K. &amp; Pedersen, P. K. (2004). Estimation of VO2max from the ratio between HRmax and HRrest—The heart rate ratio method. <em>European Journal of Applied Physiology, 91</em>(1), 111–115.",
+   "doi": "10.1007/s00421-003-0988-y",
+   "flag": "Zu diesem Artikel ist ein Erratum erschienen (Eur J Appl Physiol 2005;93:508–509); Inhalt des Erratums nicht im Abstract."
+  },
+  "bentley2007": {
+   "short": "Bentley et al., 2007",
+   "year": 2007,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "17595153",
+   "apa": "Bentley, D. J., Newell, J. &amp; Bishop, D. (2007). Incremental exercise test design and analysis: Implications for performance diagnostics in endurance athletes. <em>Sports Medicine, 37</em>(7), 575–586.",
+   "doi": "10.2165/00007256-200737070-00002"
+  },
+  "bangsbo2008": {
+   "short": "Bangsbo et al., 2008",
+   "year": 2008,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "18081366",
+   "apa": "Bangsbo, J., Iaia, F. M. &amp; Krustrup, P. (2008). The Yo-Yo intermittent recovery test: A useful tool for evaluation of physical performance in intermittent sports. <em>Sports Medicine, 38</em>(1), 37–51.",
+   "doi": "10.2165/00007256-200838010-00004"
+  },
+  "buchheit2008": {
+   "short": "Buchheit, 2008",
+   "year": 2008,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "18550949",
+   "apa": "Buchheit, M. (2008). The 30-15 intermittent fitness test: Accuracy for individualizing interval training of young intermittent sport players. <em>Journal of Strength and Conditioning Research, 22</em>(2), 365–374.",
+   "doi": "10.1519/JSC.0b013e3181635b2e"
+  },
+  "midgley2009": {
+   "short": "Midgley & Carroll, 2009",
+   "year": 2009,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "19422662",
+   "apa": "Midgley, A. W. &amp; Carroll, S. (2009). Emergence of the verification phase procedure for confirming 'true' VO(2max). <em>Scandinavian Journal of Medicine &amp; Science in Sports, 19</em>(3), 313–322.",
+   "doi": "10.1111/j.1600-0838.2009.00898.x"
+  },
+  "faude2009": {
+   "short": "Faude et al., 2009",
+   "year": 2009,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "19453206",
+   "apa": "Faude, O., Kindermann, W. &amp; Meyer, T. (2009). Lactate threshold concepts: How valid are they? <em>Sports Medicine, 39</em>(6), 469–490.",
+   "doi": "10.2165/00007256-200939060-00003"
+  },
+  "zagatto2009": {
+   "short": "Zagatto et al., 2009",
+   "year": 2009,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "19675478",
+   "apa": "Zagatto, A. M., Beck, W. R. &amp; Gobatto, C. A. (2009). Validity of the running anaerobic sprint test for assessing anaerobic power and predicting short-distance performances. <em>Journal of Strength and Conditioning Research, 23</em>(6), 1820–1827.",
+   "doi": "10.1519/JSC.0b013e3181b3df32"
+  },
+  "noordhof2010": {
+   "short": "Noordhof et al., 2010",
+   "year": 2010,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "20364874",
+   "apa": "Noordhof, D. A., de Koning, J. J. &amp; Foster, C. (2010). The maximal accumulated oxygen deficit method: A valid and reliable measure of anaerobic capacity? <em>Sports Medicine, 40</em>(4), 285–302.",
+   "doi": "10.2165/11530390-000000000-00000"
+  },
+  "mann2013": {
+   "short": "Mann et al., 2013",
+   "year": 2013,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "23620244",
+   "apa": "Mann, T., Lamberts, R. P. &amp; Lambert, M. I. (2013). Methods of prescribing relative exercise intensity: Physiological and practical considerations. <em>Sports Medicine, 43</em>(7), 613–625.",
+   "doi": "10.1007/s40279-013-0045-x"
+  },
+  "driss2013": {
+   "short": "Driss & Vandewalle, 2013",
+   "year": 2013,
+   "type": "Kritischer Review",
+   "basis": "Abstract",
+   "pmid": "24073413",
+   "apa": "Driss, T. &amp; Vandewalle, H. (2013). The measurement of maximal (anaerobic) power output on a cycle ergometer: A critical review. <em>BioMed Research International, 2013</em>, Artikel 589361.",
+   "doi": "10.1155/2013/589361"
+  },
+  "noordhof2013": {
+   "short": "Noordhof et al., 2013",
+   "year": 2013,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "24026759",
+   "apa": "Noordhof, D. A., Skiba, P. F. &amp; de Koning, J. J. (2013). Determining anaerobic capacity in sporting activities. <em>International Journal of Sports Physiology and Performance, 8</em>(5), 475–482.",
+   "doi": "10.1123/ijspp.8.5.475"
+  },
+  "reed2014": {
+   "short": "Reed & Pipe, 2014",
+   "year": 2014,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "25010379",
+   "apa": "Reed, J. L. &amp; Pipe, A. L. (2014). The talk test: A useful tool for prescribing and monitoring exercise intensity. <em>Current Opinion in Cardiology, 29</em>(5), 475–480.",
+   "doi": "10.1097/HCO.0000000000000097"
+  },
+  "evans2015": {
+   "short": "Evans et al., 2015",
+   "year": 2015,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "24721146",
+   "apa": "Evans, H. J., Ferrar, K. E., Smith, A. E., Parfitt, G. &amp; Eston, R. G. (2015). A systematic review of methods to predict maximal oxygen uptake from submaximal, open circuit spirometry in healthy adults. <em>Journal of Science and Medicine in Sport, 18</em>(2), 183–188.",
+   "doi": "10.1016/j.jsams.2014.03.006"
+  },
+  "mayorga2015": {
+   "short": "Mayorga-Vega et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26336340",
+   "apa": "Mayorga-Vega, D., Aguilar-Soto, P. &amp; Viciana, J. (2015). Criterion-related validity of the 20-m shuttle run test for estimating cardiorespiratory fitness: A meta-analysis. <em>Journal of Sports Science &amp; Medicine, 14</em>(3), 536–547."
+  },
+  "andrade2015": {
+   "short": "Andrade et al., 2015",
+   "year": 2015,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "26422055",
+   "apa": "Andrade, V. L., Zagatto, A. M., Kalva-Filho, C. A., Mendes, O. C., Gobatto, C. A., Campos, E. Z. &amp; Papoti, M. (2015). Running-based anaerobic sprint test as a procedure to evaluate anaerobic power. <em>International Journal of Sports Medicine, 36</em>(14), 1156–1162.",
+   "doi": "10.1055/s-0035-1555935"
+  },
+  "mayorga2016": {
+   "short": "Mayorga-Vega et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26987118",
+   "apa": "Mayorga-Vega, D., Bocanegra-Parrilla, R., Ornelas, M. &amp; Viciana, J. (2016). Criterion-related validity of the distance- and time-based walk/run field tests for estimating cardiorespiratory fitness: A systematic review and meta-analysis. <em>PLOS ONE, 11</em>(3), Artikel e0151671.",
+   "doi": "10.1371/journal.pone.0151671"
+  },
+  "pallares2016": {
+   "short": "Pallarés et al., 2016",
+   "year": 2016,
+   "type": "Validierungsstudie",
+   "basis": "Abstract",
+   "pmid": "27657502",
+   "apa": "Pallarés, J. G., Morán-Navarro, R., Ortega, J. F., Fernández-Elías, V. E. &amp; Mora-Rodriguez, R. (2016). Validity and reliability of ventilatory and blood lactate thresholds in well-trained cyclists. <em>PLOS ONE, 11</em>(9), Artikel e0163389.",
+   "doi": "10.1371/journal.pone.0163389"
+  },
+  "muniz2019": {
+   "short": "Muniz-Pumares et al., 2019",
+   "year": 2019,
+   "type": "Methodischer Review",
+   "basis": "Abstract",
+   "pmid": "30531413",
+   "apa": "Muniz-Pumares, D., Karsten, B., Triska, C. &amp; Glaister, M. (2019). Methodological approaches and related challenges associated with the determination of critical power and curvature constant. <em>Journal of Strength and Conditioning Research, 33</em>(2), 584–596.",
+   "doi": "10.1519/JSC.0000000000002977"
+  },
+  "grgic2019": {
+   "short": "Grgic et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "31270753",
+   "apa": "Grgic, J., Oppici, L., Mikulic, P., Bangsbo, J., Krustrup, P. &amp; Pedisic, Z. (2019). Test-retest reliability of the Yo-Yo test: A systematic review. <em>Sports Medicine, 49</em>(10), 1547–1557.",
+   "doi": "10.1007/s40279-019-01143-4"
+  },
+  "galan2020": {
+   "short": "Galán-Rioja et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32613479",
+   "apa": "Galán-Rioja, M. Á., González-Mohíno, F., Poole, D. C. &amp; González-Ravé, J. M. (2020). Relative proximity of critical power and metabolic/ventilatory thresholds: Systematic review and meta-analysis. <em>Sports Medicine, 50</em>(10), 1771–1783.",
+   "doi": "10.1007/s40279-020-01314-8",
+   "flag": "Mehrere Leserbriefe mit Kritik und Antworten der Autoren erschienen (Sports Med 2021)."
+  },
+  "jamnick2020": {
+   "short": "Jamnick et al., 2020",
+   "year": 2020,
+   "type": "Kritischer Review",
+   "basis": "Abstract",
+   "pmid": "32729096",
+   "apa": "Jamnick, N. A., Pettitt, R. W., Granata, C., Pyne, D. B. &amp; Bishop, D. J. (2020). An examination and critique of current methods to determine exercise intensity. <em>Sports Medicine, 50</em>(10), 1729–1756.",
+   "doi": "10.1007/s40279-020-01322-8"
+  },
+  "costa2021": {
+   "short": "Costa et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33596256",
+   "apa": "Costa, V. A. B., Midgley, A. W., Carroll, S., Astorino, T. A., de Paula, T., Farinatti, P. &amp; Cunha, F. A. (2021). Is a verification phase useful for confirming maximal oxygen uptake in apparently healthy adults? A systematic review and meta-analysis. <em>PLOS ONE, 16</em>(2), Artikel e0247057.",
+   "doi": "10.1371/journal.pone.0247057"
+  },
+  "grgic2021": {
+   "short": "Grgic et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "32422345",
+   "apa": "Grgic, J., Lazinica, B. &amp; Pedisic, Z. (2021). Test-retest reliability of the 30-15 intermittent fitness test: A systematic review. <em>Journal of Sport and Health Science, 10</em>(4), 413–418.",
+   "doi": "10.1016/j.jshs.2020.04.010"
+  },
+  "mackey2021": {
+   "short": "Mackey & Horner, 2021",
+   "year": 2021,
+   "type": "Scoping Review",
+   "basis": "Abstract",
+   "pmid": "34304689",
+   "apa": "Mackey, J. &amp; Horner, K. (2021). What is known about the FTP20 test related to cycling? A scoping review. <em>Journal of Sports Sciences, 39</em>(23), 2735–2745.",
+   "doi": "10.1080/02640414.2021.1955515"
+  },
+  "bok2022": {
+   "short": "Bok et al., 2022",
+   "year": 2022,
+   "type": "Kritischer Review",
+   "basis": "Abstract",
+   "pmid": "35507232",
+   "apa": "Bok, D., Rakovac, M. &amp; Foster, C. (2022). An examination and critique of subjective methods to determine exercise intensity: The talk test, feeling scale, and rating of perceived exertion. <em>Sports Medicine, 52</em>(9), 2085–2109.",
+   "doi": "10.1007/s40279-022-01690-3"
+  },
+  "molina2022": {
+   "short": "Molina-Garcia et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35072942",
+   "apa": "Molina-Garcia, P., Notbohm, H. L., Schumann, M., Argent, R., Hetherington-Rauth, M., Stang, J., Bloch, W., Cheng, S., Ekelund, U., Sardinha, L. B., Caulfield, B., Brønd, J. C., Grøntved, A. &amp; Ortega, F. B. (2022). Validity of estimating the maximal oxygen consumption by consumer wearables: A systematic review with meta-analysis and expert statement of the INTERLIVE network. <em>Sports Medicine, 52</em>(7), 1577–1597.",
+   "doi": "10.1007/s40279-021-01639-y"
+  },
+  "cuenca2022": {
+   "short": "Cuenca-Garcia et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35064915",
+   "apa": "Cuenca-Garcia, M., Marin-Jimenez, N., Perez-Bey, A., Sánchez-Oliva, D., Camiletti-Moiron, D., Alvarez-Gallardo, I. C., Ortega, F. B. &amp; Castro-Piñero, J. (2022). Reliability of field-based fitness tests in adults: A systematic review. <em>Sports Medicine, 52</em>(8), 1961–1979.",
+   "doi": "10.1007/s40279-021-01635-2"
+  },
+  "ravindrakumar2022": {
+   "short": "Ravindrakumar et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34978950",
+   "apa": "Ravindrakumar, A., Bommasamudram, T., Tod, D., Edwards, B. J., Chtourou, H. &amp; Pullinger, S. A. (2022). Daily variation in performance measures related to anaerobic power and capacity: A systematic review. <em>Chronobiology International, 39</em>(3), 421–455.",
+   "doi": "10.1080/07420528.2021.1994585"
+  },
+  "kyles2023": {
+   "short": "Kyles et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37494122",
+   "apa": "Kyles, A., Oliver, J. L., Cahill, M. J., Lloyd, R. S. &amp; Pedley, J. (2023). Linear and change of direction repeated sprint ability tests: A systematic review. <em>Journal of Strength and Conditioning Research, 37</em>(8), 1703–1717.",
+   "doi": "10.1519/JSC.0000000000004447"
+  },
+  "borszcz2024": {
+   "short": "Borszcz et al., 2024",
+   "year": 2024,
+   "type": "Systematischer Review mit bayesianischer Metaregression",
+   "basis": "Abstract",
+   "pmid": "38781475",
+   "apa": "Borszcz, F. K., de Aguiar, R. A., Costa, V. P., Denadai, B. S. &amp; de Lucas, R. D. (2024). Agreement between maximal lactate steady state and critical power in different sports: A systematic review and Bayesian's meta-regression. <em>Journal of Strength and Conditioning Research, 38</em>(6), e320–e339.",
+   "doi": "10.1519/JSC.0000000000004772"
+  },
+  "doherty2024": {
+   "short": "Doherty et al., 2024",
+   "year": 2024,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "39080098",
+   "apa": "Doherty, C., Baldwin, M., Keogh, A., Caulfield, B. &amp; Argent, R. (2024). Keeping pace with wearables: A living umbrella review of systematic reviews evaluating the accuracy of consumer wearable technologies in health measurement. <em>Sports Medicine, 54</em>(11), 2907–2926.",
+   "doi": "10.1007/s40279-024-02077-2"
+  },
+  "tan2025": {
+   "short": "Tan et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40356566",
+   "apa": "Tan, Z., Castagna, C., Krustrup, P., Wong, D. P., Póvoas, S., Boullosa, D., Xu, K. &amp; Cuk, I. (2025). Exploring the use of 5 different Yo-Yo tests in evaluating V̇O<sub>2max</sub> and fitness profile in team sports: A systematic review and meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 35</em>(5), Artikel e70054.",
+   "doi": "10.1111/sms.70054"
+  },
+  "asimakidis2025": {
+   "short": "Asimakidis et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "40220211",
+   "apa": "Asimakidis, N. D., Bishop, C., Beato, M. &amp; Turner, A. N. (2025). Assessment of aerobic fitness and repeated sprint ability in elite male soccer: A systematic review of test protocols used in practice and research. <em>Sports Medicine, 55</em>(5), 1233–1264.",
+   "doi": "10.1007/s40279-025-02188-4"
+  },
+  "lipkova2025": {
+   "short": "Lipková et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "40134905",
+   "apa": "Lipková, L., Struhár, I., Krajňák, J., Puda, D. &amp; Kumstát, M. (2025). Field-based tests for determining critical speed among runners and its practical application: A systematic review. <em>Frontiers in Sports and Active Living, 7</em>, Artikel 1520914.",
+   "doi": "10.3389/fspor.2025.1520914"
+  },
+  "zeleznik2025": {
+   "short": "Železnik Mežan, 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "41477023",
+   "apa": "Železnik Mežan, L. (2025). Accuracy of wearables for determining the maximal oxygen uptake and lactate threshold: A qualitative systematic review. <em>Frontiers in Sports and Active Living, 7</em>, Artikel 1707991.",
+   "doi": "10.3389/fspor.2025.1707991"
+  },
+  "micheli2025": {
+   "short": "Micheli et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40124604",
+   "apa": "Micheli, L., Lucertini, F., Grossi, T., Pogliaghi, S., Keir, D. A. &amp; Ferri Marini, C. (2025). Analysis of the factors influencing the proximity and agreement between critical power and maximal lactate steady state: A systematic review and meta-analyses. <em>PeerJ, 13</em>, Artikel e19060.",
+   "doi": "10.7717/peerj.19060"
+  },
+  "quittmann2026": {
+   "short": "Quittmann & Piehl, 2026",
+   "year": 2026,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42479066",
+   "apa": "Quittmann, O. J. &amp; Piehl, M. A. (2026). The 3-min all-out test in cycling: A systematic review and meta-analysis on its reliability and validity. <em>European Journal of Applied Physiology, 126</em>(9), 4673–4691.",
+   "doi": "10.1007/s00421-026-06356-w"
+  },
+  "maffulli2026": {
+   "short": "Maffulli et al., 2026",
+   "year": 2026,
+   "type": "Narrativer Review (evidenzbasiert)",
+   "basis": "Abstract",
+   "pmid": "42872971",
+   "apa": "Maffulli, N., Padulo, J. &amp; Oliva, F. (2026). Noninvasive assessment of the anaerobic threshold in endurance athletes: An evidence-based narrative review of methods, validity, and field feasibility. <em>British Medical Bulletin, 160</em>(1), ldag037.",
+   "doi": "10.1093/bmb/ldag037"
+  }
+ }
+}
