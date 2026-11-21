@@ -1,0 +1,32 @@
+{
+ "datum": "2026-11-21",
+ "geprueft": 924,
+ "treffer": [
+  {
+   "pmid": "25968227",
+   "titel": "Effects of Variable Resistance Training on Maximal Strength: A Meta-Analysis.",
+   "hinweis": [
+    "Retracted Publication"
+   ],
+   "zitiert": [
+    {
+     "thema": "maximalkraft",
+     "quelle": "soriagila2015"
+    }
+   ]
+  },
+  {
+   "pmid": "30069463",
+   "titel": "Extra Dose of Vitamin C Based on a Daily Supplementation Shortens the Common Cold: A Meta-Analysis of 9 Randomized Controlled Trials.",
+   "hinweis": [
+    "Retracted Publication"
+   ],
+   "zitiert": [
+    {
+     "thema": "vitamin-c",
+     "quelle": "ran2018"
+    }
+   ]
+  }
+ ]
+}

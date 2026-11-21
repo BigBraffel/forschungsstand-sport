@@ -46,6 +46,7 @@ def main():
     json.dump(dict(datum=heute.isoformat(), themen=uebersicht), open(os.path.join(canddir, '_uebersicht.json'), 'w'),
               ensure_ascii=False, indent=1)
     print(json.dumps(uebersicht, ensure_ascii=False, indent=1))
+    subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'rueckzug.py')], check=True)
 
 if __name__ == '__main__':
     main()

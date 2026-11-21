@@ -1,7 +1,7 @@
 {
  "id": "vitamin-c",
  "title": "Vitamin C",
- "stand": "2026-11-17",
+ "stand": "2026-11-21",
  "lead": "Schützt Vitamin C vor Erkältungen, besonders bei hoher Trainingsbelastung, hilft es gegen Muskelkater, und bremsen hohe Dosen die Trainingsanpassung? Zusammengefasst aus Metaanalysen und Cochrane-Reviews.",
  "rxtitle": "Ableitungen für Ernährung und Training",
  "rxlead": "Für gesunde Erwachsene. Vitamin C ist kein Leistungsmittel. Ein gezielter Nutzen ist am besten für Erkältungen in Phasen sehr hoher körperlicher Belastung belegt.",
@@ -57,8 +57,7 @@
    "s": [
     "hemila2013",
     "abioye2021",
-    "keya2022",
-    "ran2018"
+    "keya2022"
    ]
   },
   {
@@ -105,7 +104,6 @@
     "Cochrane 2000, 30 Studien: bis 1 g/Tag über mehrere Wintermonate ohne durchgängigen Schutz; Symptomtage um 8–9 % verkürzt, knapp ein halber Tag pro Erkältung (Douglas et al., 2000).",
     "Cochrane 2013, 29 Vergleiche mit 11 306 Personen: Erkältungsrisiko in der Allgemeinbevölkerung RR 0,97 [0,94; 1,00]. Bei 598 Marathonläufern, Skifahrern und Soldaten bei subarktischen Übungen RR 0,48 [0,35; 0,64] (Hemilä &amp; Chalker, 2013).",
     "Regelmäßige Einnahme verkürzte Erkältungen bei Erwachsenen um 8 % [3; 12], bei Kindern um 14 % [7; 21]; 7 therapeutische Vergleiche (Beginn nach Symptombeginn) ohne durchgängigen Effekt (Hemilä &amp; Chalker, 2013).",
-    "Zusätzliche Dosis bei Erkältungsbeginn trotz täglicher Einnahme: Dauer −0,56 Tage [−1,03; −0,10] (Ran et al., 2018).",
     "Atemwegsinfekte: Risiko RR 0,96 [0,93; 0,99], Dauer −9 % [−16; −2] (Abioye et al., 2021); in einer kleineren Analyse mit 10 Studien Risiko RR 0,94 [0,87; 1,01], nicht signifikant, Dauer SMD −0,36 [−0,62; −0,09] (Keya et al., 2022).",
     "Übersicht 2025: In 15 Studien (n = 6 244) senkten 1 g/Tag oder mehr die Schwere von Erkältungen um 15 %; in 2 therapeutischen Studien waren 6–8 g/Tag doppelt so wirksam wie 3–4 g/Tag (Hemilä &amp; Chalker, 2025)."
    ],
@@ -206,7 +204,6 @@
    "s": [
     "douglas2000",
     "hemila2013",
-    "ran2018",
     "abioye2021",
     "keya2022",
     "hemila2025"
@@ -522,9 +519,9 @@
   },
   {
    "y": 2018,
-   "t": "Zusatzdosis bei Erkältung",
-   "p": "Gut einen halben Tag kürzer.",
-   "tag": "conf",
+   "t": "Zusatzdosis bei Erkältung – zurückgezogen",
+   "p": "Die Metaanalyse wurde zurückgezogen und zählt nicht mehr als Beleg.",
+   "tag": "contra",
    "s": "ran2018"
   },
   {
@@ -635,6 +632,10 @@
  ],
  "changelog": [
   {
+   "d": "21.11.2026",
+   "t": "Ran et al. (2018) wurde zurückgezogen: Befund zur Zusatzdosis bei Erkältungsbeginn entfernt."
+  },
+  {
    "d": "17.11.2026",
    "t": "Erstfassung: PubMed-Sichtung von 1 961 Einträgen, 637 Übersichtsarbeiten nach Titel geprüft, 24 Quellen aufgenommen."
   }
@@ -702,10 +703,9 @@
      "p": null,
      "s": [
       "hemila2013",
-      "ran2018",
       "hemila2025"
      ],
-     "t": "Cochrane: kein durchgängiger Effekt in 7 Vergleichen; Zusatzdosis trotz täglicher Einnahme −0,56 Tage.",
+     "t": "Cochrane: kein durchgängiger Effekt in 7 Vergleichen.",
      "v": "erkaeltung"
     }
    ]
@@ -986,7 +986,8 @@
    "basis": "Abstract",
    "pmid": "30069463",
    "apa": "Ran, L., Zhao, W., Wang, J., Wang, H., Zhao, Y., Tseng, Y. &amp; Bu, H. (2018). Extra dose of vitamin C based on a daily supplementation shortens the common cold: A meta-analysis of 9 randomized controlled trials. <em>BioMed Research International, 2018</em>, Artikel 1837634.",
-   "doi": "10.1155/2018/1837634"
+   "doi": "10.1155/2018/1837634",
+   "flag": "Zurückgezogen laut PubMed (Retracted Publication, geprüft 21.11.2026); wird nicht mehr als Beleg verwendet."
   },
   "jiang2019": {
    "short": "Jiang et al., 2019",

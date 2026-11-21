@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Formale Pruefung der Daten: gueltiges JSON, alle zitierten Quellen vorhanden, Abbildungen vollstaendig.
+# Formale Pruefung: gueltiges JSON, alle zitierten Quellen vorhanden, Abbildungen vollstaendig, kein ungenutzter Code.
 # Laeuft bei jeder Aenderung automatisch (GitHub Actions); Fehler werden im Lauf angezeigt.
 import json, os, re, sys
 
@@ -64,6 +64,19 @@ if m:
     for t in re.findall(r'"([^"]+)"', m.group(1)):
         if not os.path.exists(os.path.join(ROOT, 'data', 'topics', t + '.json')):
             fehler.append(f'index.html: Thema "{t}" freigeschaltet, aber data/topics/{t}.json fehlt')
+
+# Ungenutzter Code in index.html: Funktionen/Konstanten, die nur deklariert, und CSS-Klassen, die nirgends verwendet werden.
+# Klassen, die per Vorlage zusammengesetzt werden (z. B. `lv${n}`, `e${x}`), stehen in DYN.
+DYN = re.compile(r'^(e[0-4m]|lv\d|chart-\w+|tag-\w+|ev-\w+)$')
+css = '\n'.join(re.findall(r'<style>(.*?)</style>', html, re.S))
+rest = re.sub(r'<style>.*?</style>', '', html, flags=re.S)
+daten = ''.join(open(os.path.join(ROOT, 'data', 'topics', f)).read() for f in os.listdir(os.path.join(ROOT, 'data', 'topics')))
+for n in sorted(set(re.findall(r'(?:function\s+|(?:const|let)\s+)([A-Za-z_$][\w$]*)', rest))):
+    if len(re.findall(r'(?<![\w$])(?<![\w$)\]]\.)' + re.escape(n) + r'(?![\w$])', rest)) < 2:
+        fehler.append(f'index.html: "{n}" wird deklariert, aber nirgends verwendet')
+for c in sorted(set(re.findall(r'\.([a-zA-Z][\w-]*)', re.sub(r'\d+\.\d+|url\([^)]*\)', '', css)))):
+    if not DYN.match(c) and not re.search(r'(?<![\w-])' + re.escape(c) + r'(?![\w-])', rest + daten):
+        fehler.append(f'index.html: CSS-Klasse ".{c}" wird nirgends verwendet')
 
 if fehler:
     print('\n'.join(fehler)); sys.exit(1)

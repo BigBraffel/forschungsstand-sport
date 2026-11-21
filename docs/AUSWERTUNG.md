@@ -67,9 +67,21 @@ Bei Rohwerten (kg, mmHg, Tage) wird die Größe nach praktischer Bedeutung einge
 Die Seitenleiste hat drei Bereiche mit aufklappbaren Gruppen (`NAV` in `index.html`):
 - **Training:** Krafttraining · Ausdauertraining · Trainingsplanung · Regeneration und Prävention
 - **Ernährung:** Makronährstoffe · Ernährungspraxis
-- **Supplemente:** Übersicht · Leistung · Vitamine und Mineralstoffe · Weitere (innerhalb der Gruppen automatisch alphabetisch)
+- **Supplemente:** Übersicht · Vergleich · Risiken · Leistung · Vitamine und Mineralstoffe · Weitere (innerhalb der Gruppen automatisch alphabetisch)
+
+Zusätzlich: Startseite (`#start`) und „Mein Ziel“ (`#ziel`). Neue Themen in `GOALS` den passenden Zielen zuordnen.
 
 Ein neues Thema kommt in die passende bestehende Gruppe; eine neue Gruppe nur, wenn mindestens drei Themen hineinpassen. Supplemente zusätzlich in `SUPPS` eintragen. Der Titel in `NAV` soll dem Feld `title` der Themendatei entsprechen (bestimmt die Sortierung der Supplement-Übersicht). Der Haftungsausschluss (`DISCLAIMER`) steht auf der Supplement-Übersicht, im Rechner und unter `#hinweis`.
+
+## Rückzüge und Korrekturen
+`tools/rueckzug.py` (läuft mit jeder PubMed-Abfrage) prüft alle zitierten PMIDs und schreibt Treffer nach `data/kandidaten/_rueckzuege.json`. Jeder Treffer mit „Retracted Publication“ wird so behandelt:
+- Befunde, Wirkungsübersicht und Kurzfazit: Quelle entfernen; stützt sie einen Befund allein, den Befund entfernen.
+- Forschungsverlauf: Eintrag behalten, Titel mit „– zurückgezogen“, `tag` = `contra`.
+- Quelle: Feld `flag` mit Hinweis auf den Rückzug; im Register `set … X "zurückgezogen"`.
+- Changelog-Eintrag. Bei Korrekturen (Erratum) und „Expression of Concern“ das Abstract erneut prüfen und im Bericht nennen.
+
+## Code sauber halten
+`tools/pruefen.py` meldet ungenutzte Funktionen, Konstanten und CSS-Klassen in `index.html`. Ungenutzten Code löschen, nicht auskommentieren; doppelte Regeln zusammenführen. Bei neuen Funktionen bestehende Hilfsfunktionen wiederverwenden.
 
 ## Ablauf je Thema
 

@@ -2,7 +2,7 @@
  "id": "maximalkraft",
  "title": "Maximalkrafttraining",
  "lead": "Welche Trainingsgestaltung steigert das Einwiederholungsmaximum (1RM) am stärksten? Zusammengefasst aus Metaanalysen, systematischen Reviews und einem aktuellen Positionspapier. Die Bewertung folgt der Evidenzhierarchie: Übersichtsarbeiten über viele Studien wiegen mehr als Einzelbefunde, neuere Analysen mit mehr Daten mehr als ältere.",
- "stand": "2026-11-16",
+ "stand": "2026-11-21",
  "rxlead": "Für gesunde Erwachsene mit Trainingserfahrung, abgeleitet aus den unten bewerteten Arbeiten. Die Werte sind Orientierungsbereiche, keine festen Regeln; das aktuelle ACSM-Positionspapier betont, dass Regelmäßigkeit wichtiger ist als die exakte Feinabstimmung.",
  "rx": [
   {
@@ -1014,11 +1014,10 @@
     "Isometrisches Training steigerte die isometrische Kraft stärker als dynamisches (SMD 0,43), die isokinetische Kraft gleich (Ghayomzadeh et al., 2025).",
     "Bilaterales Training steigerte die beidbeinige Kraft stärker (ES 0,56 [0,16; 0,96]), einbeiniges die einbeinige; Hypertrophie gleich (Kassiano et al., 2025).",
     "Maschinen und freie Gewichte: Wer Kraft steigern will, sollte so trainieren, wie die Kraft getestet bzw. gebraucht wird; für allgemeine Kraft und Muskelmasse ist die Wahl frei (Heidel et al., 2022).",
-    "Variabler Widerstand mit Ketten oder Bändern brachte 5,03 kg mehr Maximalkraft als klassisches Training [2,26; 7,80] (Soria-Gila et al., 2015).",
     "Variabler Widerstand: Vorteil bei Untrainierten unter 80 % 1RM, kein Unterschied bei Lasten ≥ 80 % 1RM (ES −0,04 [−0,89; 0,81]) (Lin et al., 2022).",
     "17 Studien: variabler und klassischer Widerstand gleich wirksam für Maximalkraft im Unter- (SMD −0,10) und Oberkörper (SMD −0,17) (Andersen et al., 2022)."
    ],
-   "critic": "Spezifität ist der rote Faden: Kraft steigt am stärksten in der trainierten Bewegung und Kontraktionsform. Bei variablem Widerstand (Bänder, Ketten) widersprechen sich die Analysen: Die ältere fand einen Vorteil, die neueren keinen bzw. nur bei Untrainierten unter 80 % 1RM. Wahrscheinlich ist variabler Widerstand eine Option, aber kein Muss.",
+   "critic": "Spezifität ist der rote Faden: Kraft steigt am stärksten in der trainierten Bewegung und Kontraktionsform. Bei variablem Widerstand (Bänder, Ketten) fand eine ältere Metaanalyse einen Vorteil (Soria-Gila et al., 2015); sie wurde inzwischen zurückgezogen. Die neuere Analyse findet einen Vorteil nur bei Untrainierten unter 80 % 1RM. Wahrscheinlich ist variabler Widerstand eine Option, aber kein Muss.",
    "figs": [
     {
      "id": "mk-spez2",
@@ -1059,7 +1058,6 @@
     "ghayomzadeh2025",
     "kassiano2025",
     "heidel2022",
-    "soriagila2015",
     "lin2022",
     "andersen2022"
    ]
@@ -1691,7 +1689,8 @@
    "basis": "Abstract",
    "pmid": "25968227",
    "apa": "Soria-Gila, M. A., Chirosa, I. J., Bautista, I. J., Baena, S. &amp; Chirosa, L. J. (2015). Effects of variable resistance training on maximal strength: A meta-analysis. <em>Journal of Strength and Conditioning Research, 29</em>(11), 3260–3270.",
-   "doi": "10.1519/JSC.0000000000000971"
+   "doi": "10.1519/JSC.0000000000000971",
+   "flag": "Zurückgezogen laut PubMed (Retracted Publication, geprüft 21.11.2026); wird nicht mehr als Beleg verwendet."
   },
   "lin2022": {
    "short": "Lin et al., 2022",
@@ -2244,9 +2243,9 @@
   },
   {
    "y": 2015,
-   "t": "Variabler Widerstand vorteilhaft",
-   "p": "5 kg mehr Maximalkraft mit Ketten oder Bändern.",
-   "tag": "neu",
+   "t": "Variabler Widerstand vorteilhaft – zurückgezogen",
+   "p": "Die Metaanalyse wurde zurückgezogen und zählt nicht mehr als Beleg.",
+   "tag": "contra",
    "s": "soriagila2015"
   },
   {
@@ -2370,6 +2369,10 @@
   }
  ],
  "changelog": [
+  {
+   "d": "21.11.2026",
+   "t": "Soria-Gila et al. (2015) wurde zurückgezogen: Befund zum variablen Widerstand entfernt, Einordnung angepasst."
+  },
   {
    "d": "20.11.2026",
    "t": "Definition am Seitenanfang ergänzt (Suchomel et al., 2016)."

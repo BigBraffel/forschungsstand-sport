@@ -13,8 +13,10 @@ Eine sich selbst aktualisierende Website, die den Forschungsstand zu Trainings- 
 | `data/screening/<thema>.json` | Screening-Register: jede PubMed-Arbeit zur Suchanfrage des Themas mit Entscheidung (A aufgenommen, X geprüft/nicht im Fokus, S/P/E/C/M/K regelbasiert). Bereits gesichtete Arbeiten werden nie erneut geprüft. |
 | `data/kandidaten/<thema>.json` | Von der automatischen Abfrage gefundene neue oder geänderte Arbeiten, die inhaltlich bewertet werden müssen. `"bearbeitet": true`, sobald ausgewertet. |
 | `tools/pubmed_update.py` | PubMed-Abgleich (`scan`, `set`, `init`). |
-| `tools/scan_all.py` | Fragt alle Themen ab und legt die Kandidaten ab. |
-| `tools/pruefen.py` | Formale Prüfung der Daten (JSON, Quellenschlüssel, Abbildungen, Wirkungsübersicht). |
+| `tools/scan_all.py` | Fragt alle Themen ab und legt die Kandidaten ab; startet danach `rueckzug.py`. |
+| `tools/rueckzug.py` | Prüft alle zitierten Arbeiten auf Rückzug, Korrektur oder Bedenken (`data/kandidaten/_rueckzuege.json`). |
+| `tools/pruefen.py` | Formale Prüfung der Daten (JSON, Quellenschlüssel, Abbildungen, Wirkungsübersicht) und Suche nach ungenutztem Code. |
+| `manifest.webmanifest`, `sw.js`, `icon-*.png` | Installierbar als App und offline lesbar (nur GitHub Pages). |
 | `docs/AUSWERTUNG.md` | Verbindliche Regeln für die inhaltliche Auswertung. |
 
 ## Automatischer Ablauf (alle 2 Wochen freitags, ab 20.11.2026)
