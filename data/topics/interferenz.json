@@ -1,0 +1,964 @@
+{
+ "id": "interferenz",
+ "title": "Kraft- und Ausdauertraining kombiniert",
+ "stand": "2026-11-21",
+ "lead": "Bremst Ausdauertraining den Kraft- und Muskelaufbau, wenn beides im selben Programm trainiert wird (Interferenzeffekt)? Zusammengefasst aus Metaanalysen zu Maximalkraft, Muskelwachstum, Schnellkraft und Ausdauer sowie zu Reihenfolge, Abstand, Ausdauerform, Trainingszustand, Geschlecht und Alter.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für alle, die Kraft und Ausdauer gleichzeitig verbessern wollen. Für Freizeitsportler ist kombiniertes Training kaum ein Problem; relevant wird die Interferenz bei Trainierten, bei Schnellkraftzielen und bei viel Ausdauertraining.",
+ "rx": [
+  {
+   "label": "Grundsatz",
+   "value": "kombinieren lohnt sich",
+   "text": "Maximalkraft und Muskelmasse entwickeln sich mit zusätzlichem Ausdauertraining im Mittel fast gleich gut, die Ausdauer verbessert sich zusätzlich.",
+   "cite": "Schumann et al. 2022; Held et al. 2026"
+  },
+  {
+   "label": "Abstand",
+   "value": "getrennte Einheiten, ≥ 3 h",
+   "text": "Der Nachteil für Schnellkraft und für die Beinkraft Trainierter zeigte sich vor allem, wenn beides in derselben Einheit stattfand.",
+   "cite": "Schumann et al. 2022; Petré et al. 2021"
+  },
+  {
+   "label": "Reihenfolge",
+   "value": "Kraft vor Ausdauer",
+   "text": "Wenn beides in eine Einheit muss und Beinkraft Priorität hat: erst Kraft, dann Ausdauer. Für die Ausdauer ist die Reihenfolge egal.",
+   "cite": "Eddens et al. 2018; Murlasits et al. 2018; Gao &amp; Yu 2023"
+  },
+  {
+   "label": "Ausdauerumfang",
+   "value": "so viel wie nötig",
+   "text": "Je häufiger und länger das Ausdauertraining, desto größer die Einbußen bei Kraft, Masse und Schnellkraft. Kurze Sprintintervalle störten nicht.",
+   "cite": "Wilson et al. 2012; Ferraro-Farro et al. 2026"
+  },
+  {
+   "label": "Ausdauersportler",
+   "value": "Krafttraining ergänzen",
+   "text": "Zusätzliches, vor allem schweres Krafttraining verbesserte Laufökonomie und Leistung über Mittel- und Langstrecke.",
+   "cite": "Berryman et al. 2018; Denadai et al. 2017; Llanos-Lagos et al. 2026"
+  }
+ ],
+ "note": "<b>Ernährung:</b> Die ausgewerteten Arbeiten untersuchen keine Ernährungsfaktoren. Zu Energie- und Kohlenhydratbedarf bei hohem Gesamtumfang siehe <a href=\"#energiebilanz\">Energiebilanz</a> und <a href=\"#kohlenhydrate\">Kohlenhydrate</a>; zur Proteinzufuhr <a href=\"#protein\">Protein</a>.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Maximalkraft und Muskelmasse leiden im Mittel kaum",
+   "ev": "hoch",
+   "p": "In 43 Studien unterschied sich die Entwicklung von Maximalkraft und Muskelquerschnitt mit und ohne zusätzliches Ausdauertraining nicht; ein Umbrella Review über 17 Metaanalysen bestätigt das.",
+   "s": [
+    "schumann2022",
+    "held2026",
+    "pito2022"
+   ]
+  },
+  {
+   "t": "Schnellkraft ist am empfindlichsten",
+   "ev": "moderat",
+   "p": "Der Zuwachs an Schnellkraft fiel mit kombiniertem Training kleiner aus, vor allem bei Training in derselben Einheit.",
+   "s": [
+    "schumann2022",
+    "wilson2012"
+   ]
+  },
+  {
+   "t": "Trainierte Männer und Beinkraft sind am stärksten betroffen",
+   "ev": "moderat",
+   "p": "Ein Nachteil für die Beinkraft zeigte sich bei Trainierten und bei Männern, nicht bei Untrainierten und Frauen; bei Trainierten nur, wenn beides in derselben Einheit stattfand.",
+   "s": [
+    "petre2021",
+    "huiberts2024"
+   ]
+  },
+  {
+   "t": "Kraft vor Ausdauer, wenn beides in eine Einheit muss",
+   "ev": "moderat",
+   "p": "Die Reihenfolge Kraft–Ausdauer brachte mehr dynamische Beinkraft; Muskelmasse und VO₂max blieben unbeeinflusst.",
+   "s": [
+    "eddens2018",
+    "murlasits2018",
+    "gao2023"
+   ]
+  },
+  {
+   "t": "Die Ausdauer profitiert, sie leidet nicht",
+   "ev": "hoch",
+   "p": "Die VO₂max steigt mit kombiniertem Training ebenso wie mit reinem Ausdauertraining; Ausdauersportler verbessern durch Krafttraining sogar ihre Leistung.",
+   "s": [
+    "held2026",
+    "zhao2026",
+    "berryman2018"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "kraft",
+   "name": "Maximalkraft",
+   "q": "Steigt die Maximalkraft mit zusätzlichem Ausdauertraining weniger?",
+   "ev": "hoch",
+   "key": [
+    "43 Studien: kein Unterschied in der Maximalkraft zwischen kombiniertem Training und reinem Krafttraining (SMD −0,06 [−0,20; 0,09]) (Schumann et al., 2022).",
+    "Umbrella Review über 17 Metaanalysen mit 144 Studien und 1 492 Gesunden: Kraft, Schnellkraft und Muskelwachstum entwickelten sich mit kombiniertem Training vergleichbar wie mit reinem Krafttraining (Held et al., 2026).",
+    "21 Studien mit 796 Personen: ähnlicher 1RM-Zuwachs für Oberkörper (SMD 0,12 [−0,18; 0,41]) und Unterkörper (SMD −0,32 [−0,79; 0,15]) (Pito et al., 2022).",
+    "27 Studien: Bei Trainierten fiel der Zuwachs im Beinpressen- und Kniebeuge-1RM kleiner aus (ES −0,35), bei mäßig Trainierten (−0,20) und Untrainierten (0,03) nicht signifikant (Petré et al., 2021).",
+    "59 Studien mit 1 346 Personen: abgeschwächter Kraftzuwachs im Unterkörper bei Männern (−0,43 [−0,64; −0,22]), nicht bei Frauen (0,08 [−0,34; 0,49]); kein Unterschied im Oberkörper (Huiberts et al., 2024).",
+    "21 Studien (2012): Effektstärke für Kraft 1,76 bei reinem Kraft-, 1,44 bei kombiniertem und 0,78 bei reinem Ausdauertraining; kombiniert und Kraft lagen beide signifikant über Ausdauer (Wilson et al., 2012).",
+    "Bei trainierten Mannschaftssportlern mit HIIT als Ausdauerform keine Beeinträchtigung; signifikanter Unterschied in der Beinmaximalkraft, laut Abstract zugunsten des kombinierten Trainings (MD 4,20 kg [0,71; 7,68]) (Kang et al., 2022)."
+   ],
+   "critic": "Die Befunde passen zusammen, wenn man nach Gruppen trennt: Über alle Studien hinweg ist der Nachteil klein und nicht signifikant (Schumann et al., 2022; Held et al., 2026). Er wird sichtbar bei Trainierten, Männern und der Beinkraft (Petré et al., 2021; Huiberts et al., 2024). Wahrscheinlichste Lesart: Für Einsteiger und Freizeitsportler ist die Interferenz bei der Maximalkraft praktisch bedeutungslos; wer bereits viel Kraft hat und die Beine maximal entwickeln will, sollte sie ernst nehmen. Einschränkungen: meist kurze Studien (wenige Wochen bis Monate), Hochtrainierte und Frauen sind wenig untersucht. Grundlagen des Maximalkrafttrainings siehe <a href=\"#maximalkraft\">Maximalkrafttraining</a>.",
+   "figs": [
+    {
+     "id": "int-ueberblick",
+     "title": "Kombiniert vs. reines Krafttraining",
+     "cap": "SMD mit 95-%-KI. Negative Werte = geringerer Zuwachs mit zusätzlichem Ausdauertraining.",
+     "wide": true,
+     "type": "forest",
+     "data": [
+      {
+       "l": "Maximalkraft",
+       "sub": "Schumann et al., 2022",
+       "es": -0.06,
+       "lo": -0.2,
+       "hi": 0.09
+      },
+      {
+       "l": "1RM Oberkörper",
+       "sub": "Pito et al., 2022",
+       "es": 0.12,
+       "lo": -0.18,
+       "hi": 0.41
+      },
+      {
+       "l": "1RM Unterkörper",
+       "sub": "Pito et al., 2022",
+       "es": -0.32,
+       "lo": -0.79,
+       "hi": 0.15
+      },
+      {
+       "l": "Schnellkraft",
+       "sub": "Schumann et al., 2022",
+       "es": -0.28,
+       "lo": -0.48,
+       "hi": -0.08
+      },
+      {
+       "l": "Muskelquerschnitt",
+       "sub": "Schumann et al., 2022",
+       "es": -0.01,
+       "lo": -0.16,
+       "hi": 0.18
+      },
+      {
+       "l": "Muskelfaserquerschnitt",
+       "sub": "Lundberg et al., 2022",
+       "es": -0.23,
+       "lo": -0.46,
+       "hi": 0.0
+      }
+     ],
+     "opts": {
+      "min": -0.9,
+      "max": 0.5,
+      "ticks": [
+       -0.8,
+       -0.4,
+       0,
+       0.4
+      ],
+      "leftLab": "reines Krafttraining besser",
+      "rightLab": "kombiniert besser"
+     }
+    }
+   ],
+   "s": [
+    "schumann2022",
+    "held2026",
+    "pito2022",
+    "petre2021",
+    "huiberts2024",
+    "wilson2012",
+    "kang2022"
+   ]
+  },
+  {
+   "id": "hypertrophie",
+   "name": "Muskelwachstum",
+   "q": "Wachsen die Muskeln mit zusätzlichem Ausdauertraining weniger?",
+   "ev": "moderat",
+   "key": [
+    "43 Studien: kein Unterschied im Muskelwachstum gegenüber reinem Krafttraining (SMD −0,01 [−0,16; 0,18]) (Schumann et al., 2022).",
+    "25 Studien: auf Ebene des ganzen Muskels kein Unterschied für keine Form des kombinierten Trainings (SMD < 0,03); auf Ebene der Muskelfasern größeres Wachstum mit reinem Krafttraining, wenn HIIT allein (SMD > 0,33) oder zusammen mit Dauertraining (SMD > 0,27) ergänzt wurde (Monserdà-Vilaró et al., 2023).",
+    "15 Studien: kleiner Nachteil beim Wachstum der Muskelfasern insgesamt (SMD −0,23 [−0,46; −0,00]); bei Typ-I-Fasern deutlich, wenn das Ausdauertraining aus Laufen bestand (SMD −0,81 [−1,26; −0,36]), nicht bei Radfahren (Lundberg et al., 2022).",
+    "21 Studien (2012): Effektstärke für Hypertrophie 1,23 bei reinem Kraft-, 0,85 bei kombiniertem und 0,27 bei reinem Ausdauertraining (Wilson et al., 2012).",
+    "Für Frauen und Männer getrennt reichten die Daten zur Hypertrophie nicht für eine Aussage (Huiberts et al., 2024)."
+   ],
+   "critic": "Widerspruch zwischen Messebenen: Am ganzen Muskel (Ultraschall, MRT) zeigt sich kein Nachteil, an den Fasern (Biopsie) ein kleiner. Die Faseranalysen beruhen auf weniger Studien und kleinen Gruppen, messen aber direkter. Wahrscheinlichste Lesart: Ein kleiner Nachteil ist möglich, vor allem bei hochintensiven Intervallen oder viel Laufen, ist im Muskelquerschnitt aber nicht messbar. Die ältere Metaanalyse (Wilson et al., 2012) fand einen deutlicheren Unterschied; sie umfasste weniger Studien und verglich Effektstärken der Gruppen, nicht direkt gegeneinander. Grundlagen des Muskelaufbaus siehe <a href=\"#hypertrophie\">Hypertrophietraining</a>.",
+   "figs": [
+    {
+     "id": "int-wilson",
+     "title": "Stand 2012: Effektstärken nach Trainingsform",
+     "cap": "Mittlere Effektstärke der Veränderung je Trainingsform aus 21 Studien (Wilson et al., 2012). Kein Konfidenzintervall im Abstract.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Kraft: nur Kraft",
+       "es": 1.76
+      },
+      {
+       "l": "Kraft: kombiniert",
+       "es": 1.44
+      },
+      {
+       "l": "Kraft: nur Ausdauer",
+       "es": 0.78
+      },
+      {
+       "l": "Hypertrophie: nur Kraft",
+       "es": 1.23
+      },
+      {
+       "l": "Hypertrophie: kombiniert",
+       "es": 0.85
+      },
+      {
+       "l": "Hypertrophie: nur Ausdauer",
+       "es": 0.27
+      },
+      {
+       "l": "Schnellkraft: nur Kraft",
+       "es": 0.91
+      },
+      {
+       "l": "Schnellkraft: kombiniert",
+       "es": 0.55
+      },
+      {
+       "l": "Schnellkraft: nur Ausdauer",
+       "es": 0.11
+      }
+     ],
+     "opts": {
+      "max": 2.0,
+      "ticks": [
+       0,
+       0.5,
+       1.0,
+       1.5,
+       2.0
+      ],
+      "xlab": "Effektstärke",
+      "src": "Wilson et al., 2012"
+     }
+    }
+   ],
+   "s": [
+    "schumann2022",
+    "monserda2023",
+    "lundberg2022",
+    "wilson2012",
+    "huiberts2024"
+   ]
+  },
+  {
+   "id": "schnellkraft",
+   "name": "Schnellkraft",
+   "q": "Wird die Explosivkraft gebremst?",
+   "ev": "moderat",
+   "key": [
+    "43 Studien: kleinerer Zuwachs an Schnellkraft mit kombiniertem Training (SMD −0,28 [−0,48; −0,08]); deutlicher bei Training in derselben Einheit als bei mindestens 3 h Abstand (Schumann et al., 2022).",
+    "21 Studien (2012): Bei der Schnellkraft unterschieden sich alle drei Gruppen signifikant (Kraft 0,91, kombiniert 0,55, Ausdauer 0,11) (Wilson et al., 2012).",
+    "Mit Sprintintervallen als Ausdauerform kein Nachteil bei Sprung (SMD 0,11) und Sprint (SMD −0,01), 9 Studien; mit kurzen Sprints (≤ 10 s) sogar größere Sprungzuwächse (SMD 0,41) (Ferraro-Farro et al., 2026).",
+    "Bei trainierten Mannschaftssportlern mit HIIT kein Unterschied in der Beinschnellkraft (SMD 0,08 [−0,23; 0,39]) (Kang et al., 2022).",
+    "Umbrella Review: Schnellkraft vergleichbar mit reinem Krafttraining (Held et al., 2026)."
+   ],
+   "critic": "Schnellkraft ist die Fähigkeit mit dem konsistentesten Nachteil; das deckt sich über 2012 und 2022 hinweg. Das Umbrella Review findet keinen Unterschied, fasst aber Metaanalysen unterschiedlicher Fragestellung zusammen; die spezifische Analyse mit 43 Studien wiegt für diese Frage schwerer. Kurze, intensive Sprints als Ausdauerform scheinen die Schnellkraft nicht zu stören, beruhen aber auf nur 9 kleinen Studien.",
+   "figs": [],
+   "s": [
+    "schumann2022",
+    "wilson2012",
+    "ferraro2026",
+    "kang2022",
+    "held2026"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Ausdauer und Körperfett",
+   "q": "Leidet die Ausdauer unter zusätzlichem Krafttraining?",
+   "ev": "hoch",
+   "key": [
+    "Umbrella Review: vergleichbare Verbesserung der aeroben Kapazität mit kombiniertem und reinem Ausdauertraining; gegenüber reinem Krafttraining verbesserte kombiniertes Training die aerobe Kapazität (SMD 0,77) und gegenüber reinem Ausdauertraining die Kraft (SMD 0,59) (Held et al., 2026).",
+    "VO₂max mit kombiniertem Training gleich wie mit reinem Ausdauertraining (SMD −0,12 [−0,28; 0,05]); geringer nur, wenn das Ausdauertraining zugunsten des Krafttrainings reduziert wurde, bei Untrainierten und in 16-Wochen-Programmen (Zhao et al., 2026). Details siehe <a href=\"#ausdauer\">Ausdauertraining</a>.",
+    "Untrainierte, nicht aber trainierte oder hochtrainierte Ausdauersportler, steigerten die VO₂max mit kombiniertem Training weniger (Huiberts et al., 2024).",
+    "28 Studien: Ein zusätzlicher Krafttrainingsblock verbesserte die Leistung über Mittel- und Langstrecke (SMD 0,52 [0,33; 0,70]) über geringere Energiekosten der Fortbewegung (0,65 [0,32; 0,98]); Maximalkrafttraining wirkte am besten (Berryman et al., 2018).",
+    "Explosives und schweres Krafttraining verbesserten die Laufökonomie ähnlich (−4,83 % bzw. −3,65 %), isometrisches Training nicht signifikant (Denadai et al., 2017).",
+    "17 Studien mit Radsportlern: schweres Krafttraining verbesserte Effizienz (ES 0,353), anaerobe Leistung (ES 0,560) und Radleistung (ES 0,463) ohne Veränderung der VO₂max (Llanos-Lagos et al., 2026).",
+    "36 Studien mit 1 564 Personen: kombiniertes Training senkte die Fettmasse stärker als reines Krafttraining (MD −1,09 kg [−1,91; −0,27]); beim Körperfettanteil kein Unterschied zwischen den Trainingsformen (Lafontant et al., 2025)."
+   ],
+   "critic": "In umgekehrter Richtung ist die Interferenz gering: Die Ausdauer leidet nicht, solange der Ausdauerumfang nicht gekürzt wird. Die Ausnahme bei Untrainierten (Huiberts et al., 2024; Zhao et al., 2026) beruht auf wenigen Studien. Die Befunde zu Ausdauersportlern sind konsistent über drei Metaanalysen und mehrere Sportarten, die Studien sind aber meist klein und kurz.",
+   "figs": [
+    {
+     "id": "int-ausdauersport",
+     "title": "Krafttraining für Ausdauersportler",
+     "cap": "SMD bzw. ES gegenüber Kontrolle mit 95-%-KI, wo angegeben (Berryman et al., 2018; Llanos-Lagos et al., 2026). Werte rechts von 0 = Verbesserung durch zusätzliches Krafttraining.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Leistung Mittel-/Langstrecke",
+       "sub": "Berryman et al., 2018",
+       "es": 0.52,
+       "lo": 0.33,
+       "hi": 0.7
+      },
+      {
+       "l": "Energiekosten der Fortbewegung",
+       "sub": "Berryman et al., 2018",
+       "es": 0.65,
+       "lo": 0.32,
+       "hi": 0.98
+      },
+      {
+       "l": "Maximalkraft",
+       "sub": "Berryman et al., 2018",
+       "es": 0.99,
+       "lo": 0.8,
+       "hi": 1.18
+      },
+      {
+       "l": "Radleistung",
+       "sub": "Llanos-Lagos et al., 2026",
+       "es": 0.463
+      },
+      {
+       "l": "Effizienz beim Radfahren",
+       "sub": "Llanos-Lagos et al., 2026",
+       "es": 0.353
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.3,
+      "ticks": [
+       0,
+       0.4,
+       0.8,
+       1.2
+      ],
+      "leftLab": "schlechter",
+      "rightLab": "besser mit Krafttraining"
+     }
+    }
+   ],
+   "s": [
+    "held2026",
+    "zhao2026",
+    "huiberts2024",
+    "berryman2018",
+    "denadai2017",
+    "llanos2026",
+    "lafontant2025"
+   ]
+  },
+  {
+   "id": "zeitpunkt",
+   "name": "Reihenfolge und Abstand",
+   "q": "Was zuerst, und wie viel Pause dazwischen?",
+   "ev": "moderat",
+   "key": [
+    "10 Studien: Reihenfolge Kraft vor Ausdauer brachte mehr dynamische Beinkraft (+6,91 % [1,96; 11,87]); kein Unterschied bei Muskelwachstum (1,15 % [−1,56; 3,87]), isometrischer Kraft, VO₂max und Körperfett (Eddens et al., 2018).",
+    "Kraft vor Ausdauer: Beinkraft im 1RM um 3,96 kg [0,81; 7,10] höher, kein Effekt auf die aerobe Kapazität (0,39 ml/kg/min [−1,03; 1,81]) (Murlasits et al., 2018).",
+    "19 RCTs mit 482 Personen: Kraft vor Ausdauer steigerte die Beinkraft stärker (SMD 0,19 [0,02; 0,37]), VO₂max unverändert (SMD 0,02 [−0,21; 0,25]); keine Wirkung auf die Beinschnellkraft (Gao &amp; Yu, 2023).",
+    "Umbrella Review: kein signifikanter Effekt der Reihenfolge, aber Tendenzen zugunsten Kraft vor Ausdauer für Kraft und Muskelwachstum (Held et al., 2026).",
+    "Trainierte: Nachteil für die Beinkraft nur bei Kraft und Ausdauer in derselben Einheit (ES −0,66), nicht in getrennten Einheiten (ES −0,10) (Petré et al., 2021).",
+    "Der Schnellkraftnachteil war bei Training in derselben Einheit größer als bei mindestens 3 h Abstand (Schumann et al., 2022).",
+    "Akut: Ausdauerbelastung senkte die unmittelbar folgende Kraft bei trainierten Männern deutlich (SMD 0,79), stärker nach über 30 min (SMD 1,02) als nach höchstens 30 min (SMD 0,59); 15 Studien (Markov et al., 2022)."
+   ],
+   "critic": "Drei ältere und eine neuere Metaanalyse stimmen überein: Kraft vor Ausdauer nützt der Beinkraft, Ausdauer und Muskelmasse bleiben unberührt. Das Umbrella Review sieht nur eine Tendenz; es berichtet jedoch für die Reihenfolge einen großen, signifikanten Effektwert (SMD 1,69; p &lt; 0,001) bei gleichzeitig „keinem signifikanten Effekt“, was im Abstract widersprüchlich ist. Die Einzelanalysen sind hier aussagekräftiger. Der Abstand ist wahrscheinlich wichtiger als die Reihenfolge: Die Akutdaten zeigen, dass vorausgehende Ausdauerbelastung die Kraftleistung der folgenden Einheit mindert.",
+   "figs": [
+    {
+     "id": "int-reihenfolge",
+     "title": "Kraft vor Ausdauer vs. Ausdauer vor Kraft",
+     "cap": "Gewichtete mittlere Differenz der prozentualen Veränderung mit 95-%-KI (Eddens et al., 2018; 10 Studien). Positive Werte = Vorteil für Kraft vor Ausdauer.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Dynamische Beinkraft",
+       "sub": "Eddens et al., 2018",
+       "es": 6.91,
+       "lo": 1.96,
+       "hi": 11.87
+      },
+      {
+       "l": "Muskelwachstum Bein",
+       "sub": "Eddens et al., 2018",
+       "es": 1.15,
+       "lo": -1.56,
+       "hi": 3.87
+      },
+      {
+       "l": "Isometrische Beinkraft",
+       "sub": "Eddens et al., 2018",
+       "es": -0.04,
+       "lo": -3.19,
+       "hi": 3.11
+      }
+     ],
+     "opts": {
+      "min": -4,
+      "max": 13,
+      "ticks": [
+       -4,
+       0,
+       4,
+       8,
+       12
+      ],
+      "unit": "%",
+      "leftLab": "Ausdauer zuerst besser",
+      "rightLab": "Kraft zuerst besser"
+     }
+    },
+    {
+     "id": "int-status",
+     "title": "Trainingszustand und Einheitenabstand",
+     "cap": "Effektstärke für das Bein-1RM, kombiniert vs. reines Krafttraining (Petré et al., 2021; 27 Studien). Kein Konfidenzintervall im Abstract. Negative Werte = geringerer Zuwachs mit kombiniertem Training.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Untrainierte",
+       "sub": "Petré et al., 2021",
+       "es": 0.03
+      },
+      {
+       "l": "Mäßig Trainierte",
+       "sub": "Petré et al., 2021",
+       "es": -0.2
+      },
+      {
+       "l": "Trainierte",
+       "sub": "Petré et al., 2021",
+       "es": -0.35
+      },
+      {
+       "l": "Trainierte, getrennte Einheiten",
+       "sub": "Petré et al., 2021",
+       "es": -0.1
+      },
+      {
+       "l": "Trainierte, gleiche Einheit",
+       "sub": "Petré et al., 2021",
+       "es": -0.66
+      }
+     ],
+     "opts": {
+      "min": -0.8,
+      "max": 0.2,
+      "ticks": [
+       -0.8,
+       -0.6,
+       -0.4,
+       -0.2,
+       0
+      ],
+      "leftLab": "reines Krafttraining besser",
+      "rightLab": "kombiniert besser"
+     }
+    }
+   ],
+   "s": [
+    "eddens2018",
+    "murlasits2018",
+    "gao2023",
+    "held2026",
+    "petre2021",
+    "schumann2022",
+    "markov2022"
+   ]
+  },
+  {
+   "id": "form",
+   "name": "Ausdauerform, Umfang und Frequenz",
+   "q": "Laufen oder Rad, Intervalle oder Dauer, wie viel?",
+   "ev": "niedrig",
+   "key": [
+    "2012: Kombiniert mit Laufen, nicht mit Radfahren, signifikante Einbußen bei Hypertrophie und Kraft; Häufigkeit (r −0,26 bis −0,35) und Dauer (r −0,29 bis −0,75) des Ausdauertrainings hingen negativ mit Kraft, Hypertrophie und Schnellkraft zusammen (Wilson et al., 2012).",
+    "2022: Kein Einfluss der Ausdauerform (Rad vs. Laufen) und der Häufigkeit (über vs. unter 5 Einheiten pro Woche) auf Maximalkraft, Schnellkraft und Muskelwachstum (Schumann et al., 2022).",
+    "Mit HIIT als Ausdauerform kleinerer Zuwachs an Beinkraft (ES −0,248), tendenziell bei Rad-HIIT (ES −0,377) stärker als bei Lauf-HIIT (ES −0,176); Muskelwachstum und Oberkörperkraft unbeeinträchtigt (Sabag et al., 2018).",
+    "Laufen beeinträchtigte das Wachstum der Typ-I-Fasern (SMD −0,81), Radfahren nicht (Lundberg et al., 2022).",
+    "Netzwerk-Metaanalyse mit 40 Studien und 841 Personen: Für die Beinmaximalkraft waren alle Formen des kombinierten Trainings reinem Krafttraining unterlegen, HIIT mit dem kleinsten Nachteil (SMD −0,08 [−0,25; 0,08]); kein Unterschied war signifikant (Chen et al., 2024).",
+    "9 Studien: Sprintintervalle störten Kraft, Sprung und Sprint nicht und steigerten die VO₂max gegenüber reinem Krafttraining (SMD 0,78) (Ferraro-Farro et al., 2026)."
+   ],
+   "critic": "Hier widersprechen sich die Analysen am stärksten. Die ältere Metaanalyse (Wilson et al., 2012) sah Laufen als ungünstiger; die größere, neuere (Schumann et al., 2022) fand keinen Einfluss der Ausdauerform, eine Analyse zu HIIT eher einen Nachteil beim Radfahren (Sabag et al., 2018), eine Faseranalyse wieder beim Laufen (Lundberg et al., 2022). Das Muster ist nicht konsistent, Untergruppen enthalten oft wenige Studien. Wahrscheinlichste Lesart: Die Ausdauerform ist zweitrangig; entscheidend sind Gesamtumfang und Dauer des Ausdauertrainings, für die der Zusammenhang am klarsten belegt ist.",
+   "figs": [],
+   "s": [
+    "wilson2012",
+    "schumann2022",
+    "sabag2018",
+    "lundberg2022",
+    "chen2024",
+    "ferraro2026"
+   ]
+  },
+  {
+   "id": "person",
+   "name": "Trainingszustand, Geschlecht und Alter",
+   "q": "Für wen ist die Interferenz relevant?",
+   "ev": "moderat",
+   "key": [
+    "Nachteil für die Beinkraft nur bei Trainierten (ES −0,35), nicht bei Untrainierten (0,03) (Petré et al., 2021).",
+    "Abgeschwächter Kraftzuwachs im Unterkörper bei Männern, nicht bei Frauen; kein Unterschied nach Trainingszustand für Kraft (Huiberts et al., 2024).",
+    "Kein Einfluss von Trainingszustand (untrainiert vs. aktiv) und Alter (unter vs. über 40 Jahre) (Schumann et al., 2022).",
+    "49 Studien mit 2 587 Personen über 50 Jahre: kein Nachteil von kombiniertem Training gegenüber reinem Kraft- oder Ausdauertraining (Bein SMD 0,07; Oberkörper SMD −0,07 gegenüber Krafttraining) (Khalafi et al., 2022).",
+    "15 Studien mit 566 gesunden 50- bis 73-Jährigen: kombiniertes Training verbesserte Kraft (SMD 0,74), Schnellkraft (SMD 0,50) und Ausdauer (SMD 0,48); Ältere über 65 Jahre und Frauen mit größeren Kraftzuwächsen (Markov et al., 2023)."
+   ],
+   "critic": "Zum Trainingszustand widersprechen sich zwei Metaanalysen: Petré et al. (2021) finden den Nachteil nur bei Trainierten, Huiberts et al. (2024) mit mehr Studien keinen Unterschied nach Trainingszustand, dafür nach Geschlecht. Beide stützen aber, dass Untrainierte und Ältere kaum betroffen sind. Für Ältere ist kombiniertes Training nach zwei Metaanalysen uneingeschränkt sinnvoll. Für Frauen fehlen direkte Vergleiche: Ein systematischer Review mit 14 Studien fand keine, die den Interferenzeffekt bei Frauen gezielt untersucht hat; kombiniertes Training verbesserte bei ihnen aber Kraft und Ausdauer (Mikkonen et al., 2024).",
+   "figs": [
+    {
+     "id": "int-geschlecht",
+     "title": "Beinkraft nach Geschlecht",
+     "cap": "SMD mit 95-%-KI, kombiniert vs. reines Krafttraining (Huiberts et al., 2024; 59 Studien). Negative Werte = geringerer Zuwachs mit kombiniertem Training.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Männer",
+       "sub": "Huiberts et al., 2024",
+       "es": -0.43,
+       "lo": -0.64,
+       "hi": -0.22
+      },
+      {
+       "l": "Frauen",
+       "sub": "Huiberts et al., 2024",
+       "es": 0.08,
+       "lo": -0.34,
+       "hi": 0.49
+      }
+     ],
+     "opts": {
+      "min": -0.8,
+      "max": 0.6,
+      "ticks": [
+       -0.6,
+       -0.3,
+       0,
+       0.3,
+       0.6
+      ],
+      "leftLab": "reines Krafttraining besser",
+      "rightLab": "kombiniert besser"
+     }
+    }
+   ],
+   "s": [
+    "petre2021",
+    "huiberts2024",
+    "schumann2022",
+    "khalafi2022",
+    "markov2023",
+    "mikkonen2024"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2012,
+   "t": "Interferenz hängt vom Ausdauertraining ab",
+   "p": "Laufen, hohe Häufigkeit und lange Dauer des Ausdauertrainings mindern Kraft, Hypertrophie und Schnellkraft.",
+   "tag": "neu",
+   "s": "wilson2012"
+  },
+  {
+   "y": 2017,
+   "t": "Krafttraining verbessert die Laufökonomie",
+   "p": "Explosives und schweres Krafttraining senken die Energiekosten beim Laufen.",
+   "tag": "neu",
+   "s": "denadai2017"
+  },
+  {
+   "y": 2018,
+   "t": "Kraft vor Ausdauer für die Beinkraft",
+   "p": "Reihenfolge Kraft–Ausdauer bringt mehr dynamische Beinkraft, sonst keinen Unterschied.",
+   "tag": "neu",
+   "s": "eddens2018"
+  },
+  {
+   "y": 2018,
+   "t": "Reihenfolge bestätigt",
+   "p": "Kraft vor Ausdauer: knapp 4 kg mehr im Bein-1RM, VO₂max unberührt.",
+   "tag": "conf",
+   "s": "murlasits2018"
+  },
+  {
+   "y": 2018,
+   "t": "HIIT und Krafttraining",
+   "p": "Kleiner Nachteil für die Beinkraft, keiner für Muskelwachstum.",
+   "tag": "conf",
+   "s": "sabag2018"
+  },
+  {
+   "y": 2018,
+   "t": "Krafttraining für Ausdauersportler",
+   "p": "Moderate Leistungsverbesserung über Mittel- und Langstrecke.",
+   "tag": "neu",
+   "s": "berryman2018"
+  },
+  {
+   "y": 2021,
+   "t": "Trainierte sind betroffen",
+   "p": "Nachteil für die Beinkraft nur bei Trainierten und nur in derselben Einheit.",
+   "tag": "neu",
+   "s": "petre2021"
+  },
+  {
+   "y": 2022,
+   "t": "Kein Nachteil für Maximalkraft und Hypertrophie",
+   "p": "43 Studien: nur die Schnellkraft leidet; die Ausdauerform spielt keine Rolle.",
+   "tag": "rel",
+   "s": "schumann2022"
+  },
+  {
+   "y": 2022,
+   "t": "1RM und VO₂max vereinbar",
+   "p": "Ähnliche Kraft- und Ausdauerzuwächse wie mit Einzeltraining.",
+   "tag": "conf",
+   "s": "pito2022"
+  },
+  {
+   "y": 2022,
+   "t": "Kleiner Nachteil auf Faserebene",
+   "p": "Muskelfasern wachsen mit kombiniertem Training etwas weniger, vor allem mit Laufen.",
+   "tag": "contra",
+   "s": "lundberg2022"
+  },
+  {
+   "y": 2022,
+   "t": "Mannschaftssport mit HIIT",
+   "p": "Keine Beeinträchtigung bei trainierten Mannschaftssportlern.",
+   "tag": "conf",
+   "s": "kang2022"
+  },
+  {
+   "y": 2022,
+   "t": "Ältere profitieren ohne Nachteil",
+   "p": "Über 50-Jährige: kombiniertes Training so wirksam wie Einzeltraining.",
+   "tag": "neu",
+   "s": "khalafi2022"
+  },
+  {
+   "y": 2022,
+   "t": "Akute Ermüdung durch Ausdauer",
+   "p": "Vorausgehende Ausdauerbelastung senkt die Kraft der folgenden Einheit.",
+   "tag": "neu",
+   "s": "markov2022"
+  },
+  {
+   "y": 2023,
+   "t": "Kombiniertes Training im mittleren und höheren Alter",
+   "p": "Gute Zuwächse bei Kraft, Schnellkraft und Ausdauer.",
+   "tag": "conf",
+   "s": "markov2023"
+  },
+  {
+   "y": 2023,
+   "t": "HIIT und Faserwachstum",
+   "p": "Ganzer Muskel unbeeinflusst, Fasern wachsen mit HIIT weniger.",
+   "tag": "conf",
+   "s": "monserda2023"
+  },
+  {
+   "y": 2023,
+   "t": "Reihenfolge erneut bestätigt",
+   "p": "19 RCTs: Kraft vor Ausdauer für die Beinkraft, VO₂max unverändert.",
+   "tag": "conf",
+   "s": "gao2023"
+  },
+  {
+   "y": 2024,
+   "t": "Netzwerkvergleich der Ausdauerformen",
+   "p": "HIIT mit dem kleinsten Nachteil für die Beinkraft, kein Unterschied signifikant.",
+   "tag": "neu",
+   "s": "chen2024"
+  },
+  {
+   "y": 2024,
+   "t": "Frauen kaum untersucht",
+   "p": "Kombiniertes Training wirkt bei Frauen, die Interferenz wurde nie gezielt geprüft.",
+   "tag": "neu",
+   "s": "mikkonen2024"
+  },
+  {
+   "y": 2024,
+   "t": "Männer stärker betroffen als Frauen",
+   "p": "Nachteil für die Beinkraft bei Männern, nicht bei Frauen.",
+   "tag": "neu",
+   "s": "huiberts2024"
+  },
+  {
+   "y": 2025,
+   "t": "Kombiniertes Training und Körperfett",
+   "p": "Mehr Fettverlust als mit reinem Krafttraining.",
+   "tag": "neu",
+   "s": "lafontant2025"
+  },
+  {
+   "y": 2026,
+   "t": "Umbrella Review: kombinieren lohnt sich",
+   "p": "17 Metaanalysen: Kraft und Ausdauer steigen fast wie im Einzeltraining.",
+   "tag": "conf",
+   "s": "held2026"
+  },
+  {
+   "y": 2026,
+   "t": "Sprintintervalle ohne Interferenz",
+   "p": "Kraft und Sprung unbeeinträchtigt, VO₂max höher.",
+   "tag": "neu",
+   "s": "ferraro2026"
+  },
+  {
+   "y": 2026,
+   "t": "VO₂max mit kombiniertem Training",
+   "p": "Nur reduziertes Ausdauertraining bremst die VO₂max.",
+   "tag": "conf",
+   "s": "zhao2026"
+  },
+  {
+   "y": 2026,
+   "t": "Krafttraining im Radsport",
+   "p": "Bessere Effizienz und Radleistung ohne Änderung der VO₂max.",
+   "tag": "conf",
+   "s": "llanos2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "21.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 2 303 Einträgen, 198 Übersichtsarbeiten nach Titel geprüft, 24 Quellen aufgenommen."
+  }
+ ],
+ "def": {
+  "t": "Kombiniertes Training (englisch concurrent training) verbindet Kraft- und Ausdauertraining im selben Trainingsprogramm. Als Interferenzeffekt wird bezeichnet, dass die Anpassungen dabei geringer ausfallen können als bei alleinigem Kraft- oder Ausdauertraining, vor allem bei Kraft, Schnellkraft und Muskelwachstum.",
+  "s": [
+   "held2026",
+   "huiberts2024"
+  ]
+ },
+ "sources": {
+  "wilson2012": {
+   "short": "Wilson et al., 2012",
+   "year": 2012,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "22002517",
+   "apa": "Wilson, J. M., Marin, P. J., Rhea, M. R., Wilson, S. M., Loenneke, J. P. &amp; Anderson, J. C. (2012). Concurrent training: A meta-analysis examining interference of aerobic and resistance exercises. <em>Journal of Strength and Conditioning Research, 26</em>(8), 2293–2307.",
+   "doi": "10.1519/JSC.0b013e31823a3e2d"
+  },
+  "denadai2017": {
+   "short": "Denadai et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27497600",
+   "apa": "Denadai, B. S., de Aguiar, R. A., de Lima, L. C., Greco, C. C. &amp; Caputo, F. (2017). Explosive training and heavy weight training are effective for improving running economy in endurance athletes: A systematic review and meta-analysis. <em>Sports Medicine, 47</em>(3), 545–554.",
+   "doi": "10.1007/s40279-016-0604-z"
+  },
+  "eddens2018": {
+   "short": "Eddens et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28917030",
+   "apa": "Eddens, L., van Someren, K. &amp; Howatson, G. (2018). The role of intra-session exercise sequence in the interference effect: A systematic review with meta-analysis. <em>Sports Medicine, 48</em>(1), 177–188.",
+   "doi": "10.1007/s40279-017-0784-1"
+  },
+  "murlasits2018": {
+   "short": "Murlasits et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28783467",
+   "apa": "Murlasits, Z., Kneffel, Z. &amp; Thalib, L. (2018). The physiological effects of concurrent strength and endurance training sequence: A systematic review and meta-analysis. <em>Journal of Sports Sciences, 36</em>(11), 1212–1219.",
+   "doi": "10.1080/02640414.2017.1364405"
+  },
+  "sabag2018": {
+   "short": "Sabag et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29658408",
+   "apa": "Sabag, A., Najafi, A., Michael, S., Esgin, T., Halaki, M. &amp; Hackett, D. (2018). The compatibility of concurrent high intensity interval training and resistance training for muscular strength and hypertrophy: A systematic review and meta-analysis. <em>Journal of Sports Sciences, 36</em>(21), 2472–2483.",
+   "doi": "10.1080/02640414.2018.1464636"
+  },
+  "berryman2018": {
+   "short": "Berryman et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28459360",
+   "apa": "Berryman, N., Mujika, I., Arvisais, D., Roubeix, M., Binet, C. &amp; Bosquet, L. (2018). Strength training for middle- and long-distance performance: A meta-analysis. <em>International Journal of Sports Physiology and Performance, 13</em>(1), 57–63.",
+   "doi": "10.1123/ijspp.2017-0032"
+  },
+  "petre2021": {
+   "short": "Petré et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33751469",
+   "apa": "Petré, H., Hemmingsson, E., Rosdahl, H. &amp; Psilander, N. (2021). Development of maximal dynamic strength during concurrent resistance and endurance training in untrained, moderately trained, and trained individuals: A systematic review and meta-analysis. <em>Sports Medicine, 51</em>(5), 991–1010.",
+   "doi": "10.1007/s40279-021-01426-9"
+  },
+  "pito2022": {
+   "short": "Pito et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34638141",
+   "apa": "Pito, P. G., Cardoso, J. R., Tufano, J. &amp; Guariglia, D. (2022). Effects of concurrent training on 1RM and VO2 in adults: Systematic review with meta-analysis. <em>International Journal of Sports Medicine, 43</em>(4), 297–304.",
+   "doi": "10.1055/a-1506-3007"
+  },
+  "schumann2022": {
+   "short": "Schumann et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34757594",
+   "apa": "Schumann, M., Feuerbacher, J. F., Sünkeler, M., Freitag, N., Rønnestad, B. R., Doma, K. &amp; Lundberg, T. R. (2022). Compatibility of concurrent aerobic and strength training for skeletal muscle size and function: An updated systematic review and meta-analysis. <em>Sports Medicine, 52</em>(3), 601–612.",
+   "doi": "10.1007/s40279-021-01587-7"
+  },
+  "lundberg2022": {
+   "short": "Lundberg et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35476184",
+   "apa": "Lundberg, T. R., Feuerbacher, J. F., Sünkeler, M. &amp; Schumann, M. (2022). The effects of concurrent aerobic and strength training on muscle fiber hypertrophy: A systematic review and meta-analysis. <em>Sports Medicine, 52</em>(10), 2391–2403.",
+   "doi": "10.1007/s40279-022-01688-x"
+  },
+  "kang2022": {
+   "short": "Kang et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36429528",
+   "apa": "Kang, J., Ye, Z., Yin, X., Zhou, C. &amp; Gong, B. (2022). Effects of concurrent strength and HIIT-based endurance training on physical fitness in trained team sports players: A systematic review and meta-analysis. <em>International Journal of Environmental Research and Public Health, 19</em>(22), Artikel 14800.",
+   "doi": "10.3390/ijerph192214800",
+   "flag": "Richtung des Unterschieds in der Beinkraft (MD 4,20 kg) im Abstract nicht ausdrücklich benannt; aus Ergebnis und Schlussfolgerung erschlossen."
+  },
+  "khalafi2022": {
+   "short": "Khalafi et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35728627",
+   "apa": "Khalafi, M., Sakhaei, M. H., Rosenkranz, S. K. &amp; Symonds, M. E. (2022). Impact of concurrent training versus aerobic or resistance training on cardiorespiratory fitness and muscular strength in middle-aged to older adults: A systematic review and meta-analysis. <em>Physiology &amp; Behavior, 254</em>, Artikel 113888.",
+   "doi": "10.1016/j.physbeh.2022.113888"
+  },
+  "markov2022": {
+   "short": "Markov et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "34878640",
+   "apa": "Markov, A., Chaabene, H., Hauser, L., Behm, S., Bloch, W., Puta, C. &amp; Granacher, U. (2022). Acute effects of aerobic exercise on muscle strength and power in trained male individuals: A systematic review with meta-analysis. <em>Sports Medicine, 52</em>(6), 1385–1398.",
+   "doi": "10.1007/s40279-021-01615-6"
+  },
+  "markov2023": {
+   "short": "Markov et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36222981",
+   "apa": "Markov, A., Hauser, L. &amp; Chaabene, H. (2023). Effects of concurrent strength and endurance training on measures of physical fitness in healthy middle-aged and older adults: A systematic review with meta-analysis. <em>Sports Medicine, 53</em>(2), 437–455.",
+   "doi": "10.1007/s40279-022-01764-2"
+  },
+  "monserda2023": {
+   "short": "Monserdà-Vilaró et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36508686",
+   "apa": "Monserdà-Vilaró, A., Balsalobre-Fernández, C., Hoffman, J. R., Alix-Fages, C. &amp; Jiménez, S. L. (2023). Effects of concurrent resistance and endurance training using continuous or intermittent protocols on muscle hypertrophy: Systematic review with meta-analysis. <em>Journal of Strength and Conditioning Research, 37</em>(3), 688–709.",
+   "doi": "10.1519/JSC.0000000000004304"
+  },
+  "gao2023": {
+   "short": "Gao & Yu, 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36776981",
+   "apa": "Gao, J. &amp; Yu, L. (2023). Effects of concurrent training sequence on VO2max and lower limb strength performance: A systematic review and meta-analysis. <em>Frontiers in Physiology, 14</em>, Artikel 1072679.",
+   "doi": "10.3389/fphys.2023.1072679"
+  },
+  "chen2024": {
+   "short": "Chen et al., 2024",
+   "year": 2024,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38187085",
+   "apa": "Chen, Y., Feng, X., Huang, L., Wang, K. &amp; Mi, J. (2024). Comparative efficacy of concurrent training types on lower limb strength and muscular hypertrophy: A systematic review and network meta-analysis. <em>Journal of Exercise Science and Fitness, 22</em>(1), 86–96.",
+   "doi": "10.1016/j.jesf.2023.12.005"
+  },
+  "huiberts2024": {
+   "short": "Huiberts et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37847373",
+   "apa": "Huiberts, R. O., Wüst, R. C. I. &amp; van der Zwaard, S. (2024). Concurrent strength and endurance training: A systematic review and meta-analysis on the impact of sex and training status. <em>Sports Medicine, 54</em>(2), 485–503.",
+   "doi": "10.1007/s40279-023-01943-9"
+  },
+  "mikkonen2024": {
+   "short": "Mikkonen et al., 2024",
+   "year": 2024,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37948036",
+   "apa": "Mikkonen, R. S., Ihalainen, J. K., Hackney, A. C. &amp; Häkkinen, K. (2024). Perspectives on concurrent strength and endurance training in healthy adult females: A systematic review. <em>Sports Medicine, 54</em>(3), 673–696.",
+   "doi": "10.1007/s40279-023-01955-5"
+  },
+  "lafontant2025": {
+   "short": "Lafontant et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40405489",
+   "apa": "Lafontant, K., Rukstela, A., Hanson, A., Chan, J., Alsayed, Y., Ayers-Creech, W. A., Bale, C., Ohigashi, Y., Solis, J., Shelton, G., Alur, I., Resler, C., Heath, A., Ericksen, S., Forbes, S. C. &amp; Campbell, B. I. (2025). Comparison of concurrent, resistance, or aerobic training on body fat loss: A systematic review and meta-analysis. <em>Journal of the International Society of Sports Nutrition, 22</em>(1), Artikel 2507949.",
+   "doi": "10.1080/15502783.2025.2507949"
+  },
+  "held2026": {
+   "short": "Held et al., 2026",
+   "year": 2026,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "41762427",
+   "apa": "Held, S., Wolf, L., Rappelt, L., Bloch, W., Donath, L., Micke, F., Geisler, S. &amp; Isenmann, E. (2026). Maximizing adaptations in concurrent training: An umbrella review of meta-analyses. <em>Sports Medicine, 56</em>(6), 1489–1512.",
+   "doi": "10.1007/s40279-026-02401-y"
+  },
+  "ferraro2026": {
+   "short": "Ferraro-Farro et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41734815",
+   "apa": "Ferraro-Farro, D., Bandeira-Guimarães, M., Blanco-Rambo, E., Vieira, A. F., Cadore, E. L. &amp; Benítez-Flores, S. (2026). Does sprint interval training cause interference in concurrent training? A meta-analysis study. <em>International Journal of Sports Medicine, 47</em>(10), 747–759.",
+   "doi": "10.1055/a-2820-4527"
+  },
+  "zhao2026": {
+   "short": "Zhao et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42732577",
+   "apa": "Zhao, Y. C., Zhang, H. B. &amp; Wang, W. L. (2026). Systematic review of the effects of concurrent training on maximal oxygen uptake and skeletal muscle mitochondrial adaptation: A meta-analysis. <em>Journal of Sports Sciences, 44</em>(22), 3080–3095.",
+   "doi": "10.1080/02640414.2026.2732611"
+  },
+  "llanos2026": {
+   "short": "Llanos-Lagos et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40632222",
+   "apa": "Llanos-Lagos, C., Ramirez-Campillo, R. &amp; Sáez de Villarreal, E. (2026). Heavy strength training effects on physiological determinants of endurance cyclist performance: A systematic review with meta-analysis. <em>European Journal of Applied Physiology, 126</em>(1), 193–222.",
+   "doi": "10.1007/s00421-025-05883-2"
+  }
+ }
+}

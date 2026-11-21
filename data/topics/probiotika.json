@@ -1396,5 +1396,50 @@
    "apa": "Kumar, A., Merenstein, D., Tan, T., Obeng-Nyarkoh, P. I., Hojsak, I. &amp; D'Amico, F. (2026). Safety of one of the most commonly used probiotic strains: Systematic review and meta-analysis of reported adverse events. <em>Probiotics and Antimicrobial Proteins, 18</em>(3), 4037–4048.",
    "doi": "10.1007/s12602-025-10740-x"
   }
- }
+ },
+ "trend": [
+  {
+   "id": "pro-trend",
+   "title": "Probiotika und Antibiotika-assoziierter Durchfall: Einschätzung im Zeitverlauf",
+   "cap": "Der Schutz wurde mit größeren und neueren Analysen etwas kleiner geschätzt, blieb aber bestehen. Die erste Analyse von 2002 (9 Studien) nutzte ein anderes Maß (Odds Ratio 0,37) und ist nicht direkt vergleichbar.",
+   "opts": {
+    "min": 0.4,
+    "max": 1.0,
+    "ticks": [
+     0.4,
+     0.6,
+     0.8,
+     1
+    ],
+    "ref": 1,
+    "ylab": "Relatives Risiko"
+   },
+   "data": [
+    {
+     "y": 2012,
+     "es": 0.58,
+     "lo": 0.5,
+     "hi": 0.68,
+     "l": "63 RCTs, gemischte Populationen",
+     "s": "hempel2012"
+    },
+    {
+     "y": 2021,
+     "es": 0.63,
+     "lo": 0.54,
+     "hi": 0.73,
+     "l": "Erwachsene, 42 Studien",
+     "s": "goodman2021"
+    },
+    {
+     "y": 2025,
+     "es": 0.67,
+     "lo": 0.57,
+     "hi": 0.78,
+     "l": "Aktualisierung, 40 Studien",
+     "s": "esmaeilinezhad2025"
+    }
+   ]
+  }
+ ]
 }

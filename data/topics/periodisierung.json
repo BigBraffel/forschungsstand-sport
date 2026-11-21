@@ -1,0 +1,780 @@
+{
+ "id": "periodisierung",
+ "title": "Periodisierung",
+ "stand": "2026-11-21",
+ "lead": "Bringt es mehr, das Training planmäßig in Phasen zu gliedern, als immer ähnlich zu trainieren? Und ist lineare, wellenförmige (undulierende) oder Blockperiodisierung überlegen? Zusammengefasst aus Metaanalysen zu Maximalkraft, Muskelwachstum und Ausdauer sowie zur Autoregulation über RIR/RPE und Hantelgeschwindigkeit.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für Kraft- und Ausdauertrainierende. Periodisierung ist ein Werkzeug für Planung und Abwechslung, aber kein entscheidender Wirkfaktor. Wichtiger bleiben Volumen, Last, Häufigkeit und Progression.",
+ "rx": [
+  {
+   "label": "Grundsatz",
+   "value": "Variation planen, nicht überschätzen",
+   "text": "Periodisierte Pläne steigerten das 1RM etwas stärker als gleichförmige; für Muskelwachstum machte es keinen Unterschied. Das Positionspapier 2026 fand keinen durchgängigen Effekt.",
+   "cite": "Moesgaard et al. 2022; Williams et al. 2017; Currier et al. 2026"
+  },
+  {
+   "label": "Modell",
+   "value": "wellenförmig für Fortgeschrittene",
+   "text": "Wöchentlich oder täglich wechselnde Belastung schlug lineare Planung nur bei Trainierten; bei Einsteigern wirken beide gleich.",
+   "cite": "Moesgaard et al. 2022; Harries et al. 2015; Zhang et al. 2026"
+  },
+  {
+   "label": "Muskelaufbau",
+   "value": "Modell egal",
+   "text": "Linear und wellenförmig führten zu gleichem Muskelwachstum. Entscheidend sind Volumen und Nähe zum Versagen (siehe Hypertrophietraining).",
+   "cite": "Grgic et al. 2017; Moesgaard et al. 2022"
+  },
+  {
+   "label": "Autoregulation",
+   "value": "RIR/RPE oder Geschwindigkeit",
+   "text": "Last nach Tagesform zu wählen wirkte mindestens so gut wie feste Prozentwerte. Für Kraft Sätze bei höchstens 25 % Geschwindigkeitsverlust beenden, für Muskelwachstum eher später.",
+   "cite": "Hickmott et al. 2022; Zhang et al. 2021"
+  },
+  {
+   "label": "Ausdauer",
+   "value": "Blöcke als Option",
+   "text": "Blockperiodisierung verbesserte bei Ausdauersportlern VO₂max und Maximalleistung leicht stärker als traditionelle Planung; die Studien sind klein.",
+   "cite": "Mølmen et al. 2019"
+  }
+ ],
+ "note": "<b>Ernährung:</b> Die ausgewerteten Arbeiten untersuchen keine Ernährungsfaktoren. Zur Anpassung der Kohlenhydratzufuhr an wechselnde Trainingsbelastung siehe <a href=\"#kohlenhydrate\">Kohlenhydrate</a>. Zum Formaufbau vor Wettkämpfen siehe <a href=\"#tapering\">Tapering</a>.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Periodisierung bringt einen kleinen Kraftvorteil",
+   "ev": "moderat",
+   "p": "Bei gleichem Volumen steigerten periodisierte Pläne das 1RM etwas stärker (35 Studien); der Vorteil ist kleiner als frühe Analysen nahelegten.",
+   "s": [
+    "moesgaard2022",
+    "williams2017",
+    "rhea2004"
+   ]
+  },
+  {
+   "t": "Für Muskelwachstum ist die Planung egal",
+   "ev": "hoch",
+   "p": "Weder periodisiert gegen nicht periodisiert noch linear gegen wellenförmig unterschieden sich im Muskelwachstum.",
+   "s": [
+    "moesgaard2022",
+    "grgic2017",
+    "acsm2026"
+   ]
+  },
+  {
+   "t": "Wellenförmig nur für Trainierte im Vorteil",
+   "ev": "moderat",
+   "p": "Undulierende Planung steigerte das 1RM bei Trainierten stärker, bei Untrainierten nicht; zwei weitere Metaanalysen fanden keinen Unterschied.",
+   "s": [
+    "moesgaard2022",
+    "harries2015",
+    "zhang2026"
+   ]
+  },
+  {
+   "t": "Autoregulation ist mindestens gleichwertig",
+   "ev": "moderat",
+   "p": "Last- und Umfangssteuerung nach Tagesform (RIR/RPE, Geschwindigkeit) wirkte auf die Kraft gleich gut oder etwas besser als feste Vorgaben.",
+   "s": [
+    "hickmott2022",
+    "zhang2021",
+    "huang2025"
+   ]
+  },
+  {
+   "t": "Was „Periodisierung“ ist, ist unklar",
+   "ev": "niedrig",
+   "p": "Die Studien vergleichen meist geplante Variation mit gar keiner Variation; ob gerade die geplante Abfolge wirkt, ist kaum geprüft.",
+   "s": [
+    "afonso2019",
+    "kataoka2021"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "vergleich",
+   "name": "Periodisiert vs. nicht periodisiert",
+   "q": "Bringt geplante Variation mehr Kraft?",
+   "ev": "moderat",
+   "key": [
+    "Positionspapier 2026 auf Basis von 137 systematischen Reviews: Periodisierung beeinflusste die Trainingsergebnisse nicht durchgängig (Currier et al., 2026).",
+    "35 Studien mit angeglichenem Volumen: periodisiertes Training steigerte das 1RM stärker (ES 0,31 [0,04; 0,57]) (Moesgaard et al., 2022).",
+    "18 Studien mit 81 Effekten: größerer 1RM-Zuwachs mit periodisiertem Training (ES 0,43 [0,27; 0,58]); höhere Frequenz und längere Studiendauer gingen mit größeren Zuwächsen einher, bei Untrainierten fielen sie größer aus (Williams et al., 2017).",
+    "2004: Gesamteffekt zugunsten periodisierten Trainings ES 0,84 (± 1,41); der Anteil, der auf die Variation selbst zurückging, betrug ES 0,25 (Rhea &amp; Alderman, 2004).",
+    "Positionspapier 2009: Für Fortgeschrittene wurde ein breiter Lastbereich von 1–12 RM in periodisierter Form empfohlen (American College of Sports Medicine, 2009).",
+    "Inaktive Erwachsene: periodisiertes Training verbesserte Gesundheitswerte gegenüber Ausgangswert oder Kontrolle; eine Überlegenheit gegenüber nicht periodisiertem Training ließ sich nicht ableiten (Strohacker et al., 2015)."
+   ],
+   "critic": "Der Forschungsverlauf zeigt eine klare Abschwächung: von einer großen Gesamtwirkung 2004 (die aber vor allem Unterschiede in Volumen und Intensität enthielt) über ES 0,43 (2017) zu ES 0,31 bei angeglichenem Volumen (2022), bis zum Positionspapier 2026 ohne durchgängigen Effekt. Das Positionspapier steht in der Evidenzhierarchie am höchsten, fasst aber viele Zielgrößen zusammen; für das 1RM zeigen die spezifischen Metaanalysen einen kleinen Vorteil mit unterem Intervallende nahe 0. Wahrscheinlichste Lesart: Geplante Variation kann das 1RM leicht verbessern, ist aber kein entscheidender Faktor. Zur Einordnung in das gesamte Krafttraining siehe <a href=\"#maximalkraft\">Maximalkrafttraining</a>.",
+   "figs": [
+    {
+     "id": "per-verlauf",
+     "title": "Periodisiert vs. nicht periodisiert: 1RM im Zeitverlauf",
+     "cap": "Effektstärke mit 95-%-KI, wo angegeben. Werte rechts von 0 = Vorteil für periodisiertes Training. Rhea &amp; Alderman (2004) ohne Intervall im Abstract (± 1,41 = Streuung).",
+     "wide": true,
+     "type": "forest",
+     "data": [
+      {
+       "l": "Gesamteffekt (2004)",
+       "sub": "Rhea & Alderman, 2004",
+       "es": 0.84
+      },
+      {
+       "l": "Anteil der Variation (2004)",
+       "sub": "Rhea & Alderman, 2004",
+       "es": 0.25
+      },
+      {
+       "l": "1RM, 18 Studien (2017)",
+       "sub": "Williams et al., 2017",
+       "es": 0.43,
+       "lo": 0.27,
+       "hi": 0.58
+      },
+      {
+       "l": "1RM, gleiches Volumen (2022)",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.31,
+       "lo": 0.04,
+       "hi": 0.57
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.0,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8,
+       1.0
+      ],
+      "leftLab": "nicht periodisiert besser",
+      "rightLab": "periodisiert besser"
+     }
+    }
+   ],
+   "s": [
+    "acsm2026",
+    "moesgaard2022",
+    "williams2017",
+    "rhea2004",
+    "acsm2009",
+    "strohacker2015"
+   ]
+  },
+  {
+   "id": "modelle",
+   "name": "Linear vs. wellenförmig (DUP)",
+   "q": "Welches Modell steigert die Kraft stärker?",
+   "ev": "moderat",
+   "key": [
+    "35 Studien: wellenförmige Periodisierung steigerte das 1RM stärker als lineare (ES 0,31 [0,02; 0,61]), aber nur bei Trainierten (ES 0,61 [0,00; 1,22]), nicht bei Untrainierten (ES 0,06 [−0,20; 0,31]) (Moesgaard et al., 2022).",
+    "17 Studien mit 510 Personen: kein Unterschied zwischen linear und wellenförmig für Ober- und Unterkörperkraft; Neuheit und Abwechslung schienen wichtig (Harries et al., 2015).",
+    "18 Studien: Das Periodisierungsmodell war mit dem 1RM-Zuwachs verbunden (β 0,51); wellenförmige Programme erschienen günstiger (Williams et al., 2017).",
+    "29 Studien: Linear und wellenförmig wirkten vergleichbar auf sportliche Leistungsfähigkeit, Körperzusammensetzung und Blutzucker; wellenförmig bei Übergewicht günstiger für fettfreie Masse und kurzfristige Gewichtsabnahme (Zhang et al., 2026).",
+    "Narrativer Review: bei geringem bis mittlerem Leistungsniveau gleiche oder höhere Maximalkraftzuwächse mit täglich wellenförmiger als mit klassischer Phasenperiodisierung; Studien meist kurz (Hartmann et al., 2015)."
+   ],
+   "critic": "Widerspruch zwischen Harries et al. (2015) und Zhang et al. (2026), die keinen Unterschied finden, und Moesgaard et al. (2022) sowie Williams et al. (2017), die Vorteile für wellenförmige Planung sehen. Auflösung: Der Vorteil beschränkt sich auf Trainierte, das Intervall reicht bis 0, und die neueste Analyse mit 29 Studien findet keinen Unterschied. Wahrscheinlichste Lesart: Für Einsteiger ist das Modell egal; Fortgeschrittene können von häufigerem Wechsel profitieren. Die Studien dauern meist nur wenige Wochen, was dem Grundgedanken langfristiger Planung widerspricht.",
+   "figs": [
+    {
+     "id": "per-modelle",
+     "title": "Wellenförmig vs. linear",
+     "cap": "Effektstärke mit 95-%-KI (Moesgaard et al., 2022). Werte rechts von 0 = Vorteil für wellenförmige Periodisierung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "1RM, alle",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.31,
+       "lo": 0.02,
+       "hi": 0.61
+      },
+      {
+       "l": "1RM, Trainierte",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.61,
+       "lo": 0.0,
+       "hi": 1.22
+      },
+      {
+       "l": "1RM, Untrainierte",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.06,
+       "lo": -0.2,
+       "hi": 0.31
+      },
+      {
+       "l": "Muskelwachstum",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.05,
+       "lo": -0.2,
+       "hi": 0.29
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 1.3,
+      "ticks": [
+       -0.2,
+       0,
+       0.4,
+       0.8,
+       1.2
+      ],
+      "leftLab": "linear besser",
+      "rightLab": "wellenförmig besser"
+     }
+    }
+   ],
+   "s": [
+    "moesgaard2022",
+    "harries2015",
+    "williams2017",
+    "zhang2026",
+    "hartmann2015"
+   ]
+  },
+  {
+   "id": "hypertrophie",
+   "name": "Muskelwachstum",
+   "q": "Wachsen Muskeln mit periodisiertem Training stärker?",
+   "ev": "hoch",
+   "key": [
+    "13 Studien: kein Unterschied im Muskelwachstum zwischen linearer und täglich wellenförmiger Periodisierung (d −0,02 [−0,25; 0,21]) (Grgic et al., 2017).",
+    "Bei angeglichenem Volumen kein Unterschied zwischen periodisiert und nicht periodisiert (ES 0,13 [−0,10; 0,36]) und zwischen linear und wellenförmig (ES 0,05 [−0,20; 0,29]) (Moesgaard et al., 2022).",
+    "Positionspapier 2026: Periodisierung ohne durchgängigen Einfluss; Muskelwachstum wurde durch höheres Volumen (≥ 10 Sätze pro Woche) gefördert (Currier et al., 2026)."
+   ],
+   "critic": "Konsistent über drei Arbeiten ohne Effekt. Die Autoren der größten Analyse vermuten, dass Periodisierung eher über neuronale Anpassungen auf die Maximalkraft wirkt. Die Messmethoden waren teils unempfindlich (Grgic et al., 2017). Details zu Volumen und Nähe zum Versagen siehe <a href=\"#hypertrophie\">Hypertrophietraining</a>.",
+   "figs": [
+    {
+     "id": "per-hyp",
+     "title": "Periodisierung und Muskelwachstum",
+     "cap": "Effektstärke mit 95-%-KI. Werte nahe 0 = kein Unterschied.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Linear vs. täglich wellenförmig",
+       "sub": "Grgic et al., 2017",
+       "es": -0.02,
+       "lo": -0.25,
+       "hi": 0.21
+      },
+      {
+       "l": "Periodisiert vs. nicht periodisiert",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.13,
+       "lo": -0.1,
+       "hi": 0.36
+      },
+      {
+       "l": "Wellenförmig vs. linear",
+       "sub": "Moesgaard et al., 2022",
+       "es": 0.05,
+       "lo": -0.2,
+       "hi": 0.29
+      }
+     ],
+     "opts": {
+      "min": -0.4,
+      "max": 0.5,
+      "ticks": [
+       -0.4,
+       -0.2,
+       0,
+       0.2,
+       0.4
+      ],
+      "leftLab": "zweite Variante besser",
+      "rightLab": "erste Variante besser"
+     }
+    }
+   ],
+   "s": [
+    "grgic2017",
+    "moesgaard2022",
+    "acsm2026"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Block- und umgekehrte Periodisierung",
+   "q": "Welche Planung wirkt im Ausdauersport?",
+   "ev": "niedrig",
+   "key": [
+    "20 Studien, davon 6 gepoolt: Blockperiodisierung verbesserte bei Ausdauersportlern VO₂max (SMD 0,40 [0,02; 0,79]) und Maximalleistung (SMD 0,28 [0,01; 0,54]) stärker als traditionelle Planung; mittlere Studienqualität 3,7 von 10 Punkten (Mølmen et al., 2019).",
+    "11 Studien mit 200 Athleten: umgekehrte Periodisierung (erst intensiv, dann umfangreich) war traditioneller oder Blockperiodisierung in Schwimmen, Laufen, Kraftausdauer, Maximalkraft und VO₂max nicht überlegen (González-Ravé et al., 2022)."
+   ],
+   "critic": "Die Effekte der Blockperiodisierung sind klein und beruhen auf wenigen kleinen Studien niedriger Qualität. Sie ist eine gleichwertige Alternative, aber keine belegte Überlegenheit. Zur Verteilung der Intensitäten siehe <a href=\"#ausdauer\">Ausdauertraining</a>, zur Wettkampfvorbereitung <a href=\"#tapering\">Tapering</a>.",
+   "figs": [
+    {
+     "id": "per-block",
+     "title": "Blockperiodisierung vs. traditionelle Planung (Ausdauer)",
+     "cap": "SMD mit 95-%-KI (Mølmen et al., 2019; 6 Studien). Werte rechts von 0 = Vorteil für Blockperiodisierung.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "VO₂max",
+       "sub": "Mølmen et al., 2019",
+       "es": 0.4,
+       "lo": 0.02,
+       "hi": 0.79
+      },
+      {
+       "l": "Maximalleistung (Wmax)",
+       "sub": "Mølmen et al., 2019",
+       "es": 0.28,
+       "lo": 0.01,
+       "hi": 0.54
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 1.0,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "leftLab": "traditionell besser",
+      "rightLab": "Block besser"
+     }
+    }
+   ],
+   "s": [
+    "molmen2019",
+    "gonzalez2022"
+   ]
+  },
+  {
+   "id": "autoregulation",
+   "name": "Autoregulation (RIR/RPE, Geschwindigkeit)",
+   "q": "Ist Steuerung nach Tagesform besser als feste Vorgaben?",
+   "ev": "moderat",
+   "key": [
+    "15 Studien mit Trainierten: autoregulierte und feste Lastvorgabe steigerten das 1RM gleich (MD 2,07 kg [−0,32; 4,46]; SMD 0,21). Sätze mit höchstens 25 % Geschwindigkeitsverlust brachten mehr 1RM (MD 2,32 kg [0,33; 4,31]), aber weniger Muskelwachstum (MD 0,61 cm² [0,05; 1,16]) als über 25 % (Hickmott et al., 2022).",
+    "8 Studien mit 166 Athleten: autoreguliertes Training steigerte die Maximalkraft stärker als feste Lasten (ES 0,64; I² 0 %); APRE wirkte unter den Methoden am stärksten (Zhang et al., 2021).",
+    "Netzwerk-Metaanalyse: in den Rangfolgen APRE vor RPE- bzw. geschwindigkeitsbasiertem Training und prozentbasiertem Training; im Kniebeuge-1RM keine mittleren oder großen Unterschiede, im Bankdrücken großer Vorteil von APRE gegenüber prozentbasiert (SMD −0,83 [−1,22; −0,44]) (Huang et al., 2025).",
+    "14 Studien mit 356 Personen: alle Autoregulationsprotokolle (RIR-basierte RPE, flexible wellenförmige Planung, Geschwindigkeitsziele und -verlust) steigerten das 1RM mit kleinen bis großen Effekten (Larsen et al., 2021)."
+   ],
+   "critic": "Die Metaanalyse mit Trainierten und Mittelwertdifferenzen in kg (Hickmott et al., 2022) findet keinen Vorteil der Lastautoregulation; die kleinere Analyse mit Athleten (Zhang et al., 2021) einen mittleren. Letztere enthält Untergruppen mit unplausibel großen Effektstärken (4,64 und 3,21), was auf Rechen- oder Auswahlprobleme hindeutet. Die Netzwerk-Metaanalyse stützt sich auf Rangfolgen, die bei wenigen Studien unsicher sind. Wahrscheinlichste Lesart: Autoregulation ist mindestens gleichwertig und kann Ermüdung besser steuern, ein großer Zusatznutzen ist nicht belegt. Geschwindigkeitsbasiertes gegenüber prozentbasiertem Training siehe <a href=\"#maximalkraft\">Maximalkrafttraining</a> (Abschnitt Belastungssteuerung).",
+   "figs": [
+    {
+     "id": "per-auto",
+     "title": "Autoregulation vs. feste Vorgaben",
+     "cap": "Effektstärke (SMD bzw. ES). Hickmott et al. (2022): Trainierte, 15 Studien; Zhang et al. (2021): Athleten, 8 Studien. Kein Konfidenzintervall für SMD/ES im Abstract. Werte rechts von 0 = Vorteil für die erstgenannte Variante.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Last autoreguliert vs. fest, 1RM",
+       "sub": "Hickmott et al., 2022",
+       "es": 0.21
+      },
+      {
+       "l": "Geschwindigkeitsverlust ≤ 25 % vs. > 25 %, 1RM",
+       "sub": "Hickmott et al., 2022",
+       "es": 0.23
+      },
+      {
+       "l": "Geschwindigkeitsverlust > 25 % vs. ≤ 25 %, Muskelwachstum",
+       "sub": "Hickmott et al., 2022",
+       "es": 0.28
+      },
+      {
+       "l": "Autoreguliert vs. fest, Maximalkraft",
+       "sub": "Zhang et al., 2021",
+       "es": 0.64
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 0.8,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "leftLab": "zweite Variante besser",
+      "rightLab": "erste Variante besser"
+     }
+    }
+   ],
+   "s": [
+    "hickmott2022",
+    "zhang2021",
+    "huang2025",
+    "larsen2021"
+   ]
+  },
+  {
+   "id": "definition",
+   "name": "Was die Studien eigentlich prüfen",
+   "q": "Ist die Überlegenheit der Periodisierung überhaupt testbar?",
+   "ev": "niedrig",
+   "key": [
+    "Keine der 21 Studien in zwei Metaanalysen verglich periodisiertes Training mit variiertem, aber nicht periodisiertem Training; die vorhergesagten Zeitpunkte der Anpassungen wurden nie geprüft (Afonso et al., 2019).",
+    "Periodisierung wird uneinheitlich definiert, mit Programmgestaltung gleichgesetzt und selten langfristig oder zusammen mit Sporttraining untersucht; ihre Überlegenheit lässt sich dadurch kaum experimentell prüfen (Kataoka et al., 2021)."
+   ],
+   "critic": "Diese methodische Kritik erklärt die schwachen und uneinheitlichen Befunde: Gemessen wird meist „Variation gegen keine Variation“ über wenige Wochen, nicht die langfristige Planung, für die Periodisierung gedacht ist. Ein Vorteil gegenüber unsystematischer Abwechslung ist damit nicht belegt, aber auch nicht widerlegt.",
+   "figs": [],
+   "s": [
+    "afonso2019",
+    "kataoka2021"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2004,
+   "t": "Periodisierung deutlich überlegen",
+   "p": "Große Gesamtwirkung, der Anteil der Variation selbst ist aber klein (ES 0,25).",
+   "tag": "neu",
+   "s": "rhea2004"
+  },
+  {
+   "y": 2009,
+   "t": "ACSM empfiehlt periodisiertes Training",
+   "p": "Für Fortgeschrittene 1–12 RM in periodisierter Form.",
+   "tag": "neu",
+   "s": "acsm2009"
+  },
+  {
+   "y": 2015,
+   "t": "Linear und wellenförmig gleich",
+   "p": "17 Studien: kein Unterschied in der Kraft.",
+   "tag": "neu",
+   "s": "harries2015"
+  },
+  {
+   "y": 2015,
+   "t": "Kurzfristige Periodisierungsmodelle",
+   "p": "Täglich wellenförmig mindestens so gut wie Phasenmodell bei geringem Leistungsniveau.",
+   "tag": "conf",
+   "s": "hartmann2015"
+  },
+  {
+   "y": 2015,
+   "t": "Periodisierung bei Inaktiven",
+   "p": "Machbar und wirksam, Überlegenheit nicht belegt.",
+   "tag": "neu",
+   "s": "strohacker2015"
+  },
+  {
+   "y": 2017,
+   "t": "Moderater Kraftvorteil",
+   "p": "18 Studien: ES 0,43 für das 1RM, wellenförmig günstiger.",
+   "tag": "conf",
+   "s": "williams2017"
+  },
+  {
+   "y": 2017,
+   "t": "Muskelwachstum unabhängig vom Modell",
+   "p": "Linear und täglich wellenförmig gleich.",
+   "tag": "neu",
+   "s": "grgic2017"
+  },
+  {
+   "y": 2019,
+   "t": "Kritik an den Metaanalysen",
+   "p": "Periodisiert wurde nie gegen variiert, aber nicht periodisiert verglichen.",
+   "tag": "contra",
+   "s": "afonso2019"
+  },
+  {
+   "y": 2019,
+   "t": "Blockperiodisierung im Ausdauersport",
+   "p": "Kleine Vorteile für VO₂max und Maximalleistung.",
+   "tag": "neu",
+   "s": "molmen2019"
+  },
+  {
+   "y": 2021,
+   "t": "Definition uneinheitlich",
+   "p": "Überlegenheit der Periodisierung kaum prüfbar.",
+   "tag": "contra",
+   "s": "kataoka2021"
+  },
+  {
+   "y": 2021,
+   "t": "Autoregulation bei Athleten",
+   "p": "Mehr Maximalkraft als mit festen Lasten.",
+   "tag": "neu",
+   "s": "zhang2021"
+  },
+  {
+   "y": 2021,
+   "t": "Autoregulationsmethoden im Überblick",
+   "p": "Alle Protokolle steigern das 1RM.",
+   "tag": "conf",
+   "s": "larsen2021"
+  },
+  {
+   "y": 2022,
+   "t": "Kleinerer Vorteil bei gleichem Volumen",
+   "p": "ES 0,31; wellenförmig nur bei Trainierten besser; Hypertrophie unbeeinflusst.",
+   "tag": "rel",
+   "s": "moesgaard2022"
+  },
+  {
+   "y": 2022,
+   "t": "Autoregulation gleichwertig",
+   "p": "Kein 1RM-Vorteil bei Trainierten; Geschwindigkeitsverlust steuert Kraft vs. Masse.",
+   "tag": "rel",
+   "s": "hickmott2022"
+  },
+  {
+   "y": 2022,
+   "t": "Umgekehrte Periodisierung",
+   "p": "Nicht wirksamer als traditionelle oder Blockperiodisierung.",
+   "tag": "neu",
+   "s": "gonzalez2022"
+  },
+  {
+   "y": 2025,
+   "t": "Netzwerkvergleich der Autoregulation",
+   "p": "APRE in der Rangfolge vorn.",
+   "tag": "conf",
+   "s": "huang2025"
+  },
+  {
+   "y": 2026,
+   "t": "ACSM: kein durchgängiger Effekt",
+   "p": "Positionspapier auf Basis von 137 Reviews relativiert die Empfehlung von 2009.",
+   "tag": "contra",
+   "s": "acsm2026"
+  },
+  {
+   "y": 2026,
+   "t": "Linear und wellenförmig vergleichbar",
+   "p": "29 Studien: gleiche Wirkung auf Leistung und Körperzusammensetzung.",
+   "tag": "conf",
+   "s": "zhang2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "21.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 1 415 Einträgen, 288 Übersichtsarbeiten nach Titel geprüft, 18 Quellen aufgenommen."
+  }
+ ],
+ "def": {
+  "t": "Periodisierung ist die geplante zeitliche Gliederung des Trainings in Abschnitte, abgestimmt auf die erwarteten Zeitpunkte der Anpassungen. Klassisch (linear) folgen Phasen mit Schwerpunkt Muskelaufbau, Kraft und Schnellkraft aufeinander, mit steigender Intensität und sinkendem Volumen; wellenförmige (undulierende) Modelle wechseln Volumen und Intensität im Wochen- oder Tagesrhythmus. Eine einheitliche Definition gibt es in der Forschung nicht.",
+  "s": [
+   "afonso2019",
+   "hartmann2015",
+   "kataoka2021"
+  ]
+ },
+ "sources": {
+  "rhea2004": {
+   "short": "Rhea & Alderman, 2004",
+   "year": 2004,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "15673040",
+   "apa": "Rhea, M. R. &amp; Alderman, B. L. (2004). A meta-analysis of periodized versus nonperiodized strength and power training programs. <em>Research Quarterly for Exercise and Sport, 75</em>(4), 413–422.",
+   "doi": "10.1080/02701367.2004.10609174"
+  },
+  "acsm2009": {
+   "short": "American College of Sports Medicine, 2009",
+   "year": 2009,
+   "type": "Positionspapier (ACSM)",
+   "basis": "Abstract",
+   "pmid": "19204579",
+   "apa": "American College of Sports Medicine. (2009). American College of Sports Medicine position stand. Progression models in resistance training for healthy adults. <em>Medicine &amp; Science in Sports &amp; Exercise, 41</em>(3), 687–708.",
+   "doi": "10.1249/MSS.0b013e3181915670"
+  },
+  "harries2015": {
+   "short": "Harries et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25268290",
+   "apa": "Harries, S. K., Lubans, D. R. &amp; Callister, R. (2015). Systematic review and meta-analysis of linear and undulating periodized resistance training programs on muscular strength. <em>Journal of Strength and Conditioning Research, 29</em>(4), 1113–1125.",
+   "doi": "10.1519/JSC.0000000000000712"
+  },
+  "hartmann2015": {
+   "short": "Hartmann et al., 2015",
+   "year": 2015,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "26133514",
+   "apa": "Hartmann, H., Wirth, K., Keiner, M., Mickel, C., Sander, A. &amp; Szilvas, E. (2015). Short-term periodization models: Effects on strength and speed-strength performance. <em>Sports Medicine, 45</em>(10), 1373–1386.",
+   "doi": "10.1007/s40279-015-0355-2"
+  },
+  "strohacker2015": {
+   "short": "Strohacker et al., 2015",
+   "year": 2015,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "26844095",
+   "apa": "Strohacker, K., Fazzino, D., Breslin, W. L. &amp; Xu, X. (2015). The use of periodization in exercise prescriptions for inactive adults: A systematic review. <em>Preventive Medicine Reports, 2</em>, 385–396.",
+   "doi": "10.1016/j.pmedr.2015.04.023"
+  },
+  "williams2017": {
+   "short": "Williams et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28497285",
+   "apa": "Williams, T. D., Tolusso, D. V., Fedewa, M. V. &amp; Esco, M. R. (2017). Comparison of periodized and non-periodized resistance training on maximal strength: A meta-analysis. <em>Sports Medicine, 47</em>(10), 2083–2100.",
+   "doi": "10.1007/s40279-017-0734-y"
+  },
+  "grgic2017": {
+   "short": "Grgic et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28848690",
+   "apa": "Grgic, J., Mikulic, P., Podnar, H. &amp; Pedisic, Z. (2017). Effects of linear and daily undulating periodized resistance training programs on measures of muscle hypertrophy: A systematic review and meta-analysis. <em>PeerJ, 5</em>, Artikel e3695.",
+   "doi": "10.7717/peerj.3695"
+  },
+  "afonso2019": {
+   "short": "Afonso et al., 2019",
+   "year": 2019,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "31440169",
+   "apa": "Afonso, J., Rocha, T., Nikolaidis, P. T., Clemente, F. M., Rosemann, T. &amp; Knechtle, B. (2019). A systematic review of meta-analyses comparing periodized and non-periodized exercise programs: Why we should go back to original research. <em>Frontiers in Physiology, 10</em>, Artikel 1023.",
+   "doi": "10.3389/fphys.2019.01023"
+  },
+  "molmen2019": {
+   "short": "Mølmen et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31802956",
+   "apa": "Mølmen, K. S., Øfsteng, S. J. &amp; Rønnestad, B. R. (2019). Block periodization of endurance training – a systematic review and meta-analysis. <em>Open Access Journal of Sports Medicine, 10</em>, 145–160.",
+   "doi": "10.2147/OAJSM.S180408"
+  },
+  "kataoka2021": {
+   "short": "Kataoka et al., 2021",
+   "year": 2021,
+   "type": "Methodischer Review",
+   "basis": "Abstract",
+   "pmid": "33405190",
+   "apa": "Kataoka, R., Vasenina, E., Loenneke, J. &amp; Buckner, S. L. (2021). Periodization: Variation in the definition and discrepancies in study design. <em>Sports Medicine, 51</em>(4), 625–651.",
+   "doi": "10.1007/s40279-020-01414-5"
+  },
+  "larsen2021": {
+   "short": "Larsen et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33520457",
+   "apa": "Larsen, S., Kristiansen, E. &amp; van den Tillaar, R. (2021). Effects of subjective and objective autoregulation methods for intensity and volume on enhancing maximal strength during resistance-training interventions: A systematic review. <em>PeerJ, 9</em>, Artikel e10663.",
+   "doi": "10.7717/peerj.10663"
+  },
+  "zhang2021": {
+   "short": "Zhang et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33776802",
+   "apa": "Zhang, X., Li, H., Bi, S., Luo, Y., Cao, Y. &amp; Zhang, G. (2021). Auto-regulation method vs. fixed-loading method in maximum strength training for athletes: A systematic review and meta-analysis. <em>Frontiers in Physiology, 12</em>, Artikel 651112.",
+   "doi": "10.3389/fphys.2021.651112"
+  },
+  "moesgaard2022": {
+   "short": "Moesgaard et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35044672",
+   "apa": "Moesgaard, L., Beck, M. M., Christiansen, L., Aagaard, P. &amp; Lundbye-Jensen, J. (2022). Effects of periodization on strength and muscle hypertrophy in volume-equated resistance training programs: A systematic review and meta-analysis. <em>Sports Medicine, 52</em>(7), 1647–1666.",
+   "doi": "10.1007/s40279-021-01636-1"
+  },
+  "hickmott2022": {
+   "short": "Hickmott et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35038063",
+   "apa": "Hickmott, L. M., Chilibeck, P. D., Shaw, K. A. &amp; Butcher, S. J. (2022). The effect of load and volume autoregulation on muscular strength and hypertrophy: A systematic review and meta-analysis. <em>Sports Medicine – Open, 8</em>(1), 9.",
+   "doi": "10.1186/s40798-021-00404-9"
+  },
+  "gonzalez2022": {
+   "short": "González-Ravé et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35445953",
+   "apa": "González-Ravé, J. M., González-Mohino, F., Rodrigo-Carranza, V. &amp; Pyne, D. B. (2022). Reverse periodization for improving sports performance: A systematic review. <em>Sports Medicine – Open, 8</em>(1), 56.",
+   "doi": "10.1186/s40798-022-00445-8"
+  },
+  "huang2025": {
+   "short": "Huang et al., 2025",
+   "year": 2025,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40791980",
+   "apa": "Huang, Z., Sun, J., Li, D., Chen, C. &amp; Wang, D. (2025). Autoregulated resistance training for maximal strength enhancement: A systematic review and network meta-analysis. <em>Journal of Exercise Science and Fitness, 23</em>(4), 360–369.",
+   "doi": "10.1016/j.jesf.2025.07.006",
+   "flag": "Vorzeichen im Abstract als „PBRT vs. APRE“ angegeben; Richtung zugunsten APRE aus der Schlussfolgerung erschlossen. Studienzahl im Abstract nicht genannt."
+  },
+  "acsm2026": {
+   "short": "Currier et al., 2026 (ACSM)",
+   "year": 2026,
+   "type": "Positionspapier (Umbrella Review)",
+   "basis": "Abstract",
+   "pmid": "41843416",
+   "apa": "Currier, B. S., D’Souza, A. C., Singh, M. A. F., Lowisz, C. V., Rawson, E. S., Schoenfeld, B. J., Smith-Ryan, A. E., Steen, J. P., Thomas, G. A., Triplett, N. T., Washington, T. A., Werner, T. J. &amp; Phillips, S. M. (2026). American College of Sports Medicine position stand. Resistance training prescription for muscle function, hypertrophy, and physical performance in healthy adults: An overview of reviews. <em>Medicine &amp; Science in Sports &amp; Exercise, 58</em>(4), 851–872.",
+   "doi": "10.1249/MSS.0000000000003897"
+  },
+  "zhang2026": {
+   "short": "Zhang et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41869632",
+   "apa": "Zhang, Z., Ya, X., Zhao, X., Liu, Z., Luo, J., Liu, Y. &amp; Bu, Y. (2026). Comparison of linear and undulating periodization resistance training on athletic capacities and health promotion: A systematic review and meta-analysis. <em>Frontiers in Public Health, 14</em>, Artikel 1707627.",
+   "doi": "10.3389/fpubh.2026.1707627"
+  }
+ },
+ "trend": [
+  {
+   "id": "per-trend",
+   "title": "Periodisiert vs. nicht periodisiert: Kraftvorteil im Zeitverlauf",
+   "cap": "Der geschätzte Vorteil periodisierten Trainings ist mit jeder neueren Metaanalyse kleiner geworden. Die Analyse von 2022 berücksichtigte nur Studien mit gleichem Trainingsvolumen; das ACSM-Positionspapier 2026 fand keinen durchgängigen Effekt (ohne Zahlenwert).",
+   "opts": {
+    "min": 0,
+    "max": 1,
+    "ticks": [
+     0,
+     0.25,
+     0.5,
+     0.75,
+     1
+    ],
+    "ylab": "Effektstärke (ES) für das 1RM"
+   },
+   "data": [
+    {
+     "y": 2004,
+     "es": 0.84,
+     "l": "Gesamteffekt",
+     "s": "rhea2004"
+    },
+    {
+     "y": 2017,
+     "es": 0.43,
+     "lo": 0.27,
+     "hi": 0.58,
+     "l": "18 Studien",
+     "s": "williams2017"
+    },
+    {
+     "y": 2022,
+     "es": 0.31,
+     "lo": 0.04,
+     "hi": 0.57,
+     "l": "35 Studien, gleiches Volumen",
+     "s": "moesgaard2022"
+    }
+   ]
+  }
+ ]
+}

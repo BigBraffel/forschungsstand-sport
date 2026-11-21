@@ -1,0 +1,202 @@
+{
+ "stand": "2026-11-21",
+ "items": [
+  {
+   "m": "Nach dem Training hast du nur 30 Minuten für dein Protein (anaboles Fenster).",
+   "v": "falsch",
+   "t": "Die Tagesmenge an Protein zählt, nicht die Minute danach. Das ISSN nannte 2008 noch 30 Minuten, heute „sofort bis 2 Stunden“; mehrere Metaanalysen fanden keinen verlässlichen Vorteil eines bestimmten Zeitpunkts.",
+   "topic": "timing",
+   "s": [
+    "kerksick2008",
+    "kerksick2017",
+    "schoenfeld2013",
+    "casuso2025"
+   ],
+   "ev": "moderat"
+  },
+  {
+   "m": "Für Muskelaufbau brauchst du schwere Gewichte.",
+   "v": "falsch",
+   "t": "Leichte, mittlere und schwere Lasten bauen ähnlich viel Muskel auf, wenn die Sätze bis nahe ans Versagen gehen. Nur für die Maximalkraft (1RM) sind schwere Lasten überlegen.",
+   "topic": "hypertrophie",
+   "s": [
+    "schoenfeld2017",
+    "lopez2021",
+    "currier2023"
+   ],
+   "ev": "hoch"
+  },
+  {
+   "m": "Dehnen schützt vor Verletzungen und Muskelkater.",
+   "v": "falsch",
+   "t": "Dehnen senkte die Gesamtverletzungsrate nicht signifikant und Muskelkater nur um wenige Punkte auf einer 100-Punkte-Skala. Krafttraining senkte Sportverletzungen dagegen auf etwa ein Drittel.",
+   "topic": "dehnen",
+   "s": [
+    "herbert2011",
+    "lauersen2014",
+    "warneke2025"
+   ],
+   "ev": "hoch"
+  },
+  {
+   "m": "Vor dem Sport darf man nicht statisch dehnen, das kostet Kraft.",
+   "v": "teilweise",
+   "t": "Ein Kraftverlust tritt erst ab etwa 60 Sekunden Haltedauer pro Muskel auf; Sprung- und Sprintleistungen litten in neueren Analysen nicht.",
+   "topic": "dehnen",
+   "s": [
+    "behm2016",
+    "warneke2024a"
+   ],
+   "ev": "hoch"
+  },
+  {
+   "m": "Kreatin schadet den Nieren.",
+   "v": "falsch",
+   "t": "Bei gesunden Menschen fanden sich keine erhöhten Risiken für Nieren oder Leber. Der Anstieg des Serumkreatinins im Bluttest ist ein Messeffekt, kein Nierenschaden.",
+   "topic": "kreatin",
+   "s": [
+    "kreider2017",
+    "deguingand2020",
+    "kidney2026"
+   ],
+   "ev": "hoch"
+  },
+  {
+   "m": "Viel Protein schadet den Nieren.",
+   "v": "falsch",
+   "t": "Bei Gesunden zeigte sich keine klinisch relevante Veränderung der Nierenfunktion und kein Zusammenhang mit Herz-Kreislauf-Ereignissen.",
+   "topic": "protein",
+   "s": [
+    "devries2018",
+    "teixeira2026"
+   ],
+   "ev": "moderat"
+  },
+  {
+   "m": "Mehr Protein bringt immer mehr Muskeln.",
+   "v": "stark übertrieben",
+   "t": "Oberhalb von etwa 1,6 g pro kg Körpergewicht und Tag flacht der Zusatznutzen deutlich ab.",
+   "topic": "protein",
+   "s": [
+    "morton2018",
+    "tagawa2020"
+   ],
+   "ev": "hoch"
+  },
+  {
+   "m": "BCAA bauen Muskeln auf.",
+   "v": "falsch",
+   "t": "Bei Gesunden ist kein Nutzen für Kraft oder Muskelmasse belegt. BCAA regen die Muskelproteinsynthese schwächer an als vollständiges Protein; sie lindern höchstens etwas den Muskelkater.",
+   "topic": "aminosaeuren",
+   "s": [
+    "martinho2022",
+    "kaspy2024",
+    "doma2021"
+   ],
+   "ev": "niedrig"
+  },
+  {
+   "m": "Ausdauertraining killt deine Gains.",
+   "v": "stark übertrieben",
+   "t": "Maximalkraft und Muskelmasse leiden im Mittel kaum (43 Studien, bestätigt durch einen Umbrella Review). Am empfindlichsten ist die Schnellkraft, vor allem wenn beides in derselben Einheit trainiert wird.",
+   "topic": "interferenz",
+   "s": [
+    "schumann2022",
+    "held2026"
+   ],
+   "ev": "hoch"
+  },
+  {
+   "m": "Ohne Periodisierung kein Fortschritt.",
+   "v": "stark übertrieben",
+   "t": "Der Kraftvorteil periodisierter Pläne ist klein und in neueren Analysen kleiner als in frühen; für das Muskelwachstum macht die Planung keinen Unterschied.",
+   "topic": "periodisierung",
+   "s": [
+    "rhea2004",
+    "moesgaard2022",
+    "acsm2026"
+   ],
+   "ev": "moderat"
+  },
+  {
+   "m": "Vitamin C schützt vor Erkältungen.",
+   "v": "teilweise",
+   "t": "In der Allgemeinbevölkerung nicht (RR 0,97). Bei sehr hoher körperlicher Belastung, etwa bei Marathonläufern, halbierte sich das Risiko etwa; Erkältungen dauern bei regelmäßiger Einnahme etwas kürzer.",
+   "topic": "vitamin-c",
+   "s": [
+    "hemila2013",
+    "abioye2021"
+   ],
+   "ev": "hoch"
+  },
+  {
+   "m": "Nüchtern trainieren verbrennt mehr Fett und hilft beim Abnehmen.",
+   "v": "teilweise",
+   "t": "Während der Einheit stieg die Fettverbrennung um etwa 3 g; ein Stoffwechselvorteil danach war nicht belegt. Lange Ausdauereinheiten gelingen gegessen besser.",
+   "topic": "timing",
+   "s": [
+    "vieira2016",
+    "aird2018"
+   ],
+   "ev": "moderat"
+  },
+  {
+   "m": "Mit 2 % Flüssigkeitsverlust bricht die Leistung ein.",
+   "v": "teilweise",
+   "t": "Bei fest vorgegebener Belastung schadeten über 2 % Gewichtsverlust; in Zeitfahren mit freiem Tempo war bis 4 % kein Verlust messbar. Trinken nach Durst reicht meist.",
+   "topic": "fluessigkeit",
+   "s": [
+    "goulet2011",
+    "goulet2013",
+    "goulet2019"
+   ],
+   "ev": "moderat"
+  },
+  {
+   "m": "Melatonin ist ein starkes Schlafmittel.",
+   "v": "stark übertrieben",
+   "t": "Man schläft im Mittel nur etwa 4 bis 12 Minuten schneller ein. Gut belegt ist dagegen die Wirkung gegen Jetlag.",
+   "topic": "melatonin",
+   "s": [
+    "ferraciolioda2013",
+    "brzezinski2005",
+    "herxheimer2002"
+   ],
+   "ev": "hoch"
+  },
+  {
+   "m": "Frauen sollten ihr Training nach dem Zyklus ausrichten.",
+   "v": "nicht belegt",
+   "t": "Die Leistung schwankt im Zyklus kaum. Frühe kleine Studien fanden Vorteile für zyklusbasiertes Training, ein neueres, strengeres RCT fand keinen Unterschied.",
+   "topic": "zyklus",
+   "s": [
+    "mcnulty2020",
+    "sung2014",
+    "dsouza2026"
+   ],
+   "ev": "niedrig"
+  },
+  {
+   "m": "Kohlenhydrate sind für Kraftsportler unverzichtbar.",
+   "v": "stark übertrieben",
+   "t": "Mehr Kohlenhydrate verbesserten weder die Kraftleistung bei üblichem Volumen noch das Muskelwachstum. Bei langen Ausdauerbelastungen über 1 Stunde helfen sie dagegen klar.",
+   "topic": "kohlenhydrate",
+   "s": [
+    "henselmans2022",
+    "temesi2011"
+   ],
+   "ev": "niedrig"
+  },
+  {
+   "m": "Ohne Geräte und Hanteln kann man keine Kraft aufbauen.",
+   "v": "falsch",
+   "t": "Körpergewichtstraining steigerte die Kraft deutlich, wenn auch etwas weniger als Maschinentraining; elastische Bänder waren Hanteln gleichwertig.",
+   "topic": "koerpergewicht",
+   "s": [
+    "wiedenmann2025",
+    "lopes2019"
+   ],
+   "ev": "moderat"
+  }
+ ]
+}

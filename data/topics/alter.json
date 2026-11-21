@@ -1,0 +1,943 @@
+{
+ "id": "alter",
+ "title": "Training im Alter",
+ "stand": "2026-11-21",
+ "def": {
+  "t": "Altern geht auch ohne chronische Erkrankung mit einem Verlust an Muskelmasse, Kraft und körperlicher Funktion einher; das senkt die Belastbarkeit und macht anfälliger für schwerwiegende Ereignisse. Training im Alter soll diesem Verlust entgegenwirken, vor allem durch Krafttraining. Multikomponententraining kombiniert mehrere Trainingsformen, typischerweise Ausdauer, Kraft und Gleichgewicht.",
+  "s": [
+   "fragala2019",
+   "desouto2019"
+  ]
+ },
+ "lead": "Wie viel Kraft, Muskelmasse und Funktion lässt sich im Alter noch gewinnen, und welches Training senkt Stürze? Zusammengefasst aus Cochrane-Reviews, Metaanalysen und Positionspapieren (ACSM, NSCA, WHO, ICFSR) zu gesunden und allgemeinen älteren Bevölkerungen, meist ab 60 Jahren.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde ältere Erwachsene ohne spezielle Erkrankung. Grundprinzipien des Krafttrainings (Last, Volumen, Nähe zum Versagen) stehen unter <a href=\"#maximalkraft\">Maximalkrafttraining</a> und <a href=\"#hypertrophie\">Hypertrophie</a>; hier geht es darum, was im Alter anders ist.",
+ "rx": [
+  {
+   "label": "Krafttraining",
+   "value": "2× pro Woche, 2–3 Sätze",
+   "text": "Zwei Einheiten pro Woche mit 2–3 Sätzen je Übung und 7–9 Wiederholungen waren am wirksamsten. Mehr als zwei Einheiten brachten nur wenig zusätzliche Kraft und keine zusätzliche Muskelmasse.",
+   "cite": "Borde et al. 2015; Kneffel et al. 2021"
+  },
+  {
+   "label": "Last",
+   "value": "etwa 70–79 % 1RM, leichter möglich",
+   "text": "Höhere Lasten steigerten die Kraft am stärksten. Mit leichteren Lasten und ausreichend Wiederholungen sind aber ebenfalls deutliche Kraftzuwächse möglich.",
+   "cite": "Borde et al. 2015; Steib et al. 2010; Csapo &amp; Alegre 2016"
+  },
+  {
+   "label": "Schnellkraft",
+   "value": "zügig heben",
+   "text": "Die Last in der Hebephase möglichst schnell bewegen steigert die Muskelleistung (Power) stärker als langsames Training und verbessert die Alltagsfunktion leicht mehr.",
+   "cite": "Straight et al. 2016; Balachandran et al. 2022"
+  },
+  {
+   "label": "Sturzprävention",
+   "value": "Gleichgewicht plus Kraft, > 3 h/Woche",
+   "text": "Gleichgewichts- und funktionelle Übungen senkten die Sturzrate um etwa ein Viertel, kombiniert mit Kraftübungen um ein Drittel. Am stärksten wirkten Programme mit mehr als 3 Stunden pro Woche.",
+   "cite": "Sherrington et al. 2019; Sherrington et al. 2017"
+  },
+  {
+   "label": "Ausdauer und Kontinuität",
+   "value": "jede Form, dauerhaft",
+   "text": "Ausdauer-, Kraft- und kombiniertes Training verbesserten die VO₂max gleichermaßen. Nach Trainingspausen von 31–52 Wochen war die Muskulatur deutlich geschrumpft.",
+   "cite": "Azimkhani et al. 2026; Grgic 2022"
+  }
+ ],
+ "note": "<b>Ernährung:</b> Zur Frage, ob zusätzliches Protein den Trainingseffekt im Alter verstärkt, siehe <a href=\"#protein\">Protein</a>. Zur Krafttrainingsform (Maschinen, freie Gewichte, Bänder, Körpergewicht) bei Älteren siehe <a href=\"#koerpergewicht\">Körpergewichtstraining</a>.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Krafttraining wirkt bis ins hohe Alter",
+   "ev": "hoch",
+   "p": "Krafttraining steigerte die Kraft deutlich, auch bei über 80-Jährigen, und vergrößerte die Muskulatur messbar.",
+   "s": [
+    "liu2009",
+    "grgic2020",
+    "peterson2010"
+   ]
+  },
+  {
+   "t": "Bewegungsprogramme verhindern Stürze",
+   "ev": "hoch",
+   "p": "Training senkte die Sturzrate um 23 %; am wirksamsten waren Gleichgewichtsübungen, kombiniert mit Kraft.",
+   "s": [
+    "sherrington2019",
+    "sherrington2017",
+    "desouto2019"
+   ]
+  },
+  {
+   "t": "Zwei Einheiten pro Woche genügen meist",
+   "ev": "moderat",
+   "p": "Kraft stieg mit höherer Intensität und etwas mit mehr Einheiten; schon ein geringes Volumen verbesserte Funktion und Muskelmasse.",
+   "s": [
+    "kneffel2021",
+    "borde2015",
+    "radaelli2025"
+   ]
+  },
+  {
+   "t": "Schnellkrafttraining: kleiner Zusatznutzen für den Alltag",
+   "ev": "niedrig",
+   "p": "Schnelles Heben verbesserte die körperliche Funktion etwas mehr als klassisches Krafttraining, bei geringer Evidenzqualität.",
+   "s": [
+    "balachandran2022",
+    "morrison2023",
+    "straight2016"
+   ]
+  },
+  {
+   "t": "Ausdauer: jede Trainingsform hilft",
+   "ev": "moderat",
+   "p": "Ausdauer-, Kraft- und kombiniertes Training steigerten die VO₂max ähnlich; keine Form war klar überlegen.",
+   "s": [
+    "azimkhani2026",
+    "yuan2026",
+    "bouaziz2018"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "kraft",
+   "name": "Kraft und Muskelmasse",
+   "q": "Wie stark wachsen Kraft und Muskeln im Alter noch?",
+   "ev": "hoch",
+   "key": [
+    "Cochrane-Review mit 121 Studien und 6 700 Personen: progressives Krafttraining hatte einen großen Effekt auf die Kraft (73 Studien, SMD 0,84 [0,67; 1,00]); meist wurde 2–3× pro Woche mit hoher Intensität trainiert (Liu &amp; Latham, 2009).",
+    "47 Studien mit 1 079 Personen: Die Kraft stieg um 9,8 bis 31,6 kg bzw. 24–33 % je nach Übung; höhere Intensität ging mit größeren Zuwächsen einher (Peterson et al., 2010).",
+    "49 Studien mit 1 328 Personen: Die fettfreie Masse nahm im Mittel um 1,1 kg [0,9; 1,2] zu; mehr Volumen brachte mehr, mit steigendem Alter fiel der Zuwachs geringer aus; hohe Heterogenität (I² 84 %) (Peterson et al., 2011).",
+    "22 Studien mit sehr alten Menschen: Krafttraining steigerte die Kraft (ES 0,97 [0,50; 1,44]), auch bei über 80-Jährigen (ES 1,28 [0,28; 2,29]), und die Muskelgröße (ES 0,30 [0,10; 0,50]); die Griffkraft änderte sich nicht gesichert (Grgic et al., 2020).",
+    "28 Studien: Krafttraining vergrößerte Beinmuskulatur (SMD 0,34 [0,16; 0,52]) und Faserquerschnitt (SMD 0,54 [0,24; 0,84]); die mit DXA gemessene Beinmagermasse änderte sich nicht gesichert (de Santana et al., 2024)."
+   ],
+   "critic": "Die Kraftwirkung ist über viele Analysen konsistent und groß. Der Muskelzuwachs ist kleiner und hängt von der Messmethode ab: Bildgebung des Muskels zeigt ihn, die Magermasse per DXA oft nicht (de Santana et al., 2024). Ein großer Teil des Kraftgewinns beruht vermutlich auf neuronaler Anpassung (siehe <a href=\"#maximalkraft\">Maximalkrafttraining</a>). Die Studien sind meist kurz und klein, die Heterogenität ist hoch; die Richtung des Effekts ist aber nicht strittig.",
+   "figs": [
+    {
+     "id": "alt-kraft",
+     "title": "Krafttraining im Alter: Wirkung auf Kraft und Muskulatur",
+     "cap": "Standardisierte Effektgröße mit 95-%-KI gegenüber Kontrolle ohne Training.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Kraft, über 80 Jahre",
+       "sub": "Grgic et al., 2020",
+       "es": 1.28,
+       "lo": 0.28,
+       "hi": 2.29
+      },
+      {
+       "l": "Kraft, sehr Alte",
+       "sub": "Grgic et al., 2020",
+       "es": 0.97,
+       "lo": 0.5,
+       "hi": 1.44
+      },
+      {
+       "l": "Kraft",
+       "sub": "Liu &amp; Latham, 2009",
+       "es": 0.84,
+       "lo": 0.67,
+       "hi": 1.0
+      },
+      {
+       "l": "Muskelfaserquerschnitt",
+       "sub": "de Santana et al., 2024",
+       "es": 0.54,
+       "lo": 0.24,
+       "hi": 0.84
+      },
+      {
+       "l": "Muskelgröße Bein",
+       "sub": "de Santana et al., 2024",
+       "es": 0.34,
+       "lo": 0.16,
+       "hi": 0.52
+      },
+      {
+       "l": "Muskelgröße, sehr Alte",
+       "sub": "Grgic et al., 2020",
+       "es": 0.3,
+       "lo": 0.1,
+       "hi": 0.5
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 2.4,
+      "ticks": [
+       0,
+       0.5,
+       1,
+       1.5,
+       2
+      ],
+      "leftLab": "Kontrolle besser",
+      "rightLab": "Training besser"
+     }
+    }
+   ],
+   "s": [
+    "liu2009",
+    "peterson2010",
+    "peterson2011",
+    "grgic2020",
+    "desantana2024"
+   ]
+  },
+  {
+   "id": "dosis",
+   "name": "Dosis-Wirkung: Intensität, Volumen, Frequenz",
+   "q": "Wie viel und wie schwer sollten Ältere trainieren?",
+   "ev": "moderat",
+   "key": [
+    "29 Studien mit 1 313 Personen (65–81 Jahre): Hohe Intensität steigerte die Maximalkraft stärker als niedrige (SMD 0,88 [0,21; 1,55]) und mittlere (SMD 0,62 [0,22; 1,03]); die Funktion verbesserte sich unabhängig von der Intensität (Steib et al., 2010).",
+    "25 Studien: Am wirksamsten für die Kraft waren 70–79 % 1RM, 2 Einheiten pro Woche, 2–3 Sätze, 7–9 Wiederholungen und lange Trainingsphasen (50–53 Wochen); die Studienqualität war schlecht (PEDro 4,6) und die Heterogenität hoch (I² 80 %) (Borde et al., 2015).",
+    "15 Studien mit 448 Personen: Schwere Lasten brachten tendenziell mehr Kraft als leichte bis mittlere (μ 0,43; p = 0,06), bei gleicher Arbeit weniger Vorsprung (μ 0,30); der Muskelzuwachs war gering (Csapo &amp; Alegre, 2016).",
+    "14 Studien: Jede zusätzliche Einheit pro Woche erhöhte den Krafteffekt um 0,14 [0,08; 0,21], die Hypertrophie nicht; mehr als 2 Einheiten pro Woche bringen daher kaum Zusatznutzen (Kneffel et al., 2021).",
+    "Netzwerk-Metaanalyse mit 151 Studien und 6 306 Personen: Ein niedriges Wochenvolumen war für Gehtests, fettfreie Masse und Muskelgröße am wirksamsten, mittleres und hohes Volumen für die Beinkraft (Radaelli et al., 2025).",
+    "6 Studien: Nach 12–24 Wochen Pause nahm die Muskelgröße nicht gesichert ab (d −0,60 [−1,21; 0,01]), nach 31–52 Wochen deutlich (d −1,11 [−1,75; −0,47]) (Grgic, 2022)."
+   ],
+   "critic": "Die Analysen stimmen überein, dass höhere Intensität vor allem die Maximalkraft fördert, nicht unbedingt die Alltagsfunktion (Steib et al., 2010). Zum Volumen scheint es einen Widerspruch zu geben: Peterson et al. (2011) fanden mehr Muskelmasse mit mehr Volumen, Radaelli et al. (2025) die besten Werte für Muskelmasse bei niedrigem Volumen. Die neuere, viel größere Netzwerk-Metaanalyse wiegt schwerer; wahrscheinlich ist schon ein kleines Volumen ausreichend, mehr Volumen lohnt sich vor allem für die Kraft. Die Dosisangaben von Borde et al. (2015) beruhen auf Einzelvergleichen schwacher Studien und sind nur Richtwerte.",
+   "figs": [
+    {
+     "id": "alt-detrain",
+     "title": "Muskelgröße nach Trainingspause",
+     "cap": "Cohens d mit 95-%-KI für die Veränderung der Muskelgröße nach Ende des Krafttrainings (Grgic, 2022). Negative Werte = Abnahme.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Zuwachs durch Training",
+       "sub": "Grgic, 2022",
+       "es": 0.99,
+       "lo": 0.63,
+       "hi": 1.36
+      },
+      {
+       "l": "Pause 12–24 Wochen",
+       "sub": "Grgic, 2022",
+       "es": -0.6,
+       "lo": -1.21,
+       "hi": 0.01
+      },
+      {
+       "l": "Pause 31–52 Wochen",
+       "sub": "Grgic, 2022",
+       "es": -1.11,
+       "lo": -1.75,
+       "hi": -0.47
+      }
+     ],
+     "opts": {
+      "min": -2.0,
+      "max": 1.6,
+      "ticks": [
+       -1.5,
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1,
+       1.5
+      ],
+      "leftLab": "Abnahme",
+      "rightLab": "Zunahme"
+     }
+    }
+   ],
+   "s": [
+    "steib2010",
+    "borde2015",
+    "csapo2016",
+    "kneffel2021",
+    "radaelli2025",
+    "grgic2022",
+    "peterson2011"
+   ]
+  },
+  {
+   "id": "power",
+   "name": "Schnellkrafttraining (Power Training)",
+   "q": "Bringt schnelles Heben im Alter mehr als klassisches Krafttraining?",
+   "ev": "niedrig",
+   "key": [
+    "Schnellkrafttraining steigerte die Muskelleistung stärker als klassisches progressives Krafttraining (SMD 1,66 [0,08; 3,24]) und verbesserte auch die Funktion stärker (Steib et al., 2010).",
+    "12 RCTs mit Personen ab 50 Jahren: Krafttraining steigerte die Beinleistung um 54,9 Watt (d 0,34 [0,25; 0,43]); schnelles Training war klassischem überlegen (Δ 0,62 vs. 0,20) (Straight et al., 2016).",
+    "20 RCTs mit 566 gesunden älteren Menschen: Schnellkrafttraining verbesserte die körperliche Funktion etwas stärker als klassisches Krafttraining (13 RCTs, SMD 0,30 [0,05; 0,54]); Evidenzqualität niedrig (Balachandran et al., 2022).",
+    "19 Studien mit 1 055 Personen: Schnelles Training verbesserte SPPB (SMD 0,27 [0,02; 0,53]) und Timed-up-and-go (SMD 0,35 [0,06; 0,63]) etwas mehr; für andere Zielgrößen war der Unterschied sehr unsicher (Morrison et al., 2023)."
+   ],
+   "critic": "Die Richtung ist einheitlich: Schnelles Heben fördert die Muskelleistung und etwas die Funktion. Der Vorteil für den Alltag ist aber klein, die Evidenzqualität niedrig, und ob er klinisch bedeutsam ist, bleibt offen (Morrison et al., 2023). Das sehr breite Intervall bei Steib et al. (2010) beruht auf wenigen Studien. Wahrscheinlich: Zügiges Heben ist eine sinnvolle Ergänzung, ersetzt aber nicht ausreichend schweres Training für die Kraft.",
+   "figs": [
+    {
+     "id": "alt-power",
+     "title": "Schnellkraft- vs. klassisches Krafttraining: körperliche Funktion",
+     "cap": "SMD mit 95-%-KI; Werte rechts von 0 = Vorteil für Schnellkrafttraining.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Körperliche Funktion",
+       "sub": "Balachandran et al., 2022",
+       "es": 0.3,
+       "lo": 0.05,
+       "hi": 0.54
+      },
+      {
+       "l": "SPPB",
+       "sub": "Morrison et al., 2023",
+       "es": 0.27,
+       "lo": 0.02,
+       "hi": 0.53
+      },
+      {
+       "l": "Timed-up-and-go",
+       "sub": "Morrison et al., 2023",
+       "es": 0.35,
+       "lo": 0.06,
+       "hi": 0.63
+      }
+     ],
+     "opts": {
+      "min": -0.2,
+      "max": 0.8,
+      "ticks": [
+       0,
+       0.2,
+       0.4,
+       0.6
+      ],
+      "leftLab": "klassisch besser",
+      "rightLab": "Schnellkraft besser"
+     }
+    }
+   ],
+   "s": [
+    "steib2010",
+    "straight2016",
+    "balachandran2022",
+    "morrison2023"
+   ]
+  },
+  {
+   "id": "funktion",
+   "name": "Funktion, Stürze und Sterblichkeit",
+   "q": "Verhindert Training Stürze, Brüche und Abhängigkeit?",
+   "ev": "hoch",
+   "key": [
+    "Cochrane-Review mit 108 RCTs und 23 407 Personen: Training senkte die Sturzrate um 23 % (RaR 0,77 [0,71; 0,83]; hohe Gewissheit) und die Zahl der Stürzenden um 15 %. Gleichgewichts- und funktionelle Übungen senkten die Sturzrate um 24 %, mehrere Trainingsformen kombiniert um 34 % (RaR 0,66 [0,50; 0,88]); für reines Krafttraining war der Effekt unsicher (Sherrington et al., 2019).",
+    "88 Studien mit 19 478 Personen: Training senkte Stürze um 21 % (RaR 0,79 [0,73; 0,85]); Programme mit Gleichgewichtsanforderung und mehr als 3 Stunden pro Woche um 39 % (Sherrington et al., 2017).",
+    "40 Langzeitstudien (≥ 1 Jahr) mit 21 868 Personen: Training senkte das Sturzrisiko (RR 0,88 [0,79; 0,98]) und verletzungsträchtige Stürze (RR 0,74 [0,62; 0,88]), Brüche tendenziell (RR 0,84 [0,71; 1,00]); Krankenhausaufenthalte und Sterblichkeit nicht gesichert. 2–3 Einheiten pro Woche erschienen optimal (de Souto Barreto et al., 2019).",
+    "Krafttraining verbesserte die körperliche Leistungsfähigkeit leicht (33 Studien, SMD 0,14 [0,05; 0,22]), die Gehgeschwindigkeit um 0,08 m/s und das Aufstehen vom Stuhl deutlich (SMD −0,94) (Liu &amp; Latham, 2009)."
+   ],
+   "critic": "Für Stürze ist die Evidenz die stärkste des ganzen Themas: hohe Gewissheit, viele Studien, übereinstimmende Analysen. Entscheidend ist das Gleichgewicht; reines Krafttraining ist für Sturzprävention allein nicht gesichert (Sherrington et al., 2019). Für die Sterblichkeit fanden RCTs keinen gesicherten Effekt (de Souto Barreto et al., 2019), während Beobachtungsstudien ein geringeres Sterberisiko bei Muskelkräftigung zeigen (siehe <a href=\"#koerpergewicht\">Körpergewichtstraining</a>). Wahrscheinlich ist die Studiendauer zu kurz und die Kontrollgruppen oft selbst aktiv, um Sterblichkeitseffekte in RCTs zu erfassen; Beobachtungsdaten sind dagegen anfällig für umgekehrte Kausalität.",
+   "figs": [
+    {
+     "id": "alt-sturz",
+     "title": "Training und Stürze",
+     "cap": "Rate- bzw. Risikoverhältnis mit 95-%-KI; Werte unter 1 = weniger Ereignisse mit Training.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Sturzrate, alle Trainingsformen",
+       "sub": "Sherrington et al., 2019",
+       "es": 0.77,
+       "lo": 0.71,
+       "hi": 0.83
+      },
+      {
+       "l": "Sturzrate, Gleichgewicht/Funktion",
+       "sub": "Sherrington et al., 2019",
+       "es": 0.76,
+       "lo": 0.7,
+       "hi": 0.81
+      },
+      {
+       "l": "Sturzrate, mehrere Formen kombiniert",
+       "sub": "Sherrington et al., 2019",
+       "es": 0.66,
+       "lo": 0.5,
+       "hi": 0.88
+      },
+      {
+       "l": "Sturzrate, alle Programme",
+       "sub": "Sherrington et al., 2017",
+       "es": 0.79,
+       "lo": 0.73,
+       "hi": 0.85
+      },
+      {
+       "l": "Verletzungsträchtige Stürze",
+       "sub": "de Souto Barreto et al., 2019",
+       "es": 0.74,
+       "lo": 0.62,
+       "hi": 0.88
+      },
+      {
+       "l": "Brüche",
+       "sub": "de Souto Barreto et al., 2019",
+       "es": 0.84,
+       "lo": 0.71,
+       "hi": 1.0
+      }
+     ],
+     "opts": {
+      "min": 0.4,
+      "max": 1.2,
+      "ticks": [
+       0.5,
+       0.75,
+       1
+      ],
+      "ref": 1,
+      "leftLab": "weniger mit Training",
+      "rightLab": "mehr mit Training"
+     }
+    }
+   ],
+   "s": [
+    "sherrington2019",
+    "sherrington2017",
+    "desouto2019",
+    "liu2009"
+   ]
+  },
+  {
+   "id": "ausdauer",
+   "name": "Ausdauer",
+   "q": "Wie gut lässt sich die Ausdauer im Alter verbessern?",
+   "ev": "moderat",
+   "key": [
+    "51 Studien mit 3 152 gesunden Personen ab 60 Jahren: Training verbesserte die VO₂max (SMD 0,51 [0,38; 0,65]) und die 6-Minuten-Gehstrecke (+36,2 m), einheitlich für Ausdauer-, Kraft- und kombiniertes Training (Azimkhani et al., 2026).",
+    "Netzwerk-Metaanalyse (ab 55 Jahren): Keine Trainingsform war für die VO₂max klar überlegen; Krafttraining steigerte die fettfreie Masse, kombiniertes Training senkte Körperfett und systolischen Blutdruck, HIIT BMI und Triglyceride (Yuan et al., 2026).",
+    "10 RCTs mit 348 Personen ab 70 Jahren: Ausdauertraining steigerte die VO₂peak um 1,56 ml/kg/min [0,90; 2,23], bei Gesunden um 1,72 (Bouaziz et al., 2018).",
+    "37 Studien mit gesunden Älteren: Auch reines Krafttraining verbesserte die VO₂peak (+1,89 ml/kg/min [1,21; 2,57]) in Programmen unter 24 Wochen, bei längeren nicht mehr (Smart et al., 2022)."
+   ],
+   "critic": "Die Ausdauer ist im Alter trainierbar, und die Trainingsform spielt eine kleinere Rolle als erwartet. Dass Krafttraining die VO₂max hebt, betrifft vor allem zuvor Untrainierte und kurze Programme (Smart et al., 2022). Die absoluten Zuwächse sind kleiner als bei jüngeren Erwachsenen. Grundlagen der Ausdauerintensität stehen unter <a href=\"#ausdauer\">Ausdauertraining</a>, Intervallformen unter <a href=\"#hiit\">HIIT</a>.",
+   "figs": [],
+   "s": [
+    "azimkhani2026",
+    "yuan2026",
+    "bouaziz2018",
+    "smart2022"
+   ]
+  },
+  {
+   "id": "multi",
+   "name": "Multikomponententraining",
+   "q": "Lohnt sich die Kombination aus Kraft, Ausdauer und Gleichgewicht?",
+   "ev": "moderat",
+   "key": [
+    "13 Studien mit 808 gesunden älteren Menschen: Multikomponententraining verbesserte die körperliche Leistungsfähigkeit gegenüber keinem Training (SMD 0,78 [0,55; 1,00]), dazu Kraft, Gehgeschwindigkeit und aerobe Kapazität (Labata-Lezaun et al., 2023).",
+    "27 Studien: Multikomponententraining verbesserte Ausdauer, Stoffwechselwerte, Funktion und Kognition, die Lebensqualität etwas (Bouaziz et al., 2016).",
+    "15 Studien mit 566 Personen (50–73 Jahre): Kombiniertes Kraft- und Ausdauertraining steigerte Kraft (SMD 0,74), Schnellkraft (SMD 0,50) und Ausdauer (SMD 0,48), nicht aber das Gleichgewicht; über 65-Jährige gewannen mehr Kraft (SMD 1,04) (Markov et al., 2023).",
+    "Programme mit mehreren Trainingsformen senkten die Sturzrate um 34 % (Sherrington et al., 2019)."
+   ],
+   "critic": "Multikomponententraining ist in den Langzeitstudien die häufigste Form und verbindet die Vorteile der Einzelformen (de Souto Barreto et al., 2019). Gleichgewicht verbessert sich aber nur, wenn es gezielt geübt wird; Kraft plus Ausdauer allein reichte dafür nicht (Markov et al., 2023). Direkte Vergleiche mit reinem Krafttraining sind selten.",
+   "figs": [],
+   "s": [
+    "labata2023",
+    "bouaziz2016",
+    "markov2023",
+    "sherrington2019",
+    "desouto2019"
+   ]
+  },
+  {
+   "id": "empfehlungen",
+   "name": "Positionspapiere und Sicherheit",
+   "q": "Was empfehlen Fachgesellschaften, und wie sicher ist Training im Alter?",
+   "ev": "moderat",
+   "key": [
+    "WHO-Leitlinie 2020: Alle Erwachsenen sollten pro Woche 150–300 Minuten moderate oder 75–150 Minuten intensive Ausdauerbelastung erreichen; regelmäßige Muskelkräftigung wird für alle Altersgruppen empfohlen (Bull et al., 2020).",
+    "NSCA-Positionspapier 2019: Krafttraining ist eine wirksame Maßnahme gegen den Verlust von Kraft und Muskelmasse und dessen Folgen für Mobilität, Selbstständigkeit und Lebensqualität; das Papier soll Ängste und Hürden abbauen (Fragala et al., 2019).",
+    "ACSM-Positionspapier 2009: Training für Ältere sollte Ausdauer-, Kraft- und Beweglichkeitsübungen enthalten; alle älteren Erwachsenen sollten Inaktivität vermeiden (American College of Sports Medicine et al., 2009).",
+    "ICFSR-Expertenkonsens 2021 und globaler Konsens 2025: Training soll wie ein Medikament nach Ziel dosiert und individuell angepasst werden; die Wirkung folgt einer Dosis-Wirkungs-Beziehung (Izquierdo et al., 2021; Izquierdo et al., 2025).",
+    "Sicherheit: Schwere Zwischenfälle waren im Cochrane-Review zum Krafttraining selten und keiner direkt dem Training zuzuordnen; häufig waren Gelenk- und Muskelbeschwerden (Liu &amp; Latham, 2009). In 108 Sturzpräventionsstudien wurden nur zwei schwere Ereignisse berichtet (Sherrington et al., 2019)."
+   ],
+   "critic": "Die Positionspapiere stimmen in der Richtung überein und stützen sich auf dieselben Metaanalysen. Konkrete Dosisangaben (Sätze, Lasten) enthalten die Zusammenfassungen kaum; sie stammen aus den Dosis-Wirkungs-Analysen oben. Nebenwirkungen wurden in den Studien schlecht erfasst, deshalb ist die Sicherheitsaussage weniger belastbar als die Wirksamkeit.",
+   "figs": [],
+   "s": [
+    "bull2020",
+    "fragala2019",
+    "acsm2009",
+    "izquierdo2021",
+    "izquierdo2025",
+    "liu2009",
+    "sherrington2019"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2009,
+   "t": "ACSM-Positionspapier für Ältere",
+   "p": "Ausdauer, Kraft und Beweglichkeit für alle Älteren.",
+   "tag": "neu",
+   "s": "acsm2009"
+  },
+  {
+   "y": 2009,
+   "t": "Cochrane: Krafttraining wirkt",
+   "p": "121 Studien, großer Effekt auf die Kraft, kleiner auf die Funktion.",
+   "tag": "neu",
+   "s": "liu2009"
+  },
+  {
+   "y": 2010,
+   "t": "Intensität zählt für die Kraft",
+   "p": "Hohe Intensität besser für Kraft, nicht für Funktion; Schnellkraft fördert Power.",
+   "tag": "neu",
+   "s": "steib2010"
+  },
+  {
+   "y": 2010,
+   "t": "Kraftzuwachs von 24–33 %",
+   "p": "Höhere Intensität mit größeren Zuwächsen.",
+   "tag": "conf",
+   "s": "peterson2010"
+  },
+  {
+   "y": 2011,
+   "t": "Muskelmasse +1,1 kg",
+   "p": "Mehr Volumen mehr Zuwachs, mit dem Alter weniger.",
+   "tag": "neu",
+   "s": "peterson2011"
+  },
+  {
+   "y": 2015,
+   "t": "Dosis-Wirkungs-Beziehungen",
+   "p": "70–79 % 1RM, 2× pro Woche, 2–3 Sätze am wirksamsten.",
+   "tag": "neu",
+   "s": "borde2015"
+  },
+  {
+   "y": 2016,
+   "t": "Leichtere Lasten reichen auch",
+   "p": "Schwere Lasten nur tendenziell besser.",
+   "tag": "rel",
+   "s": "csapo2016"
+  },
+  {
+   "y": 2016,
+   "t": "Schnelles Heben steigert die Power",
+   "p": "High-Velocity-Training klassischem überlegen.",
+   "tag": "conf",
+   "s": "straight2016"
+  },
+  {
+   "y": 2016,
+   "t": "Multikomponententraining",
+   "p": "Nutzen für Ausdauer, Stoffwechsel, Funktion und Kognition.",
+   "tag": "neu",
+   "s": "bouaziz2016"
+  },
+  {
+   "y": 2017,
+   "t": "Stürze um 21 % gesenkt",
+   "p": "Gleichgewicht und > 3 h pro Woche am wirksamsten.",
+   "tag": "neu",
+   "s": "sherrington2017"
+  },
+  {
+   "y": 2018,
+   "t": "Ausdauer auch ab 70 trainierbar",
+   "p": "VO₂peak +1,56 ml/kg/min.",
+   "tag": "neu",
+   "s": "bouaziz2018"
+  },
+  {
+   "y": 2019,
+   "t": "Cochrane: Training senkt Stürze",
+   "p": "Sturzrate −23 % bei hoher Gewissheit.",
+   "tag": "conf",
+   "s": "sherrington2019"
+  },
+  {
+   "y": 2019,
+   "t": "Langzeittraining: weniger Stürze, Sterblichkeit unverändert",
+   "p": "Weniger verletzungsträchtige Stürze (RR 0,74), kein gesicherter Effekt auf die Sterblichkeit.",
+   "tag": "rel",
+   "s": "desouto2019"
+  },
+  {
+   "y": 2019,
+   "t": "NSCA-Positionspapier",
+   "p": "Krafttraining als zentrale Maßnahme gegen Kraft- und Muskelverlust.",
+   "tag": "conf",
+   "s": "fragala2019"
+  },
+  {
+   "y": 2020,
+   "t": "WHO-Leitlinie",
+   "p": "Muskelkräftigung für alle Altersgruppen, 150–300 min Ausdauer.",
+   "tag": "conf",
+   "s": "bull2020"
+  },
+  {
+   "y": 2020,
+   "t": "Auch über 80 wirksam",
+   "p": "Kraftzuwachs bei den Ältesten.",
+   "tag": "conf",
+   "s": "grgic2020"
+  },
+  {
+   "y": 2021,
+   "t": "Mehr als 2 Einheiten bringen wenig",
+   "p": "Kleiner Frequenzeffekt auf die Kraft, keiner auf die Hypertrophie.",
+   "tag": "neu",
+   "s": "kneffel2021"
+  },
+  {
+   "y": 2021,
+   "t": "ICFSR-Konsens",
+   "p": "Training wie ein Medikament dosieren.",
+   "tag": "conf",
+   "s": "izquierdo2021"
+  },
+  {
+   "y": 2022,
+   "t": "Schnellkraft verbessert die Funktion etwas",
+   "p": "Kleiner Vorteil gegenüber klassischem Training.",
+   "tag": "conf",
+   "s": "balachandran2022"
+  },
+  {
+   "y": 2022,
+   "t": "Muskelverlust nach langer Pause",
+   "p": "Deutlicher Rückgang nach 31–52 Wochen.",
+   "tag": "neu",
+   "s": "grgic2022"
+  },
+  {
+   "y": 2022,
+   "t": "Krafttraining hebt auch die VO₂peak",
+   "p": "Vor allem in Programmen unter 24 Wochen.",
+   "tag": "neu",
+   "s": "smart2022"
+  },
+  {
+   "y": 2023,
+   "t": "Multikomponententraining steigert die Leistungsfähigkeit",
+   "p": "SMD 0,78 gegenüber keinem Training.",
+   "tag": "conf",
+   "s": "labata2023"
+  },
+  {
+   "y": 2023,
+   "t": "Kraft plus Ausdauer kombiniert",
+   "p": "Kraft, Power und Ausdauer steigen, Gleichgewicht nicht.",
+   "tag": "neu",
+   "s": "markov2023"
+  },
+  {
+   "y": 2023,
+   "t": "Schnellkraft: Nutzen unsicher",
+   "p": "Kleine Vorteile in SPPB und TUG, klinische Bedeutung offen.",
+   "tag": "rel",
+   "s": "morrison2023"
+  },
+  {
+   "y": 2024,
+   "t": "Muskelwachstum je nach Messmethode",
+   "p": "Bildgebung zeigt Hypertrophie, DXA-Magermasse nicht.",
+   "tag": "neu",
+   "s": "desantana2024"
+  },
+  {
+   "y": 2025,
+   "t": "Wenig Volumen reicht für Funktion und Masse",
+   "p": "151 Studien; für die Kraft mehr Volumen nötig.",
+   "tag": "rel",
+   "s": "radaelli2025"
+  },
+  {
+   "y": 2025,
+   "t": "Globaler ICFSR-Konsens",
+   "p": "Training für gesunde Langlebigkeit.",
+   "tag": "conf",
+   "s": "izquierdo2025"
+  },
+  {
+   "y": 2026,
+   "t": "VO₂max mit jeder Trainingsform",
+   "p": "Ausdauer, Kraft und kombiniert gleich wirksam.",
+   "tag": "conf",
+   "s": "azimkhani2026"
+  },
+  {
+   "y": 2026,
+   "t": "Keine beste Trainingsform",
+   "p": "Netzwerk-Metaanalyse: Auswahl nach Ziel.",
+   "tag": "conf",
+   "s": "yuan2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "21.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 4 103 Einträgen, 511 Übersichtsarbeiten nach Titel geprüft, 29 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "acsm2009": {
+   "short": "American College of Sports Medicine et al., 2009",
+   "year": 2009,
+   "type": "Positionspapier (ACSM)",
+   "basis": "Abstract",
+   "pmid": "19516148",
+   "apa": "American College of Sports Medicine, Chodzko-Zajko, W. J., Proctor, D. N., Fiatarone Singh, M. A., Minson, C. T., Nigg, C. R., Salem, G. J. &amp; Skinner, J. S. (2009). American College of Sports Medicine position stand. Exercise and physical activity for older adults. <em>Medicine &amp; Science in Sports &amp; Exercise, 41</em>(7), 1510–1530.",
+   "doi": "10.1249/MSS.0b013e3181a0c95c"
+  },
+  "liu2009": {
+   "short": "Liu & Latham, 2009",
+   "year": 2009,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "19588334",
+   "apa": "Liu, C. J. &amp; Latham, N. K. (2009). Progressive resistance strength training for improving physical function in older adults. <em>Cochrane Database of Systematic Reviews, 2009</em>(3), Artikel CD002759.",
+   "doi": "10.1002/14651858.CD002759.pub2"
+  },
+  "steib2010": {
+   "short": "Steib et al., 2010",
+   "year": 2010,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "19996996",
+   "apa": "Steib, S., Schoene, D. &amp; Pfeifer, K. (2010). Dose-response relationship of resistance training in older adults: A meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 42</em>(5), 902–914.",
+   "doi": "10.1249/MSS.0b013e3181c34465"
+  },
+  "peterson2010": {
+   "short": "Peterson et al., 2010",
+   "year": 2010,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "20385254",
+   "apa": "Peterson, M. D., Rhea, M. R., Sen, A. &amp; Gordon, P. M. (2010). Resistance exercise for muscular strength in older adults: A meta-analysis. <em>Ageing Research Reviews, 9</em>(3), 226–237.",
+   "doi": "10.1016/j.arr.2010.03.004"
+  },
+  "peterson2011": {
+   "short": "Peterson et al., 2011",
+   "year": 2011,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "20543750",
+   "apa": "Peterson, M. D., Sen, A. &amp; Gordon, P. M. (2011). Influence of resistance exercise on lean body mass in aging adults: A meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 43</em>(2), 249–258.",
+   "doi": "10.1249/MSS.0b013e3181eb6265"
+  },
+  "borde2015": {
+   "short": "Borde et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "26420238",
+   "apa": "Borde, R., Hortobágyi, T. &amp; Granacher, U. (2015). Dose-response relationships of resistance training in healthy old adults: A systematic review and meta-analysis. <em>Sports Medicine, 45</em>(12), 1693–1720.",
+   "doi": "10.1007/s40279-015-0385-9"
+  },
+  "csapo2016": {
+   "short": "Csapo & Alegre, 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26302881",
+   "apa": "Csapo, R. &amp; Alegre, L. M. (2016). Effects of resistance training with moderate vs heavy loads on muscle mass and strength in the elderly: A meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 26</em>(9), 995–1006.",
+   "doi": "10.1111/sms.12536"
+  },
+  "straight2016": {
+   "short": "Straight et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26545362",
+   "apa": "Straight, C. R., Lindheimer, J. B., Brady, A. O., Dishman, R. K. &amp; Evans, E. M. (2016). Effects of resistance training on lower-extremity muscle power in middle-aged and older adults: A systematic review and meta-analysis of randomized controlled trials. <em>Sports Medicine, 46</em>(3), 353–364.",
+   "doi": "10.1007/s40279-015-0418-4"
+  },
+  "bouaziz2016": {
+   "short": "Bouaziz et al., 2016",
+   "year": 2016,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "27291143",
+   "apa": "Bouaziz, W., Lang, P. O., Schmitt, E., Kaltenbach, G., Geny, B. &amp; Vogel, T. (2016). Health benefits of multicomponent training programmes in seniors: A systematic review. <em>International Journal of Clinical Practice, 70</em>(7), 520–536.",
+   "doi": "10.1111/ijcp.12822"
+  },
+  "sherrington2017": {
+   "short": "Sherrington et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27707740",
+   "apa": "Sherrington, C., Michaleff, Z. A., Fairhall, N., Paul, S. S., Tiedemann, A., Whitney, J., Cumming, R. G., Herbert, R. D., Close, J. C. T. &amp; Lord, S. R. (2017). Exercise to prevent falls in older adults: An updated systematic review and meta-analysis. <em>British Journal of Sports Medicine, 51</em>(24), 1750–1758.",
+   "doi": "10.1136/bjsports-2016-096547"
+  },
+  "bouaziz2018": {
+   "short": "Bouaziz et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29137544",
+   "apa": "Bouaziz, W., Kanagaratnam, L., Vogel, T., Schmitt, E., Dramé, M., Kaltenbach, G., Geny, B. &amp; Lang, P. O. (2018). Effect of aerobic training on peak oxygen uptake among seniors aged 70 or older: A meta-analysis of randomized controlled trials. <em>Rejuvenation Research, 21</em>(4), 341–349.",
+   "doi": "10.1089/rej.2017.1988"
+  },
+  "sherrington2019": {
+   "short": "Sherrington et al., 2019",
+   "year": 2019,
+   "type": "Cochrane-Review",
+   "basis": "Abstract",
+   "pmid": "30703272",
+   "apa": "Sherrington, C., Fairhall, N. J., Wallbank, G. K., Tiedemann, A., Michaleff, Z. A., Howard, K., Clemson, L., Hopewell, S. &amp; Lamb, S. E. (2019). Exercise for preventing falls in older people living in the community. <em>Cochrane Database of Systematic Reviews, 1</em>(1), Artikel CD012424.",
+   "doi": "10.1002/14651858.CD012424.pub2"
+  },
+  "desouto2019": {
+   "short": "de Souto Barreto et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30592475",
+   "apa": "de Souto Barreto, P., Rolland, Y., Vellas, B. &amp; Maltais, M. (2019). Association of long-term exercise training with risk of falls, fractures, hospitalizations, and mortality in older adults: A systematic review and meta-analysis. <em>JAMA Internal Medicine, 179</em>(3), 394–405.",
+   "doi": "10.1001/jamainternmed.2018.5406"
+  },
+  "fragala2019": {
+   "short": "Fragala et al., 2019",
+   "year": 2019,
+   "type": "Positionspapier (NSCA)",
+   "basis": "Abstract",
+   "pmid": "31343601",
+   "apa": "Fragala, M. S., Cadore, E. L., Dorgo, S., Izquierdo, M., Kraemer, W. J., Peterson, M. D. &amp; Ryan, E. D. (2019). Resistance training for older adults: Position statement from the National Strength and Conditioning Association. <em>Journal of Strength and Conditioning Research, 33</em>(8), 2019–2052.",
+   "doi": "10.1519/JSC.0000000000003230"
+  },
+  "bull2020": {
+   "short": "Bull et al., 2020",
+   "year": 2020,
+   "type": "Leitlinie (WHO)",
+   "basis": "Abstract",
+   "pmid": "33239350",
+   "apa": "Bull, F. C., Al-Ansari, S. S., Biddle, S., Borodulin, K., Buman, M. P., Cardon, G., Carty, C., Chaput, J. P., Chastin, S., Chou, R., Dempsey, P. C., DiPietro, L., Ekelund, U., Firth, J., Friedenreich, C. M., Garcia, L., Gichu, M., Jago, R., Katzmarzyk, P. T., … Willumsen, J. F. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. <em>British Journal of Sports Medicine, 54</em>(24), 1451–1462.",
+   "doi": "10.1136/bjsports-2020-102955"
+  },
+  "grgic2020": {
+   "short": "Grgic et al., 2020",
+   "year": 2020,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32740889",
+   "apa": "Grgic, J., Garofolini, A., Orazem, J., Sabol, F., Schoenfeld, B. J. &amp; Pedisic, Z. (2020). Effects of resistance training on muscle size and strength in very elderly adults: A systematic review and meta-analysis of randomized controlled trials. <em>Sports Medicine, 50</em>(11), 1983–1999.",
+   "doi": "10.1007/s40279-020-01331-7"
+  },
+  "kneffel2021": {
+   "short": "Kneffel et al., 2021",
+   "year": 2021,
+   "type": "Metaregression",
+   "basis": "Abstract",
+   "pmid": "32948100",
+   "apa": "Kneffel, Z., Murlasits, Z., Reed, J. &amp; Krieger, J. (2021). A meta-regression of the effects of resistance training frequency on muscular strength and hypertrophy in adults over 60 years of age. <em>Journal of Sports Sciences, 39</em>(3), 351–358.",
+   "doi": "10.1080/02640414.2020.1822595"
+  },
+  "izquierdo2021": {
+   "short": "Izquierdo et al., 2021",
+   "year": 2021,
+   "type": "Positionspapier (ICFSR-Expertenkonsens)",
+   "basis": "Abstract",
+   "pmid": "34409961",
+   "apa": "Izquierdo, M., Merchant, R. A., Morley, J. E., Anker, S. D., Aprahamian, I., Arai, H., Aubertin-Leheudre, M., Bernabei, R., Cadore, E. L., Cesari, M., Chen, L. K., de Souto Barreto, P., Duque, G., Ferrucci, L., Fielding, R. A., García-Hermoso, A., Gutiérrez-Robledo, L. M., Harridge, S. D. R., Kirk, B., … Fiatarone Singh, M. (2021). International exercise recommendations in older adults (ICFSR): Expert consensus guidelines. <em>The Journal of Nutrition, Health &amp; Aging, 25</em>(7), 824–853.",
+   "doi": "10.1007/s12603-021-1665-8"
+  },
+  "balachandran2022": {
+   "short": "Balachandran et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35544136",
+   "apa": "Balachandran, A. T., Steele, J., Angielczyk, D., Belio, M., Schoenfeld, B. J., Quiles, N., Askin, N. &amp; Abou-Setta, A. M. (2022). Comparison of power training vs traditional strength training on physical function in older adults: A systematic review and meta-analysis. <em>JAMA Network Open, 5</em>(5), Artikel e2211623.",
+   "doi": "10.1001/jamanetworkopen.2022.11623"
+  },
+  "grgic2022": {
+   "short": "Grgic, 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36360927",
+   "apa": "Grgic, J. (2022). Use it or lose it? A meta-analysis on the effects of resistance training cessation (detraining) on muscle size in older adults. <em>International Journal of Environmental Research and Public Health, 19</em>(21), Artikel 14048.",
+   "doi": "10.3390/ijerph192114048"
+  },
+  "smart2022": {
+   "short": "Smart et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "35737600",
+   "apa": "Smart, T. F. F., Doleman, B., Hatt, J., Paul, M., Toft, S., Lund, J. N. &amp; Phillips, B. E. (2022). The role of resistance exercise training for improving cardiorespiratory fitness in healthy older adults: A systematic review and meta-analysis. <em>Age and Ageing, 51</em>(6), Artikel afac143.",
+   "doi": "10.1093/ageing/afac143"
+  },
+  "labata2023": {
+   "short": "Labata-Lezaun et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36272227",
+   "apa": "Labata-Lezaun, N., González-Rueda, V., Llurda-Almuzara, L., López-de-Celis, C., Rodríguez-Sanz, J., Bosch, J., Vicente-Rodríguez, G., Gorczakowska, D., Araluze-Arizti, P. &amp; Pérez-Bellmunt, A. (2023). Effectiveness of multicomponent training on physical performance in older adults: A systematic review and meta-analysis. <em>Archives of Gerontology and Geriatrics, 104</em>, Artikel 104838.",
+   "doi": "10.1016/j.archger.2022.104838"
+  },
+  "markov2023": {
+   "short": "Markov et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36222981",
+   "apa": "Markov, A., Hauser, L. &amp; Chaabene, H. (2023). Effects of concurrent strength and endurance training on measures of physical fitness in healthy middle-aged and older adults: A systematic review with meta-analysis. <em>Sports Medicine, 53</em>(2), 437–455.",
+   "doi": "10.1007/s40279-022-01764-2"
+  },
+  "morrison2023": {
+   "short": "Morrison et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review mit Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37328359",
+   "apa": "Morrison, R. T., Taylor, S., Buckley, J., Twist, C. &amp; Kite, C. (2023). High-velocity power training has similar effects to traditional resistance training for functional performance in older adults: A systematic review. <em>Journal of Physiotherapy, 69</em>(3), 148–159.",
+   "doi": "10.1016/j.jphys.2023.05.018"
+  },
+  "desantana2024": {
+   "short": "de Santana et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse mit Metaregression",
+   "basis": "Abstract",
+   "pmid": "39579806",
+   "apa": "de Santana, D. A., Scolfaro, P. G., Marzetti, E. &amp; Cavaglieri, C. R. (2024). Lower extremity muscle hypertrophy in response to resistance training in older adults: Systematic review, meta-analysis, and meta-regression of randomized controlled trials. <em>Experimental Gerontology, 198</em>, Artikel 112639.",
+   "doi": "10.1016/j.exger.2024.112639"
+  },
+  "radaelli2025": {
+   "short": "Radaelli et al., 2025",
+   "year": 2025,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39405023",
+   "apa": "Radaelli, R., Rech, A., Molinari, T., Markarian, A. M., Petropoulou, M., Granacher, U., Hortobágyi, T. &amp; Lopez, P. (2025). Effects of resistance training volume on physical function, lean body mass and lower-body muscle hypertrophy and strength in older adults: A systematic review and network meta-analysis of 151 randomised trials. <em>Sports Medicine, 55</em>(1), 167–192.",
+   "doi": "10.1007/s40279-024-02123-z"
+  },
+  "izquierdo2025": {
+   "short": "Izquierdo et al., 2025",
+   "year": 2025,
+   "type": "Positionspapier (ICFSR-Konsens)",
+   "basis": "Abstract",
+   "pmid": "39743381",
+   "apa": "Izquierdo, M., de Souto Barreto, P., Arai, H., Bischoff-Ferrari, H. A., Cadore, E. L., Cesari, M., Chen, L. K., Coen, P. M., Courneya, K. S., Duque, G., Ferrucci, L., Fielding, R. A., García-Hermoso, A., Gutiérrez-Robledo, L. M., Harridge, S. D. R., Kirk, B., Kritchevsky, S., Landi, F., Lazarus, N., … Fiatarone Singh, M. A. (2025). Global consensus on optimal exercise recommendations for enhancing healthy longevity in older adults (ICFSR). <em>The Journal of Nutrition, Health &amp; Aging, 29</em>(1), Artikel 100401.",
+   "doi": "10.1016/j.jnha.2024.100401"
+  },
+  "azimkhani2026": {
+   "short": "Azimkhani et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40501026",
+   "apa": "Azimkhani, A., Kasraei, R., Sabeti, H. &amp; Almasoodi, A. (2026). The effect of aerobic, resistance, and combined exercise training on cardiorespiratory fitness in healthy people aged 60 years and over: A systematic review and meta-analysis of randomized controlled trials. <em>Biological Research for Nursing, 28</em>(1), 72–90.",
+   "doi": "10.1177/10998004251348605"
+  },
+  "yuan2026": {
+   "short": "Yuan et al., 2026",
+   "year": 2026,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41678236",
+   "apa": "Yuan, J., Li, F., Shi, S. &amp; Wu, Z. (2026). The relative effects of different exercise modes on physical and metabolic health in older adults: A network meta-analysis. <em>The Journals of Gerontology. Series A, Biological Sciences and Medical Sciences, 81</em>(4), Artikel glag030.",
+   "doi": "10.1093/gerona/glag030"
+  }
+ }
+}

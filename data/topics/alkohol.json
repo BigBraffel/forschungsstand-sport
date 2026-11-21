@@ -1,0 +1,1067 @@
+{
+ "id": "alkohol",
+ "title": "Alkohol und Training",
+ "stand": "2026-11-21",
+ "lead": "Wie stark beeinträchtigt Alkohol Leistung, Regeneration, Muskelaufbau, Hormone und Schlaf, ab welcher Menge, und ist „moderates“ Trinken gesund? Zusammengefasst aus Metaanalysen, Umbrella Reviews, systematischen Reviews und einer Schlüsselstudie zur Muskelproteinsynthese.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierende Erwachsene. Zu akuten Effekten auf Training und Regeneration gibt es nur wenige kleine Studien und keine Metaanalyse; die Gesundheitsaussagen beruhen auf großen Kohorten- und Genanalysen.",
+ "rx": [
+  {
+   "label": "Nach dem Training",
+   "value": "möglichst verzichten, sonst höchstens etwa 0,5 g/kg",
+   "text": "Große Mengen (1,5 g/kg, etwa 12 Getränke) senkten die Muskelproteinsynthese um 24–37 %, selbst mit Protein. Etwa 0,5 g/kg beeinträchtigen die meisten Aspekte der Erholung vermutlich nicht.",
+   "cite": "Parr et al. 2014; Barnes 2014"
+  },
+  {
+   "label": "Vor dem Schlaf",
+   "value": "schon 2 Getränke stören den REM-Schlaf",
+   "text": "Ab etwa 0,5 g/kg nahm der REM-Schlaf ab, mit steigender Dosis stärker. Siehe auch <a href=\"#schlaf\">Schlaf</a>.",
+   "cite": "Gardiner et al. 2025"
+  },
+  {
+   "label": "Rehydrierung",
+   "value": "alkoholarm (unter 4 %) oder mit Wasser kombinieren",
+   "text": "Alkoholarmes Bier rehydrierte besser; stärkeres Bier besser mit einem alkoholfreien Getränk kombinieren, vor allem bei größeren Mengen. Siehe <a href=\"#fluessigkeit\">Flüssigkeit</a>.",
+   "cite": "Wynne &amp; Wilson 2021"
+  },
+  {
+   "label": "Wochenmenge",
+   "value": "weniger ist besser; kein gesundheitlicher Grund zu trinken",
+   "text": "Bei bereinigter Analyse senkte geringer Konsum die Sterblichkeit nicht; ab etwa 45 g/Tag stieg sie. Bei Trinkenden lag das geringste Risiko bei höchstens etwa 100 g pro Woche.",
+   "cite": "Zhao et al. 2023; Wood et al. 2018"
+  },
+  {
+   "label": "Rauschtrinken",
+   "value": "vermeiden",
+   "text": "Alkohol erhöhte die Verletzungswahrscheinlichkeit deutlich; in manchen Teamsportarten ist starkes Trinken verbreitet.",
+   "cite": "Dionisi et al. 2026; Castaldelli-Maia et al. 2026"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Die Angaben in g/kg Körpergewicht beziehen sich auf die Studien; 0,5 g/kg entsprechen laut Gardiner et al. (2025) etwa zwei Standardgetränken.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Weniger Muskelproteinsynthese nach starkem Trinken",
+   "ev": "niedrig",
+   "p": "Nach einer großen Alkoholmenge war die Muskelproteinsynthese um 24–37 % geringer, auch mit Protein; Kraft und Muskelkater in der Erholungsphase änderten sich in den meisten Studien nicht.",
+   "s": [
+    "parr2014",
+    "lakicevic2019",
+    "levitt2022"
+   ]
+  },
+  {
+   "t": "Schlechterer REM-Schlaf schon bei geringer Dosis",
+   "ev": "moderat",
+   "p": "Ab etwa zwei Getränken nahm der REM-Schlaf ab; nur hohe Dosen verkürzten die Einschlafzeit.",
+   "s": [
+    "gardiner2025"
+   ]
+  },
+  {
+   "t": "Weniger Testosteron bei chronischem Konsum",
+   "ev": "moderat",
+   "p": "Regelmäßiger Konsum ging bei gesunden Männern mit niedrigerem Testosteron und höherem Östradiol einher; nach einmaligem Trinken zeigte sich das nicht.",
+   "s": [
+    "santi2024",
+    "lakicevic2019"
+   ]
+  },
+  {
+   "t": "„Moderates Trinken“ schützt nicht nachweislich",
+   "ev": "moderat",
+   "p": "Ältere Analysen sahen einen Schutzeffekt geringer Mengen. Nach Korrektur für Verzerrungen (frühere Trinker unter den Abstinenten) verschwand er; höhere Mengen erhöhen die Sterblichkeit eindeutig.",
+   "s": [
+    "stockwell2016",
+    "zhao2023",
+    "stockwell2024",
+    "sarich2024",
+    "ronksley2011"
+   ]
+  },
+  {
+   "t": "Mehr Verletzungen, Frakturen, Krebs und Vorhofflimmern",
+   "ev": "moderat",
+   "p": "Alkohol erhöhte die Verletzungswahrscheinlichkeit und das Frakturrisiko; schon geringe Mengen waren mit einzelnen Krebsarten verbunden, hohe mit Vorhofflimmern.",
+   "s": [
+    "dionisi2026",
+    "ke2023",
+    "jun2023",
+    "gallagher2017"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "leistung",
+   "name": "Akute Leistung",
+   "q": "Wie wirkt Alkohol auf Kraft und Ausdauer am Folgetag?",
+   "ev": "niedrig",
+   "key": [
+    "Narrativer Review: Die Wirkung auf Erholung und Leistung hängt von Zeitpunkt, benötigter Erholungszeit, Verletzungsstatus und Dosis ab; die bei Sportlern üblichen Mengen können Immunsystem, Hormone, Durchblutung und Proteinsynthese beeinträchtigen, Rehydrierung und Glykogenaufbau weniger stark (Barnes, 2014).",
+    "Systematischer Review mit 12 Studien nach Krafttraining: Kraft, Schnellkraft, Kraftausdauer, Muskelkater und Anstrengungsempfinden blieben nach Alkohol unverändert (Lakićević, 2019).",
+    "Systematischer Review mit 16 Studien zu Bier: In moderaten Mengen blieben Körperzusammensetzung und Kraft weitgehend unbeeinflusst; die Ergebnisse waren wegen unterschiedlicher Studienprotokolle uneinheitlich (Wynne &amp; Wilson, 2021)."
+   ],
+   "critic": "Eine Metaanalyse zu akuten Leistungseffekten wurde in PubMed nicht gefunden. Die Studien sind klein, verwenden unterschiedliche Dosen und messen oft kurz nach dem Trinken. Dass Kraft und Muskelkater in mehreren Studien unverändert blieben, widerspricht nicht dem Rückgang der Proteinsynthese: Kurzfristige Leistung und langfristige Anpassung sind verschiedene Zielgrößen. Wahrscheinlichste Lesart: Moderate Mengen haben kaum messbare Akuteffekte auf die Kraft, große Mengen sind für Erholung und Anpassung ungünstig.",
+   "figs": [],
+   "s": [
+    "barnes2014",
+    "lakicevic2019",
+    "wynne2021"
+   ]
+  },
+  {
+   "id": "regeneration",
+   "name": "Regeneration und Muskelproteinsynthese",
+   "q": "Bremst Alkohol den Muskelaufbau nach dem Training?",
+   "ev": "niedrig",
+   "key": [
+    "Randomisierte Crossover-Studie mit 8 Männern: Nach Kraft- und Ausdauertraining senkte Alkohol (1,5 g/kg, etwa 12 Getränke) die Muskelproteinsynthese gegenüber Protein allein um 24 % (mit Protein) bzw. 37 % (mit Kohlenhydraten) (Parr et al., 2014).",
+    "Systematischer Review mit 12 Studien: Cortisol stieg, Testosteron, Aminosäuren im Blut und Muskelproteinsynthese sanken; Kreatinkinase, Laktat, Blutzucker, Entzündungsmarker und CRP blieben unverändert (Lakićević, 2019).",
+    "Narrativer Review: Alkohol hemmt den mTORC1-Signalweg; Krafttraining und Nährstoffe können die Hemmung teilweise aufheben, abhängig von Ernährung und Geschlecht (Levitt et al., 2022).",
+    "Nach dem Training sind etwa 0,5 g/kg Körpergewicht für die meisten Aspekte der Erholung vermutlich unbedenklich (Barnes, 2014)."
+   ],
+   "critic": "Der zentrale Befund zur Proteinsynthese stammt aus einer einzelnen Studie mit 8 Männern und einer sehr hohen Dosis. Die Grenze von 0,5 g/kg ist eine Expertenempfehlung aus einem narrativen Review, keine gepoolte Analyse. Die Richtung (weniger Anabolie bei großen Mengen) wird von mechanistischen Daten gestützt (Levitt et al., 2022); wie groß der Effekt bei üblichen Mengen und über Wochen ist, ist unbekannt.",
+   "figs": [
+    {
+     "id": "alk-mps",
+     "title": "Alkohol und Muskelproteinsynthese nach dem Training",
+     "cap": "Verringerung der Muskelproteinsynthese gegenüber Protein allein (25 g Molke), nach 1,5 g/kg Alkohol (Parr et al., 2014; 8 Männer).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Alkohol + Protein",
+       "es": 24
+      },
+      {
+       "l": "Alkohol + Kohlenhydrate",
+       "es": 37
+      }
+     ],
+     "opts": {
+      "max": 40,
+      "ticks": [
+       0,
+       10,
+       20,
+       30,
+       40
+      ],
+      "unit": "%",
+      "xlab": "Verringerung der Muskelproteinsynthese (%)",
+      "src": "Parr et al., 2014"
+     }
+    }
+   ],
+   "s": [
+    "parr2014",
+    "lakicevic2019",
+    "levitt2022",
+    "barnes2014"
+   ]
+  },
+  {
+   "id": "hormone",
+   "name": "Hormone",
+   "q": "Senkt Alkohol das Testosteron?",
+   "ev": "moderat",
+   "key": [
+    "21 Studien mit 30 Vergleichen und 10 199 Männern: Alkohol senkte Gesamttestosteron (MD −4,02 [−6,30; −1,73]), freies Testosteron (−0,17 [−0,23; −0,12]) und SHBG und erhöhte Östradiol (+7,65); LH blieb unverändert. Die Effekte zeigten sich nur bei gesunden Männern mit chronischem Konsum, nicht nach akutem Trinken und nicht bei Alkoholabhängigkeit (Santi et al., 2024).",
+    "Nach Krafttraining mit Alkohol stieg Cortisol, Testosteron sank (Lakićević, 2019)."
+   ],
+   "critic": "Die Metaanalyse ist groß, die Einheit der Testosteron-Differenz ist im Abstract aber nicht angegeben; die praktische Größe lässt sich daher nicht sicher beurteilen. Dass der Effekt nur bei chronischem Konsum auftrat, passt zum uneinheitlichen Akutbefund. Ob die hormonellen Veränderungen den Trainingserfolg messbar mindern, ist nicht untersucht.",
+   "figs": [],
+   "s": [
+    "santi2024",
+    "lakicevic2019"
+   ]
+  },
+  {
+   "id": "schlaf",
+   "name": "Schlaf",
+   "q": "Wie wirkt Alkohol auf den Schlaf?",
+   "ev": "moderat",
+   "key": [
+    "27 Studien an Gesunden: Alkohol verzögerte den Beginn des REM-Schlafs und verkürzte ihn; schon ab etwa 0,5 g/kg (etwa zwei Getränke), mit steigender Dosis stärker. Nur hohe Dosen (ab etwa 0,85 g/kg, etwa fünf Getränke) verkürzten die Einschlafzeit; Gesamtschlafzeit und Schlafeffizienz blieben unklar (Gardiner et al., 2025).",
+    "Allgemeine Befunde zu Schlaf und Leistung unter <a href=\"#schlaf\">Schlaf</a>."
+   ],
+   "critic": "Die Dosis-Wirkungs-Beziehung für den REM-Schlaf ist konsistent und stammt aus Laborstudien an Gesunden. Das schnellere Einschlafen bei hohen Dosen ist kein Vorteil, da es mit stärkerer REM-Störung einhergeht. Wie sich das auf die Leistung am Folgetag auswirkt, wurde in der Analyse nicht untersucht.",
+   "figs": [],
+   "s": [
+    "gardiner2025"
+   ]
+  },
+  {
+   "id": "sportler",
+   "name": "Konsum bei Sportlern, Verletzungen und Knochen",
+   "q": "Wie viel trinken Sportler, und erhöht Alkohol das Verletzungsrisiko?",
+   "ev": "niedrig",
+   "key": [
+    "Scoping Review mit 119 Studien an Leistungssportlern: Alkohol war die am häufigsten untersuchte Substanz; starkes Trinken war in Sportarten mit ausgeprägten Team- und Geselligkeitsnormen verbreitet (Castaldelli-Maia et al., 2026).",
+    "Sportler trinken häufig größere Mengen in Form von Rauschtrinken als die Allgemeinbevölkerung (Barnes, 2014).",
+    "Umbrella Review: Jedes Trinken erhöhte die Verletzungswahrscheinlichkeit (OR 2,80) (Dionisi et al., 2026).",
+    "44 Studien mit 6 069 770 Personen: höchster gegenüber niedrigstem Konsum mit mehr Frakturen (RR 1,26 [1,17; 1,37]); je 14 g/Tag +6 % (RR 1,06 [1,02; 1,10]); für osteoporotische und Hüftfrakturen J-förmiger Verlauf mit geringerem Risiko bei 0–22 g/Tag (Ke et al., 2023)."
+   ],
+   "critic": "Zur Verletzungsgefahr im Sport selbst gibt es keine Metaanalyse; der Verletzungsbefund stammt aus der Allgemeinbevölkerung. Der J-förmige Verlauf bei Hüftfrakturen kann dieselben Verzerrungen enthalten wie bei der Sterblichkeit (siehe unten). Für Sportler zählt vor allem: Rauschtrinken ist verbreitet und erhöht das Verletzungsrisiko.",
+   "figs": [],
+   "s": [
+    "castaldelli2026",
+    "barnes2014",
+    "dionisi2026",
+    "ke2023"
+   ]
+  },
+  {
+   "id": "sterblichkeit",
+   "name": "„Moderate Trinkmenge“ und Sterblichkeit",
+   "q": "Ist wenig Alkohol gesünder als gar keiner?",
+   "ev": "moderat",
+   "key": [
+    "34 Studien: J-förmiger Verlauf; bis zu 4 Getränke pro Tag bei Männern und 2 bei Frauen waren mit geringerer Sterblichkeit verbunden (maximal 17 % bzw. 18 %) (Di Castelnuovo et al., 2006).",
+    "84 Studien: Trinkende hatten gegenüber Nichttrinkenden eine geringere Herz-Kreislauf-Sterblichkeit (RR 0,75 [0,70; 0,80]) und Gesamtsterblichkeit (RR 0,87 [0,83; 0,92]), aber nicht weniger Schlaganfälle (RR 0,98 [0,91; 1,06]) (Ronksley et al., 2011).",
+    "87 Studien mit 3 998 626 Personen: ohne Korrektur RR 0,86 [0,83; 0,90] für geringe Mengen (1,3–24,9 g/Tag); frühere Trinker hatten ein erhöhtes Risiko (RR 1,22). Nach Korrektur für Abstinenten-Verzerrung und Studienqualität kein Vorteil mehr (RR 0,97 [0,88; 1,07]) (Stockwell et al., 2016).",
+    "83 Kohorten mit 599 912 Trinkenden: geringste Sterblichkeit bei höchstens etwa 100 g pro Woche; mehr Alkohol erhöhte das Risiko für Schlaganfall (HR 1,14 je 100 g/Woche), Herzinsuffizienz und tödlichen Bluthochdruck, senkte aber das Herzinfarktrisiko (HR 0,94). Gegenüber bis 100 g/Woche verringerten 100–200 g die Lebenserwartung mit 40 Jahren um etwa 6 Monate, über 350 g um 4–5 Jahre (Wood et al., 2018).",
+    "Global Burden of Disease 2016: Alkohol war der siebtwichtigste Risikofaktor für Tod und Krankheitslast, bei 15- bis 49-Jährigen der wichtigste; die Menge mit dem geringsten Gesundheitsverlust lag bei null (GBD 2016 Alcohol Collaborators, 2018).",
+    "Global Burden of Disease 2020: Bei 15- bis 39-Jährigen lag die risikoärmste Menge bei 0 bis 0,603 Standardgetränken pro Tag, ab 40 Jahren J-förmig bei 0,114 bis 1,87 Getränken; 59,1 % der schädlich Trinkenden waren 15–39 Jahre alt (GBD 2020 Alcohol Collaborators, 2022).",
+    "107 Studien mit 4 838 825 Personen: nach Korrektur kein geringeres Risiko bei gelegentlichem (RR 0,96 [0,86; 1,06]) oder geringem Konsum (1,3–24 g/Tag; RR 0,93, nicht signifikant); erhöhtes Risiko ab 45 g/Tag (RR 1,19) und ab 65 g/Tag (RR 1,35); bei Frauen höheres Risiko schon früher (Zhao et al., 2023).",
+    "Studien mit jüngeren Kohorten und getrennter Erfassung früherer und gelegentlicher Trinker fanden keinen Vorteil (RR 0,98 [0,87; 1,11]), andere Studien schon (RR 0,84 [0,79; 0,89]) (Stockwell et al., 2024).",
+    "Umbrella Review: Über 70 % der Übersichtsarbeiten schlossen frühere Trinker nicht aus der Vergleichsgruppe aus; die einzige Übersicht mit geringem Verzerrungsrisiko fand ein stetig steigendes Risiko (RR 1,02 bis 1,52 mit zunehmender Menge) (Sarich et al., 2024).",
+    "24 Mendel-Randomisierungsstudien: überwiegend kein Zusammenhang genetisch vorhergesagten Alkoholkonsums mit Herz-Kreislauf-Erkrankungen (67 %) und Diabetes (75 %); die einzige Studie zur Gesamtsterblichkeit fand einen schädlichen Zusammenhang (van de Luitgaarden et al., 2022).",
+    "8 neue Studien (2023–2025): Schutzeffekte fanden sich nur mit Nichttrinkern als Vergleichsgruppe; keine Studie korrigierte die bekannten Verzerrungen (Stolpe et al., 2026).",
+    "Umbrella Review mit 49 Arbeiten: Scheinbare Vorteile geringer Mengen hielten verzerrungsbewussten Analysen nicht stand; Fazit „weniger ist besser“ statt sicherer Grenze (Dionisi et al., 2026)."
+   ],
+   "critic": "Hier hat sich der Forschungsstand gewandelt. Bis etwa 2011 zeigten Metaanalysen einen Schutzeffekt geringer Mengen (Di Castelnuovo et al., 2006; Ronksley et al., 2011). Spätere Analysen zeigten, dass dieser Effekt weitgehend auf Verzerrungen beruht: Unter den „Abstinenten“ waren frühere Trinker, die oft aus Krankheitsgründen aufgehört hatten. Nach Korrektur blieb kein Vorteil (Stockwell et al., 2016; Zhao et al., 2023), und Genanalysen stützen keinen Schutz (van de Luitgaarden et al., 2022). Wahrscheinlichste Lesart: Geringe Mengen sind mit keinem oder einem sehr kleinen Risiko verbunden, aber nicht gesundheitsfördernd; ab etwa 45 g/Tag steigt die Sterblichkeit eindeutig. Die GBD-Analysen weichen für über 40-Jährige leicht ab (J-Form), für junge Erwachsene, also die meisten Sportler, liegt die risikoärmste Menge bei null oder nahe null.",
+   "figs": [
+    {
+     "id": "alk-sterblichkeit",
+     "title": "Geringer Alkoholkonsum und Gesamtsterblichkeit: Einfluss der Studienmethodik",
+     "cap": "Relatives Risiko geringer Trinkmengen gegenüber Nichttrinkern bzw. lebenslang Abstinenten mit 95-%-KI. Werte unter 1 bedeuten eine geringere Sterblichkeit. Bereinigte Analysen korrigieren für frühere Trinker in der Vergleichsgruppe und Studienqualität.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Trinkende gesamt",
+       "sub": "Ronksley et al., 2011",
+       "es": 0.87,
+       "lo": 0.83,
+       "hi": 0.92
+      },
+      {
+       "l": "Geringe Menge, unbereinigt",
+       "sub": "Stockwell et al., 2016",
+       "es": 0.86,
+       "lo": 0.83,
+       "hi": 0.9
+      },
+      {
+       "l": "Geringe Menge, bereinigt",
+       "sub": "Stockwell et al., 2016",
+       "es": 0.97,
+       "lo": 0.88,
+       "hi": 1.07
+      },
+      {
+       "l": "Studien mit Verzerrungen",
+       "sub": "Stockwell et al., 2024",
+       "es": 0.84,
+       "lo": 0.79,
+       "hi": 0.89
+      },
+      {
+       "l": "Studien ohne diese Verzerrungen",
+       "sub": "Stockwell et al., 2024",
+       "es": 0.98,
+       "lo": 0.87,
+       "hi": 1.11
+      },
+      {
+       "l": "Gelegentlich, bereinigt",
+       "sub": "Zhao et al., 2023",
+       "es": 0.96,
+       "lo": 0.86,
+       "hi": 1.06
+      }
+     ],
+     "opts": {
+      "min": 0.7,
+      "max": 1.2,
+      "ticks": [
+       0.7,
+       0.8,
+       0.9,
+       1,
+       1.1,
+       1.2
+      ],
+      "ref": 1,
+      "leftLab": "geringere Sterblichkeit",
+      "rightLab": "höhere Sterblichkeit"
+     }
+    }
+   ],
+   "s": [
+    "dicastelnuovo2006",
+    "ronksley2011",
+    "stockwell2016",
+    "wood2018",
+    "gbd2018",
+    "gbd2022",
+    "zhao2023",
+    "stockwell2024",
+    "sarich2024",
+    "vandeluitgaarden2022",
+    "stolpe2026",
+    "dionisi2026"
+   ]
+  },
+  {
+   "id": "krankheit",
+   "name": "Krebs, Vorhofflimmern und Muskelabbau",
+   "q": "Welche Krankheitsrisiken hängen schon an geringen Mengen?",
+   "ev": "moderat",
+   "key": [
+    "139 Kohortenstudien (106 in der Metaanalyse): geringer Konsum war nicht mit Krebs insgesamt verbunden (RR 1,02 [0,99; 1,04]), aber mit mehr Speiseröhren-, Darm- und Brustkrebs; mit steigender Menge nahm das Risiko für fast alle Krebsarten zu (Jun et al., 2023).",
+    "Umbrella Review: Brustkrebs schon bei geringem Konsum leicht erhöht (RR 1,05); Leberzirrhose bei 40 g/Tag stark erhöht (RR 9,35 bei Frauen, 2,82 bei Männern) (Dionisi et al., 2026).",
+    "Vorhofflimmern: hoher Konsum erhöhte das Risiko (HR 1,34 [1,20; 1,49]), moderater bei Männern (HR 1,26 [1,04; 1,54]), nicht bei Frauen (HR 1,03 [0,86; 1,25]); bis 1 Getränk pro Tag kein Zusammenhang (HR 0,95 [0,85; 1,06]) (Gallagher et al., 2017).",
+    "62 Studien mit 454 643 Personen: Alkohol war insgesamt nicht mit Sarkopenie verbunden (OR 0,964 [0,912; 1,019]); einen möglichen Schutzeffekt bewerteten die Autoren zurückhaltend (Bu et al., 2024)."
+   ],
+   "critic": "Krebsrisiken steigen ohne erkennbare Schwelle; bei geringem Konsum betrifft das einzelne Krebsarten, nicht die Gesamtrate. Vorhofflimmern ist für Ausdauersportler relevant, die ohnehin ein erhöhtes Grundrisiko haben; der Effekt bei moderatem Konsum zeigte sich nur bei Männern. Der fehlende Zusammenhang mit Sarkopenie beruht auf Beobachtungsdaten älterer Menschen und lässt sich nicht auf den Muskelaufbau bei Sportlern übertragen.",
+   "figs": [
+    {
+     "id": "alk-risiken",
+     "title": "Alkohol und Krankheitsrisiken",
+     "cap": "Relatives Risiko, Hazard Ratio bzw. Odds Ratio mit 95-%-KI. Werte über 1 bedeuten ein höheres Risiko.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Frakturen, höchster gegen niedrigster Konsum",
+       "sub": "Ke et al., 2023",
+       "es": 1.26,
+       "lo": 1.17,
+       "hi": 1.37
+      },
+      {
+       "l": "Vorhofflimmern, hoher Konsum",
+       "sub": "Gallagher et al., 2017",
+       "es": 1.34,
+       "lo": 1.2,
+       "hi": 1.49
+      },
+      {
+       "l": "Vorhofflimmern, moderat (Männer)",
+       "sub": "Gallagher et al., 2017",
+       "es": 1.26,
+       "lo": 1.04,
+       "hi": 1.54
+      },
+      {
+       "l": "Vorhofflimmern, bis 1 Getränk/Tag",
+       "sub": "Gallagher et al., 2017",
+       "es": 0.95,
+       "lo": 0.85,
+       "hi": 1.06
+      },
+      {
+       "l": "Krebs gesamt, geringer Konsum",
+       "sub": "Jun et al., 2023",
+       "es": 1.02,
+       "lo": 0.99,
+       "hi": 1.04
+      },
+      {
+       "l": "Sarkopenie",
+       "sub": "Bu et al., 2024",
+       "es": 0.964,
+       "lo": 0.912,
+       "hi": 1.019
+      }
+     ],
+     "opts": {
+      "min": 0.8,
+      "max": 1.6,
+      "ticks": [
+       0.8,
+       1,
+       1.2,
+       1.4,
+       1.6
+      ],
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "jun2023",
+    "dionisi2026",
+    "gallagher2017",
+    "bu2024"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2006,
+   "t": "J-Kurve bestätigt",
+   "p": "Bis 2 bzw. 4 Getränke pro Tag geringere Sterblichkeit.",
+   "tag": "neu",
+   "s": "dicastelnuovo2006"
+  },
+  {
+   "y": 2011,
+   "t": "Schutz für das Herz",
+   "p": "Trinkende mit geringerer Herz-Kreislauf-Sterblichkeit.",
+   "tag": "conf",
+   "s": "ronksley2011"
+  },
+  {
+   "y": 2014,
+   "t": "Alkohol senkt Muskelproteinsynthese",
+   "p": "Um 24–37 % nach hoher Dosis, auch mit Protein.",
+   "tag": "neu",
+   "s": "parr2014"
+  },
+  {
+   "y": 2014,
+   "t": "Alkohol und Regeneration bei Sportlern",
+   "p": "Etwa 0,5 g/kg nach dem Training vermutlich unbedenklich.",
+   "tag": "neu",
+   "s": "barnes2014"
+  },
+  {
+   "y": 2016,
+   "t": "Schutzeffekt durch Verzerrung erklärt",
+   "p": "Nach Korrektur kein Vorteil geringer Mengen.",
+   "tag": "contra",
+   "s": "stockwell2016"
+  },
+  {
+   "y": 2017,
+   "t": "Vorhofflimmern",
+   "p": "Erhöhtes Risiko bei hohem Konsum.",
+   "tag": "neu",
+   "s": "gallagher2017"
+  },
+  {
+   "y": 2018,
+   "t": "Risikoschwelle etwa 100 g pro Woche",
+   "p": "Bei Trinkenden; darüber kürzere Lebenserwartung.",
+   "tag": "rel",
+   "s": "wood2018"
+  },
+  {
+   "y": 2018,
+   "t": "Risikoärmste Menge: null",
+   "p": "Global Burden of Disease 2016.",
+   "tag": "contra",
+   "s": "gbd2018"
+  },
+  {
+   "y": 2019,
+   "t": "Erholung nach Krafttraining",
+   "p": "Kraft und Muskelkater unverändert, Proteinsynthese und Testosteron geringer.",
+   "tag": "neu",
+   "s": "lakicevic2019"
+  },
+  {
+   "y": 2021,
+   "t": "Bier und Sport",
+   "p": "Alkoholarmes Bier rehydriert besser.",
+   "tag": "neu",
+   "s": "wynne2021"
+  },
+  {
+   "y": 2022,
+   "t": "mTOR-Signalweg",
+   "p": "Alkohol hemmt anabole Signale, Training dämpft das teilweise.",
+   "tag": "conf",
+   "s": "levitt2022"
+  },
+  {
+   "y": 2022,
+   "t": "Genanalysen ohne Schutzeffekt",
+   "p": "Mendel-Randomisierung stützt keinen Herzschutz.",
+   "tag": "contra",
+   "s": "vandeluitgaarden2022"
+  },
+  {
+   "y": 2022,
+   "t": "Altersabhängige Risiken",
+   "p": "Junge Erwachsene: risikoärmste Menge null oder nahe null.",
+   "tag": "rel",
+   "s": "gbd2022"
+  },
+  {
+   "y": 2023,
+   "t": "Kein Sterblichkeitsvorteil bei 107 Studien",
+   "p": "Risiko ab 45 g/Tag erhöht.",
+   "tag": "conf",
+   "s": "zhao2023"
+  },
+  {
+   "y": 2023,
+   "t": "Krebs auch bei geringem Konsum",
+   "p": "Speiseröhre, Darm und Brust.",
+   "tag": "neu",
+   "s": "jun2023"
+  },
+  {
+   "y": 2023,
+   "t": "Mehr Frakturen",
+   "p": "Je 14 g/Tag 6 % mehr Frakturen.",
+   "tag": "neu",
+   "s": "ke2023"
+  },
+  {
+   "y": 2024,
+   "t": "Weniger Testosteron",
+   "p": "Bei chronischem Konsum gesunder Männer.",
+   "tag": "neu",
+   "s": "santi2024"
+  },
+  {
+   "y": 2024,
+   "t": "Verzerrte Vergleichsgruppen",
+   "p": "Über 70 % der Übersichtsarbeiten betroffen.",
+   "tag": "conf",
+   "s": "sarich2024"
+  },
+  {
+   "y": 2024,
+   "t": "Studienqualität entscheidet",
+   "p": "Verzerrungsarme Studien ohne Vorteil.",
+   "tag": "conf",
+   "s": "stockwell2024"
+  },
+  {
+   "y": 2024,
+   "t": "Kein Zusammenhang mit Sarkopenie",
+   "p": "62 Studien.",
+   "tag": "neu",
+   "s": "bu2024"
+  },
+  {
+   "y": 2025,
+   "t": "REM-Schlaf ab zwei Getränken gestört",
+   "p": "Dosis-Wirkungs-Beziehung.",
+   "tag": "neu",
+   "s": "gardiner2025"
+  },
+  {
+   "y": 2026,
+   "t": "Konsum im Leistungssport",
+   "p": "Starkes Trinken in Teamsportarten verbreitet.",
+   "tag": "neu",
+   "s": "castaldelli2026"
+  },
+  {
+   "y": 2026,
+   "t": "Neue Studien wiederholen alte Fehler",
+   "p": "Schutzeffekte nur mit verzerrter Vergleichsgruppe.",
+   "tag": "conf",
+   "s": "stolpe2026"
+  },
+  {
+   "y": 2026,
+   "t": "„Weniger ist besser“",
+   "p": "Umbrella Review: keine sichere Grenze, mehr Verletzungen.",
+   "tag": "conf",
+   "s": "dionisi2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "21.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3 369 Einträgen, 390 Übersichtsarbeiten nach Titel geprüft, zusätzlich 270 regelbasiert ausgeschlossene Übersichtsarbeiten nachgesichtet und eine gezielte Zusatzsuche zu Alkohol und Erholung; 24 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft nach dem Training",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Kraft und Schnellkraft in der Erholungsphase",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 12,
+     "p": null,
+     "s": [
+      "lakicevic2019",
+      "wynne2021"
+     ],
+     "t": "Kraft, Schnellkraft und Kraftausdauer blieben nach Alkohol in den Studien unverändert (12 Studien, ohne Metaanalyse).",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Erholung und Muskelaufbau",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "Muskelproteinsynthese nach dem Training",
+     "g": "D",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 1,
+     "p": 8,
+     "s": [
+      "parr2014",
+      "lakicevic2019",
+      "levitt2022"
+     ],
+     "t": "−24 % mit Protein und −37 % mit Kohlenhydraten nach 1,5 g/kg Alkohol; einzelne Studie mit 8 Männern und hoher Dosis.",
+     "v": "regeneration"
+    },
+    {
+     "n": "Muskelschädigungs- und Entzündungsmarker",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 12,
+     "p": null,
+     "s": [
+      "lakicevic2019"
+     ],
+     "t": "Kreatinkinase, CRP, Zytokine und Muskelkater blieben unverändert.",
+     "v": "regeneration"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Hormone",
+   "kat": "hormone",
+   "items": [
+    {
+     "n": "Testosteron (chronischer Konsum, Männer)",
+     "g": "B",
+     "d": "ab",
+     "m": -1,
+     "b": "schaden",
+     "k": 21,
+     "p": 10199,
+     "s": [
+      "santi2024"
+     ],
+     "t": "Gesamttestosteron MD −4,02 [−6,30; −1,73] (Einheit im Abstract nicht angegeben), Östradiol +7,65; nur bei chronischem Konsum.",
+     "v": "hormone"
+    },
+    {
+     "n": "Cortisol nach Training",
+     "g": "D",
+     "d": "auf",
+     "m": -1,
+     "b": "schaden",
+     "k": 12,
+     "p": null,
+     "s": [
+      "lakicevic2019"
+     ],
+     "t": "Cortisol stieg nach Alkohol in der Erholungsphase; Größe nicht gepoolt.",
+     "v": "hormone"
+    }
+   ]
+  },
+  {
+   "bereich": "Regeneration",
+   "ziel": "Schlaf",
+   "kat": "regeneration",
+   "items": [
+    {
+     "n": "REM-Schlaf",
+     "g": "B",
+     "d": "ab",
+     "m": -1,
+     "b": "schaden",
+     "k": 27,
+     "p": null,
+     "s": [
+      "gardiner2025"
+     ],
+     "t": "Weniger und später einsetzender REM-Schlaf ab etwa 0,5 g/kg (zwei Getränke), mit der Dosis zunehmend; Größe im Abstract nicht beziffert.",
+     "v": "schlaf"
+    },
+    {
+     "n": "Einschlafzeit (hohe Dosis)",
+     "g": "C",
+     "d": "ab",
+     "m": -1,
+     "b": "neutral",
+     "k": 27,
+     "p": null,
+     "s": [
+      "gardiner2025"
+     ],
+     "t": "Nur ab etwa 0,85 g/kg kürzer; geht mit stärkerer REM-Störung einher.",
+     "v": "schlaf"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Verletzungen und Knochen",
+   "kat": "knochen",
+   "items": [
+    {
+     "n": "Verletzungen",
+     "g": "B",
+     "d": "auf",
+     "m": 4,
+     "b": "schaden",
+     "k": null,
+     "p": null,
+     "s": [
+      "dionisi2026"
+     ],
+     "t": "Jedes Trinken erhöhte die Verletzungswahrscheinlichkeit (OR 2,80); Daten aus der Allgemeinbevölkerung.",
+     "v": "sportler"
+    },
+    {
+     "n": "Frakturen",
+     "g": "A",
+     "d": "auf",
+     "m": 3,
+     "b": "schaden",
+     "k": 44,
+     "p": 6069770,
+     "s": [
+      "ke2023"
+     ],
+     "t": "Höchster gegen niedrigster Konsum RR 1,26 [1,17; 1,37]; je 14 g/Tag +6 %.",
+     "v": "sportler"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz-Kreislauf und Sterblichkeit",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Gesamtsterblichkeit bei geringer Menge (bis etwa 24 g/Tag)",
+     "g": "A",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 107,
+     "p": 4838825,
+     "s": [
+      "zhao2023",
+      "stockwell2016",
+      "stockwell2024",
+      "sarich2024",
+      "ronksley2011"
+     ],
+     "t": "Nach Korrektur für Verzerrungen kein Vorteil (RR 0,93, nicht signifikant; 107 Studien); frühere Schutzeffekte (RR 0,87) beruhten weitgehend auf verzerrten Vergleichsgruppen.",
+     "v": "sterblichkeit"
+    },
+    {
+     "n": "Gesamtsterblichkeit ab 45 g/Tag",
+     "g": "A",
+     "d": "auf",
+     "m": 2,
+     "b": "schaden",
+     "k": 107,
+     "p": 4838825,
+     "s": [
+      "zhao2023",
+      "wood2018"
+     ],
+     "t": "RR 1,19 bei 45–64 g/Tag und 1,35 ab 65 g/Tag; über 350 g/Woche 4–5 Jahre geringere Lebenserwartung.",
+     "v": "sterblichkeit"
+    },
+    {
+     "n": "Vorhofflimmern (hoher Konsum)",
+     "g": "B",
+     "d": "auf",
+     "m": 3,
+     "b": "schaden",
+     "k": null,
+     "p": null,
+     "s": [
+      "gallagher2017"
+     ],
+     "t": "HR 1,34 [1,20; 1,49]; bis 1 Getränk pro Tag kein Zusammenhang (HR 0,95).",
+     "v": "krankheit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Krebs und Muskelabbau",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Krebs gesamt bei geringem Konsum",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 106,
+     "p": null,
+     "s": [
+      "jun2023"
+     ],
+     "t": "RR 1,02 [0,99; 1,04]; einzelne Krebsarten (Speiseröhre, Darm, Brust) aber schon bei geringem Konsum häufiger.",
+     "v": "krankheit"
+    },
+    {
+     "n": "Brustkrebs bei geringem Konsum",
+     "g": "B",
+     "d": "auf",
+     "m": 1,
+     "b": "schaden",
+     "k": null,
+     "p": null,
+     "s": [
+      "dionisi2026",
+      "jun2023"
+     ],
+     "t": "RR 1,05 bei geringem Konsum; kleiner, aber messbarer Anstieg.",
+     "v": "krankheit"
+    },
+    {
+     "n": "Sarkopenie",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 62,
+     "p": 454643,
+     "s": [
+      "bu2024"
+     ],
+     "t": "OR 0,964 [0,912; 1,019] (62 Studien); Beobachtungsdaten Älterer.",
+     "v": "krankheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "parr2014": {
+   "short": "Parr et al., 2014",
+   "year": 2014,
+   "type": "RCT",
+   "basis": "Abstract",
+   "pmid": "24533082",
+   "apa": "Parr, E. B., Camera, D. M., Areta, J. L., Burke, L. M., Phillips, S. M., Hawley, J. A. &amp; Coffey, V. G. (2014). Alcohol ingestion impairs maximal post-exercise rates of myofibrillar protein synthesis following a single bout of concurrent training. <em>PLOS ONE, 9</em>(2), Artikel e88384.",
+   "doi": "10.1371/journal.pone.0088384"
+  },
+  "lakicevic2019": {
+   "short": "Lakićević, 2019",
+   "year": 2019,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33467356",
+   "apa": "Lakićević, N. (2019). The effects of alcohol consumption on recovery following resistance exercise: A systematic review. <em>Journal of Functional Morphology and Kinesiology, 4</em>(3), Artikel 41.",
+   "doi": "10.3390/jfmk4030041"
+  },
+  "barnes2014": {
+   "short": "Barnes, 2014",
+   "year": 2014,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "24748461",
+   "apa": "Barnes, M. J. (2014). Alcohol: Impact on sports performance and recovery in male athletes. <em>Sports Medicine, 44</em>(7), 909–919.",
+   "doi": "10.1007/s40279-014-0192-8"
+  },
+  "levitt2022": {
+   "short": "Levitt et al., 2022",
+   "year": 2022,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "36671386",
+   "apa": "Levitt, D. E., Luk, H. Y. &amp; Vingren, J. L. (2022). Alcohol, resistance exercise, and mTOR pathway signaling: An evidence-based narrative review. <em>Biomolecules, 13</em>(1), Artikel 2.",
+   "doi": "10.3390/biom13010002"
+  },
+  "wynne2021": {
+   "short": "Wynne & Wilson, 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34284350",
+   "apa": "Wynne, J. L. &amp; Wilson, P. B. (2021). Got beer? A systematic review of beer and exercise. <em>International Journal of Sport Nutrition and Exercise Metabolism, 31</em>(5), 438–450.",
+   "doi": "10.1123/ijsnem.2021-0064"
+  },
+  "gardiner2025": {
+   "short": "Gardiner et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39631226",
+   "apa": "Gardiner, C., Weakley, J., Burke, L. M., Roach, G. D., Sargent, C., Maniar, N., Huynh, M., Miller, D. J., Townshend, A. &amp; Halson, S. L. (2025). The effect of alcohol on subsequent sleep in healthy adults: A systematic review and meta-analysis. <em>Sleep Medicine Reviews, 80</em>, Artikel 102030.",
+   "doi": "10.1016/j.smrv.2024.102030"
+  },
+  "santi2024": {
+   "short": "Santi et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37705506",
+   "apa": "Santi, D., Cignarelli, A., Baldi, M., Sansone, A., Spaggiari, G., Simoni, M. &amp; Corona, G. (2024). The chronic alcohol consumption influences the gonadal axis in men: Results from a meta-analysis. <em>Andrology, 12</em>(4), 768–780.",
+   "doi": "10.1111/andr.13526"
+  },
+  "castaldelli2026": {
+   "short": "Castaldelli-Maia et al., 2026",
+   "year": 2026,
+   "type": "Scoping Review (systematisch)",
+   "basis": "Abstract",
+   "pmid": "42309781",
+   "apa": "Castaldelli-Maia, J. M., Ayalla Rodrigues, A., Mannes, Z. L., Smith, A., Liebrenz, M., Gouttebarge, V., Hainline, B., Reardon, C. L. &amp; McDuff, D. (2026). Substance use patterns in elite athletes: A scoping review of alcohol, performance-enhancing drugs and other psychoactive substances. <em>British Journal of Sports Medicine, 60</em>(15), 1143–1157.",
+   "doi": "10.1136/bjsports-2025-111489"
+  },
+  "dicastelnuovo2006": {
+   "short": "Di Castelnuovo et al., 2006",
+   "year": 2006,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "17159008",
+   "apa": "Di Castelnuovo, A., Costanzo, S., Bagnardi, V., Donati, M. B., Iacoviello, L. &amp; de Gaetano, G. (2006). Alcohol dosing and total mortality in men and women: An updated meta-analysis of 34 prospective studies. <em>Archives of Internal Medicine, 166</em>(22), 2437–2445.",
+   "doi": "10.1001/archinte.166.22.2437"
+  },
+  "ronksley2011": {
+   "short": "Ronksley et al., 2011",
+   "year": 2011,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "21343207",
+   "apa": "Ronksley, P. E., Brien, S. E., Turner, B. J., Mukamal, K. J. &amp; Ghali, W. A. (2011). Association of alcohol consumption with selected cardiovascular disease outcomes: A systematic review and meta-analysis. <em>BMJ, 342</em>, Artikel d671.",
+   "doi": "10.1136/bmj.d671"
+  },
+  "stockwell2016": {
+   "short": "Stockwell et al., 2016",
+   "year": 2016,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26997174",
+   "apa": "Stockwell, T., Zhao, J., Panwar, S., Roemer, A., Naimi, T. &amp; Chikritzhs, T. (2016). Do \"moderate\" drinkers have reduced mortality risk? A systematic review and meta-analysis of alcohol consumption and all-cause mortality. <em>Journal of Studies on Alcohol and Drugs, 77</em>(2), 185–198.",
+   "doi": "10.15288/jsad.2016.77.185"
+  },
+  "wood2018": {
+   "short": "Wood et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse individueller Teilnehmerdaten (83 Kohorten)",
+   "basis": "Abstract",
+   "pmid": "29676281",
+   "apa": "Wood, A. M., Kaptoge, S., Butterworth, A. S., Willeit, P., Warnakula, S., Bolton, T., Paige, E., Paul, D. S., Sweeting, M., Burgess, S., Bell, S., Astle, W., Stevens, D., Koulman, A., Selmer, R. M., Verschuren, W. M. M., Sato, S., Njølstad, I., Woodward, M., … Emerging Risk Factors Collaboration/EPIC-CVD/UK Biobank Alcohol Study Group (2018). Risk thresholds for alcohol consumption: Combined analysis of individual-participant data for 599 912 current drinkers in 83 prospective studies. <em>The Lancet, 391</em>(10129), 1513–1523.",
+   "doi": "10.1016/S0140-6736(18)30134-X"
+  },
+  "gbd2018": {
+   "short": "GBD 2016 Alcohol Collaborators, 2018",
+   "year": 2018,
+   "type": "Systematische Analyse (Global Burden of Disease)",
+   "basis": "Abstract",
+   "pmid": "30146330",
+   "apa": "GBD 2016 Alcohol Collaborators (2018). Alcohol use and burden for 195 countries and territories, 1990–2016: A systematic analysis for the Global Burden of Disease Study 2016. <em>The Lancet, 392</em>(10152), 1015–1035.",
+   "doi": "10.1016/S0140-6736(18)31310-2"
+  },
+  "gbd2022": {
+   "short": "GBD 2020 Alcohol Collaborators, 2022",
+   "year": 2022,
+   "type": "Systematische Analyse (Global Burden of Disease)",
+   "basis": "Abstract",
+   "pmid": "35843246",
+   "apa": "GBD 2020 Alcohol Collaborators (2022). Population-level risks of alcohol consumption by amount, geography, age, sex, and year: A systematic analysis for the Global Burden of Disease Study 2020. <em>The Lancet, 400</em>(10347), 185–235.",
+   "doi": "10.1016/S0140-6736(22)00847-9"
+  },
+  "zhao2023": {
+   "short": "Zhao et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37000449",
+   "apa": "Zhao, J., Stockwell, T., Naimi, T., Churchill, S., Clay, J. &amp; Sherk, A. (2023). Association between daily alcohol intake and risk of all-cause mortality: A systematic review and meta-analyses. <em>JAMA Network Open, 6</em>(3), Artikel e236185.",
+   "doi": "10.1001/jamanetworkopen.2023.6185",
+   "flag": "Ein Autor berichtet Honorare des finnischen Alkoholmonopols Alko und einer Gewerkschaft für Gutachtertätigkeit."
+  },
+  "stockwell2024": {
+   "short": "Stockwell et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38289182",
+   "apa": "Stockwell, T., Zhao, J., Clay, J., Levesque, C., Sanger, N., Sherk, A. &amp; Naimi, T. (2024). Why do only some cohort studies find health benefits from low-volume alcohol use? A systematic review and meta-analysis of study characteristics that may bias mortality risk estimates. <em>Journal of Studies on Alcohol and Drugs, 85</em>(4), 441–452.",
+   "doi": "10.15288/jsad.23-00283"
+  },
+  "sarich2024": {
+   "short": "Sarich et al., 2024",
+   "year": 2024,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "38465993",
+   "apa": "Sarich, P., Gao, S., Zhu, Y., Canfell, K. &amp; Weber, M. F. (2024). The association between alcohol consumption and all-cause mortality: An umbrella review of systematic reviews using lifetime abstainers or low-volume drinkers as a reference group. <em>Addiction, 119</em>(6), 998–1012.",
+   "doi": "10.1111/add.16446"
+  },
+  "stolpe2026": {
+   "short": "Stolpe et al., 2026",
+   "year": 2026,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "42127653",
+   "apa": "Stolpe, S., Schlößler, K., Vollmar, H. C. &amp; Kowall, B. (2026). The illusion of healthy drinking: Methodological bias and selective reporting of effects shape evidence on alcohol and cardiovascular health. <em>Public Health, 256</em>, Artikel 106331.",
+   "doi": "10.1016/j.puhe.2026.106331"
+  },
+  "vandeluitgaarden2022": {
+   "short": "van de Luitgaarden et al., 2022",
+   "year": 2022,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "34420153",
+   "apa": "van de Luitgaarden, I. A. T., van Oort, S., Bouman, E. J., Schoonmade, L. J., Schrieks, I. C., Grobbee, D. E., van der Schouw, Y. T., Larsson, S. C., Burgess, S., van Ballegooijen, A. J., Onland-Moret, N. C. &amp; Beulens, J. W. J. (2022). Alcohol consumption in relation to cardiovascular diseases and mortality: A systematic review of Mendelian randomization studies. <em>European Journal of Epidemiology, 37</em>(7), 655–669.",
+   "doi": "10.1007/s10654-021-00799-5"
+  },
+  "dionisi2026": {
+   "short": "Dionisi et al., 2026",
+   "year": 2026,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "41887989",
+   "apa": "Dionisi, T., De Vita, V., Sario, G. D., Gasbarrini, A., Addolorato, G. &amp; Alcohol Research Group (2026). Alcohol use: Less is better. An umbrella systematic review of clinical interventions, policies, and dose-response health risks in adults. <em>European Journal of Internal Medicine, 149</em>, Artikel 106837.",
+   "doi": "10.1016/j.ejim.2026.106837"
+  },
+  "jun2023": {
+   "short": "Jun et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37905315",
+   "apa": "Jun, S., Park, H., Kim, U. J., Choi, E. J., Lee, H. A., Park, B., Lee, S. Y., Jee, S. H. &amp; Park, H. (2023). Cancer risk based on alcohol consumption levels: A comprehensive systematic review and meta-analysis. <em>Epidemiology and Health, 45</em>, Artikel e2023092.",
+   "doi": "10.4178/epih.e2023092"
+  },
+  "ke2023": {
+   "short": "Ke et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36966875",
+   "apa": "Ke, Y., Hu, H., Zhang, J., Yuan, L., Li, T., Feng, Y., Wu, Y., Fu, X., Wang, M., Gao, Y., Huo, W., Chen, Y., Zhang, W., Wang, L., Li, X., Pang, J., Zheng, Z., Hu, F., Zhang, M., … Hu, D. (2023). Alcohol consumption and risk of fractures: A systematic review and dose-response meta-analysis of prospective cohort studies. <em>Advances in Nutrition, 14</em>(4), 599–611.",
+   "doi": "10.1016/j.advnut.2023.03.008"
+  },
+  "gallagher2017": {
+   "short": "Gallagher et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28867013",
+   "apa": "Gallagher, C., Hendriks, J. M. L., Elliott, A. D., Wong, C. X., Rangnekar, G., Middeldorp, M. E., Mahajan, R., Lau, D. H. &amp; Sanders, P. (2017). Alcohol and incident atrial fibrillation - A systematic review and meta-analysis. <em>International Journal of Cardiology, 246</em>, 46–52.",
+   "doi": "10.1016/j.ijcard.2017.05.133"
+  },
+  "bu2024": {
+   "short": "Bu et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38232346",
+   "apa": "Bu, Y. L., Wang, C., Zhao, C., Lu, X. &amp; Gao, W. (2024). The association of alcohol consumption with the risk of sarcopenia: A dose-response meta-analysis. <em>The American Journal of Drug and Alcohol Abuse, 50</em>(3), 305–320.",
+   "doi": "10.1080/00952990.2023.2300049"
+  }
+ }
+}

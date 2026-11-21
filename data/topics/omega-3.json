@@ -894,5 +894,59 @@
     }
    ]
   }
+ ],
+ "trend": [
+  {
+   "id": "o-trend",
+   "title": "Omega-3 und Herz-Kreislauf-Tod: Einschätzung im Zeitverlauf",
+   "cap": "Vier Metaanalysen aus fünf Jahren kommen auf nahezu denselben kleinen Effekt: etwa 6 bis 8 % weniger Herz-Kreislauf-Todesfälle.",
+   "opts": {
+    "min": 0.8,
+    "max": 1.05,
+    "ticks": [
+     0.8,
+     0.85,
+     0.9,
+     0.95,
+     1
+    ],
+    "ref": 1,
+    "ylab": "Relatives Risiko"
+   },
+   "data": [
+    {
+     "y": 2019,
+     "es": 0.93,
+     "lo": 0.88,
+     "hi": 0.99,
+     "l": "Herz-Kreislauf-Tod",
+     "s": "hu2019"
+    },
+    {
+     "y": 2021,
+     "es": 0.93,
+     "lo": 0.88,
+     "hi": 0.98,
+     "l": "Herz-Kreislauf-Tod",
+     "s": "khan2021"
+    },
+    {
+     "y": 2024,
+     "es": 0.92,
+     "lo": 0.85,
+     "hi": 0.99,
+     "l": "Herz-Kreislauf-Tod",
+     "s": "dinu2024"
+    },
+    {
+     "y": 2024,
+     "es": 0.94,
+     "lo": 0.88,
+     "hi": 0.99,
+     "l": "Herz-Kreislauf-Tod",
+     "s": "yan2024"
+    }
+   ]
+  }
  ]
 }

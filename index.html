@@ -227,9 +227,9 @@ td.r, th.r { text-align: right; }
 html { scroll-behavior: smooth; }
 .toc.sub { padding-left: 12px; margin-top: 2px; }
 .toc.sub a { font-size: .85rem; padding: 4px 10px; }
-.var .figrow { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(max(340px, calc(50% - 7px)), 1fr)); gap: 14px; }
-.var .fig { border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; background: var(--surface); display: flex; flex-direction: column; gap: 8px; }
-.var .fig h5 { margin: 0; font-family: var(--font-display); font-size: 1rem; font-weight: 600; }
+#verlauf .figrow, .var .figrow { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(max(340px, calc(50% - 7px)), 1fr)); gap: 14px; }
+#verlauf .fig, .var .fig { border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; background: var(--surface); display: flex; flex-direction: column; gap: 8px; }
+#verlauf .fig h5, .var .fig h5 { margin: 0; font-family: var(--font-display); font-size: 1rem; font-weight: 600; }
 .var .fig.wide { grid-column: 1 / -1; }
 .pill.flag { color: var(--warn); background: var(--warn-bg); }
 @media (max-width: 500px) { .var .figrow { grid-template-columns: 1fr; } }
@@ -274,6 +274,18 @@ table.cmp td { vertical-align: top; width: 41%; }
 .report { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
 .report p { margin: 0; color: var(--ink-2); max-width: 80ch; }
 .report-mini { margin-left: auto; font-size: .8rem; }
+.myth-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.myth { display: flex; flex-direction: column; gap: 8px; }
+.myth h3 { margin: 0; font-size: 1.02rem; }
+.myth p { margin: 0; color: var(--ink-2); font-size: .92rem; }
+.myth .go { margin-top: auto; font-size: .85rem; }
+.myth-head { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.verdict { font-size: .78rem; font-weight: 700; border-radius: 99px; padding: 2px 10px; color: #fff; }
+.verdict.e1 { background: var(--e1); } .verdict.e3 { background: var(--e3); color: #2a1010; } .verdict.e4 { background: var(--e4); }
+.verdict.e0 { background: var(--e0); } .verdict.em { background: var(--em); color: #2a2410; }
+.tools .toggle { font: inherit; font-size: .8rem; color: var(--ink-2); background: none; border: 1px dashed var(--line); border-radius: 99px; padding: 4px 10px; cursor: pointer; }
+.tools .toggle[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent); }
+body.einfach .crit-box, body.einfach #methodik, body.einfach .mx-evi, body.einfach .lvl, body.einfach .table-view, body.einfach .old-note { display: none; }
 .disclaimer { border-left: 4px solid var(--warn); background: var(--warn-bg); display: flex; flex-direction: column; gap: 8px; }
 .disclaimer h2, .disclaimer h3 { margin: 0; font-size: 1rem; }
 .disclaimer p { margin: 0; max-width: 95ch; font-size: .9rem; color: var(--ink); }
@@ -455,13 +467,17 @@ const NAV = [
       { id: "koerpergewicht", title: "Körpergewichtstraining (Calisthenics)" } ] },
     { title: "Ausdauertraining", children: [
       { id: "ausdauer", title: "Überblick und Zonenmodell" },
+      { id: "hiit", title: "HIIT und Sprintintervalle" },
       { id: "zone-1", title: "Zone 1 · Regeneration", topic: "ausdauer", var: "zone1" },
       { id: "zone-2", title: "Zone 2 · Grundlage", topic: "ausdauer", var: "zone2" },
       { id: "zone-3", title: "Zone 3 · Tempo", topic: "ausdauer", var: "zone3" },
       { id: "zone-4", title: "Zone 4 · Schwelle", topic: "ausdauer", var: "zone4" },
       { id: "zone-5", title: "Zone 5 · VO₂max", topic: "ausdauer", var: "zone5" } ] },
-    { title: "Trainingsplanung", children: [
+    { title: "Trainingsplanung", sort: true, children: [
       { id: "aufwaermen", title: "Aufwärmen" },
+      { id: "interferenz", title: "Kraft und Ausdauer kombiniert" },
+      { id: "periodisierung", title: "Periodisierung" },
+      { id: "alter", title: "Training im Alter" },
       { id: "tapering", title: "Tapering vor Wettkämpfen" },
       { id: "zyklus", title: "Training und Menstruationszyklus" } ] },
     { title: "Regeneration und Prävention", children: [
@@ -510,11 +526,11 @@ const NAV = [
       { id: "probiotika", title: "Probiotika" } ] } ] }
 ];
 /* Werkzeuge: als kompakte Leiste unter der Suche */
-const TOOLS = [{ id: "start", title: "Start" }, { id: "ziel", title: "Mein Ziel" }, { id: "neu", title: "Neu" }, { id: "rechner", title: "Rechner" }, { id: "glossar", title: "Glossar" }];
+const TOOLS = [{ id: "start", title: "Start" }, { id: "ziel", title: "Mein Ziel" }, { id: "mythen", title: "Mythen-Check" }, { id: "neu", title: "Neu" }, { id: "rechner", title: "Rechner" }, { id: "glossar", title: "Glossar" }];
 NAV.forEach(g => g.items.forEach(it => { if (it.sort) it.children.sort((x, y) => x.title.localeCompare(y.title, "de")); }));
-const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette", "dehnen", "aufwaermen", "verletzungspraevention", "koerpergewicht", "tapering", "zyklus", "schlaf", "energiebilanz", "fluessigkeit", "timing", "natriumbicarbonat", "citrullin", "hmb", "melatonin", "curcumin"];
+const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette", "dehnen", "aufwaermen", "verletzungspraevention", "koerpergewicht", "tapering", "zyklus", "schlaf", "energiebilanz", "fluessigkeit", "timing", "natriumbicarbonat", "citrullin", "hmb", "melatonin", "curcumin", "interferenz", "periodisierung", "hiit", "alter"];
 
-const PAGES = ["start", "ziel", "vergleich", "sicherheit", "supplemente", "suche", "neu", "rechner", "glossar", "hinweis"]; /* Seiten ohne eigene Themendatei */
+const PAGES = ["start", "ziel", "mythen", "vergleich", "sicherheit", "supplemente", "suche", "neu", "rechner", "glossar", "hinweis"]; /* Seiten ohne eigene Themendatei */
 const SUPPS = ["protein", "kreatin", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "natriumbicarbonat", "citrullin", "hmb", "vitamin-d-k2", "vitamin-c", "b-vitamine", "multivitamin", "magnesium", "zink", "eisen", "calcium", "omega-3", "kollagen", "probiotika", "ashwagandha", "melatonin", "curcumin"]; /* Supplemente mit Wirkungsübersicht */
 const supList = () => SUPPS.filter(id => AVAILABLE.includes(id)).sort((a, b) => findTitle(a).localeCompare(findTitle(b), "de"));
 const $ = (id) => document.getElementById(id);
@@ -544,7 +560,9 @@ function navItem(it, cur) {
   return `<li><a href="#${it.id}" class="${it.id === cur ? "active" : ""}${ok ? "" : " planned"}"${it.id === cur ? ' aria-current="page"' : ""}>${it.title}${ok ? "" : " <em>geplant</em>"}</a></li>`;
 }
 function renderNav(cur) {
-  $("nav-tools").innerHTML = TOOLS.map(t => `<a href="#${t.id}"${t.id === cur ? ' class="active" aria-current="page"' : ""}>${t.title}</a>`).join("");
+  $("nav-tools").innerHTML = TOOLS.map(t => `<a href="#${t.id}"${t.id === cur ? ' class="active" aria-current="page"' : ""}>${t.title}</a>`).join("")
+    + `<button type="button" id="einfach-btn" class="toggle" aria-pressed="${einfach}" title="Statistik und Zitate im Text ausblenden">Einfach erklärt</button>`;
+  $("einfach-btn").addEventListener("click", () => { einfach = !einfach; try { localStorage.setItem("fs-einfach", einfach ? "1" : "0"); } catch (e) {} load(); });
   $("nav-topics").innerHTML = NAV.map(g => `<h4>${g.group}</h4><ul class="topics">${g.items.map(it => {
     if (!it.children) return navItem(it, cur);
     const open = it.children.some(c => c.id === cur);
@@ -563,16 +581,9 @@ document.addEventListener("click", (e) => { const b = e.target.closest("[data-sc
 async function load() {
   const r = routeOf(location.hash);
   renderNav(location.hash.replace("#", "") || r.topic);
-  if (r.topic === "supplemente") return renderSupOverview();
-  if (r.topic === "suche") return renderSearch();
-  if (r.topic === "neu") return renderNews();
-  if (r.topic === "rechner") return renderCalc();
-  if (r.topic === "glossar") return renderGlossar();
-  if (r.topic === "hinweis") return renderHinweis();
-  if (r.topic === "start") return renderStart();
-  if (r.topic === "ziel") return renderZiel();
-  if (r.topic === "vergleich") return renderVergleich();
-  if (r.topic === "sicherheit") return renderSicherheit();
+  const PAGE_FN = { supplemente: renderSupOverview, suche: renderSearch, neu: renderNews, rechner: renderCalc, glossar: renderGlossar, hinweis: renderHinweis,
+    start: renderStart, ziel: renderZiel, mythen: renderMythen, vergleich: renderVergleich, sicherheit: renderSicherheit };
+  if (PAGE_FN[r.topic]) { await PAGE_FN[r.topic](); return applyEinfach(); }
   if (!AVAILABLE.includes(r.topic)) return renderPlanned(r.topic);
   if (!cache[r.topic]) {
     try { cache[r.topic] = await (await fetch(`data/topics/${r.topic}.json`)).json(); }
@@ -580,6 +591,7 @@ async function load() {
   }
   T = cache[r.topic]; active = "alle";
   renderTopic(T);
+  applyEinfach();
   applyGlossar($("main"));
   document.title = `Forschungsstand ${T.title}`;
   const pend = pendingScroll; pendingScroll = null;
@@ -677,6 +689,10 @@ function renderTopic(t) {
   <section id="verlauf">
     <h2>Forschungsverlauf</h2>
     <p class="lead">Wie sich der Kenntnisstand entwickelt hat. Markiert ist, ob eine Arbeit frühere Befunde bestätigt, relativiert oder ihnen widerspricht.</p>
+    ${(t.trend || []).length ? `<h3>Wie sich die Einschätzung verändert hat</h3><div class="figrow" style="margin-bottom:18px">${t.trend.map(f => `
+      <figure class="fig wide" style="margin:0"><h5>${f.title}</h5><div class="chart chart-trend" id="${f.id}"></div>
+        <figcaption class="cap">${f.cap}</figcaption>
+        <details class="table-view"><summary>Als Tabelle anzeigen</summary><div class="tbl-wrap" id="${f.id}-tbl"></div></details></figure>`).join("")}</div>` : ""}
     <div class="filters" role="group" aria-label="Verlauf filtern" id="tl-filters"></div>
     <ol class="timeline" id="timeline"></ol>
   </section>
@@ -719,6 +735,7 @@ function renderTopic(t) {
   renderTimeline();
   $("tl-filters").addEventListener("click", (ev) => { const b = ev.target.closest("button"); if (!b) return; active = b.dataset.f; renderTimeline(); });
   t.vars.forEach(v => (v.figs || []).forEach(f => CHARTS[f.type](f.id, f.data, f.opts || {})));
+  (t.trend || []).forEach(f => CHARTS.trend(f.id, f.data.map(d => ({ ...d, sub: t.sources[d.s].short })), f.opts));
   loadScreening(t.id);
 }
 
@@ -1129,6 +1146,36 @@ async function renderSicherheit() {
   window.scrollTo(0, 0);
 }
 
+const VERDICT = { "falsch": ["e4", "Falsch"], "stark übertrieben": ["e3", "Stark übertrieben"], "nicht belegt": ["e0", "Nicht belegt"], "teilweise": ["em", "Teilweise richtig"], "stimmt": ["e1", "Stimmt"] };
+async function renderMythen() {
+  $("toc").innerHTML = ""; document.title = "Mythen-Check – Forschungsstand Sport";
+  $("main").innerHTML = `<section><h1>Mythen-Check</h1><p class="cap">Wird geladen …</p></section>`;
+  const [M] = await Promise.all([fetch("data/mythen.json").then(r => r.json()), loadAll()]);
+  $("main").innerHTML = `<section>
+    <h1>Mythen-Check</h1>
+    <p class="lead">Verbreitete Behauptungen aus Gym, Laufgruppe und Social Media – geprüft an der Studienlage. Jede Einschätzung stützt sich auf die Quellen des jeweiligen Themas.</p>
+    <div class="myth-list">${M.items.filter(m => cache[m.topic]).map(m => { const t = cache[m.topic]; const [c, lab] = VERDICT[m.v];
+      return `<article class="card myth"><div class="myth-head"><span class="verdict ${c}">${lab}</span><span class="pill ev-${m.ev}">Evidenz ${m.ev}</span></div>
+        <h3>„${m.m}“</h3><p>${m.t}</p>
+        <span class="cite">[${m.s.map(k => t.sources[k].short).join("; ")}]</span>
+        <a class="go" href="#${m.topic}">Mehr unter ${t.title} →</a></article>`; }).join("")}</div>
+    <p class="cap">Stand ${fmtDate(M.stand)}.</p></section>`;
+  window.scrollTo(0, 0);
+}
+
+/* Einfache Ansicht: Statistik, Intervalle und Zitate im Fließtext ausblenden, Fachabschnitte zuklappen */
+let einfach = false; try { einfach = localStorage.getItem("fs-einfach") === "1"; } catch (e) {}
+const STAT = /\s*\[[^\[\]]*\d[^\[\]]*;[^\[\]]*\d[^\[\]]*\]|\s*\((?:[^()]*?(?:\b(?:SMD|WMD|MD|ES|RR|OR|HR|NNT|KI|CI)\b|I²|\bg\s?=|\bp\s?[<=>]|\br\s?=)[^()]*)\)|\s*\((?:[^()]*?\bet al\.|[^()]*?&amp;[^()]*?|[A-ZÄÖÜ][^()]*?), \d{4}[a-z]?(?:;[^()]*)?\)/g;
+function applyEinfach() {
+  document.body.classList.toggle("einfach", einfach);
+  $("einfach-btn").setAttribute("aria-pressed", String(einfach));
+  if (!einfach) return;
+  $("main").querySelectorAll("p, li > span, .mx-detail p").forEach(el => {
+    if (el.closest("#quellen, .tbl-wrap, .cite") || el.dataset.simple) return;
+    el.dataset.simple = "1"; el.innerHTML = el.innerHTML.replace(STAT, "");
+  });
+}
+
 /* --- Hinweise und Haftungsausschluss --- */
 const DISCLAIMER = [
   ["Automatisch erstellt", "Literaturrecherche, Auswertung und Zusammenfassungen auf dieser Website werden mit Hilfe künstlicher Intelligenz erstellt und nicht vollständig von Menschen geprüft. Trotz mehrerer Prüfschritte können Fehler, Auslassungen oder Fehlinterpretationen enthalten sein. Es wird kein Anspruch auf Richtigkeit, Vollständigkeit oder Aktualität erhoben."],
@@ -1314,8 +1361,26 @@ const bar = (x0, y0, w, yb) => `M${x0},${yb} V${y0 + 4} Q${x0},${y0} ${x0 + 4},$
    dots:   Zeilen {l, sub, v, open?, sym?}; opts {min, max, ticks, ref?, unit, openTo?}
    bars:   Kategorien {l, es}; opts {max, ticks, xlab, src, unit?}
    lineci: Kategorien {l, es?, lo?, hi?}; opts {max, ticks, xlab, src, unit?, min?}
-   tiers:  Kategorien {l, v (null = kein Nutzen, 0 = bereits wirksam), txt}; opts {max, ticks, xlab, src} */
+   tiers:  Kategorien {l, v (null = kein Nutzen, 0 = bereits wirksam), txt}; opts {max, ticks, xlab, src}
+   trend:  Punkte {y (Jahr), es, lo?, hi?, l, sub}; opts {min, max, ticks, ref?, ylab} – Schätzer im Zeitverlauf */
 const CHARTS = {
+  trend(id, pts, o) {
+    const W = 900, H = 300, l = 60, r = 30, t = 18, b = 44, ref = o.ref != null ? o.ref : 0;
+    const ys = pts.map(p => p.y), y0 = Math.min(...ys) - 1, y1 = Math.max(...ys) + 1;
+    const x = v => l + (v - y0) / (y1 - y0) * (W - l - r), y = v => t + (1 - (v - o.min) / (o.max - o.min)) * (H - t - b);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.ylab || "Schätzer")} im Zeitverlauf">`;
+    o.ticks.forEach(v => { s += `<line class="${v === ref ? "zero" : "grid"}" x1="${l}" x2="${W - r}" y1="${y(v)}" y2="${y(v)}"/><text class="muted num" x="${l - 8}" y="${y(v) + 4}" text-anchor="end">${String(v).replace(".", ",")}</text>`; });
+    [...new Set(ys)].forEach(v => { s += `<text class="muted num" x="${x(v)}" y="${H - b + 18}" text-anchor="middle">${v}</text>`; });
+    s += `<text class="muted" x="${l}" y="${H - 6}">${o.ylab || ""}${o.ref === 1 ? " · unter 1 = Risiko gesenkt" : ""}</text>`;
+    const srt = [...pts].sort((a, b) => a.y - b.y).map((p, i, a) => { const same = a.filter(q => q.y === p.y), k = same.indexOf(p); return { ...p, xy: p.y + (same.length > 1 ? (k - (same.length - 1) / 2) * 0.35 : 0) }; });
+    s += `<polyline fill="none" stroke="var(--ink-3)" stroke-dasharray="4 4" points="${srt.map(p => `${x(p.xy)},${y(p.es)}`).join(" ")}"/>`;
+    srt.forEach(p => {
+      const tt = `<b>${p.l}</b><br>${p.sub}<br>${fmtN(p.es)}${p.lo != null ? ` [${fmtN(p.lo)}; ${fmtN(p.hi)}]` : " (kein Intervall berichtet)"}`;
+      s += `<g class="row" tabindex="0" data-tip="${esc(tt)}">${p.lo != null ? `<line class="ci" x1="${x(p.xy)}" x2="${x(p.xy)}" y1="${y(p.lo)}" y2="${y(p.hi)}"/>` : ""}
+        <circle class="mark" cx="${x(p.xy)}" cy="${y(p.es)}" r="7"/><text class="num" x="${x(p.xy) + 11}" y="${y(p.es) + 4}" style="font-size:11px">${fmtN(p.es)}</text></g>`;
+    });
+    mount(id, s + "</svg>", table(["Jahr · Quelle", "Schätzer", "Intervall"], srt.map(p => [`${p.y} · ${p.l} (${p.sub})`, fmtN(p.es), p.lo != null ? `${fmtN(p.lo)} bis ${fmtN(p.hi)}` : "nicht berichtet"])));
+  },
   forest(id, rows, o) {
     const W = 900, labelW = 320, right = 40, rowH = 42, top = 10, H = top + rows.length * rowH + (o.leftLab ? 40 : 26);
     const x = v => labelW + (v - o.min) / (o.max - o.min) * (W - labelW - right), fv = unitFmt(o);

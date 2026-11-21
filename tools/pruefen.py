@@ -38,6 +38,9 @@ for sub in ('topics', 'screening', 'kandidaten'):
         for k, s in src.items():
             if not s.get('apa'):
                 fehler.append(f'{sub}/{f}: Quelle "{k}" ohne APA-Angabe')
+        for fg in j.get('trend', []):
+            for pt in fg.get('data', []):
+                if pt.get('s') not in src: fehler.append(f'{sub}/{f}: Verlaufsdiagramm "{fg.get("id")}" zitiert fehlende Quelle "{pt.get("s")}"')
         vids = {v['id'] for v in j.get('vars', [])}
         for g in j.get('matrix', []):
             for k in ('bereich', 'ziel', 'kat', 'items'):
@@ -57,6 +60,12 @@ for sub in ('topics', 'screening', 'kandidaten'):
             for fig in v.get('figs', []):
                 if not fig.get('data'):
                     fehler.append(f'{sub}/{f}: Abbildung "{fig.get("id")}" ohne Daten')
+
+for m in json.load(open(os.path.join(ROOT, 'data', 'mythen.json')))['items']:
+    tp = os.path.join(ROOT, 'data', 'topics', m['topic'] + '.json')
+    src = json.load(open(tp))['sources'] if os.path.exists(tp) else {}
+    for k in m['s']:
+        if k not in src: fehler.append(f'mythen.json: „{m["m"][:40]}…“ zitiert fehlende Quelle "{k}" ({m["topic"]})')
 
 html = open(os.path.join(ROOT, 'index.html')).read()
 m = re.search(r'const AVAILABLE = \[(.*?)\]', html)

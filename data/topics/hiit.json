@@ -1,0 +1,862 @@
+{
+ "id": "hiit",
+ "title": "HIIT und Sprintintervalltraining",
+ "stand": "2026-11-21",
+ "def": {
+  "t": "Hochintensives Intervalltraining (HIIT) besteht aus wiederholten kurzen, sehr intensiven Belastungen, nahe maximal oder „all-out“ (etwa ≥ 90 % der VO₂max oder > 75 % der Maximalleistung), unterbrochen von Pausen oder lockerer Belastung. Eine einheitliche Definition gibt es nicht. Sprintintervalltraining (SIT) ist die Form mit supramaximaler Intensität, also mit Sprints oberhalb der Belastung, die der VO₂max entspricht.",
+  "s": [
+   "atakan2021",
+   "gist2014"
+  ]
+ },
+ "lead": "Bringen kurze, sehr harte Intervalle dasselbe oder mehr als längeres moderates Dauertraining, für die VO₂max, den Körperfettanteil und die Herz-Kreislauf-Gesundheit? Zusammengefasst aus Metaanalysen und Umbrella Reviews von 2013 bis 2026, einschließlich der Frage, wie Intervalle gestaltet werden sollten, wie viel Zeit man spart und wie sicher HIIT ist.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde Erwachsene, von Inaktiven bis zu Ausdauersportlern. Die Einordnung von HIIT als Zone 5 im Zonenmodell und die Intensitätsverteilung über die Woche stehen im Thema <a href=\"#ausdauer\">Ausdauertraining</a>.",
+ "rx": [
+  {
+   "label": "VO₂max",
+   "value": "lange Intervalle (≥ 2 min), mehrere Wochen",
+   "text": "HIIT steigert die VO₂max etwas stärker als moderates Dauertraining. Der Vorteil zeigte sich vor allem mit Intervallen ab 2 Minuten, mindestens 15 Minuten Belastung pro Einheit und Programmen über 4 Wochen.",
+   "cite": "Milanović et al. 2015; Wen et al. 2019; Bi et al. 2026"
+  },
+  {
+   "label": "Wenig Zeit",
+   "value": "Kurzprogramme genügen für Fitness",
+   "text": "Schon unter 15 Minuten pro Einheit (≤ 5 Minuten harte Belastung) oder wenige Sprints verbesserten Fitness und Blutdruck. Mehr Sprints pro Einheit brachten keinen Zusatznutzen.",
+   "cite": "Yin et al. 2024; Vollaard et al. 2017"
+  },
+  {
+   "label": "Körperfett",
+   "value": "kein Wundermittel",
+   "text": "HIIT senkt den Körperfettanteil um etwa 1–1,5 Prozentpunkte, kaum mehr als Dauertraining. Für den Fettabbau entscheidet die Energiebilanz mehr als die Trainingsform.",
+   "cite": "Poon et al. 2024; Keating et al. 2017"
+  },
+  {
+   "label": "Gesundheit",
+   "value": "Ergänzung, nicht Ersatz",
+   "text": "HIIT verbessert Blutdruck, Ruhepuls, Taillenumfang und Insulinwerte. Im direkten Vergleich wirkte Dauertraining für den Langzeitblutzucker (HbA1c) etwas besser; beide Formen kombinieren ist sinnvoll.",
+   "cite": "Edwards et al. 2023a; Mattioni Maturana et al. 2021"
+  },
+  {
+   "label": "Sicherheit",
+   "value": "langsam einsteigen",
+   "text": "Schwere Zwischenfälle waren selten, auch in der kardiologischen Rehabilitation. Bei bekannten Herzerkrankungen nur nach ärztlicher Abklärung und unter Anleitung beginnen.",
+   "cite": "Wewege et al. 2018; Martland et al. 2020"
+  }
+ ],
+ "note": "<b>Verwandte Themen:</b> Zur Intensitätsverteilung, zu Schwellen und Zeitfahrleistung siehe <a href=\"#ausdauer\">Ausdauertraining</a>; zum Zusammenspiel mit Krafttraining siehe <a href=\"#maximalkraft\">Maximalkrafttraining</a> und <a href=\"#hypertrophie\">Hypertrophie</a>.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "HIIT hebt die VO₂max etwas stärker als Dauertraining",
+   "ev": "hoch",
+   "p": "In 115 Vergleichsstudien war der Vorteil klein bis mittel und wuchs mit dem Trainingsstand. Sprintintervalle allein waren Dauertraining nicht überlegen.",
+   "s": [
+    "bi2026",
+    "milanovic2015",
+    "liang2026"
+   ]
+  },
+  {
+   "t": "Länger und öfter wirkt stärker, mehr Sprints nicht",
+   "ev": "moderat",
+   "p": "Lange Intervalle, mehr Belastungszeit und längere Programme brachten die größten VO₂max-Zuwächse. Bei SIT war die Zahl der Sprints pro Einheit ohne Einfluss.",
+   "s": [
+    "wen2019",
+    "vollaard2017",
+    "yin2024"
+   ]
+  },
+  {
+   "t": "Fettabbau: kleiner Vorteil, keine Abkürzung",
+   "ev": "moderat",
+   "p": "Intervalltraining senkte den Körperfettanteil um 0,77 Prozentpunkte mehr als Dauertraining; ältere Analysen fanden keinen Unterschied. Sehr kurze Programme veränderten das Körperfett nicht.",
+   "s": [
+    "poon2024b",
+    "keating2017",
+    "sultana2019"
+   ]
+  },
+  {
+   "t": "Breiter kardiometabolischer Nutzen",
+   "ev": "moderat",
+   "p": "HIIT verbesserte 14 Gesundheitsmarker, darunter Blutdruck, Ruhepuls, Taillenumfang und Nüchterninsulin. Gegenüber Dauertraining ist der Zusatznutzen meist klein.",
+   "s": [
+    "edwards2023",
+    "mattioni2021",
+    "batacan2017"
+   ]
+  },
+  {
+   "t": "Gut verträglich und meist sicher",
+   "ev": "niedrig",
+   "p": "Abbruchraten lagen bei rund 18 %, die Teilnahme ähnlich hoch wie bei Dauertraining. Schwere Herzereignisse traten selten auf; die Datenlage ist aber dünn.",
+   "s": [
+    "reljic2019",
+    "santos2023",
+    "wewege2018"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "vo2max",
+   "name": "VO₂max und Ausdauerleistung",
+   "q": "Steigert HIIT die VO₂max stärker als moderates Dauertraining?",
+   "ev": "hoch",
+   "key": [
+    "115 Studien mit 3 196 Personen: HIIT steigerte die relative VO₂max stärker als moderates bis kräftiges Dauertraining (g 0,39 [0,27; 0,51]; im Mittel 1,30 ml/kg/min), ebenso die maximale aerobe Leistung (g 0,31); bei Schwellen, Laufökonomie und Leistungstests fand sich kein Unterschied (g 0,04 [−0,46; 0,54]) (Bi et al., 2026). Die Aufschlüsselung nach Trainingsstand steht im Thema <a href=\"#ausdauer\">Ausdauertraining</a>.",
+    "28 Studien mit 723 gesunden Erwachsenen (18–45 Jahre): HIIT steigerte die VO₂max gegenüber Kontrolle um 5,5 ml/kg/min, Dauertraining um 4,9 ml/kg/min; im direkten Vergleich lag HIIT um 1,2 ml/kg/min vorn (Milanović et al., 2015).",
+    "37 Studien mit 334 Personen: Intervalltraining steigerte die VO₂max um 0,51 l/min [0,43; 0,60]; Programme mit längeren Intervallen sogar um etwa 0,8–0,9 l/min, mit deutlichem Anstieg bei allen Teilnehmenden (Bacon et al., 2013).",
+    "Umbrella Review (16 Reviews, 393 Studien): SIT verbesserte die Fitness gegenüber keinem Training (SMD 0,59 [0,43; 0,74]), aber nicht stärker als moderates Dauertraining (SMD 0,07 [−0,03; 0,16]); 9 von 16 Reviews hatten niedrige oder kritisch niedrige Qualität (Liang et al., 2026).",
+    "16 RCTs: SIT steigerte die VO₂max gegenüber Kontrolle deutlich (d 0,69 [0,46; 0,93]; etwa +8 %), gegenüber Ausdauertraining nicht (d 0,04 [−0,17; 0,24]) (Gist et al., 2014).",
+    "28 Studien: SIT und Dauertraining gleich für die VO₂max (g −0,004 [−0,08; 0,07]); alle Studien hatten ein unklares Verzerrungsrisiko und eine schlechte Berichtsqualität (Bonafiglia et al., 2022)."
+   ],
+   "critic": "Die Befunde sind konsistent, sobald man HIIT und SIT trennt. HIIT mit Intervallen um VO₂max ist dem Dauertraining für die VO₂max leicht überlegen; die größte und neueste Analyse (Bi et al., 2026, 115 Studien) bestätigt den älteren Befund von Milanović et al. (2015). SIT erreicht mit viel weniger Belastungszeit etwa denselben Effekt wie Dauertraining, aber keinen größeren. Der VO₂max-Vorteil von HIIT übersetzt sich nicht automatisch in bessere Leistungstests oder Schwellen. Einschränkend: Viele Primärstudien sind klein, kurz und methodisch schwach, wie die Prüfung von Bonafiglia et al. (2022) zeigt.",
+   "figs": [
+    {
+     "id": "hiit-vo2",
+     "title": "VO₂max: Intervall- vs. moderates Dauertraining",
+     "cap": "Standardisierte Effektgröße mit 95-%-KI; Werte rechts von 0 = größerer VO₂max-Zuwachs durch das Intervalltraining. Obere Zeile zum Vergleich: SIT gegenüber keinem Training.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "SIT vs. kein Training",
+       "sub": "Liang et al., 2026",
+       "es": 0.59,
+       "lo": 0.43,
+       "hi": 0.74
+      },
+      {
+       "l": "HIIT vs. Dauertraining",
+       "sub": "Bi et al., 2026",
+       "es": 0.39,
+       "lo": 0.27,
+       "hi": 0.51
+      },
+      {
+       "l": "SIT vs. Dauertraining",
+       "sub": "Liang et al., 2026",
+       "es": 0.07,
+       "lo": -0.03,
+       "hi": 0.16
+      },
+      {
+       "l": "SIT vs. Dauertraining",
+       "sub": "Bonafiglia et al., 2022",
+       "es": -0.004,
+       "lo": -0.08,
+       "hi": 0.07
+      },
+      {
+       "l": "SIT vs. Ausdauertraining",
+       "sub": "Gist et al., 2014",
+       "es": 0.04,
+       "lo": -0.17,
+       "hi": 0.24
+      }
+     ],
+     "opts": {
+      "min": -0.3,
+      "max": 1.0,
+      "ticks": [
+       -0.2,
+       0,
+       0.2,
+       0.4,
+       0.6,
+       0.8
+      ],
+      "leftLab": "Dauertraining besser",
+      "rightLab": "Intervalle besser"
+     }
+    }
+   ],
+   "s": [
+    "bi2026",
+    "milanovic2015",
+    "bacon2013",
+    "liang2026",
+    "gist2014",
+    "bonafiglia2022"
+   ]
+  },
+  {
+   "id": "protokolle",
+   "name": "Protokollvarianten und Dosis",
+   "q": "Welche Intervalle wirken am besten: kurz, lang, Sprints, wie viel Gesamtdauer?",
+   "ev": "moderat",
+   "key": [
+    "53 Studien: Schon kurze Intervalle (≤ 30 s), wenig Belastung (≤ 5 min) und kurze Programme (≤ 4 Wochen) steigerten die VO₂max gegenüber Kontrolle (SMD 0,79–1,65). Größer waren die Effekte mit langen Intervallen (≥ 2 min), viel Belastung (≥ 15 min) und Programmen über 4–12 Wochen; nur diese waren dem Dauertraining überlegen (SMD 0,65–1,07) (Wen et al., 2019).",
+    "38 SIT-Gruppen aus 34 Studien: Ein typisches SIT-Programm steigerte die VO₂max um 7,8 %; je zwei zusätzliche Sprints pro Einheit sank der Zuwachs eher (−1,2 %) (Vollaard et al., 2017). Eine neue bayesianische Analyse bestätigt das (siehe <a href=\"#ausdauer\">Ausdauertraining</a>).",
+    "21 Studien mit 849 Personen zu Kurz-HIIT (≤ 5 min harte Belastung in ≤ 15 min): Fitness stieg deutlich (SMD 1,19 [0,87; 1,50]), Blutdruck und Taillenumfang sanken. Kein Unterschied zu Dauertraining oder umfangreichem HIIT bei 14–47 % bzw. 45–94 % des Zeitaufwands. Höhere Intensität brachte mehr, mehr Wiederholungen und längere Einheiten nicht (Yin et al., 2024).",
+    "32 Studien zu Kurz-HIIT: Die VO₂max stieg bei sitzenden Männern um 10,0 %, bei aktiven Männern um 6,2 %, bei sitzenden Frauen um 7,3 % und bei aktiven Frauen um 3,6 %; bei Sportlern war der Effekt unklar (2,7 %) (Weston et al., 2014).",
+    "Gegenüber Dauertraining brachten längere HIIT-Wiederholungen einen kleinen Zusatzvorteil (+2,2 ml/kg/min), ebenso längere Programme (+1,7 ml/kg/min) (Milanović et al., 2015)."
+   ],
+   "critic": "Zwei Aussagen widersprechen sich nur scheinbar. Für die maximale VO₂max-Steigerung sind lange Intervalle und mehr Gesamtbelastung besser (Wen et al., 2019; Milanović et al., 2015). Für die Zeiteffizienz gilt: Schon sehr kurze Programme bringen einen großen Teil des Effekts, und bei Sprints ist „mehr“ nicht besser (Vollaard et al., 2017; Yin et al., 2024). Wahrscheinlich: Bei wenig Zeit genügen 2–3 kurze Einheiten pro Woche; wer die VO₂max ausreizen will, braucht Intervalle von mehreren Minuten. Die Moderatoranalysen beruhen auf Vergleichen zwischen Studien und sind daher nur Hinweise, keine Beweise.",
+   "figs": [
+    {
+     "id": "hiit-lv",
+     "title": "Kurz-HIIT: VO₂max-Zuwachs nach Gruppe",
+     "cap": "Mittlere prozentuale Steigerung der VO₂max gegenüber Kontrolle durch Kurz-HIIT (Weston et al., 2014). Für Sportler war der Effekt unklar.",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Sitzende Männer",
+       "es": 10.0
+      },
+      {
+       "l": "Sitzende Frauen",
+       "es": 7.3
+      },
+      {
+       "l": "Aktive Männer",
+       "es": 6.2
+      },
+      {
+       "l": "Aktive Frauen",
+       "es": 3.6
+      },
+      {
+       "l": "Sportler (unklar)",
+       "es": 2.7
+      }
+     ],
+     "opts": {
+      "max": 12,
+      "ticks": [
+       0,
+       4,
+       8,
+       12
+      ],
+      "unit": "%",
+      "xlab": "VO₂max-Zuwachs (%)",
+      "src": "Weston et al., 2014"
+     }
+    }
+   ],
+   "s": [
+    "wen2019",
+    "vollaard2017",
+    "yin2024",
+    "weston2014",
+    "milanovic2015"
+   ]
+  },
+  {
+   "id": "koerperfett",
+   "name": "Körperfett und Körperzusammensetzung",
+   "q": "Baut HIIT mehr Fett ab als Dauertraining?",
+   "ev": "moderat",
+   "key": [
+    "Umbrella Review, 16 Reviews mit 79 RCTs und 2 474 Personen: Intervalltraining senkte den Körperfettanteil stärker als Dauertraining (−0,77 Prozentpunkte [−1,12; −0,32]) und als keine Intervention (−1,50 [−2,40; −0,58]); auch viszerales und Bauchfett nahmen ab. Der Vorteil war bei Übergewicht und Programmen ab 12 Wochen deutlicher; 12 der 16 Reviews hatten niedrige oder kritisch niedrige Qualität (Poon et al., 2024).",
+    "31 Studien: HIIT/SIT und Dauertraining senkten Körperfettanteil und Fettmasse gleich stark (HIIT/SIT −1,26 %, Dauertraining −1,48 %); bei geringerem Zeit- oder Energieaufwand lag eher Dauertraining vorn. Klinisch bedeutsam war keine der Abnahmen (Keating et al., 2017).",
+    "13 Studien mit Übergewichtigen: gleiche Abnahme von Fettmasse und Taillenumfang bei HIIT und Dauertraining, bei etwa 40 % weniger Trainingszeit mit HIIT (Wewege et al., 2017).",
+    "39 Studien mit 617 Personen: HIIT senkte Gesamt-, Bauch- und viszerales Fett; Laufen wirkte stärker als Radfahren (Maillard et al., 2018).",
+    "36 Studien: gleiche Abnahme des Körperfettanteils, aber 28,5 % mehr absolute Fettmasse-Abnahme mit Intervalltraining (−2,28 kg [−4,00; −0,56]), vor allem mit SIT (Viana et al., 2019; mit Expression of Concern).",
+    "47 Studien zu Kurz-HIIT (≤ 500 MET-min/Woche): kein Effekt auf Fettmasse (ES −0,13 [−0,47; 0,21]) oder Körperfettanteil gegenüber Kontrolle; die Fitness stieg aber (Sultana et al., 2019)."
+   ],
+   "critic": "Die Analysen widersprechen sich im Detail, nicht in der Richtung. Das neueste und umfassendste Werk (Poon et al., 2024) findet einen kleinen Vorteil von 0,77 Prozentpunkten für Intervalle; ältere Metaanalysen fanden keinen Unterschied (Keating et al., 2017; Wewege et al., 2017). Der Vorteil ist zu klein, um HIIT als „Fettverbrenner“ zu bezeichnen, zumal die meisten eingeschlossenen Reviews methodisch schwach waren. Der größere Fettmasse-Effekt bei Viana et al. (2019) ist wegen der Expression of Concern nur mit Vorsicht zu verwenden. Sehr kurze Programme verändern das Körperfett kaum (Sultana et al., 2019). Zur Rolle der Energiebilanz siehe <a href=\"#energiebilanz\">Energiebilanz</a>, zum Muskelerhalt <a href=\"#protein\">Protein</a>.",
+   "figs": [
+    {
+     "id": "hiit-fett",
+     "title": "Veränderung des Körperfettanteils",
+     "cap": "Mittlere Differenz in Prozentpunkten mit 95-%-KI; negative Werte = mehr Fettabbau durch Intervalltraining.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Intervall vs. keine Intervention",
+       "sub": "Poon et al., 2024",
+       "es": -1.5,
+       "lo": -2.4,
+       "hi": -0.58
+      },
+      {
+       "l": "Intervall vs. Dauertraining",
+       "sub": "Poon et al., 2024",
+       "es": -0.77,
+       "lo": -1.12,
+       "hi": -0.32
+      },
+      {
+       "l": "Intervall vs. Dauertraining",
+       "sub": "Viana et al., 2019",
+       "es": -0.23,
+       "lo": -1.43,
+       "hi": 0.97
+      }
+     ],
+     "opts": {
+      "min": -2.6,
+      "max": 1.2,
+      "ticks": [
+       -2,
+       -1,
+       0,
+       1
+      ],
+      "unit": " %-P.",
+      "leftLab": "mehr Fettabbau",
+      "rightLab": "weniger Fettabbau"
+     }
+    }
+   ],
+   "s": [
+    "poon2024b",
+    "keating2017",
+    "wewege2017",
+    "maillard2018",
+    "viana2019",
+    "sultana2019"
+   ]
+  },
+  {
+   "id": "gesundheit",
+   "name": "Kardiometabolische Gesundheit",
+   "q": "Wirkt HIIT auf Blutdruck, Blutzucker und Blutfette?",
+   "ev": "moderat",
+   "key": [
+    "97 RCTs mit 3 399 Personen aus der Allgemeinbevölkerung: HIIT verbesserte 14 Gesundheitsmarker, u. a. VO₂peak (+3,9 ml/kg/min), systolischen (−3,2 mmHg) und diastolischen Blutdruck (−2,4 mmHg), Ruhepuls (−3,9 Schläge/min), Taillenumfang (−2,8 cm), Körperfettanteil (−0,97 %) und Nüchterninsulin (Edwards et al., 2023a).",
+    "270 RCTs mit 15 827 Personen: HIIT senkte den Ruheblutdruck um −4,08/−2,50 mmHg, ähnlich wie Ausdauer- (−4,49/−2,53) und Krafttraining (−4,55/−3,04); isometrisches Training wirkte am stärksten (−8,24/−4,00) (Edwards et al., 2023b).",
+    "55 Studien mit Gesunden und Erkrankten im direkten Vergleich: HIIT war Dauertraining für VO₂max (d 0,40) und Gefäßfunktion (FMD, d 0,54) überlegen, Dauertraining für den Langzeitblutzucker HbA1c (d −0,27); bei Blutdruck, Blutfetten, Körperfett und Entzündungswerten kein Unterschied (Mattioni Maturana et al., 2021).",
+    "65 Studien: Bei Übergewicht verbesserte HIIT VO₂max, Blutdruck, Ruhepuls und Körperfett, nicht aber Insulin, Blutfette oder Entzündungsmarker; bei Normalgewicht stieg nur die VO₂max (Batacan et al., 2017).",
+    "50 Studien: HIIT senkte die Insulinresistenz gegenüber Kontrolle (SMD −0,49) und gegenüber Dauertraining (SMD −0,35), dazu HbA1c um 0,19 % und das Körpergewicht um 1,3 kg; am deutlichsten bei Diabetesrisiko (Jelleyman et al., 2015).",
+    "40 RCTs mit 1 460 Personen: SIT verbesserte Blutzucker-, Insulin- und Fettwerte gegenüber keinem Training und war dem Dauertraining insgesamt gleichwertig; Gewissheit niedrig bis sehr niedrig (Li et al., 2026)."
+   ],
+   "critic": "Gegenüber keinem Training ist der Nutzen gut belegt und deckt sich mit dem anderer Trainingsformen. Gegenüber Dauertraining sind die Unterschiede klein und uneinheitlich: Vorteile für Fitness und Gefäßfunktion, eher Nachteile für HbA1c (Mattioni Maturana et al., 2021), während Jelleyman et al. (2015) einen Vorteil für die Insulinresistenz fanden. Die Studien mischen Gesunde und Menschen mit Stoffwechselerkrankungen; bei Normalgewichtigen änderte sich außer der Fitness wenig (Batacan et al., 2017). Wahrscheinlichste Lesart: HIIT ist eine gleichwertige Alternative, keine überlegene Gesundheitsmaßnahme.",
+   "figs": [
+    {
+     "id": "hiit-rr",
+     "title": "Senkung des systolischen Ruheblutdrucks nach Trainingsform",
+     "cap": "Mittlere Senkung in mmHg gegenüber Kontrolle aus paarweisen Metaanalysen, 270 RCTs (Edwards et al., 2023b).",
+     "type": "bars",
+     "data": [
+      {
+       "l": "Isometrisch",
+       "es": 8.24
+      },
+      {
+       "l": "Kombiniert",
+       "es": 6.04
+      },
+      {
+       "l": "Krafttraining",
+       "es": 4.55
+      },
+      {
+       "l": "Ausdauer",
+       "es": 4.49
+      },
+      {
+       "l": "HIIT",
+       "es": 4.08
+      }
+     ],
+     "opts": {
+      "max": 10,
+      "ticks": [
+       0,
+       2,
+       4,
+       6,
+       8,
+       10
+      ],
+      "unit": " mmHg",
+      "xlab": "Senkung des systolischen Blutdrucks (mmHg)",
+      "src": "Edwards et al., 2023b"
+     }
+    }
+   ],
+   "s": [
+    "edwards2023",
+    "edwards2023b",
+    "mattioni2021",
+    "batacan2017",
+    "jelleyman2015",
+    "li2026"
+   ]
+  },
+  {
+   "id": "zeit",
+   "name": "Zeiteffizienz und Durchhalten",
+   "q": "Spart HIIT Zeit, und halten Menschen es durch?",
+   "ev": "moderat",
+   "key": [
+    "HIIT erreichte bei Übergewicht dieselbe Fettabnahme wie Dauertraining mit etwa 40 % weniger Trainingszeit (Wewege et al., 2017); Kurz-HIIT brauchte 14–47 % der Zeit von Dauertraining (Yin et al., 2024).",
+    "Bei vergleichbarem Zeit- oder Energieaufwand lag Dauertraining für den Fettabbau tendenziell vorn (p = 0,09); HIIT ist also nicht zwangsläufig zeiteffizienter (Keating et al., 2017).",
+    "55 Studien mit 1 318 zuvor inaktiven Personen: Die Abbruchrate lag bei 17,6 % [14,2; 21,5]. Längere Einheiten und mehr Zeitaufwand pro Woche gingen mit mehr Abbrüchen einher, die Intensität nicht (Reljic et al., 2019).",
+    "188 Studien mit 8 928 Personen: Die Teilnahme an angeleiteten Einheiten lag bei HIIT bei 89,4 %, bei Dauertraining bei 92,5 %, ohne Unterschied (g 0,015). Ohne Anleitung hielten 63 % (HIIT) bzw. 68,2 % (Dauertraining) durch (Santos et al., 2023)."
+   ],
+   "critic": "Zeiteffizienz gilt vor allem für die Fitness: Für die VO₂max bringen kurze Programme viel pro Minute. Für Fettabbau zählt eher der Energieverbrauch, und da ist HIIT bei gleichem Aufwand nicht besser (Keating et al., 2017). Die Annahme, Menschen würden HIIT wegen der Anstrengung nicht durchhalten, bestätigt sich in Studien nicht. Allerdings sind Studienteilnehmende motiviert und angeleitet; die Werte zur Teilnahme ohne Anleitung stammen aus sehr heterogenen Studien mit sehr niedriger Evidenzqualität.",
+   "figs": [],
+   "s": [
+    "wewege2017",
+    "yin2024",
+    "keating2017",
+    "reljic2019",
+    "santos2023"
+   ]
+  },
+  {
+   "id": "sicherheit",
+   "name": "Sicherheit",
+   "q": "Wie riskant ist HIIT?",
+   "ev": "niedrig",
+   "key": [
+    "23 Studien mit 1 117 Herzpatienten in der Rehabilitation: ein schweres kardiovaskuläres Ereignis bei HIIT, das entspricht 1 pro 17 083 Trainingseinheiten (11 333 Trainingsstunden); dazu ein leichtes kardiovaskuläres und drei andere, meist muskuloskelettale Ereignisse (Wewege et al., 2018).",
+    "Meta-Review von 33 systematischen Reviews: Es wurden keine akuten Verletzungen berichtet, die mittlere Teilnahme lag in den meisten Reviews über 80 % (Martland et al., 2020)."
+   ],
+   "critic": "Die Datenlage zur Sicherheit ist schwach: Nebenwirkungen werden in Trainingsstudien selten systematisch erfasst, und seltene Ereignisse lassen sich mit kleinen Stichproben nicht ausschließen. Die niedrige Ereignisrate bei Herzpatienten gilt für überwachtes Training in der Rehabilitation, nicht für unbeaufsichtigtes Training. Für gesunde Erwachsene spricht nichts gegen HIIT; ein schrittweiser Einstieg ist dennoch sinnvoll, um muskuloskelettale Überlastung zu vermeiden.",
+   "figs": [],
+   "s": [
+    "wewege2018",
+    "martland2020"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2013,
+   "t": "Große VO₂max-Zuwächse durch Intervalle",
+   "p": "Mittlere Steigerung um 0,51 l/min, mit längeren Intervallen noch mehr.",
+   "tag": "neu",
+   "s": "bacon2013"
+  },
+  {
+   "y": 2014,
+   "t": "SIT so wirksam wie Dauertraining",
+   "p": "Kein Unterschied zum Ausdauertraining bei deutlich weniger Belastungszeit.",
+   "tag": "neu",
+   "s": "gist2014"
+  },
+  {
+   "y": 2014,
+   "t": "Kurz-HIIT verbessert die Fitness",
+   "p": "Moderate VO₂max-Zuwächse bei Inaktiven und Freizeitsportlern, unklar bei Sportlern.",
+   "tag": "neu",
+   "s": "weston2014"
+  },
+  {
+   "y": 2015,
+   "t": "HIIT leicht überlegen für die VO₂max",
+   "p": "Im direkten Vergleich +1,2 ml/kg/min gegenüber Dauertraining.",
+   "tag": "neu",
+   "s": "milanovic2015"
+  },
+  {
+   "y": 2015,
+   "t": "HIIT und Insulinresistenz",
+   "p": "Senkung der Insulinresistenz, besonders bei Diabetesrisiko.",
+   "tag": "neu",
+   "s": "jelleyman2015"
+  },
+  {
+   "y": 2017,
+   "t": "Weniger Sprints reichen",
+   "p": "Mehr Sprints pro Einheit vergrößern den VO₂max-Zuwachs nicht.",
+   "tag": "neu",
+   "s": "vollaard2017"
+  },
+  {
+   "y": 2017,
+   "t": "Kardiometabolischer Nutzen vor allem bei Übergewicht",
+   "p": "Bei Normalgewicht stieg nur die VO₂max.",
+   "tag": "neu",
+   "s": "batacan2017"
+  },
+  {
+   "y": 2017,
+   "t": "Fettabbau gleich wie Dauertraining",
+   "p": "Keine Unterschiede, nicht zwangsläufig zeiteffizienter.",
+   "tag": "neu",
+   "s": "keating2017"
+  },
+  {
+   "y": 2017,
+   "t": "Gleicher Fettabbau mit weniger Zeit",
+   "p": "Bei Übergewicht etwa 40 % weniger Trainingszeit für dasselbe Ergebnis.",
+   "tag": "conf",
+   "s": "wewege2017"
+  },
+  {
+   "y": 2018,
+   "t": "Auch Bauch- und viszerales Fett sinken",
+   "p": "Laufen wirkte stärker als Radfahren.",
+   "tag": "conf",
+   "s": "maillard2018"
+  },
+  {
+   "y": 2018,
+   "t": "Niedrige Ereignisrate in der Herzreha",
+   "p": "1 schweres Ereignis pro 17 083 HIIT-Einheiten.",
+   "tag": "neu",
+   "s": "wewege2018"
+  },
+  {
+   "y": 2019,
+   "t": "Lange Intervalle für maximale Wirkung",
+   "p": "Nur lange, umfangreiche und längere Programme schlugen Dauertraining.",
+   "tag": "neu",
+   "s": "wen2019"
+  },
+  {
+   "y": 2019,
+   "t": "Mehr Fettmasse-Abnahme mit Intervallen",
+   "p": "Unterschied in kg, nicht im Prozentanteil; später mit Expression of Concern versehen.",
+   "tag": "contra",
+   "s": "viana2019"
+  },
+  {
+   "y": 2019,
+   "t": "HIIT wird gut durchgehalten",
+   "p": "Abbruchrate 17,6 %, unabhängig von der Intensität.",
+   "tag": "neu",
+   "s": "reljic2019"
+  },
+  {
+   "y": 2019,
+   "t": "Kurz-HIIT verändert Körperfett nicht",
+   "p": "Fitness steigt, Fettmasse bleibt unverändert.",
+   "tag": "rel",
+   "s": "sultana2019"
+  },
+  {
+   "y": 2020,
+   "t": "Meta-Review über 33 Reviews",
+   "p": "Breiter Nutzen, keine berichteten akuten Verletzungen.",
+   "tag": "conf",
+   "s": "martland2020"
+  },
+  {
+   "y": 2021,
+   "t": "Vorteile und Nachteile gegenüber Dauertraining",
+   "p": "Besser für VO₂max und Gefäße, schlechter für HbA1c.",
+   "tag": "rel",
+   "s": "mattioni2021"
+  },
+  {
+   "y": 2021,
+   "t": "Geschichte und Definition von HIIT",
+   "p": "Übersicht über ein Jahrhundert Forschung; keine einheitliche Definition.",
+   "tag": "neu",
+   "s": "atakan2021"
+  },
+  {
+   "y": 2022,
+   "t": "Studienqualität bei SIT schwach",
+   "p": "Kein VO₂max-Unterschied zu Dauertraining, aber unklares Verzerrungsrisiko in allen Studien.",
+   "tag": "rel",
+   "s": "bonafiglia2022"
+  },
+  {
+   "y": 2023,
+   "t": "14 Gesundheitsmarker verbessert",
+   "p": "97 RCTs aus der Allgemeinbevölkerung.",
+   "tag": "conf",
+   "s": "edwards2023"
+  },
+  {
+   "y": 2023,
+   "t": "Blutdruck: HIIT wirkt wie andere Formen",
+   "p": "Isometrisches Training am stärksten.",
+   "tag": "neu",
+   "s": "edwards2023b"
+  },
+  {
+   "y": 2023,
+   "t": "Teilnahme ähnlich wie bei Dauertraining",
+   "p": "188 Studien, kein Unterschied in der Teilnahme an angeleiteten Einheiten.",
+   "tag": "conf",
+   "s": "santos2023"
+  },
+  {
+   "y": 2024,
+   "t": "Kurz-HIIT als zeiteffiziente Option",
+   "p": "Gleiche Effekte wie Dauertraining bei 14–47 % der Zeit.",
+   "tag": "conf",
+   "s": "yin2024"
+  },
+  {
+   "y": 2024,
+   "t": "Kleiner Fettvorteil im Umbrella Review",
+   "p": "−0,77 Prozentpunkte gegenüber Dauertraining.",
+   "tag": "rel",
+   "s": "poon2024b"
+  },
+  {
+   "y": 2026,
+   "t": "SIT nicht besser als Dauertraining",
+   "p": "Umbrella Review über 393 Studien, viele Reviews mit geringer Qualität.",
+   "tag": "conf",
+   "s": "liang2026"
+  },
+  {
+   "y": 2026,
+   "t": "115 Vergleichsstudien bestätigen VO₂max-Vorteil",
+   "p": "Größerer Vorteil bei höherem Trainingsstand.",
+   "tag": "conf",
+   "s": "bi2026"
+  },
+  {
+   "y": 2026,
+   "t": "SIT und Stoffwechsel",
+   "p": "Wirksam gegenüber keinem Training, gleichwertig zu Dauertraining.",
+   "tag": "conf",
+   "s": "li2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "21.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 4 132 Einträgen, 499 Übersichtsarbeiten nach Titel geprüft, 27 Quellen aufgenommen."
+  }
+ ],
+ "sources": {
+  "atakan2021": {
+   "short": "Atakan et al., 2021",
+   "year": 2021,
+   "type": "Narrativer Review",
+   "basis": "Abstract",
+   "pmid": "34281138",
+   "apa": "Atakan, M. M., Li, Y., Koşar, Ş. N., Turnagöl, H. H. &amp; Yan, X. (2021). Evidence-based effects of high-intensity interval training on exercise capacity and health: A review with historical perspective. <em>International Journal of Environmental Research and Public Health, 18</em>(13), Artikel 7201.",
+   "doi": "10.3390/ijerph18137201"
+  },
+  "bacon2013": {
+   "short": "Bacon et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24066036",
+   "apa": "Bacon, A. P., Carter, R. E., Ogle, E. A. &amp; Joyner, M. J. (2013). VO2max trainability and high intensity interval training in humans: A meta-analysis. <em>PLOS ONE, 8</em>(9), Artikel e73182.",
+   "doi": "10.1371/journal.pone.0073182"
+  },
+  "gist2014": {
+   "short": "Gist et al., 2014",
+   "year": 2014,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24129784",
+   "apa": "Gist, N. H., Fedewa, M. V., Dishman, R. K. &amp; Cureton, K. J. (2014). Sprint interval training effects on aerobic capacity: A systematic review and meta-analysis. <em>Sports Medicine, 44</em>(2), 269–279.",
+   "doi": "10.1007/s40279-013-0115-0"
+  },
+  "weston2014": {
+   "short": "Weston et al., 2014",
+   "year": 2014,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "24743927",
+   "apa": "Weston, M., Taylor, K. L., Batterham, A. M. &amp; Hopkins, W. G. (2014). Effects of low-volume high-intensity interval training (HIT) on fitness in adults: A meta-analysis of controlled and non-controlled trials. <em>Sports Medicine, 44</em>(7), 1005–1017.",
+   "doi": "10.1007/s40279-014-0180-z"
+  },
+  "milanovic2015": {
+   "short": "Milanović et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26243014",
+   "apa": "Milanović, Z., Sporiš, G. &amp; Weston, M. (2015). Effectiveness of high-intensity interval training (HIT) and continuous endurance training for VO2max improvements: A systematic review and meta-analysis of controlled trials. <em>Sports Medicine, 45</em>(10), 1469–1481.",
+   "doi": "10.1007/s40279-015-0365-0"
+  },
+  "jelleyman2015": {
+   "short": "Jelleyman et al., 2015",
+   "year": 2015,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26481101",
+   "apa": "Jelleyman, C., Yates, T., O'Donovan, G., Gray, L. J., King, J. A., Khunti, K. &amp; Davies, M. J. (2015). The effects of high-intensity interval training on glucose regulation and insulin resistance: A meta-analysis. <em>Obesity Reviews, 16</em>(11), 942–961.",
+   "doi": "10.1111/obr.12317"
+  },
+  "vollaard2017": {
+   "short": "Vollaard et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28079707",
+   "apa": "Vollaard, N. B. J., Metcalfe, R. S. &amp; Williams, S. (2017). Effect of number of sprints in an SIT session on change in V̇O2max: A meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 49</em>(6), 1147–1156.",
+   "doi": "10.1249/MSS.0000000000001204"
+  },
+  "batacan2017": {
+   "short": "Batacan et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27797726",
+   "apa": "Batacan, R. B., Duncan, M. J., Dalbo, V. J., Tucker, P. S. &amp; Fenning, A. S. (2017). Effects of high-intensity interval training on cardiometabolic health: A systematic review and meta-analysis of intervention studies. <em>British Journal of Sports Medicine, 51</em>(6), 494–503.",
+   "doi": "10.1136/bjsports-2015-095841"
+  },
+  "keating2017": {
+   "short": "Keating et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28513103",
+   "apa": "Keating, S. E., Johnson, N. A., Mielke, G. I. &amp; Coombes, J. S. (2017). A systematic review and meta-analysis of interval training versus moderate-intensity continuous training on body adiposity. <em>Obesity Reviews, 18</em>(8), 943–964.",
+   "doi": "10.1111/obr.12536"
+  },
+  "wewege2017": {
+   "short": "Wewege et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "28401638",
+   "apa": "Wewege, M., van den Berg, R., Ward, R. E. &amp; Keech, A. (2017). The effects of high-intensity interval training vs. moderate-intensity continuous training on body composition in overweight and obese adults: A systematic review and meta-analysis. <em>Obesity Reviews, 18</em>(6), 635–646.",
+   "doi": "10.1111/obr.12532"
+  },
+  "maillard2018": {
+   "short": "Maillard et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29127602",
+   "apa": "Maillard, F., Pereira, B. &amp; Boisseau, N. (2018). Effect of high-intensity interval training on total, abdominal and visceral fat mass: A meta-analysis. <em>Sports Medicine, 48</em>(2), 269–288.",
+   "doi": "10.1007/s40279-017-0807-y"
+  },
+  "wewege2018": {
+   "short": "Wewege et al., 2018",
+   "year": 2018,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "30376749",
+   "apa": "Wewege, M. A., Ahn, D., Yu, J., Liou, K. &amp; Keech, A. (2018). High-intensity interval training for patients with cardiovascular disease-is it safe? A systematic review. <em>Journal of the American Heart Association, 7</em>(21), Artikel e009305.",
+   "doi": "10.1161/JAHA.118.009305"
+  },
+  "wen2019": {
+   "short": "Wen et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30733142",
+   "apa": "Wen, D., Utesch, T., Wu, J., Robertson, S., Liu, J., Hu, G. &amp; Chen, H. (2019). Effects of different protocols of high intensity interval training for VO2max improvements in adults: A meta-analysis of randomised controlled trials. <em>Journal of Science and Medicine in Sport, 22</em>(8), 941–947.",
+   "doi": "10.1016/j.jsams.2019.01.013"
+  },
+  "viana2019": {
+   "short": "Viana et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30765340",
+   "apa": "Viana, R. B., Naves, J. P. A., Coswig, V. S., de Lira, C. A. B., Steele, J., Fisher, J. P. &amp; Gentil, P. (2019). Is interval training the magic bullet for fat loss? A systematic review and meta-analysis comparing moderate-intensity continuous training with high-intensity interval training (HIIT). <em>British Journal of Sports Medicine, 53</em>(10), 655–664.",
+   "doi": "10.1136/bjsports-2018-099928",
+   "flag": "Die Zeitschrift hat zu diesem Artikel eine Expression of Concern veröffentlicht (Br J Sports Med 2019). Die Befunde werden deshalb nur ergänzend herangezogen."
+  },
+  "reljic2019": {
+   "short": "Reljic et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31050061",
+   "apa": "Reljic, D., Lampe, D., Wolf, F., Zopf, Y., Herrmann, H. J. &amp; Fischer, J. (2019). Prevalence and predictors of dropout from high-intensity interval training in sedentary individuals: A meta-analysis. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 29</em>(9), 1288–1304.",
+   "doi": "10.1111/sms.13452"
+  },
+  "sultana2019": {
+   "short": "Sultana et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "31401727",
+   "apa": "Sultana, R. N., Sabag, A., Keating, S. E. &amp; Johnson, N. A. (2019). The effect of low-volume high-intensity interval training on body composition and cardiorespiratory fitness: A systematic review and meta-analysis. <em>Sports Medicine, 49</em>(11), 1687–1721.",
+   "doi": "10.1007/s40279-019-01167-w"
+  },
+  "martland2020": {
+   "short": "Martland et al., 2020",
+   "year": 2020,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "31889469",
+   "apa": "Martland, R., Mondelli, V., Gaughran, F. &amp; Stubbs, B. (2020). Can high-intensity interval training improve physical and mental health outcomes? A meta-review of 33 systematic reviews across the lifespan. <em>Journal of Sports Sciences, 38</em>(4), 430–469.",
+   "doi": "10.1080/02640414.2019.1706829"
+  },
+  "mattioni2021": {
+   "short": "Mattioni Maturana et al., 2021",
+   "year": 2021,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "32890201",
+   "apa": "Mattioni Maturana, F., Martus, P., Zipfel, S. &amp; Nieß, A. M. (2021). Effectiveness of HIIE versus MICT in improving cardiometabolic risk factors in health and disease: A meta-analysis. <em>Medicine &amp; Science in Sports &amp; Exercise, 53</em>(3), 559–573.",
+   "doi": "10.1249/MSS.0000000000002506"
+  },
+  "bonafiglia2022": {
+   "short": "Bonafiglia et al., 2022",
+   "year": 2022,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "33722760",
+   "apa": "Bonafiglia, J. T., Islam, H., Preobrazenski, N. &amp; Gurd, B. J. (2022). Risk of bias and reporting practices in studies comparing VO2max responses to sprint interval vs. continuous training: A systematic review and meta-analysis. <em>Journal of Sport and Health Science, 11</em>(5), 552–566.",
+   "doi": "10.1016/j.jshs.2021.03.005"
+  },
+  "edwards2023": {
+   "short": "Edwards et al., 2023a",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37204620",
+   "apa": "Edwards, J. J., Griffiths, M., Deenmamode, A. H. P. &amp; O'Driscoll, J. M. (2023a). High-intensity interval training and cardiometabolic health in the general population: A systematic review and meta-analysis of randomised controlled trials. <em>Sports Medicine, 53</em>(9), 1753–1763.",
+   "doi": "10.1007/s40279-023-01863-8"
+  },
+  "edwards2023b": {
+   "short": "Edwards et al., 2023b",
+   "year": 2023,
+   "type": "Netzwerk-Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37491419",
+   "apa": "Edwards, J. J., Deenmamode, A. H. P., Griffiths, M., Arnold, O., Cooper, N. J., Wiles, J. D. &amp; O'Driscoll, J. M. (2023b). Exercise training and resting blood pressure: A large-scale pairwise and network meta-analysis of randomised controlled trials. <em>British Journal of Sports Medicine, 57</em>(20), 1317–1326.",
+   "doi": "10.1136/bjsports-2022-106503"
+  },
+  "santos2023": {
+   "short": "Santos et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37990239",
+   "apa": "Santos, A., Braaten, K., MacPherson, M., Vasconcellos, D., Vis-Dunbar, M., Lonsdale, C., Lubans, D. &amp; Jung, M. E. (2023). Rates of compliance and adherence to high-intensity interval training: A systematic review and meta-analyses. <em>The International Journal of Behavioral Nutrition and Physical Activity, 20</em>(1), Artikel 134.",
+   "doi": "10.1186/s12966-023-01535-w"
+  },
+  "yin2024": {
+   "short": "Yin et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37939367",
+   "apa": "Yin, M., Li, H., Bai, M., Liu, H., Chen, Z., Deng, J., Deng, S., Meng, C., Vollaard, N. B. J., Little, J. P. &amp; Li, Y. (2024). Is low-volume high-intensity interval training a time-efficient strategy to improve cardiometabolic health and body composition? A meta-analysis. <em>Applied Physiology, Nutrition, and Metabolism, 49</em>(3), 273–292.",
+   "doi": "10.1139/apnm-2023-0329"
+  },
+  "poon2024b": {
+   "short": "Poon et al., 2024",
+   "year": 2024,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "39003682",
+   "apa": "Poon, E. T., Li, H. Y., Little, J. P., Wong, S. H. &amp; Ho, R. S. (2024). Efficacy of interval training in improving body composition and adiposity in apparently healthy adults: An umbrella review with meta-analysis. <em>Sports Medicine, 54</em>(11), 2817–2840.",
+   "doi": "10.1007/s40279-024-02070-9"
+  },
+  "liang2026": {
+   "short": "Liang et al., 2026",
+   "year": 2026,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "40991003",
+   "apa": "Liang, W., Liu, C., Xu, S., Ma, S., Zong, Y. &amp; Yan, X. (2026). Sprint interval training for cardiovascular prevention: A time-efficient alternative or an overstated promise? An umbrella review. <em>European Journal of Applied Physiology, 126</em>(2), 1199–1220.",
+   "doi": "10.1007/s00421-025-05975-z"
+  },
+  "bi2026": {
+   "short": "Bi et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41804294",
+   "apa": "Bi, Z., Yin, M., Xu, K., Marcotte-Chénard, A., Zhong, Y., Gu, Z., Vollaard, N., Metcalfe, R., Nassis, G., Girard, O., Bishop, D. &amp; Li, Y. (2026). One size does not fit all: A meta-analysis of 115 trials comparing high-intensity interval and moderate-to-vigorous-intensity continuous training across diverse participants, protocols, and outcomes. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 36</em>(3), Artikel e70243.",
+   "doi": "10.1111/sms.70243"
+  },
+  "li2026": {
+   "short": "Li et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse (dreistufig)",
+   "basis": "Abstract",
+   "pmid": "42820852",
+   "apa": "Li, Y., Yin, M., Zheng, H., Tang, Z., Yan, H., Vollaard, N. B. J. &amp; Liu, Q. (2026). Effects of sprint interval training on markers of metabolic health: A three-level meta-analysis of randomised controlled trials. <em>Journal of Sports Sciences, 44</em>(22), 3108–3132.",
+   "doi": "10.1080/02640414.2026.2735681"
+  }
+ }
+}

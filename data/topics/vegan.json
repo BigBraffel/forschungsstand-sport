@@ -1,0 +1,1189 @@
+{
+ "id": "vegan",
+ "title": "Vegetarische und vegane Ernährung im Sport",
+ "stand": "2026-11-21",
+ "lead": "Leisten Vegetarier und Veganer genauso viel wie Mischköstler, bauen sie mit pflanzlichem Protein gleich viel Muskeln auf, welche Nährstoffe werden knapp, und was bedeutet die Ernährungsform für Herz, Knochen und Lebenserwartung? Zusammengefasst aus Metaanalysen, Umbrella Reviews und systematischen Reviews.",
+ "rxtitle": "Ableitungen für Ernährung und Training",
+ "rxlead": "Für gesunde, trainierende Erwachsene, die sich vegetarisch oder vegan ernähren oder umstellen wollen. Die Leistungsdaten stammen aus wenigen kleinen Studien; die Daten zu Nährstoffen und Gesundheit überwiegend aus Beobachtungsstudien.",
+ "rx": [
+  {
+   "label": "Vitamin B12",
+   "value": "bei veganer Ernährung immer ergänzen",
+   "text": "Veganer hatten niedrigeres B12 und höheres Homocystein; mit Supplementen waren alle Biomarker besser. Positionspapiere fordern eine verlässliche B12-Quelle. Details unter <a href=\"#b-vitamine\">B-Vitamine</a>.",
+   "cite": "Niklewicz et al. 2024; Agnoli et al. 2017"
+  },
+  {
+   "label": "Protein",
+   "value": "Menge und Qualität planen",
+   "text": "Pflanzliches Protein baute etwas weniger Muskelmasse auf als tierisches; Soja war Milchprotein gleichwertig. Mischungen (z. B. Erbse und Reis) in ausreichender Dosis nutzen. Details unter <a href=\"#protein\">Protein</a>.",
+   "cite": "Reid-McCann et al. 2025; Messina et al. 2018; Govindasamy et al. 2025"
+  },
+  {
+   "label": "Kreatin",
+   "value": "für Kraft- und Schnellkraftsportler erwägen",
+   "text": "Vegetarier haben niedrigere Kreatinspeicher; Supplemente füllten sie oft über das Niveau von Mischköstlern auf. Details unter <a href=\"#kreatin\">Kreatin</a>.",
+   "cite": "Kaviani et al. 2020"
+  },
+  {
+   "label": "Eisen, Zink, Calcium, Omega-3",
+   "value": "Status kontrollieren, gezielt ergänzen",
+   "text": "Ferritin, Zink und (bei Veganern) die Calciumzufuhr lagen niedriger; Algenöl hob den DHA-Spiegel. Siehe <a href=\"#eisen\">Eisen</a>, <a href=\"#zink\">Zink</a>, <a href=\"#calcium\">Calcium</a>, <a href=\"#omega-3\">Omega-3</a>.",
+   "cite": "Haider et al. 2018; Foster et al. 2013; Bickelmann et al. 2023; Craddock et al. 2017"
+  },
+  {
+   "label": "Knochen",
+   "value": "Calcium, Vitamin D und Protein sichern",
+   "text": "Veganer hatten eine niedrigere Knochendichte und ein höheres Frakturrisiko. Bei Sportarten mit Stressfrakturrisiko besonders auf Calcium und <a href=\"#vitamin-d-k2\">Vitamin D</a> achten.",
+   "cite": "Iguacel et al. 2019; Ballarin et al. 2026"
+  }
+ ],
+ "note": "<b>Hinweis:</b> Die Gesundheitsvorteile hängen von der Qualität der Pflanzenkost ab. Eine pflanzenbetonte Ernährung mit überwiegend ungesunden pflanzlichen Lebensmitteln war mit höherer Sterblichkeit verbunden, eine mit gesunden mit geringerer (Etesami et al., 2025). „Vegan“ allein sagt daher wenig über die Ernährungsqualität aus.",
+ "varstitle": "Wirkungen im Detail",
+ "takeaways": [
+  {
+   "t": "Leistung nicht schlechter",
+   "ev": "niedrig",
+   "p": "Vegetarische und vegane Ernährung verschlechterte die Kraft nicht und verbesserte in wenigen Studien die Ausdauerleistung; insgesamt war die Leistung unverändert.",
+   "s": [
+    "damasceno2024",
+    "hernandez2023"
+   ]
+  },
+  {
+   "t": "Etwas weniger Muskelzuwachs mit pflanzlichem Protein",
+   "ev": "moderat",
+   "p": "Gegenüber tierischem Protein war der Muskelzuwachs leicht geringer; Soja war Milchprotein gleichwertig, die Kraft unterschied sich nicht.",
+   "s": [
+    "reidmccann2025",
+    "messina2018",
+    "mendes2026"
+   ]
+  },
+  {
+   "t": "B12, Eisen, Zink und Calcium sind kritisch",
+   "ev": "hoch",
+   "p": "Vegetarier und besonders Veganer hatten niedrigere B12-, Ferritin- und Zinkwerte sowie (vegan) eine geringere Calciumzufuhr. B12 muss supplementiert werden.",
+   "s": [
+    "niklewicz2024",
+    "haider2018",
+    "foster2013",
+    "bickelmann2023",
+    "neufingerl2021"
+   ]
+  },
+  {
+   "t": "Günstiger für Herz und Krebsrisiko, ungünstiger für Knochen",
+   "ev": "moderat",
+   "p": "Weniger koronare Herzkrankheit, niedrigeres LDL-Cholesterin und weniger Krebs; dagegen geringere Knochendichte und mehr Hüftfrakturen, vor allem bei Veganern.",
+   "s": [
+    "dybvik2023",
+    "koch2023",
+    "aune2026",
+    "iguacel2019",
+    "ballarin2026"
+   ]
+  },
+  {
+   "t": "Kein klarer Unterschied in der Gesamtsterblichkeit",
+   "ev": "niedrig",
+   "p": "Die Gesamtsterblichkeit war nicht sicher niedriger; ein Vorteil zeigte sich vor allem bei Siebenten-Tags-Adventisten und bei gesunder Pflanzenkost.",
+   "s": [
+    "dinu2017",
+    "kwok2014",
+    "selinger2023",
+    "etesami2025"
+   ]
+  }
+ ],
+ "vars": [
+  {
+   "id": "leistung",
+   "name": "Kraft- und Ausdauerleistung",
+   "q": "Leisten Vegetarier und Veganer weniger?",
+   "ev": "niedrig",
+   "key": [
+    "Metaanalyse mit 4 Studien zur Ausdauer und 6 Studien zu Kraft und Schnellkraft: pflanzenbasierte Ernährung verbesserte die aerobe Leistung (0,55 [0,29; 0,81]), hatte keinen Effekt auf Kraft und Schnellkraft (−0,30 [−0,67; 0,07]) und insgesamt keinen Effekt auf die Leistung (0,01 [−0,21; 0,22]); der BMI sank leicht (−0,27 [−0,40; −0,15]) (Damasceno et al., 2024).",
+    "Systematischer Review mit 6 Studien an Sportlern: keine signifikanten Unterschiede zwischen Vegetariern und Mischköstlern bei VO₂max, Muskelleistung und Sprint; Vegetarier nahmen mehr Kohlenhydrate und weniger Protein auf (Hernández-Lougedo et al., 2023)."
+   ],
+   "critic": "Die Datenlage ist sehr dünn: 4 bis 6 kleine Studien je Zielgröße, überwiegend Querschnittsvergleiche. Der Ausdauervorteil bei Damasceno et al. (2024) beruht auf nur 4 Studien und kann durch Unterschiede in Kohlenhydratzufuhr, Körpergewicht oder Trainingsstand verzerrt sein; der systematische Review fand keinen Unterschied. Wahrscheinlichste Lesart: Eine gut geplante vegetarische oder vegane Ernährung verschlechtert die Leistung nicht, ein echter Leistungsvorteil ist nicht belegt.",
+   "figs": [
+    {
+     "id": "veg-leistung",
+     "title": "Pflanzenbasierte Ernährung und Leistung",
+     "cap": "Standardisierte Effekte gegenüber Mischkost mit 95-%-KI (Damasceno et al., 2024). Positive Werte bedeuten bessere Leistung, beim BMI einen höheren Wert.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Ausdauerleistung",
+       "sub": "4 Studien",
+       "es": 0.55,
+       "lo": 0.29,
+       "hi": 0.81
+      },
+      {
+       "l": "Kraft und Schnellkraft",
+       "sub": "6 Studien",
+       "es": -0.3,
+       "lo": -0.67,
+       "hi": 0.07
+      },
+      {
+       "l": "Leistung gesamt",
+       "sub": "Damasceno et al., 2024",
+       "es": 0.01,
+       "lo": -0.21,
+       "hi": 0.22
+      },
+      {
+       "l": "BMI",
+       "sub": "Damasceno et al., 2024",
+       "es": -0.27,
+       "lo": -0.4,
+       "hi": -0.15
+      }
+     ],
+     "opts": {
+      "min": -1,
+      "max": 1,
+      "ticks": [
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "leftLab": "zugunsten Mischkost",
+      "rightLab": "zugunsten Pflanzenkost"
+     }
+    }
+   ],
+   "s": [
+    "damasceno2024",
+    "hernandez2023"
+   ]
+  },
+  {
+   "id": "muskel",
+   "name": "Muskelaufbau mit pflanzlichem Protein",
+   "q": "Baut pflanzliches Protein genauso viel Muskel auf wie tierisches?",
+   "ev": "moderat",
+   "key": [
+    "Kurzfassung, ausführlich unter <a href=\"#protein\">Protein</a>: 30 RCTs: pflanzliches Protein führte zu etwas weniger Muskelmasse als tierisches (SMD −0,20 [−0,37; −0,03]); Soja gegenüber Milchprotein ohne Unterschied (−0,02 [−0,20; 0,16]; 17 Studien), andere Pflanzenproteine (Reis, Chia, Hafer, Kartoffel) schwächer (−0,58 [−1,06; −0,09]; 5 Studien), ganze pflanzenbasierte Ernährungsformen ebenfalls (−0,51 [−0,91; −0,11]; 7 Studien); keine Unterschiede bei Kraft (14 Studien) und körperlicher Funktion (Reid-McCann et al., 2025).",
+    "9 Studien mit 266 Personen: Soja- und Molkenprotein steigerten Kraft und fettfreie Masse bei Krafttraining gleich stark (Messina et al., 2018).",
+    "12 Studien: Die Muskelproteinsynthese war mit tierischem Protein nur minimal höher (Effekt 0,004 [−0,002; 0,011]); bei Personen ab 65 Jahren etwas deutlicher, bei Jüngeren ähnlich (Mendes et al., 2026).",
+    "Systematischer Review mit 24 Studien zur Erholung nach Krafttraining: Einzelne Pflanzenproteine waren Molke meist unterlegen; Mischungen (z. B. Erbse, Reis, Raps) mit mindestens 30 g und etwa 2,5 g Leucin stimulierten die Muskelproteinsynthese vergleichbar (Govindasamy et al., 2025)."
+   ],
+   "critic": "Die Metaanalysen stimmen in der Richtung überein: Ein kleiner Vorteil für tierisches Protein beim Muskelzuwachs, aber kein Unterschied bei der Kraft. Der Nachteil betrifft vor allem Nicht-Soja-Proteine und ganze Ernährungsformen, bei denen oft auch die Proteinmenge geringer war. Govindasamy et al. (2025) weisen auf kleine Stichproben, mäßiges bis hohes Verzerrungsrisiko und unterschiedliche Protokolle hin. Wahrscheinlichste Lesart: Mit ausreichender Menge, Soja oder Proteinmischungen ist der Nachteil gering.",
+   "figs": [
+    {
+     "id": "veg-muskel",
+     "title": "Pflanzliches gegenüber tierischem Protein: Muskelmasse",
+     "cap": "Standardisierte Mittelwertdifferenz mit 95-%-KI; negative Werte bedeuten weniger Muskelmasse mit pflanzlichem Protein (Reid-McCann et al., 2025).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Pflanzlich gesamt",
+       "sub": "30 RCTs",
+       "es": -0.2,
+       "lo": -0.37,
+       "hi": -0.03
+      },
+      {
+       "l": "Soja gegen Milch",
+       "sub": "17 RCTs",
+       "es": -0.02,
+       "lo": -0.2,
+       "hi": 0.16
+      },
+      {
+       "l": "Andere Pflanzenproteine",
+       "sub": "5 RCTs",
+       "es": -0.58,
+       "lo": -1.06,
+       "hi": -0.09
+      },
+      {
+       "l": "Pflanzenbasierte Ernährung",
+       "sub": "7 RCTs",
+       "es": -0.51,
+       "lo": -0.91,
+       "hi": -0.11
+      }
+     ],
+     "opts": {
+      "min": -1.2,
+      "max": 0.4,
+      "ticks": [
+       -1.2,
+       -0.8,
+       -0.4,
+       0,
+       0.4
+      ],
+      "leftLab": "zugunsten tierisch",
+      "rightLab": "zugunsten pflanzlich"
+     }
+    }
+   ],
+   "s": [
+    "reidmccann2025",
+    "messina2018",
+    "mendes2026",
+    "govindasamy2025"
+   ]
+  },
+  {
+   "id": "naehrstoffe",
+   "name": "Nährstoffstatus: B12, Eisen, Zink, Calcium, Vitamin D, Omega-3",
+   "q": "Welche Nährstoffe werden bei vegetarischer und veganer Ernährung knapp?",
+   "ev": "hoch",
+   "key": [
+    "B12, ausführlich unter <a href=\"#b-vitamine\">B-Vitamine</a>: 17 Studien: Veganer hatten gegenüber Mischköstlern niedrigeres Serum-B12 (−0,72 [−1,26; −0,18]) und höheres Homocystein (0,57 [0,26; 0,89]); Veganer mit B12-Supplementen hatten in allen Biomarkern bessere Werte (Niklewicz et al., 2024).",
+    "Eisen, siehe <a href=\"#eisen\">Eisen</a>: 24 Querschnittsstudien: Vegetarier hatten niedrigeres Ferritin (−29,71 µg/l [−39,69; −19,73]), bei Männern deutlicher (−61,88 µg/l) als bei Frauen (−13,50 µg/l) (Haider et al., 2018).",
+    "Zink, siehe <a href=\"#zink\">Zink</a>: 26 Studien: Vegetarier nahmen weniger Zink auf (−0,88 mg/Tag) und hatten niedrigeres Serumzink (−0,93 µmol/l), stärker bei Frauen und Veganern (Foster et al., 2013).",
+    "Calcium, siehe <a href=\"#calcium\">Calcium</a>: Veganer nahmen deutlich weniger Calcium auf als Mischköstler (SMD −0,70) und Vegetarier (SMD −0,57); zwischen Vegetariern und Mischköstlern kein Unterschied (0,07 [−0,04; 0,19]) (Bickelmann et al., 2023).",
+    "141 Studien: Zufuhr und Status von B12, Vitamin D, Eisen, Zink, Jod und Calcium lagen bei pflanzlicher Ernährung niedriger, ebenso EPA und DHA; Mischköstler hatten dafür häufiger zu wenig Ballaststoffe, Folat, Vitamin E und Magnesium (Neufingerl &amp; Eilander, 2021).",
+    "48 europäische Studien: Veganer nahmen weniger Protein, B2, B3, B12, Vitamin D, Jod, Zink, Calcium, Kalium und Selen auf; die B12-Zufuhr ohne Ergänzung lag bei 0,24–0,49 µg statt empfohlener 2,4 µg (Bakaloudi et al., 2021).",
+    "Omega-3, siehe <a href=\"#omega-3\">Omega-3</a>: 6 Studien: DHA aus Algen erhöhte bei Vegetariern die DHA-Spiegel und den Omega-3-Index; der Omega-3-Index von Vegetariern lag bis zu 60 % unter dem von Fischessern (Craddock et al., 2017).",
+    "Positionspapier: Gut geplante vegetarische Ernährung mit verlässlicher B12-Quelle ist bedarfsdeckend; wegen geringerer Verdaulichkeit pflanzlicher Proteine kann eine etwas höhere Proteinzufuhr sinnvoll sein (Agnoli et al., 2017)."
+   ],
+   "critic": "Die Richtung ist über viele Analysen einheitlich, die Evidenz stammt aber fast nur aus Querschnittsstudien. Niedrigere Ferritin- und Zinkwerte bedeuten nicht automatisch einen Mangel; Haider et al. (2018) weisen darauf hin, dass hohe Eisenspeicher selbst ein Risikofaktor sind. Die Übersicht von Neufingerl &amp; Eilander (2021) wurde von Unilever-Mitarbeiterinnen verfasst; ihre Kernaussagen decken sich aber mit unabhängigen Analysen. Für B12 ist die Lage eindeutig: Ohne Supplement oder angereicherte Lebensmittel ist ein Mangel bei Veganern wahrscheinlich.",
+   "figs": [
+    {
+     "id": "veg-naehrstoffe",
+     "title": "Veganer gegenüber Mischköstlern: B12 und Calcium",
+     "cap": "Standardisierte Mittelwertdifferenz mit 95-%-KI. Negative Werte bedeuten niedrigere Werte bei Veganern; Homocystein und Methylmalonsäure steigen bei B12-Mangel. Quellen: Niklewicz et al. (2024), Bickelmann et al. (2023).",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Serum-B12",
+       "sub": "Niklewicz et al., 2024",
+       "es": -0.72,
+       "lo": -1.26,
+       "hi": -0.18
+      },
+      {
+       "l": "Holotranscobalamin",
+       "sub": "Niklewicz et al., 2024",
+       "es": -0.42,
+       "lo": -0.91,
+       "hi": 0.07
+      },
+      {
+       "l": "Homocystein",
+       "sub": "Niklewicz et al., 2024",
+       "es": 0.57,
+       "lo": 0.26,
+       "hi": 0.89
+      },
+      {
+       "l": "Methylmalonsäure",
+       "sub": "Niklewicz et al., 2024",
+       "es": 0.28,
+       "lo": -0.01,
+       "hi": 0.57
+      },
+      {
+       "l": "Calciumzufuhr",
+       "sub": "Bickelmann et al., 2023",
+       "es": -0.7,
+       "lo": -0.95,
+       "hi": -0.59
+      }
+     ],
+     "opts": {
+      "min": -1.5,
+      "max": 1,
+      "ticks": [
+       -1.5,
+       -1,
+       -0.5,
+       0,
+       0.5,
+       1
+      ],
+      "leftLab": "niedriger bei Veganern",
+      "rightLab": "höher bei Veganern"
+     }
+    }
+   ],
+   "s": [
+    "niklewicz2024",
+    "haider2018",
+    "foster2013",
+    "bickelmann2023",
+    "neufingerl2021",
+    "bakaloudi2021",
+    "craddock2017",
+    "agnoli2017"
+   ]
+  },
+  {
+   "id": "kreatin",
+   "name": "Kreatinspeicher",
+   "q": "Profitieren Vegetarier stärker von Kreatin?",
+   "ev": "niedrig",
+   "key": [
+    "Systematischer Review mit 9 Studien: Kreatin erhöhte bei Vegetariern Gesamtkreatin und Phosphokreatin im Muskel, oft über das Niveau von Mischköstlern; fettfreie Masse, Typ-II-Faserfläche, Kraft, Kraftausdauer und mittlere Wingate-Leistung stiegen. Ob Vegetarier stärker profitieren als Mischköstler, war uneinheitlich (Kaviani et al., 2020). Ausführlich unter <a href=\"#kreatin\">Kreatin</a>."
+   ],
+   "critic": "Wenige kleine Studien mit mäßigem bis hohem Verzerrungsrisiko. Plausibel ist ein größerer Effekt bei niedrigen Ausgangsspeichern, der direkte Vergleich mit Mischköstlern ist aber nicht eindeutig.",
+   "figs": [],
+   "s": [
+    "kaviani2020"
+   ]
+  },
+  {
+   "id": "knochen",
+   "name": "Knochendichte und Frakturen",
+   "q": "Schadet vegetarische oder vegane Ernährung den Knochen?",
+   "ev": "moderat",
+   "key": [
+    "9 Studien mit 2 749 Personen: Knochendichte bei Vegetariern etwa 4 % niedriger, bei Veganern an der Lendenwirbelsäule 6 %; die Autoren hielten die Größe für klinisch unbedeutend (Ho-Pham et al., 2009).",
+    "20 Studien mit 37 134 Personen: niedrigere Knochendichte an Schenkelhals und Lendenwirbelsäule; Veganer hatten zudem mehr Frakturen (Iguacel et al., 2019).",
+    "4 Kohorten mit 529 672 Personen: Hüftfrakturrisiko bei Vegetariern um 25 % höher (HR 1,25 [1,11; 1,39]; geringe Vertrauenswürdigkeit), bei Veganern um 75 % (HR 1,75 [1,17; 2,63]; sehr geringe Vertrauenswürdigkeit) (Ballarin et al., 2026).",
+    "Umbrella Review: vegane Ernährung mit höherem Frakturrisiko verbunden (SRR 1,46 [1,03; 2,07]; 3 Studien) (Selinger et al., 2023)."
+   ],
+   "critic": "Ältere Analysen sahen nur eine kleine Differenz der Knochendichte (Ho-Pham et al., 2009); neuere Kohortendaten zeigen aber ein höheres Frakturrisiko, besonders bei Veganern. Die Frakturdaten stammen aus wenigen Kohorten (vor allem EPIC-Oxford), die Vertrauenswürdigkeit ist gering, und Körpergewicht sowie Calcium- und Proteinzufuhr können den Zusammenhang erklären. Für Sportler mit Stressfrakturrisiko ist die Richtung dennoch relevant.",
+   "figs": [
+    {
+     "id": "veg-knochen",
+     "title": "Frakturrisiko bei vegetarischer und veganer Ernährung",
+     "cap": "Relatives Risiko bzw. Hazard Ratio gegenüber Mischköstlern mit 95-%-KI. Werte über 1 bedeuten ein höheres Risiko.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Hüftfraktur, vegetarisch",
+       "sub": "Ballarin et al., 2026",
+       "es": 1.25,
+       "lo": 1.11,
+       "hi": 1.39
+      },
+      {
+       "l": "Hüftfraktur, vegan",
+       "sub": "Ballarin et al., 2026",
+       "es": 1.75,
+       "lo": 1.17,
+       "hi": 2.63
+      },
+      {
+       "l": "Frakturen, vegan",
+       "sub": "Selinger et al., 2023",
+       "es": 1.46,
+       "lo": 1.03,
+       "hi": 2.07
+      }
+     ],
+     "opts": {
+      "min": 0.5,
+      "max": 3,
+      "ticks": [
+       0.5,
+       1,
+       1.5,
+       2,
+       2.5,
+       3
+      ],
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "hopham2009",
+    "iguacel2019",
+    "ballarin2026",
+    "selinger2023"
+   ]
+  },
+  {
+   "id": "gesundheit",
+   "name": "Herz-Kreislauf, Krebs und Sterblichkeit",
+   "q": "Leben Vegetarier und Veganer gesünder oder länger?",
+   "ev": "moderat",
+   "key": [
+    "86 Querschnitts- und 10 Kohortenstudien: niedrigere BMI-, Cholesterin- und Blutzuckerwerte; weniger koronare Herzkrankheit (RR 0,75 [0,68; 0,82]) und Krebs (RR 0,92 [0,87; 0,98]), aber kein Unterschied bei Gesamtsterblichkeit, Herz-Kreislauf-Erkrankungen insgesamt und Krebssterblichkeit (Dinu et al., 2017).",
+    "8 Studien mit 183 321 Personen: der Vorteil stammte vor allem aus Studien an Siebenten-Tags-Adventisten (Gesamtsterblichkeit RR 0,68 [0,45; 1,02]); in anderen Kohorten keine Senkung (RR 1,04 [0,98; 1,10]) (Kwok et al., 2014).",
+    "13 Kohorten mit 844 175 Personen: Vegetarier hatten weniger Herz-Kreislauf-Erkrankungen (RR 0,85 [0,79; 0,92]) und koronare Herzkrankheit (RR 0,79 [0,71; 0,88]), aber nicht weniger Schlaganfälle (RR 0,90 [0,77; 1,05]) (Dybvik et al., 2023).",
+    "30 RCTs: vegetarische und vegane Ernährung senkte Gesamtcholesterin (−0,34 mmol/l), LDL-Cholesterin (−0,30 mmol/l) und Apolipoprotein B (−12,92 mg/dl); Triglyzeride unverändert (Koch et al., 2023).",
+    "7 prospektive Studien: Vegetarier hatten weniger Krebs (RR 0,87 [0,84; 0,91]), Veganer ebenfalls (RR 0,77 [0,70; 0,85]); der BMI erklärte einen Teil des Zusammenhangs (Aune et al., 2026).",
+    "Umbrella Review: Vegane Ernährung senkte in 8 RCTs das Körpergewicht (−2,52 kg); Gesamtsterblichkeit nur tendenziell niedriger (SRR 0,87 [0,75; 1,01]) (Selinger et al., 2023).",
+    "25 Kohorten: gesunde pflanzenbetonte Ernährung mit geringerer Sterblichkeit (RR 0,86 [0,82; 0,90]; 21 Studien), ungesunde pflanzenbetonte Ernährung mit höherer (RR 1,20 [1,13; 1,27]; 19 Studien) (Etesami et al., 2025)."
+   ],
+   "critic": "Die Befunde zu Cholesterin stammen aus RCTs und sind belastbar. Herz- und Krebsrisiko beruhen auf Beobachtungsstudien: Vegetarier rauchen seltener, trinken weniger und sind schlanker; ein Teil des Vorteils kann daher auf den Lebensstil zurückgehen (Kwok et al., 2014; Aune et al., 2026). Dass sich die Gesamtsterblichkeit nicht sicher unterscheidet, passt zu den gegenläufigen Risiken (Herz und Krebs gegen Knochen). Entscheidend ist die Lebensmittelqualität: Ungesunde Pflanzenkost war mit höherer Sterblichkeit verbunden.",
+   "figs": [
+    {
+     "id": "veg-herz",
+     "title": "Vegetarische und vegane Ernährung: Herz, Krebs, Sterblichkeit",
+     "cap": "Relatives Risiko gegenüber Mischköstlern bzw. hoher gegenüber niedriger Indexwerte mit 95-%-KI. Werte unter 1 bedeuten ein geringeres Risiko.",
+     "type": "forest",
+     "data": [
+      {
+       "l": "Koronare Herzkrankheit",
+       "sub": "Dybvik et al., 2023",
+       "es": 0.79,
+       "lo": 0.71,
+       "hi": 0.88
+      },
+      {
+       "l": "Schlaganfall",
+       "sub": "Dybvik et al., 2023",
+       "es": 0.9,
+       "lo": 0.77,
+       "hi": 1.05
+      },
+      {
+       "l": "Krebs, vegetarisch",
+       "sub": "Aune et al., 2026",
+       "es": 0.87,
+       "lo": 0.84,
+       "hi": 0.91
+      },
+      {
+       "l": "Krebs, vegan",
+       "sub": "Aune et al., 2026",
+       "es": 0.77,
+       "lo": 0.7,
+       "hi": 0.85
+      },
+      {
+       "l": "Sterblichkeit, vegan",
+       "sub": "Selinger et al., 2023",
+       "es": 0.87,
+       "lo": 0.75,
+       "hi": 1.01
+      },
+      {
+       "l": "Sterblichkeit, gesunde Pflanzenkost",
+       "sub": "Etesami et al., 2025",
+       "es": 0.86,
+       "lo": 0.82,
+       "hi": 0.9
+      },
+      {
+       "l": "Sterblichkeit, ungesunde Pflanzenkost",
+       "sub": "Etesami et al., 2025",
+       "es": 1.2,
+       "lo": 1.13,
+       "hi": 1.27
+      }
+     ],
+     "opts": {
+      "min": 0.6,
+      "max": 1.4,
+      "ticks": [
+       0.6,
+       0.8,
+       1,
+       1.2,
+       1.4
+      ],
+      "ref": 1,
+      "leftLab": "geringeres Risiko",
+      "rightLab": "höheres Risiko"
+     }
+    }
+   ],
+   "s": [
+    "dinu2017",
+    "kwok2014",
+    "dybvik2023",
+    "koch2023",
+    "aune2026",
+    "selinger2023",
+    "etesami2025"
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "y": 2009,
+   "t": "Knochendichte etwas niedriger",
+   "p": "Etwa 4 % bei Vegetariern, laut Autoren klinisch unbedeutend.",
+   "tag": "neu",
+   "s": "hopham2009"
+  },
+  {
+   "y": 2013,
+   "t": "Niedrigerer Zinkstatus",
+   "p": "Weniger Zinkzufuhr und niedrigeres Serumzink.",
+   "tag": "neu",
+   "s": "foster2013"
+  },
+  {
+   "y": 2014,
+   "t": "Herzvorteil vor allem bei Adventisten",
+   "p": "Außerhalb dieser Kohorten keine niedrigere Sterblichkeit.",
+   "tag": "rel",
+   "s": "kwok2014"
+  },
+  {
+   "y": 2017,
+   "t": "Weniger koronare Herzkrankheit und Krebs",
+   "p": "Große Metaanalyse; Gesamtsterblichkeit unverändert.",
+   "tag": "neu",
+   "s": "dinu2017"
+  },
+  {
+   "y": 2017,
+   "t": "Algen-DHA für Vegetarier",
+   "p": "DHA-Spiegel und Omega-3-Index stiegen.",
+   "tag": "neu",
+   "s": "craddock2017"
+  },
+  {
+   "y": 2017,
+   "t": "Positionspapier zur vegetarischen Ernährung",
+   "p": "Bedarfsdeckend mit verlässlicher B12-Quelle.",
+   "tag": "neu",
+   "s": "agnoli2017"
+  },
+  {
+   "y": 2018,
+   "t": "Soja so wirksam wie Molke",
+   "p": "Gleicher Kraft- und Muskelzuwachs bei Krafttraining.",
+   "tag": "neu",
+   "s": "messina2018"
+  },
+  {
+   "y": 2018,
+   "t": "Niedrigere Eisenspeicher",
+   "p": "Ferritin bei Vegetariern deutlich niedriger.",
+   "tag": "neu",
+   "s": "haider2018"
+  },
+  {
+   "y": 2019,
+   "t": "Mehr Frakturen bei Veganern",
+   "p": "Niedrigere Knochendichte und höhere Frakturrate.",
+   "tag": "contra",
+   "s": "iguacel2019"
+  },
+  {
+   "y": 2020,
+   "t": "Kreatin für Vegetarier",
+   "p": "Speicher und Leistung stiegen; Vorteil gegenüber Mischköstlern unklar.",
+   "tag": "neu",
+   "s": "kaviani2020"
+  },
+  {
+   "y": 2021,
+   "t": "Nährstoffprofil im Vergleich",
+   "p": "Niedrigerer Status bei B12, Vitamin D, Eisen, Zink, Jod und Calcium.",
+   "tag": "conf",
+   "s": "neufingerl2021"
+  },
+  {
+   "y": 2021,
+   "t": "Vegane Zufuhr in Europa",
+   "p": "Zu wenig B12, Calcium, Zink, Jod und Selen.",
+   "tag": "conf",
+   "s": "bakaloudi2021"
+  },
+  {
+   "y": 2023,
+   "t": "Herz-Kreislauf-Risiko geringer",
+   "p": "13 Kohorten: weniger KHK, nicht weniger Schlaganfälle.",
+   "tag": "conf",
+   "s": "dybvik2023"
+  },
+  {
+   "y": 2023,
+   "t": "LDL-Cholesterin in RCTs gesenkt",
+   "p": "30 randomisierte Studien.",
+   "tag": "conf",
+   "s": "koch2023"
+  },
+  {
+   "y": 2023,
+   "t": "Umbrella Review vegan",
+   "p": "Weniger Gewicht und Krebs, mehr Frakturen.",
+   "tag": "conf",
+   "s": "selinger2023"
+  },
+  {
+   "y": 2023,
+   "t": "Geringere Calciumzufuhr bei Veganern",
+   "p": "Vegetarier unterschieden sich nicht von Mischköstlern.",
+   "tag": "neu",
+   "s": "bickelmann2023"
+  },
+  {
+   "y": 2023,
+   "t": "Keine Leistungsunterschiede bei Sportlern",
+   "p": "Systematischer Review mit 6 Studien.",
+   "tag": "neu",
+   "s": "hernandez2023"
+  },
+  {
+   "y": 2024,
+   "t": "Pflanzenkost und Leistung",
+   "p": "Ausdauer besser, Kraft unverändert, insgesamt kein Effekt.",
+   "tag": "neu",
+   "s": "damasceno2024"
+  },
+  {
+   "y": 2024,
+   "t": "Funktioneller B12-Mangel bei Veganern",
+   "p": "Supplemente verbesserten alle Biomarker.",
+   "tag": "conf",
+   "s": "niklewicz2024"
+  },
+  {
+   "y": 2025,
+   "t": "Etwas weniger Muskelzuwachs mit Pflanzenprotein",
+   "p": "Nachteil vor allem bei Nicht-Soja-Proteinen.",
+   "tag": "rel",
+   "s": "reidmccann2025"
+  },
+  {
+   "y": 2025,
+   "t": "Proteinmischungen für die Erholung",
+   "p": "Mischungen in ausreichender Dosis ähnlich wirksam wie Molke.",
+   "tag": "neu",
+   "s": "govindasamy2025"
+  },
+  {
+   "y": 2025,
+   "t": "Qualität der Pflanzenkost entscheidend",
+   "p": "Ungesunde Pflanzenkost mit höherer Sterblichkeit.",
+   "tag": "rel",
+   "s": "etesami2025"
+  },
+  {
+   "y": 2026,
+   "t": "Muskelproteinsynthese kaum verschieden",
+   "p": "Kleiner Vorteil für tierisches Protein bei Älteren.",
+   "tag": "conf",
+   "s": "mendes2026"
+  },
+  {
+   "y": 2026,
+   "t": "Höheres Hüftfrakturrisiko",
+   "p": "Vegetarier +25 %, Veganer +75 %.",
+   "tag": "conf",
+   "s": "ballarin2026"
+  },
+  {
+   "y": 2026,
+   "t": "Weniger Krebs bei Vegetariern und Veganern",
+   "p": "Prospektive Studien; BMI erklärt einen Teil.",
+   "tag": "conf",
+   "s": "aune2026"
+  }
+ ],
+ "changelog": [
+  {
+   "d": "21.11.2026",
+   "t": "Erstfassung: PubMed-Sichtung von 3 649 Einträgen, 611 Übersichtsarbeiten nach Titel geprüft, zusätzlich 180 regelbasiert ausgeschlossene Übersichtsarbeiten nachgesichtet; 25 Quellen aufgenommen."
+  }
+ ],
+ "matrix": [
+  {
+   "bereich": "Leistung",
+   "ziel": "Sportliche Leistung",
+   "kat": "ausdauer",
+   "items": [
+    {
+     "n": "Ausdauerleistung",
+     "g": "C",
+     "d": "auf",
+     "m": 3,
+     "b": "nutzen",
+     "k": 4,
+     "p": null,
+     "s": [
+      "damasceno2024",
+      "hernandez2023"
+     ],
+     "t": "Effekt 0,55 [0,29; 0,81] in 4 Studien; ein systematischer Review fand bei der VO₂max keinen Unterschied. Sehr kleine Datenbasis.",
+     "v": "leistung"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Kraft und Muskel",
+   "kat": "kraft",
+   "items": [
+    {
+     "n": "Kraft und Schnellkraft (Ernährungsform)",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 6,
+     "p": null,
+     "s": [
+      "damasceno2024",
+      "hernandez2023"
+     ],
+     "t": "Kein signifikanter Unterschied (−0,30 [−0,67; 0,07]; 6 Studien).",
+     "v": "leistung"
+    },
+    {
+     "n": "Muskelkraft (pflanzliches statt tierisches Protein)",
+     "g": "B",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 14,
+     "p": null,
+     "s": [
+      "reidmccann2025",
+      "messina2018"
+     ],
+     "t": "Kein Unterschied bei der Kraft (14 RCTs); Soja und Molke steigerten Bankdrücken und Kniebeuge gleich stark.",
+     "v": "muskel"
+    }
+   ]
+  },
+  {
+   "bereich": "Leistung",
+   "ziel": "Muskelmasse",
+   "kat": "masse",
+   "items": [
+    {
+     "n": "Muskelzuwachs (pflanzliches statt tierisches Protein)",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 30,
+     "p": null,
+     "s": [
+      "reidmccann2025",
+      "messina2018"
+     ],
+     "t": "SMD −0,20 [−0,37; −0,03] in 30 RCTs; Soja gegen Milch ohne Unterschied, andere Pflanzenproteine −0,58.",
+     "v": "muskel"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Nährstoffstatus",
+   "kat": "status",
+   "items": [
+    {
+     "n": "Vitamin-B12-Status (vegan)",
+     "g": "A",
+     "d": "ab",
+     "m": 3,
+     "b": "schaden",
+     "k": 17,
+     "p": null,
+     "s": [
+      "niklewicz2024",
+      "neufingerl2021",
+      "bakaloudi2021"
+     ],
+     "t": "Serum-B12 SMD −0,72, Homocystein +0,57 gegenüber Mischköstlern; mit Supplementen alle Biomarker besser.",
+     "v": "naehrstoffe"
+    },
+    {
+     "n": "Eisenspeicher (Ferritin)",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "schaden",
+     "k": 24,
+     "p": null,
+     "s": [
+      "haider2018",
+      "neufingerl2021"
+     ],
+     "t": "−29,71 µg/l (24 Studien), bei Männern −61,88 µg/l, bei Frauen −13,50 µg/l; als klein bis mittel eingestuft, da niedrigere Werte nicht immer Mangel bedeuten.",
+     "v": "naehrstoffe"
+    },
+    {
+     "n": "Zinkstatus",
+     "g": "B",
+     "d": "ab",
+     "m": 1,
+     "b": "schaden",
+     "k": 26,
+     "p": null,
+     "s": [
+      "foster2013",
+      "neufingerl2021"
+     ],
+     "t": "Serumzink −0,93 µmol/l, Zufuhr −0,88 mg/Tag (26 Studien); kleiner Unterschied, stärker bei Veganern und Frauen.",
+     "v": "naehrstoffe"
+    },
+    {
+     "n": "Calciumzufuhr (vegan)",
+     "g": "B",
+     "d": "ab",
+     "m": 3,
+     "b": "schaden",
+     "k": 23,
+     "p": null,
+     "s": [
+      "bickelmann2023",
+      "bakaloudi2021"
+     ],
+     "t": "SMD −0,70 gegenüber Mischköstlern (23 Studien an Veganern); Vegetarier ohne Unterschied.",
+     "v": "naehrstoffe"
+    },
+    {
+     "n": "Kreatinspeicher mit Supplement",
+     "g": "C",
+     "d": "auf",
+     "m": -1,
+     "b": "nutzen",
+     "k": 9,
+     "p": null,
+     "s": [
+      "kaviani2020"
+     ],
+     "t": "Muskelkreatin und Phosphokreatin stiegen, oft über das Niveau von Mischköstlern; Größe nicht gepoolt.",
+     "v": "kreatin"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Knochen",
+   "kat": "knochen",
+   "items": [
+    {
+     "n": "Knochendichte",
+     "g": "A",
+     "d": "ab",
+     "m": 1,
+     "b": "schaden",
+     "k": 20,
+     "p": 37134,
+     "s": [
+      "iguacel2019",
+      "hopham2009"
+     ],
+     "t": "Etwa 4 % niedriger bei Vegetariern, 6 % bei Veganern (Lendenwirbelsäule); einheitlich in zwei Analysen.",
+     "v": "knochen"
+    },
+    {
+     "n": "Hüftfrakturen",
+     "g": "C",
+     "d": "auf",
+     "m": 3,
+     "b": "schaden",
+     "k": 4,
+     "p": 529672,
+     "s": [
+      "ballarin2026",
+      "selinger2023",
+      "iguacel2019"
+     ],
+     "t": "Vegetarier HR 1,25, Veganer HR 1,75; geringe bis sehr geringe Vertrauenswürdigkeit, wenige Kohorten.",
+     "v": "knochen"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Herz-Kreislauf und Sterblichkeit",
+   "kat": "herz",
+   "items": [
+    {
+     "n": "Koronare Herzkrankheit",
+     "g": "A",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 13,
+     "p": 844175,
+     "s": [
+      "dybvik2023",
+      "dinu2017"
+     ],
+     "t": "RR 0,79 [0,71; 0,88] (13 Kohorten) bzw. 0,75 [0,68; 0,82]; Beobachtungsdaten, Lebensstil als Störfaktor möglich.",
+     "v": "gesundheit"
+    },
+    {
+     "n": "Gesamtsterblichkeit",
+     "g": "C",
+     "d": null,
+     "m": 0,
+     "b": "neutral",
+     "k": 10,
+     "p": null,
+     "s": [
+      "dinu2017",
+      "kwok2014",
+      "selinger2023"
+     ],
+     "t": "Nicht sicher gesenkt (vegan SRR 0,87 [0,75; 1,01]); außerhalb von Adventisten-Kohorten RR 1,04 [0,98; 1,10].",
+     "v": "gesundheit"
+    },
+    {
+     "n": "Sterblichkeit bei ungesunder Pflanzenkost",
+     "g": "B",
+     "d": "auf",
+     "m": 2,
+     "b": "schaden",
+     "k": 19,
+     "p": null,
+     "s": [
+      "etesami2025"
+     ],
+     "t": "RR 1,20 [1,13; 1,27] (19 Studien); gesunde Pflanzenkost dagegen RR 0,86.",
+     "v": "gesundheit"
+    }
+   ]
+  },
+  {
+   "bereich": "Gesundheit",
+   "ziel": "Krebs",
+   "kat": "sicherheit",
+   "items": [
+    {
+     "n": "Krebsrisiko gesamt",
+     "g": "B",
+     "d": "ab",
+     "m": 2,
+     "b": "nutzen",
+     "k": 4,
+     "p": null,
+     "s": [
+      "aune2026",
+      "dinu2017",
+      "selinger2023"
+     ],
+     "t": "Vegetarier RR 0,87 [0,84; 0,91], Veganer RR 0,77 [0,70; 0,85]; der BMI erklärte einen Teil.",
+     "v": "gesundheit"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "damasceno2024": {
+   "short": "Damasceno et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37869973",
+   "apa": "Damasceno, Y. O., Leitão, C. V. F. S., de Oliveira, G. M., Andrade, F. A. B., Pereira, A. B., Viza, R. S., Correia, R. C., Campos, H. O., Drummond, L. R., Leite, L. H. R. &amp; Coimbra, C. C. (2024). Plant-based diets benefit aerobic performance and do not compromise strength/power performance: A systematic review and meta-analysis. <em>British Journal of Nutrition, 131</em>(5), 829–840.",
+   "doi": "10.1017/S0007114523002258"
+  },
+  "hernandez2023": {
+   "short": "Hernández-Lougedo et al., 2023",
+   "year": 2023,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "37960356",
+   "apa": "Hernández-Lougedo, J., Maté-Muñoz, J. L., García-Fernández, P., Úbeda-D'Ocasar, E., Hervás-Pérez, J. P. &amp; Pedauyé-Rueda, B. (2023). The relationship between vegetarian diet and sports performance: A systematic review. <em>Nutrients, 15</em>(21), Artikel 4703.",
+   "doi": "10.3390/nu15214703"
+  },
+  "messina2018": {
+   "short": "Messina et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "29722584",
+   "apa": "Messina, M., Lynch, H., Dickinson, J. M. &amp; Reed, K. E. (2018). No difference between the effects of supplementing with soy protein versus animal protein on gains in muscle mass and strength in response to resistance exercise. <em>International Journal of Sport Nutrition and Exercise Metabolism, 28</em>(6), 674–685.",
+   "doi": "10.1123/ijsnem.2018-0071"
+  },
+  "reidmccann2025": {
+   "short": "Reid-McCann et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39813010",
+   "apa": "Reid-McCann, R. J., Brennan, S. F., Ward, N. A., Logan, D., McKinley, M. C. &amp; McEvoy, C. T. (2025). Effect of plant versus animal protein on muscle mass, strength, physical performance, and sarcopenia: A systematic review and meta-analysis of randomized controlled trials. <em>Nutrition Reviews, 83</em>(7), e1581–e1603.",
+   "doi": "10.1093/nutrit/nuae200"
+  },
+  "mendes2026": {
+   "short": "Mendes et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "42055214",
+   "apa": "Mendes, B. R., Correia, J. M., Dos Santos, I. R., Schoenfeld, B. J., Swinton, P. A. &amp; de Mendonca, G. V. (2026). Effects of plant- vs animal-based proteins on muscle protein synthesis: A systematic review with meta-analysis. <em>Journal of the Academy of Nutrition and Dietetics, 126</em>(9), Artikel 156365.",
+   "doi": "10.1016/j.jand.2026.156365"
+  },
+  "govindasamy2025": {
+   "short": "Govindasamy et al., 2025",
+   "year": 2025,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "40806155",
+   "apa": "Govindasamy, K., Parpa, K., Katanic, B., Clark, C. C. T., Elayaraja, M., Kambitta Valappil, I. N., Dulceanu, C., Geantă, V. A., Tolan, G. A. &amp; Zouhal, H. (2025). Effect of plant-based proteins on recovery from resistance exercise-induced muscle damage in healthy young adults – A systematic review. <em>Nutrients, 17</em>(15), Artikel 2571.",
+   "doi": "10.3390/nu17152571"
+  },
+  "kaviani2020": {
+   "short": "Kaviani et al., 2020",
+   "year": 2020,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "32349356",
+   "apa": "Kaviani, M., Shaw, K. &amp; Chilibeck, P. D. (2020). Benefits of creatine supplementation for vegetarians compared to omnivorous athletes: A systematic review. <em>International Journal of Environmental Research and Public Health, 17</em>(9), Artikel 3041.",
+   "doi": "10.3390/ijerph17093041"
+  },
+  "niklewicz2024": {
+   "short": "Niklewicz et al., 2024",
+   "year": 2024,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "39373282",
+   "apa": "Niklewicz, A., Hannibal, L., Warren, M. &amp; Ahmadi, K. R. (2024). A systematic review and meta-analysis of functional vitamin B12 status among adult vegans. <em>Nutrition Bulletin, 49</em>(4), 463–479.",
+   "doi": "10.1111/nbu.12712"
+  },
+  "haider2018": {
+   "short": "Haider et al., 2018",
+   "year": 2018,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "27880062",
+   "apa": "Haider, L. M., Schwingshackl, L., Hoffmann, G. &amp; Ekmekcioglu, C. (2018). The effect of vegetarian diets on iron status in adults: A systematic review and meta-analysis. <em>Critical Reviews in Food Science and Nutrition, 58</em>(8), 1359–1374.",
+   "doi": "10.1080/10408398.2016.1259210"
+  },
+  "foster2013": {
+   "short": "Foster et al., 2013",
+   "year": 2013,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "23595983",
+   "apa": "Foster, M., Chu, A., Petocz, P. &amp; Samman, S. (2013). Effect of vegetarian diets on zinc status: A systematic review and meta-analysis of studies in humans. <em>Journal of the Science of Food and Agriculture, 93</em>(10), 2362–2371.",
+   "doi": "10.1002/jsfa.6179"
+  },
+  "bickelmann2023": {
+   "short": "Bickelmann et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "38054787",
+   "apa": "Bickelmann, F. V., Leitzmann, M. F., Keller, M., Baurecht, H. &amp; Jochem, C. (2023). Calcium intake in vegan and vegetarian diets: A systematic review and meta-analysis. <em>Critical Reviews in Food Science and Nutrition, 63</em>(31), 10659–10677.",
+   "doi": "10.1080/10408398.2022.2084027",
+   "flag": "Das Konfidenzintervall für Veganer gegenüber Mischköstlern ist im Abstract als −0,95 bis −0,59 um SMD −0,70 angegeben und damit asymmetrisch; Wert unverändert übernommen."
+  },
+  "neufingerl2021": {
+   "short": "Neufingerl & Eilander, 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "35010904",
+   "apa": "Neufingerl, N. &amp; Eilander, A. (2021). Nutrient intake and status in adults consuming plant-based diets compared to meat-eaters: A systematic review. <em>Nutrients, 14</em>(1), Artikel 29.",
+   "doi": "10.3390/nu14010029",
+   "flag": "Beide Autorinnen sind bei Unilever angestellt, einem Hersteller angereicherter Lebensmittel und Nahrungsergänzungen."
+  },
+  "bakaloudi2021": {
+   "short": "Bakaloudi et al., 2021",
+   "year": 2021,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "33341313",
+   "apa": "Bakaloudi, D. R., Halloran, A., Rippin, H. L., Oikonomidou, A. C., Dardavesis, T. I., Williams, J., Wickramasinghe, K., Breda, J. &amp; Chourdakis, M. (2021). Intake and adequacy of the vegan diet. A systematic review of the evidence. <em>Clinical Nutrition, 40</em>(5), 3503–3521.",
+   "doi": "10.1016/j.clnu.2020.11.035"
+  },
+  "craddock2017": {
+   "short": "Craddock et al., 2017",
+   "year": 2017,
+   "type": "Systematischer Review",
+   "basis": "Abstract",
+   "pmid": "28417511",
+   "apa": "Craddock, J. C., Neale, E. P., Probst, Y. C. &amp; Peoples, G. E. (2017). Algal supplementation of vegetarian eating patterns improves plasma and serum docosahexaenoic acid concentrations and omega-3 indices: A systematic literature review. <em>Journal of Human Nutrition and Dietetics, 30</em>(6), 693–699.",
+   "doi": "10.1111/jhn.12474"
+  },
+  "agnoli2017": {
+   "short": "Agnoli et al., 2017",
+   "year": 2017,
+   "type": "Positionspapier (SINU)",
+   "basis": "Abstract",
+   "pmid": "29174030",
+   "apa": "Agnoli, C., Baroni, L., Bertini, I., Ciappellano, S., Fabbri, A., Papa, M., Pellegrini, N., Sbarbati, R., Scarino, M. L., Siani, V. &amp; Sieri, S. (2017). Position paper on vegetarian diets from the working group of the Italian Society of Human Nutrition. <em>Nutrition, Metabolism and Cardiovascular Diseases, 27</em>(12), 1037–1052.",
+   "doi": "10.1016/j.numecd.2017.10.020"
+  },
+  "hopham2009": {
+   "short": "Ho-Pham et al., 2009",
+   "year": 2009,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "19571226",
+   "apa": "Ho-Pham, L. T., Nguyen, N. D. &amp; Nguyen, T. V. (2009). Effect of vegetarian diets on bone mineral density: A Bayesian meta-analysis. <em>The American Journal of Clinical Nutrition, 90</em>(4), 943–950.",
+   "doi": "10.3945/ajcn.2009.27521"
+  },
+  "iguacel2019": {
+   "short": "Iguacel et al., 2019",
+   "year": 2019,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "30376075",
+   "apa": "Iguacel, I., Miguel-Berges, M. L., Gómez-Bruton, A., Moreno, L. A. &amp; Julián, C. (2019). Veganism, vegetarianism, bone mineral density, and fracture risk: A systematic review and meta-analysis. <em>Nutrition Reviews, 77</em>(1), 1–18.",
+   "doi": "10.1093/nutrit/nuy045"
+  },
+  "ballarin2026": {
+   "short": "Ballarin et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41275510",
+   "apa": "Ballarin, R. S., Lazzarin, T., Minicucci, M. F., Azevedo, P. S., Dos Santos Nunes Nogueira, V., Schoberer, D., Hoedl, M. &amp; Eglseer, D. (2026). Vegetarian and vegan diets and the risk of hip fracture in adults: A systematic review and meta-analysis. <em>Nutrition Reviews, 84</em>(11), 2232–2239.",
+   "doi": "10.1093/nutrit/nuaf241"
+  },
+  "selinger2023": {
+   "short": "Selinger et al., 2023",
+   "year": 2023,
+   "type": "Umbrella Review",
+   "basis": "Abstract",
+   "pmid": "37962057",
+   "apa": "Selinger, E., Neuenschwander, M., Koller, A., Gojda, J., Kühn, T., Schwingshackl, L., Barbaresko, J. &amp; Schlesinger, S. (2023). Evidence of a vegan diet for health benefits and risks - an umbrella review of meta-analyses of observational and clinical studies. <em>Critical Reviews in Food Science and Nutrition, 63</em>(29), 9926–9936.",
+   "doi": "10.1080/10408398.2022.2075311"
+  },
+  "dinu2017": {
+   "short": "Dinu et al., 2017",
+   "year": 2017,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "26853923",
+   "apa": "Dinu, M., Abbate, R., Gensini, G. F., Casini, A. &amp; Sofi, F. (2017). Vegetarian, vegan diets and multiple health outcomes: A systematic review with meta-analysis of observational studies. <em>Critical Reviews in Food Science and Nutrition, 57</em>(17), 3640–3649.",
+   "doi": "10.1080/10408398.2016.1138447"
+  },
+  "kwok2014": {
+   "short": "Kwok et al., 2014",
+   "year": 2014,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "25149402",
+   "apa": "Kwok, C. S., Umar, S., Myint, P. K., Mamas, M. A. &amp; Loke, Y. K. (2014). Vegetarian diet, Seventh Day Adventists and risk of cardiovascular mortality: A systematic review and meta-analysis. <em>International Journal of Cardiology, 176</em>(3), 680–686.",
+   "doi": "10.1016/j.ijcard.2014.07.080"
+  },
+  "dybvik2023": {
+   "short": "Dybvik et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "36030329",
+   "apa": "Dybvik, J. S., Svendsen, M. &amp; Aune, D. (2023). Vegetarian and vegan diets and the risk of cardiovascular disease, ischemic heart disease and stroke: A systematic review and meta-analysis of prospective cohort studies. <em>European Journal of Nutrition, 62</em>(1), 51–69.",
+   "doi": "10.1007/s00394-022-02942-8"
+  },
+  "koch2023": {
+   "short": "Koch et al., 2023",
+   "year": 2023,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "37226630",
+   "apa": "Koch, C. A., Kjeldsen, E. W. &amp; Frikke-Schmidt, R. (2023). Vegetarian or vegan diets and blood lipids: A meta-analysis of randomized trials. <em>European Heart Journal, 44</em>(28), 2609–2622.",
+   "doi": "10.1093/eurheartj/ehad211"
+  },
+  "etesami2025": {
+   "short": "Etesami et al., 2025",
+   "year": 2025,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "40018753",
+   "apa": "Etesami, E., Nikparast, A., Rahmani, J., Rezaei, M. &amp; Ghanavati, M. (2025). The association between overall, healthy, and unhealthy plant-based diet indexes and risk of all-cause and cause-specific mortality: A systematic review and dose-response meta-analysis of prospective cohort studies. <em>Food &amp; Function, 16</em>(6), 2194–2212.",
+   "doi": "10.1039/d4fo04741a"
+  },
+  "aune2026": {
+   "short": "Aune et al., 2026",
+   "year": 2026,
+   "type": "Metaanalyse",
+   "basis": "Abstract",
+   "pmid": "41879966",
+   "apa": "Aune, D., Schlesinger, S. &amp; Sobiecki, J. G. (2026). Vegetarian and vegan diets and cancer incidence: A systematic review and meta-analysis of prospective studies. <em>European Journal of Epidemiology, 41</em>(5), 531–545.",
+   "doi": "10.1007/s10654-026-01380-8"
+  }
+ }
+}

@@ -73,6 +73,10 @@ Zusätzlich: Startseite (`#start`) und „Mein Ziel“ (`#ziel`). Neue Themen in
 
 Ein neues Thema kommt in die passende bestehende Gruppe; eine neue Gruppe nur, wenn mindestens drei Themen hineinpassen. Supplemente zusätzlich in `SUPPS` eintragen. Der Titel in `NAV` soll dem Feld `title` der Themendatei entsprechen (bestimmt die Sortierung der Supplement-Übersicht). Der Haftungsausschluss (`DISCLAIMER`) steht auf der Supplement-Übersicht, im Rechner und unter `#hinweis`.
 
+## Mythen-Check und Verlaufsdiagramme
+- `data/mythen.json`: Behauptung (`m`), Urteil (`v`: falsch, stark übertrieben, nicht belegt, teilweise, stimmt), Erklärung (`t`), Thema (`topic`), Quellenschlüssel dieses Themas (`s`), Evidenz (`ev`). Ändert sich die Einschätzung eines Themas, den passenden Mythos mit anpassen.
+- Feld `trend` im Thema: Schätzer derselben Zielgröße und desselben Maßes über die Jahre (`data`: y, es, lo?, hi?, l, s). Nur aufnehmen, wenn die Werte wirklich vergleichbar sind; Abweichungen (anderes Maß, andere Population) in `cap` benennen. Neue Metaanalysen zur selben Zielgröße als Punkt ergänzen.
+
 ## Rückzüge und Korrekturen
 `tools/rueckzug.py` (läuft mit jeder PubMed-Abfrage) prüft alle zitierten PMIDs und schreibt Treffer nach `data/kandidaten/_rueckzuege.json`. Jeder Treffer mit „Retracted Publication“ wird so behandelt:
 - Befunde, Wirkungsübersicht und Kurzfazit: Quelle entfernen; stützt sie einen Befund allein, den Befund entfernen.

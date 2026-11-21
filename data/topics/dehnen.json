@@ -1150,5 +1150,52 @@
    "apa": "Afonso, J., Andrade, R., Rocha-Rodrigues, S., Nakamura, F. Y., Sarmento, H., Freitas, S. R., Silva, A. F., Laporta, L., Abarghoueinejad, M., Akyildiz, Z., Chen, R., Pizarro, A., Ramirez-Campillo, R. &amp; Clemente, F. M. (2024). What we do not know about stretching in healthy athletes: A scoping review with evidence gap map from 300 trials. <em>Sports Medicine, 54</em>(6), 1517–1551.",
    "doi": "10.1007/s40279-024-02002-7"
   }
- }
+ },
+ "trend": [
+  {
+   "id": "deh-trend",
+   "title": "Dehnen und Verletzungsrisiko: Einschätzung im Zeitverlauf",
+   "cap": "Über zwölf Jahre fanden alle drei Analysen keinen Schutz durch Dehnen. Die Maße unterscheiden sich (2002 Hazard Ratio, 2004 Odds Ratio, 2014 relatives Risiko), zeigen aber übereinstimmend Werte nahe 1.",
+   "opts": {
+    "min": 0.7,
+    "max": 1.2,
+    "ticks": [
+     0.7,
+     0.8,
+     0.9,
+     1,
+     1.1,
+     1.2
+    ],
+    "ref": 1,
+    "ylab": "Risikomaß (HR, OR bzw. RR)"
+   },
+   "data": [
+    {
+     "y": 2002,
+     "es": 0.95,
+     "lo": 0.78,
+     "hi": 1.16,
+     "l": "Rekruten",
+     "s": "herbert2002"
+    },
+    {
+     "y": 2004,
+     "es": 0.93,
+     "lo": 0.78,
+     "hi": 1.11,
+     "l": "Verletzungen gesamt",
+     "s": "thacker2004"
+    },
+    {
+     "y": 2014,
+     "es": 0.963,
+     "lo": 0.846,
+     "hi": 1.095,
+     "l": "Sportverletzungen",
+     "s": "lauersen2014"
+    }
+   ]
+  }
+ ]
 }

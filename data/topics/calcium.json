@@ -1204,5 +1204,111 @@
    "apa": "Massé, O., Mercurio, C. M., Dupuis, S., Al Sahwi, M., Arruda, A., Dallaire, G., Desforges, K., Dugré, N. &amp; Williamson, D. (2026). Calcium, vitamin D, or combined supplementation to prevent fractures and falls: Systematic review and meta-analysis. <em>BMJ, 393</em>, Artikel e088050.",
    "doi": "10.1136/bmj-2025-088050"
   }
- }
+ },
+ "trend": [
+  {
+   "id": "ca-trend-mi",
+   "title": "Calcium-Supplemente und Herzinfarkt: Einschätzung im Zeitverlauf",
+   "cap": "Frühe Analysen fanden ein erhöhtes Herzinfarktrisiko unter Calcium-Supplementen; in der neuesten Analyse ist der Schätzer kleiner und nicht mehr signifikant. Über 1 = höheres Risiko.",
+   "opts": {
+    "min": 0.8,
+    "max": 1.7,
+    "ticks": [
+     0.8,
+     1,
+     1.2,
+     1.4,
+     1.6
+    ],
+    "ref": 1,
+    "ylab": "Relatives Risiko"
+   },
+   "data": [
+    {
+     "y": 2010,
+     "es": 1.27,
+     "lo": 1.01,
+     "hi": 1.59,
+     "l": "Calcium allein",
+     "s": "bolland2010"
+    },
+    {
+     "y": 2011,
+     "es": 1.24,
+     "lo": 1.07,
+     "hi": 1.45,
+     "l": "Calcium ± Vitamin D",
+     "s": "bolland2011"
+    },
+    {
+     "y": 2023,
+     "es": 1.15,
+     "lo": 0.88,
+     "hi": 1.51,
+     "l": "Calcium allein",
+     "s": "huo2023"
+    }
+   ]
+  },
+  {
+   "id": "ca-trend-fx",
+   "title": "Calcium und Knochenbrüche insgesamt: Einschätzung im Zeitverlauf",
+   "cap": "Seit 2007 finden die Metaanalysen übereinstimmend eine kleine Senkung des Bruchrisikos um etwa 6 bis 15 %. Die Populationen und Kombinationen unterscheiden sich leicht.",
+   "opts": {
+    "min": 0.7,
+    "max": 1.1,
+    "ticks": [
+     0.7,
+     0.8,
+     0.9,
+     1,
+     1.1
+    ],
+    "ref": 1,
+    "ylab": "Relatives Risiko"
+   },
+   "data": [
+    {
+     "y": 2007,
+     "es": 0.88,
+     "lo": 0.83,
+     "hi": 0.95,
+     "l": "Calcium ± Vitamin D, ab 50 Jahren",
+     "s": "tang2007"
+    },
+    {
+     "y": 2015,
+     "es": 0.89,
+     "lo": 0.81,
+     "hi": 0.96,
+     "l": "Calcium-Supplemente",
+     "s": "bolland2015"
+    },
+    {
+     "y": 2016,
+     "es": 0.85,
+     "lo": 0.73,
+     "hi": 0.98,
+     "l": "Calcium plus Vitamin D",
+     "s": "weaver2016"
+    },
+    {
+     "y": 2019,
+     "es": 0.94,
+     "lo": 0.89,
+     "hi": 0.99,
+     "l": "Calcium plus Vitamin D täglich",
+     "s": "yao2019"
+    },
+    {
+     "y": 2026,
+     "es": 0.91,
+     "lo": 0.84,
+     "hi": 0.99,
+     "l": "Calcium plus Vitamin D",
+     "s": "masse2026"
+    }
+   ]
+  }
+ ]
 }
