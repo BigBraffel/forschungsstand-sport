@@ -2,7 +2,7 @@
 
 Eine sich selbst aktualisierende Website, die den Forschungsstand zu Trainings- und Ernährungswissenschaft auf Deutsch zusammenfasst. Sie stützt sich ausschließlich auf wissenschaftliche Quellen, bewertet sie kritisch und zitiert sie nach APA 7 (deutsche Fassung).
 
-**Themen:** Maximalkraft · Hypertrophie · Ausdauer (5-Zonen-Modell) · Regeneration · Protein · Kreatin · Omega-3 · Zink · Magnesium · Vitamin D/K2
+**Themen:** Training (u. a. Maximalkraft, Hypertrophie, Ausdauer, Regeneration, Schlaf, Verletzungsprävention), Ernährung (Makronährstoffe, Energiebilanz, Flüssigkeit, Timing) und über 20 Supplemente. Jedes Thema ist eine Datei in `data/topics/`; welche davon sichtbar sind, steht in `index.html` unter `NAV` und `AVAILABLE`.
 
 ## Aufbau
 
@@ -14,7 +14,7 @@ Eine sich selbst aktualisierende Website, die den Forschungsstand zu Trainings- 
 | `data/kandidaten/<thema>.json` | Von der automatischen Abfrage gefundene neue oder geänderte Arbeiten, die inhaltlich bewertet werden müssen. `"bearbeitet": true`, sobald ausgewertet. |
 | `tools/pubmed_update.py` | PubMed-Abgleich (`scan`, `set`, `init`). |
 | `tools/scan_all.py` | Fragt alle Themen ab und legt die Kandidaten ab. |
-| `tools/pruefen.py` | Formale Prüfung der Daten (JSON, Quellenschlüssel, Abbildungen). |
+| `tools/pruefen.py` | Formale Prüfung der Daten (JSON, Quellenschlüssel, Abbildungen, Wirkungsübersicht). |
 | `docs/AUSWERTUNG.md` | Verbindliche Regeln für die inhaltliche Auswertung. |
 
 ## Automatischer Ablauf (alle 2 Wochen freitags, ab 20.11.2026)

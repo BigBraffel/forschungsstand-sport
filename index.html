@@ -22,7 +22,6 @@
   --accent-soft: #e3edfa;
   --series-1: #2a78d6;
   --e1: #1e8e4f; --e1-ink: #ffffff; --e2: #a6dbb0; --e2-ink: #10301a; --e0: #d5d9df; --e0-ink: #2b3340; --em: #eadfb8; --em-ink: #3a3214; --e3: #f3bcb9; --e3-ink: #4a1414; --e4: #d64541; --e4-ink: #ffffff;
-  --gA: #1f9d55; --gA-ink: #ffffff; --gB: #7cc04f; --gB-ink: #10200a; --gC: #f0c93a; --gC-ink: #2a2005; --gD: #d64541; --gD-ink: #ffffff; --g0: #c9ced6; --g0-ink: #2b3340;
   --good: #0a7d0a;
   --good-bg: #e2f3e2;
   --warn: #8a5a00;
@@ -47,7 +46,6 @@
     --accent-soft: #1f2f45;
     --series-1: #3987e5;
     --e1: #3fbf72; --e1-ink: #0b1a11; --e2: #8fc79c; --e2-ink: #0e2014; --e0: #4b5462; --e0-ink: #eef0f3; --em: #8a7d45; --em-ink: #fbf5df; --e3: #d99a96; --e3-ink: #2a0d0d; --e4: #e5534b; --e4-ink: #ffffff;
-    --gA: #3fbf72; --gA-ink: #0b1a11; --gB: #9ad46a; --gB-ink: #142010; --gC: #e6c547; --gC-ink: #221c05; --gD: #e5534b; --gD-ink: #ffffff; --g0: #5b6573; --g0-ink: #e6e9ee;
     --good: #5fcf5f;
     --good-bg: #17301a;
     --warn: #f2c25a;
@@ -59,7 +57,6 @@
 :root[data-theme="dark"] {
   color-scheme: dark;
   --e1: #3fbf72; --e1-ink: #0b1a11; --e2: #8fc79c; --e2-ink: #0e2014; --e0: #4b5462; --e0-ink: #eef0f3; --em: #8a7d45; --em-ink: #fbf5df; --e3: #d99a96; --e3-ink: #2a0d0d; --e4: #e5534b; --e4-ink: #ffffff;
-  --gA: #3fbf72; --gA-ink: #0b1a11; --gB: #9ad46a; --gB-ink: #142010; --gC: #e6c547; --gC-ink: #221c05; --gD: #e5534b; --gD-ink: #ffffff; --g0: #5b6573; --g0-ink: #e6e9ee;
   --bg: #12151a;
   --surface: #1a1e25;
   --surface-2: #232934;
@@ -280,19 +277,9 @@ html { scroll-behavior: smooth; }
 .mx-row > summary:focus-visible, .mx-grp > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .mx-name { padding-left: 18px; color: var(--accent); font-weight: 500; }
 .mx-sup { display: block; font-size: .74rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: var(--ink-3); }
-.grade { justify-self: center; display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 8px; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; }
-.grade.small { width: 24px; height: 24px; border-radius: 6px; font-size: .82rem; }
-.g-A { background: var(--gA); color: var(--gA-ink); }
-.g-B { background: var(--gB); color: var(--gB-ink); }
-.g-C { background: var(--gC); color: var(--gC-ink); }
-.g-D { background: var(--gD); color: var(--gD-ink); }
-.g-0 { background: var(--g0); color: var(--g0-ink); }
 .mx-eff { display: flex; align-items: center; gap: 10px; font-size: .88rem; color: var(--ink); }
-.mx-eff svg { flex: none; }
-.eff-nutzen svg { color: var(--good); }
-.eff-schaden svg { color: var(--crit); }
-.eff-neutral svg { color: var(--ink-2); }
-.mx-warn { font-style: normal; font-size: .72rem; font-weight: 600; color: var(--crit); background: var(--crit-bg); border-radius: 99px; padding: 0 7px; white-space: nowrap; }
+.mx-eff svg { flex: none; color: var(--ink-2); }
+.mx-warn { font-style: normal; font-size: .72rem; font-weight: 600; color: var(--e4); box-shadow: inset 0 0 0 1px var(--e4); border-radius: 99px; padding: 0 7px; white-space: nowrap; }
 .mx-evi { font-size: .84rem; color: var(--ink-2); display: flex; flex-direction: column; gap: 3px; }
 .mx-evi span { display: inline-flex; align-items: center; gap: 6px; }
 .mx-evi svg { color: var(--ink-3); flex: none; }
@@ -314,7 +301,7 @@ html { scroll-behavior: smooth; }
 .sup-card h3 { margin: 0; font-size: 1.25rem; }
 .sup-card .meta { font-size: .82rem; color: var(--ink-3); }
 .sup-card ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
-.sup-card li { display: grid; grid-template-columns: 24px 1fr; gap: 10px; align-items: start; font-size: .9rem; }
+.sup-card li { display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: start; font-size: .9rem; }
 .sup-card li small { display: block; color: var(--ink-3); font-size: .8rem; }
 .sup-card h4 { margin: 4px 0 0; font-size: .74rem; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); }
 .sup-card .go { margin-top: auto; align-self: flex-start; font-weight: 600; font-size: .9rem; }
@@ -337,18 +324,6 @@ ol.findings li::before { content: counter(f); display: inline-grid; place-items:
 ol.findings li.lv0::before, ol.findings li.lv1::before { background: var(--accent); color: var(--surface); }
 ol.findings .lvl { font-size: .72rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: var(--ink-3); }
 
-.ev { display: inline-flex; flex-direction: column; gap: 4px; font-size: .8rem; color: var(--ink-2); line-height: 1.1; }
-.ev .dots { display: inline-flex; gap: 4px; }
-.ev .dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--line); display: block; }
-.ev .dots i.on { background: var(--accent); }
-.ev.ev-0 .dots i { background: transparent; box-shadow: inset 0 0 0 1.5px var(--ink-3); }
-.ev.small { flex-direction: row; align-items: center; gap: 0; }
-.ev.small .dots i { width: 8px; height: 8px; }
-.sup-card li .ev.small { padding-top: 6px; }
-.eff-nutzen svg, .eff-neutral svg { color: var(--accent); }
-.eff-schaden svg { color: var(--warn); }
-.mx-warn { color: var(--warn) !important; background: var(--warn-bg) !important; }
-.sup-card li { grid-template-columns: 44px 1fr !important; }
 
 .lt { justify-self: start; display: inline-flex; align-items: center; gap: 8px; font-size: .8rem; color: var(--ink-2); }
 .lt b { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 8px; font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; }
@@ -357,11 +332,8 @@ ol.findings .lvl { font-size: .72rem; font-weight: 600; letter-spacing: .03em; t
 .e1 b { background: var(--e1); color: var(--e1-ink); } .e2 b { background: var(--e2); color: var(--e2-ink); }
 .e0 b { background: var(--e0); color: var(--e0-ink); } .em b { background: var(--em); color: var(--em-ink); }
 .e3 b { background: var(--e3); color: var(--e3-ink); } .e4 b { background: var(--e4); color: var(--e4-ink); }
-.eff-nutzen svg, .eff-neutral svg, .eff-schaden svg { color: var(--ink-2) !important; }
-.mx-warn { color: var(--e4) !important; background: transparent !important; box-shadow: inset 0 0 0 1px var(--e4); }
 .scale { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
 .scale span { padding: 4px 10px; border-radius: 6px; font-size: .8rem; font-weight: 600; }
-.sup-card li { grid-template-columns: 30px 1fr !important; }
 
 /* ----- Werkzeuge: Suche, Neu, Rechner, Glossar ----- */
 .side-search input { width: 100%; box-sizing: border-box; font: inherit; font-size: .9rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
@@ -682,15 +654,6 @@ function renderTopic(t) {
 }
 
 /* ----- Wirkungsübersicht ----- */
-const GRADE = {
-  A: "Stark belegt: mehrere übereinstimmende Metaanalysen oder eine große Metaanalyse (mind. 20 Studien bzw. 1000 Teilnehmende) mit eindeutigem Ergebnis.",
-  B: "Gut belegt: mindestens eine Metaanalyse mit 8 oder mehr Studien, Ergebnisse überwiegend übereinstimmend.",
-  C: "Begrenzt belegt: wenige Studien, widersprüchliche Metaanalysen, hohe Heterogenität oder nur eingeschränkt übertragbare Population.",
-  D: "Schwach belegt: sehr wenige oder kleine Studien, überwiegend indirekte Hinweise (z. B. Tierstudien).",
-  "0": "Keine Daten: Zu dieser Wirkung wurde keine Metaanalyse oder systematische Übersicht gefunden." };
-const gLabel = (g) => g === "0" ? "–" : g;
-const EV_N = { A: 4, B: 3, C: 2, D: 1, "0": 0 };
-const EV_WORD = { A: "Stark", B: "Gut", C: "Begrenzt", D: "Schwach", "0": "Keine Daten" };
 const LT_TEXT = { A: "Mehrere Metaanalysen oder Umbrella Review", B: "Eine Metaanalyse", C: "Systematische Reviews oder Positionspapiere, keine Metaanalyse", D: "Nur Einzelstudien oder narrative Übersichten", "–": "Keine Daten: keine Übersichtsarbeit gefunden" };
 function evLetter(it, sources) {
   if (it.g === "0" || !it.s || !it.s.length) return "–";
@@ -714,10 +677,6 @@ function ltHTML(it, sources, small) {
   const L = evLetter(it, sources), c = effClass(it);
   const tip = `${L === "–" ? LT_TEXT["–"] : "Evidenz " + L + ": " + LT_TEXT[L]} · Farbe: ${it.b === "neutral" && c === "e0" && it.m ? "weder Nutzen noch Nachteil" : EFF_TEXT[c]}`;
   return `<span class="lt ${c}${small ? " small" : ""}" title="${esc(tip)}" aria-label="${esc(tip)}"><b>${L}</b></span>`;
-}
-function evHTML(g, small) {
-  const n = EV_N[g] ?? 0;
-  return `<span class="ev ev-${g}${small ? " small" : ""}" title="${esc(GRADE[g])}" aria-label="Beleglage: ${EV_WORD[g]}"><span class="dots">${[1, 2, 3, 4].map(i => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>${small ? "" : `<span>${EV_WORD[g]}</span>`}</span>`;
 }
 const AREAS = [["alle", "Alle"], ["Leistung", "Leistung"], ["Regeneration", "Regeneration"], ["Gesundheit", "Gesundheit"]];
 const KAT = [["kraft", "Kraft und Muskelfunktion"], ["masse", "Muskelmasse und Körperbau"], ["ausdauer", "Schnellkraft und Ausdauer"], ["regeneration", "Erholung und Regeneration"],
@@ -754,7 +713,7 @@ function mxRow(it, opt) {
   return `<details class="mx-row"><summary>
       <span class="mx-name">${opt.prefix ? `<span class="mx-sup">${opt.prefix}</span>` : ""}${it.n}${it.s.length ? oldNote(it.s, it.top ? it.top.sources : T.sources) : ""}</span>
       ${ltHTML(it, it.top ? it.top.sources : T.sources)}
-      <span class="mx-eff eff-${it.b}">${effGlyph(it)}<span>${effLabel(it)}${it.b === "schaden" ? ' <em class="mx-warn">Nachteil</em>' : ""}</span></span>
+      <span class="mx-eff">${effGlyph(it)}<span>${effLabel(it)}${it.b === "schaden" ? ' <em class="mx-warn">Nachteil</em>' : ""}</span></span>
       <span class="mx-evi"><span>${ICON_DOC}${it.k ? `${fmtInt(it.k)} Studien` : "Studienzahl k. A."}</span><span>${ICON_PERS}${it.p ? `${fmtInt(it.p)} Teilnehmende` : "Teilnehmende k. A."}</span></span>
     </summary>
     <div class="mx-detail"><p>${it.t}</p><span class="cite">${cites}</span>${opt.more(it)}</div></details>`;
@@ -774,7 +733,7 @@ function renderMx() {
   $("mx").innerHTML = MX_COLS + (groups.length ? groups.map(g => mxGroup(g.ziel, mxArea === "alle" ? g.bereich : "", g.items, opt)).join("") : `<p class="mx-empty">In diesem Bereich wurden keine Wirkungen untersucht.</p>`);
 }
 function mxLegend() {
-  const ex = (m, d, b) => `<span class="eff-key mx-eff eff-${b}">${effGlyph({ m, d })}<span>${effLabel({ m, d })}</span></span>`;
+  const ex = (m, d, b) => `<span class="eff-key mx-eff">${effGlyph({ m, d })}<span>${effLabel({ m, d })}</span></span>`;
   return `<div class="mx-legend">
     <div><h3>Buchstabe: Welche Evidenz gibt es?</h3><dl>${["A", "B", "C", "D", "–"].map(L => `<dt><span class="lt e0"><b>${L}</b></span></dt><dd>${LT_TEXT[L]}</dd>`).join("")}</dl>
       <p class="cap" style="margin-top:10px">Der Buchstabe ergibt sich automatisch aus den Quellen der jeweiligen Wirkung.</p>
@@ -956,7 +915,6 @@ async function renderNews() {
   const items = [];
   tops.forEach(t => (t.changelog || []).forEach(c => items.push({ t, d: parseDE(c.d), ds: c.d, text: c.t })));
   items.sort((a, b) => b.d - a.d || a.t.title.localeCompare(b.t.title, "de"));
-  const contraYears = new Set(); // Befunde, die frühere widerlegen
   const flag = (x) => /widerleg|widersprech|relativ|abgestuft|heruntergestuft|überholt|korrigiert|zurückgezogen/i.test(x.text);
   const months = [...new Set(items.map(i => `${i.d.getFullYear()}-${String(i.d.getMonth() + 1).padStart(2, "0")}`))];
   $("main").innerHTML = `<section>
