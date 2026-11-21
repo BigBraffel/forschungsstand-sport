@@ -79,8 +79,11 @@ def scan(regf, candf, nv=5):
     Q = reg['meta'].get('query', Q); PROFIL = reg['meta'].get('profil', 'training')
     last = reg['meta']['letzte_abfrage_edat']
     today = datetime.date.today().strftime('%Y/%m/%d')
-    new_ids = [u for u in search('edat', last, today) if u not in r]
-    mod_ids = [u for u in search('mdat', last, today) if u in r]
+    # Neue Arbeiten: nach Eingangsdatum (edat) UND nach Aenderungsdatum (mdat). Frische Arbeiten haben oft noch keine
+    # MeSH-Indexierung und fallen durch Filter wie humans[MeSH Terms]; sobald sie indexiert sind, aendert sich mdat.
+    mdat_ids = search('mdat', last, today)
+    new_ids = [u for u in dict.fromkeys(search('edat', last, today) + mdat_ids) if u not in r]
+    mod_ids = [u for u in mdat_ids if u in r]
     meta = summaries(list(dict.fromkeys(new_ids + mod_ids)))
     cand = dict(abfrage=dict(von=last, bis=today), neu_manuell=[], neu_regel={}, geaendert=[], vormerkungen=[])
     for u in new_ids:
