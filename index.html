@@ -131,7 +131,7 @@ section { display: flex; flex-direction: column; gap: 18px; scroll-margin-top: 1
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; }
 .takeaways { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
 .takeaway { display: flex; flex-direction: column; gap: 8px; }
-.takeaway .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.takeaway .head { display: flex; flex-direction: column-reverse; align-items: flex-start; gap: 6px; }
 .takeaway p { color: var(--ink-2); font-size: .95rem; }
 .cite { font-size: .82rem; color: var(--ink-3); }
 .cite a { color: var(--ink-3); }
@@ -493,7 +493,9 @@ const NAV = [
     { title: "Ernährungspraxis", children: [
       { id: "energiebilanz", title: "Energiebilanz und Abnehmen" },
       { id: "fluessigkeit", title: "Flüssigkeit und Elektrolyte" },
-      { id: "timing", title: "Nährstoff-Timing" } ] } ] },
+      { id: "timing", title: "Nährstoff-Timing" },
+      { id: "vegan", title: "Vegetarisch und vegan" },
+      { id: "alkohol", title: "Alkohol und Training" } ] } ] },
   /* Supplemente: innerhalb jeder Gruppe automatisch alphabetisch (sort: true) */
   { group: "Supplemente", items: [
     { id: "supplemente", title: "Übersicht aller Supplemente" },
@@ -528,7 +530,7 @@ const NAV = [
 /* Werkzeuge: als kompakte Leiste unter der Suche */
 const TOOLS = [{ id: "start", title: "Start" }, { id: "ziel", title: "Mein Ziel" }, { id: "mythen", title: "Mythen-Check" }, { id: "neu", title: "Neu" }, { id: "rechner", title: "Rechner" }, { id: "glossar", title: "Glossar" }];
 NAV.forEach(g => g.items.forEach(it => { if (it.sort) it.children.sort((x, y) => x.title.localeCompare(y.title, "de")); }));
-const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette", "dehnen", "aufwaermen", "verletzungspraevention", "koerpergewicht", "tapering", "zyklus", "schlaf", "energiebilanz", "fluessigkeit", "timing", "natriumbicarbonat", "citrullin", "hmb", "melatonin", "curcumin", "interferenz", "periodisierung", "hiit", "alter"];
+const AVAILABLE = ["maximalkraft", "hypertrophie", "ausdauer", "regeneration", "protein", "kreatin", "omega-3", "zink", "magnesium", "vitamin-d-k2", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "kollagen", "multivitamin", "vitamin-c", "eisen", "calcium", "ashwagandha", "b-vitamine", "probiotika", "kohlenhydrate", "fette", "dehnen", "aufwaermen", "verletzungspraevention", "koerpergewicht", "tapering", "zyklus", "schlaf", "energiebilanz", "fluessigkeit", "timing", "natriumbicarbonat", "citrullin", "hmb", "melatonin", "curcumin", "interferenz", "periodisierung", "hiit", "alter", "vegan", "alkohol"];
 
 const PAGES = ["start", "ziel", "mythen", "vergleich", "sicherheit", "supplemente", "suche", "neu", "rechner", "glossar", "hinweis"]; /* Seiten ohne eigene Themendatei */
 const SUPPS = ["protein", "kreatin", "koffein", "beta-alanin", "nitrat", "aminosaeuren", "natriumbicarbonat", "citrullin", "hmb", "vitamin-d-k2", "vitamin-c", "b-vitamine", "multivitamin", "magnesium", "zink", "eisen", "calcium", "omega-3", "kollagen", "probiotika", "ashwagandha", "melatonin", "curcumin"]; /* Supplemente mit Wirkungsübersicht */

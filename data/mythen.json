@@ -197,6 +197,31 @@
     "lopes2019"
    ],
    "ev": "moderat"
+  },
+  {
+   "m": "Ein Glas Wein oder Bier am Tag ist gesund.",
+   "v": "nicht belegt",
+   "t": "Ältere Analysen fanden bei geringen Mengen eine niedrigere Sterblichkeit (J-Kurve). Nach Korrektur für frühere Trinker in der Vergleichsgruppe verschwand dieser Vorteil; ab etwa 45 g Alkohol pro Tag ist die Sterblichkeit erhöht.",
+   "topic": "alkohol",
+   "s": [
+    "dicastelnuovo2006",
+    "stockwell2016",
+    "zhao2023"
+   ],
+   "ev": "moderat"
+  },
+  {
+   "m": "Mit veganer Ernährung kann man keine Leistung bringen.",
+   "v": "falsch",
+   "t": "Vegetarische und vegane Ernährung verschlechterte die Kraft nicht, insgesamt war die Leistung unverändert; die Studien sind allerdings klein. Kritisch sind einzelne Nährstoffe wie B12, Eisen, Zink und Calcium.",
+   "topic": "vegan",
+   "s": [
+    "damasceno2024",
+    "hernandez2023",
+    "niklewicz2024",
+    "haider2018"
+   ],
+   "ev": "niedrig"
   }
  ]
 }

@@ -15,7 +15,7 @@
   {
    "label": "Vor dem Schlaf",
    "value": "schon 2 Getränke stören den REM-Schlaf",
-   "text": "Ab etwa 0,5 g/kg nahm der REM-Schlaf ab, mit steigender Dosis stärker. Siehe auch <a href=\"#schlaf\">Schlaf</a>.",
+   "text": "Schon bei niedrigen Mengen bis 0,5 g/kg nahm der REM-Schlaf ab, mit steigender Dosis stärker. Siehe auch <a href=\"#schlaf\">Schlaf</a>.",
    "cite": "Gardiner et al. 2025"
   },
   {
@@ -182,8 +182,7 @@
    "q": "Wie wirkt Alkohol auf den Schlaf?",
    "ev": "moderat",
    "key": [
-    "27 Studien an Gesunden: Alkohol verzögerte den Beginn des REM-Schlafs und verkürzte ihn; schon ab etwa 0,5 g/kg (etwa zwei Getränke), mit steigender Dosis stärker. Nur hohe Dosen (ab etwa 0,85 g/kg, etwa fünf Getränke) verkürzten die Einschlafzeit; Gesamtschlafzeit und Schlafeffizienz blieben unklar (Gardiner et al., 2025).",
-    "Allgemeine Befunde zu Schlaf und Leistung unter <a href=\"#schlaf\">Schlaf</a>."
+    "27 Studien an Gesunden: Alkohol verzögerte den Beginn des REM-Schlafs und verkürzte ihn; schon bei niedrigen Mengen bis 0,5 g/kg (etwa zwei Getränke), mit steigender Dosis stärker. Nur hohe Dosen (ab etwa 0,85 g/kg, etwa fünf Getränke) verkürzten die Einschlafzeit; Gesamtschlafzeit und Schlafeffizienz blieben unklar (Gardiner et al., 2025). Allgemeine Befunde zu Schlaf und Leistung unter <a href=\"#schlaf\">Schlaf</a>."
    ],
    "critic": "Die Dosis-Wirkungs-Beziehung für den REM-Schlaf ist konsistent und stammt aus Laborstudien an Gesunden. Das schnellere Einschlafen bei hohen Dosen ist kein Vorteil, da es mit stärkerer REM-Störung einhergeht. Wie sich das auf die Leistung am Folgetag auswirkt, wurde in der Analyse nicht untersucht.",
    "figs": [],
@@ -686,7 +685,7 @@
      "s": [
       "gardiner2025"
      ],
-     "t": "Weniger und später einsetzender REM-Schlaf ab etwa 0,5 g/kg (zwei Getränke), mit der Dosis zunehmend; Größe im Abstract nicht beziffert.",
+     "t": "Weniger und später einsetzender REM-Schlaf schon bei Mengen bis 0,5 g/kg (zwei Getränke), mit der Dosis zunehmend; Größe im Abstract nicht beziffert.",
      "v": "schlaf"
     },
     {
