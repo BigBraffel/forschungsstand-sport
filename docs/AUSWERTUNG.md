@@ -73,6 +73,13 @@ Zusätzlich: Startseite (`#start`) und „Mein Ziel“ (`#ziel`). Neue Themen in
 
 Ein neues Thema kommt in die passende bestehende Gruppe; eine neue Gruppe nur, wenn mindestens drei Themen hineinpassen. Supplemente zusätzlich in `SUPPS` eintragen. Der Titel in `NAV` soll dem Feld `title` der Themendatei entsprechen (bestimmt die Sortierung der Supplement-Übersicht). Der Haftungsausschluss (`DISCLAIMER`) steht auf der Supplement-Übersicht, im Rechner und unter `#hinweis`.
 
+## Fehlermeldungen über GitHub
+Nutzer melden Fehler als GitHub-Issue (Vorlage „Fehler: <Thema>“, meist mit Label `fehler`). Bei jeder Aktualisierung alle offenen Issues lesen (`https://api.github.com/repos/BigBraffel/forschungsstand-sport/issues?state=open`). Meldungen werden **kritisch geprüft, bevor etwas geändert wird** – auch Meldende können sich irren:
+1. Die betroffene Aussage im Thema suchen und gegen das Abstract der zitierten Quelle(n) prüfen (efetch). Eine gemeldete „richtige Angabe“ ohne wissenschaftliche Quelle ist kein Beleg.
+2. Urteil: **berechtigt** (korrigieren, Changelog „Korrektur nach Meldung #<Nr.>“), **teilweise berechtigt** (nur den belegten Teil ändern) oder **nicht berechtigt** (nichts ändern).
+3. Antwort als Kommentar im Issue mit Begründung und Quelle; berechtigte und nicht berechtigte Meldungen schließen, unklare offen lassen. Kommentieren/Schließen nur mit Token (`GH_PUSH_TOKEN`, Rechte „Issues: Read and write“); fehlt die Berechtigung, die Antwort im Bericht an Michael aufführen.
+4. Im Bericht jede Meldung mit Urteil und Begründung nennen.
+
 ## Mythen-Check und Verlaufsdiagramme
 - `data/mythen.json`: Behauptung (`m`), Urteil (`v`: falsch, stark übertrieben, nicht belegt, teilweise, stimmt), Erklärung (`t`), Thema (`topic`), Quellenschlüssel dieses Themas (`s`), Evidenz (`ev`). Ändert sich die Einschätzung eines Themas, den passenden Mythos mit anpassen.
 - Feld `trend` im Thema: Schätzer derselben Zielgröße und desselben Maßes über die Jahre (`data`: y, es, lo?, hi?, l, s). Nur aufnehmen, wenn die Werte wirklich vergleichbar sind; Abweichungen (anderes Maß, andere Population) in `cap` benennen. Neue Metaanalysen zur selben Zielgröße als Punkt ergänzen.
